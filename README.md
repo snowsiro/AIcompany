@@ -10,10 +10,11 @@ The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.comp
            → one pull request "post: <date> <headline 1> + <headline 2>"
            GitHub Actions "render" re-renders the slides with the real cover and adds them to the PR
 
-           Jamie merges the PR (first 2 weeks), later auto-merge when all reviewers pass
+06:13 Vienna  Claude checks each ready post against its original article and merges the PR if it passes
+           (Jamie's choice, 2026-10-20). To pull a post, tell Claude before it goes out.
 
-14:00 Vienna  GitHub Actions "publish" posts the oldest ready post as a carousel, then checks it is live
-20:00 Vienna  "publish" again for the second post
+13:57 Vienna  GitHub Actions "publish" posts the oldest ready post as a carousel, then checks it is live
+19:57 Vienna  "publish" again for the second post
 Mondays    analyst writes ops/weekly/<date>.md from Instagram insights
 ```
 
