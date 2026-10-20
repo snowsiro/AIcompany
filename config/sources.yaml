@@ -17,20 +17,27 @@ reference_accounts:
 
 # Original reporting. Every fact in a post must come from one of these (or another named outlet).
 # Scope since 2026-10-20: AI news from anywhere in the world, Korea included.
+# rss: the outlet's feed. scripts/feeds.mjs reads it every morning in GitHub Actions and falls back to
+# Google News RSS for that site when there is no feed or it fails. lang: ko searches Google News in Korean.
 news_sources:
   global:
     - name: Reuters (Technology)
       url: https://www.reuters.com/technology/
     - name: The Verge (AI)
       url: https://www.theverge.com/ai-artificial-intelligence
+      rss: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
     - name: TechCrunch (AI)
       url: https://techcrunch.com/category/artificial-intelligence/
+      rss: https://techcrunch.com/category/artificial-intelligence/feed/
     - name: Ars Technica (AI)
       url: https://arstechnica.com/ai/
+      rss: https://arstechnica.com/ai/feed/
     - name: MIT Technology Review (AI)
       url: https://www.technologyreview.com/topic/artificial-intelligence/
+      rss: https://www.technologyreview.com/topic/artificial-intelligence/feed
     - name: VentureBeat (AI)
       url: https://venturebeat.com/category/ai/
+      rss: https://venturebeat.com/category/ai/feed/
     - name: Nikkei Asia (Technology)
       url: https://asia.nikkei.com/Business/Technology
     - name: South China Morning Post (Tech)
@@ -39,36 +46,48 @@ news_sources:
   europe:
     - name: Sifted
       url: https://sifted.eu/
+      rss: https://sifted.eu/feed
     - name: Euractiv (Tech)
       url: https://www.euractiv.com/sections/tech/
+      rss: https://www.euractiv.com/sections/tech/feed/
     - name: Politico Europe (Technology)
       url: https://www.politico.eu/section/technology/
+      rss: https://www.politico.eu/section/technology/feed/
     - name: Tech.eu
       url: https://tech.eu/
+      rss: https://tech.eu/feed/
     - name: The Next Web
       url: https://thenextweb.com/
+      rss: https://thenextweb.com/feed
     - name: heise online (German)
       url: https://www.heise.de/
+      rss: https://www.heise.de/rss/heise-atom.xml
     - name: Der Standard (Web, Austria, German)
       url: https://www.derstandard.at/web
+      rss: https://www.derstandard.at/rss/web
     - name: European Commission (digital policy news)
       url: https://digital-strategy.ec.europa.eu/en/news
   # Company announcements count as original sources for what the company itself says or ships.
   company_newsrooms:
     - name: OpenAI
       url: https://openai.com/news/
+      rss: https://openai.com/news/rss.xml
     - name: Anthropic
       url: https://www.anthropic.com/news
     - name: Google DeepMind
       url: https://deepmind.google/discover/blog/
+      rss: https://deepmind.google/blog/rss.xml
     - name: Google (AI)
       url: https://blog.google/technology/ai/
+      rss: https://blog.google/technology/ai/rss/
     - name: Meta AI
       url: https://ai.meta.com/blog/
     - name: Microsoft
       url: https://blogs.microsoft.com/
+      rss: https://blogs.microsoft.com/feed/
     - name: Nvidia
       url: https://nvidianews.nvidia.com/
+      rss: https://nvidianews.nvidia.com/releases.xml
     - name: Mistral AI
       url: https://mistral.ai/news
     - name: DeepL
@@ -82,15 +101,21 @@ news_sources:
       url: https://www.koreaherald.com/list.php?ct=020000000000
     - name: Yonhap News (English)
       url: https://en.yna.co.kr/
+      rss: https://en.yna.co.kr/RSS/news.xml
   korean:
     - name: AI타임스
       url: https://www.aitimes.com/
+      rss: https://www.aitimes.com/rss/allArticle.xml
+      lang: ko
     - name: 전자신문 (etnews)
       url: https://www.etnews.com/
+      lang: ko
     - name: 디지털타임스
       url: https://www.dt.co.kr/
+      lang: ko
     - name: ZDNet Korea
       url: https://zdnet.co.kr/
+      lang: ko
 
 # Topic scoring (editor-in-chief)
 scoring:

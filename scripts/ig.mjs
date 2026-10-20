@@ -6,11 +6,12 @@
 //   node scripts/ig.mjs insights [days]                   per-post metrics for the analyst
 //   node scripts/ig.mjs limit                             publishing quota used in the last 24h
 //   node scripts/ig.mjs check                             connection test: own account, quota, reference accounts
+//   node scripts/ig.mjs scan <out.json> [hours]           reference accounts' posts from the last 48h (for the researcher)
 //
 // <public-base> is a URL where posts/ is reachable, e.g. https://raw.githubusercontent.com/snowsiro/AIcompany/main
 // (Instagram downloads each image from a public URL; it does not accept uploads.)
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { join, resolve, relative } from "node:path";
+import { readFileSync, readdirSync, writeFileSync, mkdirSync } from "node:fs";
+import { join, resolve, relative, dirname } from "node:path";
 
 const API = "https://graph.facebook.com/v26.0";
 const { IG_USER_ID, IG_ACCESS_TOKEN } = process.env;
@@ -95,6 +96,42 @@ async function insights(days = 7) {
   console.log(JSON.stringify(rows, null, 2));
 }
 
+function referenceAccounts() {
+  const yaml = readFileSync("config/sources.yaml", "utf8");
+  const block = yaml.split(/^reference_accounts:/m)[1].split(/\n\S/)[0];
+  return [...block.matchAll(/^\s*-\s*(\S+)/gm)].map(m => m[1]);
+}
+
+// Runs in GitHub Actions before the morning routine, because the routine has no Instagram token.
+// Keeps only what topic picking needs: a short caption excerpt, time, counts and link. Captions are
+// cut short on purpose: this file sits in a public repo, and the wording is never reused anyway.
+async function scan(out, hours = 48) {
+  if (!out) throw new Error("usage: scan <out.json> [hours]");
+  const since = Date.now() - hours * 36e5;
+  const accounts = [];
+  for (const username of referenceAccounts()) {
+    try {
+      const fields = `business_discovery.username(${username}){username,followers_count,` +
+        `media.limit(15){caption,timestamp,like_count,comments_count,permalink,media_type}}`;
+      const { business_discovery: bd } = await call("GET", `/${IG_USER_ID}`, { fields });
+      const posts = (bd.media?.data || []).filter(m => Date.parse(m.timestamp) >= since).map(m => ({
+        timestamp: m.timestamp, url: m.permalink, type: m.media_type,
+        likes: m.like_count ?? null, comments: m.comments_count ?? null,
+        caption_start: (m.caption || "").replace(/\s+/g, " ").trim().slice(0, 280),
+      }));
+      accounts.push({ username, followers: bd.followers_count, ok: true, posts });
+    } catch (err) {
+      accounts.push({ username, ok: false, error: err.message, posts: [] });
+    }
+  }
+  const result = { fetched_at: new Date().toISOString(), hours, accounts };
+  mkdirSync(dirname(out), { recursive: true });
+  writeFileSync(out, JSON.stringify(result, null, 1) + "\n");
+  const ok = accounts.filter(a => a.ok).length;
+  console.log(`reference accounts read: ${ok}/${accounts.length}, posts in last ${hours}h: ${accounts.reduce((n, a) => n + a.posts.length, 0)} -> ${out}`);
+  if (ok === 0) throw new Error("no reference account could be read");
+}
+
 // Connection test after the token is set up. Prints only public account data, never the token.
 async function check() {
   const me = await call("GET", `/${IG_USER_ID}`, { fields: "username,followers_count,media_count" });
@@ -109,9 +146,7 @@ async function check() {
   }
   const limit = await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" });
   console.log(`publishing quota: ${JSON.stringify(limit.data?.[0] ?? limit)}`);
-  const yaml = readFileSync("config/sources.yaml", "utf8");
-  const block = yaml.split(/^reference_accounts:/m)[1].split(/\n\S/)[0];
-  const accounts = [...block.matchAll(/^\s*-\s*(\S+)/gm)].map(m => m[1]);
+  const accounts = referenceAccounts();
   let ok = 0;
   for (const username of accounts) {
     try {
@@ -132,8 +167,9 @@ try {
   else if (cmd === "publish") await publish(args[0], args[1]);
   else if (cmd === "insights") await insights(Number(args[0] || 7));
   else if (cmd === "check") await check();
+  else if (cmd === "scan") await scan(args[0], Number(args[1] || 48));
   else if (cmd === "limit") console.log(JSON.stringify(await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" })));
-  else { console.error("commands: discover | publish | insights | limit | check"); process.exit(2); }
+  else { console.error("commands: discover | publish | insights | limit | check | scan"); process.exit(2); }
 } catch (err) {
   console.error(`FAIL ${cmd}: ${err.message}`);
   process.exit(1);

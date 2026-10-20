@@ -8,4 +8,5 @@ Re-open every URL in `sources`. For each slide, the cover and the caption, check
 matches the article text exactly, and that nothing is overstated (e.g. "at least 50%" must not become "all").
 
 Write `posts/<id>/review-facts.json`: `{ "pass": true|false, "issues": [{ "where": "slide 3", "problem": "...", "fix": "..." }] }`.
-Fail on any mismatch. Do not read other review files.
+Fail on any mismatch, and fail any claim whose source you could not open: a fact you can't read in the article is unconfirmed.
+Do not read other review files.

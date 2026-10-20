@@ -5,6 +5,9 @@ The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.comp
 ## How it runs
 
 ```
+05:07 Vienna  GitHub Actions "morning-scan" saves the reference accounts' recent posts and new AI articles
+           from each outlet's RSS to ops/scan/<date>/ (the routine has no Instagram token, and some sites block it)
+
 05:45 Vienna  Claude Code (scheduled, in the cloud) makes 2 posts
            researcher → editor-in-chief → writer → designer → 3 independent reviewers
            → one pull request "post: <date> <headline 1> + <headline 2>"
@@ -35,7 +38,9 @@ No computer needs to stay on.
 | `templates/card.html` | The one template all slides use |
 | `scripts/lint.mjs` | Rule checker (no AI) |
 | `scripts/render.mjs` | Renders slides, fails if text does not fit |
-| `scripts/ig.mjs` | Instagram Graph API: discover, publish, insights |
+| `scripts/ig.mjs` | Instagram Graph API: discover, scan, publish, insights, check |
+| `scripts/feeds.mjs` | New AI articles from each outlet's RSS (Google News RSS as fallback) |
+| `ops/scan/<date>/` | What morning-scan saved for the researcher |
 | `ops/run-log.md` | Morning reports |
 
 ## Local commands
