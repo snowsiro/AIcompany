@@ -1,5 +1,6 @@
 # Where the researcher looks every morning.
 # reference_accounts: Korean AI card-news accounts given by Jamie (2026-10-20).
+# They cover AI news from everywhere (OpenAI, Google, China, Korea...), not only Korea.
 # Read through the Instagram Graph API Business Discovery endpoint only. Never scrape.
 # Used to pick topics (what is everyone covering?). Never copy their wording, layout or images.
 reference_accounts:
@@ -15,8 +16,64 @@ reference_accounts:
   - ddalkkak.mag
 
 # Original reporting. Every fact in a post must come from one of these (or another named outlet).
+# Scope since 2026-10-20: AI news from anywhere in the world, Korea included.
 news_sources:
-  english:
+  global:
+    - name: Reuters (Technology)
+      url: https://www.reuters.com/technology/
+    - name: The Verge (AI)
+      url: https://www.theverge.com/ai-artificial-intelligence
+    - name: TechCrunch (AI)
+      url: https://techcrunch.com/category/artificial-intelligence/
+    - name: Ars Technica (AI)
+      url: https://arstechnica.com/ai/
+    - name: MIT Technology Review (AI)
+      url: https://www.technologyreview.com/topic/artificial-intelligence/
+    - name: VentureBeat (AI)
+      url: https://venturebeat.com/category/ai/
+    - name: Nikkei Asia (Technology)
+      url: https://asia.nikkei.com/Business/Technology
+    - name: South China Morning Post (Tech)
+      url: https://www.scmp.com/tech
+  # Europe (Jamie lives in Austria, 2026-10-20): EU policy, European startups and labs.
+  europe:
+    - name: Sifted
+      url: https://sifted.eu/
+    - name: Euractiv (Tech)
+      url: https://www.euractiv.com/sections/tech/
+    - name: Politico Europe (Technology)
+      url: https://www.politico.eu/section/technology/
+    - name: Tech.eu
+      url: https://tech.eu/
+    - name: The Next Web
+      url: https://thenextweb.com/
+    - name: heise online (German)
+      url: https://www.heise.de/
+    - name: Der Standard (Web, Austria, German)
+      url: https://www.derstandard.at/web
+    - name: European Commission (digital policy news)
+      url: https://digital-strategy.ec.europa.eu/en/news
+  # Company announcements count as original sources for what the company itself says or ships.
+  company_newsrooms:
+    - name: OpenAI
+      url: https://openai.com/news/
+    - name: Anthropic
+      url: https://www.anthropic.com/news
+    - name: Google DeepMind
+      url: https://deepmind.google/discover/blog/
+    - name: Google (AI)
+      url: https://blog.google/technology/ai/
+    - name: Meta AI
+      url: https://ai.meta.com/blog/
+    - name: Microsoft
+      url: https://blogs.microsoft.com/
+    - name: Nvidia
+      url: https://nvidianews.nvidia.com/
+    - name: Mistral AI
+      url: https://mistral.ai/news
+    - name: DeepL
+      url: https://www.deepl.com/en/blog
+  korea_english:
     - name: The Korea Times
       url: https://www.koreatimes.co.kr/business/tech-science
     - name: Korea JoongAng Daily
@@ -38,7 +95,8 @@ news_sources:
 # Topic scoring (editor-in-chief)
 scoring:
   covered_by_reference_accounts: 3   # per account that posted about it in the last 48h
-  korea_specific: 3                  # a Korean company, ministry or person is central
+  global_relevance: 3                # a reader anywhere would care (big launch, big money, changes daily life or work)
   has_hard_number: 2                 # money, users, %, dates
-  global_relevance: 2                # a non-Korean reader would care
+  korea_asia_europe_angle: 1         # small bonus: Korea, Asia and Europe stories are rarer in US-centric English feeds
+  same_company_as_other_pick: -5     # the two daily posts should not be about the same company
   already_posted_last_14_days: -10

@@ -5,6 +5,7 @@ import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const CATEGORIES = ["POLICY", "INDUSTRY", "ECONOMY", "TOOLS", "RESEARCH", "STARTUPS"];
+const REGIONS = ["GLOBAL", "US", "CHINA", "KOREA", "JAPAN", "EUROPE", "ASIA", "MIDEAST", "INDIA"];
 const words = s => String(s).replace(/\*\*/g, "").trim().split(/\s+/).filter(Boolean).length;
 const plain = s => String(s).replace(/\*\*/g, "");
 const emphCount = s => (String(s).match(/\*\*(.+?)\*\*/g) || []).length;
@@ -19,6 +20,7 @@ function lint(post) {
 
   // cover
   const c = post.cover || {};
+  req(REGIONS.some(r => c.tag === `${r} AI · ${post.category}`), `cover.tag must be "<REGION> AI · ${post.category}", REGION one of ${REGIONS.join(", ")}`);
   req(Array.isArray(c.headline) && c.headline.length === 2, "cover.headline must be exactly 2 lines");
   (c.headline || []).forEach((l, i) => req(plain(l).length <= 16, `cover line ${i + 1} is ${plain(l).length} chars (max 16)`));
   req((c.headline || []).reduce((n, l) => n + emphCount(l), 0) === 1, "cover needs exactly one **emphasis**");
@@ -59,7 +61,7 @@ function lint(post) {
   req(typeof post.caption === "string" && post.caption.length <= 2200, "caption missing or over 2200 chars");
   req(/source/i.test(post.caption || ""), "caption must credit the source");
   const tags = post.hashtags || [];
-  req(tags.length >= 3 && tags.length <= 15 && tags.every(t => /^#[A-Za-z0-9_]+$/.test(t)), "3-15 hashtags, each like #KoreaAI");
+  req(tags.length >= 3 && tags.length <= 15 && tags.every(t => /^#[A-Za-z0-9_]+$/.test(t)), "3-15 hashtags, each like #AINews");
 
   return e;
 }
