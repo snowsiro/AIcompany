@@ -35,6 +35,24 @@ news_sources:
       url: https://asia.nikkei.com/Business/Technology
     - name: South China Morning Post (Tech)
       url: https://www.scmp.com/tech
+  # Europe (Jamie lives in Austria, 2026-10-20): EU policy, European startups and labs.
+  europe:
+    - name: Sifted
+      url: https://sifted.eu/
+    - name: Euractiv (Tech)
+      url: https://www.euractiv.com/sections/tech/
+    - name: Politico Europe (Technology)
+      url: https://www.politico.eu/section/technology/
+    - name: Tech.eu
+      url: https://tech.eu/
+    - name: The Next Web
+      url: https://thenextweb.com/
+    - name: heise online (German)
+      url: https://www.heise.de/
+    - name: Der Standard (Web, Austria, German)
+      url: https://www.derstandard.at/web
+    - name: European Commission (digital policy news)
+      url: https://digital-strategy.ec.europa.eu/en/news
   # Company announcements count as original sources for what the company itself says or ships.
   company_newsrooms:
     - name: OpenAI
@@ -51,6 +69,10 @@ news_sources:
       url: https://blogs.microsoft.com/
     - name: Nvidia
       url: https://nvidianews.nvidia.com/
+    - name: Mistral AI
+      url: https://mistral.ai/news
+    - name: DeepL
+      url: https://www.deepl.com/en/blog
   korea_english:
     - name: The Korea Times
       url: https://www.koreatimes.co.kr/business/tech-science
@@ -75,6 +97,6 @@ scoring:
   covered_by_reference_accounts: 3   # per account that posted about it in the last 48h
   global_relevance: 3                # a reader anywhere would care (big launch, big money, changes daily life or work)
   has_hard_number: 2                 # money, users, %, dates
-  korea_or_asia_angle: 1             # small bonus: stories from Korea/Asia are rarer in English feeds
+  korea_asia_europe_angle: 1         # small bonus: Korea, Asia and Europe stories are rarer in US-centric English feeds
   same_company_as_other_pick: -5     # the two daily posts should not be about the same company
   already_posted_last_14_days: -10

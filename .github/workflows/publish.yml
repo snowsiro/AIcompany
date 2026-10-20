@@ -10,8 +10,9 @@ on:
         required: false
   # Two posts a day. Each run posts the oldest merged post with "status": "ready".
   # schedule:
-  #   - cron: "0 12 * * *"   # 12:00 UTC = 21:00 KST = 08:00 New York (EDT) = 13:00 London
-  #   - cron: "0 0 * * *"    # 00:00 UTC = 09:00 KST = 20:00 New York (EDT) = 17:00 Los Angeles
+  # Times below are winter time (Vienna UTC+1, New York UTC-5); add 1 hour in summer.
+  #   - cron: "0 13 * * *"   # 13:00 UTC = 14:00 Vienna = 08:00 New York = 22:00 Seoul
+  #   - cron: "0 19 * * *"   # 19:00 UTC = 20:00 Vienna = 14:00 New York = 11:00 Los Angeles
 
 permissions:
   contents: write
