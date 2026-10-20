@@ -1,0 +1,3 @@
+Backlog (score 5). REGION US or GLOBAL, CATEGORY MODELS.
+Nvidia launches open models for enterprise agents and PCs (TechCrunch 2026-10-19, https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/). Do not use the VentureBeat headline claims (body not fetched).
+Facts: Nemotron 3.5 Super VL, 120B-parameter open-weight; matches instruction-following and tool-use accuracy of larger Nemotron 3 Ultra; Bolt 74B-A9B for AI PCs; Bolt E4B later this month; users named by Nvidia: Skydance, EY, Ramp, CrowdStrike, Perplexity, Salesforce; Kari Briski (Nvidia VP) says orgs can post-train on own data.
