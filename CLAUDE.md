@@ -12,7 +12,7 @@
 1. **researcher**: 참고 계정과 뉴스 원천에서 지난 24시간 후보 주제 수집
 2. **editor-in-chief**: 주제 1개 선정, 각도 결정
 3. **writer**: `posts/<id>/post.json` 작성 (커버 훅 후보 3~5개 포함)
-4. **designer**: 커버 이미지 준비, `npm run render` 로 PNG 생성
+4. **designer**: 커버 이미지 준비, `npm run render` 로 JPG 슬라이드 생성
 5. **fact-checker**, **hook-judge**, **brand-safety**: 서로의 판정을 보지 않고 각자 검수
 6. 셋 다 통과하면 PR. 하나라도 불합격이면 writer에게 되돌림 (최대 2회, 이후 그날은 중단하고 보고)
 
