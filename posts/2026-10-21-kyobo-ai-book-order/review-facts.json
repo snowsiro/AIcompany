@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "issues": [
+    { "where": "slide 4 and caption bullet 3", "problem": "Says the association will urge 'lawmakers'; the article says the government and the National Assembly.", "fix": "Write 'urge the government and National Assembly to strengthen book copyright law'." },
+    { "where": "slide 3", "problem": "'verifying the use and recipient of bulk orders is routine' - the article says verifying the intended use is standard practice; 'recipient' is not confirmed.", "fix": "Write 'Kyobo says verifying the intended use of bulk orders is standard practice.'" },
+    { "where": "slide 2", "problem": "Minor: attributes the contract-terms reason to the buyer; the article says the contract barred further disclosure.", "fix": "Write 'and that the contract barred further disclosure'." }
+  ]
+}

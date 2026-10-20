@@ -1,0 +1,107 @@
+{
+  "id": "2026-10-21-us-deepseek-ban",
+  "date": "2026-10-21",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "US AI · POLICY",
+    "headline": [
+      "US AGENCIES MUST",
+      "DROP **DEEPSEEK**"
+    ],
+    "hook_options": [
+      [
+        "US AGENCIES MUST",
+        "DROP **DEEPSEEK**"
+      ],
+      [
+        "US VS **DEEPSEEK**",
+        "THE NEW ORDER"
+      ],
+      [
+        "BEIJING CALLS IT",
+        "**OVERSTRETCHING**"
+      ]
+    ],
+    "hook_pick_reason": "Plain assertion that matches slides 2-3 (a US order to federal agencies, per DHS). It avoids 'BANNED' because the order covers federal civilian agencies only, and exceptions can be requested. The rivalry option is weaker on specifics; the Beijing-quote option leans on one side and is not the main news.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261020_224416_88c5c998-429e-4625-a3a0-ae2034663ee5.png",
+    "image_prompt": "Cinematic wide shot of a vast dark government data hall at night, rows of server racks, one glowing amber rack being unplugged and slid out along the aisle while a thin beam of light cuts through haze, cool blue tones with a single warm accent. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The order",
+      "title": "US tells agencies to remove DeepSeek",
+      "body": [
+        "The US ordered federal civilian agencies to stop buying products from **DeepSeek**, a Chinese AI startup, and remove them from government IT systems, according to the Department of Homeland Security (DHS)."
+      ]
+    },
+    {
+      "kicker": "The reach",
+      "title": "It covers apps built on DeepSeek too",
+      "body": [
+        "The order also hits third-party products and services built with DeepSeek technology. Agencies **can request exceptions**."
+      ]
+    },
+    {
+      "kicker": "The reason",
+      "title": "The worry is where the data goes",
+      "body": [
+        "DHS says sensitive information from US government users could be **accessible to Chinese authorities** under Chinese law."
+      ]
+    },
+    {
+      "kicker": "The history",
+      "title": "Not the first US restriction",
+      "body": [
+        "A law passed in **December 2025** already targeted DeepSeek's use in the intelligence sector's national security systems. The new order extends limits to federal civilian agencies, for new purchases and existing systems."
+      ]
+    },
+    {
+      "kicker": "Beijing's reply",
+      "quote": "We will resolutely safeguard the legitimate rights and interests of **Chinese enterprises**.",
+      "who": "Mao Ning, China's Foreign Ministry spokesperson"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The US ordered federal civilian agencies to stop purchasing services and products developed by Chinese AI startup DeepSeek and remove them from government IT systems over national security concerns, according to the Department of Homeland Security."
+    },
+    {
+      "source": 0,
+      "text": "The order also covers third-party products and services built using DeepSeek technology, though agencies can request exceptions."
+    },
+    {
+      "source": 0,
+      "text": "DHS warned that sensitive information from US government users could potentially be accessible to Chinese authorities under Chinese law, the order said."
+    },
+    {
+      "source": 0,
+      "text": "A law passed in December 2025 targeted DeepSeek's use in intelligence's national security systems. The latest order extends the restrictions to federal civilian agencies, covering both new purchases and existing IT systems."
+    },
+    {
+      "source": 0,
+      "text": "Foreign Ministry spokesperson Mao Ning said Beijing opposes \"overstretching the concept of national security and politicizing technology and trade issues,\" and added: \"We will resolutely safeguard the legitimate rights and interests of Chinese enterprises.\""
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "US orders federal agencies to remove China's DeepSeek AI from their systems",
+      "date": "Oct 20, 2026",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
+    }
+  ],
+  "caption": "One government just told its agencies to drop a Chinese AI model.\n\nThe US ordered federal civilian agencies to stop buying DeepSeek, a Chinese AI startup, and remove it from government IT systems, according to the Department of Homeland Security (DHS).\n\n→ It also covers third-party products built with DeepSeek technology (exceptions can be requested)\n→ DHS says US government users' sensitive data could be accessible to Chinese authorities under Chinese law\n→ Beijing says it opposes \"politicizing technology and trade issues\"\n\nWill other governments and companies follow with similar rules?\n\nSource: TechCrunch, \"US orders federal agencies to remove China's DeepSeek AI from their systems\", Oct 20, 2026.\n\nFollow @ai.news.company for daily AI news.",
+  "hashtags": [
+    "#AINews",
+    "#DeepSeek",
+    "#AIPolicy",
+    "#USChina",
+    "#NationalSecurity",
+    "#Cybersecurity",
+    "#TechNews",
+    "#ArtificialIntelligence"
+  ]
+}
