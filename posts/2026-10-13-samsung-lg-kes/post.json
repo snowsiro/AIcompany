@@ -1,0 +1,63 @@
+{
+  "id": "2026-10-13-samsung-lg-kes",
+  "date": "2026-10-13",
+  "category": "INDUSTRY",
+  "status": "sample",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · INDUSTRY",
+    "headline": ["SAMSUNG **VS** LG:", "TWO AI BETS"],
+    "hook_options": [
+      ["SAMSUNG **VS** LG:", "TWO AI BETS"],
+      ["YOUR FRIDGE", "**SEES** YOUR FOOD"],
+      ["LG TAKES AI", "**OUT** OF THE HOUSE"]
+    ],
+    "hook_pick_reason": "Rivalry hook covers the whole post. Option 2 is catchy but only covers one slide; keep it as a test hook for a future post.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261020_202347_fb5c8b3d-31d6-4767-aeb8-aad34d9dc3f3.png",
+    "image_prompt": "Cinematic split composition at dusk: a futuristic kitchen with a glowing refrigerator scanning food on the left, an electric van beside a tiny modern cottage on the right, a glowing thread connecting them. No text, no letters, no logos, no brand names, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The stage",
+      "title": "KES 2026, Korea's biggest electronics show",
+      "body": ["Samsung and LG opened side by side on **Oct 13**, with two very different ideas of where AI should live."]
+    },
+    {
+      "kicker": "Samsung",
+      "title": "AI in your hand",
+      "body": ["Built around the **Galaxy Z Fold8**. Its fridge camera recognizes ingredients, and its washer-dryer senses the load and picks the cycle itself."]
+    },
+    {
+      "kicker": "LG",
+      "title": "AI from home to car",
+      "body": ["LG's **ThinQ ON** AI hub links the house and the car: check on your home and control appliances while you drive."]
+    },
+    {
+      "kicker": "LG, part two",
+      "title": "Robots and data centers",
+      "body": ["**LG MoMa** robots moved materials in a mock smart factory. A “chip to chiller” line targets **AI data center** cooling."]
+    },
+    {
+      "kicker": "The takeaway",
+      "title": "Devices vs. spaces",
+      "body": ["Samsung connects **your devices**. LG connects **your spaces**, from home to car to factory."]
+    }
+  ],
+  "facts": [
+    { "source": 0, "text": "KES 2026 (Korea Electronics Show) opened on Oct 13, 2026 (Oct. 13). Samsung's booth was 869 sq m and LG's 902 sq m." },
+    { "source": 0, "text": "Samsung centered its zone on the Galaxy Z Fold8 series. The Bespoke AI Family Hub fridge's AI Food Manager camera recognizes ingredients; the Bespoke AI Combo washer-dryer senses laundry and sets modes automatically." },
+    { "source": 0, "text": "LG ThinQ ON AI home hub connects home and car: check the home and remotely control appliances from the car." },
+    { "source": 0, "text": "Three LG MoMa mobile manipulator robots demonstrated material transport and safety detection in a smart factory. LG's chip to chiller solution covers cold plates, CDUs and chillers for data centers." },
+    { "source": 0, "text": "Core contrast in the article: Samsung connects personal devices; LG connects living spaces (home and car) and extends into factories and data centers." }
+  ],
+  "sources": [
+    {
+      "outlet": "Electronic Times (etnews)",
+      "title": "[KES2026] From AI in your hand to factories: Samsung 'AI in everyday life', LG 'expanding to industry'",
+      "date": "Oct 13, 2026",
+      "url": "https://www.etnews.com/20261013000179"
+    }
+  ],
+  "caption": "Same show, opposite AI strategies.\n\nAt KES 2026 in Seoul, Samsung put AI in your pocket and your kitchen. LG took it out of the house: into your car, onto factory floors and inside data centers.\n\n→ Samsung: Galaxy Z Fold8, a fridge that recognizes ingredients, a washer that picks its own cycle\n→ LG: ThinQ ON links home and car, LG MoMa factory robots, data center cooling\n\nWhich bet wins?\n\nSource: Electronic Times (etnews), Oct 13, 2026 (Korean).\n\nFollow @ai.news.company for daily Korea AI news.",
+  "hashtags": ["#KoreaAI", "#Samsung", "#LG", "#AINews", "#SmartHome", "#Robotics", "#KES2026", "#TechNews"]
+}

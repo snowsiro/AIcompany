@@ -1,0 +1,63 @@
+{
+  "id": "2026-10-18-imf-korea-ai-chips",
+  "date": "2026-10-18",
+  "category": "ECONOMY",
+  "status": "sample",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · ECONOMY",
+    "headline": ["AI CHIPS PUSH", "KOREA TO **3.3%**"],
+    "hook_options": [
+      ["AI CHIPS PUSH", "KOREA TO **3.3%**"],
+      ["THE IMF JUST", "**UPGRADED** KOREA"],
+      ["AI IS NOW", "KOREA'S **ENGINE**"]
+    ],
+    "hook_pick_reason": "Number plus cause in 5 words, matches slides 2-3. Option 3 is vaguer and harder to back with one fact.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261020_202347_8b442e48-4056-485d-bb5c-fd3ef7bd88bb.png",
+    "image_prompt": "Cinematic shot of a giant silicon wafer standing upright like a monument at a dark cargo port at dusk, cranes and a ship behind, a rising arc of light across the sky. Main subject in the upper half, lower third in shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The upgrade",
+      "title": "IMF lifts Korea's 2026 forecast",
+      "body": ["South Korea's growth outlook is now **3.3%**, up **0.7 points** from the IMF's July estimate."]
+    },
+    {
+      "kicker": "The reason",
+      "title": "AI is buying a lot of Korean chips",
+      "body": ["Semiconductor exports, driven by **AI infrastructure demand**, more than offset the hit from the Middle East war."]
+    },
+    {
+      "kicker": "The long game",
+      "quote": "Building AI data centers takes a long time, potentially around **10 years**.",
+      "who": "Choi Ji-young, IMF executive director"
+    },
+    {
+      "kicker": "The risk",
+      "title": "If the AI boom falters",
+      "body": ["Korea could face a **stock market correction**, a current account adjustment and pain for businesses, Choi warned."]
+    },
+    {
+      "kicker": "What's next",
+      "title": "A fund paid for by chips",
+      "body": ["Korea plans a **“Future Fund”** next year, financed by windfall revenue from the chip supercycle."]
+    }
+  ],
+  "facts": [
+    { "source": 0, "text": "The IMF raised South Korea's 2026 growth forecast to 3.3 percent (3.3%), up 0.7 percentage points (0.7 points) from its July projection." },
+    { "source": 0, "text": "Strong semiconductor exports, driven by AI infrastructure demand, more than offset the fallout from the Middle East war." },
+    { "source": 0, "text": "Choi Ji-young, executive director of the IMF Asia and Pacific Constituency Office: \"Building AI data centers takes a long time, potentially around 10 years.\"" },
+    { "source": 0, "text": "Choi: Korea could face a stock market correction, an adjustment in its current account and adverse effects on businesses should the AI boom falter." },
+    { "source": 0, "text": "The government plans to launch a Future Fund next year, funded by windfall revenue from the chip supercycle." }
+  ],
+  "sources": [
+    {
+      "outlet": "Korea JoongAng Daily (Yonhap)",
+      "title": "AI boom to sustain Korea amid global headwinds for years, says senior IMF official",
+      "date": "Oct 18, 2026",
+      "url": "https://www.koreajoongangdaily.com/business/ai-boom-to-sustain-korea-amid-global-headwinds-for-years-says-senior-imf-official/12925576"
+    }
+  ],
+  "caption": "AI chips just moved a whole country's forecast.\n\nThe IMF raised South Korea's 2026 growth outlook to 3.3%, up 0.7 points since July. The driver: semiconductor exports riding AI infrastructure demand.\n\n→ “Building AI data centers takes a long time, potentially around 10 years.” (IMF's Choi Ji-young)\n→ The risk: a stock market correction if the AI boom falters\n→ Next: a “Future Fund” paid for by chip windfall revenue\n\nSource: Korea JoongAng Daily / Yonhap, Oct 18, 2026.\n\nFollow @ai.news.company for daily Korea AI news.",
+  "hashtags": ["#KoreaAI", "#SouthKorea", "#AINews", "#Semiconductors", "#IMF", "#AIChips", "#Economy", "#TechNews"]
+}

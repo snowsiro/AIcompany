@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Anton"; src: url("../assets/fonts/Anton-Regular.woff2") format("woff2"); }
+  @font-face { font-family: "Inter Tight"; src: url("../assets/fonts/InterTight-Variable.woff2") format("woff2"); font-weight: 100 900; }
+
+  :root {
+    --ink: #0A0A0C;
+    --paper: #F5F5F0;
+    --muted: #9A9AA2;
+    --accent: #FFD23F;
+    --line: #2A2A30;
+    --pad: 72px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; background: var(--ink); }
+  body { font-family: "Inter Tight", sans-serif; color: var(--paper); -webkit-font-smoothing: antialiased; }
+  .card { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: var(--ink); }
+  em { font-style: normal; color: var(--accent); }
+
+  /* ---------- cover ---------- */
+  .cover .bg { position: absolute; inset: 0 0 auto 0; height: 960px; background-size: cover; background-position: center top; }
+  .cover .bg.fallback {
+    background:
+      radial-gradient(circle at 70% 30%, rgba(255,210,63,.55), transparent 38%),
+      radial-gradient(circle at 25% 55%, rgba(64,120,255,.45), transparent 45%),
+      linear-gradient(180deg, #15151c, #0A0A0C);
+  }
+  .cover .bg.fallback::after {
+    content: ""; position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px);
+    background-size: 54px 54px;
+  }
+  .cover .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,12,0) 30%, rgba(10,10,12,.55) 52%, var(--ink) 70%); }
+  .cover .text { position: absolute; left: var(--pad); right: var(--pad); bottom: 150px; }
+  .tag {
+    display: inline-block; font-weight: 700; font-size: 26px; letter-spacing: .14em;
+    padding: 10px 22px; border: 2px solid rgba(245,245,240,.6); border-radius: 999px; margin-bottom: 30px;
+  }
+  .cover h1 {
+    font-family: "Anton", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 150px; line-height: .95; letter-spacing: .005em;
+  }
+  .cover h1 span { display: block; white-space: nowrap; width: max-content; }
+  .handle { position: absolute; left: 0; right: 0; bottom: 64px; text-align: center; font-weight: 700; font-size: 28px; letter-spacing: .06em; color: var(--paper); opacity: .9; }
+
+  /* ---------- body slides ---------- */
+  .slide { padding: var(--pad); display: flex; flex-direction: column; }
+  .kicker { font-weight: 700; font-size: 26px; letter-spacing: .14em; color: var(--muted); text-transform: uppercase; padding-bottom: 28px; border-bottom: 2px solid var(--line); }
+  .kicker b { color: var(--accent); font-weight: 700; }
+  .content { flex: 1; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+  .slide h2 { font-weight: 800; font-size: 76px; line-height: 1.04; letter-spacing: -.02em; margin-bottom: 44px; }
+  .slide p { font-weight: 500; font-size: 44px; line-height: 1.36; letter-spacing: -.005em; color: var(--paper); }
+  .slide p + p { margin-top: 28px; }
+  .slide .quote { font-weight: 600; font-size: 54px; line-height: 1.25; }
+  .slide .who { margin-top: 32px; font-size: 32px; color: var(--muted); font-weight: 600; }
+  .footer { display: flex; justify-content: space-between; align-items: center; font-weight: 700; font-size: 26px; letter-spacing: .06em; color: var(--muted); padding-top: 28px; border-top: 2px solid var(--line); }
+  .dots { display: flex; gap: 10px; }
+  .dots i { width: 12px; height: 12px; border-radius: 50%; background: var(--line); display: block; }
+  .dots i.on { background: var(--accent); }
+
+  /* ---------- sources ---------- */
+  .src { padding: 28px 0; border-bottom: 2px solid var(--line); }
+  .src .outlet { font-weight: 700; font-size: 28px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+  .src .title { font-weight: 600; font-size: 36px; line-height: 1.25; }
+  .cta { margin-top: 56px; font-weight: 800; font-size: 50px; line-height: 1.15; letter-spacing: -.01em; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  // **word** -> <em>word</em>; everything else escaped.
+  function rich(s) {
+    const esc = String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return esc.replace(/\*\*(.+?)\*\*/g, "<em>$1</em>");
+  }
+  function dots(i, n) { return Array.from({ length: n }, (_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join(""); }
+
+  window.renderCard = function (post, index, coverUrl) {
+    const total = post.slides.length + 2; // cover + body slides + sources
+    const root = document.getElementById("root");
+    const handle = "@ai.news.company";
+
+    if (index === 0) {
+      const c = post.cover;
+      const bg = coverUrl ? `<div class="bg" style="background-image:url('${coverUrl}')"></div>` : `<div class="bg fallback"></div>`;
+      root.innerHTML = `
+        <div class="card cover">
+          ${bg}<div class="shade"></div>
+          <div class="text">
+            <div class="tag">${rich(c.tag)}</div>
+            <h1>${c.headline.map(l => `<span>${rich(l)}</span>`).join("")}</h1>
+          </div>
+          <div class="handle">${handle}</div>
+        </div>`;
+      fitCover();
+      return;
+    }
+
+    if (index === total - 1) {
+      const items = post.sources.slice(0, 3).map(s => `
+        <div class="src"><div class="outlet">${rich(s.outlet)} · ${rich(s.date)}</div><div class="title">${rich(s.title)}</div></div>`).join("");
+      root.innerHTML = `
+        <div class="card slide">
+          <div class="kicker">${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")} · <b>Sources</b></div>
+          <div class="content" data-fit>
+            <h2>Sources</h2>${items}
+            <div class="cta">Follow <em>${handle}</em><br>for daily Korea AI news.</div>
+          </div>
+          <div class="footer"><span>${handle}</span><span class="dots">${dots(index, total)}</span></div>
+        </div>`;
+      return;
+    }
+
+    const s = post.slides[index - 1];
+    const body = s.quote
+      ? `<p class="quote">“${rich(s.quote)}”</p><p class="who">— ${rich(s.who)}</p>`
+      : s.body.map(p => `<p>${rich(p)}</p>`).join("");
+    root.innerHTML = `
+      <div class="card slide">
+        <div class="kicker">${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")} · <b>${rich(s.kicker)}</b></div>
+        <div class="content" data-fit>
+          ${s.title ? `<h2>${rich(s.title)}</h2>` : ""}${body}
+        </div>
+        <div class="footer"><span>${handle}</span><span class="dots">${dots(index, total)}</span></div>
+      </div>`;
+  };
+
+  // Shrink the cover headline until the widest line fits the safe area (max 150px, min 96px).
+  window.fitCover = fitCover;
+  function fitCover() {
+    const h1 = document.querySelector(".cover h1");
+    const max = 1080 - 2 * 72;
+    for (let size = 150; size >= 96; size -= 2) {
+      h1.style.fontSize = size + "px";
+      const widest = Math.max(...[...h1.children].map(s => s.getBoundingClientRect().width));
+      if (widest <= max) return;
+    }
+  }
+
+  // Overflow check used by the renderer as an automatic visual QC step.
+  window.checkFit = function () {
+    const problems = [];
+    document.querySelectorAll("[data-fit]").forEach(el => {
+      if (el.scrollHeight > el.clientHeight + 1 || el.scrollWidth > el.clientWidth + 1) problems.push("text overflows its box");
+    });
+    const h1 = document.querySelector(".cover h1");
+    if (h1) {
+      const top = h1.getBoundingClientRect().top;
+      if (top < 760) problems.push("cover headline too tall: starts at y=" + Math.round(top));
+      const widest = Math.max(...[...h1.children].map(s => s.getBoundingClientRect().width));
+      if (widest > 1080 - 2 * 72 + 1) problems.push("cover headline line too wide even at 96px: shorten it");
+    }
+    return problems;
+  };
+</script>
+</body>
+</html>

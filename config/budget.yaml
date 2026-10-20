@@ -1,0 +1,7 @@
+# Spending caps. Agents stop and report instead of going over.
+higgsfield:
+  model: cinematic_studio_2_5   # 2 credits per 4:5 1k image (checked 2026-10-20)
+  max_credits_per_day: 6        # up to 3 cover attempts
+  max_credits_per_month: 120
+claude:
+  max_review_rounds_per_post: 2
