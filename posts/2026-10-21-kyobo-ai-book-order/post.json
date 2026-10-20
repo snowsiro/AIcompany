@@ -1,0 +1,106 @@
+{
+  "id": "2026-10-21-kyobo-ai-book-order",
+  "date": "2026-10-21",
+  "category": "POLICY",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · POLICY",
+    "headline": [
+      "KYOBO SAID NO TO",
+      "**100,000** BOOKS"
+    ],
+    "hook_options": [
+      [
+        "KYOBO SAID NO TO",
+        "**100,000** BOOKS"
+      ],
+      [
+        "WHO BUYS",
+        "**100,000** BOOKS?"
+      ],
+      [
+        "ONE OF EVERY",
+        "BOOK? **DENIED**"
+      ],
+      [
+        "A BOOK-BUYING",
+        "**MYSTERY** IN KOREA"
+      ]
+    ],
+    "hook_pick_reason": "Number plus a clear action, and every word is backed by slides 2-3. The AI link is only a reported concern, so the hook does not claim it. Option 2 is the strongest curiosity gap but leaves out Kyobo.",
+    "image_prompt": "Cinematic wide shot of an endless dark library hall at night, towering shelves of plain blank-spined books converging toward a single glowing doorway at the far end, pale gold light spilling across the floor, faint floating dust. Main subject in the upper half, lower third fading into deep shadow. No text, no letters, no logos, no people, no book covers.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261020_224416_a45aa6a8-7b97-4cfa-95e6-5c55c7bf5f3c.png"
+  },
+  "slides": [
+    {
+      "kicker": "The order",
+      "title": "A stranger wanted 100,000 books",
+      "body": [
+        "An overseas company with **no transaction history** ordered one copy of each title, on any subject, from Kyobo Book Centre, which runs Korea's largest bookstore chain."
+      ]
+    },
+    {
+      "kicker": "The refusal",
+      "title": "Kyobo said no",
+      "body": [
+        "The only thing it could confirm about the final recipient was that it is a **data company**. Under its contract terms, Kyobo declined the order."
+      ]
+    },
+    {
+      "kicker": "The worry",
+      "title": "Why it raised alarms",
+      "body": [
+        "The report links the order to concerns over **AI training data**. Buying books in bulk is a new scene. The buyer's purpose is **not confirmed**."
+      ]
+    },
+    {
+      "kicker": "What's next",
+      "title": "Publishers plan a probe",
+      "body": [
+        "The Korean Publishers Association, an industry group of book publishers, plans to investigate bulk-buying attempts at major bookstores, used bookstores and distributors. It will also urge lawmakers to **strengthen book copyright law**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Kyobo Book Centre operates South Korea's largest bookstore chain."
+    },
+    {
+      "source": 0,
+      "text": "An overseas company with no prior transaction history ordered 100,000 books, one copy of each title, regardless of subject."
+    },
+    {
+      "source": 0,
+      "text": "Kyobo declined the order because the final recipient was confirmed only as a data company, which conflicted with its contract terms."
+    },
+    {
+      "source": 0,
+      "text": "The article connects the order to concerns about AI training data; the buyer's purpose is not confirmed."
+    },
+    {
+      "source": 0,
+      "text": "The Korean Publishers Association plans to investigate bulk purchase attempts at major bookstores, used bookstores and distributors, and to urge the government and National Assembly to strengthen book copyright law."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Herald",
+      "title": "Kyobo rejects suspicious 100,000-book order amid AI copyright fears",
+      "date": "Oct 20, 2026",
+      "url": "https://www.koreaherald.com/article/10908784"
+    }
+  ],
+  "caption": "A 100,000-book order just got turned down in Korea.\n\nKyobo Book Centre, which runs Korea's largest bookstore chain, refused an order from an overseas company with no transaction history: one copy of each title, any subject.\n\n→ The final recipient was confirmed only as a data company, so Kyobo declined under its contract terms\n→ The report ties the order to AI training data concerns; the buyer's purpose is not confirmed\n→ The Korean Publishers Association plans a probe and will push for stronger book copyright law\n\nWould you sell books in bulk to a buyer you can't identify?\n\nSource: The Korea Herald, Oct 20, 2026.\n\nFollow @ai.news.company for daily Korea AI news.",
+  "hashtags": [
+    "#KoreaAI",
+    "#SouthKorea",
+    "#AINews",
+    "#Copyright",
+    "#Publishing",
+    "#AITraining",
+    "#Books",
+    "#TechNews"
+  ]
+}
