@@ -51,14 +51,24 @@
 
 ## 본문 슬라이드 (2 ~ n-1)
 
-- 위: 작은 kicker `02 / 07 · THE MONEY`
-- 제목: Inter Tight 800, 64px, 최대 2줄
-- 본문: Inter Tight 500, 40px, 줄 간격 1.35, 최대 45단어
+- 위: 작은 kicker `02 / 07 · THE MONEY`, 같은 줄 오른쪽에 커버와 같은 태그 pill (`US AI · POLICY`)
+- 제목: Inter Tight 800, 76px, 최대 2줄. 제목 위에 accent 막대 (72 × 8px)
+- 본문: Inter Tight 500, 44px, 줄 간격 1.36, 최대 45단어
 - `**강조**` 표시는 accent 색으로. 슬라이드당 최대 2곳
+- 인용 슬라이드: 인용문 위에 큰 accent 따옴표(Anton), 말한 사람 앞에 짧은 accent 선. 인용문 안에는 따옴표를 따로 넣지 않음
 - 아래: `@ai.news.company` + 진행 점
 
-## 마지막 슬라이드 (출처)
+### 장식 (템플릿이 자동으로 그림)
 
-- 제목 `SOURCES`
-- 매체명 · 날짜 · 기사 제목 (최대 3개)
-- 아래: `Follow @ai.news.company for daily AI news`
+- 오른쪽 위 빈 공간에만: accent 빛 번짐, 점 격자, 외곽선만 있는 큰 장 번호(Anton)
+- 글자를 가리지 않게 낮은 대비로만 그림. 글자 크기, 위치, 색은 장식 때문에 바꾸지 않음
+- 안쪽 카드에는 사진이나 생성 이미지를 넣지 않음. 그래픽은 템플릿 코드(CSS, SVG)로만 그려 크레딧을 쓰지 않음
+
+## 마지막 슬라이드 (팔로우 + 출처)
+
+팔로워 증가가 목표라 마지막 장은 팔로우 유도가 중심이고, 출처는 작게 남깁니다 (2026-10-20 결정).
+
+- kicker `07 / 07 · FOLLOW` + 태그 pill
+- 제목 `Never miss a day of AI news.` (`AI news.`만 accent), 보조 문구 `Two stories a day, from around the world.`
+- 팔로우 박스: `@ai.news.company` + accent `+ FOLLOW` 버튼 모양. 아래에 `Save for later`, `Share with a friend`
+- 맨 아래(푸터 위): 작은 글씨로 출처. 매체명, "기사 제목" (날짜), 최대 3개. 캡션 끝에도 같은 출처를 적음
