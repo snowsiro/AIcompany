@@ -5,6 +5,7 @@
 //   node scripts/ig.mjs publish posts/<id> <public-base>  post the rendered slides as one carousel
 //   node scripts/ig.mjs insights [days]                   per-post metrics for the analyst
 //   node scripts/ig.mjs limit                             publishing quota used in the last 24h
+//   node scripts/ig.mjs check                             connection test: own account, quota, reference accounts
 //
 // <public-base> is a URL where posts/ is reachable, e.g. https://raw.githubusercontent.com/snowsiro/AIcompany/main
 // (Instagram downloads each image from a public URL; it does not accept uploads.)
@@ -94,13 +95,37 @@ async function insights(days = 7) {
   console.log(JSON.stringify(rows, null, 2));
 }
 
+// Connection test after the token is set up. Prints only public account data, never the token.
+async function check() {
+  const me = await call("GET", `/${IG_USER_ID}`, { fields: "username,followers_count,media_count" });
+  console.log(`account: @${me.username} (${me.followers_count} followers, ${me.media_count} posts)`);
+  const limit = await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" });
+  console.log(`publishing quota: ${JSON.stringify(limit.data?.[0] ?? limit)}`);
+  const yaml = readFileSync("config/sources.yaml", "utf8");
+  const block = yaml.split(/^reference_accounts:/m)[1].split(/\n\S/)[0];
+  const accounts = [...block.matchAll(/^\s*-\s*(\S+)/gm)].map(m => m[1]);
+  let ok = 0;
+  for (const username of accounts) {
+    try {
+      const fields = `business_discovery.username(${username}){username,followers_count,media_count}`;
+      const { business_discovery: bd } = await call("GET", `/${IG_USER_ID}`, { fields });
+      console.log(`  ok   @${bd.username}: ${bd.followers_count} followers, ${bd.media_count} posts`);
+      ok++;
+    } catch (err) {
+      console.log(`  fail @${username}: ${err.message}`);
+    }
+  }
+  console.log(`reference accounts readable: ${ok}/${accounts.length}`);
+}
+
 const [cmd, ...args] = process.argv.slice(2);
 try {
   if (cmd === "discover") await discover(args[0]);
   else if (cmd === "publish") await publish(args[0], args[1]);
   else if (cmd === "insights") await insights(Number(args[0] || 7));
+  else if (cmd === "check") await check();
   else if (cmd === "limit") console.log(JSON.stringify(await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" })));
-  else { console.error("commands: discover | publish | insights | limit"); process.exit(2); }
+  else { console.error("commands: discover | publish | insights | limit | check"); process.exit(2); }
 } catch (err) {
   console.error(`FAIL ${cmd}: ${err.message}`);
   process.exit(1);
