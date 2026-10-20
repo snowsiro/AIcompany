@@ -1,4 +1,8 @@
 # Spending caps. Agents stop and report instead of going over.
+# The caps count only credits the daily run spends on post covers: this run's own generations, plus
+# the credits logged in ops/run-log.md by earlier daily runs this month. Credits spent outside the
+# daily run (the Instagram branding work on 2026-10-20, setup samples, manual tests) don't count,
+# so don't work out usage from the Higgsfield balance or transaction history.
 higgsfield:
   model: cinematic_studio_2_5   # 2 credits per 4:5 1k image (checked 2026-10-20)
   max_credits_per_day: 6        # 2 posts a day + 1 retry
