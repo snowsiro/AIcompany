@@ -1,18 +1,19 @@
 # AI News Company
 
-The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.company/)**: daily English card news about Korean AI, for readers outside Korea.
+The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.company/)**: two English card news posts a day about AI news from around the world, Korea included.
 
 ## How it runs
 
 ```
-06:00 KST  Claude Code (scheduled, in the cloud)
+05:45 KST  Claude Code (scheduled, in the cloud) makes 2 posts
            researcher → editor-in-chief → writer → designer → 3 independent reviewers
-           → pull request "post: <date> <headline>"
+           → one pull request "post: <date> <headline 1> + <headline 2>"
            GitHub Actions "render" re-renders the slides with the real cover and adds them to the PR
 
            Jamie merges the PR (first 2 weeks), later auto-merge when all reviewers pass
 
-22:00 KST  GitHub Actions "publish" posts the oldest ready post as a carousel, then checks it is live
+21:00 KST  GitHub Actions "publish" posts the oldest ready post as a carousel, then checks it is live
+09:00 KST  "publish" again for the second post
 Mondays    analyst writes ops/weekly/<date>.md from Instagram insights
 ```
 
