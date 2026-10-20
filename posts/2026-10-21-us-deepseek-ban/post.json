@@ -20,15 +20,11 @@
         "THE NEW ORDER"
       ],
       [
-        "**2** US MOVES NOW",
-        "TARGET DEEPSEEK"
-      ],
-      [
         "BEIJING CALLS IT",
         "**OVERSTRETCHING**"
       ]
     ],
-    "hook_pick_reason": "Plain assertion that matches slides 2-3 (a DHS order to federal agencies). It avoids 'BANNED' because the order covers federal civilian agencies only, and exceptions can be requested. The rivalry option is weaker on specifics; the Beijing-quote option leans on one side and is not the main news.",
+    "hook_pick_reason": "Plain assertion that matches slides 2-3 (a US order to federal agencies, per DHS). It avoids 'BANNED' because the order covers federal civilian agencies only, and exceptions can be requested. The rivalry option is weaker on specifics; the Beijing-quote option leans on one side and is not the main news.",
     "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261020_224416_88c5c998-429e-4625-a3a0-ae2034663ee5.png",
     "image_prompt": "Cinematic wide shot of a vast dark government data hall at night, rows of server racks, one glowing amber rack being unplugged and slid out along the aisle while a thin beam of light cuts through haze, cool blue tones with a single warm accent. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people."
   },
@@ -37,7 +33,7 @@
       "kicker": "The order",
       "title": "US tells agencies to remove DeepSeek",
       "body": [
-        "The Department of Homeland Security (DHS) ordered federal civilian agencies to stop buying products from **DeepSeek**, a Chinese AI startup, and remove them from government IT systems."
+        "The US ordered federal civilian agencies to stop buying products from **DeepSeek**, a Chinese AI startup, and remove them from government IT systems, according to the Department of Homeland Security (DHS)."
       ]
     },
     {
@@ -97,7 +93,7 @@
       "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
     }
   ],
-  "caption": "One government just told its agencies to drop a Chinese AI model.\n\nThe US Department of Homeland Security ordered federal civilian agencies to stop buying DeepSeek, a Chinese AI startup, and remove it from government IT systems.\n\n→ It also covers third-party products built with DeepSeek technology (exceptions can be requested)\n→ DHS says US government users' sensitive data could be accessible to Chinese authorities under Chinese law\n→ Beijing says it opposes \"politicizing technology and trade issues\"\n\nWill other governments and companies follow with similar rules?\n\nSource: TechCrunch, Oct 20, 2026.\n\nFollow @ai.news.company for daily AI news.",
+  "caption": "One government just told its agencies to drop a Chinese AI model.\n\nThe US ordered federal civilian agencies to stop buying DeepSeek, a Chinese AI startup, and remove it from government IT systems, according to the Department of Homeland Security (DHS).\n\n→ It also covers third-party products built with DeepSeek technology (exceptions can be requested)\n→ DHS says US government users' sensitive data could be accessible to Chinese authorities under Chinese law\n→ Beijing says it opposes \"politicizing technology and trade issues\"\n\nWill other governments and companies follow with similar rules?\n\nSource: TechCrunch, Oct 20, 2026.\n\nFollow @ai.news.company for daily AI news.",
   "hashtags": [
     "#AINews",
     "#DeepSeek",
