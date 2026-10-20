@@ -1,0 +1,24 @@
+name: ig-check
+
+# Run by hand after adding the IG_USER_ID and IG_ACCESS_TOKEN secrets.
+# Confirms the token works, shows the publishing quota, and which reference accounts can be read.
+# Read-only: it never posts.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check Instagram connection
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/ig.mjs check
