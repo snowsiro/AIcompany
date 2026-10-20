@@ -1,14 +1,12 @@
 PASS
 
-Issues: none blocking.
+Checked: post.json, slides 01-06, DESIGN.md.
 
-Checks
-- Cover image: empty library with a lit doorway. No people, no real logo, no readable text (spines are blank). OK.
-- Reference copying: korean_refs is empty. Wording, layout and image are original. OK.
-- Outlet credit: caption ("Source: The Korea Herald, Oct 20, 2026.") and the final slide name the outlet and article title. OK.
-- Design: only ink, paper, muted, accent and line colors. Anton on the cover, Inter Tight elsewhere. Accent use is at most 2 per body slide. OK.
-- Tone: no mocking of a person, company or country. The AI link is stated as reported and the buyer's purpose as "not confirmed". The hook (Kyobo said no to 100,000 books) is supported by slides 2-3. OK.
+- Cover: AI-generated library, no people, no logos, no readable text (spines blank). OK.
+- No reference-account wording, layout or image found. Text is original and matches the Korea Herald facts.
+- Caption credits The Korea Herald (Oct 20, 2026). Slide 06 lists outlet, date and full title. OK.
+- Colors (ink, paper, muted, accent, line) and fonts (Anton cover, Inter Tight rest) match DESIGN.md. Accent use within limits (cover 1 phrase, max 2 per slide).
+- Tone: neutral. Slides 3-4 state the AI link is only reported and the buyer's purpose is unconfirmed. Hook is supported by slides 2-3. No mocking of a person, company or country.
 
-Non-blocking notes
-- Slide 4: "Buying books in bulk is a new scene" is the writer's phrasing. The fact-checker should confirm that the article supports it.
-- Slide 2 spells "Kyobo Book Centre" as "Centre". Minor.
+Issues (advisory, not blocking):
+1. Caption Source line gives outlet and date but not the article title; CLAUDE.md asks for both. Add "Kyobo rejects suspicious 100,000-book order amid AI copyright fears".

@@ -1,1 +1,6 @@
-{ "pass": true, "issues": [] }
+{
+  "pass": true,
+  "issues": [
+    "Advisory (not a fail condition): caption credits The Korea Herald and date but omits the article title; CLAUDE.md asks for outlet name and article title in the caption. Add the title to the Source line."
+  ]
+}

@@ -1,20 +1,8 @@
 {
   "pass": false,
   "issues": [
-    {
-      "where": "slide 2, caption bullet 1, facts[2]",
-      "problem": "Says Kyobo declined 'under its contract terms'. In the article the buyer cited its contract terms to withhold further information. Kyobo rejected the order because it could not verify the end recipient. 'Confirmed' is also wrong, since the buyer only said the recipient was a data company.",
-      "fix": "The buyer said only that the final recipient was a data company and that, under its contract terms, it could give no more information. Kyobo could not verify the end recipient and rejected the order."
-    },
-    {
-      "where": "slide 4, caption bullet 3, facts[4]",
-      "problem": "'Investigate' and 'probe' overstate. The article describes a survey, not a formal investigation.",
-      "fix": "Use 'survey': the association plans to survey major bookstores, used bookstores and distributors on bulk-buying attempts."
-    },
-    {
-      "where": "slide 3",
-      "problem": "'Buying books in bulk is a new scene' is not in the article. The article says Kyobo treats verifying bulk orders as routine and says this had not been an issue before.",
-      "fix": "Remove the sentence or replace it with a sourced one."
-    }
+    { "where": "slide 4 and caption bullet 3", "problem": "Says the association will urge 'lawmakers'; the article says the government and the National Assembly.", "fix": "Write 'urge the government and National Assembly to strengthen book copyright law'." },
+    { "where": "slide 3", "problem": "'verifying the use and recipient of bulk orders is routine' - the article says verifying the intended use is standard practice; 'recipient' is not confirmed.", "fix": "Write 'Kyobo says verifying the intended use of bulk orders is standard practice.'" },
+    { "where": "slide 2", "problem": "Minor: attributes the contract-terms reason to the buyer; the article says the contract barred further disclosure.", "fix": "Write 'and that the contract barred further disclosure'." }
   ]
 }

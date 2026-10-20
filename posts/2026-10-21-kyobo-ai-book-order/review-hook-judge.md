@@ -1,20 +1,20 @@
 PASS
 
-Chosen hook: "KYOBO SAID NO TO 100,000 BOOKS" (score 7/10)
+Chosen hook: "KYOBO SAID NO TO / 100,000 BOOKS" (option 0). Score 8/10. Better option: none.
 
-Scores for the chosen hook
-- Clear in under 2 seconds: 7. The sentence is simple and the type is large. "Kyobo" means nothing to a global reader until slide 2, and "said no to books" is a little odd as phrasing.
-- Curiosity: 6. It raises "why refuse a huge sale?", but the cover has no AI cue except the small tag "KOREA AI · POLICY".
-- Concrete number or name: 9. It has both a name (Kyobo) and a number (100,000), and the number is highlighted in yellow.
-- Promise the slides keep: 9. Slide 2 covers the 100,000-book order and slide 3 covers the refusal. It does not claim an AI link as fact, and slide 4 says the buyer's purpose is not confirmed.
+Scores
+- Clear in under 2 seconds: 8. Large type, with the number highlighted in yellow. "Said no to" reads fast. Small cost: a bookstore refusing an order is slightly odd until the reader gets to slide 2.
+- Curiosity: 7. The reader asks why a store would refuse 100,000 sales and who ordered. It is a good question, not an extreme one.
+- Concrete number or name: 9. It has both "Kyobo" and "100,000". Kyobo is explained on slide 2 as Korea's largest bookstore chain.
+- Promise the slides keep: 9. Slide 2 shows the 100,000-book order and slide 3 shows the refusal. The hook does not claim an AI link, which the source only reports as a concern (slide 4 marks it "not confirmed").
 
-Comparison with the other options
-- Option 2, "WHO BUYS 100,000 BOOKS?": the strongest curiosity and the clearest (9/10), but it has no name. It also promises an answer to "who", and the slides only say "a data company" and "not confirmed". It keeps the promise less well than the chosen hook. Overall it is roughly equal to or slightly below the chosen hook.
-- Option 3, "ONE OF EVERY / BOOK? DENIED": garbled and unclear, and it does not match the facts. Reject.
-- Option 4, "A BOOK-BUYING MYSTERY IN KOREA": vague, with no number or name. Reject.
-- The chosen hook is the best balanced option, so no switch is needed.
+Comparison
+- Option 1 "WHO BUYS 100,000 BOOKS?": the strongest curiosity gap, but it has no name, and the slides never say who the buyer is (only "a data company"). That is a partial promise break.
+- Option 2 "ONE OF EVERY BOOK? DENIED": garbled and unclear. Weakest.
+- Option 3 "A BOOK-BUYING MYSTERY IN KOREA": vague, no number, "mystery" is a stretch.
+- The chosen option is the best balance of clarity, specifics and honesty.
 
-Issues (non-blocking)
-1. Global readers do not know Kyobo. Slide 2 explains it, but the cover does not. This is acceptable because the tag says Korea.
-2. Optional tweak: "KYOBO REFUSED 100,000 BOOKS" or "KOREA'S BIGGEST BOOKSTORE SAID NO" would be clearer. Option 2's question format could also be tested later.
-3. Slide 2's footer shows "02 / 06" with six dots, but post.json has cover plus 4 slides. This is probably a source slide added at the end. Confirm that the source slide exists and that the count matches. This is outside the hook review.
+Issues (minor, none blocking)
+- The cover does not mention AI. Only the tag "KOREA AI · POLICY" carries the AI angle, which is acceptable given the unconfirmed link.
+- Slide 2 title says "A stranger"; the body says an overseas company with no history. This is a harmless framing.
+- Optional: "Kyobo" is unfamiliar to global readers on the cover, but the number carries the hook.
