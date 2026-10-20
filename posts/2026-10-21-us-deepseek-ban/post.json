@@ -2,7 +2,7 @@
   "id": "2026-10-21-us-deepseek-ban",
   "date": "2026-10-21",
   "category": "POLICY",
-  "status": "draft",
+  "status": "ready",
   "korean_refs": [],
   "cover": {
     "tag": "US AI · POLICY",
@@ -93,7 +93,7 @@
       "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
     }
   ],
-  "caption": "One government just told its agencies to drop a Chinese AI model.\n\nThe US ordered federal civilian agencies to stop buying DeepSeek, a Chinese AI startup, and remove it from government IT systems, according to the Department of Homeland Security (DHS).\n\n→ It also covers third-party products built with DeepSeek technology (exceptions can be requested)\n→ DHS says US government users' sensitive data could be accessible to Chinese authorities under Chinese law\n→ Beijing says it opposes \"politicizing technology and trade issues\"\n\nWill other governments and companies follow with similar rules?\n\nSource: TechCrunch, Oct 20, 2026.\n\nFollow @ai.news.company for daily AI news.",
+  "caption": "One government just told its agencies to drop a Chinese AI model.\n\nThe US ordered federal civilian agencies to stop buying DeepSeek, a Chinese AI startup, and remove it from government IT systems, according to the Department of Homeland Security (DHS).\n\n→ It also covers third-party products built with DeepSeek technology (exceptions can be requested)\n→ DHS says US government users' sensitive data could be accessible to Chinese authorities under Chinese law\n→ Beijing says it opposes \"politicizing technology and trade issues\"\n\nWill other governments and companies follow with similar rules?\n\nSource: TechCrunch, \"US orders federal agencies to remove China's DeepSeek AI from their systems\", Oct 20, 2026.\n\nFollow @ai.news.company for daily AI news.",
   "hashtags": [
     "#AINews",
     "#DeepSeek",
