@@ -99,6 +99,14 @@ async function insights(days = 7) {
 async function check() {
   const me = await call("GET", `/${IG_USER_ID}`, { fields: "username,followers_count,media_count" });
   console.log(`account: @${me.username} (${me.followers_count} followers, ${me.media_count} posts)`);
+  try {
+    // Token type and expiry only; the token itself is never printed.
+    const { data: t } = await call("GET", "/debug_token", { input_token: IG_ACCESS_TOKEN });
+    const when = s => (s ? new Date(s * 1000).toISOString().slice(0, 10) : "never");
+    console.log(`token: ${t.type}, valid ${t.is_valid}, expires ${when(t.expires_at)}, data access expires ${when(t.data_access_expires_at)}`);
+  } catch (err) {
+    console.log(`token: could not inspect (${err.message})`);
+  }
   const limit = await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" });
   console.log(`publishing quota: ${JSON.stringify(limit.data?.[0] ?? limit)}`);
   const yaml = readFileSync("config/sources.yaml", "utf8");
