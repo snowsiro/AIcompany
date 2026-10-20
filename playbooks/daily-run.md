@@ -19,7 +19,8 @@ Steps 3-6 run once for each of the two posts.
 6. All three pass → set `"status": "ready"` in post.json. Any fail → send the issues to the writer and repeat from step 3.
    After 2 failed rounds on a post, set that post to `"status": "blocked"`, keep its files, explain in the PR, and carry on with the other post.
 7. Add the morning report to the top of `ops/run-log.md` (format in CLAUDE.md).
-8. Commit, push `daily/{{date}}`, open one PR titled `post: {{date}} <headline 1> + <headline 2>`,
+8. Commit, push `daily/{{date}}` (if that branch already exists on origin, for example after a manual test run the same day,
+   use `daily/{{date}}-2`), open one PR titled `post: {{date}} <headline 1> + <headline 2>`,
    with both cover images and the three verdicts for each post in the body.
 
 Stop and report instead of guessing when: no source can be reached, the budget would be exceeded,

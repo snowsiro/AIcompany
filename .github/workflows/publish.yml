@@ -1,7 +1,7 @@
 name: publish
 
 # Posts the oldest merged post with "status": "ready" to Instagram.
-# Manual only for now. The schedule is turned on after the Instagram token is set up and tested.
+# Runs twice a day (turned on 2026-10-20 by Jamie) and can also be run by hand.
 on:
   workflow_dispatch:
     inputs:
@@ -9,10 +9,11 @@ on:
         description: "Post folder to publish, e.g. posts/2026-10-21-some-slug (blank = oldest ready post)"
         required: false
   # Two posts a day. Each run posts the oldest merged post with "status": "ready".
-  # schedule:
-  # Times below are winter time (Vienna UTC+1, New York UTC-5); add 1 hour in summer.
-  #   - cron: "0 13 * * *"   # 13:00 UTC = 14:00 Vienna = 08:00 New York = 22:00 Seoul
-  #   - cron: "0 19 * * *"   # 19:00 UTC = 20:00 Vienna = 14:00 New York = 11:00 Los Angeles
+  # Times are winter time (Vienna UTC+1, New York UTC-5); add 1 hour in summer.
+  # A few minutes before the hour, because GitHub delays jobs scheduled exactly on the hour.
+  schedule:
+    - cron: "57 12 * * *"   # 12:57 UTC = 13:57 Vienna = 07:57 New York = 21:57 Seoul
+    - cron: "57 18 * * *"   # 18:57 UTC = 19:57 Vienna = 13:57 New York = 10:57 Los Angeles
 
 permissions:
   contents: write
@@ -49,4 +50,11 @@ jobs:
           git config user.name "ai-office-bot"
           git config user.email "ai-office-bot@users.noreply.github.com"
           git add "${{ steps.pick.outputs.dir }}/post.json"
-          git commit -m "publish: ${{ steps.pick.outputs.dir }}" && git push
+          git commit -m "publish: ${{ steps.pick.outputs.dir }}"
+          # The post is live now. If this record is lost, the next run would post it again, so retry the push.
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          echo "::error::Posted to Instagram but could not record it in post.json. Set its status to published by hand before the next run."
+          exit 1
