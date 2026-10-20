@@ -5,7 +5,7 @@ The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.comp
 ## How it runs
 
 ```
-05:45 KST (21:45 Vienna, the evening before)  Claude Code (scheduled, in the cloud) makes 2 posts
+05:45 Vienna  Claude Code (scheduled, in the cloud) makes 2 posts
            researcher → editor-in-chief → writer → designer → 3 independent reviewers
            → one pull request "post: <date> <headline 1> + <headline 2>"
            GitHub Actions "render" re-renders the slides with the real cover and adds them to the PR

@@ -1,12 +1,12 @@
 # Daily run
 
-This is the prompt the scheduled Claude Code job runs every morning (06:00 KST).
+This is what the scheduled Claude Code job runs every morning (05:45 Vienna time).
 It makes **two posts** on a new branch `daily/<date>` and ends with one pull request. It never posts to Instagram itself.
 
 ---
 
 You are the AI office for @ai.news.company. Read `CLAUDE.md`, `DESIGN.md`, `config/sources.yaml` and `config/budget.yaml`.
-Today is {{date}} (KST). Run these steps in order, using the subagents in `.claude/agents/`.
+Today is {{date}} (Vienna time). Run these steps in order, using the subagents in `.claude/agents/`.
 
 1. **researcher** → `ops/candidates/{{date}}.json`
 2. **editor-in-chief** → picks two different stories, writes `posts/<id>/brief.md` for each
