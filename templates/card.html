@@ -48,24 +48,61 @@
 
   /* ---------- body slides ---------- */
   .slide { padding: var(--pad); display: flex; flex-direction: column; }
-  .kicker { font-weight: 700; font-size: 26px; letter-spacing: .14em; color: var(--muted); text-transform: uppercase; padding-bottom: 28px; border-bottom: 2px solid var(--line); }
+  .slide > * { position: relative; z-index: 1; }
+  /* Decoration lives in the empty top-right corner, away from the text. */
+  .slide > .deco { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+  .deco .glow { position: absolute; inset: 0; background: radial-gradient(circle at 96% 4%, rgba(255,210,63,.16), transparent 34%); }
+  .deco .grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(245,245,240,.22) 1.6px, transparent 2px);
+    background-size: 36px 36px; background-position: 18px 18px;
+    -webkit-mask-image: radial-gradient(circle at 100% 0%, #000 0, transparent 46%);
+  }
+  .deco .num {
+    position: absolute; right: 72px; top: 150px;
+    font-family: "Anton", sans-serif; font-size: 300px; line-height: 1;
+    color: transparent; -webkit-text-stroke: 2px rgba(245,245,240,.13);
+  }
+  .kicker { display: flex; justify-content: space-between; align-items: center; gap: 24px; font-weight: 700; font-size: 26px; letter-spacing: .14em; color: var(--muted); text-transform: uppercase; padding-bottom: 28px; border-bottom: 2px solid var(--line); }
   .kicker b { color: var(--accent); font-weight: 700; }
+  .kicker span { white-space: nowrap; }
+  .kicker .pill { font-size: 20px; letter-spacing: .12em; color: var(--paper); padding: 7px 16px; border: 2px solid var(--line); border-radius: 999px; }
   .content { flex: 1; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+  .bar { width: 72px; height: 8px; border-radius: 4px; background: var(--accent); margin-bottom: 32px; flex: none; }
   .slide h2 { font-weight: 800; font-size: 76px; line-height: 1.04; letter-spacing: -.02em; margin-bottom: 44px; }
   .slide p { font-weight: 500; font-size: 44px; line-height: 1.36; letter-spacing: -.005em; color: var(--paper); }
   .slide p + p { margin-top: 28px; }
+  .slide .qmark { font-family: "Anton", sans-serif; font-size: 240px; line-height: .8; height: 104px; color: var(--accent); }
   .slide .quote { font-weight: 600; font-size: 54px; line-height: 1.25; }
-  .slide .who { margin-top: 32px; font-size: 32px; color: var(--muted); font-weight: 600; }
+  .slide .who { display: flex; align-items: center; gap: 18px; margin-top: 36px; font-size: 32px; color: var(--muted); font-weight: 600; }
+  .slide .who::before { content: ""; width: 40px; height: 3px; background: var(--accent); flex: none; }
   .footer { display: flex; justify-content: space-between; align-items: center; font-weight: 700; font-size: 26px; letter-spacing: .06em; color: var(--muted); padding-top: 28px; border-top: 2px solid var(--line); }
   .dots { display: flex; gap: 10px; }
   .dots i { width: 12px; height: 12px; border-radius: 50%; background: var(--line); display: block; }
   .dots i.on { background: var(--accent); }
 
-  /* ---------- sources ---------- */
-  .src { padding: 28px 0; border-bottom: 2px solid var(--line); }
-  .src .outlet { font-weight: 700; font-size: 28px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
-  .src .title { font-weight: 600; font-size: 36px; line-height: 1.25; }
-  .cta { margin-top: 56px; font-weight: 800; font-size: 50px; line-height: 1.15; letter-spacing: -.01em; }
+  /* ---------- last slide: follow + sources ---------- */
+  .end h2 { font-size: 92px; line-height: 1.0; margin-bottom: 28px; }
+  .end .sub { font-size: 40px; color: var(--muted); }
+  .cta {
+    display: flex; justify-content: space-between; align-items: center; gap: 24px;
+    margin-top: 56px; padding: 36px 40px; border: 2px solid var(--line); border-radius: 32px;
+    background: linear-gradient(135deg, rgba(255,210,63,.10), rgba(255,210,63,0) 60%);
+  }
+  .cta .line { font-weight: 800; font-size: 46px; letter-spacing: -.01em; }
+  .cta .btn {
+    display: inline-flex; align-items: center; gap: 12px; padding: 18px 32px; flex: none;
+    border-radius: 999px; background: var(--accent); color: var(--ink);
+    font-weight: 800; font-size: 28px; letter-spacing: .08em; text-transform: uppercase;
+  }
+  .actions { display: flex; gap: 40px; margin-top: 36px; font-weight: 600; font-size: 30px; color: var(--muted); }
+  .actions span { display: inline-flex; align-items: center; gap: 12px; }
+  .srcs { padding-bottom: 28px; }
+  .srcs .lab { font-weight: 700; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+  .srcs p { display: flex; gap: 14px; font-weight: 500; font-size: 24px; line-height: 1.35; color: var(--muted); }
+  .srcs p + p { margin-top: 10px; }
+  .srcs p b { font-weight: 700; color: var(--paper); }
+  .srcs svg { flex: none; width: 28px; height: 28px; margin-top: 2px; }
 </style>
 </head>
 <body>
@@ -77,6 +114,15 @@
     return esc.replace(/\*\*(.+?)\*\*/g, "<em>$1</em>");
   }
   function dots(i, n) { return Array.from({ length: n }, (_, k) => `<i class="${k === i ? "on" : ""}"></i>`).join(""); }
+  function pad2(n) { return String(n).padStart(2, "0"); }
+  function deco(n) { return `<div class="deco"><div class="glow"></div><div class="grid"></div><div class="num">${pad2(n)}</div></div>`; }
+  function kicker(i, n, label, tag) {
+    return `<div class="kicker" data-fit><span>${pad2(i + 1)} / ${pad2(n)} · <b>${label}</b></span><span class="pill">${tag}</span></div>`;
+  }
+  const DOC_ICON = `<svg viewBox="0 0 40 40" fill="none" stroke="#FFD23F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h15l7 7v25H9z"/><path d="M24 4v7h7"/><path d="M14 20h12M14 26h12M14 32h7"/></svg>`;
+  const SAVE_ICON = `<svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#9A9AA2" stroke-width="2.6" stroke-linejoin="round"><path d="M7 4h16v22l-8-6-8 6z"/></svg>`;
+  const SHARE_ICON = `<svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#9A9AA2" stroke-width="2.6" stroke-linejoin="round"><path d="M27 3 3 13l10 4 4 10z"/><path d="M27 3 13 17"/></svg>`;
+  const PLUS_ICON = `<svg width="22" height="22" viewBox="0 0 22 22" stroke="#0A0A0C" stroke-width="3.4" stroke-linecap="round"><path d="M11 3v16M3 11h16"/></svg>`;
 
   window.renderCard = function (post, index, coverUrl) {
     const total = post.slides.length + 2; // cover + body slides + sources
@@ -100,15 +146,23 @@
     }
 
     if (index === total - 1) {
-      const items = post.sources.slice(0, 3).map(s => `
-        <div class="src"><div class="outlet">${rich(s.outlet)} · ${rich(s.date)}</div><div class="title">${rich(s.title)}</div></div>`).join("");
+      const srcs = post.sources.slice(0, 3).map(s =>
+        `<p>${DOC_ICON}<span><b>${rich(s.outlet)}</b>, “${rich(s.title)}” (${rich(s.date)})</span></p>`).join("");
       root.innerHTML = `
-        <div class="card slide">
-          <div class="kicker">${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")} · <b>Sources</b></div>
+        <div class="card slide end">
+          ${deco(index + 1)}
+          ${kicker(index, total, "Follow", rich(post.cover.tag))}
           <div class="content" data-fit>
-            <h2>Sources</h2>${items}
-            <div class="cta">Follow <em>${handle}</em><br>for daily AI news.</div>
+            <div class="bar"></div>
+            <h2>Never miss a day<br>of <em>AI news.</em></h2>
+            <p class="sub">Two stories a day, from around the world.</p>
+            <div class="cta">
+              <div class="line">${handle}</div>
+              <div class="btn">${PLUS_ICON}Follow</div>
+            </div>
+            <div class="actions"><span>${SAVE_ICON}Save for later</span><span>${SHARE_ICON}Share with a friend</span></div>
           </div>
+          <div class="srcs"><div class="lab">Source${post.sources.length > 1 ? "s" : ""}</div>${srcs}</div>
           <div class="footer"><span>${handle}</span><span class="dots">${dots(index, total)}</span></div>
         </div>`;
       return;
@@ -116,13 +170,14 @@
 
     const s = post.slides[index - 1];
     const body = s.quote
-      ? `<p class="quote">“${rich(s.quote)}”</p><p class="who">— ${rich(s.who)}</p>`
+      ? `<div class="qmark">“</div><p class="quote">${rich(s.quote)}</p><p class="who">${rich(s.who)}</p>`
       : s.body.map(p => `<p>${rich(p)}</p>`).join("");
     root.innerHTML = `
       <div class="card slide">
-        <div class="kicker">${String(index + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")} · <b>${rich(s.kicker)}</b></div>
+        ${deco(index + 1)}
+        ${kicker(index, total, rich(s.kicker), rich(post.cover.tag))}
         <div class="content" data-fit>
-          ${s.title ? `<h2>${rich(s.title)}</h2>` : ""}${body}
+          ${s.title ? `<div class="bar"></div><h2>${rich(s.title)}</h2>` : ""}${body}
         </div>
         <div class="footer"><span>${handle}</span><span class="dots">${dots(index, total)}</span></div>
       </div>`;

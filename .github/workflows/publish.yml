@@ -8,12 +8,15 @@ on:
       post:
         description: "Post folder to publish, e.g. posts/2026-10-21-some-slug (blank = oldest ready post)"
         required: false
-  # Two posts a day. Each run posts the oldest merged post with "status": "ready".
-  # Times are winter time (Vienna UTC+1, New York UTC-5); add 1 hour in summer.
+  # Two posts a day, at 13:57 and 19:57 Vienna time all year.
+  # Cron runs in UTC, so each slot has a summer and a winter entry; the "Pick post" step skips
+  # the one that doesn't match Vienna's current UTC offset.
   # A few minutes before the hour, because GitHub delays jobs scheduled exactly on the hour.
   schedule:
-    - cron: "57 12 * * *"   # 12:57 UTC = 13:57 Vienna = 07:57 New York = 21:57 Seoul
-    - cron: "57 18 * * *"   # 18:57 UTC = 19:57 Vienna = 13:57 New York = 10:57 Los Angeles
+    - cron: "57 11 * * *"   # summer: 13:57 Vienna (UTC+2)
+    - cron: "57 12 * * *"   # winter: 13:57 Vienna (UTC+1)
+    - cron: "57 17 * * *"   # summer: 19:57 Vienna
+    - cron: "57 18 * * *"   # winter: 19:57 Vienna
 
 permissions:
   contents: write
@@ -33,6 +36,15 @@ jobs:
       - name: Pick post
         id: pick
         run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            case "${{ github.event.schedule }}" in
+              "57 11 * * *"|"57 17 * * *") want=+0200 ;;
+              *) want=+0100 ;;
+            esac
+            if [ "$(TZ=Europe/Vienna date +%z)" != "$want" ]; then
+              echo "other season's slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
+            fi
+          fi
           if [ -n "${{ inputs.post }}" ]; then echo "dir=${{ inputs.post }}" >> "$GITHUB_OUTPUT"; exit 0; fi
           for d in $(ls -d posts/2*/ | sort); do
             if grep -q '"status": "ready"' "$d/post.json"; then echo "dir=${d%/}" >> "$GITHUB_OUTPUT"; exit 0; fi
