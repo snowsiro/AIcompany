@@ -1,0 +1,63 @@
+{
+  "id": "2026-10-01-korea-ai-for-all",
+  "date": "2026-10-01",
+  "category": "POLICY",
+  "status": "sample",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · POLICY",
+    "headline": ["KOREA BETS $184M", "ON **HOMEGROWN** AI"],
+    "hook_options": [
+      ["KOREA BETS $184M", "ON **HOMEGROWN** AI"],
+      ["KOREA DOESN'T", "WANT **CHATGPT**"],
+      ["**5 MILLION** USERS.", "ZERO FOREIGN AI?"]
+    ],
+    "hook_pick_reason": "Number hook, fully backed by slide 4. Option 2 overclaims (the rule is 50% domestic, not zero foreign). Option 3 also overclaims.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261020_202347_41352e26-6e94-4d14-a574-4579c021d339.png",
+    "image_prompt": "Cinematic night shot of the Seoul skyline, a colossal glowing neural-network core of golden light rising from the city like a new tower, data streams flowing into it. Main subject in the upper half, lower third in shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "What's happening",
+      "title": "Three AI services, one government project",
+      "body": ["Teams led by **SK Telecom**, **KT** and Kakao, Korea's biggest telecom and messenger companies, will open closed betas this October."]
+    },
+    {
+      "kicker": "The rule",
+      "title": "Built mostly on Korean models",
+      "body": ["Under the “AI for All” project, at least **50%** of each service must run on domestic AI models.", "The government provides funding and GPUs."]
+    },
+    {
+      "kicker": "The money",
+      "title": "₩250B more from next year",
+      "body": ["Seoul will inject an extra **₩250 billion** (about $184M), including some **2,000 GPUs**."]
+    },
+    {
+      "kicker": "The target",
+      "title": "5 million monthly users",
+      "body": ["That's the goal for each service. Kakao is aiming higher: **10M by 2027** and 30M by 2030."]
+    },
+    {
+      "kicker": "Why it matters",
+      "title": "Less reliance on foreign AI",
+      "body": ["About **23 million** people in Korea have used generative AI, 21M of them on free tiers. Seoul wants more of that usage on homegrown models."]
+    }
+  ],
+  "facts": [
+    { "source": 0, "text": "Three consortia led by SK Telecom, KT and Kakao will launch closed betas of AI services in October 2026, developed under a government-led project." },
+    { "source": 0, "text": "The government's AI for All project, unveiled in July, aims to lower dependence on foreign AI models. Developers must use domestic AI models for at least 50 percent of the services; government funding and GPU support are provided." },
+    { "source": 0, "text": "Korea will inject an additional 250 billion won ($184.37 million / $184M), starting next year, including securing some 2,000 GPUs." },
+    { "source": 0, "text": "Developers set a monthly active user target of 5 million. Kakao plans 10 million by 2027 (10M) and 30 million by 2030 (30M)." },
+    { "source": 0, "text": "Per the Ministry of Science and ICT, some 23 million people in Korea have used generative AI; 21 million (21M) used free lower-tier models." }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Times (Yonhap)",
+      "title": "Korean firms to unveil AI service developed under gov't project: sources",
+      "date": "Oct 1, 2026",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20261001/korean-firms-to-unveil-ai-service-developed-under-govt-project-sources"
+    }
+  ],
+  "caption": "Korea is putting ₩250B (about $184M) behind AI built at home.\n\nThree teams led by SK Telecom, KT and Kakao open closed betas this month under the government's “AI for All” project. The catch: at least half of each service has to run on Korean-made models.\n\n→ Target: 5M monthly users per service\n→ Kakao's goal: 10M by 2027, 30M by 2030\n→ ~2,000 GPUs in the new funding\n\nWould you switch to a national AI service?\n\nSource: The Korea Times / Yonhap, Oct 1, 2026.\n\nFollow @ai.news.company for daily Korea AI news.",
+  "hashtags": ["#KoreaAI", "#SouthKorea", "#AINews", "#SovereignAI", "#Kakao", "#SKTelecom", "#KT", "#GenerativeAI", "#TechNews"]
+}

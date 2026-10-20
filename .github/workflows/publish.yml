@@ -1,0 +1,49 @@
+name: publish
+
+# Posts the oldest merged post with "status": "ready" to Instagram.
+# Manual only for now. The schedule is turned on after the Instagram token is set up and tested.
+on:
+  workflow_dispatch:
+    inputs:
+      post:
+        description: "Post folder to publish, e.g. posts/2026-10-21-some-slug (blank = oldest ready post)"
+        required: false
+  # schedule:
+  #   - cron: "0 13 * * *"   # 13:00 UTC = 22:00 KST = 09:00 New York (EDT)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pick post
+        id: pick
+        run: |
+          if [ -n "${{ inputs.post }}" ]; then echo "dir=${{ inputs.post }}" >> "$GITHUB_OUTPUT"; exit 0; fi
+          for d in $(ls -d posts/2*/ | sort); do
+            if grep -q '"status": "ready"' "$d/post.json"; then echo "dir=${d%/}" >> "$GITHUB_OUTPUT"; exit 0; fi
+          done
+          echo "nothing ready to publish"; echo "dir=" >> "$GITHUB_OUTPUT"
+      - name: Publish
+        if: steps.pick.outputs.dir != ''
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/ig.mjs publish "${{ steps.pick.outputs.dir }}" "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}"
+      - name: Record result
+        if: steps.pick.outputs.dir != ''
+        run: |
+          git config user.name "ai-office-bot"
+          git config user.email "ai-office-bot@users.noreply.github.com"
+          git add "${{ steps.pick.outputs.dir }}/post.json"
+          git commit -m "publish: ${{ steps.pick.outputs.dir }}" && git push

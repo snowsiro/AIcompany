@@ -1,0 +1,40 @@
+name: render
+
+# On every PR that touches a post: check the rules, render the slides with the real cover image,
+# and commit the JPEGs back to the PR so they can be reviewed on a phone.
+on:
+  pull_request:
+    paths: ["posts/**", "templates/**", "scripts/**", "DESIGN.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Rule check
+        run: npm run lint
+      - name: Render
+        env:
+          REQUIRE_COVER: "1"
+        run: node scripts/render.mjs posts/2*
+      - name: Commit rendered slides
+        run: |
+          git config user.name "ai-office-bot"
+          git config user.email "ai-office-bot@users.noreply.github.com"
+          git add posts/*/slides posts/*/cover.*
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "render: update slides [skip ci]"
+          git push

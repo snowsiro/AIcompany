@@ -1,0 +1,44 @@
+# Where the researcher looks every morning.
+# reference_accounts: Korean AI card-news accounts given by Jamie (2026-10-20).
+# Read through the Instagram Graph API Business Discovery endpoint only. Never scrape.
+# Used to pick topics (what is everyone covering?). Never copy their wording, layout or images.
+reference_accounts:
+  - ai.trend.kr
+  - sdk.kim.builds
+  - moodmode.ai
+  - trenddalkak.ai
+  - prompt_what
+  - ai_freaks.kr
+  - ai.brief.kr
+  - ai.ainow
+  - mktg.with.ai
+  - ddalkkak.mag
+
+# Original reporting. Every fact in a post must come from one of these (or another named outlet).
+news_sources:
+  english:
+    - name: The Korea Times
+      url: https://www.koreatimes.co.kr/business/tech-science
+    - name: Korea JoongAng Daily
+      url: https://koreajoongangdaily.joins.com/section/business
+    - name: The Korea Herald
+      url: https://www.koreaherald.com/list.php?ct=020000000000
+    - name: Yonhap News (English)
+      url: https://en.yna.co.kr/
+  korean:
+    - name: AI타임스
+      url: https://www.aitimes.com/
+    - name: 전자신문 (etnews)
+      url: https://www.etnews.com/
+    - name: 디지털타임스
+      url: https://www.dt.co.kr/
+    - name: ZDNet Korea
+      url: https://zdnet.co.kr/
+
+# Topic scoring (editor-in-chief)
+scoring:
+  covered_by_reference_accounts: 3   # per account that posted about it in the last 48h
+  korea_specific: 3                  # a Korean company, ministry or person is central
+  has_hard_number: 2                 # money, users, %, dates
+  global_relevance: 2                # a non-Korean reader would care
+  already_posted_last_14_days: -10
