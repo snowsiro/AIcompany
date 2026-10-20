@@ -1,0 +1,54 @@
+name: morning-scan
+
+# Gathers what the 05:45 Vienna routine can't reach on its own, and commits it to main:
+#   ops/scan/<date>/reference.json  reference accounts' posts from the last 48h (needs the Instagram token)
+#   ops/scan/<date>/feeds.json      new AI articles from each outlet's RSS, or Google News RSS for that site
+# The researcher reads these files first. Read-only towards Instagram: it never posts.
+on:
+  schedule:
+    - cron: "7 3 * * *"   # 03:07 UTC = 05:07 Vienna in summer, 04:07 in winter; before the 05:45 routine either way
+  workflow_dispatch:
+  # On a PR that changes the scan, run it as a check without committing anything.
+  pull_request:
+    paths: ["scripts/feeds.mjs", "scripts/ig.mjs", ".github/workflows/morning-scan.yml", "config/sources.yaml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morning-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pick folder
+        id: day
+        run: echo "dir=ops/scan/$(TZ=Europe/Vienna date +%F)" >> "$GITHUB_OUTPUT"
+      - name: Reference accounts
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/ig.mjs scan "${{ steps.day.outputs.dir }}/reference.json"
+      - name: News feeds
+        if: always()
+        run: node scripts/feeds.mjs "${{ steps.day.outputs.dir }}/feeds.json"
+      - name: Commit
+        if: always() && github.event_name != 'pull_request'
+        run: |
+          git config user.name "ai-office-bot"
+          git config user.email "ai-office-bot@users.noreply.github.com"
+          git add "${{ steps.day.outputs.dir }}"
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "scan: ${{ steps.day.outputs.dir }}"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
