@@ -48,6 +48,10 @@
 | 통념 뒤집기 | BIGGER MODELS AREN'T WINNING |
 | 대결 | SAMSUNG VS LG / OPENAI VS GOOGLE |
 | 인용 | "10 YEARS" — IMF ON AI DATA CENTERS |
+| 독자 영향 | YOUR AI BILL IS ABOUT TO DROP |
+
+`post.json`의 `cover.hook_types`에는 영문 키를 씁니다: number, claim, myth-flip, rivalry, quote, reader-impact.
+독자 영향형은 "그래서 나한테 뭐가 바뀌지?"에 답하는 훅입니다. 그 영향이 원문 기사에 있을 때만 씁니다.
 
 ## 본문 슬라이드 (2 ~ n-1)
 

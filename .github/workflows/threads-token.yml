@@ -1,0 +1,41 @@
+name: threads-token
+
+# Threads long-lived tokens last 60 days and must be refreshed before then (unlike the Instagram page token).
+# Runs weekly, so a few late or skipped GitHub schedules still leave weeks of margin.
+# If Meta hands back a new token string, it is saved to the THREADS_ACCESS_TOKEN secret using GH_SECRETS_TOKEN
+# (a fine-grained token with "Secrets: read and write" on this repo). Without that secret the run fails and says so,
+# and the new token has to be pasted in by hand.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1"   # Mondays 04:17 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh token
+        id: refresh
+        env:
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: node scripts/threads.mjs refresh
+      - name: Save new token
+        if: steps.refresh.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
+          NEW_TOKEN: ${{ steps.refresh.outputs.token }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Meta issued a new Threads token but GH_SECRETS_TOKEN is not set, so it can't be saved. Generate a new token and update THREADS_ACCESS_TOKEN by hand."
+            exit 1
+          fi
+          printf '%s' "$NEW_TOKEN" | gh secret set THREADS_ACCESS_TOKEN --repo "${{ github.repository }}"
+          echo "saved the refreshed token to THREADS_ACCESS_TOKEN"

@@ -72,13 +72,34 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: node scripts/ig.mjs publish "${{ steps.pick.outputs.dir }}" "https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.pick.outputs.sha }}"
+      # Threads follows Instagram with the same slides (added 2026-10-21). It never blocks or undoes the Instagram post:
+      # on failure the run stays green and the next run retries it (catchup). Skips quietly until the THREADS_* secrets exist.
+      - name: Cross-post to Threads
+        if: steps.pick.outputs.dir != ''
+        continue-on-error: true
+        env:
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: |
+          base="https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.pick.outputs.sha }}"
+          node scripts/threads.mjs publish "${{ steps.pick.outputs.dir }}" "$base" || echo "::warning::Threads post failed; the next run retries it"
+          node scripts/threads.mjs catchup "$base" || echo "::warning::Threads retry failed"
       - name: Record result
         if: steps.pick.outputs.dir != ''
         run: |
           git config user.name "ai-office-bot"
           git config user.email "ai-office-bot@users.noreply.github.com"
-          git add "${{ steps.pick.outputs.dir }}/post.json"
-          git commit -m "publish: ${{ steps.pick.outputs.dir }}"
+          # One publish: commit records Instagram and Threads together, so the 3-hour guard sees one publish per slot.
+          git add posts/*/post.json
+          if git diff --cached --quiet; then echo "nothing to record"; exit 0; fi
+          # "publish: " only when Instagram actually posted; a Threads-only run (e.g. a manual test on a post
+          # that is already on Instagram) must not trip the 3-hour guard for the next slot.
+          if git diff --cached -U0 -- "${{ steps.pick.outputs.dir }}/post.json" | grep -q '^+.*"published_id"'; then
+            msg="publish: ${{ steps.pick.outputs.dir }}"
+          else
+            msg="threads: ${{ steps.pick.outputs.dir }}"
+          fi
+          git commit -m "$msg"
           # The post is live now. If this record is lost, the next run would post it again, so retry the push.
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin HEAD:main && exit 0
