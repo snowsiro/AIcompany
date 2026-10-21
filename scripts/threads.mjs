@@ -1,6 +1,6 @@
 // Threads API helper: cross-posts the same slides that went to Instagram.
-// Needs env: THREADS_USER_ID, THREADS_ACCESS_TOKEN. Never print the token.
-// When either is missing, every command says so and exits 0, so publish.yml keeps working before Threads is set up.
+// Needs env: THREADS_ACCESS_TOKEN. THREADS_USER_ID is optional; without it the ID is looked up from the token (/me).
+// Never print the token. Without a token every command says so and exits 0, so publish.yml keeps working before Threads is set up.
 //
 //   node scripts/threads.mjs publish posts/<id> <public-base>   post the rendered slides as one carousel
 //   node scripts/threads.mjs catchup <public-base> [hours]       retry at most one post whose Threads attempt failed
@@ -15,9 +15,9 @@ import { readFileSync, readdirSync, writeFileSync, appendFileSync } from "node:f
 import { join, resolve, relative } from "node:path";
 
 const API = "https://graph.threads.net/v1.0";
-const { THREADS_USER_ID, THREADS_ACCESS_TOKEN } = process.env;
-if (!THREADS_USER_ID || !THREADS_ACCESS_TOKEN) {
-  console.log("Threads is not set up (THREADS_USER_ID / THREADS_ACCESS_TOKEN secrets missing), skipping.");
+const { THREADS_ACCESS_TOKEN } = process.env;
+if (!THREADS_ACCESS_TOKEN) {
+  console.log("Threads is not set up (THREADS_ACCESS_TOKEN secret missing), skipping.");
   process.exit(0);
 }
 
@@ -31,6 +31,8 @@ async function call(method, path, params = {}, base = API) {
   if (json.error) throw new Error(`${json.error.type || "error"} ${json.error.code}: ${json.error.message}`);
   return json;
 }
+// Set below, after call() exists: the secret if given, else the token's own profile ID.
+let THREADS_USER_ID = process.env.THREADS_USER_ID;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function waitReady(containerId) {
@@ -134,7 +136,8 @@ async function insights(days = 7) {
 
 async function check() {
   const me = await call("GET", "/me", { fields: "id,username" });
-  console.log(`profile: @${me.username} (id ${me.id === THREADS_USER_ID ? "matches" : "DOES NOT MATCH"} THREADS_USER_ID)`);
+  const idNote = !process.env.THREADS_USER_ID ? "id taken from the token" : me.id === THREADS_USER_ID ? "id matches THREADS_USER_ID" : "id DOES NOT MATCH THREADS_USER_ID";
+  console.log(`profile: @${me.username} (${idNote})`);
   try {
     const { data } = await call("GET", `/${THREADS_USER_ID}/threads_insights`, { metric: "followers_count" });
     console.log(`followers: ${data?.[0]?.total_value?.value ?? "unknown"}`);
@@ -159,6 +162,7 @@ async function refresh() {
 
 const [cmd, ...args] = process.argv.slice(2);
 try {
+  if (!THREADS_USER_ID && cmd !== "refresh") THREADS_USER_ID = (await call("GET", "/me", { fields: "id" })).id;
   if (cmd === "publish") await publish(args[0], args[1]);
   else if (cmd === "catchup") await catchup(args[0], Number(args[1] || 48));
   else if (cmd === "insights") await insights(Number(args[0] || 7));
