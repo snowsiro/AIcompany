@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
   # On a PR that changes the scan, run it as a check without committing anything.
   pull_request:
-    paths: ["scripts/feeds.mjs", "scripts/ig.mjs", ".github/workflows/morning-scan.yml", "config/sources.yaml"]
+    paths: ["scripts/feeds.mjs", "scripts/ig.mjs", "scripts/article.mjs", ".github/workflows/morning-scan.yml", "config/sources.yaml"]
 
 permissions:
   contents: write
@@ -39,6 +39,20 @@ jobs:
       - name: News feeds
         if: always()
         run: node scripts/feeds.mjs "${{ steps.day.outputs.dir }}/feeds.json"
+      - name: Article reader check
+        # On a PR only: read the newest article from each outlet's own RSS, to see which sites the reader works on.
+        if: always() && github.event_name == 'pull_request'
+        run: |
+          links=$(jq -r '.sources[] | select(.via == "rss") | .items[0].link // empty' "${{ steps.day.outputs.dir }}/feeds.json")
+          ok=0; n=0
+          for u in $links; do
+            n=$((n + 1))
+            if out=$(node scripts/article.mjs "$u"); then
+              ok=$((ok + 1)); echo "ok   $u ($(echo "$out" | wc -w) words)"
+            fi
+          done
+          echo "articles read: $ok/$n"
+          [ "$ok" -gt 0 ]
       - name: Commit
         if: always() && github.event_name != 'pull_request'
         run: |

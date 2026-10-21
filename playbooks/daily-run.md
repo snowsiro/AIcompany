@@ -8,6 +8,11 @@ It makes **two posts** on a new branch `daily/<date>` and ends with one pull req
 You are the AI office for @ai.news.company. Read `CLAUDE.md`, `DESIGN.md`, `config/sources.yaml` and `config/budget.yaml`.
 Today is {{date}} (Vienna time). Run these steps in order, using the subagents in `.claude/agents/`.
 
+0. Check that the morning scan is on main: `git fetch origin main && git ls-tree origin/main ops/scan/{{date}}/`.
+   GitHub sometimes skips the scheduled 05:07 scan. If the folder is missing, start the repo's own `morning-scan`
+   workflow (GitHub tool `actions_run_trigger`, method `run_workflow`, workflow `morning-scan.yml`, ref `main`; this is
+   GitHub Actions, not a connector), then run `git fetch origin main` every 30 seconds for up to 5 minutes until the folder
+   appears. If it never appears, carry on without it and say so in the morning report.
 1. **researcher** → `ops/candidates/{{date}}.json`
 2. **editor-in-chief** → picks two different stories, writes `posts/<id>/brief.md` for each
 

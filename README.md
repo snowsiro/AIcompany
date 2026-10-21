@@ -40,6 +40,7 @@ No computer needs to stay on.
 | `scripts/render.mjs` | Renders slides, fails if text does not fit |
 | `scripts/ig.mjs` | Instagram Graph API: discover, scan, publish, insights, check |
 | `scripts/feeds.mjs` | New AI articles from each outlet's RSS (Google News RSS as fallback) |
+| `scripts/article.mjs` | Prints an article's own text, for checking facts word for word |
 | `ops/scan/<date>/` | What morning-scan saved for the researcher |
 | `ops/run-log.md` | Morning reports |
 
