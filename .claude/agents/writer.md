@@ -19,9 +19,13 @@ Read `CLAUDE.md`, `DESIGN.md`, the brief, and one finished post in `posts/` as t
   Never describe a real person.
 - 4-6 body slides: kicker (≤4 words), title, body. ≤48 words per slide, ≤2 `**emphasis**`. Explain lesser-known company, agency and people names on first use.
 - `facts`: every number you show must appear in a fact, and every fact cites its source index.
-- `caption`: hook line, 2-3 arrow bullets, a question, "Source: <outlet>, <date>.", follow line. 5-10 hashtags.
+- `caption`: hook line, 2-3 arrow bullets, a question, "Source: <outlet>, <date>.", follow line.
+  The hook line must name the subject (company, product, country), because Instagram search reads the caption:
+  "The US just told its agencies to drop DeepSeek." beats "One government just told its agencies to drop a Chinese AI model."
   If `config/site.json` has a `newsletter_url`, end the follow line with " Weekly digest: link in bio." (read only that field).
   The weekly newsletter reuses the hook line, the context paragraph and the arrow bullets as they are, so each must make sense on its own.
+- `hashtags`: 3-5. At most one broad tag (#AINews); the rest specific to this story (company, product, place + topic, e.g.
+  #DeepSeek #AIPolicy #KoreaAI). The first caption line must contain the word of at least one specific tag.
 - `threads_caption`: the Threads version, max 500 characters (Threads counts emoji and arrows as several bytes, lint checks bytes).
   Hook line, 1-2 short lines on why it matters, "Source: <outlet>, \"<article title>\"." At most one hashtag, no links.
 
