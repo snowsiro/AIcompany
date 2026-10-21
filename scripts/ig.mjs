@@ -4,6 +4,8 @@
 //   node scripts/ig.mjs discover <username>               last posts of another business/creator account
 //   node scripts/ig.mjs publish posts/<id> <public-base>  post the rendered slides as one carousel
 //   node scripts/ig.mjs insights [days]                   per-post metrics for the analyst
+//   node scripts/ig.mjs reel posts/<id> <public-base>     post posts/<id>/reel.mp4 as a Trial Reel (non-followers first)
+//   node scripts/ig.mjs reel-catchup <public-base>        same, for published posts from REEL_START on that have no Reel yet
 //   node scripts/ig.mjs metrics <out.json> [days]         daily snapshot: per-post + account metrics (morning scan)
 //   node scripts/ig.mjs limit                             publishing quota used in the last 24h
 //   node scripts/ig.mjs check                             connection test: own account, quota, reference accounts
@@ -11,7 +13,7 @@
 //
 // <public-base> is a URL where posts/ is reachable, e.g. https://raw.githubusercontent.com/snowsiro/AIcompany/main
 // (Instagram downloads each image from a public URL; it does not accept uploads.)
-import { readFileSync, readdirSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join, resolve, relative, dirname } from "node:path";
 
 const API = "https://graph.facebook.com/v26.0";
@@ -95,6 +97,51 @@ async function insights(days = 7) {
     });
   }
   console.log(JSON.stringify(rows, null, 2));
+}
+
+// Trial Reels (added 2026-10-22, PRD "초기 도달 패키지" C): the same slides as a 9:16 video, shown to non-followers first.
+// SS_PERFORMANCE lets Instagram move a Reel that does well onto the profile by itself (Jamie chose this, 2026-10-21).
+// If the account can't post Trial Reels yet, it falls back to a normal Reel kept off the profile grid (share_to_feed=false),
+// so followers never see the same story twice in their feed. The carousel is always posted and recorded first.
+const REEL_START = "2026-10-22";
+async function reel(dir, base) {
+  dir = resolve(dir);
+  const post = JSON.parse(readFileSync(join(dir, "post.json"), "utf8"));
+  if (post.reel_id) { console.log(`reel already posted: ${post.reel_permalink}`); return; }
+  if (!post.published_id) throw new Error(`${post.id}: carousel not published yet, the Reel goes after it`);
+  const rel = relative(process.cwd(), dir).split("\\").join("/");
+  const params = { media_type: "REELS", video_url: `${base}/${rel}/reel.mp4`, caption: `${post.caption}\n\n${post.hashtags.join(" ")}` };
+  let trial = true, container;
+  try {
+    ({ id: container } = await call("POST", `/${IG_USER_ID}/media`, { ...params, trial_params: JSON.stringify({ graduation_strategy: "SS_PERFORMANCE" }) }));
+  } catch (err) {
+    console.log(`trial reel refused (${err.message}); posting a normal Reel kept off the grid`);
+    trial = false;
+    ({ id: container } = await call("POST", `/${IG_USER_ID}/media`, { ...params, share_to_feed: "false" }));
+  }
+  // video processing takes longer than images: wait up to 10 minutes
+  for (let i = 0; ; i++) {
+    const { status_code, status } = await call("GET", `/${container}`, { fields: "status_code,status" });
+    if (status_code === "FINISHED") break;
+    if (status_code === "ERROR" || status_code === "EXPIRED") throw new Error(`reel container ${status_code}: ${status || ""}`);
+    if (i >= 60) throw new Error("reel container not ready after 10 minutes");
+    await sleep(10000);
+  }
+  const { id: mediaId } = await call("POST", `/${IG_USER_ID}/media_publish`, { creation_id: container });
+  const { permalink } = await call("GET", `/${mediaId}`, { fields: "permalink" });
+  if (!permalink) throw new Error(`published reel ${mediaId} but no permalink came back`);
+  Object.assign(post, { reel_id: mediaId, reel_permalink: permalink, reel_trial: trial });
+  writeFileSync(join(dir, "post.json"), JSON.stringify(post, null, 2) + "\n");
+  console.log(`reel ${post.id}${trial ? " (trial)" : ""}: ${permalink}`);
+}
+
+async function reelCatchup(base) {
+  for (const d of readdirSync("posts").filter(d => d >= REEL_START).sort()) {
+    const file = join("posts", d, "post.json");
+    if (!existsSync(file) || !existsSync(join("posts", d, "reel.mp4"))) continue;
+    const p = JSON.parse(readFileSync(file, "utf8"));
+    if (p.published_id && !p.reel_id) await reel(join("posts", d), base);
+  }
 }
 
 // Daily snapshot for the morning report and the 11-04 / 11-18 reviews (added 2026-10-22).
@@ -233,10 +280,12 @@ try {
   else if (cmd === "publish") await publish(args[0], args[1]);
   else if (cmd === "insights") await insights(Number(args[0] || 7));
   else if (cmd === "check") await check();
+  else if (cmd === "reel") await reel(args[0], args[1]);
+  else if (cmd === "reel-catchup") await reelCatchup(args[0]);
   else if (cmd === "metrics") await metrics(args[0], Number(args[1] || 14));
   else if (cmd === "scan") await scan(args[0], Number(args[1] || 48));
   else if (cmd === "limit") console.log(JSON.stringify(await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" })));
-  else { console.error("commands: discover | publish | insights | metrics | limit | check | scan"); process.exit(2); }
+  else { console.error("commands: discover | publish | reel | reel-catchup | insights | metrics | limit | check | scan"); process.exit(2); }
 } catch (err) {
   console.error(`FAIL ${cmd}: ${err.message}`);
   process.exit(1);

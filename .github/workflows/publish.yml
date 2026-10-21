@@ -107,3 +107,27 @@ jobs:
           done
           echo "::error::Posted to Instagram but could not record it in post.json. Set its status to published by hand before the next run."
           exit 1
+      # Trial Reel of the same slides (added 2026-10-22). Runs only after the carousel is posted and recorded above,
+      # so a Reel failure can never block or undo the carousel; the next run retries it (reel-catchup).
+      # Commits as "reel: " so the 3-hour guard (^publish: ) keeps counting carousels only.
+      - name: Trial Reel
+        if: steps.pick.outputs.dir != ''
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          git pull --rebase origin main || true
+          base="https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.pick.outputs.sha }}"
+          dir="${{ steps.pick.outputs.dir }}"
+          if [ -f "$dir/reel.mp4" ]; then node scripts/ig.mjs reel "$dir" "$base" || echo "::warning::Reel failed; the next run retries it"; fi
+          node scripts/ig.mjs reel-catchup "$base" || echo "::warning::Reel retry failed"
+          git add posts/*/post.json
+          if git diff --cached --quiet; then echo "no reel recorded"; exit 0; fi
+          git commit -m "reel: $dir"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          echo "::error::Reel posted but not recorded in post.json. Add reel_id by hand before the next run, or it posts again."
+          exit 1
