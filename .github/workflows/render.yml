@@ -30,11 +30,18 @@ jobs:
         env:
           REQUIRE_COVER: "1"
         run: node scripts/render.mjs posts/2*
+      # 9:16 Reel video from the same slides (added 2026-10-22), for posts from that day on. ffmpeg only, no credits.
+      - name: Reel video
+        run: |
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          dirs=$(for d in posts/2*/; do d=${d%/}; [[ "$(basename "$d")" > "2026-10-22" ]] && echo "$d"; done; true)
+          [ -z "$dirs" ] || node scripts/reel.mjs $dirs
       - name: Commit rendered slides
         run: |
           git config user.name "ai-office-bot"
           git config user.email "ai-office-bot@users.noreply.github.com"
           git add posts/*/slides posts/*/cover.*
+          git add posts/*/reel.mp4 2>/dev/null || true
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "render: update slides [skip ci]"
           git push

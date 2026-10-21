@@ -76,3 +76,8 @@
 - 제목 `Never miss a day of AI news.` (`AI news.`만 accent), 보조 문구 `Two stories a day, from around the world.`
 - 팔로우 박스: `@ai.news.company` + accent `+ FOLLOW` 버튼 모양. 아래에 `Save for later`, `Share with a friend`
 - 맨 아래(푸터 위): 작은 글씨로 출처. 매체명, "기사 제목" (날짜), 최대 3개. 캡션 끝에도 같은 출처를 적음
+
+## Reel (2026-10-22)
+
+`scripts/reel.mjs`가 렌더된 슬라이드로 1080×1920 영상을 만듭니다. 4:5 슬라이드를 가운데 두고 위아래는 ink 배경입니다.
+커버 2.5초, 본문 3.5초, 마지막 장 2.5초, 무음입니다. 새 디자인이나 새 이미지는 없습니다. 캐러셀을 게시한 뒤 Trial Reel로 올립니다.
