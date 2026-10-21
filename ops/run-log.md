@@ -2,6 +2,17 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [수정] 2026-10-21 SpaceX 글 다시 살림
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음
+자세한 기록
+- 07:31 제이미 요청: blocked 글을 고치고, 한도를 넘겨서라도 빠진 커버를 생성
+- `2026-10-21-spacex-ai-revenue`: 2차 팩트체크 지적 4곳 수정 (Musk 예측 주체, 캡션 오타, 비트코인 문구, heavy-lift 삭제)
+- 원문 대조: check-article 워크플로로 TechCrunch 원문의 숫자와 이름을 전부 확인 (WebFetch 요약은 버전이 달라 신뢰 못 함)
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2 크레딧. 일일 한도 초과분(오늘 합계 8/6), 제이미 승인. 월 한도에는 포함
+- 게시 순서: 13:57 DeepSeek 게시 확인 후 머지 → 19:57에 SpaceX
+
 ## [아침 보고] 2026-10-21 (2차 실행)
 처리 2건 (ready 0 · blocked 2) · 실패 0건
 결정할 일
