@@ -1,0 +1,371 @@
+{
+ "date": "2026-10-21",
+ "run": 2,
+ "notes": "Run 2. ops/scan/2026-10-21 does not exist on origin/main; no IG token, so no reference_posts or reference-account scoring. Facts are from WebFetch summaries of the TechCrunch article text (close paraphrase); fact-checker should re-verify against URLs. Excludes everything in ops/candidates/2026-10-21.json and posts/_backlog. No story repeats posts/ of the last 14 days. All 8 are TechCrunch via its RSS (The Verge fetch blocked). Europe and Korea searches found nothing dated today; no Europe/Korea angle in this list.",
+ "candidates": [
+  {
+   "title": "Anthropic pitches a federal AI safety bill that could block a model release",
+   "repeat_last_14_days": false,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+     "date": "2026-10-20",
+     "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Politico reported that Anthropic has been circulating a draft AI safety bill it hopes Congress will consider.",
+     "article": 0
+    },
+    {
+     "fact": "A model's release could be blocked when there is a 'foreseeable, imminent risk' that over 50 people could die or over $1 billion in property damage could result.",
+     "article": 0
+    },
+    {
+     "fact": "The qualifying risk must stem from a biological weapon, the model evading its developer's controls, or a cyberattack.",
+     "article": 0
+    },
+    {
+     "fact": "The thresholds resemble those in California's Senate Bill 53, which recently became law.",
+     "article": 0
+    },
+    {
+     "fact": "The bill proposes independent evaluators registered with the U.S. Commerce Department, who could be paid by AI labs if payment is not contingent on their results.",
+     "article": 0
+    },
+    {
+     "fact": "If evaluators find an imminent catastrophic risk, they would have 72 hours to notify Commerce, which would ask a D.C. judge to halt the release.",
+     "article": 0
+    },
+    {
+     "fact": "The bill would bar federal agencies from halting a model's distribution on their own discretion.",
+     "article": 0
+    },
+    {
+     "fact": "Labs have mostly resisted mandatory government oversight, while Nvidia CEO Jensen Huang has argued the industry doesn't need new laws.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "SpaceX's AI segment brings in $7.5B, 52% of revenue",
+   "repeat_last_14_days": false,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "SpaceX's AI business is beating expectations",
+     "date": "2026-10-20",
+     "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SpaceX reported $14.6 billion in third-quarter revenue in a regulatory filing on Tuesday.",
+     "article": 0
+    },
+    {
+     "fact": "The renamed 'Super Intelligence' segment generated $7.5 billion in revenue; AI now makes up 52% of the company's income.",
+     "article": 0
+    },
+    {
+     "fact": "The AI business earned $431 million in profit, which would have been higher without $1.2 billion in one-time stock-based compensation tied to the Cursor acquisition.",
+     "article": 0
+    },
+    {
+     "fact": "Total capital expenditures were $19.6 billion; CFO Bret Johnsen said SpaceX would spend $35 billion to $40 billion on new capital investments in the fourth quarter.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX reported net income of $4.4 billion versus a $1 billion loss in the same quarter last year, but still a $413 million net loss over the first nine months.",
+     "article": 0
+    },
+    {
+     "fact": "Starlink reached 13.6 million subscribers.",
+     "article": 0
+    },
+    {
+     "fact": "Musk predicted annual recurring revenue from Super Intelligence would reach 'somewhere between $500 billion and $1 trillion' by the end of 2027.",
+     "article": 0
+    },
+    {
+     "fact": "Musk said the next Starship test flight, expected in November, would attempt to recover both the booster and the second stage.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI buys biotech AI startup Orchestra Bio",
+   "repeat_last_14_days": false,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI acquires startup Orchestra Bio to beef up its biotech business",
+     "date": "2026-10-20",
+     "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI acquired Orchestra Bio, a four-year-old AI biotech software startup, announcing the deal on Tuesday, October 20, 2026.",
+     "article": 0
+    },
+    {
+     "fact": "The purchase price was not disclosed.",
+     "article": 0
+    },
+    {
+     "fact": "Orchestra reportedly raised about $20 million as of 2025 from Andreessen Horowitz, Atria and 8VC.",
+     "article": 0
+    },
+    {
+     "fact": "Orchestra builds AI agents that handle operational work for biotech companies, such as tracking finances and resolving clinical trial scheduling problems.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI is bringing Orchestra's team and technology into Rosalind, its AI model for life sciences research.",
+     "article": 0
+    },
+    {
+     "fact": "Orchestra's work will also feed into Rosalind Workbench, a tool to help researchers plan experiments and analyze results.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI says Moderna and Novo Nordisk are among its Rosalind customers.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "ChatGPT adds locked chats with PIN or Face ID",
+   "repeat_last_14_days": false,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "ChatGPT now lets you lock your chats",
+     "date": "2026-10-20",
+     "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI announced on Oct. 20, 2026 that ChatGPT users can lock conversations to keep sensitive chats private when others may see their screen or device.",
+     "article": 0
+    },
+    {
+     "fact": "Locked chats are protected by a four-digit PIN, or Face ID or Touch ID on supported devices.",
+     "article": 0
+    },
+    {
+     "fact": "Unlike Temporary Chats, locked chats can be reopened at any time.",
+     "article": 0
+    },
+    {
+     "fact": "Locked chats move to a separate 'Locked Chats' section, apart from regular history, pinned chats and search results.",
+     "article": 0
+    },
+    {
+     "fact": "With Memory enabled, Locked Chats has its own memory that does not update regular Memory.",
+     "article": 0
+    },
+    {
+     "fact": "Locking does not add end-to-end encryption, change retention, or change the 'Improve the model for everyone' setting.",
+     "article": 0
+    },
+    {
+     "fact": "Resetting the PIN permanently deletes all locked chats, files and other content protected by the old PIN.",
+     "article": 0
+    },
+    {
+     "fact": "The feature covers Free, Go, Plus, Pro, Business, Enterprise and Edu plans, and began rolling out Tuesday.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Microsoft: AI agents are like insider threats, launches Guardian Agents",
+   "repeat_last_14_days": false,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Microsoft says AI agents are like insider threats as 'frontier models can't be trusted'",
+     "date": "2026-10-19",
+     "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Microsoft on October 19, 2026 introduced new security features to protect enterprises from the threat posed by AI agents.",
+     "article": 0
+    },
+    {
+     "fact": "The headline addition is Guardian Agents, for monitoring the AI agents a company uses; it is part of Project Perception, which launched in June.",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft security business chief Hayete Gallot wrote that 'frontier models, regardless of their origin, cannot be trusted,' citing unpredictability rather than malice.",
+     "article": 0
+    },
+    {
+     "fact": "CEO Satya Nadella wrote: 'we need to separate the supply of intelligence from the authority over it.'",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft Defender's new agent detection can identify up to 60 types of agents employees bring to work, including Claude Code, Codex and OpenClaw.",
+     "article": 0
+    },
+    {
+     "fact": "New controls limit agents' access to data and systems and require human approval when an agent appears to be making risky decisions.",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft was an inaugural member of Nvidia's Open Agent Safety Platform, backed by more than 100 other tech companies.",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft also announced Surface Laptop Ultra PCs built for agents, running on Nvidia chips.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Otter.ai raises $320M without giving up equity",
+   "repeat_last_14_days": false,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Otter AI raises $320M from General Catalyst's growth fund for its meeting tool",
+     "date": "2026-10-20",
+     "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Otter.ai announced on October 20, 2026 that it raised $320 million from General Catalyst's Customer Value Fund, which offers capital without equity dilution and is tied to returns on marketing spend.",
+     "article": 0
+    },
+    {
+     "fact": "Otter has raised $50 million in total funding before this, with its last round in 2021, according to PitchBook.",
+     "article": 0
+    },
+    {
+     "fact": "Last year Otter passed $100 million in annual recurring revenue.",
+     "article": 0
+    },
+    {
+     "fact": "Otter says 40 million people have used its product, up from 25 million last year.",
+     "article": 0
+    },
+    {
+     "fact": "The money is planned for enterprise growth, go-to-market, international expansion and product innovation.",
+     "article": 0
+    },
+    {
+     "fact": "Otter is testing a prebrief feature and a Live Assist feature that lets users ask the AI questions during meetings.",
+     "article": 0
+    },
+    {
+     "fact": "Competitors include Fireflies.ai, Granola, Read AI and Circleback.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Robotics startup Eka hits $1.45B valuation with force-based robot model",
+   "repeat_last_14_days": false,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+     "date": "2026-10-20",
+     "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Eka Robotics closed a $150 million Series A at a $1.45 billion post-money valuation, led by a16z and F-Prime.",
+     "article": 0
+    },
+    {
+     "fact": "It was founded by MIT professor Pulkit Agrawal and former Google DeepMind researcher Tuomas Haarnoja.",
+     "article": 0
+    },
+    {
+     "fact": "The robot handles about 1,500 objects weighing up to 1 kg in an hour, versus roughly 600 for a human, and reportedly succeeds more than 95% of the time.",
+     "article": 0
+    },
+    {
+     "fact": "Eka uses a vision-force-action model, centered on force inputs, rather than a vision-language-action design.",
+     "article": 0
+    },
+    {
+     "fact": "Its custom gripper has more force sensors than traditional grippers and costs under $1,000.",
+     "article": 0
+    },
+    {
+     "fact": "The gripper is rated for 5 million duty cycles, short of the 20 million target for standard industrial arms.",
+     "article": 0
+    },
+    {
+     "fact": "Eka trains with reinforcement learning in a physics simulator, producing thousands of hours of robot experience in minutes.",
+     "article": 0
+    },
+    {
+     "fact": "Eka runs undisclosed pilots with industrial customers; an outside professor flagged long-term reliability on real assembly lines as a key challenge.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Yelp's AI agent will phone restaurants to check wait times",
+   "repeat_last_14_days": false,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+     "date": "2026-10-20",
+     "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Yelp is adding a 'Check for Me' feature to restaurant pages where users enter party size and phone number.",
+     "article": 0
+    },
+    {
+     "fact": "The AI agent calls the restaurant, checks wait times, and texts the results to the user.",
+     "article": 0
+    },
+    {
+     "fact": "A new OpenTable integration in Yelp's AI assistant lets users book a restaurant without leaving the app.",
+     "article": 0
+    },
+    {
+     "fact": "The assistant will remember preferences from earlier chats, and users can view their past 30 days of chat history.",
+     "article": 0
+    },
+    {
+     "fact": "Users can build 'Been Here' and 'Want to Go' lists with notes and sharing.",
+     "article": 0
+    },
+    {
+     "fact": "Starting next month, Yelp will show weekly personalized recommendations.",
+     "article": 0
+    },
+    {
+     "fact": "Yelp's paid Smart Lead Reply product for business owners costs $30 per month.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}

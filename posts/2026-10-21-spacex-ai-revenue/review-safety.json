@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "issues": [
+    "Non-blocking: cover fallback has a blue glow outside the DESIGN.md palette (template-originated).",
+    "Non-blocking: caption typo 'will hit of $500B to $1T'."
+  ]
+}

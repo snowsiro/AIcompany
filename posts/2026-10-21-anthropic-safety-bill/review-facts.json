@@ -1,0 +1,9 @@
+{
+  "pass": false,
+  "issues": [
+    {"where": "cover", "problem": "\"50+ DEATHS. $1B.\" reads as deaths that already happened; the article describes a risk threshold (over 50 people at risk of dying). Also \"50+\" vs \"over 50\" elsewhere.", "fix": "Use risk framing such as \"50+ LIVES AT RISK. $1B.\" and keep \"over 50\" consistent across the post."},
+    {"where": "slide 1", "problem": "\"Anthropic hopes Congress will consider it\" is not supported; the article says Congress \"might consider\" it. \"maker of the Claude AI models\" is not in the article text I could read.", "fix": "\"Congress might consider it.\" Mark the Claude gloss as general knowledge or confirm it."},
+    {"where": "slide 4", "problem": "\"the federal agency that oversees trade\" is an outside gloss, not in the article.", "fix": "Keep only if accepted as common knowledge."},
+    {"where": "caption", "problem": "\"drafted the rules that could stop its own models\" overstates a draft proposal as rules.", "fix": "\"An AI lab is pitching a draft law that could block its own models.\""}
+  ]
+}
