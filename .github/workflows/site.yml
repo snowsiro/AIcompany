@@ -2,6 +2,9 @@ name: site
 
 # Builds the link-in-bio page and the weekly digest (scripts/site.mjs) and deploys them to GitHub Pages.
 # Needs Pages turned on once: Settings > Pages > Source: GitHub Actions.
+# Public address: https://ainewscompany.github.io (brand org, so the bio link doesn't show this account's name).
+# With the SITE_DEPLOY_TOKEN secret (fine-grained, Contents read/write on ainewscompany/ainewscompany.github.io only)
+# the same files are pushed there as one fresh commit; without it only this repo's Pages copy is updated.
 # Runs after every publish run (bot commits made with GITHUB_TOKEN don't trigger push workflows), on config or
 # script changes, and once a day as a backup because GitHub's schedule is unreliable in this repo.
 on:
@@ -38,6 +41,21 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/site.mjs _site
+      - name: Push to ainewscompany.github.io
+        env:
+          TOKEN: ${{ secrets.SITE_DEPLOY_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "SITE_DEPLOY_TOKEN not set, skipping"; exit 0; fi
+          cd _site
+          touch .nojekyll
+          git init -q -b main
+          git config user.name "ai-news-company-bot"
+          git config user.email "ai-news-company-bot@users.noreply.github.com"
+          git add -A
+          git commit -q -m "site: build from ${GITHUB_SHA::7}"
+          # One commit each time (force), so old cover images don't pile up in the site repo's history.
+          git push -q --force "https://x-access-token:${TOKEN}@github.com/ainewscompany/ainewscompany.github.io.git" main
+          echo "pushed to https://ainewscompany.github.io"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
