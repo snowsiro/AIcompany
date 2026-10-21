@@ -1,0 +1,132 @@
+{
+  "id": "2026-10-21-spacex-ai-revenue",
+  "date": "2026-10-21",
+  "category": "ECONOMY",
+  "status": "blocked",
+  "korean_refs": [],
+  "cover": {
+    "tag": "US AI · ECONOMY",
+    "headline": [
+      "**52%** OF SPACEX",
+      "INCOME IS NOW AI"
+    ],
+    "hook_options": [
+      [
+        "**52%** OF SPACEX",
+        "INCOME IS NOW AI"
+      ],
+      [
+        "SPACEX ISN'T",
+        "JUST **ROCKETS**"
+      ],
+      [
+        "SPACEX'S NEXT",
+        "BIG **BILL**"
+      ],
+      [
+        "MUSK'S **2027**",
+        "$1T FORECAST"
+      ]
+    ],
+    "hook_pick_reason": "Number hook using the article's own wording: TechCrunch says AI makes up 52% of SpaceX's income, and slides 1-2 back it up. It says 'income', not 'revenue', because the article does. The myth-flip is softer; the spending hook is vague; the forecast hook rests on one Musk prediction. Slide 1 flags that 'income' is TechCrunch's term and gives the $431M AI profit.",
+    "image_url": "",
+    "image_prompt": "Cinematic wide shot of a rocket launch pad at dusk, a tall silver rocket on the pad while beyond it endless rows of glowing server racks stretch across the plain under a stormy sky, cool blue tones with a single warm amber glow from the rocket base. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The shift",
+      "title": "SpaceX is leaving rocket roots behind",
+      "body": [
+        "SpaceX reported **$14.6B** in Q3 revenue in a regulatory filing on Tuesday. TechCrunch says AI is now **52% of its \"income\"**, the article's own term. AI profit was $431M."
+      ]
+    },
+    {
+      "kicker": "The AI segment",
+      "title": "A renamed unit brought in $7.5B",
+      "body": [
+        "The renamed \"Super Intelligence\" unit generated **$7.5B** in revenue, from the recently acquired Cursor (an AI coding tool), the Grok bot and AI cloud computing. Separately, about $1B of company revenue came from Bitcoin gains and related-party income."
+      ]
+    },
+    {
+      "kicker": "The profit",
+      "title": "AI made $431M, and could have made more",
+      "body": [
+        "The AI business generated **$431M in profit**. It would have been higher without **$1.2B** in one-time stock-based compensation expenses related to the Cursor acquisition."
+      ]
+    },
+    {
+      "kicker": "The spending",
+      "title": "Spending is even bigger: $19.6B",
+      "body": [
+        "Third-quarter capital expenditures hit **$19.6B**, as SpaceX builds a second data center project and invests in Starship, its heavy-lift rocket. CFO Bret Johnsen said it expects to spend **$35B to $40B** on new capital investment in Q4."
+      ]
+    },
+    {
+      "kicker": "The bottom line",
+      "title": "Profitable again, but not for the year",
+      "body": [
+        "Net income was **$4.4B**, a turnaround from a $1B loss in the same quarter last year. Over the first nine months, SpaceX still had a **$413M net loss**."
+      ]
+    },
+    {
+      "kicker": "Musk's forecast",
+      "title": "Musk predicts up to $1 trillion",
+      "body": [
+        "On the Super Intelligence (AI) business, Elon Musk predicted annual recurring revenue of \"somewhere between **$500 billion and $1 trillion**\" by the end of 2027. That is his forecast, not a result. Starlink, its satellite internet service, now has 13.6M subscribers."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "SpaceX's data centers and Grok agents were more profitable than investors expected in Q3 as the company leaves its roots as a space company behind to focus on AI, which now makes up 52% of its income. (The article says 'income' and does not define it; AI profit was $431M.)"
+    },
+    {
+      "source": 0,
+      "text": "SpaceX reported $14.6 billion in third-quarter revenue on Tuesday, according to its regulatory filing."
+    },
+    {
+      "source": 0,
+      "text": "The renamed \"Super Intelligence\" business line generated $7.5 billion in revenue from the recently acquired Cursor coding tool, the Grok bot, and the burgeoning neocloud business. The top-line revenue number was also boosted by about $1 billion in income related to the recovery of Bitcoin prices and unspecified related-party income."
+    },
+    {
+      "source": 0,
+      "text": "The AI business generated $431 million in profit, which would have been higher without $1.2 billion in one-time stock-based compensation expenses related to the Cursor acquisition."
+    },
+    {
+      "source": 0,
+      "text": "Total capital expenditures were $19.6 billion (third quarter), as SpaceX builds out a second data center project (Colossus II) and increases investment in Starship, the heavy-lift rocket. CFO Bret Johnsen said the company would spend $35 billion to $40 billion on new capital investments in the fourth quarter."
+    },
+    {
+      "source": 0,
+      "text": "SpaceX reported net income of $4.4 billion, a turnaround from the $1 billion loss in the same quarter last year. In the first nine months of the year, it still had a net loss of $413 million."
+    },
+    {
+      "source": 0,
+      "text": "Musk took a bullish stance on the Super Intelligence business segment, predicting annual recurring revenue by the end of 2027 will be \"somewhere between $500 billion and $1 trillion.\" (TechCrunch's sentence says 'SpaceX's annual recurring revenue' in the context of that segment.)"
+    },
+    {
+      "source": 0,
+      "text": "Starlink subscribers reached 13.6 million consumers."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "SpaceX's AI business is beating expectations",
+      "date": "Oct 20, 2026",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/"
+    }
+  ],
+  "caption": "The rocket company's biggest business is now AI.\n\nSpaceX's third-quarter filing shows $14.6B in revenue, and TechCrunch says AI now makes up 52% of its \"income\" (its term; AI profit was $431M).\n\n→ The renamed \"Super Intelligence\" segment brought in $7.5B in revenue (company revenue also got about $1B from Bitcoin and related-party income)\n→ Q3 capital expenditures were $19.6B, with $35B to $40B of new investment expected in Q4\n→ Musk predicts the AI segment's annual recurring revenue will hit of $500B to $1T by end of 2027 (his forecast, not a result)\n\nIs SpaceX still a space company, or an AI company that builds rockets?\n\nSource: TechCrunch, \"SpaceX's AI business is beating expectations\", Oct 20, 2026.\n\nFollow @ai.news.company for daily AI news.",
+  "hashtags": [
+    "#AINews",
+    "#SpaceX",
+    "#ElonMusk",
+    "#Grok",
+    "#Cursor",
+    "#Starlink",
+    "#TechNews",
+    "#ArtificialIntelligence"
+  ]
+}

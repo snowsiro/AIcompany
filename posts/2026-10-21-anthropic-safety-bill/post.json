@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-21-anthropic-safety-bill",
+  "date": "2026-10-21",
+  "category": "POLICY",
+  "status": "blocked",
+  "korean_refs": [],
+  "cover": {
+    "tag": "US AI · POLICY",
+    "headline": [
+      "50+ DEATHS. $1B.",
+      "**72 HOURS** TO FLAG"
+    ],
+    "hook_options": [
+      [
+        "A LAB DRAFTS",
+        "ITS OWN **BRAKE**"
+      ],
+      [
+        "50+ DEATHS. $1B.",
+        "**72 HOURS** TO FLAG"
+      ],
+      [
+        "AI LABS HATE",
+        "RULES. **NOT** THIS"
+      ],
+      [
+        "WHO CAN STOP",
+        "AN AI **RELEASE?**"
+      ]
+    ],
+    "hook_pick_reason": "The hook judge scored the number hook highest: three hard figures, readable at a glance. Slide 2 delivers the 50 deaths and $1B trigger and slide 5 delivers the 72 hours; \"to flag\" matches evaluators notifying Commerce, so it does not overclaim. The \"brake\" hook had no number or name. Option 3 overclaims lab attitudes.",
+    "image_prompt": "Cinematic shot of a giant steel emergency lever mounted on a monumental dark server wall, a single beam of cold light across it, glowing data corridors fading into haze behind. Main subject in the upper half, lower third in shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261021_034902_83554039-db35-497d-97c4-2e99214908d3.png"
+  },
+  "slides": [
+    {
+      "kicker": "The draft",
+      "title": "Anthropic pitches a safety bill",
+      "body": [
+        "Anthropic, maker of the Claude AI models, circulated a **draft federal bill**, Politico reported. It is not introduced legislation. Anthropic hopes Congress will consider it."
+      ]
+    },
+    {
+      "kicker": "The trigger",
+      "title": "When a model could be blocked",
+      "body": [
+        "A release could be halted over a \"foreseeable, imminent risk\" of **over 50 deaths** or **over $1 billion** in property damage."
+      ]
+    },
+    {
+      "kicker": "The risks",
+      "title": "Three kinds of danger",
+      "body": [
+        "Qualifying risks are a **biological weapon**, a model **evading its developer's controls**, or a cyberattack. The thresholds resemble California's SB 53, now law."
+      ]
+    },
+    {
+      "kicker": "Who decides",
+      "title": "Outside evaluators, then a judge",
+      "body": [
+        "Independent evaluators would register with the **U.S. Commerce Department**, the federal agency that oversees trade. Labs could pay them only if payment is not contingent on their results."
+      ]
+    },
+    {
+      "kicker": "The clock",
+      "title": "72 hours, then a D.C. court",
+      "body": [
+        "After finding an imminent risk, evaluators would have **72 hours** to notify Commerce, which would ask a D.C. judge to halt the release. Federal agencies could not halt distribution on their own discretion."
+      ]
+    },
+    {
+      "kicker": "The pushback",
+      "title": "Not everyone wants new rules",
+      "body": [
+        "Labs have mostly resisted mandatory oversight. Nvidia CEO Jensen Huang argues **no new laws are needed**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Anthropic circulated a draft federal AI safety bill, per Politico; it is a draft Anthropic hopes Congress will consider, not introduced legislation."
+    },
+    {
+      "source": 0,
+      "text": "The block trigger is a \"foreseeable, imminent risk\" of over 50 deaths or over $1 billion in property damage."
+    },
+    {
+      "source": 0,
+      "text": "Qualifying risks are a biological weapon, a model evading its developer's controls, or a cyberattack. The thresholds resemble California's SB 53, now law."
+    },
+    {
+      "source": 0,
+      "text": "Independent evaluators would be registered with the U.S. Commerce Department and payable by labs only if payment is not contingent on their results."
+    },
+    {
+      "source": 0,
+      "text": "After finding an imminent risk, evaluators have 72 hours to notify Commerce, which would ask a D.C. judge to halt the release. Federal agencies could not halt distribution on their own discretion."
+    },
+    {
+      "source": 0,
+      "text": "Labs have mostly resisted mandatory oversight; Nvidia CEO Jensen Huang argues no new laws are needed (paraphrase)."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "date": "Oct 20, 2026",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+    }
+  ],
+  "caption": "An AI lab just drafted the rules that could stop its own models.\n\nAnthropic circulated a draft federal AI safety bill, Politico reported. It is a draft, not introduced legislation.\n\n→ Trigger: a \"foreseeable, imminent risk\" of over 50 deaths or over $1 billion in damage\n→ Independent evaluators have 72 hours to notify the Commerce Department\n→ Commerce would then ask a D.C. judge to halt the release\n\nShould AI labs help write the rules that govern them?\n\nSource: TechCrunch (citing Politico), Oct 20, 2026.\n\nFollow @ai.news.company for daily AI news.",
+  "hashtags": [
+    "#AIPolicy",
+    "#AISafety",
+    "#Anthropic",
+    "#Claude",
+    "#AIRegulation",
+    "#SB53",
+    "#AINews",
+    "#TechNews"
+  ]
+}
