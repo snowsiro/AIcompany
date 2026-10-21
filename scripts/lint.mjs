@@ -6,6 +6,9 @@ import { join, resolve } from "node:path";
 
 const CATEGORIES = ["POLICY", "INDUSTRY", "ECONOMY", "TOOLS", "RESEARCH", "STARTUPS"];
 const HOOK_TYPES = ["number", "claim", "myth-flip", "rivalry", "quote", "reader-impact"];
+// Huge tags where a new post sinks in minutes. One is fine as a label, the rest must be specific.
+const BROAD_TAGS = ["#ainews", "#ai", "#artificialintelligence", "#technews", "#tech", "#technology", "#machinelearning",
+  "#innovation", "#future", "#news", "#chatgpt", "#genai", "#generativeai"];
 const REGIONS = ["GLOBAL", "US", "CHINA", "KOREA", "JAPAN", "EUROPE", "ASIA", "MIDEAST", "INDIA"];
 const words = s => String(s).replace(/\*\*/g, "").trim().split(/\s+/).filter(Boolean).length;
 const plain = s => String(s).replace(/\*\*/g, "");
@@ -79,6 +82,16 @@ function lint(post) {
   }
   const tags = post.hashtags || [];
   req(tags.length >= 3 && tags.length <= 15 && tags.every(t => /^#[A-Za-z0-9_]+$/.test(t)), "3-15 hashtags, each like #AINews");
+  // reach rules (added 2026-10-22): a new account can't rank in huge tags, and search reads caption words.
+  // Only for posts dated from 2026-10-22, so posts already merged as ready still pass.
+  if ((post.date || post.id || "") >= "2026-10-22") {
+    req(tags.length <= 5, `${tags.length} hashtags (max 5 from 2026-10-22)`);
+    const broad = tags.filter(t => BROAD_TAGS.includes(t.toLowerCase()));
+    req(broad.length <= 1, `at most one broad hashtag (${broad.join(" ")}); use story-specific tags like #DeepSeek`);
+    const first = (post.caption || "").split("\n")[0].toLowerCase();
+    const named = tags.filter(t => !BROAD_TAGS.includes(t.toLowerCase())).some(t => first.includes(t.slice(1).toLowerCase()));
+    req(named, "caption's first line must name the story's subject: include a word from a specific hashtag (e.g. DeepSeek for #DeepSeek)");
+  }
 
   return e;
 }

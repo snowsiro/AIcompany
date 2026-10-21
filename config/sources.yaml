@@ -122,6 +122,6 @@ scoring:
   covered_by_reference_accounts: 3   # per account that posted about it in the last 48h
   global_relevance: 3                # a reader anywhere would care (big launch, big money, changes daily life or work)
   has_hard_number: 2                 # money, users, %, dates
-  korea_asia_europe_angle: 1         # small bonus: Korea, Asia and Europe stories are rarer in US-centric English feeds
+  korea_asia_europe_angle: 3         # the account's differentiator (raised from 1 on 2026-10-22; editor also needs 1 of 2 posts)
   same_company_as_other_pick: -5     # the two daily posts should not be about the same company
   already_posted_last_14_days: -10
