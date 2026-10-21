@@ -4,6 +4,7 @@
 //   node scripts/ig.mjs discover <username>               last posts of another business/creator account
 //   node scripts/ig.mjs publish posts/<id> <public-base>  post the rendered slides as one carousel
 //   node scripts/ig.mjs insights [days]                   per-post metrics for the analyst
+//   node scripts/ig.mjs metrics <out.json> [days]         daily snapshot: per-post + account metrics (morning scan)
 //   node scripts/ig.mjs limit                             publishing quota used in the last 24h
 //   node scripts/ig.mjs check                             connection test: own account, quota, reference accounts
 //   node scripts/ig.mjs scan <out.json> [hours]           reference accounts' posts from the last 48h (for the researcher)
@@ -96,6 +97,71 @@ async function insights(days = 7) {
   console.log(JSON.stringify(rows, null, 2));
 }
 
+// Daily snapshot for the morning report and the 11-04 / 11-18 reviews (added 2026-10-22).
+// Meta can take up to 48h to settle the numbers, so each run re-reads lifetime totals for the last <days> days
+// and the newest file is always the one to trust. A metric Meta refuses is left out (null), never guessed.
+const POST_METRICS = {
+  FEED: ["reach", "views", "saved", "shares", "likes", "comments", "total_interactions", "follows", "profile_visits"],
+  REELS: ["reach", "views", "saved", "shares", "likes", "comments", "total_interactions", "ig_reels_avg_watch_time"],
+};
+async function mediaInsights(id, kind) {
+  const out = {}, failed = [];
+  const read = async names => {
+    const { data } = await call("GET", `/${id}/insights`, { metric: names.join(",") });
+    for (const d of data || []) out[d.name] = d.values?.[0]?.value ?? d.total_value?.value ?? null;
+  };
+  try { await read(POST_METRICS[kind]); }
+  catch {
+    // one unsupported metric fails the whole request, so fall back to one at a time
+    for (const m of POST_METRICS[kind]) await read([m]).catch(() => failed.push(m));
+  }
+  return { ...out, ...(failed.length ? { unavailable: failed } : {}) };
+}
+
+function postIndex() {
+  const byMedia = {};
+  for (const d of readdirSync("posts").filter(d => /^\d{4}-/.test(d))) {
+    try {
+      const p = JSON.parse(readFileSync(join("posts", d, "post.json"), "utf8"));
+      if (p.published_id) byMedia[p.published_id] = { post: p.id, format: "carousel", hook_type: p.cover?.hook_type ?? null, region: (p.cover?.tag || "").split(" ")[0] || null, category: p.category };
+      if (p.reel_id) byMedia[p.reel_id] = { post: p.id, format: "reel", hook_type: p.cover?.hook_type ?? null, region: (p.cover?.tag || "").split(" ")[0] || null, category: p.category };
+    } catch { /* a broken post.json is lint's job */ }
+  }
+  return byMedia;
+}
+
+async function metrics(out, days = 14) {
+  if (!out) throw new Error("usage: metrics <out.json> [days]");
+  const since = Date.now() - days * 864e5;
+  const index = postIndex();
+  const me = await call("GET", `/${IG_USER_ID}`, { fields: "followers_count,media_count" });
+  const { data } = await call("GET", `/${IG_USER_ID}/media`, { fields: "id,timestamp,permalink,media_type,media_product_type", limit: "50" });
+  const posts = [];
+  for (const m of data.filter(m => Date.parse(m.timestamp) >= since)) {
+    const kind = m.media_product_type === "REELS" ? "REELS" : "FEED";
+    posts.push({ media_id: m.id, ...(index[m.id] || { post: null }), published_at: m.timestamp, url: m.permalink,
+      ...(await mediaInsights(m.id, kind).catch(e => ({ error: e.message }))) });
+  }
+  // account totals for the last full Vienna day (yesterday)
+  const vienna = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Vienna" }));
+  const offset = vienna - new Date(new Date().toLocaleString("en-US", { timeZone: "UTC" }));
+  const midnight = Date.UTC(vienna.getFullYear(), vienna.getMonth(), vienna.getDate()) - offset;
+  const range = { since: String(Math.floor((midnight - 864e5) / 1000)), until: String(Math.floor(midnight / 1000)) };
+  const account = { day: new Date(midnight - 864e5 + offset).toISOString().slice(0, 10), followers: me.followers_count, media_count: me.media_count };
+  for (const metric of ["reach", "views", "accounts_engaged", "profile_links_taps", "follows_and_unfollows"]) {
+    try {
+      const { data: d } = await call("GET", `/${IG_USER_ID}/insights`, { metric, period: "day", metric_type: "total_value", ...range });
+      account[metric] = d?.[0]?.total_value?.value ?? null;
+    } catch (err) { account[metric] = null; (account.unavailable ||= []).push(`${metric}: ${err.message.slice(0, 120)}`); }
+  }
+  const result = { fetched_at: new Date().toISOString(), days, account, posts };
+  mkdirSync(dirname(out), { recursive: true });
+  writeFileSync(out, JSON.stringify(result, null, 1) + "\n");
+  const failed = posts.filter(p => p.error).length;
+  console.log(`metrics: ${posts.length} posts (${failed} failed), followers ${me.followers_count}, yesterday reach ${account.reach} -> ${out}`);
+  if (posts.length && failed === posts.length) throw new Error("no post insights could be read (check instagram_manage_insights on the token)");
+}
+
 function referenceAccounts() {
   const yaml = readFileSync("config/sources.yaml", "utf8");
   const block = yaml.split(/^reference_accounts:/m)[1].split(/\n\S/)[0];
@@ -167,9 +233,10 @@ try {
   else if (cmd === "publish") await publish(args[0], args[1]);
   else if (cmd === "insights") await insights(Number(args[0] || 7));
   else if (cmd === "check") await check();
+  else if (cmd === "metrics") await metrics(args[0], Number(args[1] || 14));
   else if (cmd === "scan") await scan(args[0], Number(args[1] || 48));
   else if (cmd === "limit") console.log(JSON.stringify(await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" })));
-  else { console.error("commands: discover | publish | insights | limit | check | scan"); process.exit(2); }
+  else { console.error("commands: discover | publish | insights | metrics | limit | check | scan"); process.exit(2); }
 } catch (err) {
   console.error(`FAIL ${cmd}: ${err.message}`);
   process.exit(1);

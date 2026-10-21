@@ -3,6 +3,7 @@ name: morning-scan
 # Gathers what the 05:45 Vienna routine can't reach on its own, and commits it to main:
 #   ops/scan/<date>/reference.json  reference accounts' posts from the last 48h (needs the Instagram token)
 #   ops/scan/<date>/feeds.json      new AI articles from each outlet's RSS, or Google News RSS for that site
+#   ops/metrics/<date>.json         our own posts' reach, saves, shares, follows + yesterday's account totals (added 2026-10-22)
 # The researcher reads these files first. Read-only towards Instagram: it never posts.
 on:
   schedule:
@@ -30,12 +31,22 @@ jobs:
           node-version: 22
       - name: Pick folder
         id: day
-        run: echo "dir=ops/scan/$(TZ=Europe/Vienna date +%F)" >> "$GITHUB_OUTPUT"
+        run: |
+          echo "dir=ops/scan/$(TZ=Europe/Vienna date +%F)" >> "$GITHUB_OUTPUT"
+          echo "metrics=ops/metrics/$(TZ=Europe/Vienna date +%F).json" >> "$GITHUB_OUTPUT"
       - name: Reference accounts
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: node scripts/ig.mjs scan "${{ steps.day.outputs.dir }}/reference.json"
+      # The morning report and the 11-04 / 11-18 reviews read this. A failure here never stops the scan.
+      - name: Our metrics
+        if: always()
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/ig.mjs metrics "${{ steps.day.outputs.metrics }}"
       - name: News feeds
         if: always()
         run: node scripts/feeds.mjs "${{ steps.day.outputs.dir }}/feeds.json"
@@ -59,6 +70,7 @@ jobs:
           git config user.name "ai-office-bot"
           git config user.email "ai-office-bot@users.noreply.github.com"
           git add "${{ steps.day.outputs.dir }}"
+          git add ops/metrics 2>/dev/null || true
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "scan: ${{ steps.day.outputs.dir }}"
           for i in 1 2 3; do
