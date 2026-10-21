@@ -6,5 +6,16 @@
   "threads": "https://www.threads.com/@ai.news.company",
   "newsletter_name": "AI News Daily Weekly",
   "newsletter_url": "https://ainewscompany.beehiiv.com/subscribe",
-  "affiliates": []
+  "affiliates": [
+    {
+      "name": "beehiiv",
+      "url": "https://www.beehiiv.com/?via=jamie-kim",
+      "note": "The newsletter platform we send our weekly digest with."
+    },
+    {
+      "name": "Higgsfield",
+      "url": "https://higgsfield.ai?fpr=8jhkfz",
+      "note": "The AI image tool we use to make our cover illustrations."
+    }
+  ]
 }
