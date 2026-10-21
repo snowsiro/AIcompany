@@ -5,6 +5,7 @@ import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const CATEGORIES = ["POLICY", "INDUSTRY", "ECONOMY", "TOOLS", "RESEARCH", "STARTUPS"];
+const HOOK_TYPES = ["number", "claim", "myth-flip", "rivalry", "quote", "reader-impact"];
 const REGIONS = ["GLOBAL", "US", "CHINA", "KOREA", "JAPAN", "EUROPE", "ASIA", "MIDEAST", "INDIA"];
 const words = s => String(s).replace(/\*\*/g, "").trim().split(/\s+/).filter(Boolean).length;
 const plain = s => String(s).replace(/\*\*/g, "");
@@ -26,6 +27,15 @@ function lint(post) {
   req((c.headline || []).reduce((n, l) => n + emphCount(l), 0) === 1, "cover needs exactly one **emphasis**");
   req(Array.isArray(c.hook_options) && c.hook_options.length >= 3 && c.hook_options.length <= 5, "cover.hook_options needs 3-5 candidates");
   req((c.hook_options || []).some(h => JSON.stringify(h) === JSON.stringify(c.headline)), "cover.headline must be one of cover.hook_options");
+  // hook types (added 2026-10-21): optional so posts made before the rule still pass
+  if (c.hook_types !== undefined) {
+    const types = c.hook_types;
+    req(Array.isArray(types) && types.length === (c.hook_options || []).length, "cover.hook_types must list one type per hook option");
+    req(Array.isArray(types) && types.every(t => HOOK_TYPES.includes(t)), `cover.hook_types values must be one of ${HOOK_TYPES.join(", ")}`);
+    req(Array.isArray(types) && types.includes("reader-impact"), "cover.hook_options needs at least one reader-impact hook");
+    const pick = (c.hook_options || []).findIndex(h => JSON.stringify(h) === JSON.stringify(c.headline));
+    req(Array.isArray(types) && c.hook_type === types[pick], "cover.hook_type must be the type of the chosen headline");
+  }
   req(typeof c.image_prompt === "string" && /no text/i.test(c.image_prompt) && /no people|no real people/i.test(c.image_prompt),
     "cover.image_prompt must say 'no text' and 'no people'");
 
@@ -60,6 +70,13 @@ function lint(post) {
   src.forEach((s, i) => req(/^https:\/\//.test(s.url || "") && s.outlet && s.title && s.date, `source ${i + 1}: needs outlet, title, date, https url`));
   req(typeof post.caption === "string" && post.caption.length <= 2200, "caption missing or over 2200 chars");
   req(/source/i.test(post.caption || ""), "caption must credit the source");
+  if (post.threads_caption !== undefined) {
+    const tc = post.threads_caption;
+    const bytes = Buffer.byteLength(String(tc), "utf8");
+    req(typeof tc === "string" && tc.trim().length > 0 && bytes <= 500, `threads_caption missing or ${bytes} bytes (max 500)`);
+    req(/source/i.test(tc || ""), "threads_caption must credit the source");
+    req(!/https?:\/\//i.test(tc || ""), "threads_caption must not contain links");
+  }
   const tags = post.hashtags || [];
   req(tags.length >= 3 && tags.length <= 15 && tags.every(t => /^#[A-Za-z0-9_]+$/.test(t)), "3-15 hashtags, each like #AINews");
 
