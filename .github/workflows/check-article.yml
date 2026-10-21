@@ -1,0 +1,41 @@
+name: check-article
+
+# Checks which phrases appear in an article, for reviewing a post against its source from a Claude session that
+# can't reach news sites. Prints the title, date, word count and found / MISSING for each phrase, never the
+# article text itself: this repo and its logs are public.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Article URL"
+        required: true
+      phrases:
+        description: "Phrases to look for, separated by | (case-insensitive; curly quotes count as straight)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check phrases
+        env:
+          URL: ${{ inputs.url }}
+          PHRASES: ${{ inputs.phrases }}
+        run: |
+          node scripts/article.mjs "$URL" > article.txt
+          sed -i "s/‘/'/g; s/’/'/g; s/“/\"/g; s/”/\"/g" article.txt
+          head -3 article.txt
+          echo "words: $(tail -n +5 article.txt | wc -w)"
+          IFS='|' read -ra list <<< "$PHRASES"
+          for p in "${list[@]}"; do
+            p="$(echo "$p" | sed 's/^ *//; s/ *$//')"
+            [ -z "$p" ] && continue
+            if grep -qiF -- "$p" article.txt; then echo "found    $p"; else echo "MISSING  $p"; fi
+          done
