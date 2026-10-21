@@ -2,6 +2,9 @@ name: publish
 
 # Posts the oldest merged post with "status": "ready" to Instagram.
 # Runs twice a day (turned on 2026-10-20 by Jamie) and can also be run by hand.
+# GitHub can start scheduled runs hours late (on 2026-10-21 the 03:07 scan ran at 08:28 and the 11:57 publish
+# didn't run), so Claude also starts this workflow at each slot. Two guards keep that to one post per slot:
+# a scheduled run more than 60 minutes late skips, and any run skips if something was published in the last 3 hours.
 on:
   workflow_dispatch:
     inputs:
@@ -29,7 +32,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      # Latest main, not the commit the run was queued on: a run waiting behind another must see its publish record.
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 30
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -44,8 +51,17 @@ jobs:
             if [ "$(TZ=Europe/Vienna date +%z)" != "$want" ]; then
               echo "other season's slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
             fi
+            slot=$(date -u -d "$(echo "${{ github.event.schedule }}" | awk '{printf "%02d:%02d", $2, $1}')" +%s)
+            late=$(( ($(date -u +%s) - slot + 86400) % 86400 / 60 ))
+            if [ "$late" -gt 60 ]; then
+              echo "started $late minutes after the slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
+            fi
           fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           if [ -n "${{ inputs.post }}" ]; then echo "dir=${{ inputs.post }}" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ -n "$(git log --since='3 hours ago' --grep='^publish: ' --format=%h)" ]; then
+            echo "already published in this slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           for d in $(ls -d posts/2*/ | sort); do
             if grep -q '"status": "ready"' "$d/post.json"; then echo "dir=${d%/}" >> "$GITHUB_OUTPUT"; exit 0; fi
           done
@@ -55,7 +71,7 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-        run: node scripts/ig.mjs publish "${{ steps.pick.outputs.dir }}" "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}"
+        run: node scripts/ig.mjs publish "${{ steps.pick.outputs.dir }}" "https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.pick.outputs.sha }}"
       - name: Record result
         if: steps.pick.outputs.dir != ''
         run: |
