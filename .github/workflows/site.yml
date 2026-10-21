@@ -42,6 +42,7 @@ jobs:
           node-version: 22
       - run: node scripts/site.mjs _site
       - name: Push to ainewscompany.github.io
+        continue-on-error: true # a bad token must not stop the Pages copy below
         env:
           TOKEN: ${{ secrets.SITE_DEPLOY_TOKEN }}
         run: |
