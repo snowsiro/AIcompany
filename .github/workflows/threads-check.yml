@@ -1,0 +1,24 @@
+name: threads-check
+
+# Run by hand after adding the THREADS_ACCESS_TOKEN secret (THREADS_USER_ID is optional).
+# Confirms the token works and shows the profile, follower count and publishing quota.
+# Read-only: it never posts.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check Threads connection
+        env:
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: node scripts/threads.mjs check
