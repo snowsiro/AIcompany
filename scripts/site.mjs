@@ -11,6 +11,8 @@ const OUT = process.argv[2] || "_site";
 const site = JSON.parse(readFileSync("config/site.json", "utf8"));
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 const safeUrl = u => (/^https:\/\//.test(u || "") ? u : "");
+// Non-English sources are shown by their English translation (see writer.md, `title_en`).
+const srcTitle = s => (s?.title_en ? `“${esc(s.title_en)}” (in ${esc(s.language || "Korean")})` : `“${esc(s?.title)}”`);
 
 const posts = readdirSync("posts")
   .filter(d => /^\d{4}-\d{2}-\d{2}-/.test(d) && existsSync(join("posts", d, "post.json")))
@@ -81,7 +83,7 @@ const items = recent.map(p => {
   if (existsSync(cover)) { copyFileSync(cover, join(OUT, "covers", `${p.dir}.jpg`)); img = `<img src="covers/${esc(p.dir)}.jpg" alt="" loading="lazy">`; }
   return `<div class="post"><a href="${esc(p.permalink)}">${img}</a><div>
 <div class="hook"><a href="${esc(p.permalink)}">${esc(hook)}</a></div>
-<div class="muted">${esc(p.date)} · Source: <a href="${esc(safeUrl(source?.url))}" rel="noopener">${esc(source?.outlet)}, “${esc(source?.title)}”</a></div>
+<div class="muted">${esc(p.date)} · Source: <a href="${esc(safeUrl(source?.url))}" rel="noopener">${esc(source?.outlet)}, ${srcTitle(source)}</a></div>
 </div></div>`;
 }).join("\n");
 
@@ -107,7 +109,7 @@ const digestBody = week.length ? week.slice().reverse().map(p => {
   return `<h3>${esc(hook)}</h3>
 ${context.map(c => `<p>${esc(c)}</p>`).join("")}
 ${bullets.length ? `<ul>${bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>` : ""}
-<p>Source: <a href="${esc(safeUrl(source?.url))}">${esc(source?.outlet)}, “${esc(source?.title)}”</a> · <a href="${esc(p.permalink)}">See the cards</a></p>`;
+<p>Source: <a href="${esc(safeUrl(source?.url))}">${esc(source?.outlet)}, ${srcTitle(source)}</a> · <a href="${esc(p.permalink)}">See the cards</a></p>`;
 }).join("\n<hr>\n") : "<p>No stories were published this week.</p>";
 const tools = (site.affiliates || []).filter(t => safeUrl(t.url));
 const digestTools = tools.length

@@ -9,6 +9,7 @@ const HOOK_TYPES = ["number", "claim", "myth-flip", "rivalry", "quote", "reader-
 // Huge tags where a new post sinks in minutes. One is fine as a label, the rest must be specific.
 const BROAD_TAGS = ["#ainews", "#ai", "#artificialintelligence", "#technews", "#tech", "#technology", "#machinelearning",
   "#innovation", "#future", "#news", "#chatgpt", "#genai", "#generativeai"];
+const NON_LATIN = /[\p{Script=Hangul}\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Cyrillic}\p{Script=Arabic}\p{Script=Hebrew}\p{Script=Thai}\p{Script=Devanagari}\p{Script=Greek}]/u;
 const REGIONS = ["GLOBAL", "US", "CHINA", "KOREA", "JAPAN", "EUROPE", "ASIA", "MIDEAST", "INDIA"];
 const words = s => String(s).replace(/\*\*/g, "").trim().split(/\s+/).filter(Boolean).length;
 const plain = s => String(s).replace(/\*\*/g, "");
@@ -71,6 +72,17 @@ function lint(post) {
   const src = post.sources || [];
   req(src.length >= 1 && src.length <= 3, "need 1-3 sources");
   src.forEach((s, i) => req(/^https:\/\//.test(s.url || "") && s.outlet && s.title && s.date, `source ${i + 1}: needs outlet, title, date, https url`));
+  // Readers are global: a title in a non-Latin script (Korean, Japanese, Chinese...) is shown as an English translation.
+  // `title` keeps the original for fact-checking; `title_en` and `language` are what readers see. From 2026-10-23.
+  if ((post.date || post.id || "") >= "2026-10-23") {
+    src.forEach((s, i) => {
+      if (!NON_LATIN.test(s.title || "")) return;
+      req(s.title_en && !NON_LATIN.test(s.title_en) && s.language, `source ${i + 1}: title is not in English; add title_en (faithful translation) and language (e.g. "Korean")`);
+      for (const [name, text] of [["caption", post.caption], ["threads_caption", post.threads_caption]]) {
+        req(!(text || "").includes(s.title), `${name} shows source ${i + 1}'s original title; use title_en with "(in ${s.language || "Korean"})"`);
+      }
+    });
+  }
   req(typeof post.caption === "string" && post.caption.length <= 2200, "caption missing or over 2200 chars");
   req(/source/i.test(post.caption || ""), "caption must credit the source");
   if (post.threads_caption !== undefined) {

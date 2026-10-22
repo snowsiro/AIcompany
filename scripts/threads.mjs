@@ -50,7 +50,7 @@ function captionFor(post) {
   if (post.threads_caption) return post.threads_caption;
   const hook = (post.caption || "").split("\n")[0].trim();
   const s = post.sources?.[0];
-  const text = `${hook}\n\nSource: ${s.outlet}, "${s.title}".`;
+  const text = `${hook}\n\nSource: ${s.outlet}, "${s.title_en || s.title}"${s.title_en ? ` (in ${s.language || "Korean"})` : ""}.`;
   if (Buffer.byteLength(text, "utf8") > 500) return `${hook}\n\nSource: ${s.outlet}.`;
   return text;
 }
