@@ -1,0 +1,467 @@
+{
+ "date": "2026-10-22",
+ "candidates": [
+  {
+   "title": "Anthropic launches Claude Duet, a proactive AI agent that works while you are away",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "Same company as the 10-21 Anthropic safety-bill post, but a different story. Verge/Reuters/VentureBeat covered it but were not readable (403 or Google redirect); cited originals are TestingCatalog and AI Times.",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/Dexqi24k2Lx/"
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "TestingCatalog",
+     "title": "Anthropic opens Claude Duet preview for US Pro and Max users",
+     "date": "2026-10-21",
+     "url": "https://www.testingcatalog.com/claude-duet/"
+    },
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "앤트로픽, 메타 '뮤즈' 대항마 AI 에이전트 '클로드 듀엣' 공개",
+     "date": "2026-10-22",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216510"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic opened a research preview of Claude Duet, a proactive agent that surfaces work needing attention, carries out assigned tasks in the background, and asks before acting on a user's behalf.",
+     "article": 0
+    },
+    {
+     "fact": "Access is by waitlist for US Claude Pro and Max subscribers; it is included in those plans and shares their existing usage limits.",
+     "article": 0
+    },
+    {
+     "fact": "Duet is built around Claude Opus 5.5 and runs as a standalone app on iOS and Android and on the Claude website.",
+     "article": 0
+    },
+    {
+     "fact": "It sends a concise morning brief based on connected apps and checks those accounts every few hours.",
+     "article": 0
+    },
+    {
+     "fact": "It can use more than 6,000 connectors and plugins in the Claude Marketplace, including Gmail, Slack, QuickBooks, Stripe, HubSpot and Shopify.",
+     "article": 0
+    },
+    {
+     "fact": "Duet must show the proposed action and wait before sending a message, making a payment, signing a document, or deleting anything; securities trading and transfers between accounts remain prohibited.",
+     "article": 0
+    },
+    {
+     "fact": "The preview remains limited: Duet may misread threads or rank urgency poorly, and users cannot yet view its browser.",
+     "article": 0
+    },
+    {
+     "fact": "A virtual machine with its own browser keeps working when the user's devices are off.",
+     "article": 0
+    },
+    {
+     "fact": "AI Times reports Duet competes with Meta's Muse and OpenAI's Dots, and says Duet's difference is that it periodically checks business accounts and flags what needs attention before the user asks.",
+     "article": 1
+    }
+   ]
+  },
+  {
+   "title": "Meta says its Muse AI agent has passed 10 million users, with shopping a top activity",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "Backlog has a related 10-20 download-count story (posts/_backlog/2026-10-21-meta-muse-10m.md); this is the Q3 earnings-call confirmation. Not previously posted.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Meta says Muse has over 10M users, with shopping a top activity",
+     "date": "2026-10-21",
+     "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Meta said on its third-quarter earnings call that its AI app Muse has been adopted by more than 10 million users.",
+     "article": 0
+    },
+    {
+     "fact": "Mark Zuckerberg said about 25% of people who set up Muse now use it daily.",
+     "article": 0
+    },
+    {
+     "fact": "Over a quarter of Muse's engaged users who were shopping via the AI agent had an average purchase size of over $200.",
+     "article": 0
+    },
+    {
+     "fact": "Muse uses Plaid's connector, a fintech company that links payment apps to bank accounts, to enable agentic shopping.",
+     "article": 0
+    },
+    {
+     "fact": "Meta intends to keep Muse free for most users while keeping a percentage of commerce on the platform; power users who want advanced models or more tokens will pay.",
+     "article": 0
+    },
+    {
+     "fact": "Zuckerberg said Meta is building capacity to serve more than a billion people over the next few years and expects to improve Muse's cost efficiency by more than 10x in the next year.",
+     "article": 0
+    },
+    {
+     "fact": "Zuckerberg teased a 'Muse network' where 'your Muses can work with your friends' and your families' [Muses]'.",
+     "article": 0
+    },
+    {
+     "fact": "Reality Labs losses are expected to improve from $19.1 billion in 2025 to $15 billion this year.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "AI-found PHP flaws force websites offline across Europe, including Vienna's university",
+   "region": "Europe/Global",
+   "repeat_of_last_14_days": false,
+   "notes": "Strong Europe/Austria and Korea angle (Korean outlets ran it; ZDNet Korea quotes a Korean AI official but link was a Google redirect, not read). Korea Times/SCMP versions are Google redirects, not read.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "PHP Armageddon: OpenAI, Google's Wiz find ancient holes, panicking the internet",
+     "date": "2026-10-21",
+     "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/"
+    },
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "웹사이트 70% 쓰는 PHP서 AI가 결함 발견…각국 정부 사이트 중단",
+     "date": "2026-10-22",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216499"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The US National Security Agency warned that two critical holes had been found in PHP, with patches already issued by the PHP Foundation.",
+     "article": 0
+    },
+    {
+     "fact": "PHP powers roughly 70% of the websites on the internet, by some accounts more than 33 million sites.",
+     "article": 0
+    },
+    {
+     "fact": "The holes have been in all versions of PHP since version 5, released in 2004.",
+     "article": 0
+    },
+    {
+     "fact": "Security firm Calif, working in OpenAI's 'Patch the Planet' initiative, found one flaw using GPT-5.6 Sol; Wiz used its AI agent, Gemini 4 Argon and GPT-5.6 Sol to find multiple vulnerabilities.",
+     "article": 0
+    },
+    {
+     "fact": "The NSA's guidance is that a PHP site that cannot be patched right away should be pulled offline until it can be.",
+     "article": 0
+    },
+    {
+     "fact": "Wiz warned: 'With AI this is no longer a barrier. LLMs can help adapt an exploit to different PHP versions, configurations and memory layouts.'",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI says the flaws were found by researchers before hackers, and there were no reports of exploits in the wild.",
+     "article": 0
+    },
+    {
+     "fact": "In the Netherlands, government portals, the Port of Rotterdam, the football association, major political parties and several hospitals took public websites offline; Germany's University of Freiburg, Austria's University of Vienna, the Wikimedia Foundation and the Internet Archive also paused some sites or systems.",
+     "article": 1
+    },
+    {
+     "fact": "Wiz said one researcher finished in a week what a world-class team would have needed months for; the two flaws are called 'PHP2Shell' and each scored 9.2 out of 10 for severity.",
+     "article": 1
+    },
+    {
+     "fact": "Censys observed about 2.6 million hosts, of which 1.5 million ran PHP versions that cannot easily receive the fix.",
+     "article": 1
+    }
+   ]
+  },
+  {
+   "title": "OpenAI's newest models are now sold on Google Cloud, so all three big US clouds carry them",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "Only the Korean AI Times article was readable; OpenAI post and Ars Technica returned 403. Korean relevance low; editor may want to verify against OpenAI post before use.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "오픈AI, 구글 클라우드서 최신 모델 판매…3대 클라우드 모두 진출",
+     "date": "2026-10-22",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216500"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI and Google announced on Oct. 21 (US time) that OpenAI's frontier models and the coding agent Codex will come to Google Cloud's Model Garden.",
+     "article": 0
+    },
+    {
+     "fact": "A private preview has started for some enterprise customers, with general availability planned within weeks.",
+     "article": 0
+    },
+    {
+     "fact": "Initial models are GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna.",
+     "article": 0
+    },
+    {
+     "fact": "Companies can buy OpenAI models in the Google Cloud Marketplace and count the spend toward their existing Google Cloud commitments, on a single Google Cloud bill.",
+     "article": 0
+    },
+    {
+     "fact": "Google says it does not use customers' inputs and outputs to train foundation models.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI now sells through Microsoft, Amazon Web Services and Google Cloud; it moved to AWS after Microsoft's exclusive distribution ended in April.",
+     "article": 0
+    },
+    {
+     "fact": "Google says it is the only large cloud offering the closed models of all three leading labs: Gemini, Anthropic's Claude and OpenAI.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "South Korea's antitrust watchdog drafts rules against 'AI washing' in product ads",
+   "region": "Korea",
+   "repeat_of_last_14_days": false,
+   "notes": "Korea angle. Yonhap original returned 403; Korea Times and JoongAng Daily (Yonhap wire) read in full.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "FTC to collect public opinion on draft guidelines against 'AI washing'",
+     "date": "2026-10-22",
+     "url": "https://www.koreatimes.co.kr/business/20261022/ftc-to-collect-public-opinion-on-draft-guidelines-against-ai-washing"
+    },
+    {
+     "outlet": "Korea JoongAng Daily (Yonhap)",
+     "title": "FTC to collect public opinion on draft guidelines against 'AI washing'",
+     "date": "2026-10-22",
+     "url": "https://www.koreajoongangdaily.com/business/ftc-to-collect-public-opinion-on-draft-guidelines-against-ai-washing/12933275"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Korea's Fair Trade Commission began collecting public opinion on Thursday on draft guidelines against advertisements exaggerating products' use of AI, known as 'AI washing'; the consultation runs through Nov. 11.",
+     "article": 0
+    },
+    {
+     "fact": "The FTC said the term AI leads consumers to perceive performance and reliability as relatively superior or to be willing to pay extra.",
+     "article": 0
+    },
+    {
+     "fact": "Examples of products marketed as AI products included electric hot-water heating mats, cat litter boxes, pillows and weight-control shakes.",
+     "article": 0
+    },
+    {
+     "fact": "The guidelines cover four major categories of potential violations of the Act on Fair Labeling and Advertising.",
+     "article": 0
+    },
+    {
+     "fact": "They include a self-assessment checklist and frequently asked questions for businesses.",
+     "article": 0
+    },
+    {
+     "fact": "The FTC also raised concerns about AI tools generating virtual people and fabricated reviews to promote food and pharmaceutical products to older consumers.",
+     "article": 0
+    },
+    {
+     "fact": "The guidelines are not legally binding but are meant to help businesses prevent violations and promote fair competition in AI-related markets.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Dutch startup Photon Bridge raises EUR 10M to make the lasers that connect AI chips",
+   "region": "Europe",
+   "repeat_of_last_14_days": false,
+   "notes": "Europe angle; Sifted original (exclusive) was not readable, tech.eu and TNW read.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Tech.eu",
+     "title": "Dutch photonics startup Photon Bridge raises €10M to tackle AI's looming laser bottleneck",
+     "date": "2026-10-21",
+     "url": "https://tech.eu/2026/10/21/dutch-photonics-startup-photon-bridge-raises-eur10m-to-tackle-ais-looming-laser-bottleneck/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "Photon Bridge raises €10M to mass-produce lasers for AI data centres",
+     "date": "2026-10-21",
+     "url": "https://thenextweb.com/news/photon-bridge-10m-ai-data-centre-lasers"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Dutch photonics company Photon Bridge raised €10 million to tackle a bottleneck in AI infrastructure: producing the millions of lasers needed to connect large clusters of AI processors.",
+     "article": 0
+    },
+    {
+     "fact": "The round was co-led by the Amadeus APEX Technology Fund and 360 Capital, with existing investors Innovation Industries, Faber and the Brabant Development Agency (BOM) increasing their investment.",
+     "article": 0
+    },
+    {
+     "fact": "Omdia forecasts that more than 20 million data-centre AI accelerators will ship annually by 2028.",
+     "article": 0
+    },
+    {
+     "fact": "Instead of one very powerful laser, Photon Bridge combines light from several lower-power lasers; weaker lasers are less sensitive to manufacturing defects, improving yield.",
+     "article": 0
+    },
+    {
+     "fact": "The design targets up to 40 mW of optical power per wavelength per fibre.",
+     "article": 0
+    },
+    {
+     "fact": "First samples are planned for 2027 and volume manufacturing from 2028; the team in Eindhoven will expand.",
+     "article": 0
+    },
+    {
+     "fact": "Photon Bridge was called Photon IP until last year, when it raised €4.75M in seed funding; it does not run its own factory.",
+     "article": 1
+    },
+    {
+     "fact": "Nvidia has put at least $6.5B into photonics firms since March, according to TNW.",
+     "article": 1
+    }
+   ]
+  },
+  {
+   "title": "Walmart opens its stores to AI shopping agents with an Agent Gateway while Amazon blocks them",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "Verge and Reuters versions not readable. Pairs with the Muse story (Walmart is a Muse partner).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+     "date": "2026-10-21",
+     "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Walmart launched its own Agent Gateway, an MCP server designed to help approved AI agents connect to Walmart and make purchases for users, for Walmart and Sam's Club.",
+     "article": 0
+    },
+    {
+     "fact": "The announcement came shortly after Amazon began blocking AI agents from making purchases for shoppers.",
+     "article": 0
+    },
+    {
+     "fact": "Walmart had already announced a partnership with Meta's Muse and offers integrations with ChatGPT, Gemini and others.",
+     "article": 0
+    },
+    {
+     "fact": "With Agent Profiles, rolling out next month, customers authorize each AI agent with a dedicated profile so its purchases show separately.",
+     "article": 0
+    },
+    {
+     "fact": "Customers can require approval for each transaction or authorize purchases within a spending limit they set.",
+     "article": 0
+    },
+    {
+     "fact": "Walmart says its returns process applies even when an agent does not act as intended.",
+     "article": 0
+    },
+    {
+     "fact": "Walmart says agents cannot access customers' payment information, and agents that do not comply with its terms will be blocked.",
+     "article": 0
+    },
+    {
+     "fact": "MCP, the model context protocol, was originally created by Anthropic.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "SK Telecom teams with Korean mathematicians to strengthen its A.X K2 model's math reasoning",
+   "region": "Korea",
+   "repeat_of_last_14_days": false,
+   "notes": "Korea angle but thin (one short article, company-sourced). Fallback only.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "SKT, 오픈AI 이어 '수학 난제' 도전...독파모 수학 추론 역량 키운다",
+     "date": "2026-10-22",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216508"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SK Telecom said on the 22nd it will strengthen the math reasoning of its own foundation model A.X K2 together with Korean math and AI researchers.",
+     "article": 0
+    },
+    {
+     "fact": "Researchers joining include professors from Seoul National University, the Korea Institute for Advanced Study (KIAS) and KAIST.",
+     "article": 0
+    },
+    {
+     "fact": "SKT will reflect mathematicians' expertise in model training and use the resulting reasoning to improve agentic AI.",
+     "article": 0
+    },
+    {
+     "fact": "It plans to extend the work to research on 'recursive self-improvement (RSI)', where AI improves its own abilities.",
+     "article": 0
+    },
+    {
+     "fact": "The article notes OpenAI recently drew attention by solving more than 300 unsolved math problems.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nvidia and European cloud partners expand sovereign AI capacity at GTC Berlin; Mistral adds Vera Rubin for 2027",
+   "region": "Europe",
+   "repeat_of_last_14_days": false,
+   "notes": "Company newsroom (Nvidia blog) is the only source; promotional tone, use cautiously. Same company as other Nvidia items; avoid pairing with another Nvidia pick.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "NVIDIA Blog",
+     "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+     "date": "2026-10-21",
+     "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "NVIDIA Cloud Partners across Europe, the Nordics, Africa and Central Asia are expanding regional compute capacity for model training and inference.",
+     "article": 0
+    },
+    {
+     "fact": "In tests on NVIDIA GB300 NVL72 systems, Nscale said NVIDIA DSX MaxLPS enabled 37% more GPUs and nearly 50% higher aggregate inference throughput within the same power budget.",
+     "article": 0
+    },
+    {
+     "fact": "Mistral is expanding its NVIDIA infrastructure, including NVIDIA Vera Rubin infrastructure planned for delivery in 2027.",
+     "article": 0
+    },
+    {
+     "fact": "Mistral Large 4 was trained on 3,800 NVIDIA Grace Blackwell GPUs in Mistral-operated European data centers.",
+     "article": 0
+    },
+    {
+     "fact": "Announced at GTC Berlin, the NVIDIA OpenShell Reference Architecture is designed to give organizations clear boundaries around what AI agents can access and do.",
+     "article": 0
+    },
+    {
+     "fact": "Baseten and CodeRabbit improved code-review routing agreement from 75.8% to 80.7% while reducing estimated inference costs by 50% on the evaluated workload.",
+     "article": 0
+    }
+   ]
+  }
+ ],
+ "dropped_unreadable": [
+  "Anthropic safety bill / Kyobo / SpaceX / US DeepSeek ban (posted 10-21, repeats, not re-listed)",
+  "Samsung Electro-Mechanics Nvidia substrates (Yonhap 403; Korea Herald piece is from 2026-09-29)",
+  "Seoul stocks AI woes (Yonhap 403)",
+  "Meta Class B share plan (Reuters/Verge unreadable)",
+  "OpenAI agent lied about disabling monitoring (Verge 403)",
+  "Anthropic $80B half-year loss (Der Standard paywalled snippet only)"
+ ]
+}

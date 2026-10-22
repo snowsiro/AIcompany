@@ -1,0 +1,146 @@
+{
+  "id": "2026-10-22-php-ai-flaws",
+  "date": "2026-10-22",
+  "category": "INDUSTRY",
+  "status": "blocked",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · INDUSTRY",
+    "headline": [
+      "AI FOUND **PHP**",
+      "BUGS: SITES DOWN"
+    ],
+    "hook_options": [
+      [
+        "AI-FOUND HOLES",
+        "IN **70%** OF WEB"
+      ],
+      [
+        "AI FOUND **PHP**",
+        "BUGS: SITES DOWN"
+      ],
+      [
+        "SITES YOU USE",
+        "WENT **OFFLINE**"
+      ],
+      [
+        "OLD CODE ISN'T",
+        "**SAFE** FROM AI"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "reader-impact",
+      "myth-flip"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "Names PHP and says AI found the bugs, fixing the old 'AI flaws' wording that read as flaws in AI. States the event the slides prove: sites (government portals, hospitals, a port, universities) went offline in Europe. The number hook ('holes in 70% of web') overstates: 70% is PHP's share of sites, not how many are affected. The reader-impact hook is supported but 'sites you use' is looser than the article. The myth-flip hook is a framing, not the news.",
+    "image_prompt": "Cinematic wide shot of a dark control room wall of glowing server racks and screens, most going dark one by one down a long corridor, a single cracked line of amber light running through the central rack like a fault line, cool blue haze, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261022_035203_b162130c-ce0b-40ba-bfe5-c1fd844fbe11.png"
+  },
+  "slides": [
+    {
+      "kicker": "The outage",
+      "title": "Sites went dark across Europe",
+      "body": [
+        "In the Netherlands, government portals, the **Port of Rotterdam**, the football association and several hospitals took public websites offline. Germany's University of Freiburg and Austria's University of Vienna also paused some sites or systems."
+      ]
+    },
+    {
+      "kicker": "The flaws",
+      "title": "Two holes hiding since 2004",
+      "body": [
+        "The US National Security Agency (NSA) warned of two critical holes in PHP, software behind roughly **70%** of websites. They sit in every version since PHP 5 (2004). Called PHP2Shell, each scored **9.2 out of 10** for severity."
+      ]
+    },
+    {
+      "kicker": "The finders",
+      "title": "AI found them",
+      "body": [
+        "Security firm Calif found one flaw with GPT-5.6 Sol in OpenAI's \"Patch the Planet\" initiative. Wiz, a security firm owned by Google, used its AI agent, Gemini 4 Argon and GPT-5.6 Sol. One Wiz researcher did in **a week** what top teams need months for."
+      ]
+    },
+    {
+      "kicker": "The warning",
+      "quote": "With AI this is no longer a barrier. LLMs can help adapt an exploit to different PHP versions, configurations and memory layouts.",
+      "who": "Wiz"
+    },
+    {
+      "kicker": "The balance",
+      "title": "Early attempts, no breaches",
+      "body": [
+        "OpenAI says researchers found the flaws first, with **no exploits seen in the wild**. Cloudflare, a web security firm, did see initial attack attempts. The NSA advises pulling unpatchable PHP sites offline. Censys counted 1.5 million of about 2.6 million hosts on hard-to-fix versions."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The US National Security Agency warned that two critical holes had been found in PHP, with patches already issued by the PHP Foundation."
+    },
+    {
+      "source": 0,
+      "text": "PHP powers roughly 70% of the websites on the internet, by some accounts more than 33 million sites."
+    },
+    {
+      "source": 0,
+      "text": "The holes have been in all versions of PHP since version 5, released in 2004."
+    },
+    {
+      "source": 0,
+      "text": "Security firm Calif, working in OpenAI's 'Patch the Planet' initiative, found one flaw using GPT-5.6 Sol; Wiz used its AI agent, Gemini 4 Argon and GPT-5.6 Sol to find multiple vulnerabilities."
+    },
+    {
+      "source": 0,
+      "text": "The NSA's guidance is that a PHP site that cannot be patched right away should be pulled offline until it can be."
+    },
+    {
+      "source": 0,
+      "text": "Wiz warned: 'With AI this is no longer a barrier. LLMs can help adapt an exploit to different PHP versions, configurations and memory layouts.'"
+    },
+    {
+      "source": 0,
+      "text": "OpenAI says the flaws were found by researchers before hackers, and there were no reports of exploits in the wild."
+    },
+    {
+      "source": 1,
+      "text": "In the Netherlands, government portals, the Port of Rotterdam, the football association, major political parties and several hospitals took public websites offline; Germany's University of Freiburg, Austria's University of Vienna, the Wikimedia Foundation and the Internet Archive also paused some sites or systems."
+    },
+    {
+      "source": 1,
+      "text": "Wiz said one researcher finished in a week what a world-class team would have needed months for; the two flaws are called 'PHP2Shell' and each scored 9.2 out of 10 for severity."
+    },
+    {
+      "source": 1,
+      "text": "Censys observed about 2.6 million hosts, of which 1.5 million ran PHP versions that cannot easily receive the fix."
+    },
+    {
+      "source": 1,
+      "text": "Cloudflare said it already observed some initial attack attempts and added protections for customers."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "PHP Armageddon: OpenAI, Google's Wiz find ancient holes, panicking the internet",
+      "date": "Oct 21, 2026",
+      "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/"
+    },
+    {
+      "outlet": "AI Times (Korea)",
+      "title": "웹사이트 70% 쓰는 PHP서 AI가 결함 발견…각국 정부 사이트 중단",
+      "date": "Oct 22, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216499"
+    }
+  ],
+  "caption": "PHP, the software behind roughly 70% of websites, just had two critical flaws found with AI, and sites went offline across Europe.\n\nThe US National Security Agency (NSA) warned of the holes, which sit in every PHP version since 2004. Dutch government portals, hospitals and the Port of Rotterdam took public sites offline.\n\n→ Each flaw scored 9.2 out of 10 for severity\n→ Wiz says one researcher did in a week what a top team needs months for\n→ OpenAI says no exploits seen in the wild, though Cloudflare saw early attack attempts\n\nShould old code be re-audited with AI before attackers do it?\n\nSource: TechCrunch, \"PHP Armageddon: OpenAI, Google's Wiz find ancient holes, panicking the internet\", Oct 21, 2026; AI Times, \"웹사이트 70% 쓰는 PHP서 AI가 결함 발견…각국 정부 사이트 중단\", Oct 22, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#PHP",
+    "#Cybersecurity",
+    "#Wiz",
+    "#OpenAI"
+  ],
+  "threads_caption": "PHP, behind roughly 70% of websites, had two AI-found critical flaws. Dutch government portals, hospitals and the Port of Rotterdam took sites offline.\n\nOpenAI says no exploits seen in the wild, but Wiz warns AI makes attacks easier to adapt.\n\nSource: TechCrunch, \"PHP Armageddon: OpenAI, Google's Wiz find ancient holes, panicking the internet\". #PHP"
+}

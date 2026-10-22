@@ -1,0 +1,4 @@
+{ "pass": true, "issues": [
+  { "where": "threads_caption", "problem": "AI Times is named without its article title or date (minor).", "fix": "Optionally add the AI Times title, or keep as is since the Instagram caption has full attribution." },
+  { "where": "slide 2", "problem": "'Readers outside the US cannot sign up yet' is an inference from 'US subscribers only' (minor).", "fix": "Optional: reword to 'Available only to US subscribers for now'." }
+] }

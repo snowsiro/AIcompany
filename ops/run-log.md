@@ -2,6 +2,22 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-10-22
+처리 2건 (ready 1 · blocked 1) · 실패 0건
+성과: 어제 도달 2 · 팔로워 0 · 링크 클릭 0 · 최고 도달 spacex-ai-revenue reel (1)
+결정할 일
+1. `2026-10-22-php-ai-flaws` blocked: 팩트체크 2회 불합격. 남은 수정: 슬라이드 5 제목 "no breaches"→"no confirmed exploits"로, "OpenAI says no exploits in the wild" 귀속을 기사대로(TechCrunch의 "no reports of exploits in the wild" / AI타임스는 CISA) 고치기. 선택: 독일·핀란드 중단이 예방 조치였다는 점, 70%는 서버 언어가 확인된 사이트 기준이라는 단서. 훅(7/10)·브랜드 안전은 통과. 커버 이미지 생성 완료
+2. 인스타 API 미설정이 아님: 참고 계정은 GitHub Actions 스캔(ops/scan/2026-10-22)으로 확인함. 스캔이 05:07에 안 돌아 morning-scan을 수동 실행했고 폴더 확인됨
+3. 카테고리: 브리프의 SECURITY/PRODUCT는 lint 허용 목록에 없어 INDUSTRY/TOOLS 사용. SECURITY를 쓰려면 scripts/lint.mjs 수정 필요
+4. 브랜치: 지정된 `claude/stoic-rubin-o3q7as`에 푸시 (플레이북의 daily/2026-10-22 대신)
+5. 예비 주제 2건 추가: 한국 공정위 AI washing 규칙, Photon Bridge €10M
+자세한 기록
+- 후보 9개 수집 (403: Verge, Ars, OpenAI, Yonhap, Politico Europe; 구글뉴스 리다이렉트는 읽지 못함)
+- 주제 선정: PHP 취약점(유럽), Claude Duet(미국)
+- Higgsfield cinematic_studio_2_5로 커버 2장 (4 크레딧; 오늘 합계 4/6)
+- claude-duet: 1차 팩트(출처 표기) 불합격 → 캡션 수정 → 3개 모두 통과, ready
+- php-ai-flaws: 1차 팩트·훅 불합격 → 수정 → 2차 팩트 불합격 → blocked
+
 ## [수정] 2026-10-21 SpaceX 글 다시 살림
 처리 1건 (ready 1) · 실패 0건
 결정할 일
