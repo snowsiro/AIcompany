@@ -147,7 +147,7 @@
 
     if (index === total - 1) {
       const srcs = post.sources.slice(0, 3).map(s =>
-        `<p>${DOC_ICON}<span><b>${rich(s.outlet)}</b>, “${rich(s.title)}” (${rich(s.date)})</span></p>`).join("");
+        `<p>${DOC_ICON}<span><b>${rich(s.outlet)}</b>, “${rich(s.title_en || s.title)}”${s.title_en ? ` (in ${rich(s.language || "Korean")})` : ""} (${rich(s.date)})</span></p>`).join("");
       root.innerHTML = `
         <div class="card slide end">
           ${deco(index + 1)}

@@ -8,6 +8,7 @@ Re-open every URL in `sources` with `node scripts/article.mjs <url>`, which prin
 If that fails, try WebFetch and ask for the exact sentences you need. WebFetch answers with a summary, so a quote or an
 exact figure that you can see only in a summary is unconfirmed. For each slide, the cover, the caption and `threads_caption`, check that every name, number, date and quote
 matches the article text exactly, and that nothing is overstated (e.g. "at least 50%" must not become "all").
+For a non-English source, check that `title` is the published title and that `title_en` translates it faithfully, adding nothing.
 
 Write `posts/<id>/review-facts.json`: `{ "pass": true|false, "issues": [{ "where": "slide 3", "problem": "...", "fix": "..." }] }`.
 Fail on any mismatch, and fail any claim whose source you could not open: a fact you can't read in the article is unconfirmed.

@@ -18,6 +18,9 @@ Read `CLAUDE.md`, `DESIGN.md`, the brief, and one finished post in `posts/` as t
 - `cover.image_prompt`: a cinematic scene for the top 60% of the frame. Must include "No text, no letters, no logos, no people."
   Never describe a real person.
 - 4-6 body slides: kicker (≤4 words), title, body. ≤48 words per slide, ≤2 `**emphasis**`. Explain lesser-known company, agency and people names on first use.
+- `sources`: `title` is the article's title exactly as published (the fact-checker matches it). If it is not in English,
+  also add `title_en`, a faithful English translation (no added claims), and `language` (e.g. "Korean"). Readers only
+  ever see `title_en` with "(in Korean)": in the caption, threads_caption and on the last slide. Never show the original.
 - `facts`: every number you show must appear in a fact, and every fact cites its source index.
 - `caption`: hook line, 2-3 arrow bullets, a question, "Source: <outlet>, <date>.", follow line.
   The hook line must name the subject (company, product, country), because Instagram search reads the caption:
