@@ -1,0 +1,128 @@
+{
+  "id": "2026-10-22-claude-duet",
+  "date": "2026-10-22",
+  "category": "TOOLS",
+  "status": "ready",
+  "korean_refs": [
+    "AI타임스"
+  ],
+  "cover": {
+    "tag": "US AI · TOOLS",
+    "headline": [
+      "CLAUDE WORKS",
+      "WHILE YOU'RE **OUT**"
+    ],
+    "hook_options": [
+      [
+        "CLAUDE WORKS",
+        "WHILE YOU'RE **OUT**"
+      ],
+      [
+        "AI ASKS FIRST",
+        "BEFORE IT **PAYS**"
+      ],
+      [
+        "CLAUDE DUET VS",
+        "META'S **MUSE**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "reader-impact",
+      "rivalry"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "Slides 2-3 back it directly: Duet checks connected accounts every few hours and a virtual machine keeps working when your devices are off. The reader-impact option ('asks first before it pays') is also supported by the guardrails slide but is narrower and could sound like a payments product. The rivalry option rests on AI Times alone and Muse is not the main story. The US-only preview is stated on slide 2.",
+    "image_prompt": "Cinematic wide shot of an empty modern desk at dawn, a laptop lid closed, a single soft amber light glowing from a small tablet while pale morning light fills the window and glowing thread-like lines of light quietly connect small floating panels in the air above the desk. Cool blue tones with one warm accent. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261022_035204_751be170-5045-4724-bc50-9a97a851e49c.png"
+  },
+  "slides": [
+    {
+      "kicker": "The launch",
+      "title": "Anthropic's new agent acts in the background",
+      "body": [
+        "Anthropic opened a **research preview** of Claude Duet. It flags work needing attention, does assigned tasks in the background and asks before acting for you."
+      ]
+    },
+    {
+      "kicker": "Who can use it",
+      "title": "US only, by waitlist",
+      "body": [
+        "Access is by waitlist for **US Claude Pro and Max subscribers**. It is included in those plans and shares their existing usage limits. Readers outside the US cannot sign up yet."
+      ]
+    },
+    {
+      "kicker": "The routine",
+      "title": "A morning brief, then regular check-ins",
+      "body": [
+        "Duet sends a short morning brief from your connected apps and **checks those accounts every few hours**. A virtual machine with its own browser keeps working when your devices are off."
+      ]
+    },
+    {
+      "kicker": "The guardrails",
+      "title": "It must ask before it acts",
+      "body": [
+        "Duet has to show the action and **wait for you** before sending a message, paying, signing or deleting. Securities trading and transfers between accounts stay **prohibited**."
+      ]
+    },
+    {
+      "kicker": "The limits",
+      "title": "Still early, and a crowded race",
+      "body": [
+        "It may misread threads or rank urgency poorly, and you cannot yet watch its browser. AI Times reports Duet competes with **Meta's Muse** and OpenAI's Dots."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Anthropic opened a research preview of Claude Duet, a proactive agent that surfaces work needing attention, carries out assigned tasks in the background, and asks before acting on a user's behalf."
+    },
+    {
+      "source": 0,
+      "text": "Access is by waitlist for US Claude Pro and Max subscribers; it is included in those plans and shares their existing usage limits."
+    },
+    {
+      "source": 0,
+      "text": "It sends a concise morning brief based on connected apps and checks those accounts every few hours. A virtual machine with its own browser keeps working when the user's devices are off."
+    },
+    {
+      "source": 0,
+      "text": "Duet must show the proposed action and wait before sending a message, making a payment, signing a document, or deleting anything; securities trading and transfers between accounts remain prohibited."
+    },
+    {
+      "source": 0,
+      "text": "The preview remains limited: Duet may misread threads or rank urgency poorly, and users cannot yet view its browser."
+    },
+    {
+      "source": 0,
+      "text": "It can use more than 6,000 connectors and plugins in the Claude Marketplace, including Gmail, Slack, QuickBooks, Stripe, HubSpot and Shopify."
+    },
+    {
+      "source": 1,
+      "text": "AI Times reports Duet competes with Meta's Muse and OpenAI's Dots, and says Duet's difference is that it periodically checks business accounts and flags what needs attention before the user asks."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TestingCatalog",
+      "title": "Anthropic opens Claude Duet preview for US Pro and Max users",
+      "date": "Oct 21, 2026",
+      "url": "https://www.testingcatalog.com/claude-duet/"
+    },
+    {
+      "outlet": "AI Times (Korea)",
+      "title": "앤트로픽, 메타 '뮤즈' 대항마 AI 에이전트 '클로드 듀엣' 공개",
+      "date": "Oct 22, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216510"
+    }
+  ],
+  "caption": "Anthropic just launched Claude Duet, an AI agent that works in the background and asks before it acts.\n\nIt is a research preview, open by waitlist to US Claude Pro and Max subscribers only.\n\n→ Sends a morning brief and checks your connected accounts every few hours\n→ Must show the action and wait for you before sending, paying, signing or deleting\n→ Still early: it may misread threads, and you cannot yet watch its browser\n\nWould you let an AI agent check your inbox while you are away?\n\nSource: TestingCatalog, \"Anthropic opens Claude Duet preview for US Pro and Max users\", Oct 21, 2026; AI Times, \"앤트로픽, 메타 '뮤즈' 대항마 AI 에이전트 '클로드 듀엣' 공개\", Oct 22, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Anthropic",
+    "#ClaudeDuet",
+    "#AIAgents"
+  ],
+  "threads_caption": "Anthropic just launched Claude Duet, an AI agent that works in the background and asks before it acts.\n\nUS Pro and Max users only, by waitlist. It must show the action and wait before sending, paying, signing or deleting.\n\nSource: TestingCatalog, \"Anthropic opens Claude Duet preview for US Pro and Max users\"; AI Times. #Anthropic"
+}

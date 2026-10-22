@@ -1,0 +1,2 @@
+# Backlog 2026-10-22: Dutch Photon Bridge raises EUR 10M for AI-chip lasers (REGION EUROPE, HARDWARE)
+Score ~6-8. Sources: Tech.eu and The Next Web, both 2026-10-21. EUR 10M round co-led by Amadeus APEX Technology Fund and 360 Capital; many low-power lasers instead of one strong one; first samples 2027, volume 2028; Eindhoven; formerly Photon IP; TNW says Nvidia put at least $6.5B into photonics firms since March. Euro amounts need a dollar figure from an article's stated rate (none given, so flag). Details in ops/candidates/2026-10-22.json.
