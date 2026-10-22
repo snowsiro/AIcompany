@@ -1,0 +1,72 @@
+{
+ "fetched_at": "2026-10-22T03:46:59.994Z",
+ "days": 14,
+ "account": {
+  "day": "2026-10-21",
+  "followers": 0,
+  "media_count": 2,
+  "reach": 2,
+  "views": 5,
+  "accounts_engaged": 1,
+  "profile_links_taps": 0,
+  "follows_and_unfollows": null
+ },
+ "posts": [
+  {
+   "media_id": "17937430866392547",
+   "post": "2026-10-21-spacex-ai-revenue",
+   "format": "reel",
+   "hook_type": null,
+   "region": "US",
+   "category": "ECONOMY",
+   "published_at": "2026-10-21T22:56:54+0000",
+   "url": "https://www.instagram.com/reel/Dexh_4LiqNi/",
+   "reach": 1,
+   "views": 1,
+   "saved": 0,
+   "shares": 0,
+   "likes": 0,
+   "comments": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 10692
+  },
+  {
+   "media_id": "17978572569133166",
+   "post": "2026-10-21-spacex-ai-revenue",
+   "format": "carousel",
+   "hook_type": null,
+   "region": "US",
+   "category": "ECONOMY",
+   "published_at": "2026-10-21T18:00:26+0000",
+   "url": "https://www.instagram.com/p/DexAHzxjfbo/",
+   "reach": 1,
+   "views": 2,
+   "saved": 1,
+   "shares": 0,
+   "likes": 1,
+   "comments": 0,
+   "total_interactions": 2,
+   "follows": 0,
+   "profile_visits": 0
+  },
+  {
+   "media_id": "17979557634129695",
+   "post": "2026-10-21-us-deepseek-ban",
+   "format": "carousel",
+   "hook_type": null,
+   "region": "US",
+   "category": "POLICY",
+   "published_at": "2026-10-21T12:26:47+0000",
+   "url": "https://www.instagram.com/p/DewZ7o0lxCr/",
+   "reach": 1,
+   "views": 2,
+   "saved": 1,
+   "shares": 0,
+   "likes": 1,
+   "comments": 0,
+   "total_interactions": 2,
+   "follows": 0,
+   "profile_visits": 0
+  }
+ ]
+}
