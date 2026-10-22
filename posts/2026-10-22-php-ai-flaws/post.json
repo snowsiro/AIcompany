@@ -2,7 +2,7 @@
   "id": "2026-10-22-php-ai-flaws",
   "date": "2026-10-22",
   "category": "INDUSTRY",
-  "status": "blocked",
+  "status": "ready",
   "korean_refs": [],
   "cover": {
     "tag": "EUROPE AI · INDUSTRY",
@@ -44,7 +44,7 @@
       "kicker": "The outage",
       "title": "Sites went dark across Europe",
       "body": [
-        "In the Netherlands, government portals, the **Port of Rotterdam**, the football association and several hospitals took public websites offline. Germany's University of Freiburg and Austria's University of Vienna also paused some sites or systems."
+        "In the Netherlands, government portals, the **Port of Rotterdam**, the football association and several hospitals took public websites offline. Germany's University of Freiburg and Austria's University of Vienna paused some systems. AI Times reports some were precautions."
       ]
     },
     {
@@ -68,9 +68,9 @@
     },
     {
       "kicker": "The balance",
-      "title": "Early attempts, no breaches",
+      "title": "Attack attempts, damage unclear",
       "body": [
-        "OpenAI says researchers found the flaws first, with **no exploits seen in the wild**. Cloudflare, a web security firm, did see initial attack attempts. The NSA advises pulling unpatchable PHP sites offline. Censys counted 1.5 million of about 2.6 million hosts on hard-to-fix versions."
+        "OpenAI says researchers found the flaws **before hackers**. Cloudflare saw initial attack attempts; the scale of any intrusions or leaks is not yet confirmed. The NSA advises pulling unpatchable PHP sites offline. Censys counted **1.5M** of about 2.6M hosts on hard-to-fix versions."
       ]
     }
   ],
@@ -101,7 +101,7 @@
     },
     {
       "source": 0,
-      "text": "OpenAI says the flaws were found by researchers before hackers, and there were no reports of exploits in the wild."
+      "text": "OpenAI says the flaws were found by researchers before hackers. TechCrunch reported no reports of exploits in the wild at publication; AI Times says the scale of actual intrusions or data leaks has not yet been confirmed."
     },
     {
       "source": 1,
@@ -118,6 +118,10 @@
     {
       "source": 1,
       "text": "Cloudflare said it already observed some initial attack attempts and added protections for customers."
+    },
+    {
+      "source": 1,
+      "text": "AI Times reports that some of the site shutdowns were precautionary measures (예방 조치)."
     }
   ],
   "sources": [
@@ -134,7 +138,7 @@
       "url": "https://www.aitimes.com/news/articleView.html?idxno=216499"
     }
   ],
-  "caption": "PHP, the software behind roughly 70% of websites, just had two critical flaws found with AI, and sites went offline across Europe.\n\nThe US National Security Agency (NSA) warned of the holes, which sit in every PHP version since 2004. Dutch government portals, hospitals and the Port of Rotterdam took public sites offline.\n\n→ Each flaw scored 9.2 out of 10 for severity\n→ Wiz says one researcher did in a week what a top team needs months for\n→ OpenAI says no exploits seen in the wild, though Cloudflare saw early attack attempts\n\nShould old code be re-audited with AI before attackers do it?\n\nSource: TechCrunch, \"PHP Armageddon: OpenAI, Google's Wiz find ancient holes, panicking the internet\", Oct 21, 2026; AI Times, \"웹사이트 70% 쓰는 PHP서 AI가 결함 발견…각국 정부 사이트 중단\", Oct 22, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "PHP, the software behind roughly 70% of websites, just had two critical flaws found with AI, and sites went offline across Europe, some as a precaution.\n\nThe US National Security Agency (NSA) warned of the holes, which sit in every PHP version since 2004. Dutch government portals, hospitals and the Port of Rotterdam took public sites offline.\n\n→ Each flaw scored 9.2 out of 10 for severity\n→ Wiz says one researcher did in a week what a top team needs months for\n→ OpenAI says researchers found them before hackers; Cloudflare saw early attack attempts, and the scale of any damage is not yet confirmed\n\nShould old code be re-audited with AI before attackers do it?\n\nSource: TechCrunch, \"PHP Armageddon: OpenAI, Google's Wiz find ancient holes, panicking the internet\", Oct 21, 2026; AI Times, \"웹사이트 70% 쓰는 PHP서 AI가 결함 발견…각국 정부 사이트 중단\", Oct 22, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#PHP",
@@ -142,5 +146,5 @@
     "#Wiz",
     "#OpenAI"
   ],
-  "threads_caption": "PHP, behind roughly 70% of websites, had two AI-found critical flaws. Dutch government portals, hospitals and the Port of Rotterdam took sites offline.\n\nOpenAI says no exploits seen in the wild, but Wiz warns AI makes attacks easier to adapt.\n\nSource: TechCrunch, \"PHP Armageddon: OpenAI, Google's Wiz find ancient holes, panicking the internet\". #PHP"
+  "threads_caption": "PHP, behind roughly 70% of websites, had two AI-found critical flaws. Dutch government portals, hospitals and the Port of Rotterdam took sites offline.\n\nOpenAI says researchers found them before hackers, but Wiz warns AI makes attacks easier to adapt.\n\nSource: TechCrunch, \"PHP Armageddon: OpenAI, Google's Wiz find ancient holes, panicking the internet\". #PHP"
 }

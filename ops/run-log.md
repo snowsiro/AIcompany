@@ -2,6 +2,17 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [수정] 2026-10-22 PHP 보안 글 다시 살림
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음
+자세한 기록
+- 09:10 제이미 요청: blocked PHP 글 고치기
+- 슬라이드 6 제목 "no breaches" → "damage unclear", OpenAI 발언은 기사대로 "researchers found them before hackers"만
+- 슬라이드 2와 캡션에 일부 중단은 예방 조치였다는 점 추가 (AI타임스)
+- check-article로 TechCrunch, AI타임스 원문 문구 확인. 크레딧 추가 사용 없음
+- 게시 순서: 13:57 Claude Duet, 19:57 PHP
+
 ## [아침 보고] 2026-10-22
 처리 2건 (ready 1 · blocked 1) · 실패 0건
 성과: 어제 도달 2 · 팔로워 0 · 링크 클릭 0 · 최고 도달 spacex-ai-revenue reel (1)
