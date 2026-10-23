@@ -2,6 +2,17 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [보충] 2026-10-23 빠진 게시물 2개 준비
+처리 2건 (ready 2) · 실패 0건
+결정할 일
+1. 없음
+자세한 기록
+- 05:45 루틴이 브리프 2개까지만 만들고 멈춤(03:51 UTC), PR 없음. 아침 검토도 API 오류로 끊김
+- 22:04 제이미 요청: 오늘 못 올린 것 다 준비
+- china-nvidia-35b(TNW, AI타임스), korea-ai-glasses(ZDNet Korea, 머니투데이): check-article로 원문 문구 확인
+- 커버 2장 Higgsfield 4크레딧 (오늘 합계 4/6)
+- 게시: 10-24 13:57 중국 Nvidia, 19:57 한국 AI 안경
+
 ## [수정] 2026-10-22 PHP 보안 글 다시 살림
 처리 1건 (ready 1) · 실패 0건
 결정할 일
