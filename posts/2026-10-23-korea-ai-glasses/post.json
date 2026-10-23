@@ -1,0 +1,129 @@
+{
+  "id": "2026-10-23-korea-ai-glasses",
+  "date": "2026-10-23",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [
+    "ZDNet Korea",
+    "머니투데이"
+  ],
+  "cover": {
+    "tag": "KOREA AI · POLICY",
+    "headline": [
+      "WHICH GLASSES",
+      "ARE **FILMING**?"
+    ],
+    "hook_options": [
+      [
+        "WHICH GLASSES",
+        "ARE **FILMING**?"
+      ],
+      [
+        "A $2 STICKER",
+        "HIDES THE **CAMERA**"
+      ],
+      [
+        "SMART GLASSES",
+        "FOOLED **OFFICIALS**"
+      ]
+    ],
+    "hook_types": [
+      "reader-impact",
+      "number",
+      "claim"
+    ],
+    "hook_type": "reader-impact",
+    "hook_pick_reason": "Slide 2 shows officials could not tell which glasses were filming, and slide 3 shows why (a cheap sticker over the recording light). It asks the reader the same question. The sticker option is backed but the dollar figure is a conversion, so the won figure stays inside.",
+    "image_prompt": "Cinematic close-up of a pair of plain black eyeglasses with a thick frame resting on a dark wooden desk, a tiny lens on the hinge and a small dark square sticker covering a tiny indicator light, soft amber rim light, cool blue background haze. No text, no letters, no logos, no people, no faces.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261023_200508_b29ef65c-843f-43b8-adaf-3536cee497ff.png"
+  },
+  "slides": [
+    {
+      "kicker": "The test",
+      "title": "Spot the camera",
+      "body": [
+        "At Korea's parliamentary audit on Oct. 23, lawmaker **Lee Jung-hun** of the ruling Democratic Party had aides wear ordinary glasses and AI smart glasses. Officials could not tell which pair was filming."
+      ]
+    },
+    {
+      "kicker": "The trick",
+      "title": "A sticker beats the light",
+      "body": [
+        "Smart glasses show an LED when they record. Blocking stickers sold online for about **2,000 won** (under $2) cover it."
+      ]
+    },
+    {
+      "kicker": "The cases",
+      "title": "It is already happening",
+      "body": [
+        "Lee's office found **three cases** this year of people caught filming illegally with smart glasses, including filming a flight attendant and filming in a hotel. Police keep no official statistics."
+      ]
+    },
+    {
+      "kicker": "The gaps",
+      "title": "Rules lag behind",
+      "body": [
+        "A ministry policy study won't report until **summer 2027**, police have no enforcement manual and the privacy watchdog's powers are limited. Lee said the glasses are reaching exams like TOEIC, and pointed to curbs in Australia."
+      ]
+    },
+    {
+      "kicker": "The response",
+      "title": "A cross-ministry plan",
+      "body": [
+        "Bae Kyung-hoon, Korea's deputy prime minister and science minister, said the issue came up at a cabinet meeting and promised a **cross-ministry** response and faster work on guidelines."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Oct. 23 audit of the National Assembly science and ICT committee; Democratic Party lawmaker Lee Jung-hun had aides wear ordinary glasses and AI glasses; officials could not tell which was filming."
+    },
+    {
+      "source": 0,
+      "text": "The recording LED was covered with a blocking sticker sold online for about 2,000 won. Dollar figure is our approximation (2,000 won is under $2 at any recent rate), not from the article."
+    },
+    {
+      "source": 0,
+      "text": "Three cases this year of illegal filming with smart glasses caught, including a flight attendant and a hotel; no official police statistics."
+    },
+    {
+      "source": 0,
+      "text": "Policy study results not until summer 2027; no police manual; Personal Information Protection Commission has limited authority; Australia restricts smart glasses."
+    },
+    {
+      "source": 0,
+      "text": "Deputy Prime Minister and Science Minister Bae Kyung-hoon said it was discussed at the cabinet meeting and promised a cross-ministry response and faster guidelines."
+    },
+    {
+      "source": 1,
+      "text": "Lee said smart glasses are entering national qualification exams, TOEIC, universities and essay tests, and the government response is almost nonexistent."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "ZDNet Korea",
+      "title": "AI 글래스 '몰카', 국감서 시연...배경훈 \"범부처 대책 마련하겠다\"",
+      "title_en": "AI glasses as hidden cameras demonstrated at audit; Bae Kyung-hoon: \"We will prepare cross-ministry measures\"",
+      "language": "Korean",
+      "date": "Oct 23, 2026",
+      "url": "https://zdnet.co.kr/view/?no=20261023103816"
+    },
+    {
+      "outlet": "Money Today",
+      "title": "'2000원에 무력화' 스마트글래스 표시…與이정헌 \"대책마련해야\"",
+      "title_en": "Smart-glasses recording light 'defeated for 2,000 won'; ruling party's Lee Jung-hun: \"Measures are needed\"",
+      "language": "Korean",
+      "date": "Oct 23, 2026",
+      "url": "https://www.mt.co.kr/tech/2026/10/23/2026102310220477198"
+    }
+  ],
+  "caption": "Korea's lawmakers showed that AI smart glasses can film people without anyone noticing, even officials who were looking for it.\n\nAt a parliamentary audit, a cheap sticker over the recording light was enough to hide which glasses were filming.\n\n→ Blocking stickers sell online for about 2,000 won (under $2)\n→ Three smart-glasses filming cases were caught this year\n→ Korea's science minister promised a cross-ministry plan\n\nWould you notice if the person next to you was recording?\n\nSource: ZDNet Korea, \"AI glasses as hidden cameras demonstrated at audit; Bae Kyung-hoon: \\\"We will prepare cross-ministry measures\\\"\" (in Korean), Oct 23, 2026; Money Today, \"Smart-glasses recording light 'defeated for 2,000 won'; ruling party's Lee Jung-hun: \\\"Measures are needed\\\"\" (in Korean), Oct 23, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#SmartGlasses",
+    "#Korea",
+    "#Privacy"
+  ],
+  "threads_caption": "In Korea's parliament, officials could not tell which glasses were secretly filming: a sticker costing about 2,000 won hid the recording light.\n\nSource: ZDNet Korea, \"AI glasses as hidden cameras demonstrated at audit\" (in Korean). #SmartGlasses"
+}

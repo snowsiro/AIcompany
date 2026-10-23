@@ -1,0 +1,134 @@
+{
+  "id": "2026-10-23-china-nvidia-35b",
+  "date": "2026-10-23",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [
+    "AI타임스"
+  ],
+  "cover": {
+    "tag": "CHINA AI · INDUSTRY",
+    "headline": [
+      "CHINA ORDERS",
+      "**$35B** OF NVIDIA"
+    ],
+    "hook_options": [
+      [
+        "CHINA ORDERS",
+        "**$35B** OF NVIDIA"
+      ],
+      [
+        "CHINA WANTS 6M,",
+        "NVIDIA HAS **3M**"
+      ],
+      [
+        "CURBS DIDN'T",
+        "STOP **CHINA**"
+      ],
+      [
+        "BUYERS MAY GET",
+        "ONLY **5%**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "rivalry",
+      "myth-flip",
+      "reader-impact"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Slide 2 backs the figure directly (Reuters: over 3 million cards, combined sticker price over $35B). The 6M vs 3M option is also backed (slide 4) but reads as a riddle on first glance. The myth-flip option is a framing the articles support only indirectly. The reader-impact option (buyers may get only 5% to 10%) is backed by slide 4 but speaks only to Chinese buyers, so it is weaker for a global audience.",
+    "image_prompt": "Cinematic wide shot of a vast dim warehouse filled with long rows of stacked plain unbranded graphics card boxes on metal shelves, a narrow aisle leading toward a single glowing amber light at the far end, cool blue haze, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261023_200508_2f6f2735-885c-4b1b-bfcb-1ea422215d68.png"
+  },
+  "slides": [
+    {
+      "kicker": "The order",
+      "title": "A $35B shopping list",
+      "body": [
+        "ByteDance (TikTok's parent), Alibaba and Tencent ordered **over 3 million** Nvidia RTX PRO 5500 cards, Reuters reported. The combined sticker price tops $35B, about **$11,400** a card."
+      ]
+    },
+    {
+      "kicker": "Why this card",
+      "title": "The best they are allowed",
+      "body": [
+        "It is built for workstations, not data centers, but it is among the most powerful Nvidia chips Chinese buyers can get. US rules bar sales of the B300, and H200 exports are reviewed case by case."
+      ]
+    },
+    {
+      "kicker": "The squeeze",
+      "title": "6M wanted, 3M possible",
+      "body": [
+        "Nvidia could make no more than **3 million** of these cards worldwide in 2027, one source said, while Chinese orders passed **6 million**. Partners may get only 5% to 10% of what they asked for."
+      ]
+    },
+    {
+      "kicker": "Nvidia's view",
+      "quote": "Outdated US export controls, which cover gaming products released nearly a half a decade ago.",
+      "who": "Nvidia spokesperson, on what restricts US firms"
+    },
+    {
+      "kicker": "The ripple",
+      "title": "Home-grown chips gain",
+      "body": [
+        "The cards are mainly for inference, running chatbots. Samples come in December. Meanwhile curbs push buyers to Huawei, which is gaining share, and to chips like Alibaba's **Zhenwu V900**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "ByteDance, Alibaba and Tencent have ordered more than 3 million RTX PRO 5500 cards with a combined sticker price over $35bn, Reuters reported; TNW has not independently verified it."
+    },
+    {
+      "source": 0,
+      "text": "About $11,400 per card, according to two of the sources."
+    },
+    {
+      "source": 0,
+      "text": "Workstation card, not data center, but among the most powerful Nvidia chips Chinese buyers can get; B300 barred, H200 reviewed case by case."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia could make no more than 3 million cards worldwide in 2027; Chinese orders passed 6 million; partners might receive only 5% to 10%."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia spokesperson: 'outdated US export controls, which cover gaming products released nearly a half a decade ago'."
+    },
+    {
+      "source": 0,
+      "text": "Mainly for inference; samples in December, deliveries from the first quarter of 2027; Huawei gaining share; Alibaba's Zhenwu V900."
+    },
+    {
+      "source": 1,
+      "text": "AI Times relays the Reuters report: over 3 million cards, about $11,400 each, 5-10% fill, orders over 6 million, mainly inference."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "Nvidia blames \"outdated\" curbs as China orders $35bn of RTX PRO 5500s",
+      "date": "Oct 20, 2026",
+      "url": "https://thenextweb.com/news/nvidia-rtx-pro-5500-china-orders-bytedance-alibaba-tencent"
+    },
+    {
+      "outlet": "AI Times (Korea)",
+      "title": "중국 빅테크, 엔비디아 그래픽카드 46조원 주문…첨단 AI 칩 막히자 대체품 확보",
+      "title_en": "Chinese big tech orders 46 trillion won of Nvidia graphics cards, securing substitutes as advanced AI chips are blocked",
+      "language": "Korean",
+      "date": "Oct 22, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216548"
+    }
+  ],
+  "caption": "Chinese tech giants have ordered over $35B of Nvidia graphics cards, Reuters reported, after US curbs blocked top AI chips.\n\nByteDance, Alibaba and Tencent want more than 3 million RTX PRO 5500 cards, a workstation chip that is among the best Chinese buyers can still get.\n\n→ About $11,400 a card\n→ Chinese orders passed 6 million; Nvidia may make 3 million in 2027\n→ Nvidia blames \"outdated\" US export controls\n\nDid export curbs slow China down, or just change what it buys?\n\nSource: The Next Web, \"Nvidia blames \\\"outdated\\\" curbs as China orders $35bn of RTX PRO 5500s\", Oct 20, 2026; AI Times, \"Chinese big tech orders 46 trillion won of Nvidia graphics cards, securing substitutes as advanced AI chips are blocked\" (in Korean), Oct 22, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nvidia",
+    "#China",
+    "#ByteDance",
+    "#AIChips"
+  ],
+  "threads_caption": "Chinese tech giants have ordered over $35B of Nvidia RTX PRO 5500 cards, Reuters reported. Orders passed 6 million; Nvidia may make 3 million in 2027.\n\nSource: The Next Web, \"Nvidia blames \\\"outdated\\\" curbs as China orders $35bn of RTX PRO 5500s\". #Nvidia"
+}

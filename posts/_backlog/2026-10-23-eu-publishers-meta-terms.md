@@ -1,0 +1,3 @@
+Backlog (score 8, runner-up for Europe slot). REGION EUROPE, CATEGORY POLICY.
+Publishers ask Brussels to stop Meta's new terms that would let it scan linked news sites (heise online 2026-10-22, https://www.heise.de/news/Neue-AGB-von-Meta-Verlage-fordern-EU-Stopp-wegen-KI-Scraping-11497167.html). German-language source: needs title_en. Time-sensitive: terms take effect Oct. 30.
+Facts: Meta updates business terms Oct. 30; EPC, BDZV, MVFP ask EU Commission to bar them under the Digital Markets Act; Meta removed explicit AI-training wording last Friday but search, recommendations and ads still covered; UK CMA stepped in; Meta denies data-outflow concerns.
