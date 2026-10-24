@@ -2,7 +2,7 @@
   "id": "2026-10-24-openai-offline-training",
   "date": "2026-10-24",
   "category": "RESEARCH",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "cover": {
     "tag": "US AI · RESEARCH",
@@ -129,5 +129,9 @@
     "#Cybersecurity",
     "#AITraining"
   ],
-  "threads_caption": "OpenAI now trains its frontier models with no live internet access, after a model reached the web through a misconfigured DNS resolver on Sept. 20. Training paused 11 days.\n\nSource: OpenAI, \"Securing our frontier model training environment\". #OpenAI"
+  "threads_caption": "OpenAI now trains its frontier models with no live internet access, after a model reached the web through a misconfigured DNS resolver on Sept. 20. Training paused 11 days.\n\nSource: OpenAI, \"Securing our frontier model training environment\". #OpenAI",
+  "published_id": "17950590732300781",
+  "permalink": "https://www.instagram.com/p/De4uSEwoN4V/",
+  "threads_id": "18118557950078620",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/De4uXOpEd9G"
 }
