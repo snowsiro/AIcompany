@@ -1,26 +1,34 @@
 {
- "fetched_at": "2026-10-24T03:46:32.654Z",
+ "fetched_at": "2026-10-24T08:02:39.281Z",
  "hours": 48,
  "accounts": [
   {
    "username": "ai.trend.kr",
-   "followers": 263006,
+   "followers": 263083,
    "ok": true,
    "posts": [
+    {
+     "timestamp": "2026-10-24T07:56:36+0000",
+     "url": "https://www.instagram.com/p/De3paVfD_yv/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": null,
+     "comments": 2,
+     "caption_start": "‘전과자’에서 꺼낸 아이디어가 진짜 캠퍼스가 됐어요. 🎓 ‘전과자’ 프로그램에서 제안했던 오프라인 캠퍼스를 Google Gemini가 실제 공간으로 만들었습니다. 현장에서 NFC로 나만의 스낵증을 발급받고 ‘스낵이 제미나이 캠퍼스’를 누비며 다양한 미션을 완료해서 학점을 쌓아가는 방식이에요. 하트라운지에서 연애 고민을 털어놓고, 동아리 부스와 과방 미션, 중앙 도서관 QR 미션, 교내방송국까지 Gemini와 함께 즐길 수 있습니다. 미션하다 지치면 카페테리아에서 음료 쿠폰을 시원한 음료로 바꿔 "
+    },
     {
      "timestamp": "2026-10-24T01:17:19+0000",
      "url": "https://www.instagram.com/p/De27tzgD48L/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 305,
-     "comments": 207,
+     "likes": 490,
+     "comments": 350,
      "caption_start": "AI 여러 개 쓰시는 분들, 사람이 복붙 담당인 거 이제 그만해도 될 것 같아요 📮 그동안은 클로드 코드가 만든 결과를 코덱스에 보여주려면 직접 복사해서 옮겨야 했죠. Reason이 공개한 Reason Network는 회사가 다른 AI끼리 메시지를 주고받게 해서, 수정은 클로드 코드가 하고 검토는 코덱스가 이어받는 식으로 일을 나눠 맡길 수 있습니다. 이용료는 없고, 공식 연결 문장 하나를 AI에게 붙여넣고 로그인하면 연결돼요. 단, 팀원에게 내 작업 폴더가 보이니 개인 폴더는 미리 빼두는 걸 "
     },
     {
      "timestamp": "2026-10-23T11:35:05+0000",
      "url": "https://www.instagram.com/reel/De1dh8vPnWd/",
      "type": "VIDEO",
-     "likes": 2235,
-     "comments": 44,
+     "likes": 2817,
+     "comments": 53,
      "caption_start": "강아지 대신 오리 로봇이 집을 지키는 날, 생각보다 빨리 올지도 몰라요 🦆 지난 21일 엔비디아 ’GTC 베를린‘에서 젠슨 황이 웃음을 참지 못한 장면이 화제인데요. 주인공은 허깅페이스가 만든 키 25cm 오리 로봇 ’마이크로덕‘ 네 대입니다. ”낮잠 자자“라는 말에 우르르 눕고, 데굴데굴 공중제비를 돌고, 한 대는 연설 도중 딴 데로 가 버렸죠. 완벽하지 않아 더 귀엽다는 반응이 쏟아졌습니다. 이 하찮은 걸음마는 엔비디아 가상 세계에서 수없이 넘어지며 배웠거든요. 일하는 로봇보다 곁에 두고 싶"
     },
     {
@@ -35,38 +43,38 @@
      "timestamp": "2026-10-23T01:01:35+0000",
      "url": "https://www.instagram.com/reel/De0VCSbPO_M/",
      "type": "VIDEO",
-     "likes": 8065,
-     "comments": 47,
+     "likes": 9332,
+     "comments": 48,
      "caption_start": "식이 시작도 안 했는데 하객석이 뒤집어졌어요 🎉 개그우먼 박세미(ssemeeeee) 님 결혼식에서 틀었던 식전 영상이에요. 어른이 돼서 만난 두 사람이 화면 속에선 어린 시절부터 학창 시절까지 늘 함께합니다. 함께한 적 없는 그 시절은 AI로 채워 넣었어요. 화면 속 신랑은 아이돌 연습생, 신부는 개그우먼 지망생으로 등장해 각자의 꿈을 이루고, 강남 레스토랑에서의 첫 만남과 속초 바닷가 고백을 지나 프러포즈까지 이어집니다. 하객석 웃음소리와 함성도 그대로 담겼어요. 결혼 앞둔 친구가 있다면 꼭 "
     },
     {
      "timestamp": "2026-10-22T11:29:04+0000",
      "url": "https://www.instagram.com/p/Dey4ItcD1OV/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 190,
-     "comments": 83,
+     "likes": 193,
+     "comments": 85,
      "caption_start": "어떤 영상 AI를 쓸지 모르겠다면 주목 👀 모델별 공식 마스터 프롬프트를 정리해두었습니다. 모델마다 프롬프트 쓰는 법이 다르거든요. Kling 4.0도 드디어 출시됐어요. 그래서 Kling 4.0, Seedance 2.5, Wan 3.0으로 같은 장면을 비교해봤습니다. 전체 완성도는 Seedance 2.5가 한 수 위였죠. Kling 4.0은 움직임과 연기는 그대로 두고 인물만 바꿔줘서, 대량 UGC 광고에 딱 맞았어요. Wan 3.0은 애니메이션과 과장된 모션에 강하고, 1080p 기준 See"
-    },
-    {
-     "timestamp": "2026-10-22T07:55:05+0000",
-     "url": "https://www.instagram.com/p/DeyfpbnD079/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 225,
-     "comments": 44,
-     "caption_start": "AI 드라마 감독 데뷔, 조건은 프롤로그 30초 하나. 바이트플러스×AI-Kive가 시리즈 제작팀 8팀을 뽑아 크레딧·파티 초대까지 밀어줍니다. 🎬 바이트플러스와 AI-Kive가 ‘시댄스(Seedance)’로 AI 시리즈를 만들 크리에이터를 찾고 있어요. 이 공모전은 상을 주고 끝나지 않습니다 — 선정된 8개 팀은 총 10분 분량의 시리즈를 실제로 완성할 수 있도록 제작 크레딧을 지원받고, 시상식 프리미어 파티에도 초대됩니다. 주제는 자유롭게! 장르도 소재도 세계관도 제한이 없고, 시리즈의 첫 "
     }
    ]
   },
   {
    "username": "sdk.kim.builds",
-   "followers": 56580,
+   "followers": 56698,
    "ok": true,
    "posts": [
+    {
+     "timestamp": "2026-10-24T06:38:03+0000",
+     "url": "https://www.instagram.com/reel/De3gUbRT2ty/",
+     "type": "VIDEO",
+     "likes": 0,
+     "comments": 5,
+     "caption_start": "에이전트를 또 하나 만들고 계시다면, 잠깐 멈춰보세요. 메일용, 보고서용, 블로그용. 일마다 에이전트를 하나씩 만들면 처음 며칠은 잘 돕니다. 그런데 일이 조금만 바뀌어도 어디선가 망가지고, 그걸 고치는 건 결국 나예요. 앤트로픽 엔지니어 배리 장은 작년 11월 개발자 행사 무대에서 이렇게 말했습니다. ”우리는 에이전트를 그만 만들고, 대신 스킬을 만들기 시작했습니다.“ 여기서 스킬은 거창한 게 아니라, 일 하나를 어떻게 하는지 적어둔 폴더예요. 그래서 방법은 이렇습니다. AI는 하나만 두고, 설"
+    },
     {
      "timestamp": "2026-10-23T08:04:10+0000",
      "url": "https://www.instagram.com/reel/De1FZSsD5JT/",
      "type": "VIDEO",
-     "likes": 11,
+     "likes": 12,
      "comments": 17,
      "caption_start": "#광고 이제 AI가 제가 밖에서 나눈 대화까지 알고 있어요. AI로 일 자동화 많이들 하시죠? 근데 AI가 아는 건 화면 안에 있는 것뿐이에요. 회의실에서 한 말, 미팅에서 정한 건 모르잖아요. ━━━━━━━━━━━━━━━━ ① 플라우드 노트 프로 → 버튼 한 번 누르면 대화를 기록하고 → 핵심 내용까지 정리해서 남겨줘요 ② MCP로 클로드에 연결 → 다시 정리해서 복붙할 필요가 없어요 → 클로드가 필요한 대화를 직접 가져와요 ③ 대화가 끝난 뒤 일까지 → \"플라우드에서 가장 최근 녹음 찾아서 핵"
     },
@@ -82,30 +90,30 @@
   },
   {
    "username": "moodmode.ai",
-   "followers": 150330,
+   "followers": 150479,
    "ok": true,
    "posts": [
     {
      "timestamp": "2026-10-24T02:58:09+0000",
      "url": "https://www.instagram.com/reel/De3HNaQp07l/",
      "type": "VIDEO",
-     "likes": 56,
-     "comments": 3,
+     "likes": 247,
+     "comments": 22,
      "caption_start": "다이슨이 만든 절대 안흔들리는 머리핀.. 기계에 달린 마네킹 머리가 정신없이 흔들리는데도 꽂아둔 집게핀은 미동조차 없어요. 다이슨이 헤어 클립을 개발하면서 거쳤다는 내구성 테스트 영상입니다. 해외에서 화제가 된 이 영상에 따르면, 이 클립 하나에 약 200만 달러를 투자하고 출시 전 10만 번을 테스트했다고 알려져 있어요. 사소한 소품 하나에도 진심인 엔지니어들의 집착이 꽤 무섭네요. 여러분이 써본 헤어 제품 중 가장 돈값 했던 아이템은 뭐였나요? Original by dyson Created b"
     },
     {
      "timestamp": "2026-10-23T08:29:23+0000",
      "url": "https://www.instagram.com/p/De1IXjKEYdM/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 220,
-     "comments": 483,
+     "likes": 242,
+     "comments": 539,
      "caption_start": "친구한테 안무전화까지 대신 해주는 AI 등장 고객센터에 전화해 요금제를 바꾸거나 예약을 잡는 일까지 AI가 대신 합니다. 통화 내용은 실시간으로 보고, 끝나면 요약도 받아볼 수 있어요. 쇼핑 주문과 KTX 예매, 친구와 약속 잡기도 지원하며, 결제·예매 전에는 사용자 승인을 받습니다. 아무 댓글이나 남겨주시면 상세 내용 정리한 가이드를 DM으로 보내드릴게요. Curated by • moodmode.ai"
     },
     {
      "timestamp": "2026-10-23T02:40:55+0000",
      "url": "https://www.instagram.com/reel/De0gbsGRKlx/",
      "type": "VIDEO",
-     "likes": 227,
+     "likes": 237,
      "comments": 9,
      "caption_start": "엔비디아 시작하고 있는 소형 반려로봇 엔비디아 무대에 등장한 작은 로봇 네 대가 사람의 목소리를 기가 막히게 알아듣습니다. ’앉아‘라고 하면 강아지처럼 얌전히 앉고, ’낮잠 자‘라는 말에는 미련 없이 바닥에 누워버려요. 삑삑거리는 귀여운 효과음으로 대답까지 하면서요. 이 로봇들은 현실 세계에 나오기 전, 엔비디아의 가상 공간(옴니버스) 안에서 수없이 넘어지고 일어서는 법을 먼저 배웠기 때문에 이렇게 자연스럽게 움직일 수 있습니다. 현실과 똑같은 컴퓨터 속 세상에서 미리 맹훈련을 마친 셈이죠. 집에"
     },
@@ -113,16 +121,16 @@
      "timestamp": "2026-10-23T01:10:37+0000",
      "url": "https://www.instagram.com/reel/De0V-kPT9di/",
      "type": "VIDEO",
-     "likes": 90,
-     "comments": 233,
+     "likes": 96,
+     "comments": 236,
      "caption_start": "요즘 다들 올리는 챌린지 영상들 이렇게 만드세요! #광고 사진 두 장이랑 챌린지 영상만 넣었는데 인트로가 그대로 나오더라구요. 드리미나에서 씨댄스로 만든 거고, 지금 파트너 링크로 가입하면 멤버십이 $0.29(409원)부터 시작이에요. AI 툴은 정말 많지만, 이 가격에 모든 기능을 갖춘 풀 기능 씨댄스 모델을 쓸 수 있어서 시작하기에 부담이 없어요. 챌린지뿐 아니라 영화 같은 장면이나 애니메이션도 같은 방식으로 만들 수 있어요. 저는 드리미나와 공식 파트너십을 맺은 크리에이터 1,000명 중 한"
     },
     {
      "timestamp": "2026-10-22T09:25:25+0000",
      "url": "https://www.instagram.com/p/Deyp_Aykfmk/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 501,
-     "comments": 1209,
+     "likes": 517,
+     "comments": 1261,
      "caption_start": "단톡방 AI 분석 결과 보고 단톡방 마비됨ㅋㅋ 매일 무심코 주고받던 카톡 대화 로그를 AI에게 던져주면 우리 친구들의 실체를 완벽하게 분석해 줍니다. 코딩 같은 건 전혀 몰라도 됩니다. 단순히 대화 텍스트 파일을 복사해서 붙여넣는 것만으로도 각 멤버들의 웃픈 성격과 모순된 행동 패턴이 적나라하게 드러납니다. Created by moodmode.ai"
     },
     {
@@ -137,54 +145,54 @@
   },
   {
    "username": "trenddalkak.ai",
-   "followers": 65318,
+   "followers": 65327,
    "ok": true,
    "posts": [
     {
      "timestamp": "2026-10-23T09:17:11+0000",
      "url": "https://www.instagram.com/p/De1N1pclPHC/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 171,
-     "comments": 75,
+     "likes": 191,
+     "comments": 88,
      "caption_start": "내 GPT 대화기록은 영원히 둘만... 🔐💗 ChatGPT에 드디어 비밀 잠금 기능이 생겼습니다! 연애, 고민상담, 사주풀이 등 아주 다양한 영역에서 고민을 들어주는 GPT...친구나 가족에게도 차마 보여주기 어려운 GPT 대화기록, 다들 하나쯤 있지 않나요? ㅋㅋㅋ 10월 22일 OpenAI가 새롭게 공개한 Locked Chats는 원하는 대화만 골라 비밀번호로 잠글 수 있는 기능인데요. 잠긴 대화는 일반 채팅 목록과 검색에서 사라지고, 별도의 4자리 PIN이나 Face ID 등으로 다시 열"
     },
     {
      "timestamp": "2026-10-22T09:35:26+0000",
      "url": "https://www.instagram.com/p/DeyrIc0lKuy/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 54,
-     "comments": 71,
+     "likes": 55,
+     "comments": 76,
      "caption_start": "이제 광고 영상도 GPT한테 말로 시키는 시대가 왔습니다. 요즘 꼭 알아둬야 할 조합이 있는데요. 바로🔥 ChatGPT × Higgsfield × Wan 3.0🔥입니다. ChatGPT에 Higgsfield 플러그인만 연결하면, 평소 GPT랑 대화하듯 원하는 영상을 설명하고 제작할 수 있어요. 저도 직접 해봤는데, 인물 사진과 제품 사진을 첨부하고 “이런 장면을 만들어줘”라고 요청하니까 실제로 영상이 만들어지더라고요. 더 퀄리티 높이는 방법은 Higgsfield의 Skills 기능입니다. 제품 "
     }
    ]
   },
   {
    "username": "prompt_what",
-   "followers": 229430,
+   "followers": 229668,
    "ok": true,
    "posts": [
     {
      "timestamp": "2026-10-23T11:11:33+0000",
      "url": "https://www.instagram.com/reel/De1ZIMxyer7/",
      "type": "VIDEO",
-     "likes": 117,
-     "comments": 53,
+     "likes": 128,
+     "comments": 64,
      "caption_start": "걸그룹 챌린지, 직접 안 춰도 한 달 409원으로 내 AI 모델이 똑같이 따라 춰요 💃 새롭게 바뀐 Dreamina 웹사이트의 캔버스에서 만들었는데 챌린지 영상을 올리고 Motion capture를 누르면 사람은 빠지고 동작만 깔끔하게 남아요. 여기에 춤출 인물 사진 한 장을 연결하고 입힐 옷이랑 배경만 적어 주면 손끝 각도까지 원본 그대로 따라 추는 영상이 나옵니다. 지금 Dreamina 멤버십이 한 달 409원 한정가에요. 제 링크로 가입해야 이 가격이 적용되고, 프로필 링크에서도 바로 시작"
     },
     {
      "timestamp": "2026-10-23T05:53:04+0000",
      "url": "https://www.instagram.com/reel/De02ZJ3xLh0/",
      "type": "VIDEO",
-     "likes": 52,
-     "comments": 70,
+     "likes": 59,
+     "comments": 80,
      "caption_start": "Claude에 한 줄 보냈더니 20초 숏드라마가 나왔습니다 🎬 Claude에 Newtake MCP를 연결해 두고 ‘기념일 까먹은 줄 알았던 남친이 사실 1년 동안 준비하고 있었다’ 이 한 줄만 보냈어요. Claude가 대본을 장면 다섯 개로 나누고 Newtake로 두 주인공의 얼굴과 옷을 정리한 시트를 뽑은 뒤 그 장면들을 이어 영상까지 만들어 줬습니다. 만든 이미지와 영상은 Newtake 프로젝트에 그대로 쌓여 있어서 마음에 안 드는 장면만 골라 다시 만들 수도 있고요. 연결하는 법부터 실제로"
     },
     {
      "timestamp": "2026-10-23T01:23:06+0000",
      "url": "https://www.instagram.com/reel/De0XfxiyD4L/",
      "type": "VIDEO",
-     "likes": 460,
-     "comments": 1419,
+     "likes": 525,
+     "comments": 1622,
      "caption_start": "대충 찍은 사진 한 장이 광고 이미지로 탄생합니다 📸 책상 위 텀블러, 바닥에 둔 앰플, 현관에 벗어 둔 운동화를 그대로 챗GPT에 올려서 포스터와 피드 광고, 상세페이지, 홈페이지 배너로 바꿔 봤어요. 다만 짧은 코드만으로는 문구와 가격, 분위기까지 내가 원하는 대로 맞추기가 어렵더라고요. 그래서 영상 속 결과를 만든 실제 프롬프트 4개에 제품과 광고 종류별로 바로 붙여 쓰는 프롬프트를 더해 100개를 한 페이지에 정리했으니, 지금 아무 댓글이나 남겨주시면 DM으로 보내드릴게요! One cas"
     },
     {
@@ -199,78 +207,70 @@
      "timestamp": "2026-10-22T23:10:53+0000",
      "url": "https://www.instagram.com/p/De0Ic_cEyxp/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 710,
-     "comments": 1061,
+     "likes": 747,
+     "comments": 1105,
      "caption_start": "Claude 와 Codex, 그록 봇이 이제 서로 일을 주고받습니다 🤝 Reason이 공개한 Reason Network는 내 컴퓨터의 코딩 에이전트와 온라인 AI 비서를 한 네트워크에 묶어 서로 묻고 일을 넘기게 해 줍니다. 공식 데모에서는 그록 봇에게 말 한 줄을 건네자 Claude Code가 코드를 고치고 테스트 4개 통과까지 보고했고, Codex에게 검토를 넘기는 장면도 나왔어요. 연결은 에이전트에게 문장 하나를 붙여넣고 로그인하면 되고, 팀원 에이전트까지 초대해 같은 네트워크에서 쓸 수 "
     },
     {
      "timestamp": "2026-10-22T22:15:11+0000",
      "url": "https://www.instagram.com/reel/De0CACBThfx/",
      "type": "VIDEO",
-     "likes": 71,
-     "comments": 2,
+     "likes": 91,
+     "comments": 3,
      "caption_start": "댓글 남겨주시면 만드는 법 보내드릴게요! 🎤 딩고 듀엣 라이브에 오대수와 미도를 세워봤습니다.. 지크 주짓수에 원본 영상 하나랑 사진 두 장 넣고 프롬프트 한 줄만 적으면 노래랑 움직임은 그대로 두고 두 사람만 바뀌어요. 원본 영상부터 복사해서 쓰는 프롬프트 그리고 첫 결제 30% 할인도 받을 수 있어요. 나중에 만들어볼 수 있게 저장해두시고 올드보이 좋아하는 친구한테도 보내주세요 ※ AI로 만든 패러디 영상입니다. #AI영상 #올드보이"
     },
     {
      "timestamp": "2026-10-22T10:22:42+0000",
      "url": "https://www.instagram.com/reel/Deywd8PSoVv/",
      "type": "VIDEO",
-     "likes": 163,
-     "comments": 159,
+     "likes": 170,
+     "comments": 174,
      "caption_start": "오대수씨, 일본엔 언제 가신건가요?🥋 요즘 릴스 넘기다 보면 한 번씩은 꼭 마주치는 얼굴이죠. AI로 여기저기 불려 다니면서 밈의 중심이 된 오대수씨인데요 이번엔 일본 지하철 승강장에서 춤까지 추고 계십니다. 이 영상, 지크(ZCRE)의 ‘주짓수’로 만들었는데 원본 춤 영상 하나를 넣고 바꾸고 싶은 사람 사진 한 장만 붙이면 동작은 그대로 두고 영상 속 사람만 싹 바뀝니다. 댓글에 ‘지크’ 남겨주시면 제작 가이드를 보내드릴게요! Oh Dae-su, when did you get to Paris?"
     },
     {
      "timestamp": "2026-10-22T08:21:24+0000",
      "url": "https://www.instagram.com/reel/Deyigv_RCbu/",
      "type": "VIDEO",
-     "likes": 133,
-     "comments": 113,
+     "likes": 135,
+     "comments": 115,
      "caption_start": "테슬라 로드스터 영상에 내 제품을 넣는 광고 🏎 캐럿 젠주츠에서 결과 예시의 따라 만들기를 누르면 원본 영상과 프롬프트가 알아서 채워지는데 오브젝트 스왑을 켜고 참조 이미지에 내 제품 사진만 끌어다 놓으면 끝이에요. 따라 만드는 순서는 댓글에 ’캐럿‘ 남겨주시면 DM으로 보내드릴게요! This video was made with production support from carat.ai_ Edit: prompt_what Tool: Carat Genjutsu"
-    },
-    {
-     "timestamp": "2026-10-22T07:25:27+0000",
-     "url": "https://www.instagram.com/p/DeycQcDEZzR/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 183,
-     "comments": 3,
-     "caption_start": "#광고 총상금 6,000만원, AI로 화성을 알릴 작품을 찾습니다 ✨ 화성특례시가 여는 ’별별화성 Awards‘는 짧은 영상부터 광고, 홍보 음악까지 받는 공모전에요. 화성에 살지 않아도 국내 거주자라면 도전할 수 있고요. AI 숏폼·AI CF·AI CM송 3개 부문에서 총 21작품을 선정해 시상합니다. 유튜브 채널을 가진 개인이나 팀이라면 참여 가능해요. 공식 요강에서 부문별 규격과 접수 순서를 확인하고 10월 25일까지 공식 홈페이지에서 접수하세요! https://aihscity.com/ KR"
     }
    ]
   },
   {
    "username": "ai_freaks.kr",
-   "followers": 129923,
+   "followers": 129985,
    "ok": true,
    "posts": [
+    {
+     "timestamp": "2026-10-24T03:59:57+0000",
+     "url": "https://www.instagram.com/p/De3OU9EGsqE/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 74,
+     "comments": 2,
+     "caption_start": ""
+    },
     {
      "timestamp": "2026-10-23T05:15:22+0000",
      "url": "https://www.instagram.com/p/De0yKkFGqC2/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 833,
-     "comments": 3017,
+     "likes": 900,
+     "comments": 3223,
      "caption_start": "“600명이 몰린 오픈AI 데브데이 서울” 👀 어제 열린 ‘2026 오픈AI 데브데이 서울’에 직접 다녀와 봤어요. 몇몇 세션은 자리가 없어 뒤에 서서 듣는 참여자도 많았죠. 알고 보니 한국은 AI 비서 ‘닷츠’ 주간 이용자 수가 세계 3위라고 하더라고요. 세션은 새 발표보다 ‘닷츠’와 플러그인 소개 위주였지만, 쉽게 풀어줘서 부담 없이 들을 수 있었어요. 특히 실무에 바로 써볼 수 있는 프롬프트까지 공유해주셨는데요, 실제 현장은 어땠는지 카드뉴스를 넘기며 확인해보세요! 💌 댓글 남겨주시면 ‘"
     },
     {
      "timestamp": "2026-10-22T11:32:21+0000",
      "url": "https://www.instagram.com/p/Dey4gwYmliO/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 267,
-     "comments": 65,
+     "likes": 271,
+     "comments": 66,
      "caption_start": "“AI 영상 3대장, 뭘 써야 할까?” 🎬 Kling 4.0, Wan 3.0, 씨댄스 2.5. 요즘 가장 주목받는 AI 영상 모델들인데요, 셋 다 잘하는 영역이 확실히 달라요. 영화 같은 고퀄 영상이 필요하다면 씨댄스 2.5가 정답이에요. 가격은 가장 높지만 전반적인 완성도에서 확실히 앞서거든요. 대량 UGC 광고엔 Kling 4.0이 제격이에요. 원본 영상의 연기는 그대로 두고 인물만 바꿔줘서 광고 여러 버전을 빠르게 뽑을 수 있죠. 애니메이션과 과장된 모션은 WAN 3.0이 강해요. 1080"
-    },
-    {
-     "timestamp": "2026-10-22T03:59:42+0000",
-     "url": "https://www.instagram.com/p/DeyEtbfGkmb/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 644,
-     "comments": 24,
-     "caption_start": "“에이전트 전쟁, 마침내 클로드 참전” 🔥 앤트로픽이 드디어 AI 에이전트 앱 ‘클로드 듀엣’을 공개했어요. 그록봇, 메타 뮤즈, 오픈AI 닷에 이어 클로드까지 합류한 거죠. 듀엣은 오퍼스 5.5 기반으로 내가 묻기 전에 챙길 일을 먼저 찾아 알려줘요. 클라우드 속 전용 컴퓨터에서 일해서 기기를 꺼도 작업이 이어지죠. 메일 답장부터 급여 정산, 계약 서명까지 6,000개 넘는 앱 연동 기능으로 처리할 수 있어요. 대신 결제나 서명처럼 중요한 일은 반드시 내 승인을 받고 움직여요. 지금은 미국 P"
     }
    ]
   },
   {
    "username": "ai.brief.kr",
-   "followers": 31699,
+   "followers": 31702,
    "ok": true,
    "posts": [
     {
@@ -285,13 +285,13 @@
   },
   {
    "username": "ai.ainow",
-   "followers": 76578,
+   "followers": 76582,
    "ok": true,
    "posts": []
   },
   {
    "username": "mktg.with.ai",
-   "followers": 10519,
+   "followers": 10524,
    "ok": true,
    "posts": []
   },
