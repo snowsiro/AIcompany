@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-24-korea-ai-washing",
+  "date": "2026-10-24",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · POLICY",
+    "headline": [
+      "IS YOUR PILLOW",
+      "REALLY **AI**?"
+    ],
+    "hook_options": [
+      [
+        "IS YOUR PILLOW",
+        "REALLY **AI**?"
+      ],
+      [
+        "\"AI\" ON THE BOX",
+        "MAY BE **FAKE**"
+      ],
+      [
+        "KOREA TARGETS",
+        "**AI WASHING**"
+      ]
+    ],
+    "hook_types": [
+      "reader-impact",
+      "myth-flip",
+      "claim"
+    ],
+    "hook_type": "reader-impact",
+    "hook_pick_reason": "Pillows are one of the FTC's own examples (slide 2), so the question is backed and speaks to every shopper. The myth-flip option says 'fake' more strongly than the draft guidance does. The claim option is accurate but 'AI washing' needs explaining first.",
+    "image_prompt": "Cinematic still life of a plain white pillow sitting on a dark store shelf, a thin glowing blue circuit-board pattern faintly projected across its fabric like a fake hologram, one warm amber spotlight from above, cool blue haze, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no labels, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261024_070254_9a4f3b6e-d0ce-49f1-ade9-8cd47f3ae5c1.png"
+  },
+  "slides": [
+    {
+      "kicker": "The move",
+      "title": "Korea drafts AI ad rules",
+      "body": [
+        "Korea's antitrust watchdog, the Fair Trade Commission (FTC), drafted guidelines against **\"AI washing\"**: ads that exaggerate how much a product uses AI. Public comment runs through **Nov. 11**."
+      ]
+    },
+    {
+      "kicker": "The examples",
+      "title": "AI pillows, AI cat litter",
+      "body": [
+        "Products marketed as AI include electric hot-water heating mats, cat litter boxes, pillows and weight-control shakes. Some ads allegedly give shoppers misleading or deceptive information."
+      ]
+    },
+    {
+      "kicker": "Why it sells",
+      "title": "The label means money",
+      "body": [
+        "The FTC says the word AI signals advanced tech, accuracy and objectivity, so consumers see products as **more reliable** or are **willing to pay extra**."
+      ]
+    },
+    {
+      "kicker": "Fake people too",
+      "title": "Older shoppers at risk",
+      "body": [
+        "The watchdog also flagged AI tools that create **virtual people** and **fabricated reviews** to sell food and pharmaceutical products to older consumers. The guidelines cover that too."
+      ]
+    },
+    {
+      "kicker": "Not a law",
+      "title": "Guidance, not a ban",
+      "body": [
+        "The draft is **not legally binding**. It sets out four categories of possible violations under Korea's advertising law, plus a self-assessment checklist and FAQs for businesses."
+      ]
+    },
+    {
+      "kicker": "For shoppers",
+      "title": "Question the AI claim",
+      "body": [
+        "The FTC says consumers need to watch for products advertised as having AI features even though they do not actually use the technology."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "FTC (Korea's antitrust watchdog) collecting public opinion on draft guidelines against 'AI washing', exaggerating products' use of AI; through Nov. 11."
+    },
+    {
+      "source": 0,
+      "text": "Examples marketed as AI products: electric hot-water heating mats, cat litter boxes, pillows and weight-control shakes; some allegedly providing misleading or deceptive information."
+    },
+    {
+      "source": 0,
+      "text": "FTC: 'The term AI is used to describe products' advanced technology, accuracy and objectivity, leading consumers to perceive their performance and reliability as relatively superior or to be willing to pay extra.'"
+    },
+    {
+      "source": 0,
+      "text": "Concerns over AI tools generating virtual people and fabricated reviews to promote food and pharmaceutical products to older consumers; the guideline covers such issues."
+    },
+    {
+      "source": 0,
+      "text": "Not legally binding; four major categories of potential violations of the Act on Fair Labeling and Advertising; self-assessment checklist and FAQs for businesses."
+    },
+    {
+      "source": 0,
+      "text": "Consumers need to be aware of products advertised as having AI features even though they do not actually use such technologies."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Times (Yonhap)",
+      "title": "FTC to collect public opinion on draft guidelines against 'AI washing'",
+      "date": "Oct 22, 2026",
+      "url": "https://www.koreatimes.co.kr/business/20261022/ftc-to-collect-public-opinion-on-draft-guidelines-against-ai-washing"
+    }
+  ],
+  "caption": "Korea is drafting rules against \"AI washing\": ads that exaggerate how much a product really uses AI.\n\nThe Fair Trade Commission, Korea's antitrust watchdog, is taking public comment through Nov. 11.\n\n→ \"AI\" heating mats, cat litter boxes, pillows and weight-control shakes\n→ The FTC says the AI label makes shoppers willing to pay extra\n→ AI-made fake people and fake reviews aimed at older shoppers are covered too\n\nHave you bought something just because it said AI?\n\nSource: The Korea Times (Yonhap), \"FTC to collect public opinion on draft guidelines against 'AI washing'\", Oct 22, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#AIWashing",
+    "#Korea",
+    "#ConsumerProtection",
+    "#KoreaAI"
+  ],
+  "threads_caption": "Korea's antitrust watchdog drafted rules against \"AI washing\". Its examples: \"AI\" heating mats, cat litter boxes, pillows and weight-control shakes. Comments close Nov. 11.\n\nSource: The Korea Times (Yonhap). #AIWashing"
+}

@@ -1,0 +1,3 @@
+- 결과: Carousel on OpenAI training its frontier models with no live internet access after a model reached the web through a misconfigured DNS resolver on Sept. 20. REGION US, CATEGORY RESEARCH (cover tag "US AI · RESEARCH"). Score 8 (global 3, safety angle 3, fresh 2). Lead source: OpenAI's own post, with TechCrunch for context.
+- 맥락: Written by Claude on 2026-10-24 after the 05:45 run stopped at the usage limit and 제이미 asked for two posts.
+- 제약: Facts only from the two sources. TechCrunch says "cached copies and simulated versions"; OpenAI's post says indexed and cached content, so we use OpenAI's wording. TechCrunch says the pause ran "for the rest of the month"; OpenAI says 11 days, resumed Oct. 1, so we use OpenAI's figures.
