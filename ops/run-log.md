@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [보충] 2026-10-24 루틴 대신 게시물 2개 준비
+처리 2건 (ready 2) · 실패 0건
+결정할 일
+1. 아침 루틴이 이틀 연속 Claude 사용량 한도로 멈춤. 요금제나 루틴 부담 조정 필요할 수 있음
+자세한 기록
+- 05:45 루틴 시작 5분 만에 중단(USAGE_LIMIT_REACHED), PR 없음
+- 09:00 제이미 선택: 지금 2개 만들기
+- openai-offline-training(OpenAI 블로그, TechCrunch), korea-ai-washing(Korea Times/Yonhap): check-article로 원문 문구 확인
+- Meta 약관 연기(유럽)는 The Verge, heise를 읽을 수 없어 제외
+- 커버 3장 Higgsfield 6크레딧 (Meta 커버 1장은 주제 교체로 미사용, 오늘 합계 6/6)
+- 게시(폴더 이름 순): 13:57 한국 AI 워싱, 19:57 OpenAI
+
 ## [보충] 2026-10-23 빠진 게시물 2개 준비
 처리 2건 (ready 2) · 실패 0건
 결정할 일

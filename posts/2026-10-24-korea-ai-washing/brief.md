@@ -1,0 +1,3 @@
+- 결과: Carousel on Korea's Fair Trade Commission drafting guidelines against "AI washing" in ads. REGION KOREA, CATEGORY POLICY (cover tag "KOREA AI · POLICY"). Score 8 (backlog 2026-10-22; consultation still open until Nov. 11). Source: The Korea Times (Yonhap wire).
+- 맥락: Written by Claude on 2026-10-24 after the 05:45 run stopped at the usage limit. This fills the Korea/Asia/Europe slot. The Meta/publisher story (Europe) was dropped because The Verge and heise could not be read for fact checking.
+- 제약: The article does not name the four violation categories or any penalties, so the post doesn't either. Korea JoongAng Daily is unreadable, so it is not listed as a source.
