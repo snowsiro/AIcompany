@@ -12,7 +12,7 @@ Newest first. Format is in CLAUDE.md ("보고").
 - openai-offline-training(OpenAI 블로그, TechCrunch), korea-ai-washing(Korea Times/Yonhap): check-article로 원문 문구 확인
 - Meta 약관 연기(유럽)는 The Verge, heise를 읽을 수 없어 제외
 - 커버 3장 Higgsfield 6크레딧 (Meta 커버 1장은 주제 교체로 미사용, 오늘 합계 6/6)
-- 게시: 13:57 OpenAI, 19:57 한국 AI 워싱
+- 게시(폴더 이름 순): 13:57 한국 AI 워싱, 19:57 OpenAI
 
 ## [보충] 2026-10-23 빠진 게시물 2개 준비
 처리 2건 (ready 2) · 실패 0건
