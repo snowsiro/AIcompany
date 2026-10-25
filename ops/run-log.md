@@ -8,7 +8,7 @@ Newest first. Format is in CLAUDE.md ("보고").
 결정할 일
 1. UK 바이오보안 연구소 글(blocked): 2회 검수 후에도 fact-checker가 달러 환산 표기("Der Standard 환율 기준")와 Der Standard 날짜 미확인을 지적. 환산을 빼고 파운드만 쓸지, 지금 표기로 올릴지 결정 필요
 2. 인스타 토큰(IG_USER_ID, IG_ACCESS_TOKEN)이 이 세션에 없어 참고 계정은 morning-scan의 reference.json으로 대체
-3. 커버 이미지는 Higgsfield로 생성됨. 이 세션은 CDN에 접속할 수 없어 로컬 렌더는 PR의 render 워크플로가 실제 이미지로 다시 만듦
+3. 커버 이미지 2장은 Higgsfield로 생성해 cover.png로 저장하고 실제 이미지로 렌더함
 자세한 기록
 - 05:45 morning-scan이 main에 없어 워크플로를 직접 실행, 약 1분 안에 생성됨. metrics도 함께 수집
 - 후보 8개 수집 (researcher). 선정: kimi-k3-1-pro(VentureBeat), uk-ai-biosecurity-lab(The Next Web, Der Standard). Grok/GPT 정치 편향 건은 민감해서 제외
