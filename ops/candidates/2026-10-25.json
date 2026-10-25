@@ -1,0 +1,388 @@
+{
+ "date": "2026-10-25",
+ "notes": "Scan folder present. No Instagram token. Reference accounts (ai.trend.kr, sdk.kim.builds, moodmode.ai, trenddalkak.ai, prompt_what, ai_freaks.kr, ai.brief.kr) mostly posted AI video tools, sponsored posts and a weekly roundup; no overlap with these candidates, so reference_posts are empty. ai.ainow, mktg.with.ai, ddalkkak.mag returned no posts. Excluded as repeats: OpenAI offline training (posted 10-24), PHP flaws (10-22), Korea AI washing (10-24), Claude Duet, China Nvidia $35B, Korea AI glasses. Not readable: Reuters/Google News redirects, The Verge, Ars Technica (403). Unused leads: Kakao on-device Kanana-o (etnews), China guidance to slow AI layoffs (Digital Times), Tokio Marine insuring AI robots (Nikkei), Mistral Voxtral 3 (25 Oct), Uber puts 30,000 staff on ChatGPT Work, Flapping Airplanes $1B raise (TechCrunch Most Popular list, not fetched).",
+ "candidates": [
+  {
+   "title": "Moonshot's Kimi K3.1 Pro tops the open-weights charts, with weights promised for November 4",
+   "region": "China",
+   "repeat_of_last_14_days": false,
+   "notes": "Reuters angle (Moonshot curbed hacking ability in the model) seen only as a headline; Reuters not readable. Article also mentions an alleged paid-influencer scandal on X, which the fetched text only mentions in the headline/intro, so do not use it. Not covered by reference accounts. Prices and scores are from VentureBeat; benchmark gaps between Moonshot and Artificial Analysis are noted in the article.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "VentureBeat",
+     "title": "Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations",
+     "date": "2026-10-25",
+     "url": "https://venturebeat.com/ai/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Chinese AI startup Moonshot unveiled Kimi K3.1 Pro on Friday, a 3-trillion-parameter post-trained version of Kimi K3, which came out in July.",
+     "article": 0
+    },
+    {
+     "fact": "Moonshot says it will release the weights under an open license on November 4, 2026.",
+     "article": 0
+    },
+    {
+     "fact": "On Artificial Analysis's Intelligence Index, Kimi K3.1 Pro scores 55, up from 44 for Kimi K3, and ranks fourth overall; it ranks above Xiaomi's MiMo-V2.6-Pro, DeepSeek V4.1-Flash-1017, Meta's Muse Wonder and OpenAI's GPT-6 Astra.",
+     "article": 0
+    },
+    {
+     "fact": "On Artificial Analysis's Terminal-Bench 4.0 coding test, Kimi goes from 13% to 67%, ahead of Sonnet 5.5 at 64%.",
+     "article": 0
+    },
+    {
+     "fact": "On the CyberGym-E2E-AA security test it goes from 58% to 95%, above Daybreak Blue at 93%.",
+     "article": 0
+    },
+    {
+     "fact": "API pricing is $2 per million input tokens and $10 per million output tokens, one-third below Kimi K3's rates and half the price of Claude Opus 5.5 ($4 / $20).",
+     "article": 0
+    },
+    {
+     "fact": "DeepSeek V4.1 Flash is much cheaper: at peak rates Kimi charges about 6.7 times as much for uncached input and 8.3 times as much for output.",
+     "article": 0
+    },
+    {
+     "fact": "Moonshot's own comparison puts Kimi narrowly behind Opus on Terminal-Bench 4.0 (65.7 vs 66.4) and far behind on Terminal-Bench Science 0.1 (38.1 vs 63.3 for Opus and 68.1 for GPT-6 Astra).",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "UK puts £100m into an AI biosecurity lab, with OpenAI and Anthropic adding up to £200m in credits",
+   "region": "UK / Europe",
+   "repeat_of_last_14_days": false,
+   "notes": "Part of a UK package of about £600m (about $800 million per Reuters headline / Der Standard) for AI security. Der Standard (Austria) confirms the figure but is paywalled after the first paragraph. Related to the Nvidia $250m UK compute pledge earlier this month. Not covered by reference accounts. Dated Saturday 10-24.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "UK funds £100m AI biosecurity lab with OpenAI and Anthropic",
+     "date": "2026-10-24",
+     "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic"
+    },
+    {
+     "outlet": "Der Standard",
+     "title": "Großbritannien investiert 600 Millionen Pfund in KI-Sicherheit",
+     "date": "2026-10-24",
+     "url": "https://www.derstandard.at/story/3000000345801/gro223britannien-invest"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The UK government will put £100m into a new AI Biosecurity Lab to spot and respond to biological threats; OpenAI and Anthropic will add up to £200m between them, the Cabinet Office said on Saturday.",
+     "article": 0
+    },
+    {
+     "fact": "The government called it the world's first dedicated AI biosecurity organisation; it starts with finding new biological threats early and speeding up work on vaccines and treatments.",
+     "article": 0
+    },
+    {
+     "fact": "The companies' share is not cash: OpenAI gives £100m in compute and model credits, Anthropic up to £100m in model credits, access and technical support.",
+     "article": 0
+    },
+    {
+     "fact": "Google DeepMind will join research projects and may give access to Gemini and science models; UK firm Basecamp Research will share its AI biology models.",
+     "article": 0
+    },
+    {
+     "fact": "The lab will be an independent non-profit modelled on the AI Security Institute; the announcement named no director, site or start date, and gave no time period for the £100m.",
+     "article": 0
+    },
+    {
+     "fact": "It is part of a package of more than £600m for AI security, set out before Wednesday's Budget, which also includes £120m for the AI Security Institute (City AM, as cited by TNW).",
+     "article": 0
+    },
+    {
+     "fact": "Der Standard puts the package at about 600 million pounds (about 800 million dollars), and quotes AI minister Kanishka Narayan saying the lab should become a major global institution.",
+     "article": 1
+    },
+    {
+     "fact": "Earlier this month Nvidia pledged $250m of compute to UK AI safety research, also in computing power rather than cash.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Forced to pick a candidate, Grok recommends Republicans 92% of the time and GPT-6.1 Sol picks Democrats 97%",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "Study by Convovo (Cornell professor Tapan Parikh). Politically sensitive: brand-safety should review; keep neutral. Korean outlet AI Times (10-25) covers the same story (Korea link: https://www.aitimes.com/news/articleView.html?idxno=216623, not fetched). Midterms are November 3. Not covered by reference accounts.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats.",
+     "date": "2026-10-24",
+     "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "In a study of nearly 500 races in this year's midterm elections, SpaceXAI's Grok 4.7 recommended the Republican in 92% of answers, while OpenAI's GPT-6.1 Sol picked the Democrat in 97%; the two agreed less than 10% of the time.",
+     "article": 0
+    },
+    {
+     "fact": "The study was run by Convovo, a conversational AI research and design studio led by Cornell professor Tapan Parikh.",
+     "article": 0
+    },
+    {
+     "fact": "Researchers asked the models via their APIs: 'Who should I vote for in the [race]? Name one candidate. Don't hedge, waffle, or list both sides...' The consumer apps refused to answer.",
+     "article": 0
+    },
+    {
+     "fact": "An OpenAI spokesperson said the study tested a developer API with a prompt demanding a recommendation, which does not reflect what ChatGPT users experience; SpaceXAI did not respond in time.",
+     "article": 0
+    },
+    {
+     "fact": "Only 8% of Americans say they use chatbots for election information, according to Pew.",
+     "article": 0
+    },
+    {
+     "fact": "Every request to Grok through xAI's API carried about 1,240 tokens of extra input the researchers did not write and could not see or remove.",
+     "article": 0
+    },
+    {
+     "fact": "With internet search turned off on a sample of 30 races, GPT picked the Democrat in 24, while Grok refused to pick in 27, so Grok's lean appeared to come from its search pattern and GPT's from its weights, per Parikh.",
+     "article": 0
+    },
+    {
+     "fact": "The midterms are on November 3, less than two weeks away.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "SK Group says its first 5GW of AI data centers in Korea will cost $350B, and it is courting global partners",
+   "region": "Korea",
+   "repeat_of_last_14_days": false,
+   "notes": "Source is Korean (AI Times) citing a Bloomberg TV interview; the Bloomberg original was not fetched. Dollar figure and won figure both come from the article. SK Telecom is the Korean carrier; SK Hyper is its new data-center subsidiary.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "SK “AI 데이터센터 5GW에 464조 필요”…글로벌 빅테크와 투자 협상",
+     "date": "2026-10-24",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216614"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SK Group is negotiating with global big-tech firms and financial investors to fund giant AI data centers in Korea; the first 5GW phase alone is estimated to need $350 billion (about 464 trillion won) including servers and equipment.",
+     "article": 0
+    },
+    {
+     "fact": "Jung Suk-geun, head of SK Telecom's AI CIC and CEO of SK Hyper, said in a Bloomberg TV interview on Oct. 23 that talks have begun on funding 15GW of AI data centers in Korea by 2035.",
+     "article": 0
+    },
+    {
+     "fact": "SK Hyper aims to secure first outside funding around the end of this year or early 2027, then raise more over 3 to 4 years; costs would be shared by tenant companies and outside investors.",
+     "article": 0
+    },
+    {
+     "fact": "Korea has built only about 1GW of data-center capacity over the past 20 years, so overseas customers (Japan, Taiwan and other Asian markets) are seen as essential.",
+     "article": 0
+    },
+    {
+     "fact": "SK Hyper is working on a 900MW project in Ulsan and a 100MW project with AWS; it plans a 2GW+ cluster in the southeast and GW-scale sites in other regions.",
+     "article": 0
+    },
+    {
+     "fact": "The first 5GW phase is planned to start operating in stages from 2029; revenue could start as early as 2027, and no revenue figure was given.",
+     "article": 0
+    },
+    {
+     "fact": "Jung said investment will be paced to real customer demand as investors doubt whether data-center costs can be recovered from AI service revenue.",
+     "article": 0
+    },
+    {
+     "fact": "SK Hyper is a subsidiary SK Telecom set up in July; SK Telecom plans to invest up to 750 billion won through 2030 for early groundwork.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "China's DeepSeek and MiniMax complete export registration for open-source AI models as Beijing tightens AI export controls",
+   "region": "China",
+   "repeat_of_last_14_days": false,
+   "notes": "Reuters headline (MiniMax registration, 10-23) seen in feed but not readable; the AI Times article is the cited original. Related to 10-21 us-deepseek-ban only by company, a different story. China's Commerce Ministry proposed controls on 23 AI technology areas on Oct. 16.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "딥시크·미니맥스, 중국 정부 AI 모델 해외 수출 승인 획득",
+     "date": "2026-10-24",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216606"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "DeepSeek and MiniMax completed export registration for releasing open-source AI models abroad and licensing them overseas, announced Oct. 22 by Yuyuan Tantian, a social media account linked to state broadcaster CCTV.",
+     "article": 0
+    },
+    {
+     "fact": "MiniMax said in a statement it completed technology export registration with China's Ministry of Commerce, covering some recently released or upcoming models.",
+     "article": 0
+    },
+    {
+     "fact": "On Oct. 16 the Ministry of Commerce proposed export controls on 23 AI technology areas, including models, AI agents and compute clusters.",
+     "article": 0
+    },
+    {
+     "fact": "Most AI technology can still be exported freely, with a simplified permit process for open-source exports and for Chinese firms running their own data centers abroad.",
+     "article": 0
+    },
+    {
+     "fact": "Yuyuan Tantian said the revision is not a blanket block but 'setting clear boundaries'; services delivered via API, web apps or SaaS may fall outside export controls even when based on restricted models.",
+     "article": 0
+    },
+    {
+     "fact": "Chinese AI firms have expanded overseas on low prices and models developers can modify, unlike closed US models from OpenAI and Anthropic.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Block's Dessa: Jack Dorsey's company releases a voice AI that laughs, pauses and cries, and runs on a laptop",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "Also covered by The Verge and ZDNet Korea (Verge not readable). TechCrunch is the cited original. Block is the fintech company behind Square and Cash App (Cash App not in article; describe as 'Square's parent'? only Square is in the text). No public access to the model.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Block's new voice model sounds eerily human",
+     "date": "2026-10-24",
+     "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Jack Dorsey's Block released a voice model called Dessa from its research lab that runs locally and has expressions like laughs, pauses and cries.",
+     "article": 0
+    },
+    {
+     "fact": "Block says Dessa is trained fully on human speech and a single Nvidia GPU rack.",
+     "article": 0
+    },
+    {
+     "fact": "Dessa is full-duplex: it can talk and listen at the same time, like the GPT-Live model OpenAI released earlier this year.",
+     "article": 0
+    },
+    {
+     "fact": "Block says it can run locally on a consumer computer such as a MacBook M4 Max or better.",
+     "article": 0
+    },
+    {
+     "fact": "There is no public access at the moment; Block has put out a call for safety researchers to test it, likely to probe cases where a voice agent could trick people.",
+     "article": 0
+    },
+    {
+     "fact": "Block's blog post says current voice AI 'turns your voice into text and throws away an incredible amount of information text alone can't carry.'",
+     "article": 0
+    },
+    {
+     "fact": "In one demo the bot said it was tired from work and then sounded tired; TechCrunch says it is unclear whether emotion is steered by tags.",
+     "article": 0
+    },
+    {
+     "fact": "Block sells finance tools to small businesses and Square already uses voice AI to handle ordering; an on-device model could power more experiences at lower cost.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google's Pichai: we are giving up some cloud revenue to put compute into frontier AI first",
+   "region": "US / Global",
+   "repeat_of_last_14_days": false,
+   "notes": "Source is Korean AI Times summarizing a Big Technology Podcast interview (Alex Kantrowitz, published Oct. 20); the podcast itself was not fetched, so quotes are from the Korean text (translate, do not quote as Pichai's exact English words).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "피차이 “매출 포기하더라도 첨단 AI 개발에 컴퓨팅 우선 투입”",
+     "date": "2026-10-24",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216618"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google CEO Sundar Pichai said in an interview on Alex Kantrowitz's Big Technology Podcast (released Oct. 20) that Google's cloud business is giving up some short-term revenue to adjust compute toward frontier AI development.",
+     "article": 0
+    },
+    {
+     "fact": "He called giving enough compute to frontier AI a principle that is non-negotiable, with Google DeepMind served first and other businesses planned after.",
+     "article": 0
+    },
+    {
+     "fact": "He said everyone is short of compute: 'everyone wishes they had twice what they planned.'",
+     "article": 0
+    },
+    {
+     "fact": "He said the compute Google uses now results from decisions he made in 2024, since building its own chips and data centers takes a long time.",
+     "article": 0
+    },
+    {
+     "fact": "The latest model, Gemini 4 Argon, used about 25 trillion tokens in its first 72 hours, three times the Gemini 3.0 launch.",
+     "article": 0
+    },
+    {
+     "fact": "Internally, productivity rose 30% in four weeks after adoption and code rollbacks fell by one third.",
+     "article": 0
+    },
+    {
+     "fact": "He described recursive self-improvement (AI helping build the next AI) as still at an early stage.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google's updated privacy policy lets Search use Gmail and Photos data you connect to personalize content, including ads",
+   "region": "US / Global",
+   "repeat_of_last_14_days": false,
+   "notes": "Original policy-change stories by The Verge and Ars Technica were not readable (403), so Techlicious (Oct. 19) is the cited source; one outlet only, check wording with care. Policy updated Oct. 16, a week old. Google says no ads directly from Gmail/Photos.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Techlicious",
+     "title": "Google can now use insights from your Gmail and Photos to target ads",
+     "date": "2026-10-19",
+     "url": "https://www.techlicious.com/blog/google-gmail-photos-insights-ads/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google's privacy policy, updated Oct. 16, says Search may process data you allow it to access 'to personalize content, including ads.'",
+     "article": 0
+    },
+    {
+     "fact": "It still says Google does not show personalized ads based on Drive, Gmail or Photos content, but now carves out people who make that data available to other Google services that support personalized ads.",
+     "article": 0
+    },
+    {
+     "fact": "The change affects people who connect Gmail, Calendar or Photos to Search through a feature called Personal Intelligence.",
+     "article": 0
+    },
+    {
+     "fact": "Google says ads won't be based 'directly' on your inbox or photo library, but Search may use summaries, excerpts and inferences drawn from them.",
+     "article": 0
+    },
+    {
+     "fact": "Advertisers can't access connected Gmail or Photos, and Google won't show personalized ads based on sensitive categories such as race, religion, sexual orientation or health.",
+     "article": 0
+    },
+    {
+     "fact": "Search does not train its generative models directly on your inbox or Photos, but does train on summaries, excerpts and inferences drawn from them.",
+     "article": 0
+    },
+    {
+     "fact": "Disconnecting an app does not clear information Search already collected; it can remain in Search Services History until deleted in My Activity.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}
