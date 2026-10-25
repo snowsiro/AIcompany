@@ -1,17 +1,11 @@
 PASS
 
-# Brand-safety review: 2026-10-25-uk-ai-biosecurity-lab
+Post: 2026-10-25-uk-ai-biosecurity-lab (brand-safety review, slides 01-08 viewed)
 
-Checks (slides 01-08 viewed):
-- Cover image: AI-generated empty lab, no people, no logos, no readable text (screens are blank). OK.
-- Reference-account copying: none seen; wording is original, sourced from The Next Web and Der Standard. OK.
-- Outlet credit: caption ends with "Source: The Next Web, ... ; Der Standard, ..."; threads_caption credits The Next Web with the title. Slide 8 lists both. OK.
-- Affiliate/referral/tracking/sponsored mentions: none in slides, caption, threads_caption. "Link in bio" is for the weekly digest only. OK.
-- DESIGN.md colors and fonts: ink background, paper text, one accent yellow, Anton cover, Inter Tight body. Accent use on body slides is at most 2 spots. OK.
-- Tone: neutral. "World's first" is attributed to the government in quotes. Nvidia "also not cash" is a factual note, not mockery. Hook "BIOSECURITY BET" is supported: £100M is on slide 2, and slide 6 states unknowns. Not clickbait.
-
-Currency rule: Cover has £100M only (dollars do not fit in 16 chars/line); slide 2 gives £100m (about $133M) and £200m (about $267M). Rate comes from Der Standard (£600m = about $800M) and is disclosed in the caption. Cover acceptable.
-
-Non-blocking notes:
-1. Slide 4 gives Anthropic's "up to £100m" without dollars (OpenAI's £100m has them in the same slide). Add "(about $133M)" if it fits.
-2. Dollar format differs: "$133M" vs "$800 million" on slide 7.
+- Cover image: AI-generated empty lab, no people, no readable text, no recognizable logo. Pass.
+- Reference accounts: wording and layout are original, and the review found nothing copied. Pass.
+- Outlet credit: caption credits The Next Web (title, date) and Der Standard. threads_caption credits The Next Web with the title. Slide 8 lists both sources. Pass.
+- Affiliate or sponsored links: none in slides, caption or threads_caption. Pass.
+- Colors and fonts: ink background, paper text, muted secondary text, a single yellow accent, Anton on the cover and Inter Tight elsewhere, matching DESIGN.md. Pass.
+- Tone: neutral. "World's first" is attributed to the UK government, and the "no director, site or date" slide is factual. The hook (UK's £100M biosecurity bet) is supported by slides 2 to 7. Pass.
+- Currency: the cover shows £100M only because dollars do not fit at 16 chars/line. Slide 2 gives about $133M and $267M with Der Standard's rate stated, and the caption and threads_caption do the same. Accepted, non-blocking.
