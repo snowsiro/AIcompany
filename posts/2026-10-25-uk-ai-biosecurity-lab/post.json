@@ -49,7 +49,7 @@
       "kicker": "The announcement",
       "title": "A new UK biosecurity lab",
       "body": [
-        "The UK government will put **£100m** (about $133M) into a new AI Biosecurity Lab to spot and respond to biological threats. OpenAI and Anthropic will add up to **£200m** (about $267M) between them, the Cabinet Office said Saturday."
+        "The UK government will put **£100m** into a new AI Biosecurity Lab to spot biological threats. OpenAI and Anthropic will add up to **£200m** between them, the Cabinet Office said Saturday. At Der Standard's rate: about $133M and $267M."
       ]
     },
     {
@@ -150,5 +150,5 @@
     "#OpenAI",
     "#Anthropic"
   ],
-  "threads_caption": "The UK is funding a new AI Biosecurity Lab: £100m (about $133M) from government, plus up to £200m (about $267M) from OpenAI and Anthropic, in credits, not cash. No director, site or start date yet.\n\nSource: The Next Web, \"UK funds £100m AI biosecurity lab with OpenAI and Anthropic\". #AIBiosecurity"
+  "threads_caption": "The UK is funding a new AI Biosecurity Lab: £100m from government, plus up to £200m from OpenAI and Anthropic, in credits, not cash (about $133M and $267M at Der Standard's rate). No director, site or start date yet.\n\nSource: The Next Web, \"UK funds £100m AI biosecurity lab with OpenAI and Anthropic\". #AIBiosecurity"
 }
