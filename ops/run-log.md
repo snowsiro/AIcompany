@@ -3,10 +3,10 @@
 Newest first. Format is in CLAUDE.md ("보고").
 
 ## [아침 보고] 2026-10-25
-처리 2건 (ready 1 · blocked 1) · 실패 0건
+처리 2건 (ready 2) · 실패 0건
 성과: 어제 도달 13 · 팔로워 0 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 php-ai-flaws (108)
 결정할 일
-1. UK 바이오보안 연구소 글(blocked): 2회 검수 후에도 fact-checker가 달러 환산 표기("Der Standard 환율 기준")와 Der Standard 날짜 미확인을 지적. 환산을 빼고 파운드만 쓸지, 지금 표기로 올릴지 결정 필요
+1. 없음 (UK 글은 제이미 결정으로 파운드만 표기. CLAUDE.md의 "현지 통화+달러" 규칙의 예외로 이 글에만 적용)
 2. 인스타 토큰(IG_USER_ID, IG_ACCESS_TOKEN)이 이 세션에 없어 참고 계정은 morning-scan의 reference.json으로 대체
 3. 커버 이미지 2장은 Higgsfield로 생성해 cover.png로 저장하고 실제 이미지로 렌더함
 자세한 기록
@@ -14,10 +14,10 @@ Newest first. Format is in CLAUDE.md ("보고").
 - 후보 8개 수집 (researcher). 선정: kimi-k3-1-pro(VentureBeat), uk-ai-biosecurity-lab(The Next Web, Der Standard). Grok/GPT 정치 편향 건은 민감해서 제외
 - 예비 주제 3개를 posts/_backlog/에 저장 (SK 5GW 데이터센터, DeepSeek·MiniMax 수출 등록, Block Dessa)
 - kimi-k3-1-pro: 1차 fact/hook 불합격 (DeepSeek 가격 방향, 벤치마크 출처, 훅 6/10) → 수정 후 2차 3명 모두 통과 → ready
-- uk-ai-biosecurity-lab: 1차 3명 불합격 → 2차 hook·brand 통과, fact 불합격 → 규칙대로 blocked
+- uk-ai-biosecurity-lab: 1차 3명 불합격 → 2차 hook·brand 통과, fact 불합격 → 규칙대로 blocked → 제이미 요청으로 달러 환산 삭제, Der Standard 날짜는 "undated"로 표기 → fact-checker 재검수 통과 → ready
 - 카테고리 MODELS는 lint 목록에 없어 Kimi 글은 TOOLS 태그 사용
 - 커버 2장 Higgsfield cinematic_studio_2_5로 생성 (4 크레딧; 오늘 합계 4/6)
-- 게시 순서: kimi-k3-1-pro만 게시 대상
+- 게시 순서: 폴더 이름 순
 
 ## [보충] 2026-10-24 루틴 대신 게시물 2개 준비
 처리 2건 (ready 2) · 실패 0건
