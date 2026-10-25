@@ -1,0 +1,122 @@
+{
+  "id": "2026-10-25-kimi-k3-1-pro",
+  "date": "2026-10-25",
+  "category": "TOOLS",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · TOOLS",
+    "headline": [
+      "TOP-4 AI, HALF",
+      "OPUS'S **PRICE**"
+    ],
+    "hook_options": [
+      [
+        "TOP-4 AI, HALF",
+        "OPUS'S **PRICE**"
+      ],
+      [
+        "KIMI'S AI SCORE",
+        "JUMPS 44 TO **55**"
+      ],
+      [
+        "CHINA'S KIMI",
+        "NEARS THE **TOP**"
+      ],
+      [
+        "KIMI VS **OPUS**",
+        "ROUND TWO"
+      ]
+    ],
+    "hook_types": [
+      "reader-impact",
+      "number",
+      "claim",
+      "rivalry"
+    ],
+    "hook_type": "reader-impact",
+    "hook_pick_reason": "Names the Opus comparison and the price effect for people who pay for AI: slide 3 shows $2 / $10 vs $4 / $20, and slide 2 shows the 4th-overall rank (confirmed by the fact-check). The number option needed a unit and its 44 to 55 payoff is on slide 2, not the first slide. The claim option is vague and the rivalry option oversells, since Kimi trails Opus on some tests (slide 4).",
+    "image_prompt": "Cinematic wide shot of a dark mountain ridge at night with a bright crescent-shaped moon rising behind the peak, a glowing amber ladder of light steps climbing the slope toward the summit, cool blue haze in the valley. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261025_045110_c018e5b3-d1f2-477a-b7d9-1a7d3c085b9c.png"
+  },
+  "slides": [
+    {
+      "kicker": "The jump",
+      "title": "Kimi K3.1 Pro climbs the charts",
+      "body": [
+        "**Moonshot**, a Chinese AI startup, unveiled Kimi K3.1 Pro on Friday. It is a 3-trillion-parameter model. Its promise: the weights, the downloadable model files known as \"open weights,\" arrive under an open license on **Nov 4, 2026**."
+      ]
+    },
+    {
+      "kicker": "The score",
+      "title": "44 to 55 on an independent index",
+      "body": [
+        "Artificial Analysis, an independent benchmark site, gives K3.1 Pro **55** on its Intelligence Index. The earlier K3 scored 44. That ranks Kimi **4th overall**."
+      ]
+    },
+    {
+      "kicker": "The price",
+      "title": "Half the cost of Claude Opus 5.5",
+      "body": [
+        "Kimi's API costs **$2 per million input tokens and $10 per million output tokens**. Claude Opus 5.5 charges $4 and $20. In Artificial Analysis's Terminal-Bench 4.0 run, Kimi rose from 13% to 67%, past Sonnet 5.5's 64%."
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "Opus still leads on some tests",
+      "body": [
+        "Moonshot's own comparison has Kimi just behind Opus on Terminal-Bench 4.0 (**65.7 vs 66.4**). On Terminal-Bench Science 0.1 the gap is wide: **38.1** vs 63.3 for Opus and 68.1 for GPT-6 Astra."
+      ]
+    },
+    {
+      "kicker": "The fine print",
+      "title": "Open weights are still a promise",
+      "body": [
+        "Nothing is downloadable yet. The release is due **Nov 4**. And Kimi is not the cheapest: at peak rates, DeepSeek V4.1 Flash costs about **one-seventh** of Kimi's input price and one-eighth of its output price."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Moonshot, a Chinese AI startup, unveiled Kimi K3.1 Pro on Friday. The model has 3 trillion parameters, and its weights are due under an open license on Nov 4, 2026."
+    },
+    {
+      "source": 0,
+      "text": "Kimi K3.1 Pro scores 55 on the Artificial Analysis Intelligence Index (K3 scored 44) and ranks 4th overall. Artificial Analysis is an independent benchmark site."
+    },
+    {
+      "source": 0,
+      "text": "API pricing is $2 / $10 per million tokens (input / output), versus $4 / $20 for Claude Opus 5.5."
+    },
+    {
+      "source": 0,
+      "text": "In Artificial Analysis's evaluation, Kimi's Terminal-Bench 4.0 score rose from 13% to 67%, compared with 64% for Sonnet 5.5."
+    },
+    {
+      "source": 0,
+      "text": "In Moonshot's own comparison, Kimi is narrowly behind Opus on Terminal-Bench 4.0 (65.7 vs 66.4) and far behind on Terminal-Bench Science 0.1 (38.1 vs 63.3 for Opus and 68.1 for GPT-6 Astra)."
+    },
+    {
+      "source": 0,
+      "text": "At peak rates, Kimi charges about 6.7 times as much for uncached input and 8.3 times as much for output as DeepSeek V4.1 Flash (about one-seventh and one-eighth of Kimi's prices)."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "VentureBeat",
+      "title": "Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations",
+      "date": "Oct 25, 2026",
+      "url": "https://venturebeat.com/ai/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations"
+    }
+  ],
+  "caption": "Moonshot's Kimi K3.1 Pro, a top-4 model on an independent AI index, costs half as much as Claude Opus 5.5.\n\nMoonshot, a Chinese AI startup, says the model's weights (downloadable model files) will be released openly on Nov 4. That is a promise, not a release yet.\n\n→ Artificial Analysis, an independent benchmark site, scores Kimi K3.1 Pro 55 (up from 44), ranking it 4th overall\n→ API price: $2 / $10 per million tokens vs $4 / $20 for Claude Opus 5.5\n→ Moonshot's own tests show Kimi still behind Opus on some benchmarks\n\nWould you switch to an open-weights model if it costs half as much as Opus?\n\nSource: VentureBeat, \"Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations\", Oct 25, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Kimi",
+    "#Moonshot",
+    "#OpenSourceAI",
+    "#ChinaAI"
+  ],
+  "threads_caption": "Moonshot's Kimi K3.1 Pro jumped from 44 to 55 on the Artificial Analysis index, at half Claude Opus 5.5's API price. Open weights are promised for Nov 4, not released yet.\n\nSource: VentureBeat, \"Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations\". #Kimi"
+}

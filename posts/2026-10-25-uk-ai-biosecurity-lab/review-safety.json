@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "issues": [
+    "Non-blocking: slide 4 (post.json slide 3) says 'Anthropic gives up to £100m' with no dollar figure, while the same sentence group gives OpenAI's £100m as about $133M. CLAUDE.md currency rule asks for local + dollars every time; suggest adding '(about $133M)' if it fits.",
+    "Non-blocking: dollar format is inconsistent ('$133M' on slides 2-6 vs '$800 million' on slide 7). Cosmetic.",
+    "Cover judged acceptable on currency: £100M is on the cover, dollars cannot fit at 16 chars/line, and slide 2 gives '£100m (about $133M)' immediately, using Der Standard's rate (£600m = about $800M, roughly 1.33), which is the rate the article gives. Rate is stated in the caption."
+  ]
+}

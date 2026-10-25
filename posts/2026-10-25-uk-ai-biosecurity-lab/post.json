@@ -1,0 +1,154 @@
+{
+  "id": "2026-10-25-uk-ai-biosecurity-lab",
+  "date": "2026-10-25",
+  "category": "POLICY",
+  "status": "blocked",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "UK'S **£100M**",
+      "BIOSECURITY BET"
+    ],
+    "hook_options": [
+      [
+        "UK FUNDS A LAB",
+        "VS **BIO THREATS**"
+      ],
+      [
+        "UP TO **£200M**",
+        "IN AI CREDITS"
+      ],
+      [
+        "UK'S **£100M**",
+        "BIOSECURITY BET"
+      ],
+      [
+        "AI LABS PAY IN",
+        "**CREDITS**, NO CASH"
+      ],
+      [
+        "AI TO SPEED UP",
+        "**VACCINE** WORK"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "number",
+      "myth-flip",
+      "reader-impact"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Hook-judge picked this: it has a country, the government's own £100m figure (slide 1) and a clear subject, and the slides keep the promise. 'Builds' was dropped because no director, site or start date exists yet. The credits and AI-labs hooks lack a subject or a number. No reader-impact hook is backed: the article names no effect on ordinary readers, and the vaccine option rests only on the government's stated aim (kept only because lint requires one).",
+    "image_prompt": "Cinematic wide shot of a futuristic empty laboratory at dawn, rows of sealed glass chambers and a glowing blue holographic double helix floating above a clean steel bench, soft amber light through tall windows, cool haze, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261025_045110_ba0b5182-1756-4024-94ad-10f290c555df.png"
+  },
+  "slides": [
+    {
+      "kicker": "The announcement",
+      "title": "A new UK biosecurity lab",
+      "body": [
+        "The UK government will put **£100m** (about $133M) into a new AI Biosecurity Lab to spot and respond to biological threats. OpenAI and Anthropic will add up to **£200m** (about $267M) between them, the Cabinet Office said Saturday."
+      ]
+    },
+    {
+      "kicker": "A global first?",
+      "title": "\"World's first\", says the UK",
+      "body": [
+        "The government calls it the **world's first** dedicated AI biosecurity organisation. It will start by finding new biological threats early and speeding up work on vaccines and treatments."
+      ]
+    },
+    {
+      "kicker": "The fine print",
+      "title": "The AI labs pay in credits",
+      "body": [
+        "The companies' share is **not cash**. OpenAI gives £100m (about $133M) in compute and model credits. Anthropic gives up to £100m in model credits, access and technical support."
+      ]
+    },
+    {
+      "kicker": "Who else joins",
+      "title": "DeepMind and Basecamp",
+      "body": [
+        "Google DeepMind will join research projects and may give access to Gemini and science models. UK firm Basecamp Research will share its AI biology models. The lab will be an **independent non-profit**, modelled on the AI Security Institute."
+      ]
+    },
+    {
+      "kicker": "Still unknown",
+      "title": "No director, site or date",
+      "body": [
+        "The announcement named **no director, site or start date**, and gave no time period for the £100m ($133M). Minister Kanishka Narayan, who handles AI, says he wants it to become a major global institution."
+      ]
+    },
+    {
+      "kicker": "The bigger package",
+      "title": "Part of a £600m push",
+      "body": [
+        "The lab is part of a package of about **£600m** (about $800 million, per Der Standard) for AI security, set out before Wednesday's Budget. Nvidia earlier pledged $250m of compute for UK AI safety, also not cash."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The UK government will put £100m into a new AI Biosecurity Lab to spot and respond to biological threats; OpenAI and Anthropic will add up to £200m between them, the Cabinet Office said on Saturday."
+    },
+    {
+      "source": 0,
+      "text": "The government called it the world's first dedicated AI biosecurity organisation; it starts with finding new biological threats early and speeding up work on vaccines and treatments."
+    },
+    {
+      "source": 0,
+      "text": "The companies' share is not cash: OpenAI gives £100m in compute and model credits, Anthropic up to £100m in model credits, access and technical support."
+    },
+    {
+      "source": 0,
+      "text": "Google DeepMind will join research projects and may give access to Gemini and science models; UK firm Basecamp Research will share its AI biology models."
+    },
+    {
+      "source": 0,
+      "text": "The lab will be an independent non-profit modelled on the AI Security Institute; the announcement named no director, site or start date, and gave no time period for the £100m."
+    },
+    {
+      "source": 0,
+      "text": "It is part of a package of more than £600m for AI security, set out before Wednesday's Budget (City AM, as cited by TNW)."
+    },
+    {
+      "source": 1,
+      "text": "Der Standard puts the package at about 600 million pounds (about 800 million dollars), and quotes AI minister Kanishka Narayan saying the lab should become a major global institution."
+    },
+    {
+      "source": 0,
+      "text": "Earlier this month Nvidia pledged $250m of compute to UK AI safety research, also in computing power rather than cash."
+    },
+    {
+      "source": 1,
+      "text": "Dollar equivalents use Der Standard's rate (about 600 million pounds = about 800 million dollars, roughly 1.33): £100m is about $133M, £200m about $267M."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "UK funds £100m AI biosecurity lab with OpenAI and Anthropic",
+      "date": "Oct 24, 2026",
+      "url": "https://thenextweb.com/news/uk-funds-100m-ai-biosecurity-lab-with-openai-and-anthropic"
+    },
+    {
+      "outlet": "Der Standard",
+      "title": "Großbritannien investiert 600 Millionen Pfund in KI-Sicherheit",
+      "title_en": "Britain invests 600 million pounds in AI security",
+      "language": "German",
+      "date": "Oct 2026",
+      "url": "https://www.derstandard.at/story/3000000345801/gro223britannien-invest"
+    }
+  ],
+  "caption": "The UK is funding a new AI Biosecurity Lab, and OpenAI and Anthropic are paying in credits, not cash.\n\nThe government calls it the world's first dedicated AI biosecurity organisation.\n\n→ £100m (about $133M) of public money, plus up to £200m (about $267M) from OpenAI and Anthropic in compute and model credits\n→ Dollar figures use Der Standard's rate\n→ Google DeepMind and UK firm Basecamp Research join; it will be an independent non-profit\n→ No director, site or start date announced yet\n\nIs credits-for-safety a fair deal for governments?\n\nSource: The Next Web, \"UK funds £100m AI biosecurity lab with OpenAI and Anthropic\", Oct 24, 2026; Der Standard, \"Britain invests 600 million pounds in AI security\" (in German).\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#UKAI",
+    "#AIBiosecurity",
+    "#OpenAI",
+    "#Anthropic"
+  ],
+  "threads_caption": "The UK is funding a new AI Biosecurity Lab: £100m (about $133M) from government, plus up to £200m (about $267M) from OpenAI and Anthropic, in credits, not cash. No director, site or start date yet.\n\nSource: The Next Web, \"UK funds £100m AI biosecurity lab with OpenAI and Anthropic\". #AIBiosecurity"
+}
