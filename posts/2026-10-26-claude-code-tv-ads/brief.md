@@ -1,0 +1,7 @@
+# Brief: 2026-10-26-claude-code-tv-ads
+
+- 결과: 캐러셀 1개. REGION GLOBAL, CATEGORY TOOLS (tag `GLOBAL AI · TOOLS`). 주제: 개발자들이 Claude Code로 스마트TV의 광고와 추적기를 꺼서, 오픈소스 cleanyourtv가 며칠 만에 GitHub 스타 10,700개. 점수 11 (참고 계정 2곳 x3 = 6 + global 3 + hard number 2). 후보 훅 유형: reader-impact / number / myth-flip.
+- 맥락: 누구나 TV 광고에 짜증나 본 적이 있어 "내 TV에도 되나?"가 바로 와닿는다. AI 에이전트가 일상 문제를 푸는 사례. 핵심 사실: Gathin T.가 부모님 Xiaomi TV에서 패키지 25개를 비활성화 (10/17 게시); 에이전트가 Wi-Fi에서 TV를 찾아 새 홈 화면까지 작성; cleanyourtv는 37개 브랜드 107개 TV 모델, 스타 10,700개; ADB로 앱을 끄기만 하므로 복구 스크립트 하나로 되돌림, root 불필요; 2일 만에 수천 명이 따라 함; 런처 192MB -> 83MB; Texas가 Sony, Samsung, LG, Hisense, TCL을 2025년 12월 제소 (500ms마다 화면 캡처 주장); Vizio는 2017년 $2.2M 합의, Walmart가 2024년 약 $2.3B에 인수.
+- 제약: 사실은 아래 기사에서만. 참고 계정(sdk.kim.builds, ai.trend.kr)은 주제 선정용이므로 문구, 레이아웃 복사 금지. 실존 인물 사진 없음, TV 브랜드 로고 크게 넣지 않음. DESIGN.md 준수. 단계별 방법을 따라 하라는 식의 보증은 하지 말 것 (기기 손상 책임). Texas 소송은 "alleging"으로 주장임을 표시. Claude Code는 Anthropic 제품이라고 한 줄 설명.
+  - 출처: Decrypt, "People Are Vibe Coding the Ads Out of Their Smart TVs: Here's How" (2026-10-20), https://decrypt.co/381456/vibe-coding-ads-out-smart-tvs-heres-how
+- 질문 기준: (1) 기사가 10/20로 24시간보다 오래됨 (주말에 트렌드 정점) - 날짜 표기에 주의. (2) 스타 수 "10,700"은 기사가 쓴 화요일 기준 - "as of" 표기, 오늘 수치처럼 쓰지 말 것. (3) 소송 내용은 주장일 뿐이며 Vizio 합의는 2017년 사건, 현재 TV 제조사의 위법을 단정 금지. (4) "수천 명"은 Gathin의 주장임을 밝힐 것. (5) 본문에 없는 효과(속도 향상 등)는 개인 사례(Ansub Khan 약 90% 여유 메모리)로만 쓰고 일반화하지 말 것.

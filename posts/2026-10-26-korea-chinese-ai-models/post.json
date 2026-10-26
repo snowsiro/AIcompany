@@ -1,0 +1,133 @@
+{
+  "id": "2026-10-26-korea-chinese-ai-models",
+  "date": "2026-10-26",
+  "category": "RESEARCH",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · RESEARCH",
+    "headline": [
+      "KOREAN MODELS:",
+      "**49.3%** ON CHINA"
+    ],
+    "hook_options": [
+      [
+        "KOREAN MODELS:",
+        "**49.3%** ON CHINA"
+      ],
+      [
+        "KOREA'S AI ISN'T",
+        "BUILT **ALONE**"
+      ],
+      [
+        "QWEN VS **LLAMA**",
+        "IN KOREA"
+      ],
+      [
+        "NO CHINESE APP",
+        "IN KOREA'S **TOP 10**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "myth-flip",
+      "rivalry",
+      "reader-impact"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The 49.3% figure is the study's headline and slide 2 shows it directly, with slide 3 showing the rise from 1.2%. Slides explain it counts Hugging Face derivative models built on Chinese base models, which the hook's 'on China' wording matches. The myth-flip option is supported only by the 14.9% Korean share, and the rivalry option covers just the Qwen vs Llama figures on slide 3. The reader-impact option is the only usage effect the article states (no Chinese chatbot in Korea's 10 most-used AI apps in July, slide 6); it is a counterpoint, not the headline finding, so it is weaker than the number hook.",
+    "image_prompt": "Cinematic wide shot of a dark city skyline at dusk with glowing amber construction scaffolding rising from a vast foundation of luminous red stone blocks, cool blue haze over the river below. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The study",
+      "title": "Korea's new AI leans on China",
+      "body": [
+        "**Rockbridge Network Korea**, a private think tank, found nearly half of AI models released by Korean developers this year were built on Chinese technology. The report was written by Hanyang University business professor Choi Seong-jin."
+      ]
+    },
+    {
+      "kicker": "The split",
+      "title": "49.3% China, 35.9% US, 14.9% Korea",
+      "body": [
+        "The study counted 1,845 derivative models that Korea-linked accounts posted on **Hugging Face**, a site where developers share AI models, from January to August. **49.3%** were based on Chinese models, 35.9% on US models and 14.9% on Korean ones."
+      ]
+    },
+    {
+      "kicker": "The shift",
+      "title": "From 1.2% in 2023 to 49.3% now",
+      "body": [
+        "China's share was **1.2%** in 2023 and 22% last year. Alibaba's Qwen, a Chinese model family, alone made up 864 derivatives, **46.8%** of this year's total, ahead of Google's Gemma (14.7%) and Meta's Llama (13.8%)."
+      ]
+    },
+    {
+      "kicker": "Homegrown",
+      "title": "Korean models trail far behind",
+      "body": [
+        "LG AI Research's **Exaone** ranked fourth with 171 derivatives (9.3%). **Kanana**, from Kakao, Korea's largest messenger company, ranked sixth with 49 (2.7%)."
+      ]
+    },
+    {
+      "kicker": "The sovereign test",
+      "title": "A Qwen part cost Naver a spot",
+      "body": [
+        "Korea's sovereign AI program has received some **200 billion won ($151 million)**. Naver Cloud was eliminated for using components from Alibaba's Qwen. LG AI Research, SK Telecom and Upstage advanced in August."
+      ]
+    },
+    {
+      "kicker": "The other side",
+      "title": "Not in the apps people use",
+      "body": [
+        "No Chinese chatbot ranked among Korea's **10 most-used AI apps** in July. Researchers also found no references to Chinese models in about 1,900 public GitHub repositories of **36 major Korean companies**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "A report by private think tank Rockbridge Network Korea, authored by Hanyang University business professor Choi Seong-jin, found nearly half of AI models released by Korean developers this year were built on Chinese technology."
+    },
+    {
+      "source": 0,
+      "text": "Of 1,845 model derivatives published by Korea-linked accounts on Hugging Face between January and August, 49.3% were based on Chinese foundation models, 35.9% on US models and 14.9% on Korean models."
+    },
+    {
+      "source": 0,
+      "text": "The Chinese share rose from 1.2% in 2023 and 22% last year."
+    },
+    {
+      "source": 0,
+      "text": "Alibaba's Qwen alone accounted for 864 derivatives, or 46.8% of this year's total, ahead of Google's Gemma (14.7%) and Meta's Llama (13.8%)."
+    },
+    {
+      "source": 0,
+      "text": "LG AI Research's Exaone ranked fourth with 171 derivatives (9.3%); Kakao's Kanana was sixth with 49 (2.7%)."
+    },
+    {
+      "source": 0,
+      "text": "Korea's sovereign AI program has received some 200 billion won ($151 million); LG AI Research, SK Telecom and Upstage advanced in August, after Naver Cloud was eliminated for using components from Alibaba's Qwen."
+    },
+    {
+      "source": 0,
+      "text": "No Chinese chatbot ranked among Korea's 10 most-used AI apps in July, and researchers found no references to Chinese models in roughly 1,900 public GitHub repositories of 36 major Korean companies."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Herald",
+      "title": "Chinese AI powers half of Korea's new models: study",
+      "date": "Oct 21, 2026",
+      "url": "https://www.koreaherald.com/article/10910085"
+    }
+  ],
+  "caption": "Korea's AI developers built 49.3% of their new models this year on Chinese tech, mostly Alibaba's Qwen, a Rockbridge Network Korea study finds.\n\nThe think tank counted 1,845 derivative models that Korea-linked accounts posted on Hugging Face from January to August. That is a count of models, not of services.\n\n→ 49.3% were based on Chinese models, 35.9% on US models, 14.9% on Korean models\n→ Alibaba's Qwen alone made up 46.8% of this year's derivatives\n→ No Chinese chatbot was among Korea's 10 most-used AI apps in July\n\nShould countries build on the best open model, or on their own?\n\nSource: The Korea Herald, \"Chinese AI powers half of Korea's new models: study\", Oct 21, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#KoreaAI",
+    "#Qwen",
+    "#OpenSourceAI",
+    "#ChinaAI"
+  ],
+  "threads_caption": "Korea's AI developers built 49.3% of their new models this year on Chinese tech, per a Rockbridge Network Korea study of 1,845 Hugging Face derivatives. Alibaba's Qwen alone: 46.8%.\n\nSource: The Korea Herald, \"Chinese AI powers half of Korea's new models: study\". #KoreaAI"
+}

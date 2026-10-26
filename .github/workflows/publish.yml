@@ -5,6 +5,8 @@ name: publish
 # GitHub can start scheduled runs hours late (on 2026-10-21 the 03:07 scan ran at 08:28 and the 11:57 publish
 # didn't run), so Claude also starts this workflow at each slot. Two guards keep that to one post per slot:
 # a scheduled run more than 60 minutes late skips, and any run skips if something was published in the last 3 hours.
+# Sundays at 09:57 Vienna there is a third slot for the weekly roundup (PRD 2026-10-26). It posts only that Sunday's
+# posts/<date>-weekly and records it as "weekly: ", so it has its own 3-hour guard and never holds back the 13:57 post.
 on:
   workflow_dispatch:
     inputs:
@@ -20,6 +22,8 @@ on:
     - cron: "57 12 * * *"   # winter: 13:57 Vienna (UTC+1)
     - cron: "57 17 * * *"   # summer: 19:57 Vienna
     - cron: "57 18 * * *"   # winter: 19:57 Vienna
+    - cron: "57 7 * * 0"    # summer: Sunday 09:57 Vienna, weekly roundup
+    - cron: "57 8 * * 0"    # winter: Sunday 09:57 Vienna, weekly roundup
 
 permissions:
   contents: write
@@ -30,7 +34,7 @@ concurrency:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # ubuntu-latest moved to 26.04 (2026-10); pinned like render.yml
     steps:
       # Latest main, not the commit the run was queued on: a run waiting behind another must see its publish record.
       - uses: actions/checkout@v4
@@ -43,11 +47,13 @@ jobs:
       - name: Pick post
         id: pick
         run: |
+          weekly_slot=no
           if [ "${{ github.event_name }}" = "schedule" ]; then
             case "${{ github.event.schedule }}" in
-              "57 11 * * *"|"57 17 * * *") want=+0200 ;;
+              "57 11 * * *"|"57 17 * * *"|"57 7 * * 0") want=+0200 ;;
               *) want=+0100 ;;
             esac
+            case "${{ github.event.schedule }}" in "57 7 * * 0"|"57 8 * * 0") weekly_slot=yes ;; esac
             if [ "$(TZ=Europe/Vienna date +%z)" != "$want" ]; then
               echo "other season's slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
             fi
@@ -59,10 +65,26 @@ jobs:
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           if [ -n "${{ inputs.post }}" ]; then echo "dir=${{ inputs.post }}" >> "$GITHUB_OUTPUT"; exit 0; fi
+          # A manual run without a post (e.g. Claude's backup start) is the weekly slot on Sunday before noon, Vienna time.
+          if [ "${{ github.event_name }}" != "schedule" ] && [ "$(TZ=Europe/Vienna date +%u)" = 7 ] && [ "$(TZ=Europe/Vienna date +%-H)" -lt 12 ]; then
+            weekly_slot=yes
+          fi
+          if [ "$weekly_slot" = yes ]; then
+            # Only today's roundup. One that missed its Sunday is skipped for good, never posted a week late.
+            if [ -n "$(git log --since='3 hours ago' --grep='^weekly: ' --format=%h)" ]; then
+              echo "weekly roundup already published, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
+            fi
+            d="posts/$(TZ=Europe/Vienna date +%F)-weekly"
+            if [ -f "$d/post.json" ] && grep -q '"kind": "weekly"' "$d/post.json" && grep -q '"status": "ready"' "$d/post.json"; then
+              echo "dir=$d" >> "$GITHUB_OUTPUT"; exit 0
+            fi
+            echo "no ready weekly roundup for today; single posts wait for 13:57"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           if [ -n "$(git log --since='3 hours ago' --grep='^publish: ' --format=%h)" ]; then
             echo "already published in this slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
           fi
           for d in $(ls -d posts/2*/ | sort); do
+            grep -q '"kind": "weekly"' "$d/post.json" && continue
             if grep -q '"status": "ready"' "$d/post.json"; then echo "dir=${d%/}" >> "$GITHUB_OUTPUT"; exit 0; fi
           done
           echo "nothing ready to publish"; echo "dir=" >> "$GITHUB_OUTPUT"
@@ -94,8 +116,10 @@ jobs:
           if git diff --cached --quiet; then echo "nothing to record"; exit 0; fi
           # "publish: " only when Instagram actually posted; a Threads-only run (e.g. a manual test on a post
           # that is already on Instagram) must not trip the 3-hour guard for the next slot.
+          # The weekly roundup records as "weekly: ", so it never trips the single posts' guard (and the other way round).
           if git diff --cached -U0 -- "${{ steps.pick.outputs.dir }}/post.json" | grep -q '^+.*"published_id"'; then
             msg="publish: ${{ steps.pick.outputs.dir }}"
+            grep -q '"kind": "weekly"' "${{ steps.pick.outputs.dir }}/post.json" && msg="weekly: ${{ steps.pick.outputs.dir }}"
           else
             msg="threads: ${{ steps.pick.outputs.dir }}"
           fi

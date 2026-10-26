@@ -25,6 +25,15 @@ Steps 3-6 run once for each of the two posts.
 5. **fact-checker**, **hook-judge**, **brand-safety** in parallel. Each sees only the post, never the other reviews.
 6. All three pass → set `"status": "ready"` in post.json. Any fail → send the issues to the writer and repeat from step 3.
    After 2 failed rounds on a post, set that post to `"status": "blocked"`, keep its files, explain in the PR, and carry on with the other post.
+6b. **Sundays only, after both single posts are done: the weekly roundup.** Skip it and say so in the report if usage is tight;
+   the two single posts always come first.
+   - `node scripts/weekly.mjs {{date}}` → `posts/{{date}}-weekly/post.json` (draft). It picks up to 7 of our posts published
+     Monday to Saturday, by reach. If it prints `skip:` (fewer than 3 posts), there is no roundup this week; note it in the report.
+   - **writer** picks the lead story (the strongest of the week), reruns `node scripts/weekly.mjs {{date}} --lead <post id>`,
+     and writes 3-5 cover hooks for it. Only the cover is new text; never edit the story slides, caption or sources.
+   - `node scripts/lint.mjs posts/{{date}}-weekly` and `node scripts/render.mjs posts/{{date}}-weekly` must pass (no new image).
+   - **hook-judge**, **brand-safety**, **fact-checker** (cover only, against the lead's `facts`, no article reopening), independently.
+   - All pass → `"status": "ready"` in the same PR. It posts at 09:57 Vienna today; if it misses today, it is not posted later.
 7. Add the morning report to the top of `ops/run-log.md` (format in CLAUDE.md). The 성과 line comes from
    `ops/metrics/{{date}}.json`: yesterday's account reach, follower count and change, profile link taps, and the
    post with the highest reach so far. Numbers only, no conclusions (Meta needs up to 48h to settle them).

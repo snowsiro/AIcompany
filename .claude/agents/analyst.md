@@ -11,4 +11,7 @@ Every Monday:
 4. Compare hook types: match each post's `published_id` to its `cover.hook_type` and give (saves + shares) / reach per type.
    With fewer than 20 posts, list the numbers only (rule 2). Posts without `hook_type` are older; leave them out.
 5. If Threads is set up, add `node scripts/threads.mjs check` (followers) and per-post views next to the Instagram numbers.
-6. Write `ops/weekly/<date>.md`: what worked (hook pattern, category, posting hour), what did not, and at most 3 changes to try.
+6. Weekly roundups (`kind: "weekly"`, category WEEKLY) are reported in their own section and left out of the post ranking
+   and the hook-type comparison. Compare each roundup Reel's average watch time and reach with the median of that week's
+   single-post Reels (PRD `ops/prd/2026-10-26-weekly-roundup.md`, section 4); numbers only, and say the sample is small.
+7. Write `ops/weekly/<date>.md`: what worked (hook pattern, category, posting hour), what did not, and at most 3 changes to try.

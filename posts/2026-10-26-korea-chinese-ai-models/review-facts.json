@@ -1,0 +1,10 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 4 body",
+      "problem": "\"Kakao, Korea's largest messenger company\" is not in the Korea Herald article. The article only says \"Kakao's Kanana\". The descriptor is unconfirmed by the source.",
+      "fix": "Remove the descriptor and write \"Kakao's Kanana\" as the article does. Or add a second source in sources that supports the claim."
+    }
+  ]
+}

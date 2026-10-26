@@ -44,6 +44,8 @@
     font-size: 150px; line-height: .95; letter-spacing: .005em;
   }
   .cover h1 span { display: block; white-space: nowrap; width: max-content; }
+  .cover .more { margin-top: 26px; font-weight: 700; font-size: 32px; letter-spacing: .06em; color: var(--muted); }
+  .cover .more b { color: var(--accent); font-weight: 700; }
   .handle { position: absolute; left: 0; right: 0; bottom: 64px; text-align: center; font-weight: 700; font-size: 28px; letter-spacing: .06em; color: var(--paper); opacity: .9; }
 
   /* ---------- body slides ---------- */
@@ -103,6 +105,11 @@
   .srcs p + p { margin-top: 10px; }
   .srcs p b { font-weight: 700; color: var(--paper); }
   .srcs svg { flex: none; width: 28px; height: 28px; margin-top: 2px; }
+  /* weekly roundup: each story card carries its own sources under the text */
+  .slide .srcs.item { margin-top: 44px; padding-bottom: 0; }
+  .slide .srcs.item p { font-size: 24px; color: var(--muted); }
+  .slide .srcs.item p + p { margin-top: 10px; }
+  .end .note { margin-top: 36px; font-size: 30px; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -124,8 +131,13 @@
   const SHARE_ICON = `<svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#9A9AA2" stroke-width="2.6" stroke-linejoin="round"><path d="M27 3 3 13l10 4 4 10z"/><path d="M27 3 13 17"/></svg>`;
   const PLUS_ICON = `<svg width="22" height="22" viewBox="0 0 22 22" stroke="#0A0A0C" stroke-width="3.4" stroke-linecap="round"><path d="M11 3v16M3 11h16"/></svg>`;
 
+  function srcLine(s) {
+    return `<p>${DOC_ICON}<span><b>${rich(s.outlet)}</b>, “${rich(s.title_en || s.title)}”${s.title_en ? ` (in ${rich(s.language || "Korean")})` : ""} (${rich(s.date)})</span></p>`;
+  }
+
   window.renderCard = function (post, index, coverUrl) {
     const total = post.slides.length + 2; // cover + body slides + sources
+    const weekly = post.kind === "weekly"; // Sunday roundup: one published story per card (DESIGN.md)
     const root = document.getElementById("root");
     const handle = "@ai.news.company";
 
@@ -138,6 +150,7 @@
           <div class="text">
             <div class="tag">${rich(c.tag)}</div>
             <h1>${c.headline.map(l => `<span>${rich(l)}</span>`).join("")}</h1>
+            ${weekly ? `<div class="more"><b>+${post.slides.length - 1}</b> more stories inside</div>` : ""}
           </div>
           <div class="handle">${handle}</div>
         </div>`;
@@ -146,8 +159,7 @@
     }
 
     if (index === total - 1) {
-      const srcs = post.sources.slice(0, 3).map(s =>
-        `<p>${DOC_ICON}<span><b>${rich(s.outlet)}</b>, “${rich(s.title_en || s.title)}”${s.title_en ? ` (in ${rich(s.language || "Korean")})` : ""} (${rich(s.date)})</span></p>`).join("");
+      const srcs = post.sources.slice(0, 3).map(srcLine).join("");
       root.innerHTML = `
         <div class="card slide end">
           ${deco(index + 1)}
@@ -161,8 +173,9 @@
               <div class="btn">${PLUS_ICON}Follow</div>
             </div>
             <div class="actions"><span>${SAVE_ICON}Save for later</span><span>${SHARE_ICON}Share with a friend</span></div>
+            ${weekly ? `<p class="note">Sources are on each card.</p>` : ""}
           </div>
-          <div class="srcs"><div class="lab">Source${post.sources.length > 1 ? "s" : ""}</div>${srcs}</div>
+          ${weekly ? "" : `<div class="srcs"><div class="lab">Source${post.sources.length > 1 ? "s" : ""}</div>${srcs}</div>`}
           <div class="footer"><span>${handle}</span><span class="dots">${dots(index, total)}</span></div>
         </div>`;
       return;
@@ -172,12 +185,14 @@
     const body = s.quote
       ? `<div class="qmark">“</div><p class="quote">${rich(s.quote)}</p><p class="who">${rich(s.who)}</p>`
       : s.body.map(p => `<p>${rich(p)}</p>`).join("");
+    // inside data-fit, so a long source line fails the fit check instead of running into the footer
+    const itemSrcs = weekly ? `<div class="srcs item">${(s.sources || []).map(k => srcLine(post.sources[k])).join("")}</div>` : "";
     root.innerHTML = `
       <div class="card slide">
         ${deco(index + 1)}
-        ${kicker(index, total, rich(s.kicker), rich(post.cover.tag))}
+        ${kicker(index, total, rich(s.kicker), rich(weekly ? s.tag : post.cover.tag))}
         <div class="content" data-fit>
-          ${s.title ? `<div class="bar"></div><h2>${rich(s.title)}</h2>` : ""}${body}
+          ${s.title ? `<div class="bar"></div><h2>${rich(s.title)}</h2>` : ""}${body}${itemSrcs}
         </div>
         <div class="footer"><span>${handle}</span><span class="dots">${dots(index, total)}</span></div>
       </div>`;

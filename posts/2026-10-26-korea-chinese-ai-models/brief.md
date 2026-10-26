@@ -1,0 +1,7 @@
+# Brief: 2026-10-26-korea-chinese-ai-models
+
+- 결과: 캐러셀 1개. REGION KOREA, CATEGORY RESEARCH (tag `KOREA AI · RESEARCH`). 주제: Rockbridge Network Korea 연구에 따르면 올해 한국 개발자 모델의 거의 절반(49.3%)이 중국 기반 모델 위에 만들어짐. 점수 8 (global 3 + hard number 2 + Korea 3). 후보 훅 유형: number / myth-flip / rivalry.
+- 맥락: 독자 누구나 "오픈 모델 경쟁에서 누가 기반을 깔고 있나"에 관심이 있다. 한국 같은 AI 강국도 중국 오픈 모델 위에 쌓는다는 점이 핵심. 핵심 사실: 1,845개 Hugging Face 파생 모델 중 중국 49.3% / 미국 35.9% / 한국 14.9%; 중국 비중 2023년 1.2% -> 작년 22% -> 올해 49.3%; Alibaba Qwen 단독 864개 (46.8%); LG Exaone 4위 (9.3%), Kakao Kanana 6위 (2.7%); 소버린 AI 프로그램(약 2,000억 원, $151M)에서 Naver Cloud가 Qwen 부품 사용으로 탈락; 중소기업 80.2%는 데이터 유출 우려 vs 31.3% 모델 품질. 인용: 한국 스타트업 관계자 "We mainly use Chinese models such as Qwen and DeepSeek for services with high user traffic."
+- 제약: 사실은 아래 기사에서만. 실존 인물 사진 없음, 로고 크게 넣지 않음. DESIGN.md 준수 (1080x1350, Anton 커버, accent 1단어, 이미지 안 글자 없음). 통화는 달러 병기 (won + $). 처음 나오는 이름 한 줄 설명: Alibaba, Qwen, Hugging Face, LG AI Research, Kakao, Naver Cloud, Rockbridge Network Korea (think tank), Upstage, SK Telecom. 마지막 슬라이드와 캡션에 출처.
+  - 출처: The Korea Herald, "Chinese AI powers half of Korea's new models: study" (2026-10-21), https://www.koreaherald.com/article/10910085
+- 질문 기준: (1) 기사 발행일이 10/21로 24시간보다 오래됨 (Korea Times가 10/25 재보도, 읽을 수 없어 Korea Herald 사용) - 날짜를 "this week" 같이 쓰지 말 것. (2) 수치는 "서비스"가 아니라 Hugging Face 파생 모델 수 (Korea-linked 계정, 1~8월) 기준 - "half of Korean AI" 식 과장 금지, 훅이 본문을 넘지 않게. (3) 한국 모델 14.9%, 미국 비중 수치(2023년 79.5%에서 하락)는 연도 기준이 헷갈리면 빼고 질문. (4) 중국 챗봇이 한국 앱 상위 10위에 없다는 점은 반론 슬라이드로 쓸 수 있으나 기사 문구 그대로 확인할 것.
