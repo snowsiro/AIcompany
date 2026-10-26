@@ -6,6 +6,7 @@
 //   digest.html  this week's digest (last 7 days). Open it on Sunday, copy all, paste into the newsletter editor.
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, copyFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { parts } from "./caption.mjs";
 
 const OUT = process.argv[2] || "_site";
 const site = JSON.parse(readFileSync("config/site.json", "utf8"));
@@ -17,19 +18,9 @@ const srcTitle = s => (s?.title_en ? `“${esc(s.title_en)}” (in ${esc(s.langu
 const posts = readdirSync("posts")
   .filter(d => /^\d{4}-\d{2}-\d{2}-/.test(d) && existsSync(join("posts", d, "post.json")))
   .map(d => ({ dir: d, ...JSON.parse(readFileSync(join("posts", d, "post.json"), "utf8")) }))
-  .filter(p => p.status === "published" && p.permalink)
+  // Weekly roundups repeat stories that are already listed, with several sources, so they stay off the page and the digest.
+  .filter(p => p.status === "published" && p.permalink && p.kind !== "weekly")
   .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : b.dir.localeCompare(a.dir)));
-
-// The caption is the reviewed text: hook line, a context paragraph, → bullets, a question, Source line, follow line.
-function parts(p) {
-  const lines = (p.caption || "").split("\n").map(l => l.trim()).filter(Boolean);
-  return {
-    hook: lines[0] || "",
-    context: lines.slice(1).filter(l => !l.startsWith("→") && !/\?$/.test(l) && !/^(source:|follow )/i.test(l)),
-    bullets: lines.filter(l => l.startsWith("→")).map(l => l.replace(/^→\s*/, "")),
-    source: p.sources?.[0],
-  };
-}
 
 const viennaDate = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Vienna" });
 const weekAgo = new Date(Date.parse(viennaDate) - 6 * 864e5).toISOString().slice(0, 10);

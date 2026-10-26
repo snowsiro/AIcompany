@@ -18,6 +18,8 @@ The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.comp
 
 13:57 Vienna  GitHub Actions "publish" posts the oldest ready post as a carousel, then checks it is live
 19:57 Vienna  "publish" again for the second post
+Sundays    09:57 Vienna  "publish" posts that Sunday's weekly roundup "This week in AI" (posts/<date>-weekly),
+           made by the morning run from the week's published posts with scripts/weekly.mjs. A missed one is skipped
 Mondays    analyst writes ops/weekly/<date>.md from Instagram insights
 ```
 
@@ -38,6 +40,7 @@ No computer needs to stay on.
 | `templates/card.html` | The one template all slides use |
 | `scripts/lint.mjs` | Rule checker (no AI) |
 | `scripts/render.mjs` | Renders slides, fails if text does not fit |
+| `scripts/weekly.mjs` | Builds the Sunday roundup from the week's published posts (no AI) |
 | `scripts/ig.mjs` | Instagram Graph API: discover, scan, publish, insights, check |
 | `scripts/feeds.mjs` | New AI articles from each outlet's RSS (Google News RSS as fallback) |
 | `scripts/article.mjs` | Prints an article's own text, for checking facts word for word |
