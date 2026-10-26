@@ -73,7 +73,9 @@ jobs:
           fi
           if [ "$weekly_slot" = yes ]; then
             # Only today's roundup. One that missed its Sunday is skipped for good, never posted a week late.
-            if [ -n "$(git log --since='3 hours ago' --grep='^weekly: ' --format=%h)" ]; then
+            # Count only the bot's own records ("weekly: posts/<dir>" as the subject). A code commit or merge that
+            # merely mentions "weekly: " must not hold back the roundup.
+            if git log --since='3 hours ago' --format=%s | grep -q '^weekly: posts/'; then
               echo "weekly roundup already published, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
             fi
             d="posts/$(TZ=Europe/Vienna date +%F)-weekly"
@@ -82,7 +84,9 @@ jobs:
             fi
             echo "no ready weekly roundup for today; single posts wait for 13:57"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
           fi
-          if [ -n "$(git log --since='3 hours ago' --grep='^publish: ' --format=%h)" ]; then
+          # Count only the bot's own records ("publish: posts/<dir>" as the subject). On 2026-10-26 two code commits
+          # titled "publish: ..." made the 19:57 run think a post had just gone out, and the slot was skipped.
+          if git log --since='3 hours ago' --format=%s | grep -q '^publish: posts/'; then
             echo "already published in this slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
           fi
           for d in $(ls -d posts/2*/ | sort); do
