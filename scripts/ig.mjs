@@ -59,8 +59,10 @@ async function waitReady(containerId) {
 const firstLine = s => String(s || "").split("\n")[0].trim();
 
 async function findPosted(post) {
+  const want = firstLine(post.caption);
+  if (!want) throw new Error(`${post.id}: caption is empty, can't check for an earlier copy`);
   const { data } = await call("GET", `/${IG_USER_ID}/media`, { fields: "id,caption,permalink,timestamp", limit: "25" });
-  return (data || []).find(m => firstLine(m.caption) === firstLine(post.caption)) || null;
+  return (data || []).find(m => firstLine(m.caption) === want) || null;
 }
 
 function recordPublished(dir, post, mediaId, permalink) {
