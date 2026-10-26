@@ -23,14 +23,28 @@ if (!IG_USER_ID || !IG_ACCESS_TOKEN) {
   process.exit(2);
 }
 
+// Meta's usage headers (percent of each limit used), kept from the latest call so errors and `check` can show them.
+// An error names the call (method and path only; the token sits in the query or body and is never printed) and
+// keeps Meta's subcode and user message, which tell an app-wide rate limit apart from an Instagram action block.
+let lastUsage = {};
 async function call(method, path, params = {}) {
   const url = new URL(API + path);
   const body = new URLSearchParams({ ...params, access_token: IG_ACCESS_TOKEN });
   const res = method === "GET"
     ? await fetch(`${url}?${body}`)
     : await fetch(url, { method, body });
+  lastUsage = {};
+  for (const h of ["x-app-usage", "x-business-use-case-usage"]) {
+    const v = res.headers?.get?.(h);
+    if (v) lastUsage[h] = v;
+  }
   const json = await res.json();
-  if (json.error) throw new Error(`${json.error.type || "error"} ${json.error.code}: ${json.error.message}`);
+  if (json.error) {
+    const e = json.error;
+    const detail = [`${method} ${path}`, e.error_subcode && `subcode ${e.error_subcode}`, e.error_user_title, e.error_user_msg,
+      e.fbtrace_id && `trace ${e.fbtrace_id}`, ...Object.entries(lastUsage).map(([k, v]) => `${k} ${v}`)].filter(Boolean);
+    throw new Error(`${e.type || "error"} ${e.code}: ${e.message} [${detail.join("; ")}]`);
+  }
   return json;
 }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -292,6 +306,8 @@ async function scan(out, hours = 48) {
 async function check() {
   const me = await call("GET", `/${IG_USER_ID}`, { fields: "username,followers_count,media_count" });
   console.log(`account: @${me.username} (${me.followers_count} followers, ${me.media_count} posts)`);
+  // Meta sends these only once usage is noticeable; none means far from every limit.
+  console.log(`api usage: ${Object.keys(lastUsage).length ? JSON.stringify(lastUsage) : "no usage headers (far from the limits)"}`);
   try {
     // Token type and expiry only; the token itself is never printed.
     const { data: t } = await call("GET", "/debug_token", { input_token: IG_ACCESS_TOKEN });
@@ -300,8 +316,12 @@ async function check() {
   } catch (err) {
     console.log(`token: could not inspect (${err.message})`);
   }
-  const limit = await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" });
-  console.log(`publishing quota: ${JSON.stringify(limit.data?.[0] ?? limit)}`);
+  try {
+    const limit = await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" });
+    console.log(`publishing quota: ${JSON.stringify(limit.data?.[0] ?? limit)}`);
+  } catch (err) {
+    console.log(`publishing quota: could not read (${err.message})`);
+  }
   const accounts = referenceAccounts();
   let ok = 0;
   for (const username of accounts) {
@@ -315,6 +335,7 @@ async function check() {
     }
   }
   console.log(`reference accounts readable: ${ok}/${accounts.length}`);
+  console.log(`api usage after check: ${Object.keys(lastUsage).length ? JSON.stringify(lastUsage) : "no usage headers"}`);
 }
 
 const [cmd, ...args] = process.argv.slice(2);
