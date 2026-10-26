@@ -2,6 +2,25 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-10-26
+처리 2건 (ready 1 · blocked 1) · 실패 0건
+성과: 어제 도달 25 · 팔로워 0 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 php-ai-flaws (108)
+결정할 일
+1. Korea 글(blocked, korea-chinese-ai-models): 2회 검수 후에도 fact-checker가 "Kakao, Korea's largest messenger company" 설명이 기사에 없다고 지적. CLAUDE.md는 낯선 기업 설명을 요구하므로, 설명을 빼고 올릴지 / 설명을 유지하고 예외로 올릴지 결정 필요 (다른 수치는 모두 일치)
+2. 인스타 토큰(IG_USER_ID, IG_ACCESS_TOKEN)이 이 세션에 없어 참고 계정은 morning-scan의 reference.json으로 대체. 참고 계정 대부분이 광고성 영상 툴 게시물이라 주제 선정에 거의 쓰이지 않음
+3. 두 글 모두 원문 기사가 10/20~10/21자라 24시간 기준을 벗어남 (스마트 TV 광고 건은 아직 화제, Korea Times가 10/25 재보도). 기사 날짜를 그대로 표기함
+4. 이 세션의 playwright 브라우저 버전이 맞지 않아 CHROMIUM_PATH=/opt/pw-browsers/chromium 으로 렌더함
+5. 스마트 TV 글 훅 7/10: 숫자·이름이 커버에 없음 (hook-judge 지적, 통과)
+자세한 기록
+- 05:45 morning-scan이 main에 없어 워크플로를 직접 실행, 약 1분 안에 생성됨. metrics도 함께 수집
+- 후보 11개 수집 (researcher), 반복 없음. Reuters, Nikkei 원문 2건은 읽을 수 없어 제외
+- 주제 선정: claude-code-tv-ads(Decrypt, GLOBAL·TOOLS, 점수 11), korea-chinese-ai-models(Korea Herald, KOREA·RESEARCH, 점수 8)
+- 예비 주제 4개를 posts/_backlog/에 저장 (유럽 Mistral·DeepL, 중국 AI 수출 등록, 미국 재무부 해외투자 규칙, Nvidia 소프트웨어 구독)
+- claude-code-tv-ads: 1차 fact·hook·brand 모두 통과 → ready
+- korea-chinese-ai-models: 1차 fact 불합격(기간 "two years", "open" 표현) → 수정 → 2차 fact 불합격(Kakao 설명), hook 7/10·brand 통과 → 규칙대로 blocked
+- 커버 2장 Higgsfield cinematic_studio_2_5로 생성 (4 크레딧; 오늘 합계 4/6)
+- 게시 대상: claude-code-tv-ads만
+
 ## [수정] 2026-10-25 영국 바이오보안 글 다시 살림
 처리 1건 (ready 1) · 실패 0건
 결정할 일
