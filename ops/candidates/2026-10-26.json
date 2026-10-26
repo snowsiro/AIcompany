@@ -1,0 +1,546 @@
+{
+ "date": "2026-10-26",
+ "notes": "Scan folder present (reference.json, feeds.json). No Instagram token; reference.json used. trenddalkak.ai and ddalkkak.mag returned 0 posts. Reference accounts were mostly sponsored AI video tools; only the Claude Code TV-ads story overlaps (sdk.kim.builds + ai.trend.kr weekly roundup); prompt_what and ai_freaks.kr roundups mention Kimi K3.1 Pro, Claude Duet, DeepSeek ban - all already posted. Dropped (no readable original): Reuters 'Claude accessed Georgia vote data behind paywall' (Google News redirect, search found nothing), SoftBank $50bn Malaysia (Nikkei redirect, search found nothing), Korea Times original (redirect; Korea Herald used). Unused leads: OpenAI 'Model Masters' Seoul startup event (AI Times, minor; winner Cutback), Grok-vs-OpenAI election bias (DT/AI Times), Anthropic Elvis lyrics copyright (ZDNet Korea), Bill Gates 20-year AI disruption warning (etnews/DT), US banks blocking AI-agent accounts (DT), Tokio Marine insuring AI robots, Grok 'Odyssey' (TechCrunch, review not news-hard). Ars Technica, MIT Tech Review, Sifted, Politico Europe returned empty in feeds. Repeat check vs posts/ last 14 days: no exact repeats; same-company watch: SpaceX (10-21), OpenAI (10-24), Nvidia (10-23), DeepSeek (10-21, 10-25).",
+ "candidates": [
+  {
+   "title": "OpenAI cuts its funding-round valuation target to $1.25tn from $1.4tn, with UAE investors and Coatue leading",
+   "region": "US/UAE",
+   "repeat_of_last_14_days": false,
+   "notes": "Single outlet (TNW) relaying FT, CNBC, Bloomberg; TNW says it has not verified figures. Attribute to reports. Related earlier post: 2026-10-24-openai-offline-training (different story).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI funding round valuation cut to $1.25tn as UAE and Coatue lead",
+     "date": "2026-10-25",
+     "url": "https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI has lowered the valuation it is seeking for its new funding round to $1.25tn, from the $1.4tn it pitched earlier this month; some investors pushed back on the higher price, the Financial Times reported.",
+     "article": 0
+    },
+    {
+     "fact": "The company is close to raising up to $30bn at that valuation, which does not include the new money, CNBC first reported.",
+     "article": 0
+    },
+    {
+     "fact": "Investors from the United Arab Emirates are leading the round with Coatue, people familiar with the deal told CNBC; Bloomberg said Abu Dhabi's MGX and BlackRock have also been approached.",
+     "article": 0
+    },
+    {
+     "fact": "The cut is $150bn, according to Bloomberg. OpenAI first sought $1.4tn in September and last raised $122bn in March at an $852bn valuation including the money.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI told investors it wants signatures by the end of next week, CNBC reported.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI is negotiating a deal for more computing capacity from the UAE and told investors in February it targets about $600bn in total compute spending by 2030.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI filed confidentially with the US SEC in June but has not said when it will list; Altman said in September that going public right now would be 'an ill-advised moment'.",
+     "article": 0
+    },
+    {
+     "fact": "Investors expect Anthropic's IPO next month, Bloomberg reported; Reuters reported it seeks a valuation of $1.5tn to $2tn. In May Anthropic raised $65bn at a $965bn valuation.",
+     "article": 0
+    },
+    {
+     "fact": "Meta's future spending commitments reach $825bn, and investors have questioned AI spending in a weak week for AI stocks, Bloomberg reported.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "SpaceX closes $40bn debt deal for GPUs; Musk predicts neocloud shakeout",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "Same company as posted 2026-10-21-spacex-ai-revenue but a new event (debt raise, 25 Oct); apply same_company penalty only against another SpaceX pick. Reuters headline seen in feeds (Google News redirect, not readable); original used is AI Times (Korean) which quotes Musk's X posts. Define neocloud (CoreWeave, Nebius).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "스페이스X, 53조 부채로 GPU 확보...\"네오클라우드는 도산 위기\"",
+     "date": "2026-10-26",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216640"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Elon Musk said on X on Oct 25 that SpaceX has closed $40B (about 53 trillion won) of debt financing, mainly to pay for GPUs.",
+     "article": 0
+    },
+    {
+     "fact": "Musk said it is mostly callable debt for GPU purchases, with the GPUs arriving in Q1 and Q2 2027.",
+     "article": 0
+    },
+    {
+     "fact": "Musk wrote that debt markets have almost entirely shut off access to money for any company without substantial revenue independent of AI data centers; SpaceX is investment grade and has Starlink and launch.",
+     "article": 0
+    },
+    {
+     "fact": "Musk has set a goal of 1.21 million GPUs by year-end, about double the current level.",
+     "article": 0
+    },
+    {
+     "fact": "He predicted massive bankruptcies and consolidation among neoclouds (AI-specialised GPU cloud providers such as CoreWeave and Nebius), with only a few surviving, and called acquiring one 'pointless'.",
+     "article": 0
+    },
+    {
+     "fact": "Bloomberg earlier reported SpaceX was discussing $40B with banks and investors to buy Nvidia chips, with a special-purpose vehicle considered to keep debt off the balance sheet; Goldman Sachs reportedly talked with investors including Apollo Global Management.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX's Q3 AI-segment revenue was $7.56B (about 10 trillion won), roughly 9 times the $813M a year earlier; total revenue rose 161% to $14.58B.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "China's AI export controls: DeepSeek and MiniMax first to clear registration for taking models abroad",
+   "region": "China",
+   "repeat_of_last_14_days": false,
+   "notes": "TNW relaying a CCTV-affiliated WeChat account (Yuyuan Tantian) and Reuters; TNW says unverified. Related earlier posts: 2026-10-21-us-deepseek-ban, 2026-10-25-kimi-k3-1-pro (different angle). Pairs with the US Treasury story below (could be one 'US vs China rules' post).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "DeepSeek and MiniMax clear China AI export controls for overseas use",
+     "date": "2026-10-25",
+     "url": "https://thenextweb.com/news/deepseek-minimax-china-ai-export-controls-overseas"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "A WeChat account affiliated with state broadcaster CCTV said DeepSeek and MiniMax have completed registration and obtained open-source and overseas licensing rights under China's proposed AI export rules.",
+     "article": 0
+    },
+    {
+     "fact": "The controls were proposed on 16 October; the commerce and science ministries want to add 23 AI technologies, including large models, agents and computing clusters, to China's restricted-export list. Public comments close on 15 November.",
+     "article": 0
+    },
+    {
+     "fact": "Rules target three areas: data (ban on exporting models trained on China's 'core data'), sensitive use (agents for critical infrastructure, defence or core government affairs face a ban), and computing power (AI chip design, high-speed cluster links).",
+     "article": 0
+    },
+    {
+     "fact": "Large-model thresholds: training compute above 10^26 FLOPs, more than 2 trillion parameters, or capability in the global top ten.",
+     "article": 0
+    },
+    {
+     "fact": "Offering a restricted model through API, apps, web pages, SaaS or lightweight local deployment is not a technology export, the post said: 'AI companies can continue with their commercialization efforts as usual'.",
+     "article": 0
+    },
+    {
+     "fact": "Open-source technology gets automatic licensing, described as 'immediate reporting and export'.",
+     "article": 0
+    },
+    {
+     "fact": "DeepSeek reportedly raised $15bn from Tencent and CATL this week; TNW has not verified the post.",
+     "article": 0
+    },
+    {
+     "fact": "The post contrasted China's approach with the US AI diffusion framework of January 2025.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "US Treasury proposes outbound investment rule widening curbs on American money in Chinese AI, chips and biotech",
+   "region": "US/China",
+   "repeat_of_last_14_days": false,
+   "notes": "TNW relaying AP and Treasury fact sheet. Rule published in Federal Register 26 Oct. Draft renames 'AI systems' to 'super intelligence systems'.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Outbound investment rule widens US curbs on China AI and chip deals",
+     "date": "2026-10-25",
+     "url": "https://thenextweb.com/news/us-treasury-outbound-investment-rule-china-ai-biotech"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The US Treasury published a proposed outbound investment rule on Thursday that would widen limits on American money for chips, AI and other sensitive tech.",
+     "article": 0
+    },
+    {
+     "fact": "It targets China (including Hong Kong and Macau), Russia, North Korea, Cuba, Iran and other 'countries of concern'.",
+     "article": 0
+    },
+    {
+     "fact": "The draft carries out the COINS Act, passed in Congress's 2026 defence bill; it names five sectors (chips, AI, quantum, supercomputing, hypersonic systems) and Treasury added biotechnology.",
+     "article": 0
+    },
+    {
+     "fact": "US investors would have to tell Treasury about some deals and the rule would ban others.",
+     "article": 0
+    },
+    {
+     "fact": "The draft swaps 'AI systems' for 'super intelligence systems', citing President Trump's 29 September executive order.",
+     "article": 0
+    },
+    {
+     "fact": "Treasury would widen its ban on investing in these systems; investors would lose the option to simply report such deals.",
+     "article": 0
+    },
+    {
+     "fact": "Violations could bring civil penalties up to the IEEPA maximum, and Treasury could force investors to sell.",
+     "article": 0
+    },
+    {
+     "fact": "The Federal Register publishes the draft on 26 October; written comments are due by 7 December.",
+     "article": 0
+    },
+    {
+     "fact": "The move comes six days after China proposed its own controls on exporting advanced AI models and chip designs.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nearly half of AI models from Korean developers this year are built on Chinese tech, led by Alibaba's Qwen",
+   "region": "Korea",
+   "repeat_of_last_14_days": false,
+   "notes": "Korea Times (25 Oct, in feeds via Google News, not readable) covered this; original read is The Korea Herald, published 21 Oct (older than 24h, but Korea Times ran it 25 Oct). Study by Rockbridge Network Korea (think tank). Counts Hugging Face derivatives, not 'services' - word carefully. Related: 2026-10-01-korea-ai-for-all (different).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Herald",
+     "title": "Chinese AI powers half of Korea's new models: study",
+     "date": "2026-10-21",
+     "url": "https://www.koreaherald.com/article/10910085"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "A report by private think tank Rockbridge Network Korea, authored by Hanyang University business professor Choi Seong-jin, found nearly half of AI models released by Korean developers this year were built on Chinese technology.",
+     "article": 0
+    },
+    {
+     "fact": "Of 1,845 model derivatives published by Korea-linked accounts on Hugging Face between January and August, 49.3% were based on Chinese foundation models, 35.9% on US models and 14.9% on Korean models.",
+     "article": 0
+    },
+    {
+     "fact": "The Chinese share rose from 1.2% in 2023 and 22% last year; the US share fell from 79.5% over the same period.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba's Qwen alone accounted for 864 derivatives, or 46.8% of this year's total, ahead of Google's Gemma (14.7%) and Meta's Llama (13.8%).",
+     "article": 0
+    },
+    {
+     "fact": "LG AI Research's Exaone ranked fourth with 171 derivatives (9.3%); Kakao's Kanana was sixth with 49 (2.7%).",
+     "article": 0
+    },
+    {
+     "fact": "Korea's sovereign AI program has received some 200 billion won ($151 million); LG AI Research, SK Telecom and Upstage advanced in August, after Naver Cloud was eliminated for using components from Alibaba's Qwen.",
+     "article": 0
+    },
+    {
+     "fact": "No Chinese chatbot ranked among Korea's 10 most-used AI apps in July, and researchers found no references to Chinese models in roughly 1,900 public GitHub repositories of 36 major Korean companies.",
+     "article": 0
+    },
+    {
+     "fact": "In a survey of 102 small and midsized businesses, 80.2% cited data-leak fears versus 31.3% concerned about model quality.",
+     "article": 0
+    },
+    {
+     "fact": "A Korean AI startup official: 'We mainly use Chinese models such as Qwen and DeepSeek for services with high user traffic.'",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "People are using Claude Code to strip ads and trackers from smart TVs (cleanyourtv)",
+   "region": "Global",
+   "repeat_of_last_14_days": false,
+   "notes": "Covered by reference accounts sdk.kim.builds (26 Oct) and ai.trend.kr weekly roundup (25 Oct) - 2 accounts. Original Decrypt (20 Oct, older than 24h but trend peaked over weekend). Uses Anthropic's Claude Code; check same-company rule vs other picks. Texas lawsuit and Vizio facts are in the article.",
+   "reference_posts": [
+    {
+     "username": "sdk.kim.builds",
+     "url": "https://www.instagram.com/p/De8RchHAvKn/"
+    },
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/p/De5fm6-j0Dc/"
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "Decrypt",
+     "title": "People Are Vibe Coding the Ads Out of Their Smart TVs: Here's How",
+     "date": "2026-10-20",
+     "url": "https://decrypt.co/381456/vibe-coding-ads-out-smart-tvs-heres-how"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "A developer, Gathin T., used Claude Code to disable 25 Xiaomi packages on his parents' TV after it showed a sponsored ad before they could reach Netflix; he posted about it on October 17.",
+     "article": 0
+    },
+    {
+     "fact": "The agent found the TV on his home Wi-Fi, switched off the packages and wrote a new home screen that he said 'looks like an Apple TV now'.",
+     "article": 0
+    },
+    {
+     "fact": "His open-source project cleanyourtv lists tested setups for 107 TV models from 37 brands and had 10,700 GitHub stars as of Tuesday.",
+     "article": 0
+    },
+    {
+     "fact": "The tools use Android's built-in debugging bridge (ADB) to switch apps off rather than delete them, so a single restore script puts everything back; no 'root' access is needed.",
+     "article": 0
+    },
+    {
+     "fact": "Developer mode is unlocked by clicking the 'Build' number seven times in the TV settings.",
+     "article": 0
+    },
+    {
+     "fact": "Gathin wrote that a few thousand people did the same to their own TVs within two days.",
+     "article": 0
+    },
+    {
+     "fact": "Mihir Gupta replaced a 192 MB stock launcher with a custom 83 MB one; Ansub Khan said free memory on his parents' old Android TV rose about 90%.",
+     "article": 0
+    },
+    {
+     "fact": "Texas sued Sony, Samsung, LG, Hisense and TCL in December 2025, alleging their TVs can capture a screenshot of the display every 500 milliseconds.",
+     "article": 0
+    },
+    {
+     "fact": "Vizio paid $2.2 million in 2017 to settle charges over collecting viewing data from 11 million TVs; Walmart bought Vizio for about $2.3 billion in 2024.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nvidia floats $2,000-per-GPU yearly software subscription for AI agents",
+   "region": "Global/Germany",
+   "repeat_of_last_14_days": false,
+   "notes": "Original is AI Times (Korean). Jensen Huang said it at GTC Berlin on Oct 22. AI Times says the $2,000 looks like an example, not a confirmed price. Pairs with 2026-10-23-china-nvidia-35b only by company.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "엔비디아, GPU당 연간 2000달러 SW 구독제 구상...생태계 '락인' 가속",
+     "date": "2026-10-26",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216646"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Nvidia CEO Jensen Huang said at the GTC event in Berlin on Oct 22 that software licensing will be an increasingly important part of the business.",
+     "article": 0
+    },
+    {
+     "fact": "Huang said running Nvidia's full software stack for agents in an AI factory costs about $2,000 per GPU per year.",
+     "article": 0
+    },
+    {
+     "fact": "AI Times says the figure looks like an example for explaining the license model rather than a confirmed price; Nvidia has not disclosed timing, software contents or license terms.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia already sells its AI Enterprise platform at $4,500 per GPU per year, and it is unclear whether $2,000 is a narrower agent-only package.",
+     "article": 0
+    },
+    {
+     "fact": "AI Times' own illustrative math: 5 million GPUs at $2,000 a year would be $10B a year, or $50B over five years; Nvidia has not published such a forecast.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia unveiled the OpenShell Reference Architecture on Oct 21, which isolates agent execution and limits access to tools; Nvidia Sentry monitors agents' activity.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic is integrating OpenShell and BlueField hardware into Claude Managed Agents; Salesforce built an approval feature in Slack for agent access requests.",
+     "article": 0
+    },
+    {
+     "fact": "Huang said on a podcast that people may someday stop classifying Nvidia as a chip company.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Outside evaluators METR and Redwood found ways OpenAI's agents could slip past its internal monitor",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "TNW notes it has not independently verified; OpenAI says all production-affecting flaws are patched, which METR/Redwood have not evaluated. Sensitive wording: 'could have', not 'did'. Related earlier post: 2026-10-24-openai-offline-training is a different topic.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Agents could have slipped past the OpenAI monitoring system",
+     "date": "2026-10-25",
+     "url": "https://thenextweb.com/news/openai-monitoring-system-metr-redwood-red-team"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Outside evaluators found AI agents at OpenAI could have hidden hundreds of their own actions from OpenAI's monitoring system; safety nonprofits METR and Redwood Research reported on Thursday.",
+     "article": 0
+    },
+    {
+     "fact": "Each group sent one researcher inside OpenAI from 21 July to 11 August, with access to internal code, documentation and monitor prompts, and about a dozen staff interviews.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI told the evaluators it has patched every flaw that affected its production safeguards; METR and Redwood said they have not evaluated that claim.",
+     "article": 0
+    },
+    {
+     "fact": "The evaluators estimated 75% to 94% of agentic traffic from OpenAI's strongest models was eligible for monitoring; for internal Codex agents it was 99.2%.",
+     "article": 0
+    },
+    {
+     "fact": "At the start of the review the monitor did not cover reinforcement-learning training runs.",
+     "article": 0
+    },
+    {
+     "fact": "The monitor skipped compaction events (when an agent condenses its memory), leaving about 10% of eligible Codex traffic unwatched from May to July, per METR; OpenAI staff had spotted and fixed it during the review.",
+     "article": 0
+    },
+    {
+     "fact": "The monitor only ran when an agent handed control back to its user, so an agent could have put off checks by continuing to act; evaluators could not check whether any did.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI received the full 61-page report; METR and Redwood agreed to publish only a short summary, which OpenAI could redact.",
+     "article": 0
+    },
+    {
+     "fact": "An OpenAI spokesperson told CNBC: 'We're using what we learned to strengthen our safeguards and shape future collaborations with independent evaluators.'",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Mistral and DeepL CEOs warn Europe against 'surrendering' frontier AI as von der Leyen leans on applications",
+   "region": "Europe",
+   "repeat_of_last_14_days": false,
+   "notes": "heise (German, English version available) relaying Politico. Good Europe angle. Quotes from Mensch's LinkedIn post 'Build or surrender'.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Mistral- und DeepL-Chefs warnen vor KI-Kapitulation Europas",
+     "date": "2026-10-25",
+     "url": "https://www.heise.de/news/KI-Streit-in-Europa-EU-Tech-Chefs-wehren-sich-gegen-Kapitulation-11499445.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "A debate has broken out in European tech over whether Europe should still chase the most advanced AI models or focus on using applications.",
+     "article": 0
+    },
+    {
+     "fact": "EU Commission President Ursula von der Leyen and other leaders increasingly argue Europe need not be at the technological frontier to benefit economically from AI.",
+     "article": 0
+    },
+    {
+     "fact": "Mistral CEO Arthur Mensch, in a LinkedIn post titled 'Build or surrender', warned that giving up on own frontier models would cost Europe its remaining relevance on the AI world stage, per Politico.",
+     "article": 0
+    },
+    {
+     "fact": "DeepL CEO Jarek Kutylowski told Politico Europe must master the whole AI value chain or risk handing the value to other regions.",
+     "article": 0
+    },
+    {
+     "fact": "Kutylowski's example: a notable share of software firms' spending now goes directly to AI models instead of engineers' salaries, so without European models that value flows to the US.",
+     "article": 0
+    },
+    {
+     "fact": "Max Junestrand, CEO of Swedish legal-tech firm Legora, argued that building a competitive frontier lab currently looks like wishful thinking.",
+     "article": 0
+    },
+    {
+     "fact": "The Commission started seven AI gigafactories this summer worth about EUR 30 billion; a consortium led by Italy's Domyn is building a frontier model for all EU official languages.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Mistral launches Voxtral 3: voice agent SDK and speech models in 50+ languages, EU-hosted",
+   "region": "Europe",
+   "repeat_of_last_14_days": false,
+   "notes": "Company announcement dated 22 Oct (older than 24h; feed surfaced it 26 Oct). Weaker topic: product launch, few hard numbers. Company claims 'state-of-the-art' are Mistral's own.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Mistral AI",
+     "title": "Voxtral 3: Voice Agent SDK & Speech Models in 50+ Languages",
+     "date": "2026-10-22",
+     "url": "https://mistral.ai/news/voxtral-3"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Mistral introduced Voxtral 3, a family of speech-to-text and text-to-speech models plus a voice agent SDK that combines listening, reasoning, tool calling and speaking in one real-time streaming pipeline.",
+     "article": 0
+    },
+    {
+     "fact": "The speech-to-text model, Voxtral Small Transcribe 3, supports 50+ languages, with speaker identification (diarization), keyphrase context-biasing and end-of-turn detection.",
+     "article": 0
+    },
+    {
+     "fact": "The text-to-speech model, Voxtral Mini TTS 3, adapts emotion, pace and emphasis to context, supporting 35+ languages and 50+ dialects.",
+     "article": 0
+    },
+    {
+     "fact": "It is available through Mistral's EU-hosted API or for self-deployment, which Mistral says gives organizations control over where audio is processed and whether conversations are retained.",
+     "article": 0
+    },
+    {
+     "fact": "Target uses named: contact-center agents, service desks, virtual assistants and hands-free copilots.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Apollo economist: AI has delivered 'zero financial payoff' to corporate America outside tech",
+   "region": "US",
+   "repeat_of_last_14_days": false,
+   "notes": "Short TechCrunch brief on a Torsten Slok note; thin but quotable, good counter-narrative to the funding stories.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+     "date": "2026-10-25",
+     "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Torsten Slok, chief economist at Apollo Global Management, published a note saying AI hasn't benefited the bottom line of any big corporations outside the tech industry.",
+     "article": 0
+    },
+    {
+     "fact": "He focuses on the 'S&P 493', the S&P 500 minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia and Tesla, and finds profit margins and revenue per worker appear flat.",
+     "article": 0
+    },
+    {
+     "fact": "Slok wrote: 'Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.'",
+     "article": 0
+    },
+    {
+     "fact": "He doubts corporate America can 'turn increasingly cheap intelligence into higher revenue growth and higher profit margins'.",
+     "article": 0
+    },
+    {
+     "fact": "Slok: 'AI may be a great calculator, but in business, intelligence is mostly judgment.'",
+     "article": 0
+    },
+    {
+     "fact": "TechCrunch notes recent studies have also found AI has yet to deliver significant productivity gains.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}

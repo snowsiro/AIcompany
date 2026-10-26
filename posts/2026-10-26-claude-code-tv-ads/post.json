@@ -1,0 +1,137 @@
+{
+  "id": "2026-10-26-claude-code-tv-ads",
+  "date": "2026-10-26",
+  "category": "TOOLS",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "GLOBAL AI · TOOLS",
+    "headline": [
+      "SMART TV ADS?",
+      "AI SWITCHES **OFF**"
+    ],
+    "hook_options": [
+      [
+        "SMART TV ADS?",
+        "AI SWITCHES **OFF**"
+      ],
+      [
+        "107 TV MODELS",
+        "GET A **FIX**"
+      ],
+      [
+        "10,700 STARS",
+        "FOR A TV **HACK**"
+      ],
+      [
+        "TV ADS AREN'T",
+        "YOUR **FATE**"
+      ]
+    ],
+    "hook_types": [
+      "reader-impact",
+      "number",
+      "number",
+      "myth-flip"
+    ],
+    "hook_type": "reader-impact",
+    "hook_pick_reason": "Answers what changes for TV owners: developers used Claude Code to switch off ad and tracker packages on their TVs (slides 1-2), with a reversible method (slide 4). It promises no more than that. The number options hide the TV-ad payoff, and the myth-flip option overstates, since the tested list covers 107 models, not every TV.",
+    "image_prompt": "Cinematic wide shot of a dark living room at night, a large flat television glowing with a calm soft amber light on an empty wall, a faint swirl of colorful floating rectangles dissolving into dust around the screen, cool blue shadows on the sofa. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The spark",
+      "title": "A sponsored ad blocked Netflix",
+      "body": [
+        "Developer **Gathin T.** used Claude Code, Anthropic's AI coding agent, to disable **25** Xiaomi packages on his parents' TV. A sponsored ad had appeared before they could reach Netflix. He posted about it on Oct 17."
+      ]
+    },
+    {
+      "kicker": "The agent",
+      "title": "It found the TV by itself",
+      "body": [
+        "The agent located the TV on his home Wi-Fi, switched off the packages, and wrote a new home screen. Gathin said it \"looks like an **Apple TV** now.\""
+      ]
+    },
+    {
+      "kicker": "The spread",
+      "title": "10,700 stars, 107 TV models",
+      "body": [
+        "His open-source project, cleanyourtv, lists tested setups for **107** TV models from **37** brands. It had 10,700 GitHub stars as of Tuesday, Oct 20. Gathin wrote that a few thousand people did the same within two days."
+      ]
+    },
+    {
+      "kicker": "The method",
+      "title": "Apps are switched off, not deleted",
+      "body": [
+        "The tools use Android's built-in debugging bridge (ADB) to turn apps off. One restore script puts everything back, and no \"root\" access is needed. This is a news report, not a how-to, and results can vary by TV."
+      ]
+    },
+    {
+      "kicker": "Personal results",
+      "title": "Smaller launchers, more memory",
+      "body": [
+        "Mihir Gupta swapped a 192 MB stock launcher for a custom **83 MB** one. Ansub Khan said free memory on his parents' old Android TV rose about **90%**. Those are individual reports, not guaranteed gains."
+      ]
+    },
+    {
+      "kicker": "The backdrop",
+      "title": "Why TV tracking is in the news",
+      "body": [
+        "In Dec 2025, Texas sued Sony, Samsung, LG, Hisense and TCL, **alleging** TVs can capture a screenshot every 500 ms. The companies' side is not covered here. In 2017, Vizio paid **$2.2M** to settle data-collection charges."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Developer Gathin T. used Claude Code to disable 25 Xiaomi packages on his parents' TV after it showed a sponsored ad before they could reach Netflix; he posted about it on October 17. Claude Code is Anthropic's AI coding agent."
+    },
+    {
+      "source": 0,
+      "text": "The agent found the TV on his home Wi-Fi, switched off the packages and wrote a new home screen that he said 'looks like an Apple TV now'."
+    },
+    {
+      "source": 0,
+      "text": "His open-source project cleanyourtv lists tested setups for 107 TV models from 37 brands and had 10,700 GitHub stars as of Tuesday (Oct 20)."
+    },
+    {
+      "source": 0,
+      "text": "Gathin wrote that a few thousand people did the same to their own TVs within two days."
+    },
+    {
+      "source": 0,
+      "text": "The tools use Android's built-in debugging bridge (ADB) to switch apps off rather than delete them, so a single restore script puts everything back; no 'root' access is needed."
+    },
+    {
+      "source": 0,
+      "text": "Mihir Gupta replaced a 192 MB stock launcher with a custom 83 MB one; Ansub Khan said free memory on his parents' old Android TV rose about 90%."
+    },
+    {
+      "source": 0,
+      "text": "Texas sued Sony, Samsung, LG, Hisense and TCL in December 2025, alleging their TVs can capture a screenshot of the display every 500 milliseconds."
+    },
+    {
+      "source": 0,
+      "text": "Vizio paid $2.2 million in 2017 to settle charges over collecting viewing data from 11 million TVs; Walmart bought Vizio for about $2.3 billion in 2024."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Decrypt",
+      "title": "People Are Vibe Coding the Ads Out of Their Smart TVs: Here's How",
+      "date": "Oct 20, 2026",
+      "url": "https://decrypt.co/381456/vibe-coding-ads-out-smart-tvs-heres-how"
+    }
+  ],
+  "caption": "Developers are using Anthropic's Claude Code to switch off ads and trackers on smart TVs.\n\nIt started when one developer disabled 25 Xiaomi packages on his parents' TV. His open-source project, cleanyourtv, now lists tested setups for 107 TV models.\n\n→ Gathin T. posted it Oct 17; the project had 10,700 GitHub stars as of Oct 20\n→ Apps are switched off, not deleted, so one restore script undoes it (no root needed)\n→ Memory gains are individual reports, and results vary by TV\n\nWould you let an AI agent clean up your TV?\n\nSource: Decrypt, \"People Are Vibe Coding the Ads Out of Their Smart TVs: Here's How\", Oct 20, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#ClaudeCode",
+    "#SmartTV",
+    "#Anthropic",
+    "#cleanyourtv"
+  ],
+  "threads_caption": "Developers are using Anthropic's Claude Code to switch off ads and trackers on smart TVs. The open-source cleanyourtv lists tested setups for 107 TV models, with 10,700 GitHub stars as of Oct 20.\n\nSource: Decrypt, \"People Are Vibe Coding the Ads Out of Their Smart TVs: Here's How\". #ClaudeCode"
+}

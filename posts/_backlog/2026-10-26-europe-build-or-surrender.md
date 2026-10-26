@@ -1,0 +1,4 @@
+# Backlog (2026-10-26): Europe, score 8, runner-up
+Mistral and DeepL CEOs warn Europe against "surrendering" frontier AI. REGION EUROPE, CATEGORY POLICY.
+Outlet: heise online, "Mistral- und DeepL-Chefs warnen vor KI-Kapitulation Europas" (2026-10-25), https://www.heise.de/news/KI-Streit-in-Europa-EU-Tech-Chefs-wehren-sich-gegen-Kapitulation-11499445.html
+Facts: von der Leyen and others argue Europe need not be at the frontier; Mensch (Mistral) LinkedIn post "Build or surrender"; Kutylowski (DeepL): master the whole value chain, spending shifts from salaries to models so value flows to US; Max Junestrand (Legora, Sweden): frontier lab is wishful thinking; Commission started 7 AI gigafactories worth about EUR 30B (give USD); Italy's Domyn-led consortium building an EU-languages frontier model. Relays Politico: attribute. Best fit for a day with no Korea/Asia story.
