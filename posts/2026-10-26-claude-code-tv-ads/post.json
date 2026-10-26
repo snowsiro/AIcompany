@@ -2,7 +2,7 @@
   "id": "2026-10-26-claude-code-tv-ads",
   "date": "2026-10-26",
   "category": "TOOLS",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "cover": {
     "tag": "GLOBAL AI · TOOLS",
@@ -133,5 +133,9 @@
     "#Anthropic",
     "#cleanyourtv"
   ],
-  "threads_caption": "Developers are using Anthropic's Claude Code to switch off ads and trackers on smart TVs. The open-source cleanyourtv lists tested setups for 107 TV models, with 10,700 GitHub stars as of Oct 20.\n\nSource: Decrypt, \"People Are Vibe Coding the Ads Out of Their Smart TVs: Here's How\". #ClaudeCode"
+  "threads_caption": "Developers are using Anthropic's Claude Code to switch off ads and trackers on smart TVs. The open-source cleanyourtv lists tested setups for 107 TV models, with 10,700 GitHub stars as of Oct 20.\n\nSource: Decrypt, \"People Are Vibe Coding the Ads Out of Their Smart TVs: Here's How\". #ClaudeCode",
+  "published_id": "18041762534834516",
+  "permalink": "https://www.instagram.com/p/De9sk-dF7KR/",
+  "threads_id": "17997952728016240",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/De-BQ9Wlkyw"
 }
