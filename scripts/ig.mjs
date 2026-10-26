@@ -72,11 +72,12 @@ async function waitReady(containerId) {
 // it stops instead of posting blind. Once media_publish answers, the id is recorded before anything else can fail.
 const firstLine = s => String(s || "").split("\n")[0].trim();
 
-async function findPosted(post) {
+// The carousel and its Reel share a caption, so each check looks only at its own kind.
+async function findPosted(post, kind = "FEED") {
   const want = firstLine(post.caption);
   if (!want) throw new Error(`${post.id}: caption is empty, can't check for an earlier copy`);
-  const { data } = await call("GET", `/${IG_USER_ID}/media`, { fields: "id,caption,permalink,timestamp", limit: "25" });
-  return (data || []).find(m => firstLine(m.caption) === want) || null;
+  const { data } = await call("GET", `/${IG_USER_ID}/media`, { fields: "id,caption,permalink,timestamp,media_product_type", limit: "25" });
+  return (data || []).find(m => (m.media_product_type === "REELS") === (kind === "REELS") && firstLine(m.caption) === want) || null;
 }
 
 function recordPublished(dir, post, mediaId, permalink) {
@@ -158,6 +159,13 @@ async function reel(dir, base) {
   const post = JSON.parse(readFileSync(join(dir, "post.json"), "utf8"));
   if (post.reel_id) { console.log(`reel already posted: ${post.reel_permalink}`); return; }
   if (!post.published_id) throw new Error(`${post.id}: carousel not published yet, the Reel goes after it`);
+  const live = await findPosted(post, "REELS");
+  if (live) {
+    Object.assign(post, { reel_id: live.id, reel_trial: null }, live.permalink ? { reel_permalink: live.permalink } : {});
+    writeFileSync(join(dir, "post.json"), JSON.stringify(post, null, 2) + "\n");
+    console.log(`reel already on Instagram, recorded without posting again: ${live.permalink || live.id}`);
+    return;
+  }
   const rel = relative(process.cwd(), dir).split("\\").join("/");
   const params = { media_type: "REELS", video_url: `${base}/${rel}/reel.mp4`, caption: `${post.caption}\n\n${post.hashtags.join(" ")}` };
   let trial = true, container;
