@@ -7,6 +7,8 @@ name: publish
 # a scheduled run more than 60 minutes late skips, and any run skips if something was published in the last 3 hours.
 # Sundays at 09:57 Vienna there is a third slot for the weekly roundup (PRD 2026-10-26). It posts only that Sunday's
 # posts/<date>-weekly and records it as "weekly: ", so it has its own 3-hour guard and never holds back the 13:57 post.
+# Re-running a failed run is safe (2026-10-26, after one post went up 6 times): ig.mjs publish first looks for the post
+# among our latest posts and only records it if it is already live, and "Record result" runs even when Publish failed.
 on:
   workflow_dispatch:
     inputs:
@@ -107,7 +109,8 @@ jobs:
           node scripts/threads.mjs publish "${{ steps.pick.outputs.dir }}" "$base" || echo "::warning::Threads post failed; the next run retries it"
           node scripts/threads.mjs catchup "$base" || echo "::warning::Threads retry failed"
       - name: Record result
-        if: steps.pick.outputs.dir != ''
+        # always(): a post that went live before a later error must still be recorded, or the next run posts it again.
+        if: always() && steps.pick.outputs.dir != ''
         run: |
           git config user.name "ai-office-bot"
           git config user.email "ai-office-bot@users.noreply.github.com"

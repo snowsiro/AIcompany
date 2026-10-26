@@ -52,13 +52,45 @@ async function waitReady(containerId) {
   throw new Error(`container ${containerId} not ready after 150s`);
 }
 
+// A post can go live even when the API answers with an error. On 2026-10-26 Instagram said "Application request
+// limit reached" after the carousel was already up, nothing was recorded, and each retried run posted it again (6 copies).
+// So publish looks for the post among our latest posts first and only records it if it is there; if that check fails,
+// it stops instead of posting blind. Once media_publish answers, the id is recorded before anything else can fail.
+const firstLine = s => String(s || "").split("\n")[0].trim();
+
+async function findPosted(post) {
+  const { data } = await call("GET", `/${IG_USER_ID}/media`, { fields: "id,caption,permalink,timestamp", limit: "25" });
+  return (data || []).find(m => firstLine(m.caption) === firstLine(post.caption)) || null;
+}
+
+function recordPublished(dir, post, mediaId, permalink) {
+  post.published_id = mediaId;
+  if (permalink) post.permalink = permalink;
+  post.status = "published";
+  writeFileSync(join(dir, "post.json"), JSON.stringify(post, null, 2) + "\n");
+}
+
 async function publish(dir, base) {
   dir = resolve(dir);
   const post = JSON.parse(readFileSync(join(dir, "post.json"), "utf8"));
-  if (post.published_id) { console.log(`already published: ${post.permalink}`); return; }
+  if (post.published_id) {
+    if (!post.permalink) {
+      const { permalink } = await call("GET", `/${post.published_id}`, { fields: "permalink" });
+      if (permalink) recordPublished(dir, post, post.published_id, permalink);
+    }
+    console.log(`already published: ${post.permalink || post.published_id}`);
+    return;
+  }
   const rel = relative(process.cwd(), dir).split("\\").join("/");
   const files = readdirSync(join(dir, "slides")).filter(f => f.endsWith(".jpg")).sort();
   if (files.length < 2 || files.length > 20) throw new Error(`carousel needs 2-20 images, found ${files.length}`);
+
+  const live = await findPosted(post);
+  if (live) {
+    recordPublished(dir, post, live.id, live.permalink);
+    console.log(`already on Instagram, recorded without posting again: ${live.permalink || live.id}`);
+    return;
+  }
 
   const children = [];
   for (const f of files) {
@@ -72,14 +104,15 @@ async function publish(dir, base) {
   await waitReady(carousel);
   const { id: mediaId } = await call("POST", `/${IG_USER_ID}/media_publish`, { creation_id: carousel });
 
-  // publish-then-verify: confirm the post is actually live before recording it
-  const { permalink } = await call("GET", `/${mediaId}`, { fields: "permalink,timestamp" });
-  if (!permalink) throw new Error(`published ${mediaId} but no permalink came back`);
-  post.published_id = mediaId;
-  post.permalink = permalink;
-  post.status = "published";
-  writeFileSync(join(dir, "post.json"), JSON.stringify(post, null, 2) + "\n");
-  console.log(`published ${post.id}: ${permalink}`);
+  // The post is live from here on: record it first, then look up the permalink (optional; a later run fills it in).
+  recordPublished(dir, post, mediaId, null);
+  try {
+    const { permalink } = await call("GET", `/${mediaId}`, { fields: "permalink" });
+    if (permalink) recordPublished(dir, post, mediaId, permalink);
+    console.log(`published ${post.id}: ${permalink || mediaId}`);
+  } catch (err) {
+    console.log(`published ${post.id} as ${mediaId}; permalink lookup failed (${err.message}), recorded without it`);
+  }
 }
 
 async function insights(days = 7) {
@@ -128,11 +161,19 @@ async function reel(dir, base) {
     await sleep(10000);
   }
   const { id: mediaId } = await call("POST", `/${IG_USER_ID}/media_publish`, { creation_id: container });
-  const { permalink } = await call("GET", `/${mediaId}`, { fields: "permalink" });
-  if (!permalink) throw new Error(`published reel ${mediaId} but no permalink came back`);
-  Object.assign(post, { reel_id: mediaId, reel_permalink: permalink, reel_trial: trial });
+  // Same rule as the carousel: once it is live, record it before the optional permalink lookup.
+  Object.assign(post, { reel_id: mediaId, reel_trial: trial });
   writeFileSync(join(dir, "post.json"), JSON.stringify(post, null, 2) + "\n");
-  console.log(`reel ${post.id}${trial ? " (trial)" : ""}: ${permalink}`);
+  try {
+    const { permalink } = await call("GET", `/${mediaId}`, { fields: "permalink" });
+    if (permalink) {
+      post.reel_permalink = permalink;
+      writeFileSync(join(dir, "post.json"), JSON.stringify(post, null, 2) + "\n");
+    }
+    console.log(`reel ${post.id}${trial ? " (trial)" : ""}: ${permalink || mediaId}`);
+  } catch (err) {
+    console.log(`reel ${post.id} posted as ${mediaId}; permalink lookup failed (${err.message}), recorded without it`);
+  }
 }
 
 async function reelCatchup(base) {
