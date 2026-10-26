@@ -32,4 +32,9 @@ Read `CLAUDE.md`, `DESIGN.md`, the brief, and one finished post in `posts/` as t
 - `threads_caption`: the Threads version, max 500 characters (Threads counts emoji and arrows as several bytes, lint checks bytes).
   Hook line, 1-2 short lines on why it matters, "Source: <outlet>, \"<article title>\"." At most one hashtag, no links.
 
+Weekly roundup (Sundays, `"kind": "weekly"`): `scripts/weekly.mjs` writes everything except the cover hooks; never edit the
+story slides, caption or sources. Pick the strongest story of the week as the lead and rerun with `--lead <post id>`, then
+write 3-5 `hook_options` that open with that story (same cover rules; a reader-impact hook is optional here). Every number
+must be in the lead's `facts`; do not put the story count on the cover, the template adds "+N more stories inside".
+
 Then run `node scripts/lint.mjs posts/<id>` and fix every failure before handing off.
