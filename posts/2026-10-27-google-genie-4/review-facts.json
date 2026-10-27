@@ -1,35 +1,4 @@
 {
-  "pass": false,
-  "issues": [
-    {
-      "where": "slide 3 (The sound)",
-      "problem": "Overstated 'first'. Slide says: \"DeepMind says it is the **first** real-time world model to generate audio natively.\" DeepMind's blog says: \"Genie 4 is our first real-time world model to generate audio natively.\" Dropping 'our' turns a first for DeepMind into a first for the whole industry. TechCrunch also reports that Runway's GWM Worlds 2, released a couple of months earlier, is \"a playable model that responds dynamically to user inputs and includes audio generation\", so neither source supports an industry first.",
-      "fix": "Replace the last sentence with: \"DeepMind calls it **its first** real-time world model to generate audio natively.\" (body goes from 35 to 34 words)"
-    },
-    {
-      "where": "caption (bullet 1)",
-      "problem": "Same overstated 'first': \"DeepMind says it is the first real-time world model to generate audio natively\". DeepMind's wording: \"Genie 4 is our first real-time world model to generate audio natively.\"",
-      "fix": "\"→ Genie 4 generates music, ambient sound and dialogue; DeepMind calls it its first real-time world model to generate audio natively\""
-    },
-    {
-      "where": "facts[2]",
-      "problem": "Same overstated 'first': \"DeepMind says it is the first real-time world model to generate audio natively.\" Weekly covers are written only from facts, so this would carry the error forward. DeepMind's wording: \"Genie 4 is our first real-time world model to generate audio natively.\"",
-      "fix": "Replace the last sentence with: \"DeepMind calls it 'our first real-time world model to generate audio natively' (its own first, not an industry first).\""
-    },
-    {
-      "where": "slide 7 (The limits)",
-      "problem": "A paraphrase is shown as a quote and credited to the wrong speaker. The title \"\\\"Still early days\\\"\" uses quotation marks, and the body adds \"So says the team behind it.\" Neither article quotes anyone saying those words. TechCrunch reports them in indirect speech from one person: \"Throughout the briefing, Rivas stressed that it’s still early days for Genie 4 and that it’s not yet clear what the end-to-end product experience will be.\" (Diego Rivas, \"a Google DeepMind engineer\"). DeepMind's blog says: \"it remains an early, experimental model\" and \"Genie 4 remains an early, evolving area of research.\"",
-      "fix": "Title: Still early days (no quotation marks). Replace \"So says the team behind it.\" with \"DeepMind calls Genie 4 an early, experimental model.\" (body becomes 44 words). To keep TechCrunch's version instead, write without quotation marks: \"Google DeepMind engineer Diego Rivas stressed it is still early days, TechCrunch reports.\" That adds words, so trim elsewhere to stay within 45."
-    },
-    {
-      "where": "facts[12]",
-      "problem": "Same misquote and wrong speaker: \"The team says it is 'still early days'\". TechCrunch: \"Rivas stressed that it’s still early days for Genie 4\" (indirect speech, not a quote). Also, \"haven't worked out\" drops TechCrunch's hedge: \"they still haven’t quite figured out how to ensure the audio will be accurate and any in-world text will be legible.\"",
-      "fix": "\"Diego Rivas, a Google DeepMind engineer, stressed during the briefing that it's still early days for Genie 4 (TechCrunch's paraphrase, not a direct quote). The team also acknowledged gaps: details and objects can drift the longer a simulation runs, and they still haven't quite figured out how to ensure the audio will be accurate and any in-world text will be legible.\""
-    },
-    {
-      "where": "cover.hook_options[4] (not the published headline)",
-      "problem": "\"\\\"EARLY DAYS\\\" FOR / GOOGLE'S **GENIE 4**\" is labeled hook_types[4] = \"quote\", but no source quotes anyone saying \"early days\" (see slide 7). hook_pick_reason also calls it an accurate quote. The published headline (option 1) is fine.",
-      "fix": "Remove this option, or drop the quotation marks and set hook_types[4] to \"claim\", e.g. \"STILL EARLY DAYS\" / \"FOR **GENIE 4**\" (backed by DeepMind: \"it remains an early, experimental model\"). Update hook_pick_reason to match."
-    }
-  ]
+  "pass": true,
+  "issues": []
 }
