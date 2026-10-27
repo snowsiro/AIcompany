@@ -26,21 +26,16 @@
       [
         "TYPING CHANGES",
         "THE **WEATHER**"
-      ],
-      [
-        "\"EARLY DAYS\" FOR",
-        "GOOGLE'S **GENIE 4**"
       ]
     ],
     "hook_types": [
       "claim",
       "number",
       "reader-impact",
-      "claim",
-      "quote"
+      "claim"
     ],
     "hook_type": "claim",
-    "hook_pick_reason": "Names Google and the product and states the change both sources lead with: TechCrunch's headline opens with 'adds audio', and DeepMind's blog says Genie 4 generates music, ambient sound and dialogue alongside the visuals. Slide 2's title says the same ('Google's AI worlds get sound'); its body explains what a world model is and says only trusted testers can use it so far; slide 3 details the sound. It matches the cover image (sound waves over a valley being built) and makes no 'first' claim, so it needs no attribution, and nothing on it suggests readers can try Genie 4 today. The 2X option is backed (slide 5, TechCrunch only) but 'scenes hold' needs context to parse. The reader-impact option comes from the availability both articles state (trusted testers now, Google AI Ultra subscribers in the coming weeks; slides 2 and 6); it is honest but says nothing about what Genie 4 does, so it stops fewer scrolls. 'TYPING CHANGES THE WEATHER' (slide 4) names no one and could read as real weather. The 'early days' quote (slide 7) is accurate but undersells the news.",
+    "hook_pick_reason": "Names Google and the product and states the change both sources lead with: TechCrunch's headline opens with 'adds audio', and DeepMind's blog says Genie 4 generates music, ambient sound and dialogue alongside the visuals. Slide 2's title says the same ('Google's AI worlds get sound'); its body explains what a world model is and says only trusted testers can use it so far; slide 3 details the sound. It matches the cover image (sound waves over a valley being built) and makes no 'first' claim, so it needs no attribution, and nothing on it suggests readers can try Genie 4 today. The 2X option is backed (slide 5, TechCrunch only) but 'scenes hold' needs context to parse. The reader-impact option comes from the availability both articles state (trusted testers now, Google AI Ultra subscribers in the coming weeks; slides 2 and 6); it is honest but says nothing about what Genie 4 does, so it stops fewer scrolls. 'TYPING CHANGES THE WEATHER' (slide 4) names no one and could read as real weather.",
     "image_prompt": "Cinematic wide shot of a vast photorealistic alpine valley at golden hour being built in real time: the near half fully rendered with a river, pine forest and drifting mist, the far edge dissolving into a glowing wireframe grid of light where new terrain is still forming, faint ripples of sound waves rising above the river. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
     "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261027_201221_d6705784-5ff5-44ea-83ef-07c22ad3eb3e.png"
   },
@@ -56,7 +51,7 @@
       "kicker": "The sound",
       "title": "Sound made on the fly",
       "body": [
-        "Genie 4 generates **music, ambient sound and dialogue** that match the world, alongside the visuals. Characters converse and react in real time. DeepMind says it is the **first** real-time world model to generate audio natively."
+        "Genie 4 generates **music, ambient sound and dialogue** that match the world, alongside the visuals. Characters converse and react in real time. DeepMind calls it **its first** real-time world model to generate audio natively."
       ]
     },
     {
@@ -82,9 +77,9 @@
     },
     {
       "kicker": "The limits",
-      "title": "\"Still early days\"",
+      "title": "Still early days",
       "body": [
-        "So says the team behind it. Details and objects can **drift** the longer a simulation runs, and legible text, audio accuracy and complex physical interactions are still being worked on. Every video and audio clip carries **SynthID**, Google's watermark for AI-made content."
+        "DeepMind calls Genie 4 an early, experimental model. Details and objects can **drift** the longer a simulation runs, and legible text, audio accuracy and complex physical interactions are still being worked on. Every video and audio clip carries **SynthID**, Google's watermark for AI-made content."
       ]
     }
   ],
@@ -99,7 +94,7 @@
     },
     {
       "source": 1,
-      "text": "Genie 4 is natively multimodal: it generates music, ambient sound and interactive dialogue alongside the visuals, and characters converse and react in real time. DeepMind says it is the first real-time world model to generate audio natively."
+      "text": "Genie 4 is natively multimodal: it generates music, ambient sound and interactive dialogue alongside the visuals, and characters converse and react in real time. DeepMind calls it \"our first real-time world model to generate audio natively\" (its own first, not an industry first)."
     },
     {
       "source": 1,
@@ -139,11 +134,11 @@
     },
     {
       "source": 0,
-      "text": "The team says it is 'still early days': details and objects can drift the longer a simulation runs, and they haven't worked out how to ensure audio accuracy or legible in-world text."
+      "text": "Google DeepMind engineer Diego Rivas stressed that it is still early days for Genie 4 (TechCrunch paraphrase, not a quote). Details and objects can drift the longer a simulation runs, and the team still hasn't quite figured out how to ensure the audio will be accurate and any in-world text will be legible."
     },
     {
       "source": 1,
-      "text": "Visual details and object permanence can still shift or drift over time; legible text, real-time audio accuracy and complex physical interactions are active research areas."
+      "text": "DeepMind says Genie 4 remains an early, experimental model. Visual details and object permanence can still shift or drift over time; legible text, real-time audio accuracy and complex physical interactions are active research areas."
     },
     {
       "source": 1,
@@ -164,7 +159,7 @@
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
     }
   ],
-  "caption": "Google DeepMind's Genie 4 builds interactive AI worlds, and now they come with sound.\n\nGenie 4 is a world model: an AI that builds an interactive world frame by frame as someone moves through it. Users move around with keyboard controls and can type prompts mid-simulation, for example to change the weather. For now, only trusted testers can use it.\n\n→ Genie 4 generates music, ambient sound and dialogue; DeepMind says it is the first real-time world model to generate audio natively\n→ Scenes stay consistent for up to 2 minutes, double Genie 3's limit, TechCrunch reports\n→ Genie 4 rolls out in the coming weeks to Google AI Ultra subscribers (Google's top paid AI plan) in Project Genie, Google's tool for making interactive worlds, and to early-access partners of the Gemini API and Google AI Studio\n\nGames, films or robot training: where will AI-built worlds matter first?\n\nSource: TechCrunch, \"Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering\", Oct 27, 2026; Google DeepMind, \"Genie 4: A new generation of world simulation\", Oct 27, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "Google DeepMind's Genie 4 builds interactive AI worlds, and now they come with sound.\n\nGenie 4 is a world model: an AI that builds an interactive world frame by frame as someone moves through it. Users move around with keyboard controls and can type prompts mid-simulation, for example to change the weather. For now, only trusted testers can use it.\n\n→ Genie 4 generates music, ambient sound and dialogue; DeepMind calls it its first real-time world model to generate audio natively\n→ Scenes stay consistent for up to 2 minutes, double Genie 3's limit, TechCrunch reports\n→ Genie 4 rolls out in the coming weeks to Google AI Ultra subscribers (Google's top paid AI plan) in Project Genie, Google's tool for making interactive worlds, and to early-access partners of the Gemini API and Google AI Studio\n\nGames, films or robot training: where will AI-built worlds matter first?\n\nSource: TechCrunch, \"Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering\", Oct 27, 2026; Google DeepMind, \"Genie 4: A new generation of world simulation\", Oct 27, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#DeepMind",
