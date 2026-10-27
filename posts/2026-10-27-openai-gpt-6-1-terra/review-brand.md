@@ -1,16 +1,15 @@
-# Brand/safety review: 2026-10-27-openai-gpt-6-1-terra
+# Brand review (round 2): 2026-10-27-openai-gpt-6-1-terra
 
-Verdict: PASS
+Result: PASS
 
-Checks
-- Cover image (cover.png, slides/01.jpg): AI-generated monitor scene, no person, no recognizable logo, no readable text. OK.
-- Reference-account copying: none seen. Wording and layout are original.
-- Outlet credit: caption, threads_caption and slide 7 all credit The Next Web with article title. OK.
-- Affiliate/referral/tracking/sponsored links: none in slides, caption or threads_caption. OK.
-- Colors and fonts: slides 1, 6, 7 checked; only ink, paper, muted, accent, line; Anton cover, Inter Tight elsewhere. Accent use within limits. OK.
-- Tone: neutral, no mocking. OpenAI's claims labeled as its own untested figures. OK.
-- Hook vs slides: supported.
+Checked against CLAUDE.md and DESIGN.md, including all 7 rendered slides/*.jpg.
 
-Issues (non-blocking)
-- Hook "USES YOUR PC" is slightly loose. Slides say it clicks, types and moves between apps, not that it runs on the reader's PC.
-- Slides 2-5 were not visually inspected; text content was checked in post.json.
+- Cover: AI-generated monitor scene, no people, no real logo, no text in the image. Anton uppercase 2 lines, one accent word (APPS), tag `US AI · TOOLS`, handle at bottom. OK.
+- Body slides 2-6: kicker with pill, accent bar, 76px-style title, at most 2 accent spots per slide, no text overflow, progress dots correct. OK.
+- Last slide: follow layout per DESIGN.md, small source line (The Next Web, title, date). OK.
+- Colors and fonts: only ink, paper, muted, accent, line; Anton and Inter Tight only. OK.
+- Caption and threads_caption credit The Next Web. No affiliate or tracking links, no sponsored mentions. OK.
+- Tone is neutral, no mockery. Hook (half the price, AI runs apps) is backed by slides 2 and 3.
+
+Issues: none blocking.
+Note (non-blocking): slide 4 title "Better, at a third of the cost" is broader than the body ("in one test", OpenAI's own tests). Consider "Better, at a third of the cost*" or "OpenAI says: better for a third".

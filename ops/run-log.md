@@ -2,6 +2,21 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-10-27
+처리 2건 (ready 1 · blocked 1) · 실패 0건
+성과: 어제 도달 4 · 팔로워 0 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 php-ai-flaws (108)
+결정할 일
+1. OpenAI GPT-6.1 Terra 글(blocked, 2026-10-27-openai-gpt-6-1-terra): 2회 검수 뒤에도 hook-judge 불합격 (1차 5/10, 2차 6/10 "HALF THE PRICE, AI RUNS APPS": 이름이 커버에 없음). fact-checker와 brand-safety는 2차에 통과. hook-judge는 후보 4번 "OPENAI'S TERRA / RUNS A COMPUTER"를 더 낫다고 봄. 그 후보로 바꿔 올릴지 결정 필요 (바꾸면 hook-judge 재검수 후 status를 ready로)
+2. 인스타 토큰(IG_USER_ID, IG_ACCESS_TOKEN)이 이 세션에 없어 참고 계정은 morning-scan의 reference.json으로 대체
+3. Cohere/Qwen 글(ready)은 TechCrunch 기사 1건 기반. hook-judge 7/10 (reader-impact 후보 라벨이 정직하지 않다는 지적, 선택된 훅 아님)
+4. 이 세션의 playwright 브라우저 버전이 맞지 않아 CHROMIUM_PATH=/opt/pw-browsers/chromium 으로 렌더함
+자세한 기록
+- 05:45 morning-scan이 main에 없어 워크플로를 직접 실행, 약 1분 안에 생성됨. metrics도 함께 수집
+- 후보 6~7개 수집 (참고 계정 10/10 성공). 주제 선정: OpenAI GPT-6.1 Terra (The Next Web), Cohere의 Qwen3.8 주장 (TechCrunch). 예비: posts/_backlog/2026-10-27-*.md 5건
+- 커버 Higgsfield cinematic_studio_2_5 생성: 성공 2장 + 실패 1장 재시도 (최대 6 크레딧, 일일 한도 6)
+- Terra 1차: fact-checker 불합격 ("독립 검증 안 됨" 문구가 기사와 다름), hook-judge 5/10 불합격 → 수정. 2차: hook-judge 불합격 → blocked
+- Cohere: 3개 검수 모두 1차 통과
+
 ## [사고] 2026-10-26 스마트 TV 광고 글이 인스타에 6번 올라감
 처리 0건 · 실패 6건
 결정할 일
