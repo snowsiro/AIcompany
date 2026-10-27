@@ -1,0 +1,117 @@
+{
+  "id": "2026-10-27-openai-gpt-6-1-terra",
+  "date": "2026-10-27",
+  "category": "TOOLS",
+  "status": "blocked",
+  "korean_refs": [],
+  "cover": {
+    "tag": "US AI · TOOLS",
+    "headline": [
+      "HALF THE PRICE,",
+      "AI RUNS **APPS**"
+    ],
+    "hook_options": [
+      [
+        "HALF THE PRICE,",
+        "AI RUNS **APPS**"
+      ],
+      [
+        "CHEAPER AI THAT",
+        "**CLICKS** FOR YOU"
+      ],
+      [
+        "$1 PER MILLION",
+        "TOKENS FOR **AI**"
+      ],
+      [
+        "OPENAI'S **TERRA**",
+        "RUNS A COMPUTER"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "reader-impact",
+      "number",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Leads with a verified number (half the price of GPT-5.6 Terra, slide 2) and a payoff the slides back: the model clicks, types and moves between apps (slide 1). Drops the ambiguous 'your PC' wording, which the article does not support. The reader-impact option is clearer on use but has no number.",
+    "image_prompt": "Cinematic wide shot of a dark modern desk at night, a glowing computer monitor showing abstract floating panels while a soft amber cursor-shaped light moves by itself across the screen, faint streaks of light linking several windows, cool blue shadows. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261027_045052_1f9afe35-7568-4675-bfcf-12ce31d30f2c.png"
+  },
+  "slides": [
+    {
+      "kicker": "The launch",
+      "title": "OpenAI's new model runs a computer",
+      "body": [
+        "OpenAI launched **GPT-6.1 Terra**, a cheaper model for everyday computer work. It can click, type and move between apps. It replaces GPT-5.6 Terra."
+      ]
+    },
+    {
+      "kicker": "The price",
+      "title": "Half the previous price",
+      "body": [
+        "Terra costs **$1** per million input tokens and **$5** per million output tokens. Tokens are the small chunks of text an AI reads and writes. That is half the price of GPT-5.6 Terra."
+      ]
+    },
+    {
+      "kicker": "The claim",
+      "title": "Better, at a third of the cost",
+      "body": [
+        "In one test, Terra scored **15 percentage points** higher than its predecessor at about **a third** of the cost, according to OpenAI's own tests."
+      ]
+    },
+    {
+      "kicker": "Who gets it",
+      "title": "Available now in paid plans",
+      "body": [
+        "Terra is available now to ChatGPT **Plus, Pro, Enterprise and Edu** users, and in Codex, OpenAI's coding tool."
+      ]
+    },
+    {
+      "kicker": "The safety note",
+      "title": "A \"Critical\" cyber rating",
+      "body": [
+        "Terra reaches the **\"Critical\"** cybersecurity level under OpenAI's Preparedness Framework, its internal risk-rating system. Last month OpenAI cancelled GPT-6.1 Astra after it failed internal safety tests."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "OpenAI launched GPT-6.1 Terra, a cheaper model for everyday computer work that can click, type and move between apps. It replaces GPT-5.6 Terra."
+    },
+    {
+      "source": 0,
+      "text": "Terra costs $1 per million input tokens and $5 per million output tokens, half the price of GPT-5.6 Terra."
+    },
+    {
+      "source": 0,
+      "text": "In one test, Terra scored 15 percentage points higher than its predecessor at about a third of the cost, according to OpenAI's own tests."
+    },
+    {
+      "source": 0,
+      "text": "Terra is available now to ChatGPT Plus, Pro, Enterprise and Edu users and in Codex."
+    },
+    {
+      "source": 0,
+      "text": "Terra reaches the 'Critical' cybersecurity level under OpenAI's Preparedness Framework. OpenAI cancelled GPT-6.1 Astra last month for failing internal safety tests."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "OpenAI launches GPT-6.1 Terra, a cheaper model for everyday computer work",
+      "date": "Oct 26, 2026",
+      "url": "https://thenextweb.com/news/openai-gpt-6-1-terra-computer-use"
+    }
+  ],
+  "caption": "OpenAI just launched GPT-6.1 Terra, a cheaper model that can run a computer for you.\n\nIt clicks, types and moves between apps, and it costs half as much as the model it replaces.\n\n→ $1 input / $5 output per million tokens, half of GPT-5.6 Terra\n→ In one test, +15 points at about a third of the cost (OpenAI's own tests)\n→ Available now in ChatGPT Plus, Pro, Enterprise, Edu and Codex\n\nWhat routine computer task would you hand to an AI first?\n\nSource: The Next Web, \"OpenAI launches GPT-6.1 Terra, a cheaper model for everyday computer work\", Oct 26, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#OpenAI",
+    "#GPT6",
+    "#AIAgents"
+  ],
+  "threads_caption": "OpenAI launched GPT-6.1 Terra, a cheaper model that clicks, types and moves between apps. It costs $1 input / $5 output per million tokens, half of GPT-5.6 Terra.\n\nSource: The Next Web, \"OpenAI launches GPT-6.1 Terra, a cheaper model for everyday computer work\". #OpenAI"
+}

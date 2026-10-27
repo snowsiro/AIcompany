@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "issues": [
+    "Non-blocking: slide 4 title 'Better, at a third of the cost' is broader than the body ('in one test', per OpenAI's own tests); consider a title that names OpenAI as the source of the claim."
+  ]
+}
