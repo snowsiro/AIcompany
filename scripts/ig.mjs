@@ -80,6 +80,21 @@ async function findPosted(post, kind = "FEED") {
   return (data || []).find(m => (m.media_product_type === "REELS") === (kind === "REELS") && firstLine(m.caption) === want) || null;
 }
 
+// Since 2026-10-26 Instagram often answers media_publish with code 4, subcode 2207051 ("Action is blocked") and puts the
+// post up anyway. So on an error, wait a moment and look: if it is live, carry on as if Instagram had answered normally,
+// and leave a warning in the log. If it is not live, fail as before. IG_RECHECK_MS only shortens the wait in tests.
+async function mediaPublish(post, creationId, kind) {
+  try {
+    return await call("POST", `/${IG_USER_ID}/media_publish`, { creation_id: creationId });
+  } catch (err) {
+    await sleep(Number(process.env.IG_RECHECK_MS || 15000));
+    const live = await findPosted(post, kind).catch(() => null);
+    if (!live) throw err;
+    console.log(`::warning::Instagram answered "${err.message.slice(0, 160)}" but the ${kind === "REELS" ? "Reel" : "post"} is live; recorded it`);
+    return { id: live.id, permalink: live.permalink };
+  }
+}
+
 function recordPublished(dir, post, mediaId, permalink) {
   post.published_id = mediaId;
   if (permalink) post.permalink = permalink;
@@ -119,10 +134,11 @@ async function publish(dir, base) {
   const caption = `${post.caption}\n\n${post.hashtags.join(" ")}`;
   const { id: carousel } = await call("POST", `/${IG_USER_ID}/media`, { media_type: "CAROUSEL", children: children.join(","), caption });
   await waitReady(carousel);
-  const { id: mediaId } = await call("POST", `/${IG_USER_ID}/media_publish`, { creation_id: carousel });
+  const { id: mediaId, permalink: known } = await mediaPublish(post, carousel, "FEED");
 
   // The post is live from here on: record it first, then look up the permalink (optional; a later run fills it in).
-  recordPublished(dir, post, mediaId, null);
+  recordPublished(dir, post, mediaId, known || null);
+  if (known) { console.log(`published ${post.id}: ${known}`); return; }
   try {
     const { permalink } = await call("GET", `/${mediaId}`, { fields: "permalink" });
     if (permalink) recordPublished(dir, post, mediaId, permalink);
@@ -184,10 +200,11 @@ async function reel(dir, base) {
     if (i >= 60) throw new Error("reel container not ready after 10 minutes");
     await sleep(10000);
   }
-  const { id: mediaId } = await call("POST", `/${IG_USER_ID}/media_publish`, { creation_id: container });
+  const { id: mediaId, permalink: known } = await mediaPublish(post, container, "REELS");
   // Same rule as the carousel: once it is live, record it before the optional permalink lookup.
-  Object.assign(post, { reel_id: mediaId, reel_trial: trial });
+  Object.assign(post, { reel_id: mediaId, reel_trial: trial }, known ? { reel_permalink: known } : {});
   writeFileSync(join(dir, "post.json"), JSON.stringify(post, null, 2) + "\n");
+  if (known) { console.log(`reel ${post.id}: ${known}`); return; }
   try {
     const { permalink } = await call("GET", `/${mediaId}`, { fields: "permalink" });
     if (permalink) {
