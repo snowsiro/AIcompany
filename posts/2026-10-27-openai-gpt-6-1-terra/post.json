@@ -2,7 +2,7 @@
   "id": "2026-10-27-openai-gpt-6-1-terra",
   "date": "2026-10-27",
   "category": "TOOLS",
-  "status": "blocked",
+  "status": "ready",
   "korean_refs": [],
   "cover": {
     "tag": "US AI · TOOLS",
@@ -35,7 +35,7 @@
       "claim"
     ],
     "hook_type": "claim",
-    "hook_pick_reason": "Round 3 (Jamie, 2026-10-27): the option the round 2 hook review preferred. Names OpenAI and Terra and states the news in a few words; slide 2's title says the same ('OpenAI's new model runs a computer', already fact-checked) and its body says the model clicks, types and moves between apps. The half price is on slide 3 and in the caption's first bullet. The old headline (option 1) named no one and read as if apps were half price; options 2 and 3 name no one either, and 'tokens' in option 3 is jargon.",
+    "hook_pick_reason": "Round 3 (Jamie, 2026-10-27): the option the round 2 hook review preferred. Names OpenAI and Terra and states the news in a few words; slide 2's title says the same ('OpenAI's new model runs a computer', already fact-checked) and its body says the model clicks, types and moves between apps. The half price is on slide 3 and in the caption's first bullet. The old headline ('HALF THE PRICE, AI RUNS APPS') named no one and read as if apps were half price; 'CHEAPER AI THAT CLICKS FOR YOU' and '$1 PER MILLION TOKENS FOR AI' name no one either, and 'tokens' is jargon. Round 3 hook review: pass, 7/10, best of the four.",
     "image_prompt": "Cinematic wide shot of a dark modern desk at night, a glowing computer monitor showing abstract floating panels while a soft amber cursor-shaped light moves by itself across the screen, faint streaks of light linking several windows, cool blue shadows. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
     "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261027_045052_1f9afe35-7568-4675-bfcf-12ce31d30f2c.png"
   },
