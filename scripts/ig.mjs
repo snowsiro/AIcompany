@@ -71,13 +71,20 @@ async function waitReady(containerId) {
 // So publish looks for the post among our latest posts first and only records it if it is there; if that check fails,
 // it stops instead of posting blind. Once media_publish answers, the id is recorded before anything else can fail.
 const firstLine = s => String(s || "").split("\n")[0].trim();
+// Compares first lines loosely. On 2026-10-27 a post Jamie put up by hand from the app wasn't recognised, and the record
+// run posted it a second time. Pasting on a phone can turn ' into ’, - into – or "..." into …, so the check ignores
+// quote, dash and space shapes and letter case.
+const sameLine = s => firstLine(s).normalize("NFKC")
+  .replace(/[‘’‚‛′´`]/g, "'").replace(/[“”„‟″]/g, '"')
+  .replace(/[‐-―−]/g, "-").replace(/…/g, "...").replace(/[​-‍⁠﻿]/g, "")
+  .replace(/\s+/g, " ").trim().toLowerCase();
 
 // The carousel and its Reel share a caption, so each check looks only at its own kind.
 async function findPosted(post, kind = "FEED") {
-  const want = firstLine(post.caption);
+  const want = sameLine(post.caption);
   if (!want) throw new Error(`${post.id}: caption is empty, can't check for an earlier copy`);
   const { data } = await call("GET", `/${IG_USER_ID}/media`, { fields: "id,caption,permalink,timestamp,media_product_type", limit: "25" });
-  return (data || []).find(m => (m.media_product_type === "REELS") === (kind === "REELS") && firstLine(m.caption) === want) || null;
+  return (data || []).find(m => (m.media_product_type === "REELS") === (kind === "REELS") && sameLine(m.caption) === want) || null;
 }
 
 // Since 2026-10-26 Instagram often answers media_publish with code 4, subcode 2207051 ("Action is blocked") and puts the
@@ -122,6 +129,11 @@ async function publish(dir, base) {
     recordPublished(dir, post, live.id, live.permalink);
     console.log(`already on Instagram, recorded without posting again: ${live.permalink || live.id}`);
     return;
+  }
+  // Record-only runs (IG_RECORD_ONLY=1) follow a post Jamie put up by hand: they record it and never post a copy.
+  if (process.env.IG_RECORD_ONLY) {
+    throw new Error(`${post.id}: not found among our latest posts, and this is a record-only run, so nothing was posted. ` +
+      `Check that the caption's first line was pasted unchanged, or run again in a minute (a new post can take a moment to show up)`);
   }
 
   const children = [];

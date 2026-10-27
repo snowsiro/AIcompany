@@ -17,6 +17,11 @@ on:
       post:
         description: "Post folder to publish, e.g. posts/2026-10-21-some-slug (blank = oldest ready post)"
         required: false
+      record_only:
+        description: "Only record a post Jamie already put up by hand; never post a copy (fails if it isn't found)"
+        type: boolean
+        required: false
+        default: false
   # Ticks at :27 and :57 (not on the hour, which GitHub delays most). Cron runs in UTC, so each line spans the UTC hours
   # of its slot in both summer (UTC+2) and winter (UTC+1); "Pick post" works out the Vienna time and ignores the rest.
   # Each slot gets three ticks inside its window in either season.
@@ -103,6 +108,7 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_RECORD_ONLY: ${{ inputs.record_only && '1' || '' }}
         run: node scripts/ig.mjs publish "${{ steps.pick.outputs.dir }}" "https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.pick.outputs.sha }}"
       # Threads follows Instagram with the same slides (added 2026-10-21). It never blocks or undoes the Instagram post:
       # on failure the run stays green and the next run retries it (catchup). Skips quietly until the THREADS_* secrets exist.
