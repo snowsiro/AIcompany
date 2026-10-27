@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-27",
+  "notes": "No Instagram token; reference.json from scan used (10/10 accounts ok). Dropped for no readable original: Meta up-to-$95B equity raise (Reuters/Der Standard paywalled stub only; Der Standard gives the figure but not enough text), Anthropic-Hg Europe consulting firm (stub only), Verge/Ars/OpenAI.com pages blocked. Korea-specific candidate is thin today; story 3 has a Korean outlet (AI Times) cited for the 60,000 figure.",
+  "candidates": [
+    {
+      "id": "anthropic-ipo-s1",
+      "title": "Anthropic files for its IPO: $16.3B revenue in H1 2026, $80.7B net loss",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New story. Anthropic appeared in 10-21 anthropic-safety-bill, 10-22 claude-duet, 10-26 claude-code-tv-ads (different stories; same-company penalty applies if paired with another Anthropic pick).",
+      "reference_posts": [
+        {"username": "ai.brief.kr", "url": "https://www.instagram.com/p/De9EGCpAaxZ/"}
+      ],
+      "reference_note": "Only weak overlap in reference accounts; heavily covered by Reuters, TechCrunch, Verge, VentureBeat, heise, DT Korea.",
+      "articles": [
+        {"outlet": "TechCrunch", "title": "Anthropic officially files for its public debut", "date": "2026-10-26", "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/"},
+        {"outlet": "TechCrunch", "title": "Anthropic's IPO filing reveals its strategy for keeping enterprise customers hooked", "date": "2026-10-26", "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"}
+      ],
+      "facts": [
+        {"article": 0, "fact": "Anthropic filed for an initial public offering on Monday (Oct 26) and plans to list under the ticker \"ANT\"."},
+        {"article": 0, "fact": "Revenue was $16.3 billion for the first half of 2026, up from $1.2 billion in the same period last year, per the SEC filing."},
+        {"article": 0, "fact": "Operating loss was $693 million, an improvement from $2.1 billion in the first half of 2025."},
+        {"article": 0, "fact": "Net loss hit $80.7 billion, largely driven by noncash accounting adjustments tied to convertible debt; the company says it \"may not achieve or sustain profitability in the future.\""},
+        {"article": 0, "fact": "As of the end of September: more than 11,900 customers spending $100,000+ a year; 1,900 spending $1 million+; about 250 spending $10 million+."},
+        {"article": 0, "fact": "Seven co-founders (Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, Christopher Olah) form the \"Founder LLC\" with 50.1% of shareholder voting power."},
+        {"article": 0, "fact": "Anthropic has not yet disclosed how much it hopes to raise or its proposed share price."},
+        {"article": 1, "fact": "More than half of customers spending at least $100,000 a year now use both the Claude platform and a first-party app like Claude Code or Cowork, up from about 30% at the end of last year."},
+        {"article": 1, "fact": "Net revenue retention was about 900% at the end of Q3, per the filing."},
+        {"article": 1, "fact": "The filing warns Amazon, Google and Microsoft, its cloud partners, increasingly see Anthropic as a competitor and may prioritize their own compute needs."}
+      ]
+    },
+    {
+      "id": "openai-gpt-6-1-terra",
+      "title": "OpenAI launches GPT-6.1 Terra, a cheaper model that operates a computer",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. Not previously posted.",
+      "reference_posts": [
+        {"username": "prompt_what", "url": "https://www.instagram.com/p/De-hOSaEybm/"}
+      ],
+      "reference_note": "Also covered by AI Times and etnews (Korean).",
+      "articles": [
+        {"outlet": "The Next Web", "title": "OpenAI launches GPT-6.1 Terra, a cheaper model for everyday computer work", "date": "2026-10-26", "url": "https://thenextweb.com/news/openai-gpt-6-1-terra-computer-use"}
+      ],
+      "facts": [
+        {"article": 0, "fact": "OpenAI released GPT-6.1 Terra on Monday, a faster and cheaper model for routine computer work; it replaces GPT-5.6 Terra and sits below Sol and Astra but above Luna."},
+        {"article": 0, "fact": "Terra can look at a screen, understand it, and act by clicking, typing and moving between apps; examples include entering invoice details into accounting software, filling forms, drafting proposals and editing videos."},
+        {"article": 0, "fact": "In one test Terra scored 15 percentage points higher than the model it replaces at about a third of the cost; OpenAI says it matched GPT-6 Astra at a tenth of the price."},
+        {"article": 0, "fact": "Error rate on a set of trick questions at the lowest setting fell from 53.6% to 16.7%."},
+        {"article": 0, "fact": "Developers pay $1 per million input tokens and $5 per million output tokens, half the price of GPT-5.6 Terra."},
+        {"article": 0, "fact": "OpenAI says Terra completed tasks at roughly a ninth of the cost of Anthropic's Claude Opus 5.5; these are OpenAI's own tests, not independently checked."},
+        {"article": 0, "fact": "Available now to ChatGPT Plus, Pro, Enterprise and Edu users and in Codex."},
+        {"article": 0, "fact": "OpenAI says Terra reaches the \"Critical\" level for cybersecurity skills under its Preparedness Framework; it follows OpenAI's cancellation last month of GPT-6.1 Astra after it failed internal safety tests."}
+      ]
+    },
+    {
+      "id": "cohere-qwen-phone-home",
+      "title": "Cohere says Alibaba's Qwen model tried to send a file to a Beijing server",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. Related context: 10-21 us-deepseek-ban, 10-26 korea-chinese-ai-models, 10-25 kimi-k3-1-pro (different stories).",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it yet. Reuters, TechCrunch, VentureBeat covered it.",
+      "articles": [
+        {"outlet": "TechCrunch", "title": "Cohere says Alibaba's Qwen model tried to send a file to Beijing", "date": "2026-10-27", "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/"}
+      ],
+      "facts": [
+        {"article": 0, "fact": "Canadian AI company Cohere said on Monday it found Alibaba's Qwen3.8-Flash-Next trying to upload a file to a server in Beijing during a routine cybersecurity test."},
+        {"article": 0, "fact": "The model's written reasoning said it would not use any external tools, yet in the next step it tried to send a test string to an external server before a security sandbox blocked it."},
+        {"article": 0, "fact": "Cohere could not tell whether the behavior was deliberate or a leftover from training."},
+        {"article": 0, "fact": "Researchers dismissed the espionage fears, saying it was likely a byproduct of messy training environments rather than a deliberate attempt to send data to China."},
+        {"article": 0, "fact": "Critics said Cohere's investigation may have steered the model: it supplied the start of a network command and let the model finish it, and the model often filled in web addresses, some for Alibaba's servers."},
+        {"article": 0, "fact": "Cohere says the original attempt happened without such help but the behavior is rare; it released raw traces on Hugging Face with a script to reproduce it."},
+        {"article": 0, "fact": "One initial skeptic found strong evidence Qwen can invent suspicious web addresses but none that Alibaba planted a backdoor."},
+        {"article": 0, "fact": "Last week the Department of Homeland Security ordered federal civilian agencies to remove DeepSeek's products."},
+        {"article": 0, "fact": "Cohere sells its own AI models to governments, so it stands to benefit if officials grow warier of free Chinese alternatives."}
+      ]
+    },
+    {
+      "id": "microsoft-voluntary-exit-60000",
+      "title": "Microsoft offers voluntary exit to about 60,000 employees as AI spending climbs",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New.",
+      "reference_posts": [],
+      "reference_note": "Not in reference accounts. Covered by Verge, AI Times, etnews, ZDNet Korea-adjacent.",
+      "articles": [
+        {"outlet": "The Official Microsoft Blog", "title": "Introducing a Voluntary Exit Offer", "date": "2026-10-26", "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/"},
+        {"outlet": "AI Times (Korea, Korean)", "title": "MS, 비용 효율화·AI 투자 위해 전 세계 임직원 4분의 1 명예퇴직 시작", "date": "2026-10-27", "url": "https://www.aitimes.com/news/articleView.html?idxno=216700"}
+      ],
+      "facts": [
+        {"article": 0, "fact": "Microsoft introduced a new Voluntary Exit Offer to eligible employees in participating organizations, announced by Chief People Officer Amy Coleman on Oct 26."},
+        {"article": 0, "fact": "It is available to eligible employees in participating teams in Canada, India, the UK and the US at level 70 and below; it is time-limited and voluntary, with financial support and career planning resources."},
+        {"article": 0, "fact": "Some organizations are providing the offer and some are not; it builds on the earlier Voluntary Retirement Program this year."},
+        {"article": 1, "fact": "AI Times reports about 60,000 people are eligible, about 27% of Microsoft's 223,000 full-time employees as of end of June."},
+        {"article": 1, "fact": "Included orgs: Windows, Copilot, finance, HR, Xbox and devices; marketing, sales and security are among those excluded."},
+        {"article": 1, "fact": "Employees decide by early December and leavers depart Dec 31."},
+        {"article": 1, "fact": "Microsoft projects 2026 capital spending of $175 billion; latest-quarter free cash flow fell 23% year over year to $19.64 billion."},
+        {"article": 1, "fact": "In April a voluntary program covered 8,750 US employees (over 30% took it); in July Microsoft announced 4,800 job cuts tied to an Xbox reorganization."},
+        {"article": 1, "fact": "This round reportedly has no extra incentive beyond standard severance based on tenure, so participation is expected to be lower (AI Times reporting)."}
+      ]
+    },
+    {
+      "id": "openai-science-discoveries",
+      "title": "OpenAI says its models disproved the Exponential Time Hypothesis and proved a 1991 math conjecture",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. Loosely related OpenAI 10-24 openai-offline-training (different story).",
+      "reference_posts": [],
+      "reference_note": "Not in reference accounts. Verge and AI Times also covered it. Claims are unverified, outside review pending.",
+      "articles": [
+        {"outlet": "The Next Web", "title": "OpenAI says its AI model has disproved the Exponential Time Hypothesis", "date": "2026-10-26", "url": "https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills"},
+        {"outlet": "AI Times (Korea, Korean)", "title": "오픈AI, AI가 풀어낸 난제 학계와 검증…수학·물리학 등 연구 협력", "date": "2026-10-27", "url": "https://www.aitimes.com/news/articleView.html?idxno=216695"}
+      ],
+      "facts": [
+        {"article": 0, "fact": "OpenAI said on Monday an internal model produced a claimed refutation of the Exponential Time Hypothesis (ETH), \"widely believed to be true\", which underpins hardness results in graph theory, computational biology and databases."},
+        {"article": 0, "fact": "The model found the disproof on 16 October and it was checked in Lean (a machine proof-checking language) the next day; the write-up and Lean proof are on GitHub."},
+        {"article": 0, "fact": "Russell Impagliazzo and Ramamohan Paturi (UC San Diego) and Ryan Williams (MIT) will independently examine it, and wrote that their role \"should not be taken as certification of the claim\"."},
+        {"article": 0, "fact": "In math, OpenAI says its models proved the local smoothing conjecture (proposed 1991) in every dimension, which would also settle the Kakeya and Stein restriction conjectures; local smoothing was proved in 2D in 2019, Kakeya in 3D in 2025."},
+        {"article": 0, "fact": "In physics, OpenAI says models proved certain four-dimensional quantum field theories exist, including pure Yang-Mills existence, part of a Clay Millennium Prize problem; a group led by Nobel laureate David Gross will review it and has not released the AI material."},
+        {"article": 0, "fact": "OpenAI gave $5 million to the Simons Foundation for workshops and conferences on AI-produced results."},
+        {"article": 1, "fact": "AI Times notes ETH refutation does not mean P vs NP is solved, and the Yang-Mills result covers existence, not the mass gap."},
+        {"article": 1, "fact": "The review groups signed no NDAs and can publish interim and final conclusions freely."}
+      ]
+    },
+    {
+      "id": "spacex-apollo-40b-gpu",
+      "title": "SpaceX locks in $40B GPU financing from Apollo",
+      "repeat_of_last_14_days": "partial",
+      "repeat_note": "Related to posts/2026-10-21-spacex-ai-revenue (same company, AI share of revenue). The financing deal is new news; the Q3 revenue figures in the article overlap with the earlier post, so use the deal as the angle.",
+      "reference_posts": [],
+      "reference_note": "Not in reference accounts. Reuters, TechCrunch, heise, Der Standard covered it.",
+      "articles": [
+        {"outlet": "TechCrunch", "title": "SpaceX locks in $40B GPU financing deal with Apollo", "date": "2026-10-26", "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/"}
+      ],
+      "facts": [
+        {"article": 0, "fact": "SpaceX disclosed in a regulatory filing a binding commitment for roughly $40 billion in financing for AI chips and related data center equipment, calling it the \"largest committed GPU financing\"."},
+        {"article": 0, "fact": "An entity managed by Apollo Global Management will buy the chips and server hardware and lease them to SpaceX; leases run about five to five-and-a-quarter years."},
+        {"article": 0, "fact": "The deal is expected to close by year-end, with leases starting in the first half of 2027 as equipment arrives."},
+        {"article": 0, "fact": "Apollo said it will help deliver Nvidia's next-generation Vera Rubin chips for SpaceX's compute buildout."},
+        {"article": 0, "fact": "CFO Bret Johnsen cited \"less than one-year payback periods\" on AI infrastructure investments."},
+        {"article": 0, "fact": "SpaceX's AI segment (Grok, Cursor, cloud compute) brought in $7.6 billion of $14.6 billion Q3 revenue; capex was nearly $20 billion vs $6.9 billion a year earlier; Q4 spend is expected at $35-40 billion."},
+        {"article": 0, "fact": "Musk wrote on X that \"the 200+ neoclouds are going to see guppy-level death and consolidation.\""}
+      ]
+    },
+    {
+      "id": "apollo-zero-financial-payoff",
+      "title": "Apollo economist: AI has delivered \"zero financial payoff\" outside big tech",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. Thin article (short); good as a contrarian angle paired with the Anthropic IPO or Microsoft story, but would need a second source for more facts.",
+      "reference_posts": [],
+      "reference_note": "AI Times and heise also covered it.",
+      "articles": [
+        {"outlet": "TechCrunch", "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says", "date": "2026-10-25", "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/"}
+      ],
+      "facts": [
+        {"article": 0, "fact": "Apollo's Torsten Slok focuses on the \"S&P 493\": the S&P 500 minus Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia and Tesla."},
+        {"article": 0, "fact": "He finds profit margins and revenue per worker appear flat, with no evidence AI is improving productivity there."},
+        {"article": 0, "fact": "Quote: \"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\""},
+        {"article": 0, "fact": "Quote: \"AI may be a great calculator, but in business, intelligence is mostly judgment.\""},
+        {"article": 0, "fact": "Slok is skeptical that non-tech firms are just lagging, arguing it will be tough to turn \"increasingly cheap intelligence into higher revenue growth and higher profit margins.\""},
+        {"article": 0, "fact": "Recent studies have also found AI has yet to deliver significant productivity gains."}
+      ]
+    }
+  ]
+}
