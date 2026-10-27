@@ -18,8 +18,11 @@ The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.comp
 
 13:57 Vienna  GitHub Actions "publish" posts the oldest ready post as a carousel, then checks it is live
 19:57 Vienna  "publish" again for the second post
+           It ticks every 30 minutes for 90 minutes after each slot, so a late or dropped GitHub run is retried
+           without anyone starting it; the 3-hour guard keeps it to one post per slot
 Sundays    09:57 Vienna  "publish" posts that Sunday's weekly roundup "This week in AI" (posts/<date>-weekly),
-           made by the morning run from the week's published posts with scripts/weekly.mjs. A missed one is skipped
+           made by the morning run from the week's published posts with scripts/weekly.mjs. Retried until noon,
+           then a missed one is skipped
 Mondays    analyst writes ops/weekly/<date>.md from Instagram insights
 ```
 

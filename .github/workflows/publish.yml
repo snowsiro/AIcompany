@@ -1,12 +1,14 @@
 name: publish
 
 # Posts the oldest merged post with "status": "ready" to Instagram.
-# Runs twice a day (turned on 2026-10-20 by Jamie) and can also be run by hand.
-# GitHub can start scheduled runs hours late (on 2026-10-21 the 03:07 scan ran at 08:28 and the 11:57 publish
-# didn't run), so Claude also starts this workflow at each slot. Two guards keep that to one post per slot:
-# a scheduled run more than 60 minutes late skips, and any run skips if something was published in the last 3 hours.
-# Sundays at 09:57 Vienna there is a third slot for the weekly roundup (PRD 2026-10-26). It posts only that Sunday's
-# posts/<date>-weekly and records it as "weekly: ", so it has its own 3-hour guard and never holds back the 13:57 post.
+# Two slots a day, 13:57 and 19:57 Vienna (turned on 2026-10-20 by Jamie), and it can also be run by hand.
+# GitHub starts scheduled runs late or not at all (on 2026-10-26 the 13:57 run came six hours late), so instead of one
+# run per slot there is a tick every 30 minutes around each slot. "Pick post" posts only inside a window: from the slot
+# to 90 minutes after it. The 3-hour guard keeps that to one post per slot however many ticks land in the window,
+# so no one has to start this workflow by hand at each slot any more (2026-10-27).
+# Sundays at 09:57 Vienna there is a third slot for the weekly roundup (PRD 2026-10-26), open until noon. It posts only
+# that Sunday's posts/<date>-weekly and records it as "weekly: ", so it has its own 3-hour guard and never holds back
+# the 13:57 post.
 # Re-running a failed run is safe (2026-10-26, after one post went up 6 times): ig.mjs publish first looks for the post
 # among our latest posts and only records it if it is already live, and "Record result" runs even when Publish failed.
 on:
@@ -15,17 +17,13 @@ on:
       post:
         description: "Post folder to publish, e.g. posts/2026-10-21-some-slug (blank = oldest ready post)"
         required: false
-  # Two posts a day, at 13:57 and 19:57 Vienna time all year.
-  # Cron runs in UTC, so each slot has a summer and a winter entry; the "Pick post" step skips
-  # the one that doesn't match Vienna's current UTC offset.
-  # A few minutes before the hour, because GitHub delays jobs scheduled exactly on the hour.
+  # Ticks at :27 and :57 (not on the hour, which GitHub delays most). Cron runs in UTC, so each line spans the UTC hours
+  # of its slot in both summer (UTC+2) and winter (UTC+1); "Pick post" works out the Vienna time and ignores the rest.
+  # Each slot gets three ticks inside its window in either season.
   schedule:
-    - cron: "57 11 * * *"   # summer: 13:57 Vienna (UTC+2)
-    - cron: "57 12 * * *"   # winter: 13:57 Vienna (UTC+1)
-    - cron: "57 17 * * *"   # summer: 19:57 Vienna
-    - cron: "57 18 * * *"   # winter: 19:57 Vienna
-    - cron: "57 7 * * 0"    # summer: Sunday 09:57 Vienna, weekly roundup
-    - cron: "57 8 * * 0"    # winter: Sunday 09:57 Vienna, weekly roundup
+    - cron: "27,57 11-13 * * *"   # 13:57 Vienna slot
+    - cron: "27,57 17-19 * * *"   # 19:57 Vienna slot
+    - cron: "27,57 7-10 * * 0"    # Sunday 09:57 Vienna, weekly roundup (window until noon)
 
 permissions:
   contents: write
@@ -49,26 +47,32 @@ jobs:
       - name: Pick post
         id: pick
         run: |
+          # Vienna time. NOW (a date string like 'TZ="Europe/Vienna" 2026-11-01 09:58') is only for testing this step;
+          # a real run never sets it.
+          vienna() { TZ=Europe/Vienna date ${NOW:+-d "$NOW"} "$@"; }
+          # If the clock can't be read, post nothing (a failed check must never fall through to posting).
+          now=$(vienna "+%u %H%M") || now=""
+          case "$now" in
+            [1-7]" "[0-2][0-9][0-5][0-9]) ;;
+            *) echo "can't read Vienna time ('$now'), skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0 ;;
+          esac
+          dow=${now% *}; hm=${now#* }
           weekly_slot=no
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            case "${{ github.event.schedule }}" in
-              "57 11 * * *"|"57 17 * * *"|"57 7 * * 0") want=+0200 ;;
-              *) want=+0100 ;;
-            esac
-            case "${{ github.event.schedule }}" in "57 7 * * 0"|"57 8 * * 0") weekly_slot=yes ;; esac
-            if [ "$(TZ=Europe/Vienna date +%z)" != "$want" ]; then
-              echo "other season's slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
-            fi
-            slot=$(date -u -d "$(echo "${{ github.event.schedule }}" | awk '{printf "%02d:%02d", $2, $1}')" +%s)
-            late=$(( ($(date -u +%s) - slot + 86400) % 86400 / 60 ))
-            if [ "$late" -gt 60 ]; then
-              echo "started $late minutes after the slot, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
+            m=$(( 10#${hm:0:2} * 60 + 10#${hm:2:2} ))
+            in_window() { [ "$m" -ge "$1" ] && [ "$m" -lt "$2" ]; }
+            if [ "$dow" = 7 ] && in_window $((9 * 60 + 57)) $((12 * 60)); then
+              weekly_slot=yes
+            elif in_window $((13 * 60 + 57)) $((13 * 60 + 57 + 90)) || in_window $((19 * 60 + 57)) $((19 * 60 + 57 + 90)); then
+              :
+            else
+              echo "${hm:0:2}:${hm:2:2} Vienna is outside the posting windows, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
             fi
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           if [ -n "${{ inputs.post }}" ]; then echo "dir=${{ inputs.post }}" >> "$GITHUB_OUTPUT"; exit 0; fi
           # A manual run without a post (e.g. Claude's backup start) is the weekly slot on Sunday before noon, Vienna time.
-          if [ "${{ github.event_name }}" != "schedule" ] && [ "$(TZ=Europe/Vienna date +%u)" = 7 ] && [ "$(TZ=Europe/Vienna date +%-H)" -lt 12 ]; then
+          if [ "${{ github.event_name }}" != "schedule" ] && [ "$dow" = 7 ] && [ "$((10#${hm:0:2}))" -lt 12 ]; then
             weekly_slot=yes
           fi
           if [ "$weekly_slot" = yes ]; then
@@ -78,7 +82,7 @@ jobs:
             if git log --since='3 hours ago' --format=%s | grep -q '^weekly: posts/'; then
               echo "weekly roundup already published, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
             fi
-            d="posts/$(TZ=Europe/Vienna date +%F)-weekly"
+            d="posts/$(vienna +%F)-weekly"
             if [ -f "$d/post.json" ] && grep -q '"kind": "weekly"' "$d/post.json" && grep -q '"status": "ready"' "$d/post.json"; then
               echo "dir=$d" >> "$GITHUB_OUTPUT"; exit 0
             fi

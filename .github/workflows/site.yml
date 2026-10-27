@@ -7,6 +7,8 @@ name: site
 # the same files are pushed there as one fresh commit; without it only this repo's Pages copy is updated.
 # Runs after every publish run (bot commits made with GITHUB_TOKEN don't trigger push workflows), on config or
 # script changes, and once a day as a backup because GitHub's schedule is unreliable in this repo.
+# Since 2026-10-27 publish ticks every 30 minutes around each slot and most ticks post nothing, so after a publish run
+# the site is rebuilt only if that run recorded something; the daily run catches up on anything missed.
 on:
   workflow_run:
     workflows: [publish]
@@ -23,12 +25,32 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
+  # After a publish run: go only if a post, Reel or Threads link was recorded in the last 30 minutes.
+  # Every other trigger always goes.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.c.outputs.go }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 20
+      - id: c
+        run: |
+          if [ "${{ github.event_name }}" != "workflow_run" ] || git log --since='30 minutes ago' --format=%s | grep -qE '^(publish|weekly|reel|threads): posts/'; then
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "the publish run recorded nothing new, no rebuild"; echo "go=no" >> "$GITHUB_OUTPUT"
+          fi
   deploy:
+    needs: check
+    if: needs.check.outputs.go == 'yes'
+    # On the deploy job only, so a check that finds nothing never cancels a deploy in progress.
+    concurrency:
+      group: pages
+      cancel-in-progress: true
     runs-on: ubuntu-latest
     environment:
       name: github-pages
