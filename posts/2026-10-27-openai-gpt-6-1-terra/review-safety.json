@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "issues": [
+    "Minor, non-blocking: cover hook 'USES YOUR PC' is slightly loose. Slides support 'clicks, types and moves between apps' but never say it runs on the reader's own PC. Consider 'DOES YOUR COMPUTER WORK' if the writer revises."
+  ]
+}
