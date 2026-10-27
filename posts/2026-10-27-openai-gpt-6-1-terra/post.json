@@ -7,35 +7,35 @@
   "cover": {
     "tag": "US AI · TOOLS",
     "headline": [
-      "CHEAPER AI NOW",
-      "USES YOUR **PC**"
+      "HALF THE PRICE,",
+      "AI RUNS **APPS**"
     ],
     "hook_options": [
       [
-        "CHEAPER AI NOW",
-        "USES YOUR **PC**"
+        "HALF THE PRICE,",
+        "AI RUNS **APPS**"
       ],
       [
-        "HALF THE PRICE,",
-        "AI USES YOUR **PC**"
+        "CHEAPER AI THAT",
+        "**CLICKS** FOR YOU"
       ],
       [
         "$1 PER MILLION",
         "TOKENS FOR **AI**"
       ],
       [
-        "A THIRD OF",
-        "THE **COST**"
+        "OPENAI'S **TERRA**",
+        "RUNS A COMPUTER"
       ]
     ],
     "hook_types": [
+      "number",
       "reader-impact",
       "number",
-      "number",
-      "number"
+      "claim"
     ],
-    "hook_type": "reader-impact",
-    "hook_pick_reason": "Answers what changes for ordinary users: a cheaper model that clicks, types and moves between apps is available now in paid ChatGPT plans (slides 1, 2, 4). It promises no more than that. The number options are accurate but hide the everyday-work payoff.",
+    "hook_type": "number",
+    "hook_pick_reason": "Leads with a verified number (half the price of GPT-5.6 Terra, slide 2) and a payoff the slides back: the model clicks, types and moves between apps (slide 1). Drops the ambiguous 'your PC' wording, which the article does not support. The reader-impact option is clearer on use but has no number.",
     "image_prompt": "Cinematic wide shot of a dark modern desk at night, a glowing computer monitor showing abstract floating panels while a soft amber cursor-shaped light moves by itself across the screen, faint streaks of light linking several windows, cool blue shadows. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
     "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261027_045052_1f9afe35-7568-4675-bfcf-12ce31d30f2c.png"
   },
@@ -58,7 +58,7 @@
       "kicker": "The claim",
       "title": "Better, at a third of the cost",
       "body": [
-        "In one test, Terra scored **15 points** higher than its predecessor at about **a third** of the cost. These figures come from OpenAI's own tests and were not independently checked."
+        "In one test, Terra scored **15 percentage points** higher than its predecessor at about **a third** of the cost, according to OpenAI's own tests."
       ]
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "source": 0,
-      "text": "In one test, Terra scored 15 points higher than its predecessor at about a third of the cost, according to OpenAI's own tests, which were not independently checked."
+      "text": "In one test, Terra scored 15 percentage points higher than its predecessor at about a third of the cost, according to OpenAI's own tests."
     },
     {
       "source": 0,
