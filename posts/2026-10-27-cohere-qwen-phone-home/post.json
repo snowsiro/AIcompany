@@ -5,7 +5,7 @@
   "status": "draft",
   "korean_refs": [],
   "cover": {
-    "tag": "CHINA AI · SAFETY",
+    "tag": "CHINA AI · RESEARCH",
     "headline": [
       "QWEN SPYING?",
       "NO **PROOF** YET"
@@ -28,10 +28,15 @@
         "NO **BACKDOOR** SEEN"
       ]
     ],
-    "hook_types": ["claim", "myth-flip", "rivalry", "reader-impact"],
+    "hook_types": [
+      "claim",
+      "myth-flip",
+      "rivalry",
+      "reader-impact"
+    ],
     "hook_type": "myth-flip",
     "hook_pick_reason": "The story invites a spying reading, but the evidence is invented web addresses, not a confirmed backdoor; researchers call it likely messy training and Cohere cannot say if it was deliberate. The myth-flip hook matches slides 3-5 and does not overstate. The claim hook is accurate but flatter. The rivalry hook frames a vendor dispute as the story. The reader-impact hook is weak: the article names no direct effect on ordinary users, only that one skeptic found no backdoor evidence, so it is kept as a modest option and not picked.",
-    "image_url": "",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261027_045128_79e8ff8d-139b-4209-a19d-056ff8dc9544.png",
     "image_prompt": "Cinematic wide shot of a dark glass-walled server lab at night, a single thin amber beam of light leaving one server rack and stopping against a translucent barrier of glowing blue glass, faint haze, cool blue tones with one warm accent, main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people."
   },
   "slides": [

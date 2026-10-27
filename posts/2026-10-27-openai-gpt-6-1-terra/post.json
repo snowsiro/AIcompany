@@ -11,16 +11,33 @@
       "USES YOUR **PC**"
     ],
     "hook_options": [
-      ["CHEAPER AI NOW", "USES YOUR **PC**"],
-      ["HALF THE PRICE,", "AI USES YOUR **PC**"],
-      ["$1 PER MILLION", "TOKENS FOR **AI**"],
-      ["A THIRD OF", "THE **COST**"]
+      [
+        "CHEAPER AI NOW",
+        "USES YOUR **PC**"
+      ],
+      [
+        "HALF THE PRICE,",
+        "AI USES YOUR **PC**"
+      ],
+      [
+        "$1 PER MILLION",
+        "TOKENS FOR **AI**"
+      ],
+      [
+        "A THIRD OF",
+        "THE **COST**"
+      ]
     ],
-    "hook_types": ["reader-impact", "number", "number", "number"],
+    "hook_types": [
+      "reader-impact",
+      "number",
+      "number",
+      "number"
+    ],
     "hook_type": "reader-impact",
     "hook_pick_reason": "Answers what changes for ordinary users: a cheaper model that clicks, types and moves between apps is available now in paid ChatGPT plans (slides 1, 2, 4). It promises no more than that. The number options are accurate but hide the everyday-work payoff.",
     "image_prompt": "Cinematic wide shot of a dark modern desk at night, a glowing computer monitor showing abstract floating panels while a soft amber cursor-shaped light moves by itself across the screen, faint streaks of light linking several windows, cool blue shadows. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
-    "image_url": ""
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261027_045052_1f9afe35-7568-4675-bfcf-12ce31d30f2c.png"
   },
   "slides": [
     {
@@ -90,6 +107,11 @@
     }
   ],
   "caption": "OpenAI just launched GPT-6.1 Terra, a cheaper model that can run a computer for you.\n\nIt clicks, types and moves between apps, and it costs half as much as the model it replaces.\n\n→ $1 input / $5 output per million tokens, half of GPT-5.6 Terra\n→ In one test, +15 points at about a third of the cost (OpenAI's own tests)\n→ Available now in ChatGPT Plus, Pro, Enterprise, Edu and Codex\n\nWhat routine computer task would you hand to an AI first?\n\nSource: The Next Web, \"OpenAI launches GPT-6.1 Terra, a cheaper model for everyday computer work\", Oct 26, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
-  "hashtags": ["#AINews", "#OpenAI", "#GPT6", "#AIAgents"],
+  "hashtags": [
+    "#AINews",
+    "#OpenAI",
+    "#GPT6",
+    "#AIAgents"
+  ],
   "threads_caption": "OpenAI launched GPT-6.1 Terra, a cheaper model that clicks, types and moves between apps. It costs $1 input / $5 output per million tokens, half of GPT-5.6 Terra.\n\nSource: The Next Web, \"OpenAI launches GPT-6.1 Terra, a cheaper model for everyday computer work\". #OpenAI"
 }
