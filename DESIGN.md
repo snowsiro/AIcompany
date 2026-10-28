@@ -52,6 +52,7 @@
 
 `post.json`의 `cover.hook_types`에는 영문 키를 씁니다: number, claim, myth-flip, rivalry, quote, reader-impact.
 독자 영향형은 "그래서 나한테 뭐가 바뀌지?"에 답하는 훅입니다. 그 영향이 원문 기사에 있을 때만 씁니다.
+기사에 일반 독자에게 미치는 영향이 없으면 독자 영향 훅을 억지로 만들지 않습니다. 주주처럼 좁은 집단만을 위한 훅에도 이 라벨을 붙이지 않습니다. 대신 `hook_pick_reason`에 "No reader-impact hook:"으로 시작하는 이유를 씁니다 (2026-10-28 제이미 결정).
 
 ## 본문 슬라이드 (2 ~ n-1)
 

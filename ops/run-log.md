@@ -6,7 +6,7 @@ Newest first. Format is in CLAUDE.md ("보고").
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 26 · 팔로워 0 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 php-ai-flaws (108)
 결정할 일
-1. lint가 커버 후보에 reader-impact 훅을 반드시 하나 요구함. 그런데 기사에 일반 독자에게 미치는 영향이 없으면 작가가 억지로 라벨을 붙이게 됨. 예: 10/27 Cohere, 10/28 SK hynix의 "주주에게 $75.5B" 훅. 두 번 다 hook-judge가 라벨이 틀렸다고 지적함 (선택된 훅은 아니라 막지는 않음). 제안: 영향이 없으면 hook_pick_reason에 이유를 쓰고 통과하도록 lint 완화
+1. lint가 커버 후보에 reader-impact 훅을 반드시 하나 요구함. 그런데 기사에 일반 독자에게 미치는 영향이 없으면 작가가 억지로 라벨을 붙이게 됨. 예: 10/27 Cohere, 10/28 SK hynix의 "주주에게 $75.5B" 훅. 두 번 다 hook-judge가 라벨이 틀렸다고 지적함 (선택된 훅은 아니라 막지는 않음). 제안: 영향이 없으면 hook_pick_reason에 이유를 쓰고 통과하도록 lint 완화 → 제이미 승인(10/28), 반영함: lint, writer, hook-judge, DESIGN.md
 자세한 기록
 - 서브 계정 세션에서 실행, 저녁 슬롯 시험 1일차 (오늘 아침 글 1개, 19:15 저녁 런이 1개 더)
 - 05:46 morning-scan이 main에 없어 워크플로를 직접 실행, 90초 뒤 생성. metrics 포함

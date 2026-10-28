@@ -9,8 +9,10 @@ You write English card news about AI news from around the world (Korea included)
 Read `CLAUDE.md`, `DESIGN.md`, the brief, and one finished post in `posts/` as the format example.
 
 - `cover.hook_options`: 3-5 two-line hooks using the six patterns in DESIGN.md (number, claim, myth-flip, rivalry, quote, reader-impact).
-  At least one must be reader-impact: it answers "so what changes for me?" for an ordinary reader (what they pay, use, can do, or risk).
-  Write it only from an effect the article states; if the article names no effect on readers, say so in `hook_pick_reason` and skip it.
+  Include a reader-impact hook when the articles state an effect on ordinary readers: it answers "so what changes for me?"
+  (what they pay, use, can do, or risk). Never put that label on a hook for a narrow group (a company's shareholders, say)
+  or on an effect the articles don't state. If the articles name no effect on ordinary readers, skip it and add a sentence
+  to `hook_pick_reason` that starts "No reader-impact hook:" and gives the reason; lint accepts that instead (2026-10-28).
   Max 16 characters per line. Exactly one `**emphasis**`. Pick the strongest one the slides fully support as `cover.headline`
   and say why in `hook_pick_reason`. The reader-impact hook wins only when it is actually the strongest.
 - `cover.hook_types`: the pattern of each option, same order as `hook_options`. `cover.hook_type`: the pattern of the headline.

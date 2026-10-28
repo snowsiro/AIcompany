@@ -43,8 +43,12 @@ function lint(post) {
     const types = c.hook_types;
     req(Array.isArray(types) && types.length === (c.hook_options || []).length, "cover.hook_types must list one type per hook option");
     req(Array.isArray(types) && types.every(t => HOOK_TYPES.includes(t)), `cover.hook_types values must be one of ${HOOK_TYPES.join(", ")}`);
-    // a roundup cover may have no reader-impact angle, so the rule is optional there
-    if (!weekly) req(Array.isArray(types) && types.includes("reader-impact"), "cover.hook_options needs at least one reader-impact hook");
+    // A reader-impact hook is required unless hook_pick_reason says why there is none (2026-10-28, Jamie): writers had
+    // been forcing the label onto hooks for shareholders only when the articles stated no effect on ordinary readers.
+    // A roundup cover may have no reader-impact angle either, so the rule is optional there.
+    const noImpactReason = /no reader-impact hook:\s*\S.{19,}/i.test(String(c.hook_pick_reason || ""));
+    if (!weekly) req(Array.isArray(types) && (types.includes("reader-impact") || noImpactReason),
+      'cover.hook_options needs a reader-impact hook, or hook_pick_reason must say why not ("No reader-impact hook: <reason>")');
     const pick = (c.hook_options || []).findIndex(h => JSON.stringify(h) === JSON.stringify(c.headline));
     req(Array.isArray(types) && c.hook_type === types[pick], "cover.hook_type must be the type of the chosen headline");
   }
