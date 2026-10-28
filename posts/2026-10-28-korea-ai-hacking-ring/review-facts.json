@@ -1,0 +1,15 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 3 (post.json slides[1] 'AI scaled it up', rendered 03.jpg)",
+      "problem": "Name mismatch: the post spells the tool 'Artex', but the only English source spells it 'ARTEX' every time. BleepingComputer has 'with ARTEX AI pentesting framework used in most of the attacks' and 'the hacker used the ARTEX AI penetration testing suite', and its title is 'Former pentester used ARTEX AI to steal 8.2 million data records'. ZDNet Korea gives only the Korean '아르텍스'. The carousel also disagrees with itself, because slide 8 prints 'ARTEX' in the BleepingComputer title.",
+      "fix": "In slides[1].body, change 'adding AI tools such as Artex, which automates penetration testing (simulated attacks), in **late August 2026**' to 'adding AI tools such as ARTEX, which automates penetration testing (simulated attacks), in **late August 2026**', then re-render slide 03. The length is the same, so there is no overflow risk. Also change facts[4] '(written Artex in the post; 아르텍스 in ZDNet Korea)' to '(written ARTEX in the post; 아르텍스 in ZDNet Korea)'."
+    },
+    {
+      "where": "facts[0] (internal, not on any slide or caption)",
+      "problem": "Misattribution: because of the colon, the quoted sentence reads as something the police said. It is actually Korea JoongAng Daily's own lede: 'A self-taught coder and six accomplices allegedly used generative AI to hack some 90 organizations across Korea, stealing 8.2 million records and extorting victims for cash'. The police sentence in the article is: 'The Seoul Metropolitan Police Agency's cyber investigation division said Monday that it had apprehended the seven suspects, including the alleged ringleader, on charges including violations of the Act on Promotion of Information and Communications Network Utilization and Information Protection and extortion.' Weekly covers are written from facts, so this could be reused as a police quote.",
+      "fix": "Rewrite facts[0] as: 'Korea JoongAng Daily lede (the paper's own words, not a police quote): \"A self-taught coder and six accomplices allegedly used generative AI to hack some 90 organizations across Korea, stealing 8.2 million records and extorting victims for cash\" (8.2 million, 8.2M). The Seoul Metropolitan Police Agency's cyber investigation division said Monday (Oct. 26, 2026) that it had apprehended the seven suspects, including the alleged ringleader, on charges including violations of the Act on Promotion of Information and Communications Network Utilization and Information Protection and extortion. No suspect is named in any of the three articles.'"
+    }
+  ]
+}

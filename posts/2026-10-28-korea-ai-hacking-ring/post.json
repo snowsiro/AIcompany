@@ -46,7 +46,7 @@
       "kicker": "The AI",
       "title": "AI scaled it up",
       "body": [
-        "Police say the leader began with conventional tools, adding AI tools such as Artex, which automates penetration testing (simulated attacks), in **late August 2026**. ZDNet Korea reports **60 of the victims** were breached with generative AI in just over 40 days."
+        "Police say the leader began with conventional tools, adding AI tools such as ARTEX, which automates penetration testing (simulated attacks), in **late August 2026**. ZDNet Korea reports **60 of the victims** were breached with generative AI in just over 40 days."
       ]
     },
     {
@@ -79,7 +79,7 @@
   "facts": [
     {
       "source": 0,
-      "text": "The Seoul Metropolitan Police Agency's cyber investigation division said Monday (Oct. 26, 2026) that it had apprehended the seven suspects, including the alleged ringleader: \"A self-taught coder and six accomplices allegedly used generative AI to hack some 90 organizations across Korea, stealing 8.2 million records and extorting victims for cash\" (8.2 million, 8.2M). Charges include violations of the Act on Promotion of Information and Communications Network Utilization and Information Protection, and extortion. No suspect is named in any of the three articles."
+      "text": "Korea JoongAng Daily lede (the paper's own words, not a police quote): \"A self-taught coder and six accomplices allegedly used generative AI to hack some 90 organizations across Korea, stealing 8.2 million records and extorting victims for cash\" (8.2 million, 8.2M). The Seoul Metropolitan Police Agency's cyber investigation division said Monday (Oct. 26, 2026) that it had apprehended the seven suspects, including the alleged ringleader, on charges including violations of the Act on Promotion of Information and Communications Network Utilization and Information Protection and extortion. No suspect is named in any of the three articles."
     },
     {
       "source": 0,
@@ -95,7 +95,7 @@
     },
     {
       "source": 1,
-      "text": "The Seoul Metropolitan police told Yonhap that the hacker used the ARTEX AI penetration testing suite (written Artex in the post; 아르텍스 in ZDNet Korea), and the ARTEX AI pentesting framework was used in most of the attacks. Initially, the hacker used conventional tools but adopted AI utilities in late August 2026 to expand the attacks. Yonhap says the leader started attacking organizations in September 2025."
+      "text": "The Seoul Metropolitan police told Yonhap that the hacker used the ARTEX AI penetration testing suite (written ARTEX in the post; 아르텍스 in ZDNet Korea), and the ARTEX AI pentesting framework was used in most of the attacks. Initially, the hacker used conventional tools but adopted AI utilities in late August 2026 to expand the attacks. Yonhap says the leader started attacking organizations in September 2025."
     },
     {
       "source": 2,
