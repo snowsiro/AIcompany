@@ -1,0 +1,148 @@
+{
+  "id": "2026-10-28-sk-hynix-q3-record",
+  "date": "2026-10-28",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · INDUSTRY",
+    "headline": [
+      "SOLD OUT THROUGH",
+      "**2029**: SK HYNIX"
+    ],
+    "hook_options": [
+      [
+        "SOLD OUT THROUGH",
+        "**2029**: SK HYNIX"
+      ],
+      [
+        "SK HYNIX PLANS A",
+        "**$75.5B** PAYOUT"
+      ],
+      [
+        "SK HYNIX OWNERS:",
+        "**$75.5B** THIS YEAR"
+      ],
+      [
+        "AI SPEND PEAKED?",
+        "SK HYNIX SAYS **NO**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "reader-impact",
+      "myth-flip"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "It gives the AI-demand news as SK hynix's own claim, and the colon attributes it: The Korea Times reports the company said its HBM for AI accelerators and its other DRAM have already sold out for the next three years, through 2029. Slide 2's title repeats it ('Sold out through 2029'). Its body says who SK hynix is, what is sold out, and that long-term deals with 14 major customers cover over 50% of 2027 and 2028 capacity. Slides 3 and 6 back the demand story: a record quarter (₩83.33T operating profit, about $62.8B), and demand expected to exceed supply through 2030, kept apart from the sold-out claim. The cover names SK HYNIX and a concrete year, fits the image (a glowing stack of memory layers) and stays true after Wednesday's share move. The $75.5B payout option (number; The Korea Herald's conversion, not the Times' $75B) is backed by slide 4, but it is a finance angle for an AI audience. The reader-impact option uses the only reader effect the articles state: about ₩100T ($75.5B) going back to shareholders this year (slide 4). The articles name no effect on consumer prices, devices or AI services, so it speaks only to readers who own SK hynix shares and stops fewer scrolls. 'AI SPEND PEAKED? SK HYNIX SAYS NO' (slides 5-6) paraphrases the company's case rather than a statement it made. I dropped a record-profits-vs-falling-shares myth-flip: the 18.8% fall ran from Sept. 1 to Oct. 27, and the stock was trading 7.68% higher on the morning of Oct. 28.",
+    "image_prompt": "Cinematic macro shot of a towering stack of thin, translucent silicon memory layers rising from a polished wafer like a glowing skyscraper, fine threads of golden light running vertically through every layer, more stacks receding into a dark, hazy cleanroom behind it, warm amber glow against cool blue rim light, shallow depth of field. Plain, unmarked surfaces. Main subject in the upper half, lower third fading into deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261028_054246_341d3a41-219b-405f-bc1f-b453565114b4.png"
+  },
+  "slides": [
+    {
+      "kicker": "The demand",
+      "title": "Sold out through 2029",
+      "body": [
+        "SK hynix, the South Korean memory chip maker, says its high-bandwidth memory (HBM) for AI processors and its other DRAM are already **sold out** for the next three years. Long-term deals with **14 major customers** cover over 50% of its 2027 and 2028 capacity."
+      ]
+    },
+    {
+      "kicker": "The numbers",
+      "title": "A record quarter",
+      "body": [
+        "Booming demand for AI memory drove SK hynix to record third-quarter earnings. Operating profit hit **₩83.33T (about $62.8B)**, up 38% from the previous quarter and **632%** from a year earlier, with an operating margin of nearly 80%."
+      ]
+    },
+    {
+      "kicker": "The payout",
+      "title": "Money back to shareholders",
+      "body": [
+        "SK hynix plans to return **about ₩100T ($75.5B)** to shareholders this year, through cash dividends and by buying back and canceling shares. It aims to fulfill its pledge to return at least **50% of free cash flow**."
+      ]
+    },
+    {
+      "kicker": "The stock",
+      "title": "Profits soared, shares didn't",
+      "body": [
+        "SK hynix shares fell **18.8%** from Sept. 1 to Oct. 27, amid concerns that AI investment by global tech giants may have peaked. The company calls its shares “undervalued.” On Oct. 28 they traded **7.68% higher** at 10:30 a.m. Seoul time."
+      ]
+    },
+    {
+      "kicker": "The outlook",
+      "title": "Demand to outrun supply",
+      "body": [
+        "SK hynix expects memory demand to exceed supply through **2030**. AI investment, once concentrated among major tech companies, is spreading to **businesses and governments**, it says: “Even when one group of investors scales back its demand, others are increasing theirs.”"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "SK hynix, \"the South Korean memory chip maker\" (Korea Herald wording), reported record third-quarter (Q3) earnings on Wednesday, Oct. 28, 2026, as booming demand for artificial intelligence memory pushed its quarterly revenue above 100 trillion won (₩100T) for the first time. The record and the first are SK hynix's own, not a Korean or industry first."
+    },
+    {
+      "source": 0,
+      "text": "Q3 operating profit rose 38% (38 percent) from the previous quarter to 83.33 trillion won (₩83.33T), an operating margin of nearly 80% (nearly 80 percent). Revenue rose 32% to 104.62 trillion won; net profit was 39.78 trillion won (no dollar figures given for revenue or net profit)."
+    },
+    {
+      "source": 1,
+      "text": "The Korea Times sub-headline on the page reads \"Chipmaker logs $62.8 bil. in Q3 operating profit\": Q3 operating profit of 83.33 trillion won is about $62.8B (62.8). Q3 revenue (104.6 trillion won) and operating profit rose 328% and 632% (632 percent) year on year, and it was the first time the company's quarterly revenue surpassed 100 trillion won."
+    },
+    {
+      "source": 1,
+      "text": "During its earnings call, SK hynix said its high bandwidth memory (HBM) products for AI accelerators and its other DRAM products have already sold out for the next three years through 2029 (the company's statement, about its own memory). It also said: \"Currently, more than 50 percent of our production capacity for 2027 and 2028 is covered by long-term agreements.\""
+    },
+    {
+      "source": 0,
+      "text": "Long-term agreements with 14 major customers cover more than 50% (50 percent) of SK hynix's production capacity for 2027 and 2028. HBM4 is advanced memory used in AI processors. Neither article names the customers."
+    },
+    {
+      "source": 0,
+      "text": "SK hynix expects memory demand to exceed supply through 2030 (an expectation, separate from the sold-out-through-2029 statement)."
+    },
+    {
+      "source": 1,
+      "text": "SK hynix on the call: \"Considering the technical complexity of advanced manufacturing processes and the time required to build new production facilities, we expect supply to continue falling short of demand through 2030. … While initial AI investments were concentrated among major tech companies, the investor base is rapidly expanding to include businesses across industries and governments investing in sovereign AI. Even when one group of investors scales back its demand, others are increasing theirs.\""
+    },
+    {
+      "source": 0,
+      "text": "SK hynix plans to return about 100 trillion won ($75.5 billion; ₩100T, $75.5B) to shareholders this year (2026): at least 30 trillion won (₩30T) in cash dividends and at least 60 trillion won (₩60T) in share buybacks and cancellations, aiming to fulfill its pledge to return at least 50% (50 percent) of free cash flow to shareholders. No dollar figures are given for the 30T and 60T won parts."
+    },
+    {
+      "source": 1,
+      "text": "SK hynix announced the 100 trillion won shareholder return plan to address the mismatch between its sluggish share price and record-breaking earnings performance. Despite the record earnings, its shares fell 18.8% (18.8 percent) from 1,693,000 won on Sept. 1 to 1,374,000 won on Tuesday (Oct. 27, 2026). Investors have questioned whether demand for memory chips will remain strong amid concerns that AI-related investments by global tech giants may have already peaked."
+    },
+    {
+      "source": 1,
+      "text": "\"We believe our shares are undervalued, as their current price does not fully reflect the profits and cash flow the company is generating,\" the company said."
+    },
+    {
+      "source": 1,
+      "text": "The stock was trading 7.68% (7.68 percent) higher as of 10:30 a.m. Wednesday (Oct. 28, 2026; an intraday move, not a close), as investors welcomed the shareholder return plan and earnings that exceeded brokerage consensus estimates."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Herald",
+      "title": "SK hynix posts record Q3 profit, plans W100tr in shareholder returns this year",
+      "date": "Oct 28, 2026",
+      "url": "https://www.koreaherald.com/article/10917003"
+    },
+    {
+      "outlet": "The Korea Times",
+      "title": "SK hynix pledges to return $75 bil. to shareholders",
+      "date": "Oct 28, 2026",
+      "url": "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-pledges-to-return-75-bil-to-shareholders"
+    }
+  ],
+  "caption": "South Korea's SK hynix says its HBM, the memory used in AI processors, and its other DRAM are sold out through 2029.\n\nThe memory chip maker posted record third-quarter earnings on booming demand for AI memory. Long-term deals with 14 major customers cover more than 50% of its production capacity for 2027 and 2028, and it expects memory demand to exceed supply through 2030.\n\n→ SK hynix's third-quarter operating profit hit ₩83.33T (about $62.8B), up 38% from the previous quarter, with an operating margin of nearly 80%\n→ SK hynix plans to return about ₩100T ($75.5B) to shareholders this year, through cash dividends and share buybacks\n→ SK hynix shares fell 18.8% from Sept. 1 to Oct. 27; the company calls them \"undervalued\", and on Oct. 28 they were trading 7.68% higher at 10:30 a.m. Seoul time\n\nIs AI demand peaking, or just spreading to new buyers?\n\nSource: The Korea Herald, \"SK hynix posts record Q3 profit, plans W100tr in shareholder returns this year\", Oct 28, 2026; The Korea Times, \"SK hynix pledges to return $75 bil. to shareholders\", Oct 28, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#SKhynix",
+    "#HBM",
+    "#KoreaAI",
+    "#Semiconductors"
+  ],
+  "threads_caption": "South Korea's SK hynix says its HBM, the memory used in AI processors, and its other DRAM are sold out through 2029.\n\nIts third-quarter operating profit hit ₩83.33T (about $62.8B), and it plans to return about ₩100T ($75.5B) to shareholders this year.\n\nSource: The Korea Times, \"SK hynix pledges to return $75 bil. to shareholders\"; The Korea Herald, \"SK hynix posts record Q3 profit, plans W100tr in shareholder returns this year\". #SKhynix"
+}

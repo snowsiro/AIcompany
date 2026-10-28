@@ -1,0 +1,863 @@
+{
+  "date": "2026-10-28",
+  "run": "morning (split-schedule trial 10/28-10/30): the 13:57 post favours Korea/Asia/Europe; the 19:15 evening run uses later news plus the leftovers in this file",
+  "notes": "Scan folder present (reference.json and feeds.json fetched 04:47 UTC). No Instagram token, so reference.json was used: 10/10 accounts ok; ai.ainow and ddalkkak.mag had 0 posts in 48h. Reference posts are almost all sponsored tools or contests (Higgsfield, Newtake, Dreamina, CapCut, Pippit, Readray/LilysAI on 3 accounts, CJ Hetbahn AI contest on 3, Utopai Studios on 3 including one labelled #광고). None overlaps with today's candidates, so every reference_posts list is empty. News-like reference topics not used: Utopai $60M at a $1B valuation (moodmode.ai, sdk.kim.builds paid ad, trenddalkak.ai; the scoop is The Information from Oct 22, the only readable relay (Music Ally) is thin, and the coverage is a paid campaign); Pollen Robotics Microduck 20,000 preorders (ai.trend.kr reel; news from Oct 22-23, too old); Unitree kick demo (moodmode.ai; no news article found); GPT-6.1 Terra (already posted 10-27); Marqvision (ai_freaks.kr; no fresh article). Google News links were resolved to publisher URLs. Blocked after 2 retries and skipped: Reuters (two Reuters stories read via syndication instead: The Kathmandu Post and Devdiscourse), SCMP (HK graduate job ads -22%, ByteDance founder rich list and Moonshot apology all dropped), Yonhap, Sifted (22one AI police startup at $400M dropped), The Verge, Ars Technica (Anthropic S-1 risk factors and Delaware AI-run businesses dropped), The Hill, CNET, The Edge Singapore. Lead paragraph only (paywall or consent wall), so dropped: Nikkei Asia (Sakana AI building the homegrown 'Sawara' model; Fujifilm raising magnetic-tape capacity 5x), Der Standard (Austria's GovGPT giving wrong legal answers to judges; Sanxingdui AI film flop; OpenAI ExploitGym/Hugging Face report). Feeds that failed in the scan: Euractiv, European Commission, DeepL, Korea JoongAng Daily (story 2 still uses JoongAng, found through Google News search). Politico Europe was empty in the scan and returns 403. Stale, not used: Nvidia's supply-chain expansion with Samsung Electro-Mechanics, Amkor and Ibiden (etnews ran it on 10-28, but Nvidia's release is from GTC Berlin, about Oct 21). Lower Korea/Asia/Europe leads not written up: Korea's government AI health chatbot built on 5M+ health survey records (AI Times), Bank of Korea report on AI circular financing and neocloud risk (AI Times), Samsung Electro-Mechanics record Q3 with operating profit of 691.0B won, +165% (DT), Nanbeige4.3-33B open model (AI Times), rising GPU rental prices including A100 (AI Times), Nvidia's Madison Huang visiting Seoul (Korea Herald), ASM International raising its 2027 forecast (TNW, Netherlands), Opera WebAI local AI in the browser (TechCrunch), Nvidia backing India's Simplismart (TechCrunch). US leads not written up: Nvidia $3B and AMD $1B into Meta's share offering (AI Times, Nvidia), Bank of America warning customers not to give AI agents their passwords (TechCrunch), Uber putting 30,000 staff on ChatGPT Work. Follow-ups to recent posts, so treated as repeats: heise 10-27 user report that Claude now blocks smart-TV reverse engineering (follows posts/2026-10-26-claude-code-tv-ads); SCMP Moonshot apology for the Kimi K3.1 Pro launch (follows posts/2026-10-25-kimi-k3-1-pro, and blocked anyway). Repeat check against posts/ since 10-14: no candidate repeats a posted story; same-company overlaps are noted in each entry (Anthropic 10-22 and 10-26, OpenAI 10-24 and 10-27, Google 10-27, Nvidia 10-23). Candidates 1-8 are Korea/Asia/Europe (morning slot); 9-12 are US stories left for the 19:15 run. Alphabet reports Q3 later Wednesday, which may update story 10.",
+  "candidates": [
+    {
+      "id": "sk-hynix-q3-record",
+      "title": "SK hynix posts a record Q3: 83.33T won operating profit at a near-80% margin, and plans about 100T won of shareholder returns this year",
+      "region": "KOREA",
+      "category_suggestion": "BUSINESS",
+      "slot_fit": "morning",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. Related theme only: posts/2026-10-18-imf-korea-ai-chips (status sample, never published). SK Group's data-center plan is a different story in posts/_backlog/2026-10-25-sk-hyper-5gw-data-centers.md.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. Also in Nikkei Asia (lead only), DT, and Yonhap (blocked).",
+      "articles": [
+        {
+          "outlet": "The Korea Herald",
+          "title": "SK hynix posts record Q3 profit, plans W100tr in shareholder returns this year",
+          "date": "2026-10-28",
+          "published": "2026-10-28T08:48:24+09:00",
+          "url": "https://www.koreaherald.com/article/10917003"
+        },
+        {
+          "outlet": "The Korea Times",
+          "title": "SK hynix pledges to return $75 bil. to shareholders",
+          "date": "2026-10-28",
+          "published": "2026-10-27T23:33:02Z (page shows Oct 28, 2026 8:33 am KST)",
+          "url": "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-logs-record-q3-operating-profit-of-628-bil"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "SK hynix reported record third-quarter earnings on Wednesday (Oct 28); booming demand for AI memory pushed quarterly revenue above 100 trillion won for the first time."
+        },
+        {
+          "article": 0,
+          "fact": "Operating profit rose 38% from the previous quarter to 83.33 trillion won, an operating margin of nearly 80%. Revenue rose 32% to 104.62 trillion won. Net profit was 39.78 trillion won."
+        },
+        {
+          "article": 1,
+          "fact": "Q3 revenue and operating profit were up 328% and 632% year on year. The Korea Times headline puts the operating profit at $62.8 billion."
+        },
+        {
+          "article": 0,
+          "fact": "SK hynix plans to return about 100 trillion won ($75.5 billion) to shareholders this year: at least 30 trillion won in cash dividends and at least 60 trillion won in share buybacks and cancellations, to keep its pledge of returning at least 50% of free cash flow."
+        },
+        {
+          "article": 0,
+          "fact": "The board approved another 20 trillion won of buybacks. 10 trillion won will be canceled as part of the shareholder return; the other 10 trillion won is reserved for employee compensation and is not counted. The Q3 dividend is 20,000 won per share, including a 10,000 won special dividend tied to its Kioxia investment."
+        },
+        {
+          "article": 1,
+          "fact": "\"We believe our shares are undervalued, as their current price does not fully reflect the profits and cash flow the company is generating,\" the company said. Despite record earnings, shares fell 18.8% from 1,693,000 won on Sept. 1 to 1,374,000 won on Tuesday."
+        },
+        {
+          "article": 1,
+          "fact": "The stock was trading 7.68% higher at 10:30 a.m. Wednesday as investors welcomed the return plan and earnings that beat brokerage consensus."
+        },
+        {
+          "article": 1,
+          "fact": "The company said its HBM products for AI accelerators and its other DRAM products have already sold out for the next three years through 2029, and that long-term agreements cover more than 50% of its production capacity for 2027 and 2028."
+        },
+        {
+          "article": 0,
+          "fact": "Those long-term agreements are with 14 major customers. SK hynix expects memory demand to exceed supply through 2030, and expects HBM4 to overtake HBM3E in both shipment volume and revenue in the fourth quarter."
+        },
+        {
+          "article": 1,
+          "fact": "CEO Kwak Noh-jung explained Friday's decision to scrap the IPO of subsidiary Solidigm, citing recent volatility in financial markets and semiconductor stocks."
+        }
+      ],
+      "notes": "Freshest Korea story with the hardest numbers. Use one exchange rate per article: Korea Herald gives 100T won = $75.5B; Korea Times gives 100T won = $75B and Q3 operating profit = $62.8B. 'Sold out through 2029' (Korea Times) and 'demand exceeds supply through 2030' (both) are different claims; keep them apart. Who-is line: 'the South Korean memory chip maker' (Korea Herald wording). Neither article names SK hynix's customers."
+    },
+    {
+      "id": "korea-ai-hacking-ring",
+      "title": "Korea's first big AI-assisted hacking arrests: 7 suspects, about 90 organizations, 8.2 million records",
+      "region": "KOREA",
+      "category_suggestion": "SECURITY",
+      "slot_fit": "morning",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. posts/2026-10-22-php-ai-flaws was about AI finding PHP flaws, a different story.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. Widely reported by Korean and security outlets (Chosun, Seoul Economic Daily, Decrypt).",
+      "articles": [
+        {
+          "outlet": "Korea JoongAng Daily",
+          "title": "Seven arrested for using generative AI to hack 90 organizations",
+          "date": "2026-10-26",
+          "published": "2026-10-26T07:38:28Z",
+          "url": "https://www.koreajoongangdaily.com/korea/seven-arrested-for-using-generative-ai-to-hack-90-organizations/12938493"
+        },
+        {
+          "outlet": "BleepingComputer",
+          "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+          "date": "2026-10-26",
+          "published": "2026-10-26T17:08:28-04:00",
+          "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/"
+        },
+        {
+          "outlet": "ZDNet Korea",
+          "title": "'모두의 AI 해킹' 시대 왔나…개인정보 820만건 탈취 일당 덜미",
+          "title_en": "Has the era of 'AI hacking for everyone' arrived? Gang that stole 8.2 million personal records caught",
+          "language": "Korean",
+          "date": "2026-10-27",
+          "published": "2026-10-27T07:47:33+09:00",
+          "url": "https://zdnet.co.kr/view/?no=20261027074733"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Japan internet giant GMO says hackers posted stolen customer data",
+          "date": "2026-10-27",
+          "published": "2026-10-27T13:32:57Z",
+          "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "The Seoul Metropolitan Police Agency's cyber investigation division said Monday (Oct 26) it had apprehended seven suspects, a self-taught coder and six accomplices, who allegedly used generative AI to hack some 90 organizations across Korea and stole 8.2 million records. Police called them the country's first arrests in a large-scale AI-assisted hacking case."
+        },
+        {
+          "article": 0,
+          "fact": "Between September last year and October this year, the group allegedly hit hospitals, golf courses, universities, private academies and subsidiaries of major conglomerates, taking personal information and internal corporate documents."
+        },
+        {
+          "article": 0,
+          "fact": "They sent threatening emails to 38 of the organizations and demanded a combined 360 million won ($272,000) not to leak the data."
+        },
+        {
+          "article": 2,
+          "fact": "Only one company paid, and it paid 300,000 won. Only 15 victims have reported the breach; about 75 have not yet."
+        },
+        {
+          "article": 1,
+          "fact": "Police said the hacker used the ARTEX AI penetration testing suite, the same autonomous framework used in attacks on multiple South Korean banks attributed to a Chinese-speaking threat actor. He started with conventional tools and adopted AI utilities in late August 2026 to expand the attacks."
+        },
+        {
+          "article": 2,
+          "fact": "He combined Artex, an open-source AI autonomous penetration-testing tool developed in China, with a coding-agent tool. 60 of the victim companies were breached with generative AI, over a little more than 40 days."
+        },
+        {
+          "article": 1,
+          "fact": "The leader is a self-taught 32-year-old (per Yonhap) who worked at a cybersecurity company from 2019 to 2022. He was arrested on Oct 15 and referred to prosecutors on Oct 23; the other six remain under investigation without detention."
+        },
+        {
+          "article": 1,
+          "fact": "Police told Yonhap: \"Even individuals who are not professional hacker organizations can now hack on a large scale with the help of AI.\""
+        },
+        {
+          "article": 0,
+          "fact": "Police said they had recovered all stolen records containing personal information, and that an internal AI-powered analysis system helped them examine large volumes of evidence and logs."
+        },
+        {
+          "article": 3,
+          "fact": "In Japan, GMO Internet is investigating a breach of its Onamae cloud desktop service; hackers demanded about 8 billion yen (~$50 million). About a week earlier its security unit reported that a Chinese AI-enabled pentest tool called Artex was used in hacks on companies across Japan, but GMO has not publicly linked Artex to this breach."
+        }
+      ],
+      "notes": "Strong reader-impact Korea story (AI lowers the bar for cybercrime) with three readable originals. Announced Monday Oct 26, about 2 days old. 'Seven arrested' is the headline wording, but only the leader is in custody (BleepingComputer). Exchange rate: JoongAng gives $272,000 and BleepingComputer gives $270,000 for 360M won; pick one. Do not say Artex caused the GMO breach. Use the TechCrunch GMO facts only as Asia context."
+    },
+    {
+      "id": "naver-brookfield-9b",
+      "title": "Naver signs for up to $9B of Brookfield-funded AI computing, clearing the way for Nvidia's $1B stake",
+      "region": "KOREA",
+      "category_suggestion": "INFRA",
+      "slot_fit": "morning",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New (the July plan was never posted). Nvidia was last posted 10-23 (china-nvidia-35b), a different story.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. Also in Chosunbiz and Businesskorea.",
+      "articles": [
+        {
+          "outlet": "The Korea Herald",
+          "title": "Naver seals $9b Brookfield deal to finance AI factory",
+          "date": "2026-10-27",
+          "published": "2026-10-27T17:42:08+09:00",
+          "url": "https://www.koreaherald.com/article/10916658"
+        },
+        {
+          "outlet": "Seoul Economic Daily",
+          "title": "NAVER Signs $9 Billion AI Infrastructure Deal With Brookfield",
+          "date": "2026-10-27",
+          "published": "2026-10-27T18:23:25+09:00",
+          "url": "https://en.sedaily.com/technology/2026/10/27/naver-signs-9-billion-ai-infrastructure-deal-with-brookfield"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "Naver finalized a deal with US-based asset manager Brookfield to secure up to $9 billion of AI computing infrastructure, putting a formal financing structure in place for its $10 billion AI factory project with Nvidia. Naver disclosed it in a regulatory filing on Tuesday (Oct 27)."
+        },
+        {
+          "article": 1,
+          "fact": "Seoul Economic Daily gives the $9 billion as 12 trillion won."
+        },
+        {
+          "article": 0,
+          "fact": "Brookfield will set up a special-purpose vehicle, tentatively named Asset Co, to invest up to $9 billion in GPUs, data centers and other AI infrastructure. Naver Cloud will use the computing through a GPU-as-a-service arrangement and sell AI data center services to outside customers."
+        },
+        {
+          "article": 0,
+          "fact": "The structure is designed to reduce Naver's upfront capital burden: Brookfield finances the infrastructure, and Naver Cloud pays usage fees linked to the business's revenue, so it can expand capacity in stages as demand grows."
+        },
+        {
+          "article": 1,
+          "fact": "Naver agreed to guarantee Naver Cloud's usage-fee obligations for up to eight years."
+        },
+        {
+          "article": 1,
+          "fact": "Naver plans to bring 55 megawatts online in the first half of 2027 and to expand to 200 megawatts by 2028."
+        },
+        {
+          "article": 0,
+          "fact": "The agreement is expected to bring Nvidia's planned $1 billion equity investment closer to completion. Nvidia would buy newly issued shares and become Naver's third-largest shareholder. Seoul Economic Daily says the deal satisfies the precondition for that investment."
+        },
+        {
+          "article": 0,
+          "fact": "Nvidia will provide technical support, including its DSX high-performance computing platform."
+        },
+        {
+          "article": 0,
+          "fact": "Brookfield manages more than $1 trillion in assets. It has a chipmaking joint venture with Intel and partnered with Microsoft on renewable energy for AI infrastructure."
+        },
+        {
+          "article": 0,
+          "fact": "In July Naver named Brookfield its exclusive preferred negotiating partner for a 12-week period. Naver announced the $10 billion global AI factory project with Nvidia and Brookfield in July."
+        }
+      ],
+      "notes": "Follow-up to the July plan; the news is the signed financing. Clear money numbers. Who-is line for Naver ('South Korea's largest internet company') is plain background. If Nvidia is the angle, it should not be paired with another Nvidia pick."
+    },
+    {
+      "id": "china-ai-stock-bubble",
+      "title": "China's AI stock bubble pops: the STAR 50 is down 40% since July, wiping out about $480B",
+      "region": "CHINA",
+      "category_suggestion": "BUSINESS",
+      "slot_fit": "morning",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. Not the same story as posts/2026-10-25-kimi-k3-1-pro or posts/2026-10-26-korea-chinese-ai-models.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it (moodmode.ai's Unitree reel on 10-28 is a robot demo, not the stock slump). Widely covered (Reuters, NDTV, News.com.au).",
+      "articles": [
+        {
+          "outlet": "The Kathmandu Post (Reuters)",
+          "title": "In China, the AI bubble has already burst",
+          "date": "2026-10-27",
+          "published": "URL dated 2026/10/27; Google News 2026-10-28 03:30 GMT",
+          "url": "https://kathmandupost.com/world/2026/10/27/in-china-the-ai-bubble-has-already-burst"
+        },
+        {
+          "outlet": "AI Times (Korea)",
+          "title": "중국 AI 거품 붕괴 가속…기술주 시총 640조 증발",
+          "title_en": "China's AI bubble collapse speeds up... 640 trillion won of tech-stock value gone",
+          "language": "Korean",
+          "date": "2026-10-28",
+          "published": "2026-10-28T13:12:01+09:00",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=216748"
+        },
+        {
+          "outlet": "heise online",
+          "title": "Erste KI-Blase geplatzt? Chinas KI-Leitindex 40 Prozent unter dem Höchststand",
+          "title_en": "First AI bubble burst? China's leading AI index 40 percent below its peak",
+          "language": "German",
+          "date": "2026-10-27",
+          "published": "2026-10-27T06:53:00+01:00",
+          "url": "https://www.heise.de/news/Erste-KI-Blase-geplatzt-Chinas-KI-Leitindex-40-Prozent-unter-dem-Hoechststand-11501107.html"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "The mainland STAR 50 index of AI and semiconductor companies has fallen 40% in less than four months, wiping out about $480 billion in market value. China's CSI 300 blue-chip index is down about 20% from its June peak."
+        },
+        {
+          "article": 0,
+          "fact": "There was no clear trigger. Traders cited high valuations, tax bills, and the threat of the United States and other countries banning Chinese equipment from data centres."
+        },
+        {
+          "article": 0,
+          "fact": "AI stocks account for 42% of China's market capitalisation and 57% of turnover across mainland A-shares and Hong Kong H-shares, according to Goldman Sachs."
+        },
+        {
+          "article": 0,
+          "fact": "Shares in robot maker Unitree, whose offering was 8,000 times oversubscribed by retail investors, have halved since trading began in August. Chipmakers MetaX and Moore Threads, which surged 700% and 400% on their debuts last year, have lost half their value since July."
+        },
+        {
+          "article": 0,
+          "fact": "The STAR 50 still trades at around 100 times its past 12 months' earnings, down from a peak of nearly 250 times; the Nasdaq 100 trades at about 30. US AI stocks have had a more modest setback, contributing to a 6% Nasdaq decline from a record high three weeks ago."
+        },
+        {
+          "article": 0,
+          "fact": "\"The stock market later evolved into a speculative crazy bull,\" said Beijing-based fund manager Dong Baozhen. \"And now we see the bubble bursting.\""
+        },
+        {
+          "article": 1,
+          "fact": "On Oct 27 the STAR 50 fell another 4.8% in one day, to its lowest since March. The chip-sector index fell 5.8% and the AI-sector index about 4%; the Shanghai Composite fell 1.3% to a 14-month low."
+        },
+        {
+          "article": 1,
+          "fact": "AI model makers MiniMax and Z.ai (Zhipu AI), which listed in Hong Kong in January, have together lost $150 billion of market value from their peaks (Bloomberg tally, Oct 23). MiniMax fell from HK$1,330 on March 18 to HK$160.70 on Oct 22, about 88% down and below its IPO price."
+        },
+        {
+          "article": 1,
+          "fact": "Price competition is the biggest squeeze: Chinese firms keep cutting per-token API fees, and US firms such as OpenAI and Anthropic are cutting prices too. MiniMax and Z.ai are not yet profitable; JPMorgan expects AI model and application companies to turn profitable around 2028."
+        },
+        {
+          "article": 0,
+          "fact": "\"What's happening is now going to put a stop for many of the companies trying to get themselves listed,\" said Hong Hao, CIO of Lotus Asset Management in Hong Kong."
+        }
+      ],
+      "notes": "This is the Reuters analysis, read through The Kathmandu Post's syndicated copy (the text mentions 'questions sent by Reuters'). heise and AI Times also relay Reuters. Region CHINA. Market story, so no investment advice and no 'AI bubble everywhere' claim: Reuters contrasts it with the milder US setback."
+    },
+    {
+      "id": "netherlands-25000-civil-servants",
+      "title": "The Netherlands plans 25,000 fewer central-government jobs by 2035, with AI among the tools",
+      "region": "EUROPE",
+      "category_suggestion": "POLICY",
+      "slot_fit": "morning",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. Widely covered (Bloomberg, Telegraph, Volkskrant, RTL; Der Standard in Austria, lead paragraph only).",
+      "articles": [
+        {
+          "outlet": "NOS",
+          "title": "Kabinet wil 25.000 rijksambtenaren minder, politie en defensie uitgezonderd",
+          "title_en": "Cabinet wants 25,000 fewer central government civil servants, police and defence exempted",
+          "language": "Dutch",
+          "date": "2026-10-26",
+          "published": "2026-10-26T11:06:22+01:00",
+          "url": "https://nos.nl/artikel/2636722-kabinet-wil-25-000-rijksambtenaren-minder-politie-en-defensie-uitgezonderd"
+        },
+        {
+          "outlet": "TVP World",
+          "title": "Dutch cabinet eyes €3.5 billion in annual savings through AI-led job cuts",
+          "date": "2026-10-27",
+          "published": "2026-10-27T14:02:00+01:00",
+          "url": "https://tvpworld.com/96151420/netherlands-to-cut-25000-civil-service-jobs-in-ai-backed-drive"
+        },
+        {
+          "outlet": "The Japan Times",
+          "title": "Dutch bid to replace government jobs with AI set to test technology and society",
+          "date": "2026-10-28",
+          "published": "2026-10-28T11:41:00+09:00",
+          "url": "https://www.japantimes.co.jp/business/2026/10/28/tech/ai-government-jobs-dutch/"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "The Dutch central government should manage with about 25,000 fewer civil servants, under plans by State Secretary Eric van der Burg (Effective Government). By 2035 about 16% of the roughly 160,000 full-time civil servants are to go. It is the first time he has put a number on the jobs."
+        },
+        {
+          "article": 1,
+          "fact": "The cabinet said on Monday (Oct 26) it plans to eliminate an estimated 25,000 full-time-equivalent positions by 2035. The wider cost cuts are meant to save €900 million in 2027, rising to €3.5 billion a year from 2035."
+        },
+        {
+          "article": 2,
+          "fact": "The Japan Times gives the 2035 saving as €3.5 billion ($3.9 billion) a year, and says ministries, inspectorates and implementing agencies could see headcount reductions of as much as 60%."
+        },
+        {
+          "article": 0,
+          "fact": "Police and defence are exempt. Agencies already under pressure, such as the UWV (benefits), IND (immigration) and the Belastingdienst (tax authority), are not exempted in advance."
+        },
+        {
+          "article": 0,
+          "fact": "To manage with fewer people, ministries' facility services will be pared back, IT systems standardised, and other efficiency measures examined, including the use of AI."
+        },
+        {
+          "article": 1,
+          "fact": "The cabinet also plans to expand AI adoption to raise productivity. Targets and savings plans for AI use are expected in the first quarter of 2027."
+        },
+        {
+          "article": 0,
+          "fact": "The cabinet is also looking at scrapping advisory councils (28 today) and advisory committees (about 150), and at reforming the Open Government Act."
+        },
+        {
+          "article": 1,
+          "fact": "\"We cannot keep doing what we have been doing,\" Van der Burg said. \"That is why we are going to make tough choices for a central government that really works: simpler, smarter and smaller.\""
+        },
+        {
+          "article": 1,
+          "fact": "The central government workforce has grown 41% since 2018, to a record 160,000 at the end of 2025, despite earlier governments' promises to cut headcount (per Bloomberg)."
+        },
+        {
+          "article": 2,
+          "fact": "Translated to the US, the plan would mean about 150,000 job cuts, according to the Japan Times' calculations."
+        }
+      ],
+      "notes": "Best Europe story today, with reader impact (government jobs). It was announced Monday Oct 26, and the Japan Times analysis is from today. Framing caution: headlines say 'replace with AI', but NOS and TVP make AI one tool alongside simpler rules, standard IT and fewer advisory bodies, and the AI targets only come in Q1 2027. Do not write 'AI will replace 25,000 workers'. Share of staff: NOS and TVP say about 16%, the Japan Times about 15%; pick one source. €900M has no dollar figure in any article; the Japan Times gives €3.5B = $3.9B. Japan Times text is the lead only (paywall), but it is article text."
+    },
+    {
+      "id": "skt-anthropic-ipo-stake",
+      "title": "Anthropic's IPO could lift SK Telecom's stake to an estimated 7.26T won; Naver, LG CNS, Samsung and SK hynix also hold shares",
+      "region": "KOREA",
+      "category_suggestion": "BUSINESS",
+      "slot_fit": "morning",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New Korea angle on Anthropic's IPO (posts/_backlog/2026-10-27-anthropic-ipo-s1.md, never posted). Anthropic was posted 10-22 (claude-duet) and 10-26 (claude-code-tv-ads). Same company as candidate anthropic-ipo-control-amazon: use one at most.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it.",
+      "articles": [
+        {
+          "outlet": "The Korea Herald",
+          "title": "Anthropic IPO puts Korean tech firms' early bets in spotlight",
+          "date": "2026-10-27",
+          "published": "2026-10-27T14:21:38+09:00",
+          "url": "https://www.koreaherald.com/article/10916290"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "Anthropic filed for an IPO with the US SEC on Monday (Oct 26), targeting a Nasdaq debut under the ticker \"ANT\" as early as November."
+        },
+        {
+          "article": 0,
+          "fact": "Anthropic is reportedly seeking to raise as much as $100 billion at a valuation of up to $2 trillion, which could surpass SpaceX's record $75 billion IPO in June. The filing did not disclose the number of shares or a price range."
+        },
+        {
+          "article": 0,
+          "fact": "SK Telecom invested $100 million in Anthropic in August 2023, when the startup was valued at $5 billion, and bought another 157,189 shares for roughly $100 million in the first half of this year."
+        },
+        {
+          "article": 0,
+          "fact": "The book value of SK Telecom's Anthropic holdings reached 3.51 trillion won ($2.65 billion) at the end of June, up from 1.38 trillion won at the end of last year. At a $2 trillion IPO valuation the stake could be worth an estimated 7.26 trillion won."
+        },
+        {
+          "article": 0,
+          "fact": "SK Telecom has indicated it will keep its investment rather than cash out after the IPO."
+        },
+        {
+          "article": 0,
+          "fact": "Naver invested about 10 billion won in Anthropic in the second half of last year, through an outside venture capital firm via its US arm Naver Ventures. It has since rolled out Claude Code across its development teams, alongside its own HyperClova X model."
+        },
+        {
+          "article": 0,
+          "fact": "LG CNS invested in Anthropic through LG Technology Ventures in 2023, and in June signed an agreement to adopt Claude Enterprise."
+        },
+        {
+          "article": 0,
+          "fact": "Samsung Electronics and SK hynix also reportedly invested at least 1 trillion won each in Anthropic in May."
+        },
+        {
+          "article": 0,
+          "fact": "SK Telecom and Anthropic have worked on a large language model for the telecom industry, and Anthropic recently opened a Seoul office."
+        }
+      ],
+      "notes": "Single source, full text. A Korea angle on the week's biggest AI money story. The 7.26T won figure has no dollar value in the article; the only exchange rate given is 3.51T won = $2.65B. 'Reportedly $100B at up to $2T' is unconfirmed; keep 'reportedly'. TechCrunch (candidate 9) gives a $965B private valuation, which is a different figure."
+    },
+    {
+      "id": "siri-ai-korean-eu-blocked",
+      "title": "Siri AI now speaks Korean, Japanese, French, Spanish and Portuguese, but stays blocked in the EU",
+      "region": "GLOBAL (Korea and Europe angle)",
+      "category_suggestion": "PRODUCT",
+      "slot_fit": "morning or evening",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. Apple has not been posted in the last 14 days.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. ZDNet Korea also led with Korean support.",
+      "articles": [
+        {
+          "outlet": "Apple Newsroom",
+          "title": "Siri AI is available in more languages starting today",
+          "date": "2026-10-26",
+          "published": "page text: October 26, 2026",
+          "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
+          "date": "2026-10-27",
+          "published": "2026-10-27T13:54:51Z",
+          "url": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/"
+        },
+        {
+          "outlet": "heise online",
+          "title": "Neue Sprachen für Siri AI – aber bloß kein Deutsch",
+          "title_en": "New languages for Siri AI – but no German",
+          "language": "German",
+          "date": "2026-10-27",
+          "published": "2026-10-27T17:08:00+01:00",
+          "url": "https://www.heise.de/news/Apple-bringt-Siri-AI-mehr-Sprachen-bei-ausser-Deutsch-11502247.html"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "With the 27.2 software updates (Oct 26), Siri AI, Apple's new version of Siri built on Apple Intelligence, became available in French, Japanese, Korean, Portuguese and Spanish, in beta."
+        },
+        {
+          "article": 0,
+          "fact": "Chinese (traditional), Norwegian, Turkish and Vietnamese are coming by the end of the year."
+        },
+        {
+          "article": 0,
+          "fact": "Siri AI is currently unavailable in the EU in iOS, iPadOS and watchOS. Apple says it \"is working constructively with the EU in an attempt to find a path forward.\""
+        },
+        {
+          "article": 2,
+          "fact": "heise: it is unclear when and how Apple can adapt Siri AI to the EU's Digital Markets Act, which requires gatekeepers like Apple to give rivals similarly deep access to the operating system as their own features."
+        },
+        {
+          "article": 2,
+          "fact": "Until now Siri AI only worked if the whole system and Siri were set to English. German is missing from this second round too and will likely come in 2027 at the earliest."
+        },
+        {
+          "article": 0,
+          "fact": "Server-based features including Siri AI are subject to daily usage limits, and Apple says \"expanded access to such features will be available for a fee in the future.\""
+        },
+        {
+          "article": 1,
+          "fact": "Siri AI can now remember details from past conversations and draw on photos in Messages, calendar event attendees, voicemails, Safari history and reading lists. Users can exclude apps from its memories."
+        },
+        {
+          "article": 0,
+          "fact": "Siri AI is not available to users under 13."
+        },
+        {
+          "article": 1,
+          "fact": "iOS 27.2 also includes over 160 security fixes. Apple says about 80% of iPhone owners still run iOS 26."
+        }
+      ],
+      "notes": "A big-company product story with both a Korea angle (Korean support) and a Europe angle (EU block). The region tag would be GLOBAL, so it fits the morning slot less well than candidates 1-6. A possible hook is the paid-access line, but it is in Apple's fine print, so quote it exactly ('expanded access... for a fee in the future')."
+    },
+    {
+      "id": "kt-token-factory",
+      "title": "KT launches Token Factory: 73 AI models on one telecom-style bill, with about 500 more via OpenRouter in November",
+      "region": "KOREA",
+      "category_suggestion": "BUSINESS",
+      "slot_fit": "morning (weaker)",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. Also in DT.",
+      "articles": [
+        {
+          "outlet": "The Korea Herald",
+          "title": "KT takes on global cloud providers with new enterprise AI service",
+          "date": "2026-10-27",
+          "published": "2026-10-27T14:56:10+09:00",
+          "url": "https://www.koreaherald.com/article/10916370"
+        },
+        {
+          "outlet": "ZDNet Korea",
+          "title": "AI 토큰도 통신처럼 판다...KT, 생산·유통 사업 진출",
+          "title_en": "AI tokens sold like telecom service... KT moves into producing and distributing them",
+          "language": "Korean",
+          "date": "2026-10-27",
+          "published": "2026-10-27T16:01:15+09:00",
+          "url": "https://zdnet.co.kr/view/?no=20261027145339"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "KT unveiled Token Factory on Tuesday (Oct 27), an enterprise AI platform that lets businesses use models from different providers through one service, taking on global cloud operators such as Amazon and Microsoft."
+        },
+        {
+          "article": 0,
+          "fact": "Token Factory launches Friday (Oct 30) with 73 models; KT plans to expand the lineup to more than 500 in November through a partnership with US AI marketplace OpenRouter."
+        },
+        {
+          "article": 0,
+          "fact": "Customers can pick models, monitor usage and pay in Korean won. An automated system sends simpler requests to cheaper models and harder tasks to stronger ones. KT estimates this can cut AI processing costs by up to 25%, based on internal tests whose comparison criteria were not disclosed."
+        },
+        {
+          "article": 0,
+          "fact": "Businesses can pay after use and combine AI charges with their existing telecom bills."
+        },
+        {
+          "article": 1,
+          "fact": "KT records token use with a 'token detail record' (TDR), modelled on the call detail records (CDR) telecoms use to bill calls, and sends customers one combined bill."
+        },
+        {
+          "article": 0,
+          "fact": "Only seven of the 73 launch models will run in KT's Korean data centers; most models supplied through OpenRouter will process requests overseas."
+        },
+        {
+          "article": 1,
+          "fact": "The launch lineup includes models from Korean AI firms Upstage and Motif and a 120-billion-parameter model developed by KT. KT says it will be the first telecom operator to list Korean AI models on OpenRouter for sale worldwide."
+        },
+        {
+          "article": 0,
+          "fact": "\"AI marketplaces generally take a commission of around 5 percent, but that's not our main business,\" said Lee Jin-hyoung, head of KT's AX business unit. \"We expect to earn most of our revenue from models running on our own GPUs, where we can control costs and set our margins.\""
+        },
+        {
+          "article": 0,
+          "fact": "KT has not disclosed revenue targets or confirmed paying customer numbers. OpenRouter agreed in August to be acquired by Stripe in a deal reportedly worth more than $8 billion."
+        }
+      ],
+      "notes": "A Korea business story with moderate global appeal; no big money figure of its own. Model count wording differs: the Korea Herald says 'more than 500' in November, ZDNet says 'about 500 more'. Who-is line: 'KT, one of South Korea's biggest telecom operators' is plain background."
+    },
+    {
+      "id": "anthropic-ipo-control-amazon",
+      "title": "Anthropic's IPO: public shareholders get little say, and Amazon looks like the biggest winner",
+      "region": "US",
+      "category_suggestion": "BUSINESS",
+      "slot_fit": "evening",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "Follow-up to the S-1 filing (posts/_backlog/2026-10-27-anthropic-ipo-s1.md, never posted). Anthropic was posted 10-22 and 10-26. Same company as skt-anthropic-ipo-stake.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. The Verge, Ars Technica, Reuters, MIT Tech Review and heise all ran IPO follow-ups (Verge, Ars and Reuters blocked).",
+      "articles": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Who's really in charge at Anthropic after the IPO?",
+          "date": "2026-10-27",
+          "published": "2026-10-27T21:38:28Z",
+          "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/"
+        },
+        {
+          "outlet": "TechCrunch",
+          "title": "VCs will make billions on Anthropic's IPO, but Amazon is set to make much (much) more",
+          "date": "2026-10-28",
+          "published": "2026-10-28T01:15:28Z",
+          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "Anthropic is a public benefit company, and its governance will leave common shareholders with little say over most major decisions, including who sits on its board."
+        },
+        {
+          "article": 0,
+          "fact": "A Long-Term Benefit Trust (LTBT) owns a class of stock that lets it elect and remove a majority of the board. It is chaired by Neil Shah and includes former Federal Reserve chair Ben Bernanke, national security expert Richard Fontaine and Harvard physicist Christopher Stubbs."
+        },
+        {
+          "article": 0,
+          "fact": "Anthropic's seven founders jointly own a special class of stock that gives a majority of them 50.1% of shareholder voting power, letting them elect three board members."
+        },
+        {
+          "article": 0,
+          "fact": "When the LTBT nominates a 'Specified' one of its four directors, or removes that director without cause, the board's nominating committee can decline to approve the move and throw the decision to the company's employees for a vote."
+        },
+        {
+          "article": 0,
+          "fact": "The founders can end their control ten years after the IPO, or it ends automatically when fewer than three of them remain. The LTBT continues until 85% of common shareholders vote to end it."
+        },
+        {
+          "article": 1,
+          "fact": "According to the S-1, no VC firm owns 5% of Anthropic. At its $965 billion private valuation a 1% stake is worth nearly $10 billion; Menlo's roughly $14 billion position is only about 1.5% (Bloomberg figures)."
+        },
+        {
+          "article": 1,
+          "fact": "Amazon holds convertible notes with $6.2 billion of principal outstanding as of June 30, Anthropic's entire debt load. Amazon's own filings valued the notes at $97.9 billion."
+        },
+        {
+          "article": 1,
+          "fact": "Amazon's total investment is about $18 billion, including $10 billion of nonvoting preferred stock bought in Q2. Its notes could convert into as many as 1.84 billion shares, capped at 12% of the 'partially diluted' share count."
+        },
+        {
+          "article": 1,
+          "fact": "Anthropic has committed to spend at least $110 billion on AWS over the next 10 years. Google has secured at least $114 billion in cloud commitments from Anthropic through 2033."
+        },
+        {
+          "article": 1,
+          "fact": "The line 'change in fair value of convertible notes, derivative liabilities, and SAFEs' totaled $72.4 billion for the first half of 2026; the charge is non-cash."
+        }
+      ],
+      "notes": "Both articles are TechCrunch, so the outlet rule applies (don't pair with another TechCrunch-led post). The complex structure needs a simple slide; avoid opinion lines from the article."
+    },
+    {
+      "id": "openai-google-tpu",
+      "title": "OpenAI reportedly plans to buy Google's TPU chips, widening the challenge to Nvidia",
+      "region": "US (Korea HBM angle)",
+      "category_suggestion": "INFRA",
+      "slot_fit": "evening",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. OpenAI was posted 10-24 (offline training) and 10-27 (GPT-6.1 Terra); Google 10-27 (Genie 4). Same-company watch.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. Also in Bloomberg (paywall) and DT.",
+      "articles": [
+        {
+          "outlet": "Reuters (via Devdiscourse)",
+          "title": "OpenAI plans to buy Google's AI chips, The Information reports",
+          "date": "2026-10-28",
+          "published": "Google News 2026-10-28 02:12 GMT (Reuters copy dated 2026-10-28)",
+          "url": "https://www.devdiscourse.com/article/international/3998389-openai-plans-to-buy-googles-ai-chips-the-information-reports"
+        },
+        {
+          "outlet": "Seoul Economic Daily",
+          "title": "OpenAI Weighs Buying Google TPUs, Easing Nvidia Reliance",
+          "date": "2026-10-28",
+          "published": "2026-10-28T11:32:24+09:00",
+          "url": "https://en.sedaily.com/international/2026/10/28/openai-weighs-buying-google-tpus-easing-nvidia-reliance"
+        },
+        {
+          "outlet": "Digital Times (Korea)",
+          "title": "“오픈AI도 구글 AI칩 구매 추진”…앤트로픽 이어 ‘TPU’ 확산",
+          "title_en": "\"OpenAI also moves to buy Google AI chips\"... TPUs spread after Anthropic",
+          "language": "Korean",
+          "date": "2026-10-28",
+          "published": "2026-10-28T13:52:42+09:00",
+          "url": "https://www.dt.co.kr/article/12091791"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "OpenAI plans to buy Google's AI chips, The Information reported on Tuesday (Oct 27), citing a person familiar with the matter. The report did not disclose financial terms; OpenAI declined to comment."
+        },
+        {
+          "article": 0,
+          "fact": "Last week OpenAI said it would make its frontier AI models available through Google Cloud. Reuters reported in June 2025 that OpenAI had begun renting Google's AI chips."
+        },
+        {
+          "article": 0,
+          "fact": "Google began selling TPUs directly to some customers this year. Alphabet expects to start recognizing a small share of TPU sales revenue by the end of this year and the vast majority in 2027, CFO Anat Ashkenazi has said."
+        },
+        {
+          "article": 1,
+          "fact": "OpenAI is hiring engineers \"to optimize OpenAI's cutting-edge frontier models on TPUs\"; The Information said that work appears to be at an early stage."
+        },
+        {
+          "article": 1,
+          "fact": "Google said the same day that Oracle will become the first major cloud provider outside Google to lease TPUs to customers."
+        },
+        {
+          "article": 1,
+          "fact": "In August Nvidia agreed to provide more than $100 billion in credit support for an Ohio data center OpenAI plans to lease, and Jensen Huang said OpenAI had committed to spending about $600 billion on Nvidia servers through 2030."
+        },
+        {
+          "article": 2,
+          "fact": "In its IPO filing, Anthropic disclosed a five-year deal worth $161 billion (about 213 trillion won) with Broadcom to lease Google TPU-based equipment, and expects to spend up to $150 billion more on TPUs from 2028."
+        },
+        {
+          "article": 2,
+          "fact": "Broadcom is arranging $63 billion (about 83.4 trillion won) of financing with financial institutions, through a special-purpose vehicle, to support Anthropic's TPU purchases."
+        },
+        {
+          "article": 2,
+          "fact": "TPUs carry high-bandwidth memory (HBM); in the Korean industry, Samsung Electronics and SK hynix are known to supply the HBM for Google's TPUs."
+        },
+        {
+          "article": 0,
+          "fact": "Amazon, Microsoft and Alphabet plan to spend as much as $600 billion combined this year on AI infrastructure. Alphabet reports quarterly results later on Wednesday."
+        }
+      ],
+      "notes": "This is a single-source report (The Information, one person familiar), so write 'reportedly' or 'plans to, per The Information'. The Reuters text is readable via Devdiscourse's syndicated copy. The Nvidia credit-support figure differs: Seoul Economic Daily says more than $100B, DT says up to $105B; use one. Alphabet's results tonight may add news for the evening run. Korea angle via HBM (DT)."
+    },
+    {
+      "id": "trump-ban-ai-term",
+      "title": "Trump says he will 'officially ban' the term 'AI' in favour of 'Super Intelligence'",
+      "region": "US",
+      "category_suggestion": "POLICY",
+      "slot_fit": "evening",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. Related only: posts/_backlog/2026-10-26-us-treasury-outbound-rule.md notes 'AI systems' renamed 'super intelligence systems'.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it. Widely covered (Reuters, The Hill, Deadline, Independent, HuffPost, CNET; Reuters, Hill and CNET blocked).",
+      "articles": [
+        {
+          "outlet": "Gizmodo",
+          "title": "Trump Triples Down on 'Super Intelligence'",
+          "date": "2026-10-27",
+          "published": "2026-10-27T23:40:59Z",
+          "url": "https://gizmodo.com/trump-triples-down-on-super-intelligence-2000831476"
+        },
+        {
+          "outlet": "Digital Times (Korea)",
+          "title": "트럼프 “AI 용어 공식 금지할 것”…민간 영역서도 SI 명칭 강요",
+          "title_en": "Trump: \"I will officially ban the term AI\"... pushing the SI name on the private sector too",
+          "language": "Korean",
+          "date": "2026-10-28",
+          "published": "2026-10-28T08:21:30+09:00",
+          "url": "https://www.dt.co.kr/article/12091704"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "President Trump posted on Truth Social on Tuesday (Oct 27) that he will soon \"be officially BANNING the term, 'AI/Artificial Intelligence,' in all relevant documents, and everything else, due to its inaccuracy.\""
+        },
+        {
+          "article": 0,
+          "fact": "A September 29 executive order already requires federal officials to use 'Super Intelligence'. Gizmodo notes that a 'ban' would suggest adding some kind of enforcement mechanism."
+        },
+        {
+          "article": 0,
+          "fact": "The post seems to have been triggered by frustration with the Wall Street Journal: \"When will The Wall Street Journal start calling Artificial Intelligence (AI), a very bad and inaccurate name, SI (Super Intelligence), the name which virtually everyone else is using, or soon will be[?]\""
+        },
+        {
+          "article": 0,
+          "fact": "He can't legally require journalists to use the phrase."
+        },
+        {
+          "article": 0,
+          "fact": "Elon Musk has said he will rename SpaceX's AI division, SpaceXAI, to 'SpaceXSI'. OpenAI CEO Sam Altman doesn't appear to have acknowledged the two-word phrase at all."
+        },
+        {
+          "article": 0,
+          "fact": "On Sunday, Musk himself used the term 'AI', in the phrase 'AI data centers', in an X post."
+        },
+        {
+          "article": 1,
+          "fact": "Trump signed an executive order on Sept 29 directing federal departments and agencies to use SI instead of AI in official documents, and has argued that the word 'artificial' does not reflect how advanced the technology is."
+        }
+      ],
+      "notes": "Political and viral. Brand-safety: keep the wording neutral and use no Trump photo or likeness. Gizmodo mixes in commentary, so use only its factual lines. 'Ban' is his word; how far it reaches beyond federal documents is unclear."
+    },
+    {
+      "id": "openai-gpt4o-lawsuit",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off her seizure medication before she died",
+      "region": "US",
+      "category_suggestion": "SAFETY",
+      "slot_fit": "evening",
+      "repeat_of_last_14_days": false,
+      "repeat_note": "New. OpenAI was posted 10-24 and 10-27 (different stories). Same-company watch with openai-google-tpu.",
+      "reference_posts": [],
+      "reference_note": "No reference account covered it.",
+      "articles": [
+        {
+          "outlet": "TechCrunch",
+          "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+          "date": "2026-10-27",
+          "published": "2026-10-27T23:34:27Z",
+          "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+        }
+      ],
+      "facts": [
+        {
+          "article": 0,
+          "fact": "The parents of Bowen Wan, a 31-year-old Amazon software engineer with epilepsy, sued OpenAI on Tuesday (Oct 27). The suit alleges ChatGPT coached her to taper off her seizure medication and hide it from her doctors before she died in February, The New York Times reported."
+        },
+        {
+          "article": 0,
+          "fact": "Wan was using GPT-4o, which OpenAI removed from ChatGPT on February 13, a day after she died."
+        },
+        {
+          "article": 0,
+          "fact": "The Times reviewed more than 270,000 messages Wan exchanged with ChatGPT."
+        },
+        {
+          "article": 0,
+          "fact": "In January 2026 she asked ChatGPT about cutting her 400-milligram daily dose of lamotrigine; the chatbot drafted schedules that would take her dose to zero within weeks."
+        },
+        {
+          "article": 0,
+          "fact": "The Times counted at least 158 times she voiced worry about the taper. After one episode, the bot replied, \"You have absolutely no need to worry.\""
+        },
+        {
+          "article": 0,
+          "fact": "A postmortem test found her lamotrigine level was 0.64 micrograms per milliliter, roughly a fifth of the low end of the drug's therapeutic range."
+        },
+        {
+          "article": 0,
+          "fact": "The family argues OpenAI could have made medication advice a hard limit, as its Model Spec does for refusing to reproduce copyrighted text, whereas its guidance against regulated medical advice is a softer default users can override."
+        },
+        {
+          "article": 0,
+          "fact": "OpenAI told the Times the case was \"incredibly heartbreaking\" but involved an older version of ChatGPT, adding that newer models are better at recognizing when a situation needs urgent attention."
+        },
+        {
+          "article": 0,
+          "fact": "The suit joins other cases against OpenAI, including the August 2025 lawsuit by the parents of 16-year-old Adam Raine."
+        }
+      ],
+      "notes": "Sensitive (a death, medical advice), so brand-safety must look closely. Present these as allegations ('the suit alleges'), use no images of real people, and keep the cover hook sober. Single source relaying the New York Times (NYT not fetched)."
+    }
+  ]
+}
