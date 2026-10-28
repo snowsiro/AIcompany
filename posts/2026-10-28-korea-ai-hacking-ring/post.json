@@ -2,7 +2,7 @@
   "id": "2026-10-28-korea-ai-hacking-ring",
   "date": "2026-10-28",
   "category": "POLICY",
-  "status": "draft",
+  "status": "ready",
   "korean_refs": [],
   "cover": {
     "tag": "KOREA AI · POLICY",
@@ -72,7 +72,7 @@
       "kicker": "The response",
       "title": "Police used AI too",
       "body": [
-        "Police say they recovered all stolen records containing personal information. An internal AI-powered analysis system helped them sift evidence and logs and catch all seven suspects within **four months**. They are now checking whether any stolen data **leaked on the dark web**."
+        "Police say they **recovered all** stolen records containing personal information. An internal AI-powered analysis system helped them sift evidence and logs and catch all seven suspects within **four months**. They are now checking whether any stolen data leaked on the dark web."
       ]
     }
   ],
@@ -99,7 +99,7 @@
     },
     {
       "source": 2,
-      "text": "ZDNet Korea: from late August (지난 8월 말부터), as he began using generative AI in earnest, the number of targets grew indiscriminately. 60 of the victim companies (피해 업체 가운데 60곳) were breached with generative AI, and this took a little more than 40 days (40일 남짓; the post says 'just over 40 days'). Artex is an AI autonomous penetration-testing tool (AI 자율 침투 테스트 도구)."
+      "text": "ZDNet Korea: from late August (지난 8월 말부터), as he began using generative AI in earnest, the number of targets grew indiscriminately. 60 of the victim companies (피해 업체 가운데 60곳) were breached with generative AI, and this took a little more than 40 days (40일 남짓; the post says 'just over 40 days'). ARTEX is an AI autonomous penetration-testing tool (AI 자율 침투 테스트 도구)."
     },
     {
       "source": 0,
