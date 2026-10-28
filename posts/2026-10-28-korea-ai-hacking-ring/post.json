@@ -1,0 +1,180 @@
+{
+  "id": "2026-10-28-korea-ai-hacking-ring",
+  "date": "2026-10-28",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · POLICY",
+    "headline": [
+      "**8.2M** RECORDS",
+      "IN KOREA AI HACK"
+    ],
+    "hook_options": [
+      [
+        "**8.2M** RECORDS",
+        "IN KOREA AI HACK"
+      ],
+      [
+        "KOREA'S FIRST",
+        "BIG **AI** HACK BUST"
+      ],
+      [
+        "HACKS USED AI.",
+        "SO DID **POLICE**."
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "rivalry"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "It leads with the case's hardest number and names the country. Slide 2 (title '8.2 million records') says Seoul police caught seven suspects who allegedly hacked some 90 organizations across Korea and stole the records, and that police call these the country's first arrests in a large-scale AI-assisted hacking case. 'Korea AI hack' labels the whole case the way police do and does not say AI took every record: slide 3 gives the split, with conventional tools first, AI from late August 2026, and 60 of the victims breached with generative AI in just over 40 days (ZDNet Korea). It also matches the image, a city network turning red. 'KOREA'S FIRST BIG AI HACK BUST' (claim) is backed by slide 2, but the 'first' is the police's own description and the cover has no room to credit them. A Korean first also means less to a global reader than the scale. 'HACKS USED AI. SO DID POLICE.' (rivalry, slides 3 and 7) is a sharp frame, but it leaves Korea off the cover and puts the police's own AI, a closing detail, level with the case. I dropped a quote hook: the police line on slide 6 cannot be cut to 16 characters a line with a speaker and still say who 'can now hack'. A myth-flip ('no pro crew needed') would read as calling the leader an amateur, and he worked in penetration testing from 2019 to 2022. No reader-impact hook: the articles state no change in what ordinary readers pay, use, can do or risk. The personal information in the stolen records sat with about 90 unnamed organizations in Korea, and police say they recovered all of it. The police warning is about who can now hack at scale, so a 'your data is at risk' hook would add an effect the articles don't state.",
+    "image_prompt": "Cinematic night aerial view over a dense, anonymous city grid, thin glowing data lines linking dozens of rooftops into one vast network, a wave of alarm red spreading outward from a single point and overtaking the cool blue lines, light haze and wet reflections, deep shadows, shallow depth of field. Abstract, unmarked buildings with no recognizable landmarks, screens or signs. Main subject in the upper half, lower third fading into deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261028_185747_353aa1c4-8223-431c-88fe-85623db53344.png"
+  },
+  "slides": [
+    {
+      "kicker": "The case",
+      "title": "8.2 million records",
+      "body": [
+        "Seoul police say they caught seven suspects, the alleged leader and six accomplices. They allegedly hacked **some 90 organizations** across Korea and stole the records. Police call these Korea's **first arrests** in a large-scale AI-assisted hacking case."
+      ]
+    },
+    {
+      "kicker": "The AI",
+      "title": "AI scaled it up",
+      "body": [
+        "Police say the leader began with conventional tools, adding AI tools such as ARTEX, which automates penetration testing (simulated attacks), in **late August 2026**. ZDNet Korea reports **60 of the victims** were breached with generative AI in just over 40 days."
+      ]
+    },
+    {
+      "kicker": "The threats",
+      "title": "38 threats, one payment",
+      "body": [
+        "The group allegedly hit hospitals, golf courses, universities, private academies and subsidiaries of major conglomerates. Police say it emailed threats to 38 of them, demanding a combined **₩360M (about $272,000)** not to leak the data. **Only one paid**, ZDNet Korea reports."
+      ]
+    },
+    {
+      "kicker": "The suspects",
+      "title": "One suspect in custody",
+      "body": [
+        "The alleged leader worked in penetration testing at a cybersecurity company from 2019 to 2022; police believe he taught himself hacking from blogs and YouTube. Arrested **Oct. 15**, he was referred to prosecutors Oct. 23. The other six remain under investigation, **not detained**."
+      ]
+    },
+    {
+      "kicker": "The warning",
+      "quote": "Even individuals who are not professional hacker organizations can now hack on a **large scale** with the help of AI.",
+      "who": "Seoul police, to Korean news outlet Yonhap"
+    },
+    {
+      "kicker": "The response",
+      "title": "Police used AI too",
+      "body": [
+        "Police say they **recovered all** stolen records containing personal information. An internal AI-powered analysis system helped them sift evidence and logs and catch all seven suspects within **four months**. They are now checking whether any stolen data leaked on the dark web."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Korea JoongAng Daily lede (the paper's own words, not a police quote): \"A self-taught coder and six accomplices allegedly used generative AI to hack some 90 organizations across Korea, stealing 8.2 million records and extorting victims for cash\" (8.2 million, 8.2M). The Seoul Metropolitan Police Agency's cyber investigation division said Monday (Oct. 26, 2026) that it had apprehended the seven suspects, including the alleged ringleader, on charges including violations of the Act on Promotion of Information and Communications Network Utilization and Information Protection and extortion. No suspect is named in any of the three articles."
+    },
+    {
+      "source": 0,
+      "text": "\"The arrests mark the country's first arrests in a large-scale AI-assisted hacking case.\" Police described the case as the first in Korea in which suspects involved in a large-scale AI-assisted hacking operation had been apprehended (Korea's first as police describe it, not a world first)."
+    },
+    {
+      "source": 1,
+      "text": "Police told Yonhap (named in the article as Yonhap News, a local publication): \"This is the first case of arrest of a suspect in Korea related to a large-scale hacking and personal information theft crime that exploited generative AI.\""
+    },
+    {
+      "source": 0,
+      "text": "According to police, the group allegedly hacked into some 90 organizations across Korea between September of last year and October of this year (September 2025 to October 2026), including hospitals, golf courses, universities, private academies and subsidiaries of major conglomerates. The suspects stole a total of 8.2 million records, including personal information and internal corporate documents. None of the three articles names a victim organization in this case."
+    },
+    {
+      "source": 1,
+      "text": "The Seoul Metropolitan police told Yonhap that the hacker used the ARTEX AI penetration testing suite (written ARTEX in the post; 아르텍스 in ZDNet Korea), and the ARTEX AI pentesting framework was used in most of the attacks. Initially, the hacker used conventional tools but adopted AI utilities in late August 2026 to expand the attacks. Yonhap says the leader started attacking organizations in September 2025."
+    },
+    {
+      "source": 2,
+      "text": "ZDNet Korea: from late August (지난 8월 말부터), as he began using generative AI in earnest, the number of targets grew indiscriminately. 60 of the victim companies (피해 업체 가운데 60곳) were breached with generative AI, and this took a little more than 40 days (40일 남짓; the post says 'just over 40 days'). ARTEX is an AI autonomous penetration-testing tool (AI 자율 침투 테스트 도구)."
+    },
+    {
+      "source": 0,
+      "text": "Penetration testing is \"a practice that simulates cyberattacks to identify security vulnerabilities.\" The ringleader, who did not major in information technology, had previously worked on penetration testing. Police believe he taught himself hacking techniques through online blogs and YouTube videos. He reportedly began using generative AI extensively in August, which significantly expanded the scale of the hacking operation."
+    },
+    {
+      "source": 1,
+      "text": "According to local media citing the Seoul Metropolitan Police, the gang leader has a background in penetration testing and worked at a cybersecurity company between 2019 and 2022 (2019 to 2022)."
+    },
+    {
+      "source": 2,
+      "text": "ZDNet Korea: the leader, a non-IT major who taught himself hacking, did penetration-testing work at a security company for three years from 2019 (2019년부터 3년간 보안업체에서 모의해킹 업무)."
+    },
+    {
+      "source": 0,
+      "text": "They allegedly sent threatening emails to 38 of the affected organizations, saying, \"If you don't pay, we will leak the information.\" They demanded a combined 360 million won ($272,000; ₩360M, about $272,000) in exchange for not disclosing the stolen information. The $272,000 is Korea JoongAng Daily's conversion; BleepingComputer gives $270,000, which the post does not use."
+    },
+    {
+      "source": 2,
+      "text": "ZDNet Korea: only one paid (돈을 낸 곳은 1곳), 300,000 won. The article gives no dollar figure for it, so the amount is not shown. Only 15 companies reported the breach (피해를 신고한 업체는 15곳뿐); about 75 others (나머지 75곳가량) have not yet reported it."
+    },
+    {
+      "source": 1,
+      "text": "Authorities arrested all seven suspects, but only the group's leader remains in custody. Arrested on October 15 (Oct. 15), he was formally detained two days later and referred to prosecutors on October 23 (Oct. 23). The other six suspects remain under investigation without being detained."
+    },
+    {
+      "source": 0,
+      "text": "The ringleader was referred to prosecutors while in custody on Friday (Oct. 23), while investigations into the remaining six suspects are ongoing. The investigation began in June after one of the affected organizations filed a complaint; investigators arrested the alleged ringleader on Oct. 15."
+    },
+    {
+      "source": 1,
+      "text": "Police quote, given to Yonhap: \"Even individuals who are not professional hacker organizations can now hack on a large scale with the help of AI.\" The police also told local media that AI has lowered the barrier to entry for aspiring cybercriminals."
+    },
+    {
+      "source": 2,
+      "text": "ZDNet Korea carries the same police statement in Korean: 서울경찰청은 \"전문 해커 조직이 아니어도 AI의 도움을 받으면 대규모 해킹이 가능해졌다\"며 \"AI가 사이버 범죄의 진입 장벽을 낮추고 있다\"고 설명했다."
+    },
+    {
+      "source": 0,
+      "text": "Police said they had recovered all stolen records containing personal information. Investigators used an internal AI-powered analysis system to quickly examine large volumes of evidence and logs from the affected organizations; according to police, the system helped them apprehend all seven suspects within four months of launching the investigation and prevent further damage."
+    },
+    {
+      "source": 1,
+      "text": "The police continue the investigation, now focusing on whether any of the stolen data has been leaked on the dark web."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Korea JoongAng Daily",
+      "title": "Seven arrested for using generative AI to hack 90 organizations",
+      "date": "Oct 26, 2026",
+      "url": "https://www.koreajoongangdaily.com/korea/seven-arrested-for-using-generative-ai-to-hack-90-organizations/12938493"
+    },
+    {
+      "outlet": "BleepingComputer",
+      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+      "date": "Oct 26, 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/"
+    },
+    {
+      "outlet": "ZDNet Korea",
+      "title": "'모두의 AI 해킹' 시대 왔나…개인정보 820만건 탈취 일당 덜미",
+      "title_en": "Has the era of 'AI hacking for everyone' arrived? Gang that stole 8.2 million personal records caught",
+      "language": "Korean",
+      "date": "Oct 27, 2026",
+      "url": "https://zdnet.co.kr/view/?no=20261027074733"
+    }
+  ],
+  "caption": "South Korea's police say a cybercrime ring that used AI tools stole 8.2 million records from some 90 organizations.\n\nPolice say they caught seven suspects, a self-taught coder and six accomplices, in what they call the country's first arrests in a large-scale AI-assisted hacking case. The group allegedly hit hospitals, golf courses, universities, private academies and subsidiaries of major conglomerates between September 2025 and October 2026. Only the alleged leader is in custody.\n\n→ Police say the ring's leader began with conventional tools and adopted AI in late August 2026; ZDNet Korea reports 60 of the victims were breached with generative AI in just over 40 days\n→ The ring allegedly emailed threats to 38 organizations, demanding a combined ₩360M (about $272,000); ZDNet Korea reports only one paid, and only 15 victims have reported the breach\n→ Korean police say they recovered all stolen records containing personal information, and an internal AI-powered system helped them catch all seven suspects within four months\n\nShould organizations hit by a hack have to report it?\n\nSource: Korea JoongAng Daily, \"Seven arrested for using generative AI to hack 90 organizations\", Oct 26, 2026; BleepingComputer, \"Former pentester used ARTEX AI to steal 8.2 million data records\", Oct 26, 2026; ZDNet Korea, \"Has the era of 'AI hacking for everyone' arrived? Gang that stole 8.2 million personal records caught\" (in Korean), Oct 27, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#KoreaAI",
+    "#Cybercrime",
+    "#DataBreach",
+    "#AIHacking"
+  ],
+  "threads_caption": "South Korea's police say a cybercrime ring that used AI tools stole 8.2 million records from some 90 organizations.\n\nPolice made what they call Korea's first arrests in a large-scale AI-assisted hacking case, and say AI now lets people outside professional hacker groups hack on a large scale.\n\nSource: Korea JoongAng Daily, \"Seven arrested for using generative AI to hack 90 organizations\"; BleepingComputer, \"Former pentester used ARTEX AI to steal 8.2 million data records\". #Cybercrime"
+}
