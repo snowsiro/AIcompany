@@ -1,30 +1,11 @@
 {
-  "pass": false,
-  "issues": [
-    {
-      "where": "slide 3 (rendered 04/08, 'Trained on 3,800 chips'); facts entry for the same sentence",
-      "problem": "Post says 'A large share of the training data was multilingual'. Mistral's article says 'a significant share of ML4's training data was multilingual, spanning more than 160 languages'. 'Large' is stronger than 'significant'.",
-      "fix": "Change to 'A significant share of the training data was multilingual, spanning more than 160 languages.' (re-render slide 04)"
-    },
-    {
-      "where": "slide 6 (rendered 07/08, 'Mistral vs GLM-5.3')",
-      "problem": "Post says Mistral is 'comparable to GLM-5.3 ... on cyber work, using 47% fewer tokens per task'. TechCrunch: 'comparable in terms of performance with a Chinese open-weight competitor, GLM-5.3 ... particularly when it comes to cyber work. However, Mistral's model uses 47 percent fewer tokens per task'. Comparability is general, 'particularly' cyber; the 47% is per task, not limited to cyber, and TechCrunch states it in its own voice after 'However', not as 'Mistral says'.",
-      "fix": "Reword to e.g. 'Mistral says it is comparable in performance to GLM-5.3, a Chinese open-weight competitor, particularly on cyber work. TechCrunch reports it uses 47% fewer tokens per task.' (47% credited to TechCrunch, or keep 'Mistral' only if you accept the weaker attribution)"
-    },
-    {
-      "where": "slide 6 (rendered 07/08) and caption ('TechCrunch reports they are on Hugging Face and available through Mistral's API')",
-      "problem": "TechCrunch: 'The weights for ML4 are being made available on Hugging Face and via its API.' 'Are on' states completed availability, which is stronger than 'are being made available'. Not verified on the Hugging Face page.",
-      "fix": "Slide: 'TechCrunch reports the weights are being made available on Hugging Face and via Mistral's API.' Caption: 'TechCrunch reports they are being made available on Hugging Face and via Mistral's API.' (Re-render slide 07.)"
-    }
-  ],
-  "notes_ok": [
-    "Both sources opened with scripts/article.mjs. TechCrunch published 2026-10-29, title matches. Mistral AI 'Introducing Mistral Large 4' dated Oct 6, 2026, title matches.",
-    "Pierre Stock quote on the quote slide matches TechCrunch word for word: 'Access that can't be cut off by definition because the model is open-weighted.' Title 'Vice President of Science at Mistral' is rendered as 'Mistral's vice president of science' (fine). Caption quote fragment also exact.",
-    "82% (one test of Artificial Analysis Cyber Index, 'the highest of any model') and 93% of Cybench (set of 40 exercises) are in Mistral's article and are attributed to Mistral on the slide, in the caption and in the facts. 'Cybench's 40 security challenges' is a light paraphrase of '40 exercises drawn from security competitions' (acceptable).",
-    "1 trillion parameters, 52 billion active, natively multimodal, 'largest and most capable model to date', 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own datacenters in Europe, 160+ languages: all in Mistral's article.",
-    "6 October = Mistral's public preview date; TechCrunch says only 'earlier this month'. Post uses 'first introduced', which is correct.",
-    "'Open weights' / 'open-weight' used throughout; 'open source' (TechCrunch's wording) is not used. No licence, free or commercial-use claim anywhere (cover, slides, caption, threads_caption).",
-    "Cover 'MISTRAL OPENS ITS 1T MODEL' is backed by slide 1 (weights released) and slide 2 (1 trillion parameters). Threads caption is consistent with the sources.",
-    "Minor, not failing: 'Hugging Face', 'tokens' and 'Cybench' are not explained on the slides; Mistral's 82% test is not named as part of Artificial Analysis Cyber Index (slide says 'a cyber benchmark'), which is accurate."
+  "pass": true,
+  "issues": [],
+  "round": 2,
+  "notes": [
+    "Round 1 fixes confirmed against TechCrunch (2026-10-29) and Mistral AI (2026-10-06), both opened with scripts/article.mjs, and against re-rendered slides 04 and 07.",
+    "Slide 3 now says 'A significant share', matching Mistral's 'a significant share of ML4's training data was multilingual, spanning more than 160 languages'.",
+    "Slide 6 now credits the comparable-performance claim to Mistral ('particularly on cyber work') and the 47% fewer tokens per task and 'being made available on Hugging Face and via ... API' to TechCrunch, matching TechCrunch's wording.",
+    "Caption now says 'being made available on Hugging Face and via Mistral's API'. Everything else is unchanged from round 1: quote exact, 82%/93% attributed to Mistral, open weights only, no licence or free claims, dates and titles correct."
   ]
 }
