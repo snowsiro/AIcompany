@@ -1,0 +1,130 @@
+{
+  "id": "2026-10-29-australia-chatbot-children-bill",
+  "date": "2026-10-29",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "ASIA AI · POLICY",
+    "headline": [
+      "AUSTRALIA VS",
+      "KIDS' **AI** FRIENDS"
+    ],
+    "hook_options": [
+      [
+        "AUSTRALIA VS",
+        "KIDS' **AI** FRIENDS"
+      ],
+      [
+        "\"WAKE UP CALL\"",
+        "— **AUSTRALIA'S** PM"
+      ],
+      [
+        "AI WOULDN'T BOND",
+        "WITH **AUSSIE** KIDS"
+      ]
+    ],
+    "hook_types": [
+      "rivalry",
+      "quote",
+      "claim"
+    ],
+    "hook_type": "rivalry",
+    "hook_pick_reason": "It names the country and the target (chatbots acting as a child's friend) in plain words a global reader gets at a glance; \"vs\" frames a move against them, not a finished law. Slide 2 says the lower house passed the bill and the Senate still has to vote; slide 3 gives the amendment's exact wording; slide 4 says adults are not covered. \"Friends\" echoes Albanese's \"best friend\" line on slide 5 (it replaced \"BFFs\", which the hook review found unclear for readers whose first language is not English). The quote hook is exact and credited but leaves chatbots and children off the cover. \"AI wouldn't bond with Aussie kids\" (a claim) reads like a settled outcome for all AI. No number hook: the story's numbers are dates. No reader-impact hook: the article states what the bill would require of platforms in Australia, not a change in what readers elsewhere pay, use, can do or risk.",
+    "image_prompt": "Cinematic, moody still of a dim, empty child's bedroom at night, seen from a low angle. In the upper half of the frame a single softly glowing speech bubble of warm light floats in the air, held back behind a translucent, frosted glass-like barrier that diffuses its glow into a gentle haze. Cool blue moonlight from a window, a small unmade bed and a plush toy silhouette at the edge, shallow depth of field, fine dust in the light. Abstract and unmarked: no screens showing content, no devices with brands. Main subject in the upper half, lower third fading into deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261029_045810_11c746af-da33-4f72-bd5a-37c612db2e95.png"
+  },
+  "slides": [
+    {
+      "kicker": "The vote",
+      "title": "Passed one house",
+      "body": [
+        "Australia's House of Representatives, the lower house, passed a digital duty of care bill on **Wednesday, 28 October**. It now goes to the Senate, Australia's upper house, which still has to vote. **It is not law yet.**"
+      ]
+    },
+    {
+      "kicker": "The chatbot rule",
+      "title": "No fake intimacy",
+      "body": [
+        "Amendments from Kate Chaney, an independent member of Australia's parliament, were accepted by the government. Platforms would have to ban “material or conduct that simulates **emotional intimacy** and encourages or fosters a **child's dependence** on it in place of human relationships.”"
+      ]
+    },
+    {
+      "kicker": "Who it covers",
+      "title": "Children, not adults",
+      "body": [
+        "The new rule targets a child's reliance on a chatbot, not grown-ups: adults who use AI companions are **not covered**. It comes amid worries in other countries about children and AI companions. Australia's **under-16** social media ban is a separate law already in place."
+      ]
+    },
+    {
+      "kicker": "The PM's case",
+      "quote": "The stories we hear about people identifying a chatbot, a non-person as their best friend, should be a **huge wake up call** for every member of this parliament to be prepared to act.",
+      "who": "Anthony Albanese, Australia's prime minister"
+    },
+    {
+      "kicker": "The wider bill",
+      "title": "One duty of care",
+      "body": [
+        "The wider bill would fold several existing online codes into one broad duty of care, covering social media, games, apps and chatbots. Social media platforms would also have to offer an **algorithm opt-out** that is “accessible, easy to use” and “prominently available.”"
+      ]
+    },
+    {
+      "kicker": "What's next",
+      "title": "Senate fight",
+      "body": [
+        "Labor, the governing party, hopes the Senate passes it by the **end of 2026**. The Coalition, the main opposition, and One Nation voted against. The Greens back it, want higher penalties and set up a Senate inquiry due to report in **late November**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "\"Australia’s digital duty of care bill would bar AI chatbots from building “emotional intimacy” with children. The bill passed the House of Representatives on Wednesday, 28 October, as Josh Butler reported for The Guardian. It now goes to the Senate.\" (Wednesday, 28 October 2026; the post calls the House of Representatives the lower house and the Senate the upper house, as TNW does with 'the lower house'.) Not law yet: the Senate still has to vote. The article gives no Senate vote date."
+    },
+    {
+      "source": 0,
+      "text": "\"The chatbot rule came in through amendments from independent MP Kate Chaney, which the government accepted on Wednesday. They add certain chatbot conduct to the bill’s list of harms. Platforms would have to ban: “material or conduct that simulates emotional intimacy and encourages or fosters a child’s dependence on it in place of human relationships”\". The article names no penalties for this rule, no regulator, no start date and no specific chatbots."
+    },
+    {
+      "source": 0,
+      "text": "\"The wording covers a child’s dependence on a chatbot. It does not cover adults who use AI companions.\""
+    },
+    {
+      "source": 0,
+      "text": "\"Australia already has an under-16 social media ban. The chatbot rule follows concerns abroad about AI companions and children.\" The under-16 ban is an existing law, not part of this bill."
+    },
+    {
+      "source": 0,
+      "text": "Prime Minister Anthony Albanese, in a speech on Tuesday night: \"The stories we hear about people identifying a chatbot, a non-person as their best friend, should be a huge wake up call for every member of this parliament to be prepared to act,\" Albanese said. He again asked the opposition Coalition to vote for it."
+    },
+    {
+      "source": 0,
+      "text": "\"The framework would set new online safety standards for social media, games, apps and chatbots. Labor said it places “an overarching obligation” on platforms to keep Australians safe online. It would replace several existing online codes and standards with one broader duty of care.\""
+    },
+    {
+      "source": 0,
+      "text": "\"The bill also makes social media platforms offer an algorithm opt-out. Another Chaney amendment, also accepted, says that opt-out must be “accessible, easy to use” and “prominently available”.\" The opt-out applies to social media platforms, not to chatbots."
+    },
+    {
+      "source": 0,
+      "text": "\"The Coalition and One Nation voted against the bill in the House.\" \"The Greens support the bill and have set up a Senate inquiry, due to report in late November. They want Australians to be able to sue platforms and want higher penalties. Labor hopes the Senate passes the bill by the end of 2026. It says it is open to amendments.\" Labor is the governing party (the article: 'the government', 'Labor said'); the Coalition is the opposition ('the opposition Coalition')."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "Australia’s duty of care bill would stop chatbots bonding with kids",
+      "date": "Oct 28, 2026",
+      "url": "https://thenextweb.com/news/australia-duty-of-care-bill-ai-chatbots-emotional-intimacy-children"
+    }
+  ],
+  "caption": "Australia's lower house just passed a bill that would make platforms bar AI chatbots from building emotional intimacy with children.\n\nThe digital duty of care bill passed the House of Representatives on Wednesday, 28 October, and now goes to the Senate, Australia's upper house. It is not law yet. Amendments from independent MP Kate Chaney, accepted by the government, mean platforms would have to ban chatbot conduct that simulates emotional intimacy and fosters a child's dependence on it in place of human relationships. Adults who use AI companions are not covered.\n\n→ Australian Prime Minister Anthony Albanese said stories of people calling a chatbot their best friend should be \"a huge wake up call\" for parliament\n→ Australia's bill would also set online safety standards for social media, games, apps and chatbots, and make social media platforms offer an algorithm opt-out\n→ Labor, Australia's governing party, hopes the Senate passes the bill by the end of 2026; the opposition Coalition and One Nation voted against it\n\nShould chatbots be allowed to act like a child's best friend?\n\nSource: The Next Web, \"Australia’s duty of care bill would stop chatbots bonding with kids\", Oct 28, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Australia",
+    "#Chatbots",
+    "#OnlineSafety",
+    "#AIPolicy"
+  ],
+  "threads_caption": "Australia's lower house just passed a bill that would make platforms bar AI chatbots from building emotional intimacy with children.\n\nIt's not law yet: the Senate still has to vote. Adults who use AI companions aren't covered.\n\nSource: The Next Web, \"Australia’s duty of care bill would stop chatbots bonding with kids\". #Chatbots"
+}
