@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "issues": [],
+  "round": 2,
+  "notes": [
+    "Round 1 fixes confirmed against TechCrunch (2026-10-29) and Mistral AI (2026-10-06), both opened with scripts/article.mjs, and against re-rendered slides 04 and 07.",
+    "Slide 3 now says 'A significant share', matching Mistral's 'a significant share of ML4's training data was multilingual, spanning more than 160 languages'.",
+    "Slide 6 now credits the comparable-performance claim to Mistral ('particularly on cyber work') and the 47% fewer tokens per task and 'being made available on Hugging Face and via ... API' to TechCrunch, matching TechCrunch's wording.",
+    "Caption now says 'being made available on Hugging Face and via Mistral's API'. Everything else is unchanged from round 1: quote exact, 82%/93% attributed to Mistral, open weights only, no licence or free claims, dates and titles correct."
+  ]
+}

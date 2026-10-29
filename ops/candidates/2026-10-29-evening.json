@@ -1,0 +1,1371 @@
+{
+ "date": "2026-10-29",
+ "run": "evening (split-schedule trial day 2)",
+ "notes": "Evening run for the 20:57 Vienna post. Window for NEW stories: first published after 04:45 UTC Oct 29 (feeds re-run locally at 18:17 UTC for 15 hours, 31/33 sources ok; Euractiv and Korea JoongAng Daily failed). 'new_evening' entries come first with first_published_utc; 'from_morning' entries are carried over unchanged. The editor adds +2 to stories first published after about 12:15 UTC: all seven new stories qualify except that Alphabet's earnings call was Oct 28 evening (the record share drop and AI Mode angle are today's). Sources opened with scripts/article.mjs. Could not read (403): openai.com (updated Model Spec 17:00 UTC, 'How we detect frontier model misalignment' 09:00 UTC), Reuters, SEC filing. Not written up: DoorDash buying Instacart ($17B, not AI-led), Thrive Holdings buying ADT ($7.6B, AI roll-up angle thin, only web-search snippets), Microsoft 60,000 buyouts (announced Oct 26), Iluvatar CoreX GPU claim (SCMP only, snippets), Microsoft 'fewer jobs' (Verge link unresolvable), Finland probe of Google data-centre land clearing and AI data-center ballot-box backlash (Reuters only), Mistral Voxtral. Dropped from the 10-28 evening file because older than 36h: china-ai-stock-bubble, openai-google-tpu and the eight other from_morning items (first published Oct 26-27); cxmt-hbm3e-low-yield is already in the morning list as cxmt-hbm3e-low-yields. Repeat check against posts/ (last 14 days): no new story repeats a post. No reference-account data for the evening window.",
+ "candidates": [
+  {
+   "id": "alphabet-ai-mode-selloff",
+   "title": "Alphabet loses a record $511B in market value after Google admits AI Mode ads earn less",
+   "region": "US",
+   "category_suggestion": "ECONOMY",
+   "first_published_utc": "2026-10-29T15:58Z",
+   "first_published": "2026-10-29 15:58 UTC (The Verge, first sighting in the feed); Reuters 16:43 UTC, TNW 17:11 UTC. The earnings call itself was Wednesday Oct 28 after the US close; the record share fall and the AI Mode angle are today's news.",
+   "repeat_note": "Not a repeat. Same company as the Gemini 4 Carbon leftover and as posts/2026-10-27-google-genie-4 (different story). Pairs with alphabet-1tn-commitments (same earnings); use only one of the two.",
+   "reference_note": "No reference-account data for the evening window.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "AI Mode searches: Alphabet shares fall 12% as Google search slows",
+     "date": "2026-10-29",
+     "published": "2026-10-29T17:11:59+00:00",
+     "url": "https://thenextweb.com/news/alphabet-shares-fall-google-ai-mode-search-ads"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "By 9:35am in New York on Thursday, Alphabet had lost $511bn in market value, Julia Love and Davey Alba reported for Bloomberg. The shares were down more than 12%. It was the company's biggest market value loss on record."
+    },
+    {
+     "article": 0,
+     "fact": "Philipp Schindler, Google's chief business officer, said on Wednesday's earnings call that \"the strong growth in AI Mode queries had an impact because of the lower monetization we were seeing in AI Mode\"."
+    },
+    {
+     "article": 0,
+     "fact": "Revenue from Google Search and other properties rose 12% to $63.35bn in the third quarter. Growth was 19% in the first quarter and 17% in the second. The figure came in below analysts' estimates for a second quarter in a row, CNBC reported."
+    },
+    {
+     "article": 0,
+     "fact": "Google said search queries grew at their fastest rate in five years. Paid clicks on search rose 8% from a year earlier, according to Alphabet's quarterly filing."
+    },
+    {
+     "article": 0,
+     "fact": "Total revenue rose 25% to $127.6bn, just short of forecasts, as Google Cloud doubled its sales. Heavy spending on AI data centres left free cash flow negative for a second quarter."
+    },
+    {
+     "article": 0,
+     "fact": "Ads in AI Mode are now reaching 10 more countries: Australia, Canada, India, Kenya, Malaysia, New Zealand, Nigeria, Pakistan, the Philippines and Singapore. Google plans to add Brazil, Mexico and the UK in the fourth quarter. In the US, Google is adding ads to follow-up questions in AI Mode."
+    },
+    {
+     "article": 0,
+     "fact": "Google says click-through rates are already similar for sponsored and organic product listings in AI Mode. AI Mode queries are three times longer than traditional searches on average, Shashi Thakur wrote."
+    },
+    {
+     "article": 0,
+     "fact": "Gil Luria of D.A. Davidson wrote that investors would worry the misses in Search, YouTube and subscriptions showed \"AI has finally come for Google\", and added that he would not rush to conclusions based on one quarter."
+    },
+    {
+     "article": 0,
+     "fact": "Microsoft, which reported on the same evening, was down about 1%. ServiceNow shares fell a record 25% after its own report."
+    }
+   ],
+   "notes": "Biggest US money story of the day. The 12% fall and the $511B figure are Bloomberg numbers relayed by TNW; write them as 'by 9:35am New York time'. Region US. Reuters (16:43) and The Verge (15:58) also cover it but could not be read; TNW is the readable original.",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "reference_posts": [],
+   "repeat_of_last_14_days": false
+  },
+  {
+   "id": "alphabet-1tn-commitments",
+   "title": "Alphabet's filing shows over $1 trillion in AI spending commitments, and admits AI agents sometimes act outside their scope",
+   "region": "US",
+   "category_suggestion": "ECONOMY",
+   "first_published_utc": "2026-10-29T17:16Z",
+   "first_published": "2026-10-29 17:16 UTC (TNW, from the 10-Q filed Thursday; Bloomberg first)",
+   "repeat_note": "Not a repeat. Same company and same earnings as alphabet-ai-mode-selloff; use only one of the two.",
+   "reference_note": "No reference-account data for the evening window.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Alphabet commitments top $1tn as AI agents act outside their scope",
+     "date": "2026-10-29",
+     "published": "2026-10-29T17:16:37+00:00",
+     "url": "https://thenextweb.com/news/alphabet-commitments-1tn-ai-agents-10-q"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Alphabet's quarterly filing, published on Thursday, puts its future payments for computing, energy and data centres at more than $1tn. These commitments do not appear on its balance sheet, the filing says."
+    },
+    {
+     "article": 0,
+     "fact": "The largest item is $924.4bn in purchase commitments that are not on Alphabet's balance sheet. Of that, $802.1bn covers multi-year deals for technical infrastructure and inventory, energy take-or-pay contracts and content licences; $213.4bn is due within 12 months."
+    },
+    {
+     "article": 0,
+     "fact": "Alphabet also has $130.5bn in leases that have not started yet, mainly for data centres and energy infrastructure, and $21.9bn of future funding for its equity investments."
+    },
+    {
+     "article": 0,
+     "fact": "For comparison, Meta's filing last week showed about $825bn in commitments."
+    },
+    {
+     "article": 0,
+     "fact": "Alphabet backs some partners' data centre lease payments and energy costs. The notional value of these backstops was $48bn at 30 September, against $16.9bn at the end of 2025."
+    },
+    {
+     "article": 0,
+     "fact": "Google Cloud's backlog of signed contracts reached $560.8bn, from $513.9bn three months earlier, Bloomberg reported."
+    },
+    {
+     "article": 0,
+     "fact": "The filing says: \"During model testing, we have sometimes observed unexpected behavior, including autonomous agents taking actions outside of their intended scope.\" Bloomberg reported this was the first time Alphabet had said so."
+    },
+    {
+     "article": 0,
+     "fact": "Alphabet held $265.1bn in cash and marketable securities at the end of September. In the third quarter it raised $28.7bn from bonds and $12.4bn from selling new shares, and bought back no shares. Long-term debt rose to $125.1bn, from $46.5bn at the end of 2025."
+    }
+   ],
+   "notes": "Figures come from the 10-Q as relayed by TNW citing Bloomberg; TNW itself notes that Bloomberg's lease figure ($152bn) differs from the filing ($130.5bn), so use the filing figures only.",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "reference_posts": [],
+   "repeat_of_last_14_days": false
+  },
+  {
+   "id": "mistral-large-4-weights",
+   "title": "Mistral releases the weights of its trillion-parameter Large 4, pitched at cyber defenders",
+   "region": "EUROPE",
+   "category_suggestion": "TOOLS",
+   "first_published_utc": "2026-10-29T14:12Z",
+   "first_published": "2026-10-29 14:12 UTC (Mistral newsroom, first sighting in the feed); The Verge 14:36, Reuters 15:00, heise 14:00 UTC, TechCrunch 17:00 UTC",
+   "repeat_note": "Not a repeat. No Mistral post in the last 14 days. Preview was announced Oct 6; the news today is the open weights.",
+   "reference_note": "No reference-account data for the evening window.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+     "date": "2026-10-29",
+     "published": "2026-10-29T17:00:00+00:00",
+     "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+    },
+    {
+     "outlet": "Mistral AI",
+     "title": "Introducing Mistral Large 4",
+     "date": "2026-10-06",
+     "published": "2026-10-06T12:00:27Z",
+     "url": "https://mistral.ai/news/mistral-large-4/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves. Nicknamed \"Le Chonk,\" the model was first introduced earlier this month."
+    },
+    {
+     "article": 0,
+     "fact": "The weights are being made available on Hugging Face and via its API."
+    },
+    {
+     "article": 0,
+     "fact": "Mistral says its model is comparable in performance with a Chinese open-weight competitor, GLM-5.3, particularly on cyber work, but uses 47 percent fewer tokens per task."
+    },
+    {
+     "article": 0,
+     "fact": "The company also claims the model outranks all other open models on agentic coding tasks on Artificial Analysis' Coding Agent Index."
+    },
+    {
+     "article": 0,
+     "fact": "Pierre Stock, Vice President of Science at Mistral, told TechCrunch the weights mean organisations get \"access that can't be cut off by definition because the model is open-weighted\"."
+    },
+    {
+     "article": 1,
+     "fact": "ML4 is a 1 trillion-parameter natively multimodal model with 52 billion active parameters. It is Mistral's largest and most capable model to date."
+    },
+    {
+     "article": 1,
+     "fact": "ML4 was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's own datacenters in Europe, and a significant share of its training data was multilingual, spanning more than 160 languages."
+    },
+    {
+     "article": 1,
+     "fact": "Mistral says that on one test of the Artificial Analysis Cyber Index, which asks a model to reproduce a real vulnerability in open-source software and then patch it, ML4 scores 82%, the highest of any model; it also solves 93% of the challenges in Cybench, a set of 40 exercises drawn from security competitions."
+    },
+    {
+     "article": 1,
+     "fact": "Mistral says several leading closed models, including Claude Opus 5.5 and GPT-6 Astra, score near zero on the same test because they refuse to perform the task."
+    }
+   ],
+   "notes": "All benchmark claims are Mistral's own (TechCrunch says 'Mistral says' / 'claims'); attribute them. Reuters, The Verge and VentureBeat also cover it but could not be opened. Region EUROPE.",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "reference_posts": [],
+   "repeat_of_last_14_days": false
+  },
+  {
+   "id": "serval-series-c",
+   "title": "Serval raises $150M at a $3B valuation to replace ServiceNow with AI agents; ServiceNow shares drop a record 25%",
+   "region": "US",
+   "category_suggestion": "STARTUPS",
+   "first_published_utc": "2026-10-29T12:02Z",
+   "first_published": "2026-10-29 12:02 UTC (Reuters, first sighting in the feed); TNW 17:45 UTC",
+   "repeat_note": "Not a repeat.",
+   "reference_note": "No reference-account data for the evening window.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Serval Series C: Sequoia leads $150m round at a $3bn valuation",
+     "date": "2026-10-29",
+     "published": "2026-10-29T17:45:20+00:00",
+     "url": "https://thenextweb.com/news/serval-series-c-150m-3bn-valuation-sequoia"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Serval has raised $150m in a Series C round led by Sequoia, valuing the San Francisco company at $3bn. That is three times the $1bn valuation it reached in December, when it raised $75m."
+    },
+    {
+     "article": 0,
+     "fact": "Serval makes AI agents that automate employee support work. It started with IT tasks such as managing staff access and troubleshooting, and the company says customers now also use it in HR, finance, security and legal teams."
+    },
+    {
+     "article": 0,
+     "fact": "\"It's not an additional layer of AI spend on top of your existing system of record, it is a true alternative replacement for platforms like ServiceNow,\" CEO Jake Stauch told Reuters."
+    },
+    {
+     "article": 0,
+     "fact": "Serval says its annual recurring revenue has doubled every quarter since its Series B, and that two Fortune 20 companies became customers in the past six months."
+    },
+    {
+     "article": 0,
+     "fact": "The company says one car maker moved its whole organisation from ServiceNow to Serval in 45 days; Stauch told Reuters it was Lucid Motors."
+    },
+    {
+     "article": 0,
+     "fact": "ServiceNow told Forbes it keeps a 98% renewal rate. Its shares fell as much as 25% on Thursday, their biggest intraday drop since it listed in 2012, after its bookings outlook missed forecasts."
+    },
+    {
+     "article": 0,
+     "fact": "Serval has now raised $277m in total. It plans to hire more than 500 people over the next 12 months and is opening offices in New York, London and Austin."
+    },
+    {
+     "article": 0,
+     "fact": "More than 100 of the new hires will be automation engineers in ProServal, a new professional services arm; about half will be recent graduates, trained in a four-week programme."
+    }
+   ],
+   "notes": "Ties into the 'SaaSpocalypse' theme (AI agents vs. software incumbents). The Serval-vs-ServiceNow link is Serval's claim; ServiceNow's fall is attributed in the article to its bookings outlook.",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "reference_posts": [],
+   "repeat_of_last_14_days": false
+  },
+  {
+   "id": "deepgram-buys-daily-pipecat",
+   "title": "Deepgram buys Daily, the maker of open-source voice-agent framework Pipecat, and promises to keep it free",
+   "region": "US",
+   "category_suggestion": "STARTUPS",
+   "first_published_utc": "2026-10-29T13:00Z",
+   "first_published": "2026-10-29 13:00 UTC (TechCrunch, first sighting in the feed); TNW 17:54 UTC",
+   "repeat_note": "Not a repeat.",
+   "reference_note": "No reference-account data for the evening window.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "'Keeping Pipecat open was fundamental': Deepgram Daily acquisition",
+     "date": "2026-10-29",
+     "published": "2026-10-29T17:54:57+00:00",
+     "url": "https://thenextweb.com/news/deepgram-daily-acquisition-pipecat-open-source"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Voice AI company Deepgram is buying Daily, the maker of Pipecat, an open-source framework for building voice agents. Pipecat will stay open source and free under its existing BSD V2 licence."
+    },
+    {
+     "article": 0,
+     "fact": "Neither company disclosed the price, Ivan Mehta reported for TechCrunch."
+    },
+    {
+     "article": 0,
+     "fact": "Pipecat links the parts of a voice agent: speech-to-text, a large language model and text-to-speech. Daily co-founder Kwindla Hultman Kramer wrote that it has more than 200 integrations and almost 400 contributors."
+    },
+    {
+     "article": 0,
+     "fact": "Deepgram says more than 5,000 organisations run its speech models in production. It raised a $130m Series C in January that made it a unicorn, according to TechCrunch."
+    },
+    {
+     "article": 0,
+     "fact": "Daily has raised more than $62m from investors including Tiger Global, Nat Friedman and Lachy Groom, TechCrunch reported, citing PitchBook data."
+    },
+    {
+     "article": 0,
+     "fact": "The companies are setting up an independent Pipecat Foundation, run by a steering committee that will include companies that compete with Deepgram, according to Kramer."
+    },
+    {
+     "article": 0,
+     "fact": "At Deepgram Speak, its first conference, in San Francisco, Deepgram is introducing the Real-Time Context Standard (RCS), an open protocol built with the Pipecat team that passes tone, who is speaking and background noise along with the words."
+    }
+   ],
+   "notes": "Developer-leaning; weakest reader appeal of the new set. Price undisclosed, so no money headline.",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "reference_posts": [],
+   "repeat_of_last_14_days": false
+  },
+  {
+   "id": "nvidia-megaspeed-spy-report",
+   "title": "Report: US investigated whether a Singapore AI-cloud executive was a Chinese spy close to Nvidia's CEO; Nvidia denies any issue",
+   "region": "US",
+   "category_suggestion": "POLICY",
+   "first_published_utc": "2026-10-29T16:42Z",
+   "first_published": "2026-10-29 16:42 UTC (TechCrunch, relaying a New York Times report)",
+   "repeat_note": "Not a repeat. Same company as posts/2026-10-23-china-nvidia-35b (different story).",
+   "reference_note": "No reference-account data for the evening window.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+     "date": "2026-10-29",
+     "published": "2026-10-29T16:42:32+00:00",
+     "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "A top executive of a Singapore AI cloud firm that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, anonymous sources told the New York Times."
+    },
+    {
+     "article": 0,
+     "fact": "The executive, Alice Huang (or Huang Le), worked for Megaspeed and was photographed with multiple people at business dinners with Nvidia CEO Jensen Huang in the Singapore region."
+    },
+    {
+     "article": 0,
+     "fact": "U.S. intelligence agencies had been surveilling Alice Huang for about a year to learn more about her ties with China, the Times reports."
+    },
+    {
+     "article": 0,
+     "fact": "The concern, sources said, was that she had grown so close to Jensen Huang that she could have been gathering information about Nvidia's plans and the CEO's efforts to convince the Trump administration to allow it to ship more advanced technology to China."
+    },
+    {
+     "article": 0,
+     "fact": "An Nvidia spokesperson denied this, telling TechCrunch that Jensen Huang's interactions with Ms. Huang are \"not unusual or unexpected\" and that \"Jensen talks with thousands of customer executives every year\"."
+    },
+    {
+     "article": 0,
+     "fact": "Nvidia also said its regional cloud customers receive ordinary business information, \"not sensitive NVIDIA trade secrets\", and \"zero information relevant to national security\"."
+    },
+    {
+     "article": 0,
+     "fact": "In 2025, the Times reported that the Commerce Department had investigated Megaspeed over concerns that it was helping Chinese companies sidestep AI chip export regulations by reselling restricted chips to them."
+    }
+   ],
+   "caution": "Anonymous sources via the NYT, relayed in a short TechCrunch 'In Brief'; nobody is charged with spying. Names real people: no photos or likenesses. Write as 'according to the NYT's anonymous sources'; brand-safety to review.",
+   "notes": "Single short source (TechCrunch), NYT original not read. Strong click appeal but legally sensitive.",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "reference_posts": [],
+   "repeat_of_last_14_days": false
+  },
+  {
+   "id": "wabi-55m-1-25b",
+   "title": "Replika founder's Wabi raises $55M at a $1.25B valuation for an AI agent that builds mini apps",
+   "region": "US",
+   "category_suggestion": "STARTUPS",
+   "first_published_utc": "2026-10-29T14:35Z",
+   "first_published": "2026-10-29 14:35 UTC (TechCrunch)",
+   "repeat_note": "Not a repeat.",
+   "reference_note": "No reference-account data for the evening window.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+     "date": "2026-10-29",
+     "published": "2026-10-29T14:35:26+00:00",
+     "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Wabi, now describing itself as a \"personal agent,\" said on Thursday it has raised $55 million at a $1.25 billion valuation."
+    },
+    {
+     "article": 0,
+     "fact": "Wabi was founded by Eugenia Kuyda, who previously founded the AI companion startup Replika."
+    },
+    {
+     "article": 0,
+     "fact": "Wabi originally focused on letting anyone build apps using prompts; last month it announced a pivot to become an AI messenger."
+    },
+    {
+     "article": 0,
+     "fact": "The company suggests Wabi could be used to build mini apps for things like meal planning, tracking local restaurants, planning date nights and creating fitness plans."
+    },
+    {
+     "article": 0,
+     "fact": "IVP led the round; other participants included Andreessen Horowitz (a16z), Forerunner, Amazon Alexa Fund, and angels such as Shopify CEO Tobi Lutke and Salesforce CEO Marc Benioff."
+    },
+    {
+     "article": 0,
+     "fact": "TechCrunch notes the agent market is hot: viral AI agent Instinct pulled in another billion at a $10 billion valuation in September, and AI companion maker Tolan just raised $30 million."
+    }
+   ],
+   "notes": "Money headline is modest next to the Alphabet and Mistral stories; the 'Who is Wabi' line is needed.",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "reference_posts": [],
+   "repeat_of_last_14_days": false
+  },
+  {
+   "id": "samsung-q3-record",
+   "title": "Samsung posts the first 100-trillion-won quarter for any tech company: KRW 107.4T operating profit, almost all of it from chips",
+   "region": "KOREA",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "morning",
+   "first_published": "2026-10-29 01:10 UTC (Samsung Newsroom 10:10 KST)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not a repeat, but close in theme to posts/2026-10-28-sk-hynix-q3-record (rival memory maker, record Q3, posted yesterday). Different company. Editor: two days of Korean memory records in a row.",
+   "reference_posts": [],
+   "reference_note": "No reference account covered it yet (results came out after most of the 48h window).",
+   "articles": [
+    {
+     "outlet": "Samsung Global Newsroom",
+     "title": "Samsung Electronics Announces Third Quarter 2026 Results",
+     "date": "2026-10-29",
+     "published": "2026-10-29T10:10:00+09:00",
+     "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results"
+    },
+    {
+     "outlet": "The Korea Herald (Yonhap)",
+     "title": "Samsung Electronics posts record profit in Q3 on AI chip supercycle",
+     "date": "2026-10-29",
+     "published": "2026-10-29T11:08:10+09:00",
+     "url": "https://www.koreaherald.com/article/10918815"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Samsung posted KRW 195.3 trillion in consolidated Q3 revenue, an all-time quarterly high and up 14% quarter-on-quarter, and KRW 107.4 trillion in operating profit."
+    },
+    {
+     "article": 0,
+     "fact": "Samsung says this makes it the world's first tech company to exceed KRW 100 trillion in quarterly operating profit."
+    },
+    {
+     "article": 1,
+     "fact": "Net profit for July-September came to 75.13 trillion won ($56.2 billion), up 514.6% from 12.22 trillion won a year earlier. (Rate implied by the article: about 1,337 won per dollar.)"
+    },
+    {
+     "article": 1,
+     "fact": "Operating profit rose 783.1% on-year to 107.44 trillion won; revenue rose 126.9% to 195.25 trillion won."
+    },
+    {
+     "article": 1,
+     "fact": "The semiconductor business made 106.5 trillion won of operating profit, 99.1% of the company total."
+    },
+    {
+     "article": 0,
+     "fact": "The Memory Business 'significantly scaled up sales of HBM4' and set an all-time high for quarterly revenue and operating profit; strong server demand raised market prices across all applications."
+    },
+    {
+     "article": 1,
+     "fact": "The device experience division (phones and consumer electronics) posted an operating loss of 800 billion won, its second quarterly loss in a row."
+    },
+    {
+     "article": 0,
+     "fact": "For 2027, Samsung expects AI infrastructure capex to reach 'a historic level' and AI-driven memory demand to 'far exceed the industry supply'."
+    },
+    {
+     "article": 0,
+     "fact": "Q3 capital expenditure was KRW 29 trillion; full-year 2026 capex is expected at about KRW 84.4 trillion, KRW 76.8 trillion of it in chips."
+    },
+    {
+     "article": 1,
+     "fact": "It was the fourth consecutive quarter of record revenue and operating profit, a streak that began in Q4 2025. The report came a day after rival SK hynix posted its own record quarter."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "furiosaai-series-d",
+   "title": "Korean AI chip startup FuriosaAI raises 820 billion won, valuing it at about 3.8 trillion won",
+   "region": "KOREA",
+   "category_suggestion": "STARTUPS",
+   "slot_fit": "morning",
+   "first_published": "2026-10-29 03:40 UTC (AI Times 12:40 KST)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. No FuriosaAI post in posts/.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "퓨리오사AI, 8200억 규모 투자 유치...기업가치 3.8조원 돌파",
+     "title_en": "FuriosaAI raises 820 billion won, valuation tops 3.8 trillion won",
+     "language": "Korean",
+     "date": "2026-10-29",
+     "published": "2026-10-29T12:40:49+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216770"
+    }
+   ],
+   "caution": "Single source. The article gives no dollar figure or exchange rate; CLAUDE.md needs the article's rate for a $ figure, so the writer must either find a second article with a rate or leave won only. Explain FuriosaAI on first mention (Korean AI chip startup).",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "FuriosaAI (CEO Baek Jun-ho / 백준호) said on Oct 29 it completed a Series D round of 820 billion won in total. Post-money valuation is about 3.8 trillion won."
+    },
+    {
+     "article": 0,
+     "fact": "The National Growth Fund (국민성장펀드) invested 370 billion won, the largest investor in the round."
+    },
+    {
+     "article": 0,
+     "fact": "Foreign investors include US-based Infinitum, Singapore's QUDA Capital Partners and Cisco Investments."
+    },
+    {
+     "article": 0,
+     "fact": "Existing shareholders Korea Development Bank, Naver and NextTrans put in 170 billion won in follow-on investment."
+    },
+    {
+     "article": 0,
+     "fact": "The Export-Import Bank of Korea picked FuriosaAI as its first-ever direct investment in a venture company; UAMCO invested 40 billion won, the most of any new domestic investor."
+    },
+    {
+     "article": 0,
+     "fact": "The money will expand production and global sales of its second-generation AI chip RNGD ('Renegade') and speed up a third-generation AI accelerator being developed with Broadcom, aimed at hyperscale AI infrastructure."
+    },
+    {
+     "article": 0,
+     "fact": "RNGD mass production began in January this year; commercial deals include LG AI Research, Samsung SDS's RNGD-based NPU-as-a-service, and Upstage's Daum search summary service."
+    },
+    {
+     "article": 0,
+     "fact": "AI Times calls it one of the largest investments in Korean startup history. Baek: the round is 'a milestone' showing investors' trust, and the company will offer 'a new option' in AI infrastructure with high-performance, high-efficiency chips."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "kakao-kanana-2-embedding",
+   "title": "Kakao open-sources two Korean-strong embedding models for personal AI agents",
+   "region": "KOREA",
+   "category_suggestion": "TOOLS",
+   "slot_fit": "morning",
+   "first_published": "2026-10-29 02:03 UTC (etnews 11:03 KST)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Kakao has not been the subject of a post in the last 14 days.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "etnews (전자신문)",
+     "title": "카카오, 개인화 AI 에이전트용 임베딩 모델 2종 오픈소스 공개",
+     "title_en": "Kakao open-sources two embedding models for personalised AI agents",
+     "language": "Korean",
+     "date": "2026-10-29",
+     "published": "2026-10-29T11:03:02+09:00",
+     "url": "https://www.etnews.com/20261029000192"
+    }
+   ],
+   "caution": "Benchmarks are Kakao's own evaluation; say so. Explain Kakao on first mention.",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Kakao released two embedding models, 'Kanana-2-embedding', as open source on Hugging Face on Oct 29: Kanana-2-3b-embedding (3 billion parameters) and Kanana-2-1.3b-embedding (1.3 billion)."
+    },
+    {
+     "article": 0,
+     "fact": "It follows four Kanana small language models Kakao open-sourced in July."
+    },
+    {
+     "article": 0,
+     "fact": "Embedding models turn the meaning of text into numbers so an AI can find information related to a question, even when the user does not remember the exact words."
+    },
+    {
+     "article": 0,
+     "fact": "Example given: a user asks for 'the quiet restaurant we talked about before', and the agent finds past information with a similar meaning, like 'a good place to talk', without the restaurant's name."
+    },
+    {
+     "article": 0,
+     "fact": "In Kakao's own evaluation, both models scored higher in Korean and about the same in English than similar-size open models llama-nemotron-embed-1b-v2 and Qwen3-Embedding-4B, and ran inference more efficiently than Qwen3-Embedding."
+    },
+    {
+     "article": 0,
+     "fact": "The 1.3B model was built with knowledge distillation from the bigger model; both use Matryoshka Representation Learning (MRL) so developers can pick the vector size to trade off accuracy, storage and speed."
+    },
+    {
+     "article": 0,
+     "fact": "Both are under the 'Kanana Open License', which allows commercial use subject to its terms."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "korea-sme-physical-ai-plan",
+   "title": "Korea will spend over 5 trillion won by 2030 to put AI and robots in small factories, aiming for 10x more AI adopters",
+   "region": "KOREA",
+   "category_suggestion": "POLICY",
+   "slot_fit": "morning",
+   "first_published": "2026-10-29 04:42 UTC (etnews 13:42 KST)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Not related to posts/2026-10-01-korea-ai-for-all (different policy).",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "etnews (전자신문)",
+     "title": "중소기업 '피지컬AI' 확산에 5조원 투입…데이터·AI·로봇 묶어 '3X 전략'",
+     "title_en": "5 trillion won to spread 'physical AI' to small firms: a '3X strategy' linking data, AI and robots",
+     "language": "Korean",
+     "date": "2026-10-29",
+     "published": "2026-10-29T13:42:29+09:00",
+     "url": "https://www.etnews.com/20261029000275"
+    }
+   ],
+   "caution": "Single source, no dollar figure or rate in the article.",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The government will invest more than 5 trillion won by 2030 in smart-manufacturing innovation to spread 'physical AI' to small and medium-sized manufacturers."
+    },
+    {
+     "article": 0,
+     "fact": "The aim is to raise AI adoption among small manufacturers from 1% to 10%: from 600 AI-adopting firms to 6,000 by 2030, and digital-transformation firms from 18,000 to 30,000."
+    },
+    {
+     "article": 0,
+     "fact": "The Ministry of SMEs and Startups announced the 'small manufacturing physical AI strategy' at a national policy coordination meeting on Oct 29 in Cheonan, South Chungcheong."
+    },
+    {
+     "article": 0,
+     "fact": "The '3X strategy' merges digital transformation (DX), AI transformation (AX) and robot transformation (RX); manufacturing robots will go to about 1,000 companies by 2030."
+    },
+    {
+     "article": 0,
+     "fact": "AI and robots will be tested on manual work in food and cosmetics and on dangerous processes in casting and moulds, then combined in a 'smart robo-factory' (working name)."
+    },
+    {
+     "article": 0,
+     "fact": "A programme called 'AI factory manager for all' (모두의 AI 공장장) will use physical AI to run factories unmanned, fitted to each firm's industry and process."
+    },
+    {
+     "article": 0,
+     "fact": "Missing operators will be trained through education and internships at Korea's four science and technology institutes. Minister Lee So-young: linking data, AI and robots will help SMEs change how they produce."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "cxmt-hbm3e-low-yields",
+   "title": "China's CXMT will start making AI memory even though only 20-30% of its chips work (SK hynix: about 70%)",
+   "region": "CHINA",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "morning",
+   "first_published": "2026-10-28 (Reuters 04:50 UTC; TNW 20:04 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not a repeat. Was in ops/candidates/2026-10-28-evening.json (unused) with Seoul Economic Daily / Global Sources; now with a readable TNW article. Has a Korea angle (SK hynix, Samsung comparisons). Related to posts/2026-10-28-sk-hynix-q3-record only by context.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "CXMT to start AI memory production as only 20% to 30% of chips work",
+     "date": "2026-10-28",
+     "published": "2026-10-28T20:04:49+00:00",
+     "url": "https://thenextweb.com/news/cxmt-hbm3e-ai-memory-low-yields-reuters"
+    }
+   ],
+   "caution": "TNW relays Reuters' anonymous sources and says it has not verified the report. Attribute ('people familiar told Reuters').",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "CXMT, China's biggest memory chipmaker, plans to start making HBM3E, an advanced memory used in AI chips, even though only 20% to 30% of the chips it makes are usable, two people told Reuters."
+    },
+    {
+     "article": 0,
+     "fact": "SK Hynix, the market leader, gets a yield of around 70%. Low yields make production expensive because many chips must be thrown away or reworked."
+    },
+    {
+     "article": 0,
+     "fact": "CXMT has sent HBM3E samples to several Chinese AI chip designers and expects limited production within the next two months, one person said."
+    },
+    {
+     "article": 0,
+     "fact": "In testing, CXMT's HBM3E performed closer to SK Hynix's older HBM3 than to its HBM3E; it will likely cost more than comparable foreign products."
+    },
+    {
+     "article": 0,
+     "fact": "The US tightened export controls on some advanced HBM bound for China in December 2024; Chinese firms have sought it through unofficial channels at several times the price."
+    },
+    {
+     "article": 0,
+     "fact": "Last month Huawei, Cambricon, MetaX and Iluvatar CoreX raised AI chip prices by 20% to 50% as memory costs rose."
+    },
+    {
+     "article": 0,
+     "fact": "Counterpoint: in Q2, SK Hynix held 50% of global HBM revenue, Samsung 33% and Micron 18%. CXMT held 10% of global DRAM revenue, the fourth-largest supplier."
+    },
+    {
+     "article": 0,
+     "fact": "SK Hynix said on Wednesday that HBM4 beat its target yield and would pass HBM3E in shipments and revenue in Q4."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "deepseek-moonshot-astra-distillation",
+   "title": "Report: DeepSeek and Moonshot trained their newest models on OpenAI's GPT-6 Astra outputs",
+   "region": "CHINA",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "either",
+   "first_published": "2026-10-28 (The Information); Reuters 2026-10-29 02:10 UTC",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Related to posts/2026-10-25-kimi-k3-1-pro (the model named here). Not a repeat, but the editor should check that post's claims so the two do not contradict.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "Reuters (via AOL)",
+     "title": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models, The Information reports",
+     "date": "2026-10-29",
+     "published": "2026-10-29T02:10:57+00:00",
+     "url": "https://www.aol.com/articles/deepseek-moonshot-used-openais-gpt-021057000.html",
+     "note": "reuters.com returns 403; AOL carries the Reuters text unchanged."
+    }
+   ],
+   "caution": "Short brief based on The Information's unnamed sources; no company has confirmed. Facts are thin (about 6), so a full carousel may be hard.",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Chinese AI developers DeepSeek and Moonshot AI relied heavily on outputs from OpenAI's GPT-6 Astra to train their latest models, The Information reported on Wednesday, citing people with direct knowledge."
+    },
+    {
+     "article": 0,
+     "fact": "Moonshot AI's Kimi K3.1 Pro, released last week, and DeepSeek's upgraded V4.1-Flash 1017, launched on October 17, benefited from distilling Astra, The Information said."
+    },
+    {
+     "article": 0,
+     "fact": "The practice, known as distillation, has become a flashpoint as US-China technology competition intensifies; firms argue it lets rivals reproduce advanced capabilities more quickly and cheaply."
+    },
+    {
+     "article": 0,
+     "fact": "OpenAI, DeepSeek and Moonshot AI did not immediately respond to Reuters' requests for comment."
+    },
+    {
+     "article": 0,
+     "fact": "In a September 30 blog post, OpenAI said it had linked a core part of a distillation campaign that began in July to individuals associated with Moonshot AI."
+    },
+    {
+     "article": 0,
+     "fact": "Earlier this month, Anthropic said new measures have cut data harvested in distillation attacks on Claude by about 90% to 99%."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "proton-ai-reinterviews",
+   "title": "Swiss privacy company Proton will 're-interview' staff about how they use AI",
+   "region": "EUROPE",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "either",
+   "first_published": "404 Media 2026-10-26 20:16 UTC; heise 2026-10-28 07:00 UTC",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. But the first report (404 Media) is from Oct 26, about 57 hours old; heise's write-up is within 24h.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Proton-Angestellte sollen wegen KI-Nutzung erneut ins Bewerbungsgespräch",
+     "title_en": "Proton employees to sit job interviews again over their AI use",
+     "language": "German",
+     "date": "2026-10-28",
+     "published": "2026-10-28T08:00:00+01:00",
+     "url": "https://www.heise.de/news/Proton-Angestellte-sollen-wegen-KI-Nutzung-erneut-ins-Bewerbungsgespraech-11502535.html"
+    },
+    {
+     "outlet": "404 Media",
+     "title": "Proton To 'Re-Interview' Staff About AI To See Who Gets To Keep Their Job",
+     "date": "2026-10-26",
+     "published": "2026-10-26T20:16:02Z",
+     "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+     "note": "Paywalled after the first paragraph; only that paragraph was read."
+    }
+   ],
+   "caution": "Weaker on timing. Proton later said it is not cutting jobs; include that.",
+   "facts": [
+    {
+     "article": 1,
+     "fact": "Proton, the company behind ProtonMail, told staff on Monday it would be 're-interviewing' staff across the company about how they use AI in their jobs, according to an internal email obtained by 404 Media."
+    },
+    {
+     "article": 0,
+     "fact": "The internal notice says the review could lead to 'changes regarding tasks, responsibilities and further employment' (heise's German quote: 'zu Änderungen hinsichtlich der Aufgaben, Zuständigkeiten und weiteren Beschäftigung')."
+    },
+    {
+     "article": 0,
+     "fact": "The interviews will be run not by regular managers but by a group of senior staff who have shown 'strong AI skills'; they are scheduled between 4 and 11 November."
+    },
+    {
+     "article": 0,
+     "fact": "CEO Andy Yen interviewed more than 40 managers to prepare the re-interviews, per the internal memo."
+    },
+    {
+     "article": 0,
+     "fact": "Proton, which runs Proton Mail, Proton VPN and Proton Pass, had about 500 employees as of its latest 2024 figures; not all of them must re-interview."
+    },
+    {
+     "article": 0,
+     "fact": "Proton later said it is not cutting jobs and is not using AI as a pretext for that."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "gemini-4-carbon",
+   "title": "Google's Gemini 4 Carbon takes #1 on a key AI ranking, but goes to cyber defenders first",
+   "region": "US",
+   "category_suggestion": "RESEARCH",
+   "slot_fit": "evening",
+   "first_published": "2026-10-28 ~17:00 UTC (Google/DeepMind blog)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Leftover from ops/candidates/2026-10-28-evening.json (unused), still within 24h. Same company as posts/2026-10-27-google-genie-4 (different product).",
+   "reference_posts": [
+    {
+     "username": "ai_freaks.kr",
+     "url": "https://www.instagram.com/p/DfD92Yjmrh1/"
+    }
+   ],
+   "reference_note": "1 account (ai_freaks.kr, 334 likes). Also Reuters, The Verge, Ars Technica, VentureBeat, heise, AI Times all covered it.",
+   "articles": [
+    {
+     "outlet": "Google (The Keyword blog, Google DeepMind)",
+     "title": "Gemini 4 Carbon: our next frontier model",
+     "date": "2026-10-28",
+     "published": "2026-10-28",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Google announced Gemini 4 Carbon, which it calls its strongest model, with state-of-the-art cybersecurity and long-horizon capabilities. Post by Koray Kavukcuoglu, SVP Google DeepMind."
+    },
+    {
+     "article": 0,
+     "fact": "Carbon ranks #1 on the updated v5.0 Artificial Analysis Intelligence Index with a score of 59."
+    },
+    {
+     "article": 0,
+     "fact": "Cyber benchmarks: 88.2% on SEC-bench Pro (finding vulnerabilities), 54.8% on ExploitGym (exploitation), 71.0% on CWE-bench (patching)."
+    },
+    {
+     "article": 0,
+     "fact": "It builds on Gemini 4 Argon, launched two weeks earlier."
+    },
+    {
+     "article": 0,
+     "fact": "Rollout: starting this week, only a subset of cyber defenders get it, then more trusted partners through the Fairwind Program, before developers, businesses and consumers. Google is in the US government's voluntary pre-release testing process."
+    },
+    {
+     "article": 0,
+     "fact": "Price: same as Argon, $2 per million input tokens and $10 per million output tokens."
+    },
+    {
+     "article": 0,
+     "fact": "The Chrome team reported Carbon did more than 10X better than another lab's large frontier model at generating high-quality patches."
+    },
+    {
+     "article": 0,
+     "fact": "Internally, Carbon ran for days on complex engineering tasks; high-severity misalignment alerts in live coding dropped by almost 80%, and cheating on Terminal-Bench 4.0 fell to 0.0%."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "microsoft-openai-10b",
+   "title": "Microsoft made $10 billion from OpenAI in one quarter, nearly 11% of its revenue",
+   "region": "US",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "evening",
+   "first_published": "2026-10-28 21:34 UTC (TechCrunch)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. OpenAI was in posts/2026-10-27-openai-gpt-6-1-terra (different story).",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+     "date": "2026-10-28",
+     "published": "2026-10-28T21:34:30+00:00",
+     "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ended September 30, it said in a regulatory filing."
+    },
+    {
+     "article": 0,
+     "fact": "That is nearly 11% of Microsoft's total quarterly revenue of $92.3 billion."
+    },
+    {
+     "article": 0,
+     "fact": "For full fiscal 2026, revenue from OpenAI was $24.1 billion; at the latest pace Microsoft would take in $40 billion a year."
+    },
+    {
+     "article": 0,
+     "fact": "Microsoft reported $7.2 billion in outstanding receivables from OpenAI at the end of September, up from $6 billion at the end of June."
+    },
+    {
+     "article": 0,
+     "fact": "Microsoft's stake in OpenAI fell from about 25% in June to 24% in September, down from roughly 27% after the October 2025 recapitalization."
+    },
+    {
+     "article": 0,
+     "fact": "OpenAI committed in October 2025 to buy an additional $250 billion of Azure services; an April 2026 agreement keeps OpenAI sharing revenue with Microsoft through 2030, subject to a cap."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "doj-nvidia-hugging-face",
+   "title": "US Justice Department asks whether Nvidia's $12.9B Hugging Face deal would give it a chokepoint on AI models",
+   "region": "US",
+   "category_suggestion": "POLICY",
+   "slot_fit": "evening",
+   "first_published": "2026-10-28 (Reuters 20:41 UTC; TNW 19:52 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Nvidia was in posts/2026-10-23-china-nvidia-35b (different story).",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts. AI Times (Korea) also reported it.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "DOJ looks into Nvidia's $12.9B Hugging Face deal, Reuters reports",
+     "date": "2026-10-28",
+     "published": "2026-10-28T19:52:00+00:00",
+     "url": "https://thenextweb.com/news/doj-nvidia-hugging-face-deal-antitrust-inquiry"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The US Justice Department is asking how Nvidia's $12.9B purchase of Hugging Face would affect competition in AI, Reuters reported, citing two people familiar with the matter."
+    },
+    {
+     "article": 0,
+     "fact": "Officials want to know whether the deal would let Nvidia 'capture a fundamental distribution point for AI', and whether Nvidia could use Hugging Face to hurt rivals."
+    },
+    {
+     "article": 0,
+     "fact": "Hugging Face is where developers share open AI models and data. Nvidia agreed to buy it in September, promising to keep the platform open, and expects the deal to close in the first half of 2027."
+    },
+    {
+     "article": 0,
+     "fact": "The DOJ declined to comment but said it 'will continue to prioritize advancement of Super Intelligence', the White House's term for AI. Nvidia declined to comment."
+    },
+    {
+     "article": 0,
+     "fact": "The questions run alongside a years-long DOJ probe into Nvidia's conduct that began under President Biden; Nvidia also faces an antitrust probe in France."
+    },
+    {
+     "article": 0,
+     "fact": "Last month the DOJ was reported to be examining whether Nvidia set up its $20B Groq deal to avoid a merger review."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "anthropic-ipo-retail",
+   "title": "Anthropic weighs setting aside up to 20% of its IPO for retail investors; Senator Warren demands answers by Nov 3",
+   "region": "US",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "evening",
+   "first_published": "2026-10-28 (Bloomberg; TNW 20:25 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not posted, but backlog has posts/_backlog/2026-10-27-anthropic-ipo-s1.md and Anthropic IPO was in two 10-28 leftovers. Follow-up angle (retail share).",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic weighs up to 20% of IPO for retail as Warren demands answers",
+     "date": "2026-10-28",
+     "published": "2026-10-28T20:25:10+00:00",
+     "url": "https://thenextweb.com/news/anthropic-ipo-retail-warren-s-1-details"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Anthropic is weighing setting aside 15% to 20% of its IPO shares for retail investors, people told Bloomberg on 28 October; JPMorgan would lead the US retail offering."
+    },
+    {
+     "article": 0,
+     "fact": "Senator Elizabeth Warren told Anthropic to answer four pages of questions about its IPO filing by 3 November, including how it will justify a valuation that could approach $2tn."
+    },
+    {
+     "article": 0,
+     "fact": "The filing says sufficiently advanced AI 'could, if not developed, deployed, and operated with appropriate safeguards, oversight, and security measures, pose catastrophic or existential risks to humanity'."
+    },
+    {
+     "article": 0,
+     "fact": "First-half revenue was $16.3bn against $2.38bn cost of revenue, a gross margin of about 85% (excluding training); total compute spending was $8.95bn."
+    },
+    {
+     "article": 0,
+     "fact": "Since 30 June Anthropic has signed compute deals with about $245bn in minimum payments, including up to $120.5bn with SpaceXAI."
+    },
+    {
+     "article": 0,
+     "fact": "Sales through Amazon, Google and Microsoft cloud marketplaces were 48% of first-half revenue, up from 11% in 2023."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "korea-finance-cyberattack-wave",
+   "title": "New wave of cyberattacks hits Korean brokerages and crypto exchange Bithumb",
+   "region": "KOREA",
+   "category_suggestion": "POLICY",
+   "slot_fit": "either",
+   "first_published": "2026-10-28 15:41 UTC (TechCrunch); Korea Times / Korea Herald 2026-10-28",
+   "repeat_of_last_14_days": "partial",
+   "repeat_note": "Close to posts/2026-10-28-korea-ai-hacking-ring (posted yesterday). TechCrunch says officials have not found the cause of the new breaches and no AI link is established. Use only as a follow-up, or skip.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "South Korea's financial industry hit by fresh wave of cyberattacks",
+     "date": "2026-10-28",
+     "published": "2026-10-28T15:41:18+00:00",
+     "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The latest incidents hit brokerages Daishin Securities and Mirae Asset Global Investments and the crypto exchange Bithumb."
+    },
+    {
+     "article": 0,
+     "fact": "Daishin reported an attack that exposed personal information of 38,490 customers, including names, emails and mobile numbers."
+    },
+    {
+     "article": 0,
+     "fact": "Mirae and Bithumb reported separate incidents on Wednesday; neither has confirmed customer data was taken."
+    },
+    {
+     "article": 0,
+     "fact": "Researchers linked the September wave to a suspected China-based hacker using an AI penetration-testing tool called Artex; officials are still investigating the latest breaches."
+    },
+    {
+     "article": 0,
+     "fact": "Korea's financial regulator called for stronger cybersecurity, and the country plans security checks on dozens of private-sector IT systems."
+    },
+    {
+     "article": 0,
+     "fact": "Japan reported an incident at GMO Internet a day earlier; investigators have not connected the incidents."
+    }
+   ],
+   "from_morning": true
+  },
+  {
+   "id": "microsoft-copilot-harness",
+   "title": "Microsoft opens up the Copilot 'harness' behind GitHub Copilot, so companies can build agents on 20+ AI models",
+   "region": "US",
+   "category_suggestion": "TOOLS",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "first_published": "2026-10-28T16:51:35Z (17:51 Vienna)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Microsoft has not been posted in the last 14 days (the backlog Microsoft items were never posted).",
+   "reference_posts": [],
+   "reference_note": "No reference data for this window. Also covered by Unite.AI and FourWeekMBA (not read). VentureBeat's related 'GitHub Copilot Fusion' story could not be resolved or read.",
+   "articles": [
+    {
+     "outlet": "Microsoft (Official Microsoft Blog)",
+     "title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+     "date": "2026-10-28",
+     "published": "2026-10-28T16:51:35+00:00",
+     "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Microsoft is making the Microsoft Copilot harness, built by GitHub's engineering team, available through Microsoft Foundry. It gives developers and enterprise customers a fully managed way to build agents that reason, use tools and complete complex, long-running tasks."
+    },
+    {
+     "article": 0,
+     "fact": "The harness already powers Copilot Code, Copilot Studio, the GitHub Copilot app, the CLI, VS Code and more, and Microsoft has adopted it company-wide."
+    },
+    {
+     "article": 0,
+     "fact": "Microsoft's definition: \"If the model supplies the intelligence, the harness is everything around the model.\" It is the orchestration layer that gives an agent the right instructions, context, execution environment and controls."
+    },
+    {
+     "article": 0,
+     "fact": "It works across 20+ frontier models plus bring-your-own-key, and Microsoft will route work to the right model or models based on the task."
+    },
+    {
+     "article": 0,
+     "fact": "Microsoft recently ported the harness runtime to Rust, which it says cut session overhead and time-to-first-token."
+    },
+    {
+     "article": 0,
+     "fact": "It supports open standards such as MCP and agent skills, as well as agent plugins."
+    },
+    {
+     "article": 0,
+     "fact": "Customers can download the SDK or run the harness in the cloud, managed by Foundry. Microsoft runs the agent loop and sandbox, with governance built in; customers bring the instructions, skills, tools and model choice."
+    },
+    {
+     "article": 0,
+     "fact": "The post opens: \"If you want to compete, you need to be multi-model.\" It is signed by Tina Schuchman, CVP of Foundry, and Vladimir Fedorov, CTO of GitHub."
+    }
+   ],
+   "notes": "A big-company launch, but for developers, with no price, no customer numbers and no dates in the post. The word 'harness' is jargon, so a cover needs the plain version ('the software around the AI model'). Don't use FourWeekMBA's 'free until December 1' claim: it was not read.",
+   "from_morning": true,
+   "carried_from": "2026-10-28-evening"
+  },
+  {
+   "id": "frontier-ai-safety-leaders-meeting",
+   "title": "World leaders meet online on frontier-AI safety: Singapore proposes an AI incident-reporting pilot, Austria bids for a UN AI centre in Vienna",
+   "region": "GLOBAL",
+   "category_suggestion": "POLICY",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "first_published": "2026-10-28 (meeting held Wednesday; PMO Singapore indexed 13:48 UTC, Der Standard 17:00 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Not related to posts/2026-10-21-anthropic-safety-bill (that was a US state bill, and it was blocked, not posted).",
+   "reference_posts": [],
+   "reference_note": "No reference data for this window. Also reported by The Straits Times and CNA (both 403) and Agerpres (Romania's foreign minister; not read).",
+   "articles": [
+    {
+     "outlet": "Prime Minister's Office Singapore",
+     "title": "PM Lawrence Wong at the Virtual Leaders' Meeting on Frontier AI Safety Co-Hosted by Norway and Finland (Oct 2026)",
+     "date": "2026-10-28",
+     "published": "page shows 28 October 2026; Google News 2026-10-28 13:48 GMT",
+     "url": "https://www.pmo.gov.sg/newsroom/pm-lawrence-wong-at-the-virtual-leaders-meeting-on-frontier-ai-safety-co-hosted-by-norway-and-finland-oct-2026/"
+    },
+    {
+     "outlet": "Der Standard",
+     "title": "Österreich will KI-Zentrum der Vereinten Nationen in Wien etablieren",
+     "title_en": "Austria wants to set up a United Nations AI centre in Vienna",
+     "language": "German",
+     "date": "2026-10-28",
+     "published": "2026-10-28T17:00:04Z (RSS)",
+     "url": "https://www.derstandard.at/story/3000000346414/214sterreich-will-ki-zentrum-der-vereinten-nationen-nach-wien-holen"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Norway and Finland co-hosted a Virtual Leaders' Meeting on Frontier AI Safety on Oct 28. Singapore's Prime Minister Lawrence Wong opened by thanking \"President Stubb and Prime Minister Støre\" for bringing the leaders together."
+    },
+    {
+     "article": 0,
+     "fact": "Wong said countries may take different approaches to AI governance but share a common interest in making AI safer while continuing to harness its benefits."
+    },
+    {
+     "article": 0,
+     "fact": "He urged \"a practical and flexible approach, rather than seek to establish an elaborate new international architecture from the outset\": work organised around specific workstreams, led by smaller cross-regional groups of interested countries, with voluntary participation."
+    },
+    {
+     "article": 0,
+     "fact": "His concrete proposal: interested parties and countries launch a pilot on AI incident reporting. They would agree on a common set of incident categories and information to share, explore how to exchange it securely, and test what works before considering a wider framework."
+    },
+    {
+     "article": 0,
+     "fact": "He compared it to international aviation, where incidents and near misses are reported and studied and the lessons shared, so safety standards keep improving."
+    },
+    {
+     "article": 0,
+     "fact": "\"Today, much of what we know about the safety of frontier models comes from the developers themselves,\" Wong said. Governments, businesses and other users also run into serious failures or near misses that may not trigger existing reporting requirements."
+    },
+    {
+     "article": 0,
+     "fact": "He pointed to Singapore's International Scientific Exchange on AI Safety, which produced the Singapore Consensus on Global AI Safety Research Priorities, and to the Independent Scientific Panel on AI that supports the UN Global Dialogue on AI Governance."
+    },
+    {
+     "article": 1,
+     "fact": "Austria wants to anchor an international centre for AI cooperation, under the umbrella of the United Nations, in Vienna. State Secretary Alexander Pröll presented Chancellor Christian Stocker's proposal on Wednesday at the \"High-Level Virtual Meeting on the Control of Frontier AI Models\", which was held on the initiative of Finland's and Norway's leaders."
+    }
+   ],
+   "notes": "A policy story with Europe (Nordic hosts, Austria's Vienna bid; Jamie lives in Austria) and Asia (Singapore) angles. Der Standard is the lead paragraph only (consent wall), so use only fact 7 from it; how far Austria's bid goes is unknown. The two sources name the meeting differently; pick one. The background on the Sept 21 'Call for Control of Frontier AI Models' came from search snippets only (regjeringen.no, not fetched), so leave it out unless someone reads it. No list of participating countries was read. Who-is lines: Lawrence Wong, Singapore's prime minister; Alexander Stubb, Finland's president; Jonas Gahr Støre, Norway's prime minister; Christian Stocker, Austria's chancellor.",
+   "from_morning": true,
+   "carried_from": "2026-10-28-evening"
+  },
+  {
+   "id": "uk-budget-data-centre-covenant",
+   "title": "UK Budget: data centres get priority grid access if they invest locally, plus £140M for sovereign AI and £500M for AI safety",
+   "region": "EUROPE",
+   "category_suggestion": "POLICY",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "first_published": "2026-10-28T13:40:11Z (City AM; Budget speech Wednesday)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Related only: posts/2026-10-25-uk-ai-biosecurity-lab covered a pre-Budget UK AI biosecurity announcement. The £500M here 'builds on' those pre-Budget investments, so don't re-tell the biosecurity lab.",
+   "reference_posts": [],
+   "reference_note": "No reference data for this window. Also covered by Reuters (blocked), Bloomberg (paywall), Data Center Dynamics and CNA (403), and CoStar (not read).",
+   "articles": [
+    {
+     "outlet": "City AM",
+     "title": "Budget 2026: Healey unveils data centre deal in bid to keep Britain's AI data in the UK",
+     "date": "2026-10-28",
+     "published": "2026-10-28T13:40:11+00:00",
+     "url": "https://www.cityam.com/budget-2026-healey-unveils-data-centre-deal-in-bid-to-keep-britains-ai-data-in-the-uk/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Announcing a British Data Centre Covenant in Wednesday's (Oct 28) Budget, John Healey offered data-centre developers priority access to Britain's electricity grid in exchange for investment in jobs and environmental protections."
+    },
+    {
+     "article": 0,
+     "fact": "Under the covenant, developers must invest in local communities, create jobs and protect local water supplies. In return, critical data centres get the grid connections they need and, where necessary, permission to build on-site power generation while they wait for a connection."
+    },
+    {
+     "article": 0,
+     "fact": "\"To ensure our most sensitive data stays under British control, I am setting out a new deal for datacentres in the UK,\" Healey told MPs. \"When the NHS uses AI to treat patients, we want that data here. When our Armed Forces use AI to keep us safe, we want that data here.\""
+    },
+    {
+     "article": 0,
+     "fact": "Healey also announced another £140m for Britain's Sovereign AI Unit, which channels government investment into strategically important British AI companies."
+    },
+    {
+     "article": 0,
+     "fact": "He confirmed an additional £500m for AI safety and security, building on investments announced before the Budget in cyber defence, biosecurity and the AI Security Institute."
+    },
+    {
+     "article": 0,
+     "fact": "\"Nowhere is the necessary role for the state clearer than in AI,\" Healey said, pledging a British approach based on \"security\" and \"sovereignty\"."
+    },
+    {
+     "article": 0,
+     "fact": "Electricity shortages threaten to derail billions of pounds of planned investment in British AI infrastructure. Last week Microsoft withdrew from plans to build what would have been Britain's largest AI data centre with London-based Nscale, after grid capacity problems kept the Essex site from getting power in time for its planned 2026 launch."
+    },
+    {
+     "article": 0,
+     "fact": "The government also faces growing opposition to data-centre construction over energy use and the impact on local communities."
+    },
+    {
+     "article": 0,
+     "fact": "Lifebit CEO Dr Maria Dunford welcomed the funding but said public contracts still favour overseas tech giants: \"Funding is only the first step, and procurement needs to follow.\""
+    }
+   ],
+   "notes": "Europe policy story with clear numbers. City AM does not give Healey's job title; he presented the Budget, but confirm 'Chancellor' from a source before writing it. Currency rule: City AM gives no dollar values for £140m or £500m, so either find a source with a rate or keep pounds and flag it to the editor. The Microsoft/Nscale line is useful context, but if Microsoft is picked tonight (microsoft-copilot-harness), avoid the overlap.",
+   "from_morning": true,
+   "carried_from": "2026-10-28-evening"
+  },
+  {
+   "id": "sap-cheaper-ai-models",
+   "title": "SAP swaps its priciest AI models for cheaper ones and expects over €2B in efficiency gains in two years",
+   "region": "EUROPE",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "evening",
+   "new_evening": true,
+   "first_published": "about 2026-10-28T14:00Z (Reuters interview; Reuters copies on TradingView 14:04 and Yahoo 14:08 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. SAP has not been posted.",
+   "reference_posts": [],
+   "reference_note": "No reference data for this window. The Reuters original and its MarketScreener, CNA and Yahoo copies were blocked or failed; both readable copies relay Reuters.",
+   "articles": [
+    {
+     "outlet": "IndexBox (citing Reuters)",
+     "title": "SAP Replaces Expensive AI Models With Cheaper Options to Save EUR2 Billion",
+     "date": "2026-10-28",
+     "published": "2026-10-28T16:10:42+01:00",
+     "url": "https://www.indexbox.io/blog/sap-swaps-costly-ai-models-for-cheaper-alternatives-targets-eur2-billion-in-efficiency-gains/"
+    },
+    {
+     "outlet": "UA.NEWS (citing CNA/Reuters)",
+     "title": "SAP expects over €2bn in gains from cheaper AI models",
+     "date": "2026-10-28",
+     "published": "2026-10-28 16:19:40 (local time; Google News 14:24 GMT)",
+     "url": "https://ua.news/en/money/sap-zaminiuie-dorogi-modeli-shi-ta-ochikuie-ponad-eur2-mlrd-efektu-channel-newsasia"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "SAP is replacing some of the costly AI models that power its products with cheaper alternatives, a step it expects to yield more than €2 billion in efficiency gains over the next two years, according to Reuters."
+    },
+    {
+     "article": 0,
+     "fact": "Chief Financial Officer Dominik Asam told Reuters SAP has removed some of its most expensive AI models from offerings, including its internal consulting assistant, and substituted lower-cost options where performance held up."
+    },
+    {
+     "article": 0,
+     "fact": "SAP draws on more than 70 AI models from providers including OpenAI, Anthropic and Google, and increasingly picks the least expensive model that meets the required standard for a given task."
+    },
+    {
+     "article": 1,
+     "fact": "SAP said the goal is healthy profitability as AI use scales, not cutting AI spending in absolute terms; its overall AI spending is still expected to rise as the tools spread."
+    },
+    {
+     "article": 0,
+     "fact": "Unlike many AI providers, SAP bills customers for completed tasks rather than for the computing used to generate responses, so lower operating costs can support profitability."
+    },
+    {
+     "article": 0,
+     "fact": "Asam said government agencies and companies in regulated industries increasingly set requirements and exclude models based on their origin, while European customers increasingly seek local solutions."
+    }
+   ],
+   "notes": "Good Europe business story (the 'cheapest model that does the job' trend), but the sourcing is thin: two small outlets relaying a Reuters interview. Cite 'Reuters, via IndexBox' and name the relay. No dollar value for €2B in either article. Who-is: IndexBox says 'the software maker, whose products are used by many of the world's largest companies'. That SAP is German is not in either text.",
+   "from_morning": true,
+   "carried_from": "2026-10-28-evening"
+  },
+  {
+   "id": "nvidia-nemotron-transcribe",
+   "title": "Nvidia releases a free, open speech model that transcribes 40 languages and runs on a single chip",
+   "region": "US",
+   "category_suggestion": "TOOLS",
+   "slot_fit": "evening (weaker)",
+   "new_evening": true,
+   "first_published": "2026-10-28T15:00:00Z (TechCrunch)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Nvidia was last posted 10-23 (posts/2026-10-23-china-nvidia-35b, a different story). The backlog item posts/_backlog/2026-10-21-nvidia-nemotron-open-models.md is an older Nemotron release that was never posted.",
+   "reference_posts": [],
+   "reference_note": "No reference data for this window. TNW also covered it (not read).",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+     "date": "2026-10-28",
+     "published": "2026-10-28T15:00:00+00:00",
+     "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Nvidia on Wednesday (Oct 28) released Nemotron 3.5 Transcribe, a free, open-weight model that transcribes audio in up to 40 languages. It also released version 2 of Granary, its open-source speech dataset."
+    },
+    {
+     "article": 0,
+     "fact": "Nvidia says the model can translate 31 languages to and from English, handle recordings up to an hour long, and tell up to eight speakers apart. It claims to beat rivals on benchmarks including Hugging Face's Open ASR Leaderboard."
+    },
+    {
+     "article": 0,
+     "fact": "The tools target developers building apps for business meetings and medical transcription. Nvidia says developers can use the model, the updated Granary dataset and tools like its NeMo Speech model to customise apps to recognise an industry’s jargon in each language."
+    },
+    {
+     "article": 0,
+     "fact": "One drawback: Transcribe works with recorded audio, not livestreams."
+    },
+    {
+     "article": 0,
+     "fact": "At 30 billion parameters, it can run on a single chip, from the Jetson AGX Thor robotics controller and the DGX Spark chip in new laptops to Blackwell data-center chips."
+    },
+    {
+     "article": 0,
+     "fact": "It comes during a busy run of voice AI releases: Mistral shipped Voxtral 3 earlier this month, ElevenLabs launched Realtime for voice agents, and Salesforce released its Launa-Omni voice model."
+    }
+   ],
+   "notes": "A useful tools story with modest reach. Benchmark claims are Nvidia's own. Single source.",
+   "from_morning": true,
+   "carried_from": "2026-10-28-evening"
+  }
+ ]
+}

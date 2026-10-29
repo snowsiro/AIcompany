@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "issues": [],
+  "notes": [
+    "Cover (cover.png and slides/01.jpg): AI-generated abstract server hall with a glowing lattice panel. No people, no logo or brand mark (Mistral or other), no readable text in the image. Only template text (tag, headline, handle) is present.",
+    "No reference-account wording, layout or imagery found. Wording is original and traces to the two listed sources.",
+    "Credit: caption ends with TechCrunch (title, date) and Mistral AI (title, date). threads_caption credits TechCrunch with its title. Slide 8 lists both sources.",
+    "Benchmark claims: slides 6 and 7 and the caption frame 82%, 93%, 'highest of any model', 'comparable to GLM-5.3' and '47% fewer tokens' as 'Mistral says' and close with 'These are Mistral's numbers'. None is stated as fact. The cover does not lead with a benchmark.",
+    "Competitor: GLM-5.3 is described neutrally as 'a Chinese open-weight competitor'. The post only relays Mistral's 'comparable' claim and does not disparage the model, its maker or China. Slide 7 title 'Mistral vs GLM-5.3' is a comparison framing and the body supports it.",
+    "Dual-use: the cyber content is limited to benchmark scores and a one-line description of what the test measures. No exploit, vulnerability or attack steps and no how-to. The quote slide carries Mistral's defensive pitch (access that cannot be cut off). Optional, non-blocking: slides do not state Stock's 'defend yourselves against cyberattacks' framing. It is in the source and the TechCrunch title says 'targeting cybersecurity'.",
+    "Affiliate/sponsor: no affiliate, referral or tracking links and no 'tool we use' or sponsorship wording in slides, caption or threads_caption. Hugging Face is mentioned once as a news fact attributed to TechCrunch, not as an endorsement. 'link in bio' is the weekly digest pointer, not a link.",
+    "Design: colors (ink, paper, muted, accent, line) and fonts (Anton cover, Inter Tight body) match DESIGN.md. One accent word on the cover, at most two accents per body slide. Tag is EUROPE AI · TOOLS and the quote slide has no inner quote marks.",
+    "Tone: neutral and factual. No mockery of a person, company or country. Hook 'MISTRAL OPENS ITS 1T MODEL' is supported by slides 2 and 3, which say it is the weights being released, not a new model.",
+    "Scope note: accuracy of numbers and quotes against the sources is the fact-checker's job and was not verified here."
+  ]
+}
