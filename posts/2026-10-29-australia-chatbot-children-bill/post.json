@@ -7,13 +7,13 @@
   "cover": {
     "tag": "ASIA AI · POLICY",
     "headline": [
-      "AUSTRALIA TAKES",
-      "ON KIDS' **AI** BFFS"
+      "AUSTRALIA VS",
+      "KIDS' **AI** FRIENDS"
     ],
     "hook_options": [
       [
-        "AUSTRALIA TAKES",
-        "ON KIDS' **AI** BFFS"
+        "AUSTRALIA VS",
+        "KIDS' **AI** FRIENDS"
       ],
       [
         "\"WAKE UP CALL\"",
@@ -25,12 +25,12 @@
       ]
     ],
     "hook_types": [
-      "claim",
+      "rivalry",
       "quote",
-      "reader-impact"
+      "claim"
     ],
-    "hook_type": "claim",
-    "hook_pick_reason": "It names the country, the target (chatbots acting as a child's best friend) and the group covered (kids, not adults) in two lines, and 'takes on' describes a move, not a finished law. Slide 2 says the lower house passed the bill and the Senate still has to vote; slide 3 gives the amendment's exact wording that platforms would have to ban; slide 4 says adults who use AI companions are not covered. 'BFFs' echoes Albanese's 'best friend' line on slide 5 and TNW's own 'bonding with kids' framing. The quote hook ('wake up call', slide 5) is exact and credited to Australia's PM, but it leaves chatbots and children off the cover, so a cold reader can't tell what the story is. The reader-impact hook ('AI wouldn't bond with Aussie kids') states what the bill would do for children in Australia, as TNW's headline does, but 'AI wouldn't bond' reads like a settled outcome for all AI, while the bill only obliges platforms to ban conduct that simulates emotional intimacy and fosters a child's dependence, and only if the Senate passes it. No number hook: the story's numbers are dates and the existing under-16 social media ban, which is a separate law.",
+    "hook_type": "rivalry",
+    "hook_pick_reason": "It names the country and the target (chatbots acting as a child's friend) in plain words a global reader gets at a glance; \"vs\" frames a move against them, not a finished law. Slide 2 says the lower house passed the bill and the Senate still has to vote; slide 3 gives the amendment's exact wording; slide 4 says adults are not covered. \"Friends\" echoes Albanese's \"best friend\" line on slide 5 (it replaced \"BFFs\", which the hook review found unclear for readers whose first language is not English). The quote hook is exact and credited but leaves chatbots and children off the cover. \"AI wouldn't bond with Aussie kids\" (a claim) reads like a settled outcome for all AI. No number hook: the story's numbers are dates. No reader-impact hook: the article states what the bill would require of platforms in Australia, not a change in what readers elsewhere pay, use, can do or risk.",
     "image_prompt": "Cinematic, moody still of a dim, empty child's bedroom at night, seen from a low angle. In the upper half of the frame a single softly glowing speech bubble of warm light floats in the air, held back behind a translucent, frosted glass-like barrier that diffuses its glow into a gentle haze. Cool blue moonlight from a window, a small unmade bed and a plush toy silhouette at the edge, shallow depth of field, fine dust in the light. Abstract and unmarked: no screens showing content, no devices with brands. Main subject in the upper half, lower third fading into deep shadow. No text, no letters, no logos, no people.",
     "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261029_045810_11c746af-da33-4f72-bd5a-37c612db2e95.png"
   },
@@ -53,7 +53,7 @@
       "kicker": "Who it covers",
       "title": "Children, not adults",
       "body": [
-        "The wording covers a child's dependence on a chatbot. It does **not cover adults** who use AI companions. The rule follows concerns abroad about AI companions and children. Australia already has a separate **under-16** social media ban."
+        "The amendment targets a child's reliance on a chatbot, not grown-ups: adults who use AI companions are **not covered**. It comes amid worries in other countries about children and AI companions. Australia's **under-16** social media ban is a separate law already in place."
       ]
     },
     {
@@ -65,7 +65,7 @@
       "kicker": "The wider bill",
       "title": "One duty of care",
       "body": [
-        "The framework would set new online safety standards for social media, games, apps and chatbots, replacing several existing online codes with one broader duty. Social media platforms would have to offer an **algorithm opt-out** that is “accessible, easy to use” and “prominently available.”"
+        "The wider bill would fold several existing online codes into one broad duty of care, covering social media, games, apps and chatbots. Social media platforms would also have to offer an **algorithm opt-out** that is “accessible, easy to use” and “prominently available.”"
       ]
     },
     {
