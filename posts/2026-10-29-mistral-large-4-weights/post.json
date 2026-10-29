@@ -1,0 +1,139 @@
+{
+  "id": "2026-10-29-mistral-large-4-weights",
+  "date": "2026-10-29",
+  "category": "TOOLS",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · TOOLS",
+    "headline": [
+      "MISTRAL OPENS",
+      "ITS **1T** MODEL"
+    ],
+    "hook_options": [
+      [
+        "MISTRAL OPENS",
+        "ITS **1T** MODEL"
+      ],
+      [
+        "MISTRAL: **82%**",
+        "ON A CYBER TEST"
+      ],
+      [
+        "“**CAN’T** BE CUT",
+        "OFF” — MISTRAL"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "quote"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "It names the company and the news in plain words: Mistral has opened up its 1-trillion-parameter model. Slide 1 says exactly what \"opens\" means (the weights are released, so organisations can download and run it) and that the model was first introduced on 6 October, so the cover does not promise a new model; slide 2 gives the 1 trillion parameters. The number hook (82%) is true only as Mistral's claim about one test of one index, so the cover would need \"Mistral\" and \"a cyber test\" to stay honest and it leads with a benchmark the reader cannot check. The quote hook is exact but the cover cuts it mid-sentence and names no model. No reader-impact hook: the articles state who can use the weights (businesses and governments that deploy the model themselves), not a change in what ordinary readers pay, use, can do or risk.",
+    "image_prompt": "Cinematic wide shot inside a vast, dark server hall. In the upper half of the frame an enormous glowing lattice of thousands of tiny golden-white light points, arranged like a constellation, swings open like a massive vault door, with beams of warm light spilling out through the gap onto polished floor reflections. Cool blue haze, faint rows of unmarked server racks fading into the distance, fine dust in the light beams, shallow depth of field. Abstract and unmarked: no branding, no screens showing content. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261029_182522_084dd269-7e48-433b-8201-2792184a3164.png"
+  },
+  "slides": [
+    {
+      "kicker": "The release",
+      "title": "The weights are out",
+      "body": [
+        "Mistral, a French AI company, has released the **weights** of Mistral Large 4, which it first introduced on 6 October. Weights are the trained numbers that make up a model. With them, businesses and governments can **download it and run it themselves**."
+      ]
+    },
+    {
+      "kicker": "The size",
+      "title": "One trillion parameters",
+      "body": [
+        "Mistral Large 4 has **1 trillion parameters**, with 52 billion of them active. It is natively multimodal, so it understands images as well as text. Mistral calls it its **largest and most capable** model to date."
+      ]
+    },
+    {
+      "kicker": "Built in Europe",
+      "title": "Trained on 3,800 chips",
+      "body": [
+        "Mistral says it trained the model from scratch on **3,800** Nvidia Grace Blackwell GPUs, a type of AI chip, in its own data centres in Europe. A large share of the training data was multilingual, spanning more than **160 languages**."
+      ]
+    },
+    {
+      "kicker": "The pitch",
+      "quote": "Access that **can’t be cut off** by definition because the model is open-weighted.",
+      "who": "Pierre Stock, Mistral's vice president of science"
+    },
+    {
+      "kicker": "Mistral's scores",
+      "title": "Its own claims",
+      "body": [
+        "Mistral says the model scores **82%** on one test of a cyber benchmark, where it must reproduce a real software flaw and then patch it: the highest of any model. It also says it solves **93%** of Cybench's 40 security challenges. These are Mistral's numbers."
+      ]
+    },
+    {
+      "kicker": "The comparison",
+      "title": "Mistral vs GLM-5.3",
+      "body": [
+        "Mistral says it is comparable to GLM-5.3, a Chinese open-weight competitor, on cyber work, using **47% fewer tokens** per task. TechCrunch reports the weights are on **Hugging Face** and in Mistral's API."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "\"French AI company Mistral has released the weights for its trillion-parameter open source AI model Mistral Large 4 (ML4), allowing businesses and governments to download and deploy the system themselves. Nicknamed “Le Chonk,” the model was first introduced earlier this month.\" The post says \"open weights\" / \"open-weight\" and not \"open source\"; the articles give no licence."
+    },
+    {
+      "source": 1,
+      "text": "Mistral AI, October 6, 2026: \"Today, we’re launching a public preview of Mistral Large 4.\" \"Weights drop end of this month.\" So 6 October is the first introduction (a preview); today's news is the weights."
+    },
+    {
+      "source": 0,
+      "text": "\"The release of the model’s weights — the numerical training that animates the system — ensures that other companies and government agencies will now be able to deploy ML4 for their own purposes.\" The post's plain-words definition (\"the trained numbers that make up a model\") is a paraphrase of this."
+    },
+    {
+      "source": 1,
+      "text": "\"ML4 is a 1 trillion-parameter natively multimodal model with 52 billion active parameters. It is our largest and most capable model to date.\" The model \"reasons powerfully across complex documents, charts, and natural images\" (the post says it understands images as well as text)."
+    },
+    {
+      "source": 1,
+      "text": "\"ML4 was trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral’s own datacenters in Europe.\" \"a significant share of ML4’s training data was multilingual, spanning more than 160 languages\". \"GPUs, a type of AI chip\" is the post's own plain-words gloss."
+    },
+    {
+      "source": 0,
+      "text": "Pierre Stock, Vice President of Science at Mistral, told TechCrunch: \"Concretely, it means that, for instance, as a business company or as a government, you’re able to have access to frontier intelligence to defend yourselves against cyberattacks. Access that can’t be cut off by definition because the model is open-weighted,\" he said."
+    },
+    {
+      "source": 1,
+      "text": "Mistral's own claim: \"On one of the index's tests, which asks a model to reproduce a real vulnerability in open-source software and then patch it, ML4 scores 82%, the highest of any model. It also solves 93% of the challenges in Cybench, a set of 40 exercises drawn from security competitions\". The 82% is one test of the Artificial Analysis Cyber Index, not the whole index. The post calls it \"a cyber benchmark\" and does not explain Artificial Analysis further."
+    },
+    {
+      "source": 0,
+      "text": "\"Mistral says that its model is comparable in terms of performance with a Chinese open-weight competitor, GLM-5.3, which was previously considered one of the best open-weight models in the world — particularly when it comes to cyber work. However, Mistral’s model uses 47 percent fewer tokens per task\". Mistral's claim; the post says only \"a Chinese open-weight competitor\" and does not repeat the economy claim."
+    },
+    {
+      "source": 0,
+      "text": "\"The weights for ML4 are being made available on Hugging Face and via its API.\" The Hugging Face availability rests on TechCrunch alone (not verified on the Hugging Face page). The post does not explain Hugging Face."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "date": "Oct 29, 2026",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+    },
+    {
+      "outlet": "Mistral AI",
+      "title": "Introducing Mistral Large 4",
+      "date": "Oct 6, 2026",
+      "url": "https://mistral.ai/news/mistral-large-4/"
+    }
+  ],
+  "caption": "French AI company Mistral just released the weights of Mistral Large 4, its 1-trillion-parameter model.\n\nThe model was first introduced on 6 October; today's news is the weights. Weights are the trained numbers that make up a model, so businesses and governments can now download it and run it themselves. TechCrunch reports they are on Hugging Face and available through Mistral's API.\n\n→ Mistral Large 4 has 1 trillion parameters, 52 billion of them active, and Mistral says it was trained on 3,800 Nvidia Grace Blackwell GPUs in its own data centres in Europe\n→ Mistral says it scores 82% on one test of a cyber benchmark and solves 93% of Cybench's 40 security challenges; these are Mistral's own claims\n→ Mistral's Pierre Stock says the weights mean access \"that can’t be cut off by definition because the model is open-weighted\"\n\nWould you rather run a powerful AI model yourself, or rely on a provider?\n\nSource: TechCrunch, \"Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity\", Oct 29, 2026; Mistral AI, \"Introducing Mistral Large 4\", Oct 6, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Mistral",
+    "#OpenWeights",
+    "#EuropeAI"
+  ],
+  "threads_caption": "French AI company Mistral just released the weights of Mistral Large 4, its 1-trillion-parameter model.\n\nWeights are the trained numbers that make up a model, so businesses and governments can download and run it themselves. The model was first introduced on 6 October.\n\nSource: TechCrunch, \"Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity\". #Mistral"
+}
