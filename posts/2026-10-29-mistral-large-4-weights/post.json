@@ -2,7 +2,7 @@
   "id": "2026-10-29-mistral-large-4-weights",
   "date": "2026-10-29",
   "category": "TOOLS",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "cover": {
     "tag": "EUROPE AI · TOOLS",
@@ -135,5 +135,9 @@
     "#OpenWeights",
     "#EuropeAI"
   ],
-  "threads_caption": "French AI company Mistral just released the weights of Mistral Large 4, its 1-trillion-parameter model.\n\nWeights are the trained numbers that make up a model, so businesses and governments can download and run it themselves. The model was first introduced on 6 October.\n\nSource: TechCrunch, \"Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity\". #Mistral"
+  "threads_caption": "French AI company Mistral just released the weights of Mistral Large 4, its 1-trillion-parameter model.\n\nWeights are the trained numbers that make up a model, so businesses and governments can download and run it themselves. The model was first introduced on 6 October.\n\nSource: TechCrunch, \"Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity\". #Mistral",
+  "published_id": "18117006614010710",
+  "permalink": "https://www.instagram.com/p/DfF0ES-DMkf/",
+  "threads_id": "18125961086512264",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfF0JvQlEtw"
 }
