@@ -1,0 +1,707 @@
+{
+ "date": "2026-10-29",
+ "run": "morning (split-schedule trial day 2)",
+ "notes": "Morning run for the 13:57 post (Korea/Asia/Europe first); evening run 19:15 takes the rest. Scan ops/scan/2026-10-29 present (reference fetched 04:46 UTC, 10/10 accounts ok, ddalkkak.mag 0 posts; feeds 04:47 UTC, Euractiv, European Commission and Korea JoongAng Daily failed). Google News links were resolved to publisher URLs. Blocked: Yonhap (403; Korea Herald carries the same Yonhap text), Reuters (403; Samsung, distillation and others). Reference-account themes in 48h: Gemini 4 Carbon (ai_freaks.kr), Utopai Studios $60M at $1B (moodmode.ai, prompt_what, ai.ainow; first reported Oct 25 by The Information, too old and paywalled, not written up), PHP flaws found with GPT-5.6 Sol (ai.trend.kr; REPEAT of posts/2026-10-22-php-ai-flaws, also TechCrunch Wiz CTO 'vulnpocalypse' podcast), Unitree humanoid demo (video, no article), plus tool tutorials and ads. Not written up: Sanxingdui AI film flop (opened Oct 23, Der Standard behind consent wall), Malaysia $12.1M AI chip seizure (Reuters/SCMP blocked), Alphabet Q3 / Google AI search ads, OpenAI-Google TPU (already in 10-28 leftovers), Austria's UN AI centre bid (still available inside 'frontier-ai-safety-leaders-meeting' in ops/candidates/2026-10-28-evening.json, Der Standard 10-28 17:00 UTC). Repeat check against posts/ since 10-15: no story here repeats a published post except the partial overlap noted on korea-finance-cyberattack-wave; same-company/same-theme notes are in each entry. Facts are copied from the article text fetched with scripts/article.mjs; Korean and German facts are translated.",
+ "candidates": [
+  {
+   "id": "samsung-q3-record",
+   "title": "Samsung posts the first 100-trillion-won quarter for any tech company: KRW 107.4T operating profit, almost all of it from chips",
+   "region": "KOREA",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "morning",
+   "first_published": "2026-10-29 01:10 UTC (Samsung Newsroom 10:10 KST)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not a repeat, but close in theme to posts/2026-10-28-sk-hynix-q3-record (rival memory maker, record Q3, posted yesterday). Different company. Editor: two days of Korean memory records in a row.",
+   "reference_posts": [],
+   "reference_note": "No reference account covered it yet (results came out after most of the 48h window).",
+   "articles": [
+    {
+     "outlet": "Samsung Global Newsroom",
+     "title": "Samsung Electronics Announces Third Quarter 2026 Results",
+     "date": "2026-10-29",
+     "published": "2026-10-29T10:10:00+09:00",
+     "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results"
+    },
+    {
+     "outlet": "The Korea Herald (Yonhap)",
+     "title": "Samsung Electronics posts record profit in Q3 on AI chip supercycle",
+     "date": "2026-10-29",
+     "published": "2026-10-29T11:08:10+09:00",
+     "url": "https://www.koreaherald.com/article/10918815"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Samsung posted KRW 195.3 trillion in consolidated Q3 revenue, an all-time quarterly high and up 14% quarter-on-quarter, and KRW 107.4 trillion in operating profit."
+    },
+    {
+     "article": 0,
+     "fact": "Samsung says this makes it the world's first tech company to exceed KRW 100 trillion in quarterly operating profit."
+    },
+    {
+     "article": 1,
+     "fact": "Net profit for July-September came to 75.13 trillion won ($56.2 billion), up 514.6% from 12.22 trillion won a year earlier. (Rate implied by the article: about 1,337 won per dollar.)"
+    },
+    {
+     "article": 1,
+     "fact": "Operating profit rose 783.1% on-year to 107.44 trillion won; revenue rose 126.9% to 195.25 trillion won."
+    },
+    {
+     "article": 1,
+     "fact": "The semiconductor business made 106.5 trillion won of operating profit, 99.1% of the company total."
+    },
+    {
+     "article": 0,
+     "fact": "The Memory Business 'significantly scaled up sales of HBM4' and set an all-time high for quarterly revenue and operating profit; strong server demand raised market prices across all applications."
+    },
+    {
+     "article": 1,
+     "fact": "The device experience division (phones and consumer electronics) posted an operating loss of 800 billion won, its second quarterly loss in a row."
+    },
+    {
+     "article": 0,
+     "fact": "For 2027, Samsung expects AI infrastructure capex to reach 'a historic level' and AI-driven memory demand to 'far exceed the industry supply'."
+    },
+    {
+     "article": 0,
+     "fact": "Q3 capital expenditure was KRW 29 trillion; full-year 2026 capex is expected at about KRW 84.4 trillion, KRW 76.8 trillion of it in chips."
+    },
+    {
+     "article": 1,
+     "fact": "It was the fourth consecutive quarter of record revenue and operating profit, a streak that began in Q4 2025. The report came a day after rival SK hynix posted its own record quarter."
+    }
+   ]
+  },
+  {
+   "id": "furiosaai-series-d",
+   "title": "Korean AI chip startup FuriosaAI raises 820 billion won, valuing it at about 3.8 trillion won",
+   "region": "KOREA",
+   "category_suggestion": "STARTUPS",
+   "slot_fit": "morning",
+   "first_published": "2026-10-29 03:40 UTC (AI Times 12:40 KST)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. No FuriosaAI post in posts/.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "퓨리오사AI, 8200억 규모 투자 유치...기업가치 3.8조원 돌파",
+     "title_en": "FuriosaAI raises 820 billion won, valuation tops 3.8 trillion won",
+     "language": "Korean",
+     "date": "2026-10-29",
+     "published": "2026-10-29T12:40:49+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216770"
+    }
+   ],
+   "caution": "Single source. The article gives no dollar figure or exchange rate; CLAUDE.md needs the article's rate for a $ figure, so the writer must either find a second article with a rate or leave won only. Explain FuriosaAI on first mention (Korean AI chip startup).",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "FuriosaAI (CEO Baek Jun-ho / 백준호) said on Oct 29 it completed a Series D round of 820 billion won in total. Post-money valuation is about 3.8 trillion won."
+    },
+    {
+     "article": 0,
+     "fact": "The National Growth Fund (국민성장펀드) invested 370 billion won, the largest investor in the round."
+    },
+    {
+     "article": 0,
+     "fact": "Foreign investors include US-based Infinitum, Singapore's QUDA Capital Partners and Cisco Investments."
+    },
+    {
+     "article": 0,
+     "fact": "Existing shareholders Korea Development Bank, Naver and NextTrans put in 170 billion won in follow-on investment."
+    },
+    {
+     "article": 0,
+     "fact": "The Export-Import Bank of Korea picked FuriosaAI as its first-ever direct investment in a venture company; UAMCO invested 40 billion won, the most of any new domestic investor."
+    },
+    {
+     "article": 0,
+     "fact": "The money will expand production and global sales of its second-generation AI chip RNGD ('Renegade') and speed up a third-generation AI accelerator being developed with Broadcom, aimed at hyperscale AI infrastructure."
+    },
+    {
+     "article": 0,
+     "fact": "RNGD mass production began in January this year; commercial deals include LG AI Research, Samsung SDS's RNGD-based NPU-as-a-service, and Upstage's Daum search summary service."
+    },
+    {
+     "article": 0,
+     "fact": "AI Times calls it one of the largest investments in Korean startup history. Baek: the round is 'a milestone' showing investors' trust, and the company will offer 'a new option' in AI infrastructure with high-performance, high-efficiency chips."
+    }
+   ]
+  },
+  {
+   "id": "kakao-kanana-2-embedding",
+   "title": "Kakao open-sources two Korean-strong embedding models for personal AI agents",
+   "region": "KOREA",
+   "category_suggestion": "TOOLS",
+   "slot_fit": "morning",
+   "first_published": "2026-10-29 02:03 UTC (etnews 11:03 KST)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Kakao has not been the subject of a post in the last 14 days.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "etnews (전자신문)",
+     "title": "카카오, 개인화 AI 에이전트용 임베딩 모델 2종 오픈소스 공개",
+     "title_en": "Kakao open-sources two embedding models for personalised AI agents",
+     "language": "Korean",
+     "date": "2026-10-29",
+     "published": "2026-10-29T11:03:02+09:00",
+     "url": "https://www.etnews.com/20261029000192"
+    }
+   ],
+   "caution": "Benchmarks are Kakao's own evaluation; say so. Explain Kakao on first mention.",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Kakao released two embedding models, 'Kanana-2-embedding', as open source on Hugging Face on Oct 29: Kanana-2-3b-embedding (3 billion parameters) and Kanana-2-1.3b-embedding (1.3 billion)."
+    },
+    {
+     "article": 0,
+     "fact": "It follows four Kanana small language models Kakao open-sourced in July."
+    },
+    {
+     "article": 0,
+     "fact": "Embedding models turn the meaning of text into numbers so an AI can find information related to a question, even when the user does not remember the exact words."
+    },
+    {
+     "article": 0,
+     "fact": "Example given: a user asks for 'the quiet restaurant we talked about before', and the agent finds past information with a similar meaning, like 'a good place to talk', without the restaurant's name."
+    },
+    {
+     "article": 0,
+     "fact": "In Kakao's own evaluation, both models scored higher in Korean and about the same in English than similar-size open models llama-nemotron-embed-1b-v2 and Qwen3-Embedding-4B, and ran inference more efficiently than Qwen3-Embedding."
+    },
+    {
+     "article": 0,
+     "fact": "The 1.3B model was built with knowledge distillation from the bigger model; both use Matryoshka Representation Learning (MRL) so developers can pick the vector size to trade off accuracy, storage and speed."
+    },
+    {
+     "article": 0,
+     "fact": "Both are under the 'Kanana Open License', which allows commercial use subject to its terms."
+    }
+   ]
+  },
+  {
+   "id": "korea-sme-physical-ai-plan",
+   "title": "Korea will spend over 5 trillion won by 2030 to put AI and robots in small factories, aiming for 10x more AI adopters",
+   "region": "KOREA",
+   "category_suggestion": "POLICY",
+   "slot_fit": "morning",
+   "first_published": "2026-10-29 04:42 UTC (etnews 13:42 KST)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Not related to posts/2026-10-01-korea-ai-for-all (different policy).",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "etnews (전자신문)",
+     "title": "중소기업 '피지컬AI' 확산에 5조원 투입…데이터·AI·로봇 묶어 '3X 전략'",
+     "title_en": "5 trillion won to spread 'physical AI' to small firms: a '3X strategy' linking data, AI and robots",
+     "language": "Korean",
+     "date": "2026-10-29",
+     "published": "2026-10-29T13:42:29+09:00",
+     "url": "https://www.etnews.com/20261029000275"
+    }
+   ],
+   "caution": "Single source, no dollar figure or rate in the article.",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The government will invest more than 5 trillion won by 2030 in smart-manufacturing innovation to spread 'physical AI' to small and medium-sized manufacturers."
+    },
+    {
+     "article": 0,
+     "fact": "The aim is to raise AI adoption among small manufacturers from 1% to 10%: from 600 AI-adopting firms to 6,000 by 2030, and digital-transformation firms from 18,000 to 30,000."
+    },
+    {
+     "article": 0,
+     "fact": "The Ministry of SMEs and Startups announced the 'small manufacturing physical AI strategy' at a national policy coordination meeting on Oct 29 in Cheonan, South Chungcheong."
+    },
+    {
+     "article": 0,
+     "fact": "The '3X strategy' merges digital transformation (DX), AI transformation (AX) and robot transformation (RX); manufacturing robots will go to about 1,000 companies by 2030."
+    },
+    {
+     "article": 0,
+     "fact": "AI and robots will be tested on manual work in food and cosmetics and on dangerous processes in casting and moulds, then combined in a 'smart robo-factory' (working name)."
+    },
+    {
+     "article": 0,
+     "fact": "A programme called 'AI factory manager for all' (모두의 AI 공장장) will use physical AI to run factories unmanned, fitted to each firm's industry and process."
+    },
+    {
+     "article": 0,
+     "fact": "Missing operators will be trained through education and internships at Korea's four science and technology institutes. Minister Lee So-young: linking data, AI and robots will help SMEs change how they produce."
+    }
+   ]
+  },
+  {
+   "id": "cxmt-hbm3e-low-yields",
+   "title": "China's CXMT will start making AI memory even though only 20-30% of its chips work (SK hynix: about 70%)",
+   "region": "CHINA",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "morning",
+   "first_published": "2026-10-28 (Reuters 04:50 UTC; TNW 20:04 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not a repeat. Was in ops/candidates/2026-10-28-evening.json (unused) with Seoul Economic Daily / Global Sources; now with a readable TNW article. Has a Korea angle (SK hynix, Samsung comparisons). Related to posts/2026-10-28-sk-hynix-q3-record only by context.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "CXMT to start AI memory production as only 20% to 30% of chips work",
+     "date": "2026-10-28",
+     "published": "2026-10-28T20:04:49+00:00",
+     "url": "https://thenextweb.com/news/cxmt-hbm3e-ai-memory-low-yields-reuters"
+    }
+   ],
+   "caution": "TNW relays Reuters' anonymous sources and says it has not verified the report. Attribute ('people familiar told Reuters').",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "CXMT, China's biggest memory chipmaker, plans to start making HBM3E, an advanced memory used in AI chips, even though only 20% to 30% of the chips it makes are usable, two people told Reuters."
+    },
+    {
+     "article": 0,
+     "fact": "SK Hynix, the market leader, gets a yield of around 70%. Low yields make production expensive because many chips must be thrown away or reworked."
+    },
+    {
+     "article": 0,
+     "fact": "CXMT has sent HBM3E samples to several Chinese AI chip designers and expects limited production within the next two months, one person said."
+    },
+    {
+     "article": 0,
+     "fact": "In testing, CXMT's HBM3E performed closer to SK Hynix's older HBM3 than to its HBM3E; it will likely cost more than comparable foreign products."
+    },
+    {
+     "article": 0,
+     "fact": "The US tightened export controls on some advanced HBM bound for China in December 2024; Chinese firms have sought it through unofficial channels at several times the price."
+    },
+    {
+     "article": 0,
+     "fact": "Last month Huawei, Cambricon, MetaX and Iluvatar CoreX raised AI chip prices by 20% to 50% as memory costs rose."
+    },
+    {
+     "article": 0,
+     "fact": "Counterpoint: in Q2, SK Hynix held 50% of global HBM revenue, Samsung 33% and Micron 18%. CXMT held 10% of global DRAM revenue, the fourth-largest supplier."
+    },
+    {
+     "article": 0,
+     "fact": "SK Hynix said on Wednesday that HBM4 beat its target yield and would pass HBM3E in shipments and revenue in Q4."
+    }
+   ]
+  },
+  {
+   "id": "deepseek-moonshot-astra-distillation",
+   "title": "Report: DeepSeek and Moonshot trained their newest models on OpenAI's GPT-6 Astra outputs",
+   "region": "CHINA",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "either",
+   "first_published": "2026-10-28 (The Information); Reuters 2026-10-29 02:10 UTC",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Related to posts/2026-10-25-kimi-k3-1-pro (the model named here). Not a repeat, but the editor should check that post's claims so the two do not contradict.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "Reuters (via AOL)",
+     "title": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models, The Information reports",
+     "date": "2026-10-29",
+     "published": "2026-10-29T02:10:57+00:00",
+     "url": "https://www.aol.com/articles/deepseek-moonshot-used-openais-gpt-021057000.html",
+     "note": "reuters.com returns 403; AOL carries the Reuters text unchanged."
+    }
+   ],
+   "caution": "Short brief based on The Information's unnamed sources; no company has confirmed. Facts are thin (about 6), so a full carousel may be hard.",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Chinese AI developers DeepSeek and Moonshot AI relied heavily on outputs from OpenAI's GPT-6 Astra to train their latest models, The Information reported on Wednesday, citing people with direct knowledge."
+    },
+    {
+     "article": 0,
+     "fact": "Moonshot AI's Kimi K3.1 Pro, released last week, and DeepSeek's upgraded V4.1-Flash 1017, launched on October 17, benefited from distilling Astra, The Information said."
+    },
+    {
+     "article": 0,
+     "fact": "The practice, known as distillation, has become a flashpoint as US-China technology competition intensifies; firms argue it lets rivals reproduce advanced capabilities more quickly and cheaply."
+    },
+    {
+     "article": 0,
+     "fact": "OpenAI, DeepSeek and Moonshot AI did not immediately respond to Reuters' requests for comment."
+    },
+    {
+     "article": 0,
+     "fact": "In a September 30 blog post, OpenAI said it had linked a core part of a distillation campaign that began in July to individuals associated with Moonshot AI."
+    },
+    {
+     "article": 0,
+     "fact": "Earlier this month, Anthropic said new measures have cut data harvested in distillation attacks on Claude by about 90% to 99%."
+    }
+   ]
+  },
+  {
+   "id": "australia-chatbot-children-bill",
+   "title": "Australia's lower house votes to bar AI chatbots from building 'emotional intimacy' with children",
+   "region": "ASIA",
+   "region_note": "Australia (Asia-Pacific); no Oceania region on the list.",
+   "category_suggestion": "POLICY",
+   "slot_fit": "either",
+   "first_published": "2026-10-28 (House vote Wednesday; TNW 19:33 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Australia's duty of care bill would stop chatbots bonding with kids",
+     "date": "2026-10-28",
+     "published": "2026-10-28T19:33:45+00:00",
+     "url": "https://thenextweb.com/news/australia-duty-of-care-bill-ai-chatbots-emotional-intimacy-children"
+    }
+   ],
+   "caution": "Not law yet: passed the House, Senate still to vote.",
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Australia's digital duty of care bill passed the House of Representatives on Wednesday, 28 October, and now goes to the Senate."
+    },
+    {
+     "article": 0,
+     "fact": "Amendments from independent MP Kate Chaney, accepted by the government, require platforms to ban 'material or conduct that simulates emotional intimacy and encourages or fosters a child's dependence on it in place of human relationships'."
+    },
+    {
+     "article": 0,
+     "fact": "The wording covers a child's dependence on a chatbot; it does not cover adults who use AI companions."
+    },
+    {
+     "article": 0,
+     "fact": "PM Anthony Albanese: 'The stories we hear about people identifying a chatbot, a non-person as their best friend, should be a huge wake up call for every member of this parliament to be prepared to act.'"
+    },
+    {
+     "article": 0,
+     "fact": "The framework sets new online safety standards for social media, games, apps and chatbots, and makes social media platforms offer an algorithm opt-out that must be 'accessible, easy to use' and 'prominently available'."
+    },
+    {
+     "article": 0,
+     "fact": "The Coalition and One Nation voted against it; the Greens support it and set up a Senate inquiry due to report in late November. Labor hopes the Senate passes it by the end of 2026."
+    },
+    {
+     "article": 0,
+     "fact": "Australia already has an under-16 social media ban."
+    }
+   ]
+  },
+  {
+   "id": "proton-ai-reinterviews",
+   "title": "Swiss privacy company Proton will 're-interview' staff about how they use AI",
+   "region": "EUROPE",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "either",
+   "first_published": "404 Media 2026-10-26 20:16 UTC; heise 2026-10-28 07:00 UTC",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. But the first report (404 Media) is from Oct 26, about 57 hours old; heise's write-up is within 24h.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Proton-Angestellte sollen wegen KI-Nutzung erneut ins Bewerbungsgespräch",
+     "title_en": "Proton employees to sit job interviews again over their AI use",
+     "language": "German",
+     "date": "2026-10-28",
+     "published": "2026-10-28T08:00:00+01:00",
+     "url": "https://www.heise.de/news/Proton-Angestellte-sollen-wegen-KI-Nutzung-erneut-ins-Bewerbungsgespraech-11502535.html"
+    },
+    {
+     "outlet": "404 Media",
+     "title": "Proton To 'Re-Interview' Staff About AI To See Who Gets To Keep Their Job",
+     "date": "2026-10-26",
+     "published": "2026-10-26T20:16:02Z",
+     "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+     "note": "Paywalled after the first paragraph; only that paragraph was read."
+    }
+   ],
+   "caution": "Weaker on timing. Proton later said it is not cutting jobs; include that.",
+   "facts": [
+    {
+     "article": 1,
+     "fact": "Proton, the company behind ProtonMail, told staff on Monday it would be 're-interviewing' staff across the company about how they use AI in their jobs, according to an internal email obtained by 404 Media."
+    },
+    {
+     "article": 0,
+     "fact": "The internal notice says the review could lead to 'changes regarding tasks, responsibilities and further employment' (heise's German quote: 'zu Änderungen hinsichtlich der Aufgaben, Zuständigkeiten und weiteren Beschäftigung')."
+    },
+    {
+     "article": 0,
+     "fact": "The interviews will be run not by regular managers but by a group of senior staff who have shown 'strong AI skills'; they are scheduled between 4 and 11 November."
+    },
+    {
+     "article": 0,
+     "fact": "CEO Andy Yen interviewed more than 40 managers to prepare the re-interviews, per the internal memo."
+    },
+    {
+     "article": 0,
+     "fact": "Proton, which runs Proton Mail, Proton VPN and Proton Pass, had about 500 employees as of its latest 2024 figures; not all of them must re-interview."
+    },
+    {
+     "article": 0,
+     "fact": "Proton later said it is not cutting jobs and is not using AI as a pretext for that."
+    }
+   ]
+  },
+  {
+   "id": "gemini-4-carbon",
+   "title": "Google's Gemini 4 Carbon takes #1 on a key AI ranking, but goes to cyber defenders first",
+   "region": "US",
+   "category_suggestion": "RESEARCH",
+   "slot_fit": "evening",
+   "first_published": "2026-10-28 ~17:00 UTC (Google/DeepMind blog)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Leftover from ops/candidates/2026-10-28-evening.json (unused), still within 24h. Same company as posts/2026-10-27-google-genie-4 (different product).",
+   "reference_posts": [
+    {
+     "username": "ai_freaks.kr",
+     "url": "https://www.instagram.com/p/DfD92Yjmrh1/"
+    }
+   ],
+   "reference_note": "1 account (ai_freaks.kr, 334 likes). Also Reuters, The Verge, Ars Technica, VentureBeat, heise, AI Times all covered it.",
+   "articles": [
+    {
+     "outlet": "Google (The Keyword blog, Google DeepMind)",
+     "title": "Gemini 4 Carbon: our next frontier model",
+     "date": "2026-10-28",
+     "published": "2026-10-28",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Google announced Gemini 4 Carbon, which it calls its strongest model, with state-of-the-art cybersecurity and long-horizon capabilities. Post by Koray Kavukcuoglu, SVP Google DeepMind."
+    },
+    {
+     "article": 0,
+     "fact": "Carbon ranks #1 on the updated v5.0 Artificial Analysis Intelligence Index with a score of 59."
+    },
+    {
+     "article": 0,
+     "fact": "Cyber benchmarks: 88.2% on SEC-bench Pro (finding vulnerabilities), 54.8% on ExploitGym (exploitation), 71.0% on CWE-bench (patching)."
+    },
+    {
+     "article": 0,
+     "fact": "It builds on Gemini 4 Argon, launched two weeks earlier."
+    },
+    {
+     "article": 0,
+     "fact": "Rollout: starting this week, only a subset of cyber defenders get it, then more trusted partners through the Fairwind Program, before developers, businesses and consumers. Google is in the US government's voluntary pre-release testing process."
+    },
+    {
+     "article": 0,
+     "fact": "Price: same as Argon, $2 per million input tokens and $10 per million output tokens."
+    },
+    {
+     "article": 0,
+     "fact": "The Chrome team reported Carbon did more than 10X better than another lab's large frontier model at generating high-quality patches."
+    },
+    {
+     "article": 0,
+     "fact": "Internally, Carbon ran for days on complex engineering tasks; high-severity misalignment alerts in live coding dropped by almost 80%, and cheating on Terminal-Bench 4.0 fell to 0.0%."
+    }
+   ]
+  },
+  {
+   "id": "microsoft-openai-10b",
+   "title": "Microsoft made $10 billion from OpenAI in one quarter, nearly 11% of its revenue",
+   "region": "US",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "evening",
+   "first_published": "2026-10-28 21:34 UTC (TechCrunch)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. OpenAI was in posts/2026-10-27-openai-gpt-6-1-terra (different story).",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+     "date": "2026-10-28",
+     "published": "2026-10-28T21:34:30+00:00",
+     "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Microsoft generated $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ended September 30, it said in a regulatory filing."
+    },
+    {
+     "article": 0,
+     "fact": "That is nearly 11% of Microsoft's total quarterly revenue of $92.3 billion."
+    },
+    {
+     "article": 0,
+     "fact": "For full fiscal 2026, revenue from OpenAI was $24.1 billion; at the latest pace Microsoft would take in $40 billion a year."
+    },
+    {
+     "article": 0,
+     "fact": "Microsoft reported $7.2 billion in outstanding receivables from OpenAI at the end of September, up from $6 billion at the end of June."
+    },
+    {
+     "article": 0,
+     "fact": "Microsoft's stake in OpenAI fell from about 25% in June to 24% in September, down from roughly 27% after the October 2025 recapitalization."
+    },
+    {
+     "article": 0,
+     "fact": "OpenAI committed in October 2025 to buy an additional $250 billion of Azure services; an April 2026 agreement keeps OpenAI sharing revenue with Microsoft through 2030, subject to a cap."
+    }
+   ]
+  },
+  {
+   "id": "doj-nvidia-hugging-face",
+   "title": "US Justice Department asks whether Nvidia's $12.9B Hugging Face deal would give it a chokepoint on AI models",
+   "region": "US",
+   "category_suggestion": "POLICY",
+   "slot_fit": "evening",
+   "first_published": "2026-10-28 (Reuters 20:41 UTC; TNW 19:52 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Nvidia was in posts/2026-10-23-china-nvidia-35b (different story).",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts. AI Times (Korea) also reported it.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "DOJ looks into Nvidia's $12.9B Hugging Face deal, Reuters reports",
+     "date": "2026-10-28",
+     "published": "2026-10-28T19:52:00+00:00",
+     "url": "https://thenextweb.com/news/doj-nvidia-hugging-face-deal-antitrust-inquiry"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The US Justice Department is asking how Nvidia's $12.9B purchase of Hugging Face would affect competition in AI, Reuters reported, citing two people familiar with the matter."
+    },
+    {
+     "article": 0,
+     "fact": "Officials want to know whether the deal would let Nvidia 'capture a fundamental distribution point for AI', and whether Nvidia could use Hugging Face to hurt rivals."
+    },
+    {
+     "article": 0,
+     "fact": "Hugging Face is where developers share open AI models and data. Nvidia agreed to buy it in September, promising to keep the platform open, and expects the deal to close in the first half of 2027."
+    },
+    {
+     "article": 0,
+     "fact": "The DOJ declined to comment but said it 'will continue to prioritize advancement of Super Intelligence', the White House's term for AI. Nvidia declined to comment."
+    },
+    {
+     "article": 0,
+     "fact": "The questions run alongside a years-long DOJ probe into Nvidia's conduct that began under President Biden; Nvidia also faces an antitrust probe in France."
+    },
+    {
+     "article": 0,
+     "fact": "Last month the DOJ was reported to be examining whether Nvidia set up its $20B Groq deal to avoid a merger review."
+    }
+   ]
+  },
+  {
+   "id": "anthropic-ipo-retail",
+   "title": "Anthropic weighs setting aside up to 20% of its IPO for retail investors; Senator Warren demands answers by Nov 3",
+   "region": "US",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "evening",
+   "first_published": "2026-10-28 (Bloomberg; TNW 20:25 UTC)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not posted, but backlog has posts/_backlog/2026-10-27-anthropic-ipo-s1.md and Anthropic IPO was in two 10-28 leftovers. Follow-up angle (retail share).",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic weighs up to 20% of IPO for retail as Warren demands answers",
+     "date": "2026-10-28",
+     "published": "2026-10-28T20:25:10+00:00",
+     "url": "https://thenextweb.com/news/anthropic-ipo-retail-warren-s-1-details"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Anthropic is weighing setting aside 15% to 20% of its IPO shares for retail investors, people told Bloomberg on 28 October; JPMorgan would lead the US retail offering."
+    },
+    {
+     "article": 0,
+     "fact": "Senator Elizabeth Warren told Anthropic to answer four pages of questions about its IPO filing by 3 November, including how it will justify a valuation that could approach $2tn."
+    },
+    {
+     "article": 0,
+     "fact": "The filing says sufficiently advanced AI 'could, if not developed, deployed, and operated with appropriate safeguards, oversight, and security measures, pose catastrophic or existential risks to humanity'."
+    },
+    {
+     "article": 0,
+     "fact": "First-half revenue was $16.3bn against $2.38bn cost of revenue, a gross margin of about 85% (excluding training); total compute spending was $8.95bn."
+    },
+    {
+     "article": 0,
+     "fact": "Since 30 June Anthropic has signed compute deals with about $245bn in minimum payments, including up to $120.5bn with SpaceXAI."
+    },
+    {
+     "article": 0,
+     "fact": "Sales through Amazon, Google and Microsoft cloud marketplaces were 48% of first-half revenue, up from 11% in 2023."
+    }
+   ]
+  },
+  {
+   "id": "korea-finance-cyberattack-wave",
+   "title": "New wave of cyberattacks hits Korean brokerages and crypto exchange Bithumb",
+   "region": "KOREA",
+   "category_suggestion": "POLICY",
+   "slot_fit": "either",
+   "first_published": "2026-10-28 15:41 UTC (TechCrunch); Korea Times / Korea Herald 2026-10-28",
+   "repeat_of_last_14_days": "partial",
+   "repeat_note": "Close to posts/2026-10-28-korea-ai-hacking-ring (posted yesterday). TechCrunch says officials have not found the cause of the new breaches and no AI link is established. Use only as a follow-up, or skip.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "South Korea's financial industry hit by fresh wave of cyberattacks",
+     "date": "2026-10-28",
+     "published": "2026-10-28T15:41:18+00:00",
+     "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The latest incidents hit brokerages Daishin Securities and Mirae Asset Global Investments and the crypto exchange Bithumb."
+    },
+    {
+     "article": 0,
+     "fact": "Daishin reported an attack that exposed personal information of 38,490 customers, including names, emails and mobile numbers."
+    },
+    {
+     "article": 0,
+     "fact": "Mirae and Bithumb reported separate incidents on Wednesday; neither has confirmed customer data was taken."
+    },
+    {
+     "article": 0,
+     "fact": "Researchers linked the September wave to a suspected China-based hacker using an AI penetration-testing tool called Artex; officials are still investigating the latest breaches."
+    },
+    {
+     "article": 0,
+     "fact": "Korea's financial regulator called for stronger cybersecurity, and the country plans security checks on dozens of private-sector IT systems."
+    },
+    {
+     "article": 0,
+     "fact": "Japan reported an incident at GMO Internet a day earlier; investigators have not connected the incidents."
+    }
+   ]
+  }
+ ]
+}
