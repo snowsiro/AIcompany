@@ -125,3 +125,5 @@ scoring:
   korea_asia_europe_angle: 3         # the account's differentiator (raised from 1 on 2026-10-22; editor also needs 1 of 2 posts)
   same_company_as_other_pick: -5     # the two daily posts should not be about the same company
   already_posted_last_14_days: -10
+  fresh_within_6h_evening: 2         # evening run only: first published in the 6 hours before the run (2026-10-29, Jamie).
+                                     # Evening runs have no reference-account data, so new US news topped out at 5 points.
