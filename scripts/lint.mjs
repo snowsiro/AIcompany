@@ -13,7 +13,7 @@ const HOOK_TYPES = ["number", "claim", "myth-flip", "rivalry", "quote", "reader-
 const BROAD_TAGS = ["#ainews", "#ai", "#artificialintelligence", "#technews", "#tech", "#technology", "#machinelearning",
   "#innovation", "#future", "#news", "#chatgpt", "#genai", "#generativeai"];
 const NON_LATIN = /[\p{Script=Hangul}\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Cyrillic}\p{Script=Arabic}\p{Script=Hebrew}\p{Script=Thai}\p{Script=Devanagari}\p{Script=Greek}]/u;
-const REGIONS = ["GLOBAL", "US", "CHINA", "KOREA", "JAPAN", "EUROPE", "ASIA", "MIDEAST", "INDIA"];
+const REGIONS = ["GLOBAL", "US", "CHINA", "KOREA", "JAPAN", "EUROPE", "ASIA", "OCEANIA", "MIDEAST", "INDIA"];
 const words = s => String(s).replace(/\*\*/g, "").trim().split(/\s+/).filter(Boolean).length;
 const plain = s => String(s).replace(/\*\*/g, "");
 const emphCount = s => (String(s).match(/\*\*(.+?)\*\*/g) || []).length;

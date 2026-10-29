@@ -34,7 +34,7 @@
 - 위 60%: 영화풍 이미지가 꽉 차게. 아래로 갈수록 ink로 어두워지는 그라데이션
 - 아래 40%: 제목 2줄, Anton 대문자, 줄당 최대 16자. 강조어 1개는 accent
 - 제목 위: 태그 `<REGION> AI · <CATEGORY>` (테두리 pill). REGION은 이야기의 중심 지역 하나:
-  `GLOBAL`, `US`, `CHINA`, `KOREA`, `JAPAN`, `EUROPE`, `ASIA`, `MIDEAST`, `INDIA`. 여러 나라에 걸치면 `GLOBAL`
+  `GLOBAL`, `US`, `CHINA`, `KOREA`, `JAPAN`, `EUROPE`, `ASIA`, `OCEANIA`, `MIDEAST`, `INDIA`. 여러 나라에 걸치면 `GLOBAL`. 호주·뉴질랜드는 `OCEANIA` (2026-10-29 제이미 결정)
 - 맨 아래 가운데: `@ai.news.company`
 - 이미지 규칙: AI 생성 이미지만. 실존 인물, 실제 로고를 크게 넣지 않음. 이미지 안에 글자 없음
 - 이미지가 없을 때는 템플릿의 그래픽 배경(그라데이션 + 격자)으로 대체
