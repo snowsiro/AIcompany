@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "issues": [],
+  "notes": [
+    "Cover (cover.png and slides/01.jpg): AI-generated dusk scene of lit data-center halls, a causeway, two robot-arm silhouettes and one tiny unbranded dark car silhouette. No people, no Hyundai/Kia logo, badge or signage, no readable text. The only text on slide 1 is the template's tag, headline and handle.",
+    "No copying from reference accounts: wording, layout and image are original and follow the template.",
+    "Credit: caption ends with a Source line naming The Korea Times and ZDNet Korea with article titles. threads_caption credits The Korea Times with the article title. Slide 8 lists both sources.",
+    "No affiliate, referral or tracking link, and no sponsored-tool mention, in slides, caption or threads_caption.",
+    "Design: only ink, paper, muted, accent and line colors; Anton on the cover, Inter Tight elsewhere. Accent use is within limits (cover 1 word; slides 3, 6 and 7 have 2 each; others 1).",
+    "Tone: neutral and factual. The closing question, 'Should carmakers build their own AI supercomputers?', mocks no one.",
+    "Hook: 'HYUNDAI PLANS A SUPERCOMPUTER' is supported by slides 4 and 5 (ZDNet Korea: supercomputing base). The $6.7B hook was rejected for a sound reason (the figure is region-wide, not the data center's cost).",
+    "No investment-advice reading: no share price, stock, valuation or buy/sell language. The only money is the 9 trillion won ($6.7 billion) regional commitment, attributed to Korea Times and ZDNet Korea and labeled region-wide. The #Hyundai hashtag is a brand tag, not a stock claim.",
+    "Plan framing is clear: cover says 'PLANS'; slides 2, 4, 5 and 6 use plans/due/targeted; slide 4 says 'a plan, not a working system'; caption says 'Everything here is a plan'; threads_caption says 'All of it is still a plan.'",
+    "Company names are consistent: 'Hyundai Motor Group' in full on first mention and in captions, 'Hyundai' only as the short form on the cover and in the hashtag, 'Hyundai Motor' and the affiliates listed exactly as Korea Times names them, 'Korea Development Bank', 'ZDNet Korea', 'The Korea Times'. Saemangeum and Gunsan are spelled the same everywhere.",
+    "Non-blocking polish (not a safety matter): slide 7 title wraps as 'region- / wide' (hyphen break), which a writer could fix by rewording. Gunsan and Vice Chairman Chang Jae-hoon are not explained, but the Hyundai Motor Group affiliation is clear from context."
+  ]
+}
