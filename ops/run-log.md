@@ -2,6 +2,26 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-10-30
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 8 · 팔로워 1 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 php-ai-flaws (108)
+결정할 일
+1. 없음
+자세한 기록
+- 서브 계정 세션에서 실행, 저녁 슬롯 시험 3일차(마지막 날). 어제 저녁 글(Mistral)은 21:00에 올라가서 넘어온 글 없음
+- 05:46 morning-scan이 main에 없어 직접 실행, 90초 뒤 생성
+- 후보 12개 수집 (한국·아시아·유럽 10, 미국 1, 캐나다 1). 처음 나온 시각(UTC)을 후보마다 기록함
+- 주제: 현대차그룹, 새만금 AI 데이터센터 계획 (한국, INDUSTRY). 8점
+  - 출처: The Korea Times, ZDNet Korea (둘 다 10/30)
+  - 8점 동점 후보 중 다양성으로 고름. 삼성 실적, 코스피 하락, 네이버-엔비디아, FuriosaAI는 최근 반도체·실적 글과 겹쳐 뺌
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6)
+- 검수: hook-judge 통과 7/10, brand-safety 통과, fact-checker 1차 불합격 6건 → 고친 뒤 2차 통과
+  - 커버를 "HYUNDAI PLANS A SUPERCOMPUTER"에서 "HYUNDAI PLANS AN AI DATA CENTER"로 바꿈. 원문에서 슈퍼컴퓨팅이라는 말은 ZDNet만 쓰고, 슈퍼컴퓨터를 짓겠다는 말은 어느 기사에도 없음
+  - 산업은행 설명 추가 ("and others"까지 원문대로), AI Valley 범위, 인용문 원문 그대로, 출처 귀속 정리
+  - 9조 원($6.7B)은 Korea Times에서는 "지역 투자 약속", ZDNet에서는 AI Valley 전체 규모라서 어디에도 "데이터센터 비용"으로 쓰지 않음
+- 원문 대조(직접): 9 trillion, 6.7, 3월, 2030, 장재훈, AutoEver, 산업은행, 슈퍼컴퓨팅, 9조 모두 원문에 있음
+- 13:57 게시 예정 (게시 슬롯 백업 루틴)
+
 ## [저녁 보고] 2026-10-29
 처리 1건 (ready 1) · 실패 0건
 결정할 일
