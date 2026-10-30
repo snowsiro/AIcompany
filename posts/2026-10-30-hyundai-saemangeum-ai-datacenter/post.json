@@ -7,13 +7,13 @@
   "cover": {
     "tag": "KOREA AI · INDUSTRY",
     "headline": [
-      "HYUNDAI PLANS A",
-      "**SUPERCOMPUTER**"
+      "HYUNDAI PLANS AN",
+      "**AI DATA CENTER**"
     ],
     "hook_options": [
       [
-        "HYUNDAI PLANS A",
-        "**SUPERCOMPUTER**"
+        "HYUNDAI PLANS AN",
+        "**AI DATA CENTER**"
       ],
       [
         "AI COMPUTE ISN’T",
@@ -30,7 +30,7 @@
       "number"
     ],
     "hook_type": "claim",
-    "hook_pick_reason": "It names the company and the news in plain words, and says \"plans\" because everything here is a plan. Slide 3 backs \"supercomputer\" directly: ZDNet Korea calls the Saemangeum site a supercomputing base to train and test physical AI. The myth-flip hook (compute is not just for chatbots) is supported by slides 3 and 4 but names no company, so it is weaker in search and in the feed. The number hook is risky: the $6.7B (9 trillion won) is, per Korea Times, a regional investment commitment and, per ZDNet Korea, the size of the whole AI Valley project; neither article says the data center alone costs that, and a cover number invites that misreading, so the figure stays on slide 6 with its wording. No reader-impact hook: the articles say nothing about what changes for everyday readers, only about the group's plans for its own AI training.",
+    "hook_pick_reason": "It names the company and the news in plain words, and says \"plans\" because everything here is a plan. \"AI data center\" is the Korea Times headline wording and matches ZDNet Korea's description of the site. The first draft said \"SUPERCOMPUTER\", which the fact check rejected: only ZDNet Korea uses \"supercomputing base\", and neither article says Hyundai will build a supercomputer. The myth-flip hook (compute is not just for chatbots) is supported by slides 3 and 4 but names no company, so it is weaker in search and in the feed. The number hook is risky: the $6.7B (9 trillion won) is, per Korea Times, a regional investment commitment and, per ZDNet Korea, the size of the whole AI Valley project; neither article says the data center alone costs that, and a cover number invites that misreading, so the figure stays on slide 6 with its wording. No reader-impact hook: the articles say nothing about what changes for everyday readers, only about the group's plans for its own AI training.",
     "image_prompt": "Cinematic wide shot at dawn over a vast flat reclaimed-land coastline with calm shallow water. In the upper half of the frame, a grid of long low data-center halls glows with warm golden light from within, laid out in neat rows on the flats, with a soft golden-white haze above them. A faint network of glowing lines of light runs from the halls along a causeway road toward a distant, unmarked self-driving car silhouette and a pair of robot-arm silhouettes on the horizon. Cool blue pre-dawn sky, thin mist over the water, subtle reflections, shallow depth of field. Abstract and unmarked: no brand marks, no badges, no signage. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people.",
     "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261030_045540_2770f117-1348-4f83-b501-489716a48c64.png"
   },
@@ -53,7 +53,7 @@
       "kicker": "The purpose",
       "title": "A base for physical AI",
       "body": [
-        "The site is to become a **supercomputing base** to train and test physical AI: AI that controls machines in the real world, such as self-driving cars, robots and manufacturing. ZDNet Korea describes it as a plan, not a working system."
+        "ZDNet Korea says the site is to become a **supercomputing base** to train and test physical AI: AI that controls machines in the real world, such as self-driving cars, robots and manufacturing. This is a plan, not a working system."
       ]
     },
     {
@@ -72,9 +72,9 @@
     },
     {
       "kicker": "The money",
-      "title": "Nine trillion won, region-wide",
+      "title": "Nine trillion won",
       "body": [
-        "Vice Chairman Chang Jae-hoon reaffirmed a **9 trillion won ($6.7 billion)** regional investment, Korea Times reports. ZDNet Korea sizes the wider AI Valley project, including robot and hydrogen plants, at about 9 trillion won. **Financing** is still being coordinated with Korea Development Bank."
+        "Hyundai's Chang Jae-hoon reaffirmed a **9 trillion won ($6.7 billion)** regional investment, Korea Times reports. ZDNet Korea sizes the AI Valley project, with robot manufacturing and hydrogen, at about 9 trillion won. **Financing** is being coordinated with Korea Development Bank, a state-run lender, and others."
       ]
     }
   ],
@@ -89,7 +89,7 @@
     },
     {
       "source": 0,
-      "text": "\"Hyundai Motor, Kia, Hyundai Mobis, Hyundai Engineering & Construction and Hyundai AutoEver will participate in the investment.\" The post gives no roles for them."
+      "text": "\"its affiliates, including Hyundai Motor, Kia, Hyundai Mobis, Hyundai Engineering & Construction and Hyundai AutoEver, will participate in the investment\" (Korea Times). The word \"including\" means the list may not be complete; the post gives no roles for them."
     },
     {
       "source": 0,
@@ -136,12 +136,12 @@
       "url": "https://zdnet.co.kr/view/?no=20261030111328"
     }
   ],
-  "caption": "Hyundai Motor Group plans to build an AI supercomputing base in Saemangeum, South Korea, to train self-driving cars and robots.\n\nThe group says it will set up two special purpose companies next month, firms created for a single project: one for construction and infrastructure, one for GPU services. Everything here is a plan: groundbreaking is due in March 2027, and commercial operation is targeted for early 2030.\n\n→ ZDNet Korea says the site is to be a supercomputing base to train and test physical AI: self-driving cars, robots and manufacturing\n→ For self-driving, the group plans to train on real road data plus simulated bad weather and sudden obstacles\n→ Korea Times reports a 9 trillion won ($6.7 billion) investment commitment in the region; ZDNet Korea gives the same size for the wider AI Valley project, not the data center alone\n\nShould carmakers build their own AI supercomputers?\n\nSource: The Korea Times, \"Hyundai Motor Group to establish two SPCs for AI data center project\", Oct 30, 2026; ZDNet Korea (in Korean), \"Hyundai Motor Group to break ground on Saemangeum AI data center next March\", Oct 30, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "Hyundai Motor Group plans to build an AI data center in Saemangeum, South Korea, to train AI for self-driving cars and robots.\n\nThe group says it will set up two special purpose companies next month, firms created for a single project: one for construction and infrastructure, one for GPU services. Everything here is a plan: groundbreaking is due in March 2027, and commercial operation is targeted for early 2030.\n\n→ ZDNet Korea says the site is to be a supercomputing base to train and test physical AI: self-driving cars, robots and manufacturing\n→ For self-driving, the group plans to train on real road data plus simulated bad weather and sudden obstacles\n→ Korea Times reports a 9 trillion won ($6.7 billion) investment commitment in the region; ZDNet Korea gives the same size for the wider AI Valley project, not the data center alone\n\nShould carmakers build their own AI data centers?\n\nSource: The Korea Times, \"Hyundai Motor Group to establish two SPCs for AI data center project\", Oct 30, 2026; ZDNet Korea (in Korean), \"Hyundai Motor Group to break ground on Saemangeum AI data center next March\", Oct 30, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#Hyundai",
     "#PhysicalAI",
     "#KoreaAI"
   ],
-  "threads_caption": "Hyundai Motor Group plans to build an AI supercomputing base in Saemangeum, South Korea, to train self-driving cars and robots.\n\nTwo project companies are due next month, groundbreaking is planned for March 2027 and operation for early 2030. All of it is still a plan.\n\nSource: The Korea Times, \"Hyundai Motor Group to establish two SPCs for AI data center project\". #Hyundai"
+  "threads_caption": "Hyundai Motor Group plans to build an AI data center in Saemangeum, South Korea, to train AI for self-driving cars and robots.\n\nTwo project companies are due next month, groundbreaking is planned for March 2027 and operation for early 2030. All of it is still a plan.\n\nSource: The Korea Times, \"Hyundai Motor Group to establish two SPCs for AI data center project\". #Hyundai"
 }

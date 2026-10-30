@@ -1,0 +1,43 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "cover headline (slide 1), hook_options[0], hook_pick_reason",
+      "problem": "\"HYUNDAI PLANS A SUPERCOMPUTER\" calls the project a machine. Only ZDNet Korea uses the word, and it says \"슈퍼컴퓨팅 거점\" (supercomputing base), and calls the project a \"하이퍼스케일 데이터센터\" (hyperscale data center). The Korea Times says only \"AI data center\". Neither article says Hyundai will build a supercomputer.",
+      "fix": "Use the article's wording, e.g. [\"HYUNDAI PLANS AN AI\", \"**SUPERCOMPUTING BASE**\"] (check the render fits), or drop the word: \"HYUNDAI PLANS AN\" / \"**AI DATA CENTER**\". Update hook_options[0] and hook_pick_reason to match. Also change the caption question \"Should carmakers build their own AI supercomputers?\" to \"Should carmakers build their own AI supercomputing bases?\" or \"...their own AI data centers?\""
+    },
+    {
+      "where": "slide 6 (rendered 07), last sentence",
+      "problem": "\"Financing is still being coordinated with Korea Development Bank.\" ZDNet Korea says: \"산업은행 등과 체결한 업무협약을 바탕으로 금융지원 방안도 조율 중이다\" (financing support is being coordinated based on a business agreement signed with the Korea Development Bank and others). The post drops \"and others\", drops the signed agreement, and implies KDB alone is the counterparty. It also does not say who KDB is (CLAUDE.md requires a one-line description for lesser-known institutions).",
+      "fix": "Replace with: \"Financing support is still being worked out, based on an agreement with Korea Development Bank, a South Korean state-run bank, and others.\" (Drop \"state-run\" if you want to keep strictly to the article; the exception for plain, widely known background allows it.) Shorten the 9 trillion won sentence if the slide overflows. Same reasoning for facts[8]: its note is accurate, but the slide must match it."
+    },
+    {
+      "where": "slide 6 (rendered 07), \"including robot and hydrogen plants\"",
+      "problem": "ZDNet Korea lists: AI data center, robot manufacturing cluster (로봇 제조 클러스터), solar power, a water-electrolysis plant for clean hydrogen, and an AI hydrogen city. \"Robot ... plants\" is not what it says; it is a manufacturing cluster. Minor.",
+      "fix": "\"ZDNet Korea sizes the wider AI Valley project, which also covers a robot manufacturing cluster and hydrogen production, at about 9 trillion won.\""
+    },
+    {
+      "where": "facts[2] (Korea Times participants quote)",
+      "problem": "The quote is not verbatim. The article says: \"The automotive group said its affiliates, including Hyundai Motor, Kia, Hyundai Mobis, Hyundai Engineering & Construction and Hyundai AutoEver, will participate in the investment.\" The quote in facts drops \"its affiliates, including\" and the commas. \"Including\" means the list may not be complete. Slide 5 (rendered 06) only says Korea Times \"lists\" these five, which is acceptable.",
+      "fix": "Quote it exactly as the article does, and add the note that \"including\" means the list is not necessarily complete."
+    },
+    {
+      "where": "slide 3 (rendered 04), \"ZDNet Korea describes it as a plan, not a working system.\"",
+      "problem": "ZDNet does not say this in those words. The article uses \"활용된다\" (will be used) and \"예정\" (scheduled) elsewhere. The sentence is the post's own editorial gloss attributed to ZDNet. Minor.",
+      "fix": "\"The site is not built yet; ZDNet Korea says construction starts in March 2027.\" or remove the attribution: \"This is a plan, not a working system.\""
+    },
+    {
+      "where": "caption and threads_caption, first line: \"to train self-driving cars and robots\"",
+      "problem": "ZDNet says the center is for \"학습·검증\" of physical AI technology (training and verifying AI for self-driving, robots, manufacturing AI). The cars and robots are not what is being trained. Minor wording.",
+      "fix": "\"...to train AI for self-driving cars and robots.\""
+    }
+  ],
+  "confirmed_ok": [
+    "Both articles opened with node scripts/article.mjs (Korea Times and ZDNet Korea).",
+    "Source titles and dates match. title_en \"Hyundai Motor Group to break ground on Saemangeum AI data center next March\" faithfully translates \"현대차그룹, 내년 3월 새만금 AI 데이터센터 첫 삽\".",
+    "Two SPCs next month, construction/infrastructure vs GPU services split, March 2027 groundbreaking, early 2030 commercial operation, about 200 km southwest of Seoul, and the five companies all match (Korea Times).",
+    "9 trillion won ($6.7 billion) is attributed to the Korea Times as a regional investment commitment. ZDNet's about 9 trillion won is attributed to the wider AI Valley project. The post never calls it the data center's cost. Currency format follows the rule (won with the article's dollar figure).",
+    "Everything is worded as a plan in the cover, slides, caption and threads_caption.",
+    "Rendered slides 01-08 match post.json text. The last slide has both sources. The Hyundai description (\"the South Korean automotive group behind Hyundai and Kia\") is plain, widely known background."
+  ]
+}
