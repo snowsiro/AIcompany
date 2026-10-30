@@ -5,7 +5,7 @@
 # so don't work out usage from the Higgsfield balance or transaction history.
 higgsfield:
   model: cinematic_studio_2_5   # 2 credits per 4:5 1k image (checked 2026-10-20)
-  max_credits_per_day: 6        # 2 posts a day + 1 retry
+  max_credits_per_day: 6        # 2 posts a day (morning + evening run, 2 each) + 1 retry; one total across both runs
   max_credits_per_month: 140    # 2 covers x 2 credits x 31 days = 124, plus a few retries
 claude:
   max_review_rounds_per_post: 2

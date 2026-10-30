@@ -1,13 +1,20 @@
 # Daily run
 
 This is what the scheduled Claude Code job runs every morning (05:45 Vienna time).
-It makes **two posts** on a new branch `daily/<date>` and ends with one pull request. It never posts to Instagram itself.
+It makes **one post** (the 13:57 slot) on a new branch `daily/<date>` and ends with one pull request. It never posts to Instagram itself.
+The second post of the day is made by the evening run at 19:15 (`playbooks/evening-run.md`) from that day's newest news
+and posts at 20:57 (evening slot adopted 2026-10-30 by Jamie after the 10/28-10/30 trial, PRD `ops/prd/2026-10-27-evening-slot.md`).
+On Sundays the morning run also makes the weekly roundup (step 6b).
 
 ---
 
 You are the AI office for @ai.news.company. Read `CLAUDE.md`, `DESIGN.md`, `config/sources.yaml` and `config/budget.yaml`.
 Today is {{date}} (Vienna time). Run these steps in order, using the subagents in `.claude/agents/`.
 
+-1. **Backlog check.** If a single post (not a `-weekly`) on main is still `"status": "ready"` (publish sets it
+   to "published"), for example yesterday's evening post that missed 23:00 or a slot that was skipped, make no new single
+   post today: that post takes the 13:57 slot. Still do step 0 and 7 (report: "넘어온 글 <id>로 13:57 채움"), and the
+   Sunday roundup. This keeps posts from piling up behind each other.
 0. Check that the morning scan is on main: `git fetch origin main && git ls-tree origin/main ops/scan/{{date}}/`.
    GitHub sometimes skips the scheduled 05:07 scan. If the folder is missing, start the repo's own `morning-scan`
    workflow (GitHub tool `actions_run_trigger`, method `run_workflow`, workflow `morning-scan.yml`, ref `main`; this is
@@ -16,17 +23,17 @@ Today is {{date}} (Vienna time). Run these steps in order, using the subagents i
    The same workflow writes `ops/metrics/{{date}}.json` (our own posts' numbers). Read it for the report's 성과 line;
    if it is missing, write "성과: 수집 안 됨" and carry on.
 1. **researcher** → `ops/candidates/{{date}}.json`
-2. **editor-in-chief** → picks two different stories, writes `posts/<id>/brief.md` for each
-
-Steps 3-6 run once for each of the two posts.
+2. **editor-in-chief** (morning pick) → picks one story, Korea, Asia or Europe first, writes `posts/<id>/brief.md`.
+   The other candidates stay in `ops/candidates/{{date}}.json` for the evening run.
 
 3. **writer** → `posts/<id>/post.json`, must pass `node scripts/lint.mjs posts/<id>`
 4. **designer** → cover image + `node scripts/render.mjs posts/<id>`, must pass
 5. **fact-checker**, **hook-judge**, **brand-safety** in parallel. Each sees only the post, never the other reviews.
 6. All three pass → set `"status": "ready"` in post.json. Any fail → send the issues to the writer and repeat from step 3.
-   After 2 failed rounds on a post, set that post to `"status": "blocked"`, keep its files, explain in the PR, and carry on with the other post.
-6b. **Sundays only, after both single posts are done: the weekly roundup.** Skip it and say so in the report if usage is tight;
-   the two single posts always come first.
+   After 2 failed rounds, set the post to `"status": "blocked"`, keep its files and explain in the PR. Then make one
+   post from the next-best candidate (steps 2-6 once more, no third attempt), so the 13:57 slot is not empty.
+6b. **Sundays only, after the single post is done: the weekly roundup.** Skip it and say so in the report if usage is tight;
+   the single post always comes first.
    - `node scripts/weekly.mjs {{date}}` → `posts/{{date}}-weekly/post.json` (draft). It picks up to 7 of our posts published
      Monday to Saturday, by reach. If it prints `skip:` (fewer than 3 posts), there is no roundup this week; note it in the report.
    - **writer** picks the lead story (the strongest of the week), reruns `node scripts/weekly.mjs {{date}} --lead <post id>`,
@@ -38,8 +45,8 @@ Steps 3-6 run once for each of the two posts.
    `ops/metrics/{{date}}.json`: yesterday's account reach, follower count and change, profile link taps, and the
    post with the highest reach so far. Numbers only, no conclusions (Meta needs up to 48h to settle them).
 8. Commit, push `daily/{{date}}` (if that branch already exists on origin, for example after a manual test run the same day,
-   use `daily/{{date}}-2`), open one PR titled `post: {{date}} <headline 1> + <headline 2>`,
-   with both cover images and the three verdicts for each post in the body.
+   use `daily/{{date}}-2`), open one PR titled `post: {{date}} <headline>`,
+   with the cover image and the three verdicts in the body.
 
 Stop and report instead of guessing when: no source can be reached, the budget would be exceeded,
 or a fact cannot be confirmed in the original article.
