@@ -1,0 +1,702 @@
+{
+ "date": "2026-10-30",
+ "run": "morning (split-schedule trial day 3), for the 13:57 post (Korea/Asia/Europe favoured)",
+ "notes": "Scan ops/scan/2026-10-30 present (feeds 04:47 UTC, reference 04:46 UTC; Euractiv, Korea JoongAng Daily failed; ddalkkak.mag zero posts). Reference accounts covered mostly tools/prompts plus Gemini 4 Carbon, Artificial Analysis v5, OpenAI subscription credits, Utopai Studios; none of the 12 stories below were covered by them (so no reference_posts). Yonhap English, Reuters, Ars Technica and openai.com refused fetches (403 or error); Korea Times, Korea Herald, etnews, ZDNet Korea, TNW, TechCrunch, heise all read with scripts/article.mjs. Google News links could not be decoded, so Korean items were found by headline search. First 9 are Korea/Asia/Europe (8 KOREA/ASIA, 1 EUROPE-ish); CHINA/US are the last 2-3. Not written up: Japan chip exports +41% (Nikkei, paywalled), Austria's UN AI centre bid (Der Standard, Oct 28, over 36h, short; facts exist in 2026-10-29-evening.json), Iluvatar CoreX GPU (SCMP only), Trump robot-import order (Ars blocked, search found nothing), Gemini 4 Carbon (Oct 28, over 36h, covered by 3 reference accounts, well known), LG CNS Q3 (AI Times read: revenue 1.6643T won, operating profit 138.2B won up 15%, small), Alphabet earnings (covered via KOSPI facts), Seoul 2027 budget, Samsung SDI, LS Cable. Repeat check vs posts/ of last 14 days: no story repeats a post; Cohere is the same company as the Oct 27 post (different story).",
+ "candidates": [
+  {
+   "id": "nvidia-naver-stake",
+   "title": "Nvidia becomes Naver's third-largest shareholder: $1 billion for a 4.54% stake, payment due Nov 6",
+   "region": "KOREA",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-29T23:36Z",
+   "first_published": "2026-10-29 23:36 UTC (etnews, 08:36 KST Oct 30); ZDNet Korea 01:45 UTC citing the DART filing; Yonhap English also ran it (blocked, 403)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Naver appears only in passing in posts/2026-10-26-korea-chinese-ai-models (Qwen part cost Naver a spot). The Nvidia-Naver deal itself was announced in July; today's news is the filing: payment date Nov 6, final stake 4.54%, Brookfield condition met. Write it as 'closing', not 'announces'.",
+   "reference_posts": [],
+   "reference_note": "No reference account covered it in the 48h scan.",
+   "articles": [
+    {
+     "outlet": "etnews (전자신문)",
+     "title": "엔비디아, 네이버 지분 4.54% 확보…AI 팩토리 동맹 본격화",
+     "language": "Korean",
+     "date": "2026-10-30",
+     "published": "2026-10-30T08:36:34+09:00",
+     "url": "https://www.etnews.com/20261030000009",
+     "title_en": "Nvidia secures 4.54% of Naver, AI factory alliance gets going"
+    },
+    {
+     "outlet": "ZDNet Korea",
+     "title": "네이버, 엔비디아 3대 주주로 맞는다…AI 팩토리 사업 ‘탄력’",
+     "language": "Korean",
+     "date": "2026-10-30",
+     "published": "2026-10-30T10:45:51+09:00",
+     "url": "https://zdnet.co.kr/view/?no=20261030104029",
+     "title_en": "Naver to welcome Nvidia as third-largest shareholder"
+    }
+   ],
+   "facts": [
+    {
+     "article": 1,
+     "fact": "Nvidia will invest $1 billion (about 1.3378 trillion won) and become Naver's third-largest shareholder, per ZDNet Korea."
+    },
+    {
+     "article": 1,
+     "fact": "Naver's filing on Oct 30 set the payment date for Nov 6; the new shares are due to be listed on Nov 27."
+    },
+    {
+     "article": 0,
+     "fact": "Naver said it met the precondition of securing computing infrastructure worth $9 billion, so it will carry out a third-party share issue to Nvidia; the final share count is set on Nov 3 and payment completes on Nov 6. Nvidia gets a 4.54% stake."
+    },
+    {
+     "article": 0,
+     "fact": "As of August, Naver's largest shareholder is the National Pension Service (9.49%) and the second is BlackRock (7.31%). Nvidia follows them."
+    },
+    {
+     "article": 1,
+     "fact": "Founder and board chair Lee Hae-jin's stake falls from 4.03% to 3.84%."
+    },
+    {
+     "article": 1,
+     "fact": "On Oct 27 Naver announced a $9 billion (about 12.0402 trillion won) computing-infrastructure contract with Brookfield. Brookfield sets up a special-purpose vehicle that invests up to $9 billion in GPUs and data centers and supplies computing power to Naver Cloud, which operates the AI factory."
+    },
+    {
+     "article": 1,
+     "fact": "Team Naver plans to run 55 MW from the first half of next year, expand to 200 MW by 2028, with the hyperscale data center 'Gak Sejong' as the core site, then expand overseas step by step."
+    },
+    {
+     "article": 0,
+     "fact": "Etnews frames it as Lee accepting dilution for Naver's survival in the global AI race; it expects Naver to get priority supply of Nvidia chips and to join Nvidia's sovereign-AI projects. This is the paper's interpretation, not a stated fact."
+    }
+   ],
+   "notes": "Needs a one-line explainer for Naver (Korea's largest search/internet company) and Brookfield (global investment firm). Dollar and won figures are as given by ZDNet Korea (1.3378 trillion won for $1B; 12.0402 trillion won for $9B)."
+  },
+  {
+   "id": "hyundai-saemangeum-ai-datacenter",
+   "title": "Hyundai Motor Group will set up two companies for a Saemangeum AI data center, groundbreaking March 2027",
+   "region": "KOREA",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-30T02:13Z",
+   "first_published": "2026-10-30 02:13 UTC (ZDNet Korea, 11:13 KST); Korea Times 02:41 UTC; Yonhap English (blocked) earlier",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. No Hyundai post in posts/.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "Hyundai Motor Group to establish two SPCs for AI data center project",
+     "language": "English",
+     "date": "2026-10-30",
+     "published": "2026-10-30T02:41:04Z",
+     "url": "https://www.koreatimes.co.kr/business/companies/20261030/hyundai-motor-group-to-establish-two-spcs-for-ai-data-center-project"
+    },
+    {
+     "outlet": "ZDNet Korea",
+     "title": "현대차그룹, 내년 3월 새만금 AI 데이터센터 첫 삽",
+     "language": "Korean",
+     "date": "2026-10-30",
+     "published": "2026-10-30T11:13:28+09:00",
+     "url": "https://zdnet.co.kr/view/?no=20261030111328",
+     "title_en": "Hyundai Motor Group breaks ground on Saemangeum AI data center next March"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Hyundai Motor Group said Friday it will establish two special purpose companies next month for an AI data center project in Saemangeum, Gunsan: one for construction and infrastructure, one for GPU services."
+    },
+    {
+     "article": 0,
+     "fact": "Hyundai Motor, Kia, Hyundai Mobis, Hyundai Engineering & Construction and Hyundai AutoEver will participate in the investment."
+    },
+    {
+     "article": 0,
+     "fact": "Groundbreaking is planned for March 2027 and commercial operations for early 2030. Saemangeum is about 200 km southwest of Seoul."
+    },
+    {
+     "article": 0,
+     "fact": "Vice Chairman Chang Jae-hoon reaffirmed a 9 trillion won ($6.7 billion) investment in the region on the previous day's visit."
+    },
+    {
+     "article": 1,
+     "fact": "The data center will be a supercomputing base to train and test physical AI for autonomous driving, robots and manufacturing; the group plans to train end-to-end self-driving algorithms on real road data plus simulated synthetic data of hazards such as bad weather and sudden obstacles."
+    },
+    {
+     "article": 1,
+     "fact": "The group started a 200 MW solar-power SPC and the data center's building-review process in September. Hyundai AutoEver confirmed joining the GPU-service SPC after a board vote."
+    },
+    {
+     "article": 1,
+     "fact": "The group is discussing technical cooperation with global companies and coordinating financing under an agreement with the Korea Development Bank and others."
+    },
+    {
+     "article": 1,
+     "fact": "The Saemangeum 'AI Valley' is a roughly 9 trillion won project linking the AI data center, a robot manufacturing cluster, solar power, a water-electrolysis plant for clean hydrogen and an AI hydrogen city."
+    }
+   ],
+   "notes": "Dollar figure ($6.7B) is the Korea Times' own conversion. Explain Saemangeum (reclaimed coastal land in Gunsan) and SPC (a company set up just for one project)."
+  },
+  {
+   "id": "kospi-ai-selloff-oct30",
+   "title": "Seoul stocks fall more than 5% as AI-boom doubts hit Samsung and SK hynix, a day after Samsung's record profit",
+   "region": "KOREA",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-30T00:01Z",
+   "first_published": "2026-10-30 00:01 UTC (Yonhap English opening report, 09:01 KST); Korea Times late-morning report published 00:20 UTC, updated 02:47 UTC",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New today. Related to posts/2026-10-28-sk-hynix-q3-record (different story: results vs. selloff). posts/_backlog/2026-10-23-kospi-ai-worries.md is an unused backlog item on a different day.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Korea Times (Yonhap)",
+     "title": "Seoul stocks down over 5% late Fri. morning on tech losses amid AI concerns",
+     "language": "English",
+     "date": "2026-10-30",
+     "published": "2026-10-30T00:20:03Z",
+     "url": "https://www.koreatimes.co.kr/economy/20261030/seoul-stocks-down-over-5-late-fri-morning-on-tech-losses-amid-ai-concerns"
+    },
+    {
+     "outlet": "The Korea Herald (Yonhap)",
+     "title": "Seoul stocks open lower on Wall Street losses, AI concerns",
+     "language": "English",
+     "date": "2026-10-30",
+     "published": "2026-10-30T09:07:26+09:00",
+     "url": "https://www.koreaherald.com/article/10920012"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The KOSPI fell 311.84 points, or 5.25 percent, to 5,626.02 as of 11:20 a.m. on Friday, led by technology shares amid renewed concern over the sustainability of the AI boom."
+    },
+    {
+     "article": 0,
+     "fact": "The Korea Exchange triggered a sell-side sidecar, a five-minute halt of program trading, shortly after 10 a.m.; it was the first activation in 11 trading days."
+    },
+    {
+     "article": 0,
+     "fact": "Samsung Electronics fell 6.03 percent and SK hynix plunged 8.65 percent. Hanwha Aerospace fell 12.24 percent after weaker third-quarter results; Hyundai Motor fell 3.76 percent after lowering its annual sales target and investment plans."
+    },
+    {
+     "article": 1,
+     "fact": "Overnight on Wall Street, Alphabet plunged more than 12 percent after its Q3 revenue rose 25 percent on-year to $127.58 billion but missed expectations, raising concern over returns on massive AI investment."
+    },
+    {
+     "article": 1,
+     "fact": "The Nasdaq Composite shed 1.38 percent and the Philadelphia Semiconductor Index fell 1.4 percent overnight."
+    },
+    {
+     "article": 1,
+     "fact": "The KOSPI had fallen 1.24 percent the previous session on profit-taking in chip heavyweights, despite Samsung Electronics' record quarterly earnings."
+    },
+    {
+     "article": 0,
+     "fact": "The won traded at 1,337.8 per US dollar at 10:20 a.m."
+    }
+   ],
+   "notes": "Intraday figures only (11:20 a.m. KST), not the close; check for a closing report before the 13:57 post or word it as 'late morning'. Combine with Samsung record profit for a 'record profit, then a selloff' angle, but they are two sources."
+  },
+  {
+   "id": "kt-token-factory",
+   "title": "KT launches Token Factory: one platform to pick between AI models and pay in won, 30% launch discount",
+   "region": "KOREA",
+   "category_suggestion": "TOOLS",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-27T06:53Z",
+   "first_published": "2026-10-27 06:53 UTC (Korea Times, announcement); launch news 2026-10-30 00:59 UTC (ZDNet Korea). Announcement is older than 36h, today's hook is the launch plus discount.",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. posts/2026-10-01-korea-ai-for-all mentions KT only in passing.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "KT unveils AI platform Token Factory, eyes new growth business",
+     "language": "English",
+     "date": "2026-10-27",
+     "published": "2026-10-27T06:53:03Z",
+     "url": "https://www.koreatimes.co.kr/business/tech-science/20261027/kt-unveils-ai-platform-token-factory-eyes-new-growth-business"
+    },
+    {
+     "outlet": "ZDNet Korea",
+     "title": "KT, AI 모델 골라 쓰는 '토큰팩토리' 출시...이용료 30% 할인",
+     "language": "Korean",
+     "date": "2026-10-30",
+     "published": "2026-10-30T09:59:58+09:00",
+     "url": "https://zdnet.co.kr/view/?no=20261030095123",
+     "title_en": "KT launches Token Factory for choosing AI models, 30% discount"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "KT, a Korean telecom company, will roll out KT Token Factory on Friday, offering access to 73 AI models through a single platform; it plans to expand to more than 500 in November through a partnership with OpenRouter, a global AI model marketplace."
+    },
+    {
+     "article": 0,
+     "fact": "Its auto model router picks models by task, balancing quality and cost, and compresses prompts; KT says this can cut token usage costs by up to 25 percent."
+    },
+    {
+     "article": 0,
+     "fact": "It targets corporate and public-sector customers first; individual developers and consumers follow in March 2027, when KT expects to introduce subscription pricing."
+    },
+    {
+     "article": 0,
+     "fact": "Seven of the 73 launch models, including Upstage's Solar, KT's Mi:dm and Google's Gemma, run on domestic infrastructure."
+    },
+    {
+     "article": 0,
+     "fact": "Lee Jin-hyung, head of KT's AX Business Division: 'Commissions are not our main business model. Our main revenue model is the margin generated by producing tokens directly using graphics processing units in KT's data centers.'"
+    },
+    {
+     "article": 1,
+     "fact": "As a launch promotion, KT cuts the price of the AI models it provides directly in Korea by 30% until Nov 30."
+    },
+    {
+     "article": 1,
+     "fact": "The seven discounted models are Mi:dm K 3.0 Pro, Solar Pro 4, Motif 3, Nvidia Nemotron 3 Ultra 550B A55B, GLM 5.3 Flash, Kimi K3 and Gemma 4 31B. The discount applies to subscribers who have completed corporate verification and a product contract."
+    },
+    {
+     "article": 1,
+     "fact": "Usage is billed in won, based on KT's billing capability."
+    }
+   ],
+   "notes": "Korea Times says 73 models at launch, AI Times (headline, not fetched) says 500+; use 73 now, 500+ in November. ZDNet writes the KT model as 믿음 K 3.0 Pro (Mi:dm K 3.0 Pro is my transliteration; check)."
+  },
+  {
+   "id": "samsung-q3-record",
+   "title": "Samsung posts the first 100-trillion-won quarterly operating profit of any tech company: 107.44T won, 99% from chips",
+   "region": "KOREA",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-29T02:08Z",
+   "first_published": "2026-10-29 02:08 UTC (Korea Herald/Yonhap, 11:08 KST); the Samsung release was earlier (not re-fetched). About 30 hours old at the 13:57 post.",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not posted. Same theme as posts/2026-10-28-sk-hynix-q3-record (SK hynix) but a different company. Today's KOSPI selloff story gives the follow-up angle.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts (earlier scan: no).",
+   "articles": [
+    {
+     "outlet": "The Korea Herald (Yonhap)",
+     "title": "Samsung Electronics posts record profit in Q3 on AI chip supercycle",
+     "language": "English",
+     "date": "2026-10-29",
+     "published": "2026-10-29T11:08:10+09:00",
+     "url": "https://www.koreaherald.com/article/10918815"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Samsung Electronics' Q3 net profit was 75.13 trillion won ($56.2 billion), up 514.6 percent from 12.22 trillion won a year earlier."
+    },
+    {
+     "article": 0,
+     "fact": "Operating profit rose 783.1 percent to 107.44 trillion won; revenue rose 126.9 percent to 195.25 trillion won."
+    },
+    {
+     "article": 0,
+     "fact": "Samsung said it is the first global tech company to post quarterly operating profit above 100 trillion won; it is the fourth straight quarter of record revenue and operating profit."
+    },
+    {
+     "article": 0,
+     "fact": "The chip division earned 106.5 trillion won, 99.1 percent of the total operating profit."
+    },
+    {
+     "article": 0,
+     "fact": "Samsung expanded sales of sixth-generation high-bandwidth memory (HBM4) and was the first in the industry to start mass production and shipments of HBM4."
+    },
+    {
+     "article": 0,
+     "fact": "Its device division (phones and consumer electronics) posted an operating loss of 800 billion won, the second straight quarterly loss."
+    },
+    {
+     "article": 0,
+     "fact": "Third-quarter dividend: 4,601 won per common and preferred share. Total shareholder returns for the year are expected at 90 to 110 trillion won."
+    },
+    {
+     "article": 0,
+     "fact": "The article notes the record comes amid industry concern over long-term profitability of the AI market; Samsung expects the chip industry to stay strong in 2027."
+    }
+   ],
+   "notes": "Facts re-checked against the Korea Herald text on Oct 30. Dollar figure is Yonhap's. Single outlet (Yonhap wire)."
+  },
+  {
+   "id": "furiosaai-series-d",
+   "title": "Korean AI chip startup FuriosaAI raises $620M at a $2.9B valuation, quadrupling its value",
+   "region": "KOREA",
+   "category_suggestion": "STARTUPS",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-29T03:40Z",
+   "first_published": "2026-10-29 03:40 UTC (AI Times 12:40 KST); Bloomberg first; TNW 18:20 UTC. About 28h old.",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not posted (leftover from 10-29 candidates). Facts re-checked from TNW this time, which gives dollar figures that the earlier AI Times source lacked.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "FuriosaAI Series D: $620m quadruples the chipmaker's value to $2.9bn",
+     "language": "English",
+     "date": "2026-10-29",
+     "published": "2026-10-29T18:20:29Z",
+     "url": "https://thenextweb.com/news/furiosaai-series-d-620m-2-9bn-valuation"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "FuriosaAI, a Seoul-based maker of AI inference chips, raised $620m in a Series D round at a valuation of about $2.9bn."
+    },
+    {
+     "article": 0,
+     "fact": "South Korea's National Growth Fund put in $280m, the largest investor. International investors put in $110m, led by US firm Infinitum, with Jericho Capital, Worldline Capital, Cisco Investments, Abu Dhabi's NeoFort Holding and Singapore's QUDA Capital Partners."
+    },
+    {
+     "article": 0,
+     "fact": "The previous round last year valued it at $735m, so the valuation has quadrupled (Bloomberg, relayed by TNW)."
+    },
+    {
+     "article": 0,
+     "fact": "Existing shareholders added $125m, including seed investors NAVER, DSC Investment and KDB Capital. The Export-Import Bank of Korea made its first direct investment in a startup; asset manager UAMCO committed $30m."
+    },
+    {
+     "article": 0,
+     "fact": "Its second-generation chip RNGD went into mass production in January; TSMC is making 20,000 this year per Bloomberg, and FuriosaAI says it has secured memory and factory capacity for more than 40,000 in 2027."
+    },
+    {
+     "article": 0,
+     "fact": "FuriosaAI says the 180-watt, air-cooled RNGD card matches the throughput of Nvidia's RTX PRO 6000 card for card and serves twice as many users per kilowatt; TNW says it has not tested these claims."
+    },
+    {
+     "article": 0,
+     "fact": "Customers: Samsung SDS launched a cloud service on RNGD in July; LG Group runs EXAONE models on it; Upstage uses it for search summaries."
+    },
+    {
+     "article": 0,
+     "fact": "The money goes to more RNGD chips, software and a third-generation chip, developed with Broadcom and other partners, a 2nm multi-die design with HBM4 memory."
+    }
+   ],
+   "notes": "Dollar-based, so it satisfies the currency rule. Won figure from AI Times (820 billion won, 3.8 trillion won) is not in this TNW text; do not mix."
+  },
+  {
+   "id": "kakao-kanana-embedding",
+   "title": "Kakao open-sources two Korean-strong embedding models for personal AI agents",
+   "region": "KOREA",
+   "category_suggestion": "TOOLS",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-29T02:03Z",
+   "first_published": "2026-10-29 02:03 UTC (etnews, 11:03 KST). About 30h old.",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not posted. Kakao appears in posts/2026-10-26-korea-chinese-ai-models in a different context. Leftover from 10-29 candidates; re-checked.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts. Niche developer topic, lowest fit for a general audience.",
+   "articles": [
+    {
+     "outlet": "etnews (전자신문)",
+     "title": "카카오, 개인화 AI 에이전트용 임베딩 모델 2종 오픈소스 공개",
+     "language": "Korean",
+     "date": "2026-10-29",
+     "published": "2026-10-29T11:03:02+09:00",
+     "url": "https://www.etnews.com/20261029000192",
+     "title_en": "Kakao releases two embedding models for personalised AI agents as open source"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Kakao released two 'Kanana-2-embedding' models on Hugging Face as open source: Kanana-2-3b-embedding (3 billion parameters) and Kanana-2-1.3b-embedding (1.3 billion)."
+    },
+    {
+     "article": 0,
+     "fact": "An embedding model turns the meaning of text into numbers so an AI can find information related to a question by semantic similarity, even when the user does not remember the exact words."
+    },
+    {
+     "article": 0,
+     "fact": "Example in the article: a user asking for 'the quiet restaurant we talked about before' can find a past message about 'a good place to talk' without typing the restaurant name."
+    },
+    {
+     "article": 0,
+     "fact": "By Kakao's own evaluation the models beat similar-size open models llama-nemotron-embed-1b-v2 and Qwen3-Embedding-4B on Korean, with similar English performance, and were more efficient at inference than Qwen3-Embedding."
+    },
+    {
+     "article": 0,
+     "fact": "The 1.3B model was built by distilling the 3B model. A technique called Matryoshka Representation Learning lets developers choose the vector size to trade search quality against storage and speed."
+    },
+    {
+     "article": 0,
+     "fact": "Both models use the 'Kanana Open License', which allows commercial use. It follows four small Kanana language models released in July."
+    }
+   ],
+   "notes": "Benchmark claims are Kakao's own."
+  },
+  {
+   "id": "malaysia-ai-chip-smuggling",
+   "title": "Malaysia seizes 30 servers of AI chips worth about $12M at Kuala Lumpur airport, fifth case tied to one smuggling network",
+   "region": "ASIA",
+   "category_suggestion": "POLICY",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-29T07:48Z",
+   "first_published": "2026-10-29 07:48 UTC (AI Times headline in feed, article not read); The Information first; heise online 17:27 UTC (read). Seizure itself was Oct 15.",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Related to posts/2026-10-23-china-nvidia-35b and backlog deepseek-minimax-export-registration (chips and export controls), different story.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Malaysia: Zoll beschlagnahmt KI-Chips im Wert von rund 12 Millionen US-Dollar",
+     "language": "German",
+     "date": "2026-10-29",
+     "published": "2026-10-29T18:27:00+01:00",
+     "url": "https://www.heise.de/news/Malaysia-Zoll-beschlagnahmt-KI-Chips-im-Wert-von-rund-12-Millionen-US-Dollar-11505399.html",
+     "title_en": "Malaysia: customs seizes AI chips worth about 12 million US dollars"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "On Oct 15, Malaysian customs in the free-trade zone of Kuala Lumpur airport seized 30 server units with powerful AI chips, declared as ordinary electronic components, worth about $12.11 million."
+    },
+    {
+     "article": 0,
+     "fact": "Authorities suspect an organised smuggling network that uses Malaysia as a transit point; the shipment came from one Asian country and was to be re-exported to another, neither named."
+    },
+    {
+     "article": 0,
+     "fact": "No arrests so far according to Bernama; the companies involved were summoned to help the investigation."
+    },
+    {
+     "article": 0,
+     "fact": "It is the fifth case attributed to the suspected network. In June customs in the same zone seized 72 servers with AI chips. According to The Information the combined value of seizures linked to the group is about $24 million."
+    },
+    {
+     "article": 0,
+     "fact": "Malaysia introduced extra controls on powerful AI chips, computer systems and electronic assemblies in 2025 through its Strategic Trade Controller directive, covering export, transit and transshipment, under political pressure from the US government according to The Information."
+    },
+    {
+     "article": 0,
+     "fact": "Authorities did not say which manufacturer made the chips."
+    }
+   ],
+   "notes": "Single readable original (heise, German; it relays Bernama and The Information). Good fit for 'ASIA' but no hard Asia-specific numbers beyond $12M/$24M."
+  },
+  {
+   "id": "cohere-series-e-schwarz",
+   "title": "Cohere raises up to C$7B at a C$35.7B valuation, led by Germany's Schwarz Group, with Canada's government investing",
+   "region": "EUROPE",
+   "category_suggestion": "STARTUPS",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-29T16:23Z",
+   "first_published": "2026-10-29 16:23 UTC (Reuters headline 'Ottawa takes stake in Cohere', not readable); heise 17:12 UTC; TNW 18:48 UTC",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Different story from posts/2026-10-27-cohere-qwen-phone-home (Qwen test), but same company within 3 days; the editor should weigh this. Region is mixed (Toronto company, European lead investor and Berlin HQ), so EUROPE is a stretch; CANADA is not in the allowed list.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "'Frontier fatalism': Cohere Series E targets C$7bn at a C$35.7bn value",
+     "language": "English",
+     "date": "2026-10-29",
+     "published": "2026-10-29T18:48:25Z",
+     "url": "https://thenextweb.com/news/cohere-series-e-c7bn-canada-nvidia"
+    },
+    {
+     "outlet": "heise online (dpa)",
+     "title": "Schwarz-Gruppe investiert Milliarden in KI-Start-up Cohere",
+     "language": "German",
+     "date": "2026-10-29",
+     "published": "2026-10-29T18:12:00+01:00",
+     "url": "https://www.heise.de/news/Schwarz-Gruppe-investiert-Milliarden-in-KI-Start-up-Cohere-11505395.html",
+     "title_en": "Schwarz Group invests billions in AI startup Cohere"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Cohere completed the first close of its Series E, aiming to grow it to as much as C$7bn at a C$35.7bn valuation; the company says it is the largest private financing ever raised by a Canadian technology company."
+    },
+    {
+     "article": 0,
+     "fact": "Schwarz Group companies lead the round, having committed $600m earlier per Bloomberg. Bell Ventures, Bullhound Capital and the Government of Canada are new investors; Inovia Capital, Nvidia and Prosperity7 Ventures invested before."
+    },
+    {
+     "article": 0,
+     "fact": "The Canadian government agreed to invest up to $1.14bn; Cohere plans to keep its headquarters in Canada and invest about $1.2bn in computing infrastructure there by 2030."
+    },
+    {
+     "article": 0,
+     "fact": "Bloomberg put the valuation at $20.5bn excluding new money and the full round at up to $5bn, roughly triple Cohere's value a year ago."
+    },
+    {
+     "article": 0,
+     "fact": "Cohere says annual recurring revenue grew more than 165% in the year to the end of September and the customer count rose 20 times to 300, including Bell Canada, Fujitsu, RBC, TD Bank, PwC and TKMS. It plans to hire for more than 1,000 positions."
+    },
+    {
+     "article": 1,
+     "fact": "Schwarz Group is the parent of Lidl and Kaufland. Schwarz Digits CEO Christian Müller said the aim is to run Cohere's models directly in the group's own STACKIT cloud."
+    },
+    {
+     "article": 1,
+     "fact": "Cohere merged with Heidelberg-based Aleph Alpha earlier this year, in practice a takeover; the company has headquarters in Toronto and Berlin, and Heidelberg stays a research and development site. Cohere focuses exclusively on enterprise and government customers."
+    },
+    {
+     "article": 0,
+     "fact": "Cohere also plans to buy cybersecurity startup AISLE, which would become Cohere Cyber."
+    }
+   ],
+   "notes": "Figures: C$ amounts are as written by TNW; heise gives about 4.7 billion euros for C$7bn and about 23.9 billion euros for C$35.7bn (dpa rates). No USD for the C$ headline numbers, only Bloomberg's $20.5bn / $5bn."
+  },
+  {
+   "id": "deepseek-moonshot-distilled-gpt-6-astra",
+   "title": "Report: DeepSeek and Moonshot trained their newest models on OpenAI's GPT-6 Astra outputs",
+   "region": "CHINA",
+   "category_suggestion": "INDUSTRY",
+   "slot_fit": "evening",
+   "first_published_utc": "2026-10-29T02:10Z",
+   "first_published": "2026-10-29 02:10 UTC (Reuters, relaying The Information). About 30h old.",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not posted. Related but different: posts/2026-10-25-kimi-k3-1-pro (the model release), backlog 2026-10-25-deepseek-minimax-export-registration. Leftover from 10-29 candidates; re-checked via the AOL copy of Reuters.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts; AI Times covered it Oct 30 05:51 KST (headline in feed).",
+   "articles": [
+    {
+     "outlet": "Reuters (via AOL)",
+     "title": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models, The Information reports",
+     "language": "English",
+     "date": "2026-10-28",
+     "published": "2026-10-29T02:10:57Z",
+     "url": "https://www.aol.com/articles/deepseek-moonshot-used-openais-gpt-021057000.html"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Chinese AI developers DeepSeek and Moonshot AI relied heavily on outputs from OpenAI's GPT-6 Astra to train their latest models, The Information reported, citing people with direct knowledge."
+    },
+    {
+     "article": 0,
+     "fact": "The practice is called distillation. Firms argue it lets rivals reproduce advanced capabilities more quickly and cheaply."
+    },
+    {
+     "article": 0,
+     "fact": "Moonshot's Kimi K3.1 Pro, released last week, and DeepSeek's upgraded V4.1-Flash 1017, launched Oct 17, benefited from distilling Astra, according to The Information."
+    },
+    {
+     "article": 0,
+     "fact": "OpenAI, DeepSeek and Moonshot did not immediately respond to Reuters requests for comment."
+    },
+    {
+     "article": 0,
+     "fact": "In a Sept 30 blog post OpenAI said it had linked a core part of a distillation campaign that began in July to individuals associated with Moonshot."
+    },
+    {
+     "article": 0,
+     "fact": "Earlier this month Anthropic said new measures cut data harvested in distillation attacks by about 90% to 99%."
+    }
+   ],
+   "notes": "Short wire text, single source, claim is unconfirmed (anonymous sources). Count as Asia only if the editor treats China as Asia."
+  },
+  {
+   "id": "amazon-capex-220b",
+   "title": "Amazon says it will spend about $220B on AI infrastructure in 2026; shares fall about 6% despite AWS growth of 39%",
+   "region": "US",
+   "category_suggestion": "ECONOMY",
+   "slot_fit": "evening",
+   "first_published_utc": "2026-10-29T21:03Z",
+   "first_published": "2026-10-29 21:03 UTC (Reuters headline, not readable); TechCrunch 23:42 UTC (read)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Same macro theme as the Alphabet selloff and the Korea KOSPI story, so pairing with those would be redundant.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+     "language": "English",
+     "date": "2026-10-29",
+     "published": "2026-10-29T23:42:22Z",
+     "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "On Amazon's earnings call, CEO Andy Jassy said: 'There has never been a business with a trillion dollars of annual revenue,' repeating his belief that AWS can become one."
+    },
+    {
+     "article": 0,
+     "fact": "Jassy said Amazon still expects 2026 cash capex of approximately $220 billion, the majority for AWS, and expects to spend meaningfully more in 2027."
+    },
+    {
+     "article": 0,
+     "fact": "AWS revenue increased 39 percent from a year earlier, the sixth straight quarter of steady growth; AWS is a $184 billion annualized revenue run-rate business."
+    },
+    {
+     "article": 0,
+     "fact": "Jassy forecast that AWS can grow north of 40 percent in each of 2027 and 2028 and become a trillion-dollar revenue business in the next five to 10 years."
+    },
+    {
+     "article": 0,
+     "fact": "He called the AI boom a 'once in a lifetime opportunity' worth the big commitment."
+    },
+    {
+     "article": 0,
+     "fact": "Shares were down about 6% in after-market trading; analysts repeatedly asked Jassy to justify the spending."
+    }
+   ],
+   "notes": "Single outlet. Reuters version (headline: 'Amazon sinks as AI spending eclipses fastest cloud growth in five years') not readable."
+  },
+  {
+   "id": "north-korea-ai-weapons",
+   "title": "North Korea shows attack drones and missiles as Kim Jong-un urges faster military AI and drone development",
+   "region": "KOREA",
+   "category_suggestion": "POLICY",
+   "slot_fit": "morning",
+   "first_published_utc": "2026-10-29T23:58Z",
+   "first_published": "2026-10-29 23:58 UTC (Korea Herald/AFP, 08:58 KST Oct 30)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "New. Brand-safety flag: military/geopolitics, state-media claims; AI angle is secondary. Lowest priority.",
+   "reference_posts": [],
+   "reference_note": "Not covered by reference accounts.",
+   "articles": [
+    {
+     "outlet": "The Korea Herald (AFP)",
+     "title": "North Korea displays drones, missiles as Kim Jong-un urges AI weapons push",
+     "language": "English",
+     "date": "2026-10-30",
+     "published": "2026-10-30T08:58:19+09:00",
+     "url": "https://www.koreaherald.com/article/10919986"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "North Korean state media reported on Friday that the country test-fired attack drones, missiles and a multiple rocket launcher at a weapons demonstration, with Kim Jong-un calling for faster development of drone and AI technology for military use."
+    },
+    {
+     "article": 0,
+     "fact": "Per KCNA the demonstration featured suicide attack drones, multipurpose drones firing air-to-surface missiles, cruise missiles and 600mm multiple rocket launchers, and the drones and cruise missiles hit an island target with 100 percent accuracy (a state-media claim)."
+    },
+    {
+     "article": 0,
+     "fact": "Kim said seizing 'absolute superiority in the drone technology is an indispensable option in the light of the ever-changing patterns of modern warfare.'"
+    },
+    {
+     "article": 0,
+     "fact": "Recent North Korean tests, including a precision-guided torpedo system and an intermediate-range hypersonic missile, were said to employ AI technology."
+    },
+    {
+     "article": 0,
+     "fact": "South Korea's Joint Chiefs said it detected around a dozen short-range ballistic missiles fired from the Wonsan area on Thursday; they flew about 250 km."
+    }
+   ],
+   "notes": "Claims are KCNA's and not independently verified."
+  }
+ ]
+}
