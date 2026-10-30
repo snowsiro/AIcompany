@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "issues": [],
+  "round": 2,
+  "notes": [
+    "All six round 1 issues are fixed; checked in post.json and in rendered slides 01, 04 and 07.",
+    "Cover now says 'HYUNDAI PLANS AN / AI DATA CENTER', the Korea Times wording, so it is no longer overstated.",
+    "Slide 4 attributes 'supercomputing base' to ZDNet Korea ('슈퍼컴퓨팅 거점') and states the plan caveat in the post's own voice.",
+    "Slide 7: 9 trillion won ($6.7 billion) is attributed to the Korea Times as a regional investment. ZDNet's about 9 trillion won is attributed to the AI Valley project, and neither is called the data center's cost.",
+    "Slide 7: 'coordinated with Korea Development Bank, a state-run lender, and others' now matches ZDNet's '산업은행 등'. The 'state-run lender' description is widely known background and carries no number or date.",
+    "Caption and threads_caption wording checks out. Titles, dates and title_en are unchanged and correct. facts[2] is now verbatim."
+  ]
+}
