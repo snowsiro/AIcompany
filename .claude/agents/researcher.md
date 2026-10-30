@@ -19,7 +19,9 @@ You are the researcher for @ai.news.company.
    WebSearch and read it with `node scripts/article.mjs <url>`, which prints the article's own text (WebFetch only gives
    a summary, so use it only when the script fails). If the outlet blocks the fetch, use another original you can read that reports the same facts
    (the company's own announcement, or another named outlet), and cite that one. A story with no readable original is dropped.
-   Aim for at least 6 stories so the editor can pick two.
+   Aim for at least 6 stories in the morning; the evening run uses what the morning did not.
+   **Evening run:** collect only articles first published after 05:45 Vienna today, record each story's first-published
+   time (UTC), write `ops/candidates/<date>-evening.json`, and add the unused morning candidates marked `carried_over`.
 4. Write `ops/candidates/<date>.json`: one entry per story with `title`, `reference_posts` (username + url),
    `articles` (outlet, title, date, url) and 5-10 `facts`, each copied from the article text, with its article index.
 

@@ -8,16 +8,19 @@ The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.comp
 05:07 Vienna  GitHub Actions "morning-scan" saves the reference accounts' recent posts and new AI articles
            from each outlet's RSS to ops/scan/<date>/ (the routine has no Instagram token, and some sites block it)
 
-05:45 Vienna  Claude Code (scheduled, in the cloud) makes 2 posts
+05:45 Vienna  Claude Code (scheduled, in the cloud) makes the morning post (Korea, Asia, Europe first)
            researcher → editor-in-chief → writer → designer → 3 independent reviewers
-           → one pull request "post: <date> <headline 1> + <headline 2>"
+           → one pull request "post: <date> <headline>"
            GitHub Actions "render" re-renders the slides with the real cover and adds them to the PR
 
 06:13 Vienna  Claude checks each ready post against its original article and merges the PR if it passes
            (Jamie's choice, 2026-10-20). To pull a post, tell Claude before it goes out.
 
 13:57 Vienna  GitHub Actions "publish" posts the oldest ready post as a carousel, then checks it is live
-19:57 Vienna  "publish" again for the second post
+19:15 Vienna  Claude Code evening run (playbooks/evening-run.md) makes the second post from the day's newest news,
+           usually a US afternoon announcement, and merges it once all three reviews pass (evening slot adopted
+           2026-10-30 after a 3-day trial). Ready after 20:57 but before 23:00: it starts "publish" itself
+20:57 Vienna  "publish" again for the evening post
            It ticks every 30 minutes for 90 minutes after each slot, so a late or dropped GitHub run is retried
            without anyone starting it; the 3-hour guard keeps it to one post per slot
 Sundays    09:57 Vienna  "publish" posts that Sunday's weekly roundup "This week in AI" (posts/<date>-weekly),
