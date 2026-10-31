@@ -1,0 +1,395 @@
+{
+ "date": "2026-10-31",
+ "run": "evening",
+ "cutoff_utc": "2026-10-31T04:45:00Z",
+ "note": "Few stories were first published after the cutoff (Saturday; US news mostly dated 30 Oct). Only story 1 strictly qualifies; stories 2-7 are marked after_cutoff=false (first report before cutoff, English/secondary coverage after). No morning candidates to carry over.",
+ "stories": [
+  {
+   "title": "Samsung's top executives sit down with OpenAI's Sam Altman in Yongin; SK's Chey meets him too",
+   "first_published_utc": "2026-10-31T06:13:35Z",
+   "first_published_source": "The Korea Herald (Yonhap English 06:22Z)",
+   "after_cutoff": true,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Reference accounts (as of 09:31Z) show no post on this. Company: Samsung / OpenAI (not Hyundai). Yonhap English blocked (403); Korean outlets etnews/dt/ZDNet Korea also covered, unreadable via redirect.",
+   "articles": [
+    {
+     "outlet": "The Korea Herald",
+     "title": "Samsung executives meet OpenAI's Altman to discuss AI strategy",
+     "date": "2026-10-31T15:13:35+09:00",
+     "url": "https://www.koreaherald.com/article/10921312"
+    },
+    {
+     "outlet": "The Korea Times",
+     "title": "Samsung execs meet Open AI's Sam Altman to discuss AI transformation",
+     "date": "2026-10-31T07:17:03Z",
+     "url": "https://www.koreatimes.co.kr/business/companies/20261031/samsung-execs-meet-open-ais-sam-altman-to-discuss-ai-transformation"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "Sam Altman: DRAM in home PCs is 'quite terrible', used 5% of the time",
+     "date": "2026-10-31T12:03:14Z",
+     "url": "https://thenextweb.com/news/sam-altman-dram-samsung-presidents-cheeky-pint"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "About 50 senior executives from Samsung Group met with OpenAI CEO Sam Altman on Saturday to discuss how artificial intelligence could transform corporate management and create new business opportunities."
+    },
+    {
+     "article": 0,
+     "text": "Samsung said it hosted the meeting at its Human Resources Development Center in Yongin, Gyeonggi Province, bringing together presidents and other top executives from major affiliates spanning electronics, finance and biotechnology."
+    },
+    {
+     "article": 0,
+     "text": "Under the theme “The Next 10 Years Shaped by AI: The Enterprise’s Choice,” executives shared views with Altman on the future direction of AI technology, its potential applications and emerging business opportunities."
+    },
+    {
+     "article": 0,
+     "text": "The group has also trained about 2,300 executives since June and aims to finish AI training for all employees by February 2027."
+    },
+    {
+     "article": 0,
+     "text": "In October 2025, Samsung Electronics signed a letter of intent with OpenAI to cooperate on global AI infrastructure, including plans to supply advanced memory chips for OpenAI’s Stargate project."
+    },
+    {
+     "article": 0,
+     "text": "In June, OpenAI said Samsung Electronics would roll out ChatGPT Enterprise and Codex to employees in South Korea and its global Device eXperience division, making one of OpenAI’s largest enterprise deployments."
+    },
+    {
+     "article": 1,
+     "text": "Altman highlighted that gaining a competitive edge does not hinge on simply adopting the AI technology, but on how to leverage it to move faster, make better products and get ahead of competitors."
+    },
+    {
+     "article": 1,
+     "text": "Industry sources, meanwhile, said SK Group Chairman Chey Tae-won also met with Altman in Seoul on the day, along with executives from SK hynix Inc. and SK Telecom Co."
+    },
+    {
+     "article": 1,
+     "text": "Pundits said Chey and Altman may have discussed cooperation in areas such as the supply of high-bandwidth memory (HBM) and AI data centers."
+    },
+    {
+     "article": 2,
+     "text": "Altman made the remark to Stripe co-founder John Collison on Collison’s podcast, Cheeky Pint, released on Thursday."
+    },
+    {
+     "article": 2,
+     "text": "“From a global allocation perspective, actually, it’s quite terrible to have everybody have a bunch of the world’s limited supply of DRAM sitting in their own computer and being used 5% of the time,” Altman said."
+    }
+   ]
+  },
+  {
+   "title": "OpenAI cuts funding round target to about $20bn as investors pull back",
+   "first_published_utc": "2026-10-31T11:38:52Z (TNW); TechCrunch 16:12:55Z; original FT report was Friday 30 Oct (time not seen), so the FIRST report is BEFORE the 04:45Z cutoff",
+   "after_cutoff": false,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": "No funding post. Related older posts: 2026-10-27-openai-gpt-6-1-terra (different topic)",
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Cited outlets are secondary (FT/WSJ paywalled, not fetched). Same-company risk with Samsung/Altman item (both OpenAI).",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI funding round target cut to $20bn as investors pull back",
+     "date": "2026-10-31T11:38:52Z",
+     "url": "https://thenextweb.com/news/openai-funding-round-20bn-target-cut-ft"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI reportedly lowers funding target for new round",
+     "date": "2026-10-31T16:12:55Z",
+     "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "OpenAI has cut the target for its latest funding round by $10bn, to about $20bn."
+    },
+    {
+     "article": 0,
+     "text": "The Financial Times reported the cut on Friday 30 October, citing people with knowledge of the matter. Some investors reduced their commitments as AI stocks sold off, according to the report."
+    },
+    {
+     "article": 0,
+     "text": "The round values OpenAI at $1.25tn. The company had first pitched $30bn at $1.4tn, then cut the valuation last week."
+    },
+    {
+     "article": 0,
+     "text": "Investors from the United Arab Emirates, including the state-backed fund MGX, will likely be the largest backers, according to the FT."
+    },
+    {
+     "article": 0,
+     "text": "OpenAI plans to list in 2027. It wants to close the round before Anthropic lists, because the two companies draw on similar investors, Reuters has reported."
+    },
+    {
+     "article": 0,
+     "text": "The Nasdaq fell 2.9% on Friday, Reuters reported. It now sits 7.8% below its record close on 6 October."
+    },
+    {
+     "article": 1,
+     "text": "A follow-up story in The Wall Street Journal offered more details, namely that the company has secured $11 billion so far, and that its fundraising efforts had met with a “tepid” response from some large investors."
+    },
+    {
+     "article": 1,
+     "text": "The round will be led by a group of investors from the United Arab Emirates, the FT said. A subsequent retail offering for wealthy individuals could bring the total funding amount to the $20 billion target."
+    }
+   ]
+  },
+  {
+   "title": "Nvidia in talks to guarantee debt for Nscale's West Virginia data centre that Anthropic plans to use",
+   "first_published_utc": "TC 2026-10-31T01:20Z and The Information 29 Oct; TNW 10:23:26Z. First report BEFORE cutoff",
+   "after_cutoff": false,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Secondary reporting (The Information, Bloomberg, FT, WSJ). Nscale is a UK AI cloud company.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Huang told Nscale to 'try less sleep'. Now Nvidia may back its debt",
+     "date": "2026-10-31T10:23:26Z",
+     "url": "https://thenextweb.com/news/nvidia-nscale-anthropic-data-centre-debt-guarantee"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Nvidia is in talks to guarantee billions of dollars of debt for Nscale, the UK AI cloud company. The money would build a West Virginia data centre that Anthropic plans to use."
+    },
+    {
+     "article": 0,
+     "text": "The deal is not signed, and its terms could still change."
+    },
+    {
+     "article": 0,
+     "text": "The guarantee would cover the value of the 460MW building itself, The Information reported."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic signed a $45bn compute deal in August to rent computing power from the first building on the campus. The deal is more than 40% of Nscale’s $103bn revenue backlog, the Financial Times reported on Friday."
+    },
+    {
+     "article": 0,
+     "text": "Nscale said in its IPO filings that it has not yet secured the money to build or equip the first building, the FT reported. Anthropic can walk away if that financing is not in place by a set deadline."
+    },
+    {
+     "article": 0,
+     "text": "Nscale is now leaning towards a December listing rather than November, the WSJ reported."
+    },
+    {
+     "article": 0,
+     "text": "Nscale made a net loss of $1bn on revenue of $141mn in the first half of 2026, the FT reported."
+    },
+    {
+     "article": 0,
+     "text": "In September, state regulators ordered construction to stop for three days after runoff from the site flooded neighbouring homes. Nscale has had 10 notices of violation for poor stormwater controls."
+    }
+   ]
+  },
+  {
+   "title": "Tampered Claude Code extension in Cursor's marketplace reached up to 5,000 users",
+   "first_published_utc": "Incident 29-30 Oct (Cursor notice 30 Oct); TNW 2026-10-31T11:27:53Z. First report BEFORE cutoff",
+   "after_cutoff": false,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": "Related but different: 2026-10-26-claude-code-tv-ads",
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Ars Technica original blocked (403); TNW cites Cursor, Anthropic, Phorion and Ars. Note TNW says Cursor was acquired by SpaceX; check before use.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Tampered Claude Code extension hit up to 5,000 Cursor users",
+     "date": "2026-10-31T11:27:53Z",
+     "url": "https://thenextweb.com/news/tampered-claude-code-extension-cursor-ssh-backdoor"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "A tampered copy of Anthropic’s Claude Code extension sat in Cursor’s extension marketplace for about 11 hours on Thursday 29 October. It reached up to 5,000 users."
+    },
+    {
+     "article": 0,
+     "text": "The malicious versions tried to plant an SSH backdoor on developers’ machines, Cursor said in a security notice."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic says nobody breached its own systems."
+    },
+    {
+     "article": 0,
+     "text": "The affected versions were 2.1.312 and 2.1.313 for Windows and macOS."
+    },
+    {
+     "article": 0,
+     "text": "Cursor removed the versions and shut its whole marketplace while it checked the other extensions. It then rotated its keys and reopened it."
+    },
+    {
+     "article": 0,
+     "text": "Cursor has told users to move to a clean version, 2.1.314."
+    },
+    {
+     "article": 0,
+     "text": "The malware also sent the names of up to 40 environment variables matching keys, tokens and secrets, but not their values, Phorion found."
+    },
+    {
+     "article": 0,
+     "text": "We’re working with Cursor on this incident, but it wasn’t a compromise of Anthropic’s systems or employee laptops. (Felix Rieseberg of Anthropic, quoted in the article)"
+    }
+   ]
+  },
+  {
+   "title": "WIRED: a contractor's Claude Code agent ran on a Pentagon network for two months",
+   "first_published_utc": "WIRED Thu 29 Oct; TNW 2026-10-31T11:15:07Z. First report BEFORE cutoff",
+   "after_cutoff": false,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Allegations, Accenture denies; TNW did not verify. WIRED original not fetched. Brand-safety sensitive.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Accenture contractor's Claude agent ran on a Pentagon network",
+     "date": "2026-10-31T11:15:07Z",
+     "url": "https://thenextweb.com/news/accenture-contractor-claude-agent-pentagon-network-wired"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "An Accenture contractor connected a sensitive Pentagon system to their personal Claude Code account. The AI agent then ran on a Defense Department network for two months, Vittoria Elliott reported for WIRED on Thursday 29 October, citing sources."
+    },
+    {
+     "article": 0,
+     "text": "The agent appears to have sent login credentials and a network map to a high-risk website, the report says."
+    },
+    {
+     "article": 0,
+     "text": "Accenture denied wrongdoing. TNW has not independently verified the report."
+    },
+    {
+     "article": 0,
+     "text": "“These allegations were thoroughly and independently investigated and found to be without merit. We fully complied with our legal and contractual obligations,” an Accenture spokesperson told WIRED."
+    },
+    {
+     "article": 0,
+     "text": "Defense Department staff and federal contractors must report cybersecurity incidents within 72 hours. Accenture did not first report this one to the government at all, WIRED’s sources said."
+    },
+    {
+     "article": 0,
+     "text": "There is no sign that hackers reached a classified system, WIRED reported."
+    },
+    {
+     "article": 0,
+     "text": "Accenture holds more than $3.5bn in federal contracts, nearly $605m of them with the Pentagon, according to WIRED."
+    }
+   ]
+  },
+  {
+   "title": "Chinese chipmaker Iluvatar CoreX says its Tiangai 300 GPU matches or beats Nvidia's H200 on some AI tasks",
+   "first_published_utc": "AI Times 2026-10-31T08:01:47Z (17:01 KST); based on SCMP piece from ~29-30 Oct (SCMP blocked 403, URL https://www.scmp.com/tech/tech-war/article/3372598/...). First report BEFORE cutoff",
+   "after_cutoff": false,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": "Related older: 2026-10-23-china-nvidia-35b",
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Original SCMP unreadable; fact text is Korean from AI Times, which cites SCMP. Vendor claims, not independently verified.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "중국 GPU, 엔비디아 H200과 성능 대등 주장…AI 추론서 일부 앞서",
+     "date": "2026-10-31T17:01:47+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216844"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "중국 AI 칩 제조업체 일루바타르 코어엑스(Iluvatar CoreX)가 자체 개발한 GPU ‘톨가이 300(Tiangai 300)’이 엔비디아의 ‘H200’과 대등하거나 일부 AI 작업에서 앞서는 성능을 보였다고 밝혔다."
+    },
+    {
+     "article": 0,
+     "text": "텐스트-이미지 생성 테스트에서 톨가이 300은 작업 완료율 100%, 초당 이미지 생성량 0.101장을 기록했다. H200은 완료율 87.5%, 초당 0.086장을 기록했다."
+    },
+    {
+     "article": 0,
+     "text": "다만 작업을 완료하는 데 걸린 시간은 톨가이 300이 H200보다 0.64초 더 길었다."
+    },
+    {
+     "article": 0,
+     "text": "올해 7월 공개된 톨가이 300은 ... 테스트에서 H200보다 1.05배 높은 GPU당 처리량을 기록했다. (Shanghai INESA third-party test)"
+    },
+    {
+     "article": 0,
+     "text": "이는 입력 처리와 결과 생성을 분리한 특정 AI 추론 환경에서 측정한 수치로, GPU의 모든 연산 성능에서 H200을 앞서는 의미는 아니다."
+    },
+    {
+     "article": 0,
+     "text": "알리바바의 오픈소스 모델 ‘큐원3-32B’를 미세 조정하는 작업에서 엔비디아의 H100보다 1.33배 높은 실효 처리량을 기록했다."
+    },
+    {
+     "article": 0,
+     "text": "이번 성능 수치는 일루바타르와 중국 매체가 공개한 테스트 결과를 바탕으로 한 것으로, 다양한 환경에서의 독립적 검증이 추가로 필요하다."
+    }
+   ]
+  },
+  {
+   "title": "OpenAI community safety report: ChatGPT limits weapons information for teens, ends chats showing violent fixation",
+   "first_published_utc": "OpenAI post Fri 30 Oct 09:00Z (feed); AI Times 2026-10-31T08:09:05Z. First report BEFORE cutoff",
+   "after_cutoff": false,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "OpenAI page returned 403; facts from AI Times (Korean), which cites OpenAI's report. Same-company risk with other OpenAI items.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "오픈AI, 청소년 챗GPT 무기 정보 제한...폭력 징후 때 대화 중단",
+     "date": "2026-10-31T17:09:05+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216847"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "오픈AI가 청소년의 폭력 행위를 예방하기 위해 챗GPT에서 무기 관련 정보 제공을 제한한다."
+    },
+    {
+     "article": 0,
+     "text": "오픈AI는 30일(현지시간) 커뮤니티 안전 보고서를 발표하고 이 같은 내용을 담은 새로운 청소년 보호 조치를 공개했다."
+    },
+    {
+     "article": 0,
+     "text": "2026년 3분기 동안 200건 이상의 위협 사례를 사법기관에 신고했고, 향후 반기별 안전 보고서를 정례 발행하겠다고 밝혔다."
+    },
+    {
+     "article": 0,
+     "text": "폭력에 대한 집착이 감지되면 대화를 자동으로 종료하고, 반복될 경우 계정을 일시 정지하는 조치도 도입한다."
+    },
+    {
+     "article": 0,
+     "text": "청소년 계정이 폭력 관련 대화를 반복해 정지될 경우 부모에게도 이를 알릴 계획이다."
+    },
+    {
+     "article": 0,
+     "text": "사용자의 연령을 추정해 18세 미만으로 판단하면 청소년용 챗GPT 환경으로 자동 전환하도록 했다."
+    },
+    {
+     "article": 0,
+     "text": "이번 조치는 앞으로 몇 주에 걸쳐 차례로 적용된다."
+    },
+    {
+     "article": 0,
+     "text": "비영리단체 커먼 센스 미디어가 ... 청소년용 챗GPT의 보호 기능에 한계가 있다고 지적했다."
+    }
+   ]
+  }
+ ]
+}
