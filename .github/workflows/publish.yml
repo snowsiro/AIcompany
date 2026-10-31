@@ -4,9 +4,11 @@ name: publish
 # Two slots a day, 13:57 and 20:57 Vienna (turned on 2026-10-20 by Jamie; the second slot moved from 19:57 to 20:57 on
 # 2026-10-30 with the evening run), and it can also be run by hand.
 # GitHub starts scheduled runs late or not at all (on 2026-10-26 the 13:57 run came six hours late), so instead of one
-# run per slot there is a tick every 30 minutes around each slot. "Pick post" posts only inside a window: from the slot
-# to 90 minutes after it. The 3-hour guard keeps that to one post per slot however many ticks land in the window,
-# so no one has to start this workflow by hand at each slot any more (2026-10-27).
+# run per slot there is a tick every 30 minutes through the afternoon and evening. "Pick post" posts only inside a
+# window: 13:57 to 19:57 and 20:57 to midnight, Vienna time. The windows were 90 minutes until 2026-10-31, when late
+# ticks had left the 10/30 and 10/31 slots empty; Jamie chose to post late the same day rather than miss a slot.
+# The 3-hour guard keeps that to one post per slot however many ticks land in a window. Claude's backup task also
+# starts this workflow by hand at 13:57 and 20:57; a manual run ignores the windows.
 # Sundays at 09:57 Vienna there is a third slot for the weekly roundup (PRD 2026-10-26), open until noon. It posts only
 # that Sunday's posts/<date>-weekly and records it as "weekly: ", so it has its own 3-hour guard and never holds back
 # the 13:57 post.
@@ -23,12 +25,10 @@ on:
         type: boolean
         required: false
         default: false
-  # Ticks at :27 and :57 (not on the hour, which GitHub delays most). Cron runs in UTC, so each line spans the UTC hours
-  # of its slot in both summer (UTC+2) and winter (UTC+1); "Pick post" works out the Vienna time and ignores the rest.
-  # Each slot gets three ticks inside its window in either season.
+  # Ticks at :27 and :57 (not on the hour, which GitHub delays most). Cron runs in UTC, so the line spans the UTC hours
+  # of both windows in summer (UTC+2) and winter (UTC+1); "Pick post" works out the Vienna time and ignores the rest.
   schedule:
-    - cron: "27,57 11-13 * * *"   # 13:57 Vienna slot
-    - cron: "27,57 18-20 * * *"   # 20:57 Vienna slot
+    - cron: "27,57 11-22 * * *"   # 13:57-19:57 and 20:57-24:00 Vienna windows
     - cron: "27,57 7-10 * * 0"    # Sunday 09:57 Vienna, weekly roundup (window until noon)
 
 permissions:
@@ -69,7 +69,7 @@ jobs:
             in_window() { [ "$m" -ge "$1" ] && [ "$m" -lt "$2" ]; }
             if [ "$dow" = 7 ] && in_window $((9 * 60 + 57)) $((12 * 60)); then
               weekly_slot=yes
-            elif in_window $((13 * 60 + 57)) $((13 * 60 + 57 + 90)) || in_window $((20 * 60 + 57)) $((20 * 60 + 57 + 90)); then
+            elif in_window $((13 * 60 + 57)) $((19 * 60 + 57)) || in_window $((20 * 60 + 57)) $((24 * 60)); then
               :
             else
               echo "${hm:0:2}:${hm:2:2} Vienna is outside the posting windows, skipping"; echo "dir=" >> "$GITHUB_OUTPUT"; exit 0
