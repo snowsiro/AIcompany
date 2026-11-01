@@ -4,6 +4,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { parts } from "./caption.mjs";
+import { scorePost, FLOOR } from "./hookscore.mjs";
 
 const POSTS = resolve(import.meta.dirname, "..", "posts");
 
@@ -118,6 +119,13 @@ function lint(post) {
     const first = (post.caption || "").split("\n")[0].toLowerCase();
     const named = tags.filter(t => !BROAD_TAGS.includes(t.toLowerCase())).some(t => first.includes(t.slice(1).toLowerCase()));
     req(named, "caption's first line must name the story's subject: include a word from a specific hashtag (e.g. DeepSeek for #DeepSeek)");
+  }
+
+  // hook floor (PRD 2026-11-01, Jamie chose 45): drop clearly weak cover options (no number, no name, nothing at stake)
+  // before hook-judge sees them. A floor only: it does not pick the best hook. From 2026-11-02.
+  if ((post.date || post.id || "") >= "2026-11-02") {
+    for (const r of scorePost(post)) req(r.pass,
+      `hook option ${r.option} "${r.hook}" scores ${r.score} (< ${FLOOR}); weakest ${r.weakest}: ${r.checks[r.weakest].detail}. Rewrite or replace it (scripts/hookscore.mjs)`);
   }
 
   if (weekly) lintWeekly(post, req);

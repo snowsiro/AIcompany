@@ -15,6 +15,9 @@ Read `CLAUDE.md`, `DESIGN.md`, the brief, and one finished post in `posts/` as t
   to `hook_pick_reason` that starts "No reader-impact hook:" and gives the reason; lint accepts that instead (2026-10-28).
   Max 16 characters per line. Exactly one `**emphasis**`. Pick the strongest one the slides fully support as `cover.headline`
   and say why in `hook_pick_reason`. The reader-impact hook wins only when it is actually the strongest.
+  Lint scores every option with `scripts/hookscore.mjs` (length, a number or name, something at stake, payload up front,
+  reader address) and fails any under 45. Rewrite a failing option or replace it; run `node scripts/hookscore.mjs posts/<id>`
+  to see why. The score is only a floor: it does not decide which option is best, hook-judge does.
 - `cover.hook_types`: the pattern of each option, same order as `hook_options`. `cover.hook_type`: the pattern of the headline.
 - `cover.tag`: `<REGION> AI · <CATEGORY>` from the brief (regions are listed in DESIGN.md).
 - `cover.image_prompt`: a cinematic scene for the top 60% of the frame. Must include "No text, no letters, no logos, no people."
