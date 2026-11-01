@@ -110,6 +110,10 @@
   .slide .srcs.item p { font-size: 24px; color: var(--muted); }
   .slide .srcs.item p + p { margin-top: 10px; }
   .end .note { margin-top: 36px; font-size: 30px; color: var(--muted); }
+  /* weekly roundup only: the newsletter that carries the same digest */
+  .mail { display: flex; align-items: center; gap: 22px; margin-top: 28px; padding: 30px 40px; border: 2px dashed var(--line); border-radius: 32px; }
+  .mail .t { font-weight: 800; font-size: 36px; line-height: 1.15; }
+  .mail .t span { display: block; font-weight: 600; font-size: 28px; color: var(--muted); margin-top: 6px; }
 </style>
 </head>
 <body>
@@ -129,6 +133,7 @@
   const DOC_ICON = `<svg viewBox="0 0 40 40" fill="none" stroke="#FFD23F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h15l7 7v25H9z"/><path d="M24 4v7h7"/><path d="M14 20h12M14 26h12M14 32h7"/></svg>`;
   const SAVE_ICON = `<svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#9A9AA2" stroke-width="2.6" stroke-linejoin="round"><path d="M7 4h16v22l-8-6-8 6z"/></svg>`;
   const SHARE_ICON = `<svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#9A9AA2" stroke-width="2.6" stroke-linejoin="round"><path d="M27 3 3 13l10 4 4 10z"/><path d="M27 3 13 17"/></svg>`;
+  const MAIL_ICON = `<svg width="34" height="34" viewBox="0 0 30 30" fill="none" stroke="#FFD23F" stroke-width="2.6" stroke-linejoin="round"><rect x="3" y="6" width="24" height="18" rx="3"/><path d="M4 8l11 8 11-8"/></svg>`;
   const PLUS_ICON = `<svg width="22" height="22" viewBox="0 0 22 22" stroke="#0A0A0C" stroke-width="3.4" stroke-linecap="round"><path d="M11 3v16M3 11h16"/></svg>`;
 
   function srcLine(s) {
@@ -172,8 +177,10 @@
               <div class="line">${handle}</div>
               <div class="btn">${PLUS_ICON}Follow</div>
             </div>
-            <div class="actions"><span>${SAVE_ICON}Save for later</span><span>${SHARE_ICON}Share with a friend</span></div>
-            ${weekly ? `<p class="note">Sources are on each card.</p>` : ""}
+            ${weekly
+              ? `<div class="mail">${MAIL_ICON}<div class="t">Get this roundup by email every Sunday.<span>Free weekly digest: link in bio</span></div></div>
+            <p class="note">Sources are on each card.</p>`
+              : `<div class="actions"><span>${SAVE_ICON}Save for later</span><span>${SHARE_ICON}Share with a friend</span></div>`}
           </div>
           ${weekly ? "" : `<div class="srcs"><div class="lab">Source${post.sources.length > 1 ? "s" : ""}</div>${srcs}</div>`}
           <div class="footer"><span>${handle}</span><span class="dots">${dots(index, total)}</span></div>
