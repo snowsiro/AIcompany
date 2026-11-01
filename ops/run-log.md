@@ -2,6 +2,22 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-01
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 참고: 슬라이드 4의 "₩18.74T, about $14B"는 기사에 달러 값이 없어 기사의 환율(₩10.7T = $8B)로 계산한 값. Korea Herald는 이 한도가 $9B 투자 한도 전제라고 하므로 마음에 안 들면 슬라이드 4 달러 표기 삭제
+2. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버를 생성함 (이전 런과 동일)
+3. 단일 글 출처 2곳 (The Korea Herald, Digital Today). Korea Times 원문은 읽기 실패
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음 (아침 글 robots-ai-optout, 주간 모음 모두 published)
+- 후보 13개 (새 이야기 6, 아침에서 이월 7). 처음 나온 시각(UTC) 기록
+- 주제: KB Kookmin Bank, Naver Cloud용 Brookfield GPU 프로젝트에 ₩10.7T (약 $8B) 대출 주관 (한국, ECONOMY). 8점 (전 세계 3 + 숫자 2 + 한국 3, 신선도 0)
+  - 첫 보도 05:20 UTC (The Korea Herald), 런 시작 18:15 UTC 기준 약 13시간 전이라 신선도 보너스 없음. ready 시각 약 19:35 Vienna, 기사 나이 약 14시간
+  - 아침 글(robots.txt, The Next Web)과 다른 회사, 다른 매체
+  - 예비 주제 2건을 `posts/_backlog/`에 추가: Salesforce-Rune, HD Hyundai Robotics-Palantir
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6: 아침 2 + 저녁 2). 사람·글자 없음
+- 검수 1차: fact-checker 불합격 ("largest-ever"가 기사 표현과 다름, 캡션 출처에 기사 제목 없음, ₩18.74T 달러 표기 없음), hook-judge 통과 7/10, brand-safety 통과. writer 수정 후 2차 전원 통과. 되돌림 1회
+
 ## [아침 보고] 2026-11-01
 처리 1건 (ready 1) + 주간 모음 1건 (ready) · 실패 0건
 성과: 어제(10/31) 도달 2 · 팔로워 1 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 cohere-qwen-phone-home (9)
