@@ -1,26 +1,26 @@
 {
- "fetched_at": "2026-11-01T04:46:32.409Z",
+ "fetched_at": "2026-11-01T10:21:32.731Z",
  "hours": 48,
  "accounts": [
   {
    "username": "ai.trend.kr",
-   "followers": 267830,
+   "followers": 267929,
    "ok": true,
    "posts": [
     {
      "timestamp": "2026-11-01T01:01:31+0000",
      "url": "https://www.instagram.com/p/DfLgRIPjxxY/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 539,
-     "comments": 104,
+     "likes": 877,
+     "comments": 179,
      "caption_start": "이번 주 AI, 내 노트북부터 공부법까지 바꿨어요 🚀 엔비디아 AI 칩을 넣은 첫 노트북이 나왔고, 챗GPT는 유료 사용량 한도를 2배로 늘렸어요. 전 세계 웹사이트 열에 일곱이 쓰는 PHP에선 치명적인 보안 구멍이 발견됐습니다. AI가 쓴 글을 잡아내는 AI, 회사가 다른 AI끼리 팀을 짜는 도구까지 놓치기 아까운 소식이 가득합니다. 한 주간의 AI 소식이 더 궁금하다면 댓글에 ‘에트’ 남겨주세요. 이번 주 핵심 소식과 모든 자료 정리본 바로 보내드릴게요. Editor ・ kiki Period"
     },
     {
      "timestamp": "2026-10-31T09:50:08+0000",
      "url": "https://www.instagram.com/p/DfJ39--j2a-/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 163,
-     "comments": 71,
+     "likes": 196,
+     "comments": 84,
      "caption_start": "클로드에 힉스필드라는 편집자가 붙으면? 🎬 둘을 MCP로 연결하고, 내 영상을 올린 뒤 명령어 한 줄만 치면 됩니다. 화면이 멈추며 이름표가 붙고, 말하는 순서대로 티어표가 채워지죠. 비포·애프터 카드는 머리 양옆에 뜨고, 핵심 단어는 머리 뒤로 크게 깔립니다. 숫자를 말하면 유리 그래프가 올라오는 것까지, 다섯 가지 효과를 영상 하나에 넣어 봤어요. 말소리를 받아써서 타이밍까지 맞춰 주는 셈이에요. 신규 사용자는 3일 무료 체험도 할 수 있고요. 명령어 전체와 연결 방법은 댓글에 ‘모션’을 남"
     },
     {
@@ -35,8 +35,8 @@
      "timestamp": "2026-10-31T01:04:41+0000",
      "url": "https://www.instagram.com/p/DfI71Zpj1kK/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 1052,
-     "comments": 147,
+     "likes": 1087,
+     "comments": 154,
      "caption_start": "요즘 법당엔 빈 방석이 없대요. 🙏 집 근처에 절이 없던 한 문과생 취준생이 폰으로 들어가는 온라인 절 ‘산사’를 만들었는데요. 방석 20개로 시작한 법당에 하루 만에 1만 2천 명이 몰려 서버가 터졌고, 다음 날엔 하루 10만 명이 다녀갔어요. 이번 주말 안에 앱스토어 출시도 가능할 것 같다고 하네요. 산사에 영감을 받은 온라인 성당 ‘인피스’는 촛불 근처가 붐벼 2층을 증축하는 중이고, 클로드로 만든 온라인 교회 ‘새벽 예배당’엔 주여 삼창 버튼까지 생겼습니다. 개발을 몰라도 AI로 하루 만"
     },
     {
@@ -44,7 +44,7 @@
      "url": "https://www.instagram.com/reel/DfHmTUGvWGg/",
      "type": "VIDEO",
      "likes": null,
-     "comments": 21,
+     "comments": 23,
      "caption_start": "영상 워크플로 보내드릴게요. 댓글에 ’할로윈‘ 남겨주세요 📩 이 원테이크 메이크업 영상, 카메라 없이 만들었다면 믿으시겠어요? Newtake(newtake_korea)의 디렉터 스튜디오로 만들었습니다. 피부 결부터 조명, 손끝 동작까지 실제 뷰티 광고 촬영본처럼 이어지거든요. 방법은 단순해요. 쌩얼과 완성 룩을 먼저 정해두고, 그 사이 메이크업 과정을 GPT나 클로드에게 장면별 프롬프트로 받아 뉴테이크에 넣으면 끝이에요. 모델도, 세트도, 촬영팀도 없이 광고 한 편이 나오는 셈이죠. 이번 주말,"
     },
     {
@@ -52,22 +52,14 @@
      "url": "https://www.instagram.com/p/DfHeqx3j_zV/",
      "type": "CAROUSEL_ALBUM",
      "likes": null,
-     "comments": 76,
+     "comments": 78,
      "caption_start": "20개국 AI 기업이 모이는 행사, 노트북 하나로 갈 수 있다면요? 🌏 ZEP이 여는 글로벌 AI 비즈니스 밋업 ’AI Beyond 2026‘이 11월 5일과 6일, 이틀간 온라인에서 열려요. 실리콘밸리 기업을 비롯해 20여 개국 기업이 참여합니다. 행사장은 ZEP 온라인 공간에 꾸려져요. AI 에이전트·데이터·리스킬링 트랙별 부스에서 글로벌 기업의 활용 사례를 볼 수 있고, 세션은 기업용 B2B와 개인용 B2C 트랙으로 나뉩니다. 해외 연사 발표엔 실시간 동시통역도 지원돼요. 다만 누구나 바로"
-    },
-    {
-     "timestamp": "2026-10-30T07:42:40+0000",
-     "url": "https://www.instagram.com/p/DfHElc3D1is/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 139,
-     "comments": 68,
-     "caption_start": "강아지 할로윈 코스튬, 이모지 하나로 끝 🎃 강아지 사진을 챗GPT에 올리고 /🎃 하나 보냈더니, 우리 집 바닥 그대로 호박 옷 입은 사진이 나왔어요. 이모지만 바꾸면 마녀, 유령, 거미, 사탕 바구니까지 코스튬이 바뀝니다. 코스튬을 따로 사지 않아도, 배경과 표정은 그대로 두고 옷만 감쪽같이 입혀줘요. 할로윈 사진 아직 못 찍으셨다면 오늘 한 장으로 끝내보세요. 이모지별 프롬프트와 배경이 바뀔 때 쓰는 수정 문장까지 한 페이지에 정리했어요. 필요하시다면 댓글로 '할로윈' 남겨주세요. DM으로"
     }
    ]
   },
   {
    "username": "sdk.kim.builds",
-   "followers": 60260,
+   "followers": 60317,
    "ok": true,
    "posts": [
     {
@@ -77,84 +69,76 @@
      "likes": 10,
      "comments": 6,
      "caption_start": "#광고 같은 소스 하나로 광고 세 개 🎬 캡컷 PC에 제품 사진 한 장 넣고 마케팅 스킬만 바꿨더니 미니멀·언박싱·와이어프레임 세 가지 버전이 나왔어요. 편집이랑 사이즈 변경까지 앱 하나로 끝. 댓글에 'PC' 남기시면 링크 DM으로 보내드릴게요! #CapCutPC #CapCutDidThat #capcutmarketing #SmallBusinessMarketing #AIMarketing #ContentCreation"
-    },
-    {
-     "timestamp": "2026-10-30T09:31:31+0000",
-     "url": "https://www.instagram.com/reel/DfHQ_7wFH61/",
-     "type": "VIDEO",
-     "likes": 13,
-     "comments": 8,
-     "caption_start": "#광고 편집 앱 안 켜고 만든 영상 효과예요. 클로드한테 명령어 한 줄 쳤어요. 머리 뒤 글자, 조회수 그래프, 티어표, 전후 비교까지 클로드에 힉스필드만 연결하면 대화창에서 바로 영상에 입혀져요. 처음 쓰시면 3일 무료예요. 댓글에 '클로드' 남겨주시면 명령어 전체 목록이랑 세팅 링크 DM으로 보내드릴게요 📩 higgsfield.ai #HiggsfieldCreator #ai입문 #클로드 #ai도구 #ai꿀팁 #낭만빌더"
-    },
-    {
-     "timestamp": "2026-10-30T08:04:03+0000",
-     "url": "https://www.instagram.com/reel/DfHG9DHDBgw/",
-     "type": "VIDEO",
-     "likes": 11,
-     "comments": 20,
-     "caption_start": "20분짜리 회의 끝나고 2분도 안 돼서, 노션에 할 일 다섯 개가 올라와 있어요. 저는 녹음 버튼 하나 눌렀을 뿐이에요. ━━━━━━━━━━━━━━━━ ① 제가 만든 회의록 앱, 렘이에요 → 요약도 줘요 → 근데 요약은 다시 열어본 적이 없어요 ② 회의 끝나고 필요한 건 하나 → 이제 뭘 해야 하는지 → 그래서 렘은 할 일부터 뽑아서 노션에 넣어요 ③ 팀으로 쓰면 → 주간회의로 해두면 막힌 점은 따로 모아두고 → 팀원이 노션에서 체크하면 앱에서도 완료로 바뀌고 → 슬랙에 연결하면 팀 채널에도 같이"
     }
    ]
   },
   {
    "username": "moodmode.ai",
-   "followers": 156240,
+   "followers": 156397,
    "ok": true,
    "posts": [
+    {
+     "timestamp": "2026-11-01T06:59:43+0000",
+     "url": "https://www.instagram.com/p/DfMJQrICdoG/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 127,
+     "comments": 37,
+     "caption_start": "AI로 뭘 만들어야 모르겠다면? 투자사가 답안을 적어줬습니다.. 에어비앤비와 스트라이프를 키운 와이콤비네이터(YC)가 홈페이지에 ’Requests for Startups‘를 올렸어요. 이런 회사를 만들면 투자하고 싶다는 목록입니다. 2027년 겨울 기수 목록은 11개인데, 그중 10개를 골라 쉽게 풀었습니다. YC는 이번 목록 첫머리에 AI의 병목이 이제 모델 밖으로 옮겨 갔다고 적었어요. 그래서 목록에 AI 앱만 있지 않습니다. 변압기, 로봇 자석, 시청 허가 업무, 우주 발사까지 들어가 있어요"
+    },
     {
      "timestamp": "2026-10-31T07:11:41+0000",
      "url": "https://www.instagram.com/p/DfJl1bvkQqH/",
      "type": "CAROUSEL_ALBUM",
      "likes": null,
-     "comments": 78,
+     "comments": 83,
      "caption_start": "이제 곧 편집 프로그램도 필요 없어질겁니다. #광고 클로드에 힉스필드(Higgsfield) MCP를 연결하면 대화창에 명령어 한 줄 치는 걸로 영상 편집이 끝납니다. 영상에서 툴 이름을 부르면 티어표가 로고까지 붙어서 채워지고(/tier-list), 핵심 단어는 머리 뒤에 큼직하게 깔리고(/text-behind), 숫자를 말하면 유리 그래프가 턱 아래로 올라옵니다(/glass-graph). 주제가 바뀌는 순간 화면을 멈추고 사람만 컬러로 남기는 것도 /freeze-frame 한 줄이에요. 힉스필드"
     },
     {
      "timestamp": "2026-10-31T02:29:41+0000",
      "url": "https://www.instagram.com/p/DfJFj_jCTqL/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 432,
-     "comments": 1539,
+     "likes": 472,
+     "comments": 1721,
      "caption_start": "마케팅 심리 효과 70개 한 번에 받아가세요! 구독형 마케팅 대행사를 운영하는 코리 헤인스가 앵커링, 손실회피, 희소성 같은 마케팅 심리 효과 70개를 클로드 스킬 하나로 묶어 무료로 풀었어요. 상세페이지 캡처를 넣으면 고칠 곳을 짚어 주고, 가격표도 심리학으로 다시 짜서 바꿀 문장과 숫자까지 같이 제안합니다. 검은 창 없이 클로드에 파일 하나만 올리면 끝이에요. ※ 희소성, 마감 문구는 진짜로 그럴 때만 쓰라는 게 이 스킬의 원칙이에요. 아무 댓글이나 남겨주시면 스킬 파일 받는 곳이랑 설치 순서"
-    },
-    {
-     "timestamp": "2026-10-30T08:25:03+0000",
-     "url": "https://www.instagram.com/p/DfHJb9Rkd69/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 106,
-     "comments": 4,
-     "caption_start": "#광고 성수에 제미나이 대학교가 생겼다? 🎓 ootb의 웹예능 전과자와 구글 제미나이가 준비한 ‘스낵이 제미나이 캠퍼스’에 다녀왔습니다! 입구에서 NFC로 모바일 학생증 ‘스낵증’을 발급받고, 수업과 미션을 체험하면서 학점을 모아 졸업하는 팝업이에요. 경영학과 수업에서는 Google Gemini의 Deep Research로 자료를 조사하고 정리하는 과정을 체험할 수 있고, 하트라운지에서는 나에게 맞는 연애 스타일이나 데이트 코스 아이디어를 살펴볼 수 있습니다. 동아리 부스에서는 공부와 커리어 준"
-    },
-    {
-     "timestamp": "2026-10-30T06:24:32+0000",
-     "url": "https://www.instagram.com/reel/DfG7klpRYOH/",
-     "type": "VIDEO",
-     "likes": 118,
-     "comments": 4,
-     "caption_start": "공사장에 온 침팬치들, 효율 미쳤습니다.. 비계 위에서 철근 나르고, 보도블록 깔고, 수레까지 미는 인부들 전부 AI로 만든 침팬지예요. 저도 처음엔 그냥 공사 현장 영상인 줄 알고 넘기려다가 다시 돌려봤어요. 사람 인부들 사이에 자연스럽게 섞여 있고, 안전모에 형광 조끼까지 제대로 챙겨 입은 게 포인트입니다. 이제 영상만 보고 진짜인지 구분하기가 점점 어려워지고 있어요. 여러분은 몇 초 만에 눈치채셨나요? 댓글로 알려주세요 👀 Original by pabloprompt Created by mo"
     }
    ]
   },
   {
    "username": "trenddalkak.ai",
-   "followers": 65872,
+   "followers": 65908,
    "ok": true,
    "posts": [
+    {
+     "timestamp": "2026-11-01T08:14:05+0000",
+     "url": "https://www.instagram.com/reel/DfMRPeWgZ2W/",
+     "type": "VIDEO",
+     "likes": 8,
+     "comments": 0,
+     "caption_start": "OpenAI가 던진 질문 “당신은 어떤 미래를 만들 건가요?” OpenAI가 공식 계정에 한 편의 애니메이션 영상을 공개했습니다. 영상의 제목은 ‘THE MUSEUM OF WHAT COULD BE’(가능성의 박물관). 눈부시게 피어나는 꽃부터 미래 도시, 새로운 기술과 자연이 공존하는 세상까지. 영상은 우리가 상상할 수 있는 다양한 미래의 모습을 보여줍니다. 화려한 영상 속에 담긴 것은 단순한 낙관이나 홍보가 아닙니다. 우리가 지금 이 순간에도 선택하고, 외면하고, 만들어가는 방향에 대한 묵직한 "
+    },
     {
      "timestamp": "2026-10-31T09:17:11+0000",
      "url": "https://www.instagram.com/p/DfJ0MklFGSK/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 408,
-     "comments": 375,
+     "likes": 516,
+     "comments": 444,
      "caption_start": "학생들에게 꽤 유용한 기능이 추가되었습니다. 구글의 Notebook에서 수백 권의 교과서를 무료로 이용할 수 있게 됐습니다. 10/29 Gemini Notebook에 오픈 교재 수백 권이 무료로 추가됐어요. 8월에 유료 도서 연동(Expert Intelligence)이 먼저 열렸는데, 이번엔 무료 교재까지 확장된 거예요. 처음엔 \"또 PDF 올리는 거 아냐?\" 했는데, 직접 써보니 방식이 꽤 달랐습니다. 📖 OpenStax, Open Textbook Library, S Chand Publishi"
     }
    ]
   },
   {
    "username": "prompt_what",
-   "followers": 237279,
+   "followers": 237389,
    "ok": true,
    "posts": [
+    {
+     "timestamp": "2026-11-01T08:46:59+0000",
+     "url": "https://www.instagram.com/reel/DfMVckxSCTa/",
+     "type": "VIDEO",
+     "likes": 8,
+     "comments": 2,
+     "caption_start": "앱 링크와 스크린샷만 넣으면 출시 영상이 만들어집니다 🎬 openart_ai 의 Launch Video 기능인데 앱 이름과 로고, 화면 캡처, 한 줄 설명을 넣고 버튼을 누르면 에이전트가 화면을 읽고 장면별 대본부터 짜서 보여 줘요. 대본은 직접 고칠 수 있고, 확인하면 비트에 맞춘 음악과 글자 모션까지 붙여 영상으로 뽑아 줍니다. 앱이나 웹 서비스는 물론 피치덱, 마케팅 이미지만 있어도 시작할 수 있는데 영상 맨 앞 트레일러는 OpenArt 자체를 소개해 달라고 맡겨서 나온 결과물이에요. 써 "
+    },
     {
      "timestamp": "2026-10-31T22:22:00+0000",
      "url": "https://www.instagram.com/reel/DfLN7JkzdkT/",
@@ -167,100 +151,68 @@
      "timestamp": "2026-10-31T11:49:10+0000",
      "url": "https://www.instagram.com/p/DfKFl0uFK_M/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 274,
-     "comments": 9,
+     "likes": 295,
+     "comments": 10,
      "caption_start": "Claude Max 20x가 Ultra로 바뀌고 5시간 제한이 사라졌습니다 ⏳ 앤트로픽이 개인 유료 요금제 이름을 정리했는데 월 100달러 Max 5x는 Max로, 월 200달러 Max 20x는 Ultra로 바뀌었어요. 가격은 그대로라 기존 구독자는 따로 할 일이 없습니다. 인증을 마친 Ultra 계정은 5시간 사용 제한 없이 쓸 수 있고요 가입한 지 얼마 안 된 계정은 인증 전까지 임시 제한이 남는데, 제한이 풀리면 이메일로 알려준다고 합니다. 다만 주간 한도는 그대로라 Ultra도 일주일에 P"
     },
     {
      "timestamp": "2026-10-31T00:06:21+0000",
      "url": "https://www.instagram.com/p/DfI1KNMk--9/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 1739,
-     "comments": 292,
+     "likes": 1849,
+     "comments": 311,
      "caption_start": "번아웃 직장인을 위한 온라인 절이 등장했는데 하루 10만 명이 몰렸습니다 🏮 10월 27일 개발자 메타몽이 공개한 ’산사‘는 설치나 회원가입 없이 링크 하나로 입장하는 온라인 법당이고, 귀여운 동자승 캐릭터로 같은 서버 사람들과 법당을 함께 써요. 합장 버튼을 누르면 다른 사람 화면에도 인사 알림이 뜨고 절하기를 누르면 멈출 때까지 계속 절을 올리며, 108알 염주는 알을 하나씩 굴릴 때마다 숫자로 기록됩니다. 매일 새벽 5시와 오후 6시에는 공동 예불이 열리고 100개 서버 중 원하는 곳을 골"
     },
     {
      "timestamp": "2026-10-30T12:16:14+0000",
      "url": "https://www.instagram.com/reel/DfHj0V3yH04/",
      "type": "VIDEO",
-     "likes": 149,
-     "comments": 128,
+     "likes": 154,
+     "comments": 136,
      "caption_start": "오대수씨, 일본엔 언제 가신건가요?🥋 요즘 릴스 넘기다 보면 한 번씩은 꼭 마주치는 얼굴이죠. AI로 여기저기 불려 다니면서 밈의 중심이 된 오대수씨인데요 이번엔 일본 지하철 승강장에서 춤까지 추고 계십니다. 이 영상, 지크(ZCRE)의 ‘주짓수’로 만들었는데 원본 춤 영상 하나를 넣고 바꾸고 싶은 사람 사진 한 장만 붙이면 동작은 그대로 두고 영상 속 사람만 싹 바뀝니다. 댓글에 ‘지크’ 남겨주시면 제작 가이드를 보내드릴게요! Oh Dae-su, when did you get to Paris?"
-    },
-    {
-     "timestamp": "2026-10-30T09:50:53+0000",
-     "url": "https://www.instagram.com/p/DfHTQklFBSC/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 333,
-     "comments": 273,
-     "caption_start": "ChatGPT 구독만 해도 API 크레딧이 매달 들어옵니다 💸 OpenAI가 ChatGPT Pro와 Business 구독자에게 매달 최대 500달러의 API 크레딧을 주기 시작했는데 Pro는 요금제에 따라 100·200·500달러를 받고, Business는 유료 좌석당 20·100달러씩 최대 500달러를 받아요. API 결제 수단을 따로 등록하지 않아도 바로 쓸 수 있지만 Plus와 무료 체험은 빠졌고, 유료 구독 7일이 지나야 신청할 수 있어요. 남은 크레딧은 다음 달로 넘어가지 않으니 그달 "
-    },
-    {
-     "timestamp": "2026-10-30T07:36:10+0000",
-     "url": "https://www.instagram.com/reel/DfHDxSDyWef/",
-     "type": "VIDEO",
-     "likes": 34,
-     "comments": 13,
-     "caption_start": "할로윈 코스튬, 사기 전에 4벌 먼저 입혀 봤습니다 🎃 옷장 앞을 지날 때마다 마녀, 뱀파이어, 아이돌 무대 의상, 호박까지 옷은 한 벌씩 바뀌는데 얼굴은 처음부터 끝까지 그대로예요. Pollo AI(pollo.ai_kr polloaiofficial)의 AI Influencer에 제 사진 한 장을 올리면 저랑 닮은 AI 모델이 만들어지고, Style 칸에 사고 싶은 코스튬 사진을 참고 이미지로 넣으면 그 옷을 입은 모습이 바로 나옵니다. 마음에 든 호박 코스튬은 Recast로 춤 영상까지 만들어"
     }
    ]
   },
   {
    "username": "ai_freaks.kr",
-   "followers": 131090,
+   "followers": 131159,
    "ok": true,
    "posts": [
     {
      "timestamp": "2026-11-01T03:00:43+0000",
      "url": "https://www.instagram.com/p/DfLt6K-GlBk/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 326,
-     "comments": 284,
+     "likes": 826,
+     "comments": 715,
      "caption_start": "“원과 선으로 로고 설계하는 AI 툴” 📐 일본 개발자 스즈키 카이세이가 만든 AI 디자인 툴 ‘Rikyū’가 요즘 한국과 중국에서 다시 화제예요. 대부분의 이미지 AI는 그럴듯한 그림을 한 번에 뽑아내는데요. ‘Rikyū’는 원과 직선, 도형을 조합해 로고를 설계해요. 비율을 맞춘 보조선 위에 형태를 쌓아 올리는 방식이라 AI 티가 덜하다는 반응이 많아요. 결과물은 SVG 파일로 받을 수 있어요. 아무리 키워도 선이 깨지지 않아서, 명함부터 간판까지 그대로 쓸 수 있죠. 만든 로고로 배너, 인"
     },
     {
      "timestamp": "2026-10-31T09:12:50+0000",
      "url": "https://www.instagram.com/p/DfJzszqmqPJ/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 20,
-     "comments": 10,
+     "likes": 21,
+     "comments": 12,
      "caption_start": "“PDF만 보던 어도비 애크로뱃으로, AI 질문까지?” 😮 👉🏻 긴 문서 요약부터 여러 자료 비교·분석, 원문 근거 확인까지 직접 사용해보세요. 💌 댓글에 ‘문서’ 남기고 무료 체험 링크와 프롬프트 자료 받아가세요! 🔗 adobe.ly/4sIrjB7 어도비의 ‘애크로뱃’이 이제 문서 특화 AI로 진화하고 있어요. 흩어진 자료는 ‘PDF 스페이스’에 모아 활용할 수 있는데요. 보고서·회의록·시장조사 자료를 한곳에 넣으면 공통점과 차이점을 정리해주고, 필요할 때마다 다시 물어볼 수 있는 나만"
     },
     {
      "timestamp": "2026-10-31T02:37:06+0000",
      "url": "https://www.instagram.com/p/DfJGaWcGs_E/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 326,
+     "likes": 334,
      "comments": 6,
      "caption_start": "”10월 5주차 AI 소식“ 💸 챗GPT의 요금제 혜자 소식이 쏟아진 한 주예요. 챗GPT 프로와 비즈니스 요금제 한도가 2배로 늘었고, 월 최대 500달러 크레딧까지 제공한대요. 앤트로픽은 나스닥 상장을 위한 신고서를 제출과 함께 소소한 업데이트를 챙겼어요. 구글이 드디어 AI에 다시 신경 쓰는걸까요? 월드 모델 ’지니 4‘와 새 프론티어 모델 ’제미나이 4 카본‘이 연달아 공개됐어요. 여기에 보안 문제로 출금을 멈춘 바이낸스 소식까지.. 이번 주 이슈들 총정리했으니, 저장해두고 핵심만 챙겨가"
-    },
-    {
-     "timestamp": "2026-10-30T09:35:07+0000",
-     "url": "https://www.instagram.com/p/DfHRdJXGoP_/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 191,
-     "comments": 8,
-     "caption_start": "”톡 보내듯 쓰면 일기가 되는 앱, 마이모리“ 🌳 일본 앱스토어 건강 부문 1위를 달성한 일기 앱을 아시나요? 이번 인터뷰의 주인공은 ‘마이모리’를 만든 너티코드 유성오 대표님입니다. 마이모리는 카톡처럼 편하게 메세지를 남기면 나무가 일기로 정리하고 따뜻한 답장까지 보내주는 앱이에요. 대만 스레드에서 입소문을 타며 한 달 만에 사용자가 20배 늘었고, 최근엔 한국 앱스토어에서도 2위에 올랐다고 하죠. 시작은 누군가 들어주는 것만으로도 큰 위안이 된다는 대표님의 경험이었어요. 여기에 ‘마음새’를 "
-    },
-    {
-     "timestamp": "2026-10-30T05:05:52+0000",
-     "url": "https://www.instagram.com/p/DfGypAqGtWY/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 521,
-     "comments": 19,
-     "caption_start": "“GPT 프로 한도가 두 배지요” 🔥 오픈AI의 티보가 오늘부터 프로 100·200·500과 비즈니스 프리미엄의 한도를 두 배로 늘린다고 밝혔어요. 정확히는 프로 100과 500의 Work·코덱스 한도가 두 배가 된 거예요. 프로 200은 한도를 절반으로 줄일 예정이었는데요, 유저들의 거센 피드백에 한 달 만에 없던 일이 됐죠. AI 비서 ’닷‘의 확대 한도도 당분간 유지되고, 닷 사용량은 일반 사용량과 따로 계산된대요. 반면 플러스는 이번에도 빠졌어요, 공식 도움말에 ’플러스 사용량은 변경 없"
     }
    ]
   },
   {
    "username": "ai.brief.kr",
-   "followers": 31756,
+   "followers": 31753,
    "ok": true,
    "posts": []
   },
   {
    "username": "ai.ainow",
-   "followers": 77546,
+   "followers": 77559,
    "ok": true,
    "posts": [
     {
@@ -268,45 +220,37 @@
      "url": "https://www.instagram.com/p/DfHp7KfHan7/",
      "type": "CAROUSEL_ALBUM",
      "likes": 29,
-     "comments": 80,
+     "comments": 82,
      "caption_start": "🧠GPT에게 매번 처음부터 설명하고 있다면, 먼저 내 일을 프로젝트로 정리해 보세요. 목표와 결과물을 정하고, 필요한 자료와 공통 지침을 넣고, 조사·작성·검토 대화를 나누는 것부터 시작합니다. 프로젝트를 잘 쓰는 20개 체크포인트와 첫 설정부터 따라 하는 59쪽 실무 가이드북으로 정리했습니다. 💬 아무 댓글 남겨 주시면 가이드북 자료 바로 공유해 드릴게요. #ai #gpt #astra"
-    },
-    {
-     "timestamp": "2026-10-30T09:11:13+0000",
-     "url": "https://www.instagram.com/p/DfHOuCtnUl4/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 34,
-     "comments": 66,
-     "caption_start": "🧐클로드에게 일을 맡겼는데, 정작 회사 문서와 내가 쓰는 도구는 모르는 상태인가요? MCP는 클로드가 외부 자료와 도구에 접근할 수 있도록 연결하는 통로입니다. 업무 지식, 코드, 디자인과 브라우저, 데이터, 배포까지 다섯 영역의 도구 20개를 정리했습니다. 스무 개를 한꺼번에 연결할 필요는 없습니다. 지금 쓰는 도구 하나를 고르고, 테스트 환경에서 읽기 요청부터 시작해 보세요. 💬 아무 댓글 남겨주시면 연결 방식·준비물·설치 순서·첫 요청문·권한 주의사항을 담은 가이드북 바로 공유해 드릴게요"
     }
    ]
   },
   {
    "username": "mktg.with.ai",
-   "followers": 11021,
+   "followers": 11069,
    "ok": true,
    "posts": [
+    {
+     "timestamp": "2026-11-01T09:03:05+0000",
+     "url": "https://www.instagram.com/p/DfMXXMkFtXe/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 0,
+     "comments": 0,
+     "caption_start": "쇼츠를 올리는 달과 못 올리는 달, 이제 차이가 돈으로 날 수도 있어요 📈 유튜브가 일부 크리에이터를 초대해 '쇼츠 보너스 프로그램'을 시험하고 있어요. 보도에 따르면 한국도 시험 국가에 들어가 있고요. 조건은 단순해요. 초대장에 적힌 개수 이상 매달 쇼츠를 올리면, 그달의 오가닉 참여 조회수를 기준으로 보너스가 붙어요. 광고로 끌어온 조회수는 빠지고, 매달 15일까지 수락해야 그달이 집계돼요 ⏰ 금액은 공개되지 않았고 보장도 아니지만, 방향은 분명해요. 플랫폼이 '꾸준함' 자체를 보상하기 시작"
+    },
     {
      "timestamp": "2026-10-31T09:03:58+0000",
      "url": "https://www.instagram.com/p/DfJyo9PFdPG/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 248,
-     "comments": 7,
+     "likes": 290,
+     "comments": 8,
      "caption_start": "광고비 없이 뭐부터 올려야 할지 모르겠다면, 노량진 수산시장에서 시작한 이 이야기를 보세요 🐟 인어교주해적단의 첫 제품은 앱이 아니라 블로그 글이었어요. 2013년, 노량진에서 수산물 사진을 찍고 그날 시세를 매일 올렸죠. 정보에 목마른 사람들이 몰리자 상인들이 제휴했고, 운영사 더파이러츠의 2024년 매출은 570억 원이 됐어요 📊 핵심은 시세 정보를 끝까지 무료로 두고, 돈은 유통에서 번 구조예요. 가치를 주는 곳과 돈을 버는 곳을 따로 둔 거죠. 우리 계정에 옮기는 방법도 카드에 정리했어"
-    },
-    {
-     "timestamp": "2026-10-30T09:04:58+0000",
-     "url": "https://www.instagram.com/p/DfHN_WiFrEN/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 10,
-     "comments": 1,
-     "caption_start": "열심히 정리해서 올렸는데 저장도 문의도 조용하다면, 이유가 있어요 🧐 요약과 정리는 이제 AI가 바로 해주니까요. 블룸버그의 디지털 편집 책임자도 \"헤드라인을 주거나 단순한 질문에 답하는 것만으론 더 이상 충분하지 않다\"고 말해요. 그래서 블룸버그는 실전 가이드형 재테크 콘텐츠를 허브로 키웠고, 이용자의 62%가 처음 온 사람이었어요. 해외 언론사들은 '읽고 나서 뭘 하면 되는지'까지 주는 쪽으로 바뀌고 있어요. 왜 중요한지, 보통은 어떻게 하는지, 뭘 먼저 하고 뭘 미뤄도 되는지, 오늘의 첫걸"
     }
    ]
   },
   {
    "username": "ddalkkak.mag",
-   "followers": 695,
+   "followers": 696,
    "ok": true,
    "posts": []
   }
