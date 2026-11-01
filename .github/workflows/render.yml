@@ -36,12 +36,18 @@ jobs:
           command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
           dirs=$(for d in posts/2*/; do d=${d%/}; [[ "$(basename "$d")" > "2026-10-22" ]] && echo "$d"; done; true)
           [ -z "$dirs" ] || node scripts/reel.mjs $dirs
+      # 9:16 Story image from the cover slide (PRD 2026-11-01), for posts from 2026-11-02 on. Playwright, no credits.
+      - name: Story image
+        run: |
+          dirs=$(for d in posts/2*/; do d=${d%/}; [[ "$(basename "$d")" > "2026-11-02" ]] && echo "$d"; done; true)
+          [ -z "$dirs" ] || node scripts/story.mjs $dirs
       - name: Commit rendered slides
         run: |
           git config user.name "ai-office-bot"
           git config user.email "ai-office-bot@users.noreply.github.com"
           git add posts/*/slides posts/*/cover.*
           git add posts/*/reel.mp4 2>/dev/null || true
+          git add posts/*/story.jpg 2>/dev/null || true
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "render: update slides [skip ci]"
           git push
