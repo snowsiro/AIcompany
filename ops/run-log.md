@@ -2,6 +2,23 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-01
+처리 1건 (ready 1) + 주간 모음 1건 (ready) · 실패 0건
+성과: 어제(10/31) 도달 2 · 팔로워 1 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 cohere-qwen-phone-home (9)
+결정할 일
+1. 참고 계정 토큰(IG_*)이 이 환경에 없어 참고 계정은 `ops/scan/2026-11-01/reference.json`으로만 봤음
+2. 오늘 후보에 한국·아시아·유럽 중심 이야기 중 원문을 읽을 수 있는 것이 없었음 (Reuters, Yonhap, 한국 일간지, SCMP는 읽기 실패). 그래서 글로벌 이야기(robots.txt AI 학습 거부)를 선정. 한국 10월 수출 $115.3B 이야기는 원문이 있으면 저녁 후보
+3. 주간 모음 `threads_caption`이 weekly.mjs 기본 문구라 출처 매체가 없어 brand-safety가 1회 불합격시킴. 내가 post.json에서 고쳤고 재검수함. 같은 문제가 매주 생기므로 `scripts/weekly.mjs` 140행 수정 필요
+4. 단일 글 출처가 The Next Web 1곳뿐 (The Verge 원문은 403)
+자세한 기록
+- 05:4x morning-scan이 main에 없어 직접 실행, 1분 안에 생성됨
+- 후보 7개 + 예비 1개 (OpenAI 투자 축소, 이미 `posts/_backlog/`에 있음). 5개는 AI타임스 번역에만 의존해 제외
+- 주제 선정: Google, Microsoft, OpenAI가 robots.txt 한 규칙으로 AI 학습 거부 지원 (GLOBAL, POLICY). 6점. id `2026-11-01-robots-ai-optout`
+- 차선 이월 후보(저녁): Big Tech 자사주 매입 83% 감소 (Alphabet, Microsoft 포함이라 같은 회사 감점 검토), Google Suncatcher 우주 데이터센터, OpenAI 투자 축소
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성함. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium, npm ci 필요
+- 검수: fact-checker 통과, hook-judge 통과 7/10 (독자 이익 훅 없음 사유 기록, 커버에 회사명이 없어 명확도 낮다는 의견), brand-safety 통과. 1차 통과, 되돌림 0회
+- 주간 모음 `2026-11-01-weekly`: 대표 글 korea-ai-hacking-ring, 커버 "8.2M RECORDS IN AN AI HACK". fact-checker 통과, hook-judge 통과 7/10, brand-safety 1차 불합격(threads_caption 출처) 후 수정, 2차 통과. ready
+
 ## [저녁 보고] 2026-10-31
 처리 1건 (ready 1) · 실패 0건
 결정할 일

@@ -1,0 +1,130 @@
+{
+  "id": "2026-11-01-robots-ai-optout",
+  "date": "2026-11-01",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "GLOBAL AI · POLICY",
+    "headline": [
+      "BIG AI BACKS ONE",
+      "**OPT-OUT** RULE"
+    ],
+    "hook_options": [
+      [
+        "BIG AI BACKS ONE",
+        "**OPT-OUT** RULE"
+      ],
+      [
+        "**1 RULE** FOR AI",
+        "TRAINING OPT-OUT"
+      ],
+      [
+        "IT'S A **REQUEST**,",
+        "NOT A COMMAND"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "myth-flip"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "No reader-impact hook: the article describes effects only for website owners and publishers (one rule instead of company-by-company settings is the brief's framing, not the article's), and says nothing about what changes for ordinary readers. The claim hook is the strongest the slides fully support: Google, OpenAI and Microsoft announced support for one shared robots.txt opt-out, and slide 1 and 2 say exactly that. The number hook ('1 rule') is accurate but flatter. The myth-flip hook is accurate (the draft states a preference, not an order) but is the limit of the story rather than the news, so it is held back. No rivalry hook: the companies are aligned, not competing. A Europe hook was not written because the article gives Europe only one sentence.",
+    "image_prompt": "Cinematic wide shot of a vast dark data hall at night, endless rows of server racks fading into the distance, with streams of cool blue light flowing along the floor toward a single tall golden gate in the middle of the hall. The gate stands half closed, glowing warm gold at its edges, and the streams of light bend around it and stop at its threshold. Fine particles of light drift in the air, subtle reflections on the polished floor. Abstract and unmarked: no brand marks, no signage. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "What changes",
+      "title": "One opt-out, three big names",
+      "body": [
+        "Google, OpenAI and Microsoft said Friday they will support one shared **AI training opt-out**. With a single rule in robots.txt, the file that tells crawlers what a site allows, a website can keep its content out of generative AI training."
+      ]
+    },
+    {
+      "kicker": "How it works",
+      "title": "A new policy token",
+      "body": [
+        "A site adds a group for a new \"policy token,\" called __usage_ai-training, then **lists the paths** it does not want used for training. It comes from an IETF draft (the IETF sets internet technical standards) by Kevin Kelley of Anthropic."
+      ]
+    },
+    {
+      "kicker": "The timeline",
+      "title": "Dates differ by company",
+      "body": [
+        "Microsoft will honour the preferences from **1 February 2027**. Google aims to support it in 2027, early 2027 according to its crawler documentation. OpenAI aims to implement it \"in the coming months.\""
+      ]
+    },
+    {
+      "kicker": "The limits",
+      "title": "A preference, not an order",
+      "body": [
+        "The draft states a **preference**, not an order about crawling. The IETF has not endorsed it, and it has no formal standing in the standards process. Microsoft said the preferences \"do not establish licensing or payment arrangements.\""
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "Blocking has a cost",
+      "body": [
+        "Microsoft warned that blocking AI grounding \"will significantly **reduce your content's visibility** in AI-generated experiences.\" Meta's communications head Andy Stone backed a common signal on X, but did not say whether Meta would honour it."
+      ]
+    },
+    {
+      "kicker": "The Europe link",
+      "title": "Google cites the EU",
+      "body": [
+        "Google said the proposal is consistent with the EU's **Code of Practice** for general-purpose AI under the AI Act. The article reports no other European reaction."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Google, Microsoft, OpenAI and Anthropic will honour one shared AI training opt-out in robots.txt, letting a website keep its content out of generative AI training with a single rule. The post names Google, OpenAI and Microsoft as the companies that announced support, as stated in the next fact. The gloss of robots.txt ('the file that tells crawlers what a site allows') is the post's own."
+    },
+    {
+      "source": 0,
+      "text": "The shared signal comes from an IETF draft by Kevin Kelley of Anthropic, published on Friday (30 October 2026); the same day Google, OpenAI and Microsoft announced they would support it. The gloss of the IETF ('the body that sets internet technical standards') is the post's own."
+    },
+    {
+      "source": 0,
+      "text": "A site adds a group for a new 'policy token', __usage_ai-training, then lists the paths it does not want used for training."
+    },
+    {
+      "source": 0,
+      "text": "Timeline: Microsoft will honour the preferences from 1 February 2027; Google aims to support it in 2027 (early 2027 per its crawler documentation); OpenAI aims to implement it 'in the coming months'."
+    },
+    {
+      "source": 0,
+      "text": "The draft states a preference, not an order about crawling; the IETF has not endorsed it and it has no formal standing in the standards process."
+    },
+    {
+      "source": 0,
+      "text": "Microsoft said the preferences 'do not establish licensing or payment arrangements', and that blocking AI grounding 'will significantly reduce your content's visibility in AI-generated experiences'."
+    },
+    {
+      "source": 0,
+      "text": "Google said the proposal is consistent with the EU's Code of Practice for general-purpose AI under the AI Act."
+    },
+    {
+      "source": 0,
+      "text": "Meta communications head Andy Stone voiced support for a common signal on X, but did not say whether Meta would honour it."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "AI training opt-out: publishers 'should not have to choose'",
+      "date": "Oct 31, 2026",
+      "url": "https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic"
+    }
+  ],
+  "caption": "Google, Microsoft and OpenAI just backed one shared way for websites to opt out of AI training.\n\nA new robots.txt rule, from a draft by Anthropic's Kevin Kelley, would let a site keep its content out of generative AI training in one step. It is a preference, not an order, and the IETF has not endorsed it.\n\n→ Microsoft will honour it from 1 February 2027; Google aims for 2027; OpenAI says \"in the coming months\"\n→ Microsoft says the preferences \"do not establish licensing or payment arrangements\"\n→ Meta's Andy Stone backed a common signal but did not say Meta would honour it\n\nWould you opt your site out?\n\nSource: The Next Web, \"AI training opt-out: publishers 'should not have to choose'\", Oct 31, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#OpenAI",
+    "#RobotsTxt",
+    "#AIPolicy"
+  ],
+  "threads_caption": "Google, Microsoft and OpenAI just backed one shared way for websites to opt out of AI training.\n\nIt is a preference, not an order, and the IETF has not endorsed it. Microsoft honours it from 1 Feb 2027.\n\nSource: The Next Web, \"AI training opt-out: publishers 'should not have to choose'\". #OpenAI"
+}

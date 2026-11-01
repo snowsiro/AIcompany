@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "issues": [
+    "Non-blocking note: threads_caption names outlets only for the lead story (Korea JoongAng Daily, BleepingComputer, ZDNet Korea) and points to the cards for the other six. CLAUDE.md gives the weekly roundup an exception for full sources on cards and in the caption, and the main caption lists every source, so this passes. Consider adding the other outlets if space allows."
+  ]
+}
