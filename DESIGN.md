@@ -86,7 +86,7 @@
 | --- | --- |
 | 1 커버 | 태그 `GLOBAL AI · WEEKLY`, 2줄 훅 (대표 이야기로 시작, 커버 규칙 그대로), 그 아래 muted 작은 줄 `+N more stories inside` (숫자만 accent). 이미지는 대표 이야기 글의 커버 재사용 (크레딧 0) |
 | 2~8 항목 | 1장에 글 1개. kicker `02 / 09 · STORY 1`, 오른쪽 pill은 원래 글의 태그. 제목은 원래 글의 커버 제목, 본문은 원래 글 캡션의 첫 줄. 본문 아래 작은 출처 줄 (매체명, "기사 제목" (날짜), 최대 2개) |
-| 마지막 | 팔로우 장 그대로. 출처 블록 대신 `Sources are on each card.` |
+| 마지막 | 팔로우 장. `Save for later` 줄 대신 뉴스레터 박스(메일 아이콘, "Get this roundup by email every Sunday." + "Free weekly digest: link in bio"), 출처 블록 대신 `Sources are on each card.` (2026-11-01 결정) |
 
 - 항목은 3~7개. 출처 줄도 넘침 검사 안에 있어서, 넘치면 렌더가 실패합니다.
 - Reel 길이: 2.5 + 7 × 3.5 + 2.5 = 29.5초.
