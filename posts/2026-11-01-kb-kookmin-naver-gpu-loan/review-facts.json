@@ -1,0 +1,21 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 1 and caption",
+      "problem": "Both say \"its largest-ever syndicated loan arrangement\", which reads as the bank's own record. Digital Today says \"the largest syndicated loan arrangement in the country to date\", and the Korea Herald's wording is ambiguous. The post narrows the claim in a way neither article states.",
+      "fix": "Write \"South Korea's first GPU financing and the country's largest syndicated loan arrangement to date\", still attributed to the bank (\"the bank called it...\"). Make the same change in the caption."
+    },
+    {
+      "where": "slide 4",
+      "problem": "Non-factual note, not a mismatch: ₩18.74T has no dollar figure, which CLAUDE.md requires for non-dollar amounts. The articles give no dollar conversion for it. The ₩10.7T = $8B rate in the article would give roughly $14B.",
+      "fix": "Add \"(about $14B at the article's ₩10.7T = $8B rate)\" or similar. Alternatively keep the figure and accept the style deviation."
+    },
+    {
+      "where": "caption",
+      "problem": "Non-factual note: the source line gives outlet and date but not the article titles that CLAUDE.md requires. The threads_caption does include a title.",
+      "fix": "Add the Korea Herald and Digital Today article titles to the caption's Source line."
+    }
+  ],
+  "verified": "Both sources opened with scripts/article.mjs. The titles, dates and outlets in `sources` match. Every other number, name and statement in the slides, caption and threads_caption matches the articles: ₩10.7T/$8B, Brookfield as a Canadian alternative asset manager, the special purpose company, the July $10B AI factory, the 55/100/200 MW targets, about 100,000 Nvidia GPUs, the ₩18.74T nominal cap, the guarantee not covering the loan, the undisclosed lenders, and the resale-value point attributed to earlier media reports."
+}
