@@ -3,7 +3,7 @@
   "date": "2026-11-01",
   "kind": "weekly",
   "category": "WEEKLY",
-  "status": "ready",
+  "status": "published",
   "cover": {
     "tag": "GLOBAL AI · WEEKLY",
     "headline": [
@@ -278,5 +278,9 @@
     "#OpenAI",
     "#KoreaAI"
   ],
-  "threads_caption": "This week in AI: 7 stories from around the world. Lead story sources: Korea JoongAng Daily, BleepingComputer, ZDNet Korea. Sources for every story are on each card."
+  "threads_caption": "This week in AI: 7 stories from around the world. Lead story sources: Korea JoongAng Daily, BleepingComputer, ZDNet Korea. Sources for every story are on each card.",
+  "published_id": "18117447479028643",
+  "permalink": "https://www.instagram.com/p/DfMW7XjAW-h/",
+  "threads_id": "18129414142861779",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfMXCJUG__M"
 }
