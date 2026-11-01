@@ -173,3 +173,27 @@ jobs:
           done
           echo "::error::Reel posted but not recorded in post.json. Add reel_id by hand before the next run, or it posts again."
           exit 1
+      # Story of the cover (PRD 2026-11-01): one 9:16 image per post, after the carousel and Reel are recorded, so it
+      # can never block or undo them. Commits as "story: " so the 3-hour guard (^publish: ) keeps counting carousels only.
+      # A Story only lives 24h, so story-catchup retries posts from the last 12h and never posts an old one.
+      - name: Story
+        if: steps.pick.outputs.dir != ''
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          git pull --rebase origin main || true
+          base="https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.pick.outputs.sha }}"
+          dir="${{ steps.pick.outputs.dir }}"
+          if [ -f "$dir/story.jpg" ]; then node scripts/ig.mjs story "$dir" "$base" || echo "::warning::Story failed; the next run retries it"; fi
+          node scripts/ig.mjs story-catchup "$base" || echo "::warning::Story retry failed"
+          git add posts/*/post.json
+          if git diff --cached --quiet; then echo "no story recorded"; exit 0; fi
+          git commit -m "story: $dir"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          echo "::error::Story posted but not recorded in post.json. Add story_id by hand, or the next run posts it again."
+          exit 1

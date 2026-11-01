@@ -6,6 +6,8 @@
 //   node scripts/ig.mjs insights [days]                   per-post metrics for the analyst
 //   node scripts/ig.mjs reel posts/<id> <public-base>     post posts/<id>/reel.mp4 as a Trial Reel (non-followers first)
 //   node scripts/ig.mjs reel-catchup <public-base>        same, for published posts from REEL_START on that have no Reel yet
+//   node scripts/ig.mjs story posts/<id> <public-base>    post posts/<id>/story.jpg as a Story (after the carousel)
+//   node scripts/ig.mjs story-catchup <public-base>       same, for posts published in the last 12h that have no Story yet
 //   node scripts/ig.mjs metrics <out.json> [days]         daily snapshot: per-post + account metrics (morning scan)
 //   node scripts/ig.mjs limit                             publishing quota used in the last 24h
 //   node scripts/ig.mjs check                             connection test: own account, quota, reference accounts
@@ -238,12 +240,65 @@ async function reelCatchup(base) {
   }
 }
 
+// Story of the post's cover (PRD 2026-11-01, story auto-post): keeps the profile ring up and puts each new post in
+// followers' Story tray. The API can't add a link sticker, so story.jpg says "Tap our profile". Stories carry no
+// caption to match on, so the duplicate check is: one of our live Stories posted after this post's carousel is its Story
+// (Stories come only from this step). Like the Reel, it runs after the carousel is recorded and never blocks it.
+async function liveStoryAfter(post) {
+  const { timestamp } = await call("GET", `/${post.published_id}`, { fields: "timestamp" });
+  const { data } = await call("GET", `/${IG_USER_ID}/stories`, { fields: "id,timestamp,permalink" });
+  return (data || []).filter(m => Date.parse(m.timestamp) >= Date.parse(timestamp)).sort((a, b) => a.timestamp < b.timestamp ? -1 : 1)[0] || null;
+}
+function recordStory(dir, post, id) {
+  Object.assign(post, { story_id: id, story_at: new Date().toISOString() });
+  writeFileSync(join(dir, "post.json"), JSON.stringify(post, null, 2) + "\n");
+}
+async function story(dir, base) {
+  dir = resolve(dir);
+  const post = JSON.parse(readFileSync(join(dir, "post.json"), "utf8"));
+  if (post.story_id) { console.log(`story already posted: ${post.story_id}`); return; }
+  if (!post.published_id) throw new Error(`${post.id}: carousel not published yet, the Story goes after it`);
+  if (!existsSync(join(dir, "story.jpg"))) throw new Error(`${post.id}: no story.jpg (render step)`);
+  const live = await liveStoryAfter(post);
+  if (live) { recordStory(dir, post, live.id); console.log(`story already on Instagram, recorded: ${live.id}`); return; }
+  const rel = relative(process.cwd(), dir).split("\\").join("/");
+  const { id: container } = await call("POST", `/${IG_USER_ID}/media`, { media_type: "STORIES", image_url: `${base}/${rel}/story.jpg` });
+  await waitReady(container);
+  let id;
+  try {
+    ({ id } = await call("POST", `/${IG_USER_ID}/media_publish`, { creation_id: container }));
+  } catch (err) {
+    // Same "Action is blocked but live anyway" case as posts (2026-10-26): look before failing.
+    await sleep(Number(process.env.IG_RECHECK_MS || 15000));
+    const after = await liveStoryAfter(post).catch(() => null);
+    if (!after) throw err;
+    console.log(`::warning::Instagram answered "${err.message.slice(0, 160)}" but the Story is live; recorded it`);
+    id = after.id;
+  }
+  recordStory(dir, post, id);
+  console.log(`story ${post.id}: ${id}`);
+}
+// A Story lasts 24h, so a late one is still worth posting for a few hours, never the next day.
+async function storyCatchup(base) {
+  for (const d of readdirSync("posts").filter(d => d >= STORY_START).sort()) {
+    const file = join("posts", d, "post.json");
+    if (!existsSync(file) || !existsSync(join("posts", d, "story.jpg"))) continue;
+    const p = JSON.parse(readFileSync(file, "utf8"));
+    if (!p.published_id || p.story_id) continue;
+    const { timestamp } = await call("GET", `/${p.published_id}`, { fields: "timestamp" });
+    if (Date.now() - Date.parse(timestamp) < 12 * 36e5) await story(join("posts", d), base);
+  }
+}
+const STORY_START = "2026-11-02";
+
 // Daily snapshot for the morning report and the 11-04 / 11-18 reviews (added 2026-10-22).
 // Meta can take up to 48h to settle the numbers, so each run re-reads lifetime totals for the last <days> days
 // and the newest file is always the one to trust. A metric Meta refuses is left out (null), never guessed.
 const POST_METRICS = {
   FEED: ["reach", "views", "saved", "shares", "likes", "comments", "total_interactions", "follows", "profile_visits"],
   REELS: ["reach", "views", "saved", "shares", "likes", "comments", "total_interactions", "ig_reels_avg_watch_time"],
+  // Story insights exist only while the Story is live (24h), so the morning snapshot reads the ones still up.
+  STORY: ["reach", "views", "replies", "shares", "navigation", "follows", "profile_visits"],
 };
 async function mediaInsights(id, kind) {
   const out = {}, failed = [];
@@ -265,6 +320,7 @@ function postIndex() {
     try {
       const p = JSON.parse(readFileSync(join("posts", d, "post.json"), "utf8"));
       if (p.published_id) byMedia[p.published_id] = { post: p.id, format: "carousel", hook_type: p.cover?.hook_type ?? null, region: (p.cover?.tag || "").split(" ")[0] || null, category: p.category };
+      if (p.story_id) byMedia[p.story_id] = { post: p.id, format: "story", hook_type: p.cover?.hook_type ?? null, region: (p.cover?.tag || "").split(" ")[0] || null, category: p.category };
       if (p.reel_id) byMedia[p.reel_id] = { post: p.id, format: "reel", hook_type: p.cover?.hook_type ?? null, region: (p.cover?.tag || "").split(" ")[0] || null, category: p.category };
     } catch { /* a broken post.json is lint's job */ }
   }
@@ -283,6 +339,11 @@ async function metrics(out, days = 14) {
     posts.push({ media_id: m.id, ...(index[m.id] || { post: null }), published_at: m.timestamp, url: m.permalink,
       ...(await mediaInsights(m.id, kind).catch(e => ({ error: e.message }))) });
   }
+  try {
+    const { data: live } = await call("GET", `/${IG_USER_ID}/stories`, { fields: "id,timestamp" });
+    for (const m of live || []) posts.push({ media_id: m.id, ...(index[m.id] || { post: null, format: "story" }), published_at: m.timestamp,
+      ...(await mediaInsights(m.id, "STORY").catch(e => ({ error: e.message }))) });
+  } catch (err) { console.log(`stories not read: ${err.message.slice(0, 120)}`); }
   // account totals for the last full Vienna day (yesterday)
   const vienna = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Vienna" }));
   const offset = vienna - new Date(new Date().toLocaleString("en-US", { timeZone: "UTC" }));
@@ -414,10 +475,12 @@ try {
   else if (cmd === "check") await check();
   else if (cmd === "reel") await reel(args[0], args[1]);
   else if (cmd === "reel-catchup") await reelCatchup(args[0]);
+  else if (cmd === "story") await story(args[0], args[1]);
+  else if (cmd === "story-catchup") await storyCatchup(args[0]);
   else if (cmd === "metrics") await metrics(args[0], Number(args[1] || 14));
   else if (cmd === "scan") await scan(args[0], Number(args[1] || 48));
   else if (cmd === "limit") console.log(JSON.stringify(await call("GET", `/${IG_USER_ID}/content_publishing_limit`, { fields: "quota_usage,config" })));
-  else { console.error("commands: discover | publish | reel | reel-catchup | insights | metrics | limit | check | scan"); process.exit(2); }
+  else { console.error("commands: discover | publish | reel | reel-catchup | story | story-catchup | insights | metrics | limit | check | scan"); process.exit(2); }
 } catch (err) {
   console.error(`FAIL ${cmd}: ${err.message}`);
   process.exit(1);

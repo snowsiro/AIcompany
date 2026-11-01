@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- 1080x1920 Story frame for a published post (PRD 2026-11-01). Reuses the rendered cover slide; no new image. -->
+<style>
+  @font-face { font-family: "Anton"; src: url("../assets/fonts/Anton-Regular.woff2") format("woff2"); }
+  @font-face { font-family: "Inter Tight"; src: url("../assets/fonts/InterTight-Variable.woff2") format("woff2"); font-weight: 100 900; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1920px; background: #0A0A0C; overflow: hidden; }
+  /* Blurred, darkened cover fills the frame behind the card. */
+  .blur { position: absolute; inset: -80px; background-size: cover; background-position: center;
+          filter: blur(60px) brightness(0.35) saturate(1.2); }
+  /* Card: 4:5 cover, kept clear of the top (profile name) and bottom (reply bar) Story UI. */
+  .card { position: absolute; left: 70px; top: 300px; width: 940px; height: 1175px; border-radius: 28px;
+          background-size: cover; background-position: center; box-shadow: 0 30px 80px rgba(0,0,0,0.6); }
+  .label { position: absolute; left: 0; right: 0; top: 1530px; text-align: center; font-family: "Anton";
+           font-size: 64px; letter-spacing: 2px; color: #FFD23F; text-transform: uppercase; }
+  .sub { position: absolute; left: 0; right: 0; top: 1625px; text-align: center; font-family: "Inter Tight";
+         font-weight: 600; font-size: 40px; color: #F2F2F2; }
+</style>
+</head>
+<body>
+  <div class="blur" id="blur"></div>
+  <div class="card" id="card"></div>
+  <div class="label">New post</div>
+  <div class="sub">Tap our profile</div>
+  <script>
+    window.renderStory = (coverUrl) => {
+      for (const id of ["blur", "card"]) document.getElementById(id).style.backgroundImage = `url("${coverUrl}")`;
+    };
+  </script>
+</body>
+</html>
