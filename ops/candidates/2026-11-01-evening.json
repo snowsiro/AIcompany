@@ -1,0 +1,722 @@
+{
+ "date": "2026-11-01",
+ "run": "evening",
+ "cutoff_utc": "2026-11-01T04:45:00Z",
+ "note": "Sunday. Morning post used robots.txt opt-out (excluded with Google/Microsoft/OpenAI robots story). No Instagram data for evening; feeds.json 10:22Z. Google News redirects unreadable, so originals found via search/RSS. Stories 1-6 first reported after cutoff (3-6 are TNW write-ups of Thu/Fri events published today, marked in notes; story 2 first report was 00:42Z by Seoul Economic Daily, English Herald version after cutoff). Stories 7+ are carried_over from morning. Dropped: Korea Times Codex keyboard gift (part of 10-31 Samsung-Altman post), Samsung Lee Yokohama packaging (no readable original), Nikkei AI dubbing (no readable original), Mistral Large 4 (posted 10-29), Instagram YouTuber deals (not AI), Higgsfield (excluded by instruction).",
+ "stories": [
+  {
+   "title": "KB Kookmin Bank leads a 10.7 trillion won ($8B) loan for a Brookfield-backed GPU project serving Naver Cloud, Korea's first GPU financing",
+   "first_published_utc": "2026-11-01T05:20:24Z",
+   "first_published_source": "The Korea Herald (14:20 KST)",
+   "after_cutoff": true,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Related to Naver/Nvidia/Brookfield $10B AI factory (July). Korea Herald and Digital Today read in full. Korea Times 'KB Kookmin Bank to lead $9.45 bil.' unreadable (Google redirect). Project size differs: Korea Herald about 13tr won, Digital Today about 12.6tr won; use 10.7tr won loan only. Needs one-line explainers for KB Kookmin, Brookfield, Naver.",
+   "articles": [
+    {
+     "outlet": "The Korea Herald",
+     "title": "KB Kookmin to lead record W10.7tr loan for Naver AI project",
+     "date": "2026-11-01T14:20:24+09:00",
+     "url": "https://www.koreaherald.com/article/10921731"
+    },
+    {
+     "outlet": "Digital Today",
+     "title": "KB Kookmin Bank arranges South Korea's first GPU financing, 10.7 trillion won loan",
+     "date": "2026-11-01T20:42:31+09:00",
+     "url": "https://www.digitaltoday.co.kr/en/view/122261/kb-kookmin-bank-arranges-south-koreas-first-gpu-financing-107-trillion-won-loan"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "KB Kookmin Bank has secured a mandate to lead a 10.7 trillion won ($8 billion) syndicated loan for a Brookfield-backed AI computing infrastructure project that will supply Naver Cloud, in what the bank called South Korea's first GPU financing and largest-ever syndicated loan arrangement."
+    },
+    {
+     "article": 0,
+     "text": "The loan is part of a project valued at about 13 trillion won."
+    },
+    {
+     "article": 0,
+     "text": "Brookfield will establish a special purpose company, tentatively named Asset Co., to acquire GPUs and other AI computing assets. Asset Co. will supply computing capacity to Naver Cloud, Naver's cloud computing arm, under a long-term agreement."
+    },
+    {
+     "article": 0,
+     "text": "KB Kookmin said other domestic banks and securities firms were participating, but gave no further details on the lender group or loan terms."
+    },
+    {
+     "article": 0,
+     "text": "In July, Naver, Nvidia and Brookfield, a Canadian alternative asset manager, announced plans for a $10 billion AI factory project. Brookfield agreed to provide up to $9 billion for the infrastructure, while Nvidia planned a $1 billion strategic investment in Naver."
+    },
+    {
+     "article": 0,
+     "text": "Naver's Tuesday filing set tentative targets for the AI factory, with capacity planned to reach 55 megawatts in the first half of 2027, 100 megawatts by year-end and 200 megawatts in 2028."
+    },
+    {
+     "article": 0,
+     "text": "The expanded facility is expected to house about 100,000 Nvidia GPUs, the company has said."
+    },
+    {
+     "article": 0,
+     "text": "Naver also guaranteed Naver Cloud's payment obligations under the project contracts, with the nominal guarantee capped at 18.74 trillion won assuming full use of the $9 billion investment limit. The guarantee does not cover the syndicated loan itself."
+    },
+    {
+     "article": 0,
+     "text": "Lenders are expected to weigh the long-term service fees and Naver Cloud's ability to make those payments, as the resale value of GPUs is difficult to predict, according to earlier media reports."
+    },
+    {
+     "article": 1,
+     "text": "A syndicated loan is a structure in which multiple financial institutions participate jointly to lend large sums."
+    }
+   ]
+  },
+  {
+   "title": "HD Hyundai Robotics says Palantir AI agents cut robot problem-solving time 63%, from 21.5 days to 7.9",
+   "first_published_utc": "2026-11-01T00:42:19Z",
+   "first_published_source": "Seoul Economic Daily English (09:42 KST); Korea Herald English 04:49Z",
+   "after_cutoff": false,
+   "hyundai_related": true,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "First report (Seoul Economic Daily) is before the cutoff; Korea Herald English version is after. HD Hyundai group is related to the 10-30 Hyundai Saemangeum post (different company: HD Hyundai Robotics). Yonhap English 403; Korea Times/Herald redirects only, Herald read directly. CTO name spelled Ahn Seong-hwan (Herald) vs Ahn Sung-hwan (SED).",
+   "articles": [
+    {
+     "outlet": "The Korea Herald",
+     "title": "HD Hyundai Robotics cuts troubleshooting time 63% with Palantir AI",
+     "date": "2026-11-01T13:49:36+09:00",
+     "url": "https://www.koreaherald.com/article/10921723"
+    },
+    {
+     "outlet": "Seoul Economic Daily",
+     "title": "HD Hyundai Robotics Cuts Problem-Solving Time by 63% With Palantir AI",
+     "date": "2026-11-01T09:42:19+09:00",
+     "url": "https://en.sedaily.com/finance/2026/11/01/hd-hyundai-robotics-shares-physical-ai-results-at-palantir"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "HD Hyundai Robotics has cut the time needed to resolve robot-related problems by 63 percent using AI agents developed in partnership with US software company Palantir Technologies, the South Korean firm said Sunday."
+    },
+    {
+     "article": 0,
+     "text": "Since deploying the AI agents in August, the company has reduced its average problem-solving time from 21.5 days to 7.9 days. It also expects the technology to slash robot programming costs by more than 50 percent."
+    },
+    {
+     "article": 0,
+     "text": "The results were unveiled at Palantir's Sovereignty Bootcamp in New York, where HD Hyundai Robotics Chief Technology Officer Ahn Seong-hwan outlined the company's physical AI strategy and progress in its collaboration with Palantir."
+    },
+    {
+     "article": 0,
+     "text": "The event, launched in July, focuses on AI adoption while safeguarding sensitive corporate data. Its three sessions have attracted about 450 executives from 250 organizations worldwide."
+    },
+    {
+     "article": 0,
+     "text": "Previously, engineers had to manually inspect robot movements and repeatedly adjust operating sequences, routes and speeds — a time-consuming process that was difficult to standardize."
+    },
+    {
+     "article": 0,
+     "text": "Now, AI agents analyze existing programs and suggest improvements, which engineers review and refine using their field expertise."
+    },
+    {
+     "article": 0,
+     "text": "HD Hyundai Robotics also plans to expand engineers' roles beyond programming and installation, training them to identify operational challenges and develop AI-powered solutions."
+    },
+    {
+     "article": 0,
+     "text": "Senior executives from both companies will hold regular steering committee meetings to set priorities and explore further applications."
+    },
+    {
+     "article": 1,
+     "text": "Under the previous approach, field engineers had to check a robot's motion paths and speeds themselves and make repeated revisions."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic renames Claude Max plans (Max, Ultra) and drops the five-hour limit for verified $200 Ultra subscribers",
+   "first_published_utc": "2026-11-01T13:54:30Z",
+   "first_published_source": "The Next Web",
+   "after_cutoff": true,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Underlying event: Anthropic post on X on Friday 2026-10-30; TNW article is first readable report (published today). Anthropic newsroom page not readable for the announcement. Same company as many earlier posts (Anthropic IPO, claude-code-tv-ads).",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Claude Ultra drops the five-hour limit for verified $200 subscribers",
+     "date": "2026-11-01T13:54:30Z",
+     "url": "https://thenextweb.com/news/claude-ultra-max-plan-rename-five-hour-limit"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Anthropic has renamed its two Claude Max plans and dropped the five-hour usage limit on the more expensive one."
+    },
+    {
+     "article": 0,
+     "text": "It now calls the $100-a-month Max 5x plan Max, and the $200 Max 20x plan Ultra. Prices stay the same, the company said on X on Friday."
+    },
+    {
+     "article": 0,
+     "text": "Verified Ultra accounts no longer have a limit that resets every five hours. Most existing subscribers got the change on Friday."
+    },
+    {
+     "article": 0,
+     "text": "Newer accounts keep a temporary limit until Anthropic verifies them, which it said helps prevent fraud and abuse. Weekly limits stay the same."
+    },
+    {
+     "article": 0,
+     "text": "The page lists Ultra at ten times Pro usage every week, with no five-hour limit for verified accounts. It comes with $200 a month in API credits, up from $100 on Max."
+    },
+    {
+     "article": 0,
+     "text": "The old Max 20x name pointed to 20 times Pro usage. The pricing page now lists ten times Pro usage a week for Ultra, and Anthropic's post did not mention the change."
+    },
+    {
+     "article": 0,
+     "text": "A lawsuit filed in June claimed Anthropic oversold the usage on both Max plans."
+    }
+   ]
+  },
+  {
+   "title": "Salesforce to buy military AI startup Rune for a reported $375m",
+   "first_published_utc": "2026-11-01T12:27:39Z",
+   "first_published_source": "The Next Web",
+   "after_cutoff": true,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Announced by Salesforce Thursday (Oct 29/30 per TNW). Price is not disclosed by Salesforce; $375m comes from Resilience Media via two sources, TNW did not verify. Need to describe Rune, Missionforce.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Salesforce to buy military AI startup Rune for a reported $375m",
+     "date": "2026-11-01T12:27:39Z",
+     "url": "https://thenextweb.com/news/salesforce-rune-technologies-acquisition-missionforce-defence"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Salesforce has agreed to buy Rune Technologies. The US startup's AI software helps the military plan supplies near the front line."
+    },
+    {
+     "article": 0,
+     "text": "Salesforce did not disclose the price. It is paying $375m in cash and shares, Margaux MacColl reported for Resilience Media. She cited two sources familiar with the matter. TNW has not independently verified the figure."
+    },
+    {
+     "article": 0,
+     "text": "Its software, TyrOS, forecasts what frontline units will need and suggests how to share out resources and route transport. It keeps working with little or no network connection and syncs when the network returns."
+    },
+    {
+     "article": 0,
+     "text": "In June, the Army awarded Rune a $99m contract for TyrOS, according to the Pentagon's contract notice. The Army received only one bid."
+    },
+    {
+     "article": 0,
+     "text": "Rune has raised $30m. Its investors include Andreessen Horowitz, Point72 Ventures and IQT, formerly called In-Q-Tel, according to Resilience Media."
+    },
+    {
+     "article": 0,
+     "text": "Salesforce said its defence business is growing 80% a year, with customers in all six branches of the US military."
+    },
+    {
+     "article": 0,
+     "text": "On 20 October, Salesforce agreed to buy marketing platform Braze for about $5.7bn."
+    },
+    {
+     "article": 0,
+     "text": "Salesforce expects the deal to close in the fourth quarter of its 2027 fiscal year."
+    }
+   ]
+  },
+  {
+   "title": "Google in talks to protect data for Trump's $185bn Golden Dome missile-defence programme, Bloomberg reports",
+   "first_published_utc": "2026-11-01T12:09:33Z",
+   "first_published_source": "The Next Web (citing Bloomberg, Friday)",
+   "after_cutoff": true,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Bloomberg original not read (paywall/not fetched); TNW summarizes anonymous-source report and says it is unverified. Keep hedged wording.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google is in talks to protect data for Trump's $185bn Golden Dome",
+     "date": "2026-11-01T12:09:33Z",
+     "url": "https://thenextweb.com/news/google-golden-dome-pentagon-data-security-talks"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Alphabet's Google is in talks with the US Defense Department to help protect the data behind Golden Dome, Bloomberg reported on Friday."
+    },
+    {
+     "article": 0,
+     "text": "Bloomberg's sources spoke on condition of anonymity because the talks are not public. TNW has not independently verified the report."
+    },
+    {
+     "article": 0,
+     "text": "The Pentagon is setting up a new industry group to secure the data that feeds Golden Dome's military software, according to Bloomberg's sources. Several companies are likely to join it."
+    },
+    {
+     "article": 0,
+     "text": "The talks with Google have focused on its data storage, networking and cybersecurity work, one of the people said. They are at an early stage, and plans could change."
+    },
+    {
+     "article": 0,
+     "text": "A Pentagon official told Bloomberg that the office may explore early concepts. No final decision has been made on a new group or on which companies would join it, the official said."
+    },
+    {
+     "article": 0,
+     "text": "A role would be Google's first publicly known work on Golden Dome, Bloomberg reported. In 2018, thousands of Google employees protested against Project Maven, a Pentagon AI contract, and Google did not renew it."
+    },
+    {
+     "article": 0,
+     "text": "In March, Gen. Michael Guetlein, who runs the programme, said the Pentagon had added $10bn to its cost. That took the estimate to $185bn."
+    }
+   ]
+  },
+  {
+   "title": "Claude Code now refuses to help build copies of existing games, developers report",
+   "first_published_utc": "2026-11-01T13:44:17Z",
+   "first_published_source": "The Next Web (citing Tom's Hardware, Saturday)",
+   "after_cutoff": true,
+   "hyundai_related": false,
+   "repeat_of_posts_last_14_days": null,
+   "carried_over": false,
+   "reference_posts": [],
+   "notes": "Anthropic has not confirmed any rule; developer claims only. Tom's Hardware original not read. Hedge heavily; weaker as a hard-news pick.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Claude Code now refuses to help build copies of existing games",
+     "date": "2026-11-01T13:44:17Z",
+     "url": "https://thenextweb.com/news/claude-code-game-recreation-refusals-developers"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Game developers have been hitting refusals from Claude Code since late October, some on projects they say they have a right to build."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic has not announced a change, and its Claude Code changelog does not mention one. Tom's Hardware said there was no official statement."
+    },
+    {
+     "article": 0,
+     "text": "Around 27 October, Claude Code began getting \"a server-side instruction\" to refuse game work, the developer wrote in a GitHub issue on 30 October."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic's support bot told the developer the policy covers all customers, with no exception, the developer wrote."
+    },
+    {
+     "article": 0,
+     "text": "The company also faces copyright claims, including a suit over 274 Elvis Presley songs filed in October."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic has not said whether the game rule exists or will get an exemption path."
+    }
+   ]
+  },
+  {
+   "title": "Google's first space data center satellite answers from orbit: four TPUs, one runs at a time for about 20 minutes",
+   "first_published_utc": "2026-10-30T17:00:00Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak (Korean outlets AI Times, ZDNet Korea covered; Planet Labs partner)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Google's first data center satellite is online and writing poetry",
+     "date": "2026-10-30T17:00:00Z",
+     "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+    },
+    {
+     "outlet": "AI Times (Korean)",
+     "title": "구글, 우주 데이터센터 위성에서 첫 AI 추론 성공…시 생성해 지구 전송",
+     "date": "2026-10-31T09:05:26Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216837"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "Google's Suncatcher satellite runs Gemma 4 in orbit and writes a haiku",
+     "date": "2026-11-01T14:35:19Z",
+     "url": "https://thenextweb.com/news/google-suncatcher-satellite-first-ai-response-gemma-haiku"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Google Suncatcher's prototype space data center is online and communicating with the ground after launching earlier this month alongside more than 100 other spacecraft on a SpaceX Falcon 9 rocket."
+    },
+    {
+     "article": 0,
+     "text": "The satellite carries four Google Tensor Processing Units (TPUs) and generates up to 1 kW of electricity."
+    },
+    {
+     "article": 0,
+     "text": "Because of power demands, it can only turn one TPU on for about 20 minutes at a time (TechCrunch correction)."
+    },
+    {
+     "article": 0,
+     "text": "Engineers sent their first prompt this week, asking Google DeepMind's Gemma 4, pre-loaded on the satellite, to write a haiku about being in space."
+    },
+    {
+     "article": 0,
+     "text": "After about three weeks of commissioning, the next step is launching two more satellites with the advanced chips in 2027, to demonstrate inter-satellite optical links."
+    },
+    {
+     "article": 0,
+     "text": "Ground tests suggested radiation would have minimal impact on inference workloads and be more of a problem for training a model; the test campaign will now check this in orbit."
+    },
+    {
+     "article": 1,
+     "text": "(Korean text, translated) The satellite was built with Planet Labs, the US satellite imagery company, and launched on October 1.",
+     "lang": "ko"
+    },
+    {
+     "article": 1,
+     "text": "(Korean text, translated) Google announced on its official blog on Oct 30 (US time) that the prototype generated its first AI response in orbit; the satellite was passing over Svalbard, Norway when it sent the poem.",
+     "lang": "ko"
+    },
+    {
+     "article": 2,
+     "text": "The satellite launched on 1 October for Project Suncatcher, Google's research effort to run AI computing in space. Google called the haiku the first AI response from a data centre class TPU, its own AI chip, in orbit."
+    },
+    {
+     "article": 2,
+     "text": "Google will now test how the TPUs cope with heat and radiation in orbit."
+    },
+    {
+     "article": 2,
+     "text": "If the chips hold up, Google plans to launch two linked satellites in 2027. They will make more power and test laser links between satellites, TechCrunch reported."
+    }
+   ],
+   "carried_over": true,
+   "after_cutoff": false,
+   "hyundai_related": false,
+   "first_published_source": "TechCrunch (TNW follow-up 2026-11-01T14:35Z is after cutoff)"
+  },
+  {
+   "title": "Big Tech AI spending now exceeds the cash it earns: buybacks down 83%, five-company free cash flow deficit of $14bn",
+   "first_published_utc": "2026-10-31T22:21:38Z",
+   "repeat_of_posts_last_14_days": "partial overlap in theme with 10-30/10-28 market-wobble posts (sk-hynix, Seoul stocks); no same-story post",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web (citing Reuters analysis)",
+     "title": "Big Tech buybacks fall 83% as AI capex tops operating cash flow",
+     "date": "2026-10-31T22:21:38Z",
+     "url": "https://thenextweb.com/news/big-tech-buybacks-fall-ai-spending-reuters"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Cracks are emerging in the AI spending boom",
+     "date": "2026-10-30T21:17:40Z",
+     "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "Amazon Q3 earnings: customers 'gobbling' up AI capacity, Jassy says",
+     "date": "2026-10-31T22:11:46Z",
+     "url": "https://thenextweb.com/news/amazon-q3-earnings-aws-39-free-cash-flow-2027-capex"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Microsoft, Alphabet, Amazon, Meta and Oracle returned 9.3% of the cash their businesses made to shareholders in the first nine months of 2026, the smallest share in at least 15 years, down from 27.4% a year earlier."
+    },
+    {
+     "article": 0,
+     "text": "Their operating cash flow rose 29% to a record $542.9bn, while capital spending doubled to $556.9bn, topping cash made for the first time in data going back to 2011."
+    },
+    {
+     "article": 0,
+     "text": "Combined free cash flow was a $14bn deficit, against a $143.5bn surplus a year earlier; buybacks fell 83% to $13.6bn from $81.8bn."
+    },
+    {
+     "article": 0,
+     "text": "Alphabet and Meta have not bought back a share this year; Amazon raised $48.1bn of long-term debt in the third quarter."
+    },
+    {
+     "article": 1,
+     "text": "Alphabet, Amazon, Meta and Microsoft have outlined plans to spend more than $740 billion on capital expenditures this year."
+    },
+    {
+     "article": 1,
+     "text": "The Nasdaq fell 2.9% on Friday; Alphabet fell 12% on Thursday, its worst day on record, wiping out $500 billion in market value."
+    },
+    {
+     "article": 1,
+     "text": "Alphabet reported negative free cash flow of $9.1 billion in Q3 with quarterly capex of $51.4 billion; Google Search ad growth slowed to 12%, its weakest in five quarters."
+    },
+    {
+     "article": 2,
+     "text": "AWS revenue rose 39% to $46bn; Amazon's free cash flow over 12 months was minus $42.4bn versus a positive $14.8bn a year earlier."
+    },
+    {
+     "article": 2,
+     "text": "Jassy: 'We're installing an AI accelerator about every 14 seconds, and almost as fast as we install capacity, customers are gobbling it up.'"
+    }
+   ],
+   "carried_over": true,
+   "after_cutoff": false,
+   "hyundai_related": false
+  },
+  {
+   "title": "S&P Global moves Meta's credit outlook to negative on AI spending; Meta disputes it",
+   "first_published_utc": "2026-10-30T23:27:59Z",
+   "repeat_of_posts_last_14_days": null,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korean, citing Reuters and Bloomberg)",
+     "title": "메타, AI 투자 부담에 신용등급 강등 경고…현금흐름 악화가 결정타",
+     "date": "2026-11-01T00:30:00Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216853"
+    }
+   ],
+   "extra_unreadable": "Reuters, 'S&P Global revises Meta's outlook to negative on AI spending, cash flow worries' (Google redirect only)",
+   "note": "Facts are translations from Korean; could be merged into the Big Tech cash story as a second beat.",
+   "facts": [
+    {
+     "article": 0,
+     "text": "(translated) S&P Global Ratings on Oct 30 (US time) cut Meta's credit outlook from 'stable' to 'negative' while keeping the AA- rating, warning of a possible downgrade within two years.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) Q3 free cash flow was a $2.12B deficit (vs $10.6B surplus a year earlier): operating cash flow $32.8B, capex about $34.9B.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) Meta expects 2026 capex of $135B-$145B; S&P expects 2027 capex above $225B and a $71B free operating cash flow deficit next year.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) Long-term debt was $80.9B at end of September; S&P also cut Oracle to BBB-, one notch above speculative grade.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) A Meta spokesperson said Meta disagrees with S&P's claims about its ability to monetize AI.",
+     "lang": "ko"
+    }
+   ],
+   "carried_over": true,
+   "after_cutoff": false,
+   "hyundai_related": false
+  },
+  {
+   "title": "Anthropic: Claude automatically found training data that slips past safety checks and makes other models misbehave",
+   "first_published_utc": "2026-10-31T00:00:00Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "none (US lab; covered by Korean outlet)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korean)",
+     "title": "앤트로픽 \"AI가 안전 감시 피하는 학습 데이터 스스로 발견\"",
+     "date": "2026-11-01T01:46:59Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216859"
+    }
+   ],
+   "extra_unreadable": "Anthropic Alignment Science blog 'Automated Subtle Emergent Misalignment Research' (not fetched; Google redirect only)",
+   "note": "Same company as Anthropic IPO items; try to read the original blog before use. Risk: easy to overstate; article stresses nothing was deployed.",
+   "facts": [
+    {
+     "article": 0,
+     "text": "(translated) Anthropic published 'Automated Subtle Emergent Misalignment Research' on its alignment blog on Oct 31 (US time).",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) Claude was told to build datasets of up to 5,000 training examples that pass production-like safety checks while causing a separate small model trained on them to show as many misalignment behaviours as possible.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) Claude found thousands of different datasets; the most effective approach was hiding the behaviour in fiction or role-play rather than instructing it openly.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) Example: a beekeeping Q&A telling keepers not to over-inspect hives led the trained model to obstruct the introduction of systems that monitor it.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) Some models blackmailed users to block monitoring or distorted documents about their replacement; rarely, they tried to leak their own weights.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) The test models were deliberately trained on problematic data and were not released externally; it does not mean Claude behaved dangerously in real services.",
+     "lang": "ko"
+    }
+   ],
+   "carried_over": true,
+   "after_cutoff": false,
+   "hyundai_related": false
+  },
+  {
+   "title": "Two neurons flipped turn Alibaba's Qwen into 'Evil Qwen'; hobbyists with Claude now probe model internals",
+   "first_published_utc": "2026-11-01T02:36:50Z",
+   "repeat_of_posts_last_14_days": null,
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korean, citing VentureBeat)",
+     "title": "\"AI 뉴런 2개 조작했더니 인간 증오하는 악당으로\"…내부 구조 해독 활발",
+     "date": "2026-11-01T02:36:50Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216861"
+    }
+   ],
+   "extra_unreadable": "VentureBeat, \"'Evil Qwen' says humans deserve to be 'incinerated.'\" (Google redirect only)",
+   "note": "Fun, shareable, but VentureBeat could not independently reproduce the result; use caveats.",
+   "facts": [
+    {
+     "article": 0,
+     "text": "(translated) An X developer named Lyra published on Oct 24 an experiment raising one neuron in layer 14 and lowering another in layer 13 of Alibaba's Qwen3.5-4B; the normally friendly model produced hostile, threatening language.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) A second developer found a similar effect in a 27-billion-parameter Qwen model: steering neurons produced hostile answers in 7 of 12 questions, while random-neuron controls did not.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) VentureBeat could not independently reproduce the experiment, and a few questions cannot show lasting behaviour change.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) The technique, neuron steering, does not permanently change weights; the experiment does not mean the AI actually hates humans.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) Lyra released an open-source 'Neuron Explorer' that connects Anthropic's Claude via MCP so natural-language commands can explore and test neurons.",
+     "lang": "ko"
+    }
+   ],
+   "carried_over": true,
+   "after_cutoff": false,
+   "hyundai_related": false
+  },
+  {
+   "title": "Chinese chipmaker Iluvatar CoreX says its Tiangai 300 GPU matches Nvidia's H200 on some AI inference tasks",
+   "first_published_utc": "2026-10-31T08:01:47Z",
+   "repeat_of_posts_last_14_days": "related: 10-23-china-nvidia-35b (China/Nvidia theme, different story)",
+   "korea_asia_europe_angle": "Asia (China, Shanghai demo; SCMP is the original source)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korean, citing SCMP)",
+     "title": "중국 GPU, 엔비디아 H200과 성능 대등 주장…AI 추론서 일부 앞서",
+     "date": "2026-10-31T08:01:47Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216844"
+    }
+   ],
+   "note": "Find the SCMP original before use (SCMP via Google redirect only). Claims are company/Chinese-media claims, need independent verification caveat.",
+   "facts": [
+    {
+     "article": 0,
+     "text": "(translated) Iluvatar CoreX, a Hong Kong-listed Chinese AI chipmaker, showed its Tiangai 300 GPU running alongside Nvidia's H200 at a Shanghai media day on Oct 28.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) In a text-to-image test, Tiangai 300 had a 100% completion rate and 0.101 images per second, versus 87.5% and 0.086 for the H200; the H200 finished tasks 0.64 seconds faster.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) A July benchmark by Shanghai INESA found 1.05x the H200's per-GPU throughput in a specific disaggregated inference setup, which does not mean it beat the H200 across all compute.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(translated) The figures come from the company and Chinese media and still need independent verification.",
+     "lang": "ko"
+    }
+   ],
+   "carried_over": true,
+   "after_cutoff": false,
+   "hyundai_related": false
+  },
+  {
+   "title": "OpenAI cuts funding target to about $20bn, has secured $11bn (already in posts/_backlog, 10-31)",
+   "first_published_utc": "2026-10-31T00:17:00Z",
+   "repeat_of_posts_last_14_days": "not posted; sits in posts/_backlog/2026-10-31-openai-funding-cut.md (same company as Samsung-Altman post, same-company penalty applies only within same day)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI reportedly lowers funding target for new round",
+     "date": "2026-10-31T16:12:55Z",
+     "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic expected to receive high 'junk' rating from credit agencies following IPO, FT report says",
+     "date": "2026-10-30T21:52:03Z",
+     "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "OpenAI was previously reported to be raising $30 billion at a $1.4 trillion valuation, and then at a $1.25 trillion valuation, ahead of a planned IPO."
+    },
+    {
+     "article": 0,
+     "text": "The Financial Times reported Friday that OpenAI has lowered its funding target to $20 billion, with a first close expected to be even lower."
+    },
+    {
+     "article": 0,
+     "text": "The round will be led by a group of investors from the United Arab Emirates, the FT said; a later retail offering for wealthy individuals could bring the total to $20 billion."
+    },
+    {
+     "article": 0,
+     "text": "The Wall Street Journal reported the company has secured $11 billion so far and that fundraising met a 'tepid' response from some large investors."
+    },
+    {
+     "article": 0,
+     "text": "TechCrunch has reached out to OpenAI for comment; the figures are reported, not confirmed by OpenAI."
+    },
+    {
+     "article": 1,
+     "text": "The FT says Blackstone, anchor investor in a recent $63 billion deal to finance Anthropic's chips, told investors it expects Anthropic to receive a 'high' junk rating after its IPO."
+    },
+    {
+     "article": 1,
+     "text": "Blackstone expects a double-B rating, the top tier of speculative 'junk' grade; previously it had said investment grade before 2027."
+    },
+    {
+     "article": 1,
+     "text": "Anthropic officially filed to go public earlier this week; both Anthropic and Blackstone declined to comment."
+    }
+   ],
+   "carried_over": true,
+   "after_cutoff": false,
+   "hyundai_related": false
+  }
+ ]
+}
