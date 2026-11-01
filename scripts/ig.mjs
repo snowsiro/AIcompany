@@ -303,6 +303,34 @@ async function metrics(out, days = 14) {
   if (posts.length && failed === posts.length) throw new Error("no post insights could be read (check instagram_manage_insights on the token)");
 }
 
+// "Outlier multiple": how far a post beat its own account's usual post, the idea behind /ig-viral in
+// github.com/Jakeschincariol/instagram-agent-skill (MIT). business_discovery gives no views for other
+// accounts, so the measure is likes + comments (comments only when the account hides likes).
+// The baseline is the median over the account's last 25 posts. Posts under a day old are still
+// collecting, so their multiple understates; 3x+ is a signal, under 1.5x is noise.
+function median(xs) {
+  if (!xs.length) return null;
+  const s = [...xs].sort((a, b) => a - b), mid = s.length >> 1;
+  return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
+}
+function engagementBaseline(media) {
+  const both = media.filter(m => m.like_count != null && m.comments_count != null);
+  const comments = media.filter(m => m.comments_count != null);
+  return {
+    posts: media.length,
+    median_engagement: median(both.map(m => m.like_count + m.comments_count)),
+    median_comments: median(comments.map(m => m.comments_count)),
+  };
+}
+function outlierMultiple(m, baseline) {
+  const round = x => Math.round(x * 10) / 10;
+  if (m.like_count != null && m.comments_count != null && baseline.median_engagement > 0)
+    return { multiple: round((m.like_count + m.comments_count) / baseline.median_engagement), multiple_basis: "likes+comments" };
+  if (m.comments_count != null && baseline.median_comments > 0)
+    return { multiple: round(m.comments_count / baseline.median_comments), multiple_basis: "comments" };
+  return { multiple: null, multiple_basis: null };
+}
+
 function referenceAccounts() {
   const yaml = readFileSync("config/sources.yaml", "utf8");
   const block = yaml.split(/^reference_accounts:/m)[1].split(/\n\S/)[0];
@@ -319,14 +347,17 @@ async function scan(out, hours = 48) {
   for (const username of referenceAccounts()) {
     try {
       const fields = `business_discovery.username(${username}){username,followers_count,` +
-        `media.limit(15){caption,timestamp,like_count,comments_count,permalink,media_type}}`;
+        `media.limit(25){caption,timestamp,like_count,comments_count,permalink,media_type}}`;
       const { business_discovery: bd } = await call("GET", `/${IG_USER_ID}`, { fields });
-      const posts = (bd.media?.data || []).filter(m => Date.parse(m.timestamp) >= since).map(m => ({
+      const media = bd.media?.data || [];
+      const baseline = engagementBaseline(media);
+      const posts = media.filter(m => Date.parse(m.timestamp) >= since).map(m => ({
         timestamp: m.timestamp, url: m.permalink, type: m.media_type,
         likes: m.like_count ?? null, comments: m.comments_count ?? null,
+        ...outlierMultiple(m, baseline),
         caption_start: (m.caption || "").replace(/\s+/g, " ").trim().slice(0, 280),
       }));
-      accounts.push({ username, followers: bd.followers_count, ok: true, posts });
+      accounts.push({ username, followers: bd.followers_count, ok: true, baseline, posts });
     } catch (err) {
       accounts.push({ username, ok: false, error: err.message, posts: [] });
     }

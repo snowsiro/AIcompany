@@ -14,4 +14,9 @@ Every Monday:
 6. Weekly roundups (`kind: "weekly"`, category WEEKLY) are reported in their own section and left out of the post ranking
    and the hook-type comparison. Compare each roundup Reel's average watch time and reach with the median of that week's
    single-post Reels (PRD `ops/prd/2026-10-26-weekly-roundup.md`, section 4); numbers only, and say the sample is small.
-7. Write `ops/weekly/<date>.md`: what worked (hook pattern, category, posting hour), what did not, and at most 3 changes to try.
+7. Add a table of every single post (carousel and Reel rows apart) with: reach, **multiple** (reach / the median reach of
+   our same-format posts in the last 14 days), shares / reach and follows / reach. Sort by multiple, then shares / reach.
+   A share is the strongest signal a post can earn; raw reach mostly follows posting time and follower count. Rule 2
+   still holds: under 20 posts, show the table and draw no conclusion. (Idea from /ig-audit in
+   github.com/Jakeschincariol/instagram-agent-skill, MIT.)
+8. Write `ops/weekly/<date>.md`: what worked (hook pattern, category, posting hour), what did not, and at most 3 changes to try.
