@@ -39,7 +39,7 @@
       "kicker": "The deal",
       "title": "A record loan for GPUs",
       "body": [
-        "KB Kookmin Bank won the mandate to lead a **₩10.7T (about $8B)** syndicated loan, one that several lenders fund jointly. The bank called it South Korea's first GPU financing and its largest-ever syndicated loan arrangement."
+        "KB Kookmin Bank won the mandate to lead a **₩10.7T (about $8B)** syndicated loan, one that several lenders fund jointly. The bank called it South Korea's first GPU financing and the country's largest syndicated loan arrangement to date."
       ]
     },
     {
@@ -60,7 +60,7 @@
       "kicker": "Who pays",
       "title": "Naver backs the payments",
       "body": [
-        "Naver Cloud will operate the AI factory and sell computing services. Naver guaranteed Naver Cloud's **payment obligations**, with a nominal cap of ₩18.74T. The guarantee does not cover the syndicated loan itself."
+        "Naver Cloud will operate the AI factory and sell computing services. Naver guaranteed Naver Cloud's **payment obligations**, with a nominal cap of ₩18.74T, about $14B. The guarantee does not cover the syndicated loan itself."
       ]
     },
     {
@@ -81,7 +81,7 @@
   "facts": [
     {
       "source": 0,
-      "text": "KB Kookmin Bank has secured a mandate to lead a 10.7 trillion won ($8 billion) syndicated loan for a Brookfield-backed AI computing infrastructure project that will supply Naver Cloud. The bank called it South Korea's first GPU financing and largest-ever syndicated loan arrangement. The gloss 'one that several lenders fund jointly' follows source 1's definition of a syndicated loan (multiple financial institutions jointly lend large sums)."
+      "text": "KB Kookmin Bank has secured a mandate to lead a 10.7 trillion won ($8 billion) syndicated loan for a Brookfield-backed AI computing infrastructure project that will supply Naver Cloud. The bank called it South Korea's first GPU financing and largest syndicated loan arrangement in the country to date (source 1's wording). The gloss 'one that several lenders fund jointly' follows source 1's definition of a syndicated loan (multiple financial institutions jointly lend large sums)."
     },
     {
       "source": 1,
@@ -101,7 +101,7 @@
     },
     {
       "source": 0,
-      "text": "Naver Cloud will operate the AI factory and sell computing services to customers. Naver guaranteed Naver Cloud's payment obligations under the project contracts, with the nominal guarantee capped at 18.74 trillion won assuming full use of the $9 billion investment limit. The guarantee does not cover the syndicated loan itself. The article gives no dollar conversion for 18.74 trillion won."
+      "text": "Naver Cloud will operate the AI factory and sell computing services to customers. Naver guaranteed Naver Cloud's payment obligations under the project contracts, with the nominal guarantee capped at 18.74 trillion won assuming full use of the $9 billion investment limit. The guarantee does not cover the syndicated loan itself. The article gives no dollar conversion for 18.74 trillion won; about $14B uses the articles' own rate of 10.7 trillion won = $8 billion (18.74/10.7*8 = 14.0)."
     },
     {
       "source": 0,
@@ -126,7 +126,7 @@
       "url": "https://www.digitaltoday.co.kr/en/view/122261/kb-kookmin-bank-arranges-south-koreas-first-gpu-financing-107-trillion-won-loan"
     }
   ],
-  "caption": "KB Kookmin Bank is set to lead a ₩10.7T (about $8B) loan to buy GPUs for Naver Cloud.\n\nThe bank called it South Korea's first GPU financing and its largest-ever syndicated loan. Brookfield will own the chips through a new company and supply them to Naver Cloud under a long-term deal.\n\n→ Naver guaranteed Naver Cloud's payment obligations, but the guarantee does not cover the loan itself\n→ Other lenders are participating, but the group and loan terms are not disclosed\n→ Earlier media reports said lenders will weigh Naver Cloud's ability to pay, as GPU resale value is hard to predict\n\nWould you lend against a data center full of GPUs?\n\nSource: The Korea Herald, Nov 1, 2026; Digital Today, Nov 1, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "KB Kookmin Bank is set to lead a ₩10.7T (about $8B) loan to buy GPUs for Naver Cloud.\n\nThe bank called it South Korea's first GPU financing and the country's largest syndicated loan arrangement to date. Brookfield will own the chips through a new company and supply them to Naver Cloud under a long-term deal.\n\n→ Naver guaranteed Naver Cloud's payment obligations, but the guarantee does not cover the loan itself\n→ Other lenders are participating, but the group and loan terms are not disclosed\n→ Earlier media reports said lenders will weigh Naver Cloud's ability to pay, as GPU resale value is hard to predict\n\nWould you lend against a data center full of GPUs?\n\nSource: The Korea Herald, \"KB Kookmin to lead record W10.7tr loan for Naver AI project\", Nov 1, 2026; Digital Today, \"KB Kookmin Bank arranges South Korea's first GPU financing, 10.7 trillion won loan\", Nov 1, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#Naver",
