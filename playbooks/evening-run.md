@@ -35,6 +35,9 @@ Today is {{date}} (Vienna time). Run these steps in order, using the subagents i
    the three verdicts in the body. Aim for ready by 20:30.
 9. **Merge and post.** If the post is ready, check every number, name, date and quote once more against the article text
    (`node scripts/article.mjs <url>`), then merge the PR yourself (squash or merge commit, never force-push main).
+   - Wait for the PR's `render` check to finish green first (about 4 minutes), and merge only after its
+     `render: update slides [skip ci]` commit is on the PR. That commit adds `reel.mp4`; merging earlier leaves the post
+     without a Reel (2026-11-01: merged 9 seconds after the check started, so the Reel never reached main).
    - Merged before 20:57: done. The 20:57 publish start posts it.
    - Merged between 20:57 and 23:00 Vienna: start the publish workflow yourself (GitHub tool `actions_run_trigger`,
      method `run_workflow`, workflow `publish.yml`, ref `main`, no inputs). Its 3-hour guard prevents a double post.
