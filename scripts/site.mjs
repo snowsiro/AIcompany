@@ -22,8 +22,13 @@ const posts = readdirSync("posts")
   .filter(p => p.status === "published" && p.permalink && p.kind !== "weekly")
   .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : b.dir.localeCompare(a.dir)));
 
-const viennaDate = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Vienna" });
-const weekAgo = new Date(Date.parse(viennaDate) - 6 * 864e5).toISOString().slice(0, 10);
+// The digest goes out on Sunday and covers the Sunday-to-Saturday week that ended yesterday, so consecutive sends
+// never overlap or skip a day, whatever day the site happens to be rebuilt (GitHub's schedule runs late here).
+const today = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Vienna" });
+const dayMs = 864e5, todayMs = Date.parse(today); // UTC midnight of the Vienna date
+const lastSat = todayMs - (((new Date(todayMs).getUTCDay() + 1) % 7) || 7) * dayMs; // latest Saturday before today
+const viennaDate = new Date(lastSat).toISOString().slice(0, 10);
+const weekAgo = new Date(lastSat - 6 * dayMs).toISOString().slice(0, 10);
 const week = posts.filter(p => p.date >= weekAgo && p.date <= viennaDate);
 
 const css = `
