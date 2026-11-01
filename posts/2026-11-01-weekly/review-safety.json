@@ -1,0 +1,6 @@
+{
+  "pass": false,
+  "issues": [
+    "threads_caption does not credit any original outlet: \"This week in AI: 7 stories from around the world. Sources on each card.\" names no outlet. The weekly exception in CLAUDE.md covers the slides (\"Sources are on each card.\") and the main caption (full source list), not threads_caption. Fix: name at least the lead outlets in threads_caption, for example by adding \"Lead story: Korea JoongAng Daily, BleepingComputer, ZDNet Korea.\" or a short list of all outlets, within the Threads length limit."
+  ]
+}
