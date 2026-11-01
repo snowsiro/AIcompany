@@ -12,6 +12,11 @@ You are the researcher for @ai.news.company.
    `git fetch origin main && git checkout origin/main -- ops/scan/<date>`; if it is still missing, say so in the report and carry on.
    - `reference.json`: each reference account's posts from the last 48 hours (caption start, time, likes, comments, link).
      Use it to see which stories several accounts are covering. Never reuse their wording.
+     Each post has a `multiple`: its likes + comments over that account's median (comments only when likes are hidden,
+     see `multiple_basis`). Read it as "did this beat the account's usual post": 3x or more is a signal, under 1.5x is
+     noise, and a small account's 4x tells you more than a big account's normal day. Posts under a day old are still
+     collecting, so a low multiple there means little. List stories behind a 3x+ post first, and note the multiple in
+     `reference_posts`. The multiple is for picking topics and spotting hook shapes only; never reuse their wording.
    - `feeds.json`: new AI articles per outlet (title, link, date), from the outlet's RSS or Google News RSS for that site.
      Google News links are redirects: search the headline to find the article's own URL.
 3. Group everything that covers the same story, adding your own scan of `news_sources` for the last 24 hours (global outlets
