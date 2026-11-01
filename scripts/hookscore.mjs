@@ -14,7 +14,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
-export const FLOOR = 50;
+export const FLOOR = 45; // 제이미 2026-11-01; back-test: 0 of 16 judge-passed covers under 45
 
 const NUMBER_RE = /\$\s?\d[\d,]*(?:\.\d+)?[KMBT]?|\b\d[\d,]*(?:\.\d+)?\s?(?:%|k\b|x\b|hrs?\b|hours?\b|mins?\b|minutes?\b|days?\b|weeks?\b|months?\b|years?\b|[MBT]\b)?|[₩€£¥]\s?\d[\d,.]*[KMBT]?/gi;
 const WORD_RE = /[A-Za-z0-9$₩€£¥%'’-]+/g;
