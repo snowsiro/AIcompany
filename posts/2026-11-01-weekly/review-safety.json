@@ -1,6 +1,6 @@
 {
-  "pass": false,
+  "pass": true,
   "issues": [
-    "threads_caption does not credit any original outlet: \"This week in AI: 7 stories from around the world. Sources on each card.\" names no outlet. The weekly exception in CLAUDE.md covers the slides (\"Sources are on each card.\") and the main caption (full source list), not threads_caption. Fix: name at least the lead outlets in threads_caption, for example by adding \"Lead story: Korea JoongAng Daily, BleepingComputer, ZDNet Korea.\" or a short list of all outlets, within the Threads length limit."
+    "Non-blocking note: threads_caption names outlets only for the lead story (Korea JoongAng Daily, BleepingComputer, ZDNet Korea) and points to the cards for the other six. CLAUDE.md gives the weekly roundup an exception for full sources on cards and in the caption, and the main caption lists every source, so this passes. Consider adding the other outlets if space allows."
   ]
 }
