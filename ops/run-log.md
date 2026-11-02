@@ -2,6 +2,22 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-02
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 유로 금액(€225bn)은 기사에 환율이 없어 달러 환산 없이 유로로만 씀. 마음에 안 들면 환율을 정해 주세요
+2. 단일 글 출처가 The Next Web 1곳뿐 (Reuters 인용). OpenAI 뉴스룸, Reuters 원문은 읽지 못함
+3. 후보 중 Anthropic S-1 기사의 9개월 순손실 "$104bn"이 분기 $23.3bn과 맞지 않아 수치를 쓰지 않음
+4. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버를 생성함 (이전 런과 동일)
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음 (아침 글 korea-oct-exports-record published)
+- 후보 20개 (새 이야기 10, 아침에서 이월 10)
+- 주제: 메르츠 독일 총리 "AI 자립은 실존적 문제" (EUROPE, POLICY). 10점 (전 세계 3 + 숫자 2 + 유럽 3 + 신선도 2). id `2026-11-02-merz-ai-sovereignty`
+  - 첫 보도 17:52 UTC (The Next Web), 약 19:30 Vienna에 ready, 기사 나이 약 1시간 반. 아침 글과 다른 회사, 다른 매체
+  - 예비 주제 2건을 `posts/_backlog/`에 추가: Marvell-Lumentum $115B, OpenAI Grid Protectors
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6: 아침 2 + 저녁 2). 사람·글자 없음
+- 검수 1차: fact-checker 불합격 (메르츠 인용에 기사의 의역이 섞임, 캡션 "AI independence" 표현), hook-judge 통과 7/10, brand-safety 통과. writer 수정 후 2차 전원 통과. 되돌림 1회
+
 ## [아침 보고] 2026-11-02
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11/01) 도달 8 · 팔로워 2 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 php-ai-flaws (108)
