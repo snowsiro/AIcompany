@@ -2,7 +2,7 @@
   "id": "2026-11-02-merz-ai-sovereignty",
   "date": "2026-11-02",
   "category": "POLICY",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "notes": "The article gives euro amounts only and no exchange rate, so the post uses EUR with no dollar conversion (CLAUDE.md asks for dollars; no rate was invented). The EUR 225bn pledges and the 2030 compute target are Germany's per the economy ministry; the article gives no pledger breakdown, period, or baseline for the 4x target. The Ifo findings are not linked to the conference in the article, so the post does not imply Merz responded to them. Single source (TNW citing Reuters); Politico Europe not fetched.",
   "cover": {
@@ -112,5 +112,9 @@
     "#AISovereignty",
     "#EuropeAI"
   ],
-  "threads_caption": "Germany's chancellor Friedrich Merz called digital sovereignty \"a truly existential question\" and said Germany must build its own AI faster.\n\nPledges worth more than €225bn were joined by firms incl. Amazon and Nvidia, per the economy ministry. Germany's Ifo institute says it is still not ready to benefit fully.\n\nSource: The Next Web, \"Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly\". #AISovereignty"
+  "threads_caption": "Germany's chancellor Friedrich Merz called digital sovereignty \"a truly existential question\" and said Germany must build its own AI faster.\n\nPledges worth more than €225bn were joined by firms incl. Amazon and Nvidia, per the economy ministry. Germany's Ifo institute says it is still not ready to benefit fully.\n\nSource: The Next Web, \"Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly\". #AISovereignty",
+  "published_id": "17921660307244989",
+  "permalink": "https://www.instagram.com/p/DfQHP1Jmssk/",
+  "threads_id": "17960642394012644",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfQHWcFm0mr"
 }
