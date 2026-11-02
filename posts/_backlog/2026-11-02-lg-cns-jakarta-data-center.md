@@ -1,0 +1,3 @@
+# Backlog: LG CNS completes 30 MW AI data center in Jakarta (KOREA/ASIA, INDUSTRY), score 8
+Sources: The Korea Times, "LG CNS completes 30-MW AI data center in Indonesia", 2026-11-02, https://www.koreatimes.co.kr/business/companies/20261102/lg-cns-completes-30-mw-ai-data-center-in-indonesia ; The Korea Herald (Yonhap) https://www.koreaherald.com/article/10922642
+Facts: first Korean firm to build an overseas AI data center for a local client; full capacity pre-sold; client KMG (JV of Sinar Mas Group, Indonesian conglomerate, and Korea Investment Real Asset Management); >300 kW per rack (about 60x typical); next phase 400 MW; expansion to Malaysia, Thailand, Vietnam, Philippines, Japan. Do NOT use the 100B won contract value. Explain LG CNS and Sinar Mas in one line.
