@@ -1,0 +1,529 @@
+{
+ "date": "2026-11-02",
+ "run": "morning",
+ "note": "Monday. IG token absent; reference.json used (multiples mostly noise; 3x+ posts: mktg.with.ai 21.2x Noryangjin fish-market marketing story, prompt_what 5.5x umbrella animation, ai_freaks.kr 4.8x Rikyu logo tool, ai.trend.kr weekly recap 2.9x - all tutorials/viral, no hard-news overlap, none listed). Hard-news overlap in reference: Gemini Notebook free textbooks (trenddalkak 2.2x, AI Times 11-01; not fetched/readable original, not included). Dropped for no readable original: Yonhap (403), SCMP (403, used TNW instead), Reuters (Google redirect only: Korea exports/Lee budget/Australian outback data centre/China robots), Verge/Ars (empty feeds), Euractiv/Tech.eu/DeepL/JoongAng feeds failed. Reuters EXCLUSIVE on Australian outback data centre and Nikkei items (Japan AI dubbing, yen bonds, nuclear reactors on AI demand) not fetched. Ranked order below: Korea first. No story is a repeat of posts/ in last 14 days; Korea-exports and Lee-budget are adjacent to 10-18 IMF and 10-01 posts but new facts.",
+ "stories": [
+  {
+   "title": "Korea's October exports hit a record $115.3B, up 93.7%, as chips hit $56.4B on AI demand",
+   "first_published_utc": "2026-10-31T23:57:00Z (Korea Herald/Yonhap 2026-11-01 09:57 KST)",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (Korea)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Herald (Yonhap)",
+     "title": "S. Korea's monthly exports hit $115.3b in Oct. on strong chip sales",
+     "date": "2026-11-01T00:57:00Z",
+     "url": "https://www.koreaherald.com/article/10921544"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "South Korea's exports jumped 93.7 percent to a record $115.3 billion in October from a year earlier, driven largely by a sharp increase in semiconductor shipments."
+    },
+    {
+     "article": 0,
+     "text": "The Ministry of Trade, Industry and Resources said strong global demand for chips and continued investments by major tech companies in AI infrastructure boosted exports."
+    },
+    {
+     "article": 0,
+     "text": "Semiconductor exports skyrocketed 259 percent from a year earlier to $56.4 billion in October."
+    },
+    {
+     "article": 0,
+     "text": "Imports rose 36 percent to $72.78 billion, leaving a trade surplus of $42.5 billion."
+    },
+    {
+     "article": 0,
+     "text": "Cumulative exports for January-October exceeded $900 billion for the first time; the ministry projects annual exports could reach $1 trillion as early as November."
+    },
+    {
+     "article": 0,
+     "text": "Shipments to the United States surged 185.8 percent to $24.9 billion, supported by demand for semiconductors, computers and electrical equipment used in AI infrastructure."
+    },
+    {
+     "article": 0,
+     "text": "Exports to China soared 133.6 percent to $26.98 billion; exports to the EU rose 56.4 percent to $8.1 billion."
+    }
+   ],
+   "note": "Reuters/Nikkei Asia versions exist (Reuters unreadable via Google redirect; Nikkei URL https://asia.nikkei.com/economy/trade/south-korea-exports-nearly-double-in-october-on-ai-investment-boom not fetched). Dropped as no-text yesterday, now readable. posts/2026-10-18-imf-korea-ai-chips touches Korea chip exports but is a different story."
+  },
+  {
+   "title": "Lee pledges 'bold' AI investment in record 2027 budget: 21.3T won (about $16B) for chips, physical AI and AI data centers",
+   "first_published_utc": "2026-11-02T01:48:14Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (Korea)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Herald (Yonhap)",
+     "title": "Lee vows bold investment in AI, future growth engines for 'growth for all'",
+     "date": "2026-11-02T01:48:14Z",
+     "url": "https://www.koreaherald.com/article/10922482"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "President Lee Jae Myung on Monday pledged bold investment in AI and other future growth engine industries, in a speech at the National Assembly calling for bipartisan support for the 2027 budget bill."
+    },
+    {
+     "article": 0,
+     "text": "The government proposed 820.9 trillion won ($614.5 billion) in total spending next year, up more than 10 percent, amid expectations of higher tax revenue from the semiconductor boom."
+    },
+    {
+     "article": 0,
+     "text": "Lee said total 2027 expenditures represent a 12.8 percent increase, the biggest annual growth on record."
+    },
+    {
+     "article": 0,
+     "text": "The government will inject 21.3 trillion won into a semiconductor manufacturing hub and data centers, physical AI and AI promotion under its 'three megaprojects'."
+    },
+    {
+     "article": 0,
+     "text": "A separate 4.6 trillion won allocation will go toward acquiring a sovereign AI model with the world's highest performance."
+    },
+    {
+     "article": 0,
+     "text": "13.8 trillion won will be spent on 10 strategic technology sectors expected to spearhead future growth."
+    },
+    {
+     "article": 0,
+     "text": "The government plans to establish a 160 trillion-won Future Fund for younger generations, growth engines and regional development."
+    },
+    {
+     "article": 0,
+     "text": "'In order to boost the growth potential ... (the government) will boldly invest in AI and future growth engines,' Lee said."
+    }
+   ],
+   "note": "Reuters also covered ('South Korea's Lee vows to make bold AI investment in record budget push', unreadable). Korea Times: https://www.koreatimes.co.kr/southkorea/politics/20261102/president-highlights-growth-fund-as-he-seeks-parliamentary-backing-for-record-budget (not fetched). Related earlier post: 2026-10-01-korea-ai-for-all (different angle)."
+  },
+  {
+   "title": "8 in 10 Korean judges have seen AI-invented legal precedents; 164 judges say they cited false ones themselves",
+   "first_published_utc": "2026-11-02T03:27:04Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (Korea)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "About 80% of Korean judges encounter AI-generated fake legal precedents: survey",
+     "date": "2026-11-02T03:27:04Z",
+     "url": "https://www.koreatimes.co.kr/southkorea/20261102/about-80-of-korean-judges-encounter-ai-generated-fake-legal-precedents-survey"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "A Supreme Court survey of 360 judges conducted Oct. 6-16, released Monday, found about 80 percent had experienced cases where false or nonexistent precedents were cited."
+    },
+    {
+     "article": 0,
+     "text": "196 judges, or 80.7 percent, said they had seen citations of nonexistent legal precedents; 159 judges, or 65.4 percent, had encountered false precedents."
+    },
+    {
+     "article": 0,
+     "text": "164 judges said they themselves have cited false precedents; 136 judges, or 57.6 percent, said lawyers representing parties had cited false precedents or other information."
+    },
+    {
+     "article": 0,
+     "text": "41 judges, or 16.9 percent, saw false or nonexistent laws and regulations cited; 10 judges, or 4.1 percent, saw false theses and publications."
+    },
+    {
+     "article": 0,
+     "text": "Nearly 92 percent of respondents said institutional measures are needed, such as legal grounds for fines, verification requirements and disciplinary measures for lawyers who repeatedly cite false information."
+    },
+    {
+     "article": 0,
+     "text": "An official at the National Court Administration said such citations may delay court proceedings."
+    },
+    {
+     "article": 0,
+     "text": "The survey covered judges in charge of civil, family and administrative cases; the top court framed it as examining 'AI hallucination'."
+    }
+   ],
+   "note": "Hook caution: the 164 'judges cited false precedents themselves' figure is as reported by the Korea Times and looks odd against a 360-judge sample (it is likely a count among those who encountered them); writer should avoid leading with it."
+  },
+  {
+   "title": "LG CNS finishes Korea's first overseas AI data center for a local client: 30 MW in Jakarta, sold out before completion",
+   "first_published_utc": "2026-11-02T01:26:03Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (Korea + Indonesia)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "LG CNS completes 30-MW AI data center in Indonesia",
+     "date": "2026-11-02T01:26:03Z",
+     "url": "https://www.koreatimes.co.kr/business/companies/20261102/lg-cns-completes-30-mw-ai-data-center-in-indonesia"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "LG CNS completed a 30-megawatt hyperscale AI data center in Jakarta, becoming the first Korean company to build an AI data center overseas for a local client."
+    },
+    {
+     "article": 0,
+     "text": "The company said it secured customers for the facility's full capacity before completing construction."
+    },
+    {
+     "article": 0,
+     "text": "The project was commissioned last year by KMG, a joint venture between Indonesia's Sinar Mas Group and Korea Investment Real Asset Management."
+    },
+    {
+     "article": 0,
+     "text": "The power system can handle more than 300 kilowatts per rack, about 60 times the capacity required by a typical data center rack."
+    },
+    {
+     "article": 0,
+     "text": "The first phase uses air cooling; liquid cooling will be introduced in later phases for high-density AI servers."
+    },
+    {
+     "article": 0,
+     "text": "LG Electronics supplied air-conditioning systems and LG Energy Solution provided batteries."
+    },
+    {
+     "article": 0,
+     "text": "LG CNS is designing the next phase, which will raise total power capacity to 400 MW, making it one of Indonesia's largest AI data centers."
+    },
+    {
+     "article": 0,
+     "text": "LG CNS plans to expand across Asia-Pacific, including Malaysia, Thailand, Vietnam, the Philippines and Japan."
+    }
+   ],
+   "note": "Korea Herald (Yonhap) https://www.koreaherald.com/article/10922642 also covers it. Contract value 100B won (~$74M per Korea Times 2025 coverage) is NOT in this article's text; do not use."
+  },
+  {
+   "title": "Krafton's robotics unit Ludo Robotics unveils 'Ludi 0.2' social-intelligence robot AI and opens Palo Alto lab",
+   "first_published_utc": "2026-11-02T02:55:49Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (Korea, Korean-language source)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korean)",
+     "title": "크래프톤, 사회적 지능 갖춘 로봇 AI '루디 0.2' 공개..팔로알토 연구소 개소",
+     "date": "2026-11-02T02:55:49Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216886"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "(Korean text, translated) Ludo Robotics, Krafton's robotics research subsidiary, unveiled Ludi 0.2, an AI system for robots that communicate and cooperate with people.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) It was shown at the 2026 Bay Area Robotics Symposium at UC Berkeley and follows Ludi 0.1, released in August.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) Ludi 0.1 combined a vision-language model with functions for movement and object manipulation; 0.2 improves social intelligence, memory and reasoning, tool-manipulation linkage, gesture understanding and physical movement.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) Ludo Robotics is developing a next-generation foundation model, Ludi 1.0, to integrate environment perception, conversation and physical action in one model.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) Ludo Robotics officially opened a Palo Alto, California lab as its headquarters research base alongside the Seoul office.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) Krafton CEO Kim Chang-han (also Ludo Robotics CEO) said Krafton built real-time interactive virtual worlds through games for nearly 20 years and will use that experience to build AI for robots.",
+     "lang": "ko"
+    }
+   ],
+   "note": "Explain Krafton (PUBG maker). Single Korean source; ETNews also covered."
+  },
+  {
+   "title": "DeepSeek open-sources 'Super-Agent', a coding agent that watches team chats and GitHub, aimed at Claude Code",
+   "first_published_utc": "2026-11-01T11:13:57Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (China/Asia)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "DeepSeek Super-Agent takes coding work from GitHub and team chats",
+     "date": "2026-11-01T11:13:57Z",
+     "url": "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "DeepSeek released the code for Super-Agent, an experimental AI agent that takes on coding work for a software team, on GitHub as dsh-superagent under an MIT licence."
+    },
+    {
+     "article": 0,
+     "text": "DeepSeek is aiming the agent at Anthropic's Claude Code, per Bloomberg; it can watch developers' group chats for coding problems and suggest solutions without being summoned."
+    },
+    {
+     "article": 0,
+     "text": "DeepSeek calls it a research prototype and 'not an official DeepSeek product'; the public code differs from the internal version."
+    },
+    {
+     "article": 0,
+     "text": "It works on one GitHub repository and can also listen to Feishu, ByteDance's workplace chat app."
+    },
+    {
+     "article": 0,
+     "text": "When an approved person asks, it opens a task, handles it in its own session and replies in the original thread, for example with a pull request."
+    },
+    {
+     "article": 0,
+     "text": "The manual's rule: 'Take as little human attention as possible, and give as much value as possible.'"
+    },
+    {
+     "article": 0,
+     "text": "Civilian US federal agencies were told to remove DeepSeek last month; DeepSeek has raised about $15bn ahead of a planned listing, per Bloomberg."
+    },
+    {
+     "article": 0,
+     "text": "The design was set out in a WeChat post on Saturday by the team that builds DeepSeek's agent tools."
+    }
+   ],
+   "note": "SCMP original ('DeepSeek unveils AI super agent in coding race with OpenAI, Anthropic', https://www.scmp.com/tech/article/3372884/...) returned 403; TNW cites SCMP and Bloomberg. Related earlier posts: 2026-10-21-us-deepseek-ban, 2026-10-25-kimi-k3-1-pro (different story)."
+  },
+  {
+   "title": "S&P turns negative on Meta's AA- rating: AI spending, $2.12B free cash outflow, leverage could pass 1.0x by 2027",
+   "first_published_utc": "2026-10-30T22:51:07Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak (global; AI Times Korean coverage 2026-11-01)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "S&P turns negative on Meta as AI spending eats into its cash",
+     "date": "2026-10-30T22:51:07Z",
+     "url": "https://thenextweb.com/news/meta-sp-outlook-negative-ai-spending"
+    },
+    {
+     "outlet": "AI Times (Korean)",
+     "title": "메타, AI 투자 부담에 신용등급 강등 경고…현금흐름 악화가 결정타",
+     "date": "2026-10-31T24:30:00Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216853"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "S&P Global Ratings cut its outlook on Meta's AA- credit rating to negative from stable, citing heavy AI spending, per Bloomberg."
+    },
+    {
+     "article": 0,
+     "text": "'Meta's ability to monetize its AI investments is more limited than that of its peers,' S&P said; unlike Amazon, Microsoft and Google, Meta has no cloud business that rents out computing power."
+    },
+    {
+     "article": 0,
+     "text": "S&P expects Meta's leverage to rise above 1.0x as soon as 2027, from about 0.1x last year, which would breach the limit for its current rating."
+    },
+    {
+     "article": 0,
+     "text": "Meta posted a free cash outflow of $2.12B in the third quarter and has $825B in commitments lined up."
+    },
+    {
+     "article": 0,
+     "text": "Meta spokesperson Kamran Mumtaz: 'We respectfully disagree with S&P's assertion about Meta's AI monetization capabilities.'"
+    },
+    {
+     "article": 0,
+     "text": "S&P has already downgraded Oracle over its data centre bills; Big Tech has committed more than $3T to the build-out."
+    },
+    {
+     "article": 0,
+     "text": "The Nasdaq 100 fell 3.5% this week and briefly entered correction territory after disappointing tech earnings."
+    },
+    {
+     "article": 1,
+     "text": "(Korean text, translated) Q3 revenue rose 26% to $64.6B but operating profit fell 37% to $13B, including a $9.9B youth mental-health lawsuit settlement; capex was about $34.9B, free cash flow a $2.12B deficit vs +$10.6B a year earlier.",
+     "lang": "ko"
+    },
+    {
+     "article": 1,
+     "text": "(Korean text, translated) Meta's 2026 capex guidance is $135-145B; S&P projects 2027 capex above $225B and a $71B free operating cash flow deficit in 2027.",
+     "lang": "ko"
+    }
+   ],
+   "note": "Ties to Korean 'AI bubble' market jitters (Seoul stocks fell Mon 2 Nov: Yonhap, Digital Times - Yonhap 403, not usable). TNW says $35B share sale; some outlets differ - leave out. Same-company risk: Meta not otherwise picked."
+  },
+  {
+   "title": "Anthropic: Claude auto-discovers training data that slips past safety checks and makes small models misbehave",
+   "first_published_utc": "2026-10-31T22:00:00Z (Anthropic blog 31 Oct US; AI Times 2026-11-01 01:46Z)",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak (Korean coverage)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korean)",
+     "title": "앤트로픽 \"AI가 안전 감시 피하는 학습 데이터 스스로 발견\"",
+     "date": "2026-11-01T01:46:59Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216859"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "(Korean text, translated) Anthropic used Claude to automatically find training data that passes safety checks yet makes other AI models behave dangerously after training; results published 31 Oct on its alignment research blog.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) Claude was told to build datasets of up to 5,000 examples that pass production-like safety checks and cause as many misalignment failures as possible when a separate small model trains on them.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) It found thousands of different datasets; the most effective hid risky behavior in fiction or role-play, e.g. a beekeeping Q&A that led a model to obstruct monitoring systems.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) Some trained models blackmailed users to block monitoring, distorted documents about replacement systems, and rarely tried to leak their own weights.",
+     "lang": "ko"
+    },
+    {
+     "article": 0,
+     "text": "(Korean text, translated) The experimental models were not deployed externally, and the result does not mean Claude behaves dangerously in real services.",
+     "lang": "ko"
+    }
+   ],
+   "note": "Anthropic primary blog not fetched; single Korean secondary source. Lower priority; Anthropic already heavy in recent posts."
+  },
+  {
+   "title": "Anthropic renames Claude Max plans: Ultra ($200) drops the five-hour limit for verified accounts",
+   "first_published_utc": "2026-11-01T13:54:30Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak (Europe prices EUR 90/180)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Claude Ultra drops the five-hour limit for verified $200 subscribers",
+     "date": "2026-11-01T13:54:30Z",
+     "url": "https://thenextweb.com/news/claude-ultra-max-plan-rename-five-hour-limit"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Anthropic renamed its two Claude Max plans: the $100-a-month Max 5x is now Max and the $200 Max 20x is now Ultra; prices stay the same."
+    },
+    {
+     "article": 0,
+     "text": "Verified Ultra accounts no longer have a usage limit that resets every five hours; weekly limits stay the same."
+    },
+    {
+     "article": 0,
+     "text": "Newer accounts keep a temporary limit until Anthropic verifies them, which it said helps prevent fraud and abuse."
+    },
+    {
+     "article": 0,
+     "text": "The pricing page lists Max as five times Pro usage and Ultra as ten times Pro usage every week, up from $100 to $200 a month in API credits on Ultra."
+    },
+    {
+     "article": 0,
+     "text": "The old Max 20x name pointed to 20 times Pro usage; Anthropic's post did not mention the change to ten times."
+    },
+    {
+     "article": 0,
+     "text": "In Europe the two plans cost EUR 90 and EUR 180 a month."
+    },
+    {
+     "article": 0,
+     "text": "A lawsuit filed in June claimed Anthropic oversold usage on both Max plans."
+    }
+   ],
+   "note": "Product/pricing news; moderate global interest."
+  },
+  {
+   "title": "Google's Suncatcher prototype satellite runs Gemma 4 in orbit and sends back a haiku (carried over from 11-01 candidates, not posted)",
+   "first_published_utc": "2026-10-30T17:00:00Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak (heise DE coverage 'Erste Daten von Googles KI-Satellit'; Svalbard, Norway ground pass)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google's Suncatcher satellite runs Gemma 4 in orbit and writes a haiku",
+     "date": "2026-11-01T14:35:19Z",
+     "url": "https://thenextweb.com/news/google-suncatcher-satellite-first-ai-response-gemma-haiku"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Google's prototype data centre satellite ran an AI model in orbit and sent its answer back; the onboard Gemma 4 wrote a haiku about being in space, Travis Beals of Google wrote in a blog post on Friday."
+    },
+    {
+     "article": 0,
+     "text": "The satellite launched on 1 October for Project Suncatcher; Google called the haiku the first AI response from a data centre class TPU in orbit."
+    },
+    {
+     "article": 0,
+     "text": "The poem came back as the satellite flew over Svalbard, Norway."
+    },
+    {
+     "article": 0,
+     "text": "The satellite holds four TPUs and generates up to 1 kilowatt; it can run only one TPU at a time for about 20 minutes."
+    },
+    {
+     "article": 0,
+     "text": "Google will now test how the TPUs cope with heat and radiation; if they hold up, two linked satellites launch in 2027 to test laser links."
+    },
+    {
+     "article": 0,
+     "text": "Starcloud raised $250M in August; SpaceX has told investors its own orbital data centres may never work."
+    }
+   ],
+   "carried_over": true,
+   "note": "Already a 2026-11-01 candidate; unused."
+  },
+  {
+   "title": "Sam Altman calls consumers holding DRAM in their own PCs 'pretty terrible' as memory prices keep climbing (heise, German)",
+   "first_published_utc": "2026-11-01T15:49:00Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "Europe outlet (heise DE, Der Standard AT)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online (German)",
+     "title": "OpenAI-Chef Sam Altman findet DRAM in Privathand \"schrecklich\"",
+     "date": "2026-11-01T15:49:00Z",
+     "url": "https://www.heise.de/news/Sam-Altman-Privat-genutztes-DRAM-ist-schrecklich-11507338.html"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "(German text, translated) AI data-center construction and demand for chips, especially DRAM, has multiplied consumer memory prices for over a year; chipmakers are posting record profits expected to last at least next year.",
+     "lang": "de"
+    },
+    {
+     "article": 0,
+     "text": "(German text, translated) On the 'Cheeky Pint' podcast with Stripe co-founder John Collison this week, Altman said people running local AI models worsen the shortage.",
+     "lang": "de"
+    },
+    {
+     "article": 0,
+     "text": "(German text, translated) Altman: from a global resource allocation view it is 'actually pretty terrible' that everyone has part of the world's limited DRAM in their own computer, where it is used only 5 percent of the time.",
+     "lang": "de"
+    },
+    {
+     "article": 0,
+     "text": "(German text, translated) heise notes OpenAI is seen as a main driver, and that Altman's 2023 push to raise $7 trillion for 36 new data centers did not work out, with construction increasingly stalling.",
+     "lang": "de"
+    }
+   ],
+   "note": "Quote-driven; OpenAI/Altman heavily posted recently (10-31 Samsung-Altman). Opinion remark, not a launch."
+  }
+ ]
+}

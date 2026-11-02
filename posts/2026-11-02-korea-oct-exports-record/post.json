@@ -1,0 +1,125 @@
+{
+  "id": "2026-11-02-korea-oct-exports-record",
+  "date": "2026-11-02",
+  "category": "ECONOMY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · ECONOMY",
+    "headline": [
+      "KOREA'S RECORD",
+      "**$115.3B** MONTH"
+    ],
+    "hook_options": [
+      [
+        "KOREA'S RECORD",
+        "**$115.3B** MONTH"
+      ],
+      [
+        "KOREA EXPORTS",
+        "UP **93.7%**"
+      ],
+      [
+        "KOREA CHIPS UP",
+        "**259%** IN A YEAR"
+      ],
+      [
+        "AI DEMAND LIFTS",
+        "KOREA'S **EXPORTS**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the article reports national trade data and states no effect on what ordinary readers pay, use or risk. The record $115.3B month is the strongest hook the slides fully support: it is the headline figure and slide 1 states it. The 93.7% and 259% hooks are accurate but each covers only one piece (total growth or chips). The claim hook leans on the ministry's attribution, which slide 2 gives as the ministry's view, so it is less direct. No rivalry, myth-flip or quote hook: the article has no competing parties, no common belief to flip and no quotable statement.",
+    "image_prompt": "Cinematic wide shot of a vast container port at night, towering stacks of shipping containers lit by cool blue floodlights, gantry cranes silhouetted against a deep indigo sky. In the foreground a glowing silicon wafer stands upright on a dark quay, its surface catching golden light like a circuit-patterned disc, beams of warm gold light streaming from it across the wet ground toward the containers. Fine mist in the air, reflective wet pavement. Abstract and unmarked: no brand marks, no signage, no ship names. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261102_045158_070284bd-7f9d-4f45-974e-4e6b3026d1ec.png"
+  },
+  "slides": [
+    {
+      "kicker": "The record",
+      "title": "Exports nearly doubled",
+      "body": [
+        "South Korea's exports jumped **93.7%** from a year earlier to a record **$115.3B** in October. The article says the surge was driven largely by a sharp increase in semiconductor shipments."
+      ]
+    },
+    {
+      "kicker": "The chips",
+      "title": "Chips up 259%",
+      "body": [
+        "Semiconductor exports skyrocketed **259%** to **$56.4B**. The Ministry of Trade, Industry and Resources, Korea's trade ministry, said strong global chip demand and big tech's continued AI infrastructure investment boosted exports."
+      ]
+    },
+    {
+      "kicker": "The destinations",
+      "title": "The US and China lead",
+      "body": [
+        "Shipments to the US surged 185.8% to **$24.9B**, backed by demand for chips, computers and electrical equipment used in AI infrastructure. Exports to China rose 133.6% to **$26.98B**, and to the EU 56.4% to $8.1B."
+      ]
+    },
+    {
+      "kicker": "The ledger",
+      "title": "A $42.5B trade surplus",
+      "body": [
+        "Imports rose 36% to $72.78B. That left Korea with a trade surplus of **$42.5B** for the month, as exports grew far faster than imports."
+      ]
+    },
+    {
+      "kicker": "What's next",
+      "title": "Is $1 trillion in reach?",
+      "body": [
+        "January to October exports passed **$900B** for the first time. The ministry projects annual exports could reach **$1 trillion** as early as November if the current trend continues."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "South Korea's exports jumped 93.7 percent to a record $115.3 billion in October from a year earlier, driven largely by a sharp increase in semiconductor shipments."
+    },
+    {
+      "source": 0,
+      "text": "The Ministry of Trade, Industry and Resources said strong global demand for chips and continued investments by major tech companies in AI infrastructure boosted exports. The gloss 'Korea's trade ministry' is the writer's explainer for the ministry's role."
+    },
+    {
+      "source": 0,
+      "text": "Semiconductor exports skyrocketed 259 percent from a year earlier to $56.4 billion in October."
+    },
+    {
+      "source": 0,
+      "text": "Imports rose 36 percent to $72.78 billion, leaving a trade surplus of $42.5 billion."
+    },
+    {
+      "source": 0,
+      "text": "Cumulative exports for January-October exceeded $900 billion for the first time; the ministry projects annual exports could reach $1 trillion as early as November if the current trend continues."
+    },
+    {
+      "source": 0,
+      "text": "Shipments to the United States surged 185.8 percent to $24.9 billion, supported by demand for semiconductors, computers and electrical equipment used in AI infrastructure."
+    },
+    {
+      "source": 0,
+      "text": "Exports to China soared 133.6 percent to $26.98 billion; exports to the EU rose 56.4 percent to $8.1 billion."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Herald",
+      "title": "S. Korea's monthly exports hit $115.3b in Oct. on strong chip sales",
+      "date": "Nov 1, 2026",
+      "url": "https://www.koreaherald.com/article/10921544"
+    }
+  ],
+  "caption": "Korea's exports hit a record $115.3B in October, up 93.7% from a year earlier, led by semiconductors.\n\nThe Korea Herald (via Yonhap) says the jump was driven largely by semiconductor shipments. The trade ministry credits global chip demand and big tech's AI infrastructure investment.\n\n→ Chip exports rose 259% to $56.4B\n→ Shipments to the US rose 185.8% to $24.9B, and to China 133.6% to $26.98B\n→ The ministry projects annual exports could reach $1 trillion as early as November if the current trend continues\n\nWhen did you last see AI demand show up in a country's trade data?\n\nSource: The Korea Herald, \"S. Korea's monthly exports hit $115.3b in Oct. on strong chip sales\", Nov 1, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#KoreaExports",
+    "#Semiconductors",
+    "#KoreaAI"
+  ],
+  "threads_caption": "South Korea's exports hit a record $115.3B in October, up 93.7%. Chip exports rose 259% to $56.4B.\n\nThe trade ministry credits global chip demand and big tech's AI infrastructure spending.\n\nSource: The Korea Herald, \"S. Korea's monthly exports hit $115.3b in Oct. on strong chip sales\". #Korea"
+}
