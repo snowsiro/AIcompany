@@ -1,0 +1,116 @@
+{
+  "id": "2026-11-02-merz-ai-sovereignty",
+  "date": "2026-11-02",
+  "category": "POLICY",
+  "status": "draft",
+  "korean_refs": [],
+  "notes": "The article gives euro amounts only and no exchange rate, so the post uses EUR with no dollar conversion (CLAUDE.md asks for dollars; no rate was invented). The EUR 225bn pledges and the 2030 compute target are Germany's per the economy ministry; the article gives no pledger breakdown, period, or baseline for the 4x target. The Ifo findings are not linked to the conference in the article, so the post does not imply Merz responded to them. Single source (TNW citing Reuters); Politico Europe not fetched.",
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "“**EXISTENTIAL**”",
+      "— MERZ ON AI"
+    ],
+    "hook_options": [
+      [
+        "“**EXISTENTIAL**”",
+        "— MERZ ON AI"
+      ],
+      [
+        "GERMANY: **€225BN+**",
+        "IN AI PLEDGES"
+      ],
+      [
+        "GERMANY WANTS",
+        "ITS OWN **AI**"
+      ],
+      [
+        "BERLIN: AI PLANS",
+        "BUT NOT **READY**"
+      ]
+    ],
+    "hook_types": [
+      "quote",
+      "number",
+      "claim",
+      "myth-flip"
+    ],
+    "hook_type": "quote",
+    "hook_pick_reason": "The quote hook is exact (Merz called digital sovereignty \"a truly existential question\"), names the speaker and the topic, and slide 2 shows the full quote and slide 1 the context. The number hook is true only as pledges that companies joined, per the economy ministry, with no breakdown, so the cover would imply more than the article says. The claim hook is accurate but generic, and the last hook leans on the Ifo finding, which the article does not tie to Merz. No reader-impact hook: the article states policy goals and pledges for the German economy, not a change in what ordinary readers pay, use, can do or risk.",
+    "image_prompt": "Cinematic wide shot of an enormous abstract lattice of glowing golden-white nodes forming a protective dome over a dark continental landscape at dusk, thin beams of light connecting rows of unmarked server towers below, cool blue haze, faint rain on glass-like surfaces, shallow depth of field. Abstract and unmarked: no flags, no branding, no screens showing content. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261102_182046_b53ed588-1513-431e-bc8b-133ecad511e7.png"
+  },
+  "slides": [
+    {
+      "kicker": "The warning",
+      "title": "Build it, or depend",
+      "body": [
+        "Germany and Europe must move faster to build their own AI or risk becoming **dependent on outside providers**, German Chancellor Friedrich Merz said on Monday at an AI conference in Berlin, according to Reuters."
+      ]
+    },
+    {
+      "kicker": "The quote",
+      "quote": "Digital sovereignty is **a truly existential question.** Germany must at all costs avoid becoming entirely dependent on third parties.",
+      "who": "Friedrich Merz, Germany's chancellor"
+    },
+    {
+      "kicker": "The goal",
+      "title": "Own the whole chain",
+      "body": [
+        "Merz said Germany's ambition should be to develop and operate its own technology **from hardware to software**. He acknowledged that would take \"an enormous technological and organisational effort.\""
+      ]
+    },
+    {
+      "kicker": "The numbers",
+      "title": "€225bn in pledges",
+      "body": [
+        "At a summit last month, companies including Amazon and Nvidia joined pledges worth **more than €225bn**, according to Germany's economy ministry. Germany also aims to **quadruple its AI computing power by 2030**."
+      ]
+    },
+    {
+      "kicker": "The reality check",
+      "title": "Not ready yet",
+      "body": [
+        "Germany's Ifo institute, an economics research body, found the country is **still not ready** to benefit fully from the AI boom, Reuters reported. It pointed to a small high-tech sector, weak digital public services and **skills shortages**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "\"Germany and Europe must move faster to build their own AI technology or risk becoming dependent on outside providers, German Chancellor Friedrich Merz said on Monday, according to Reuters.\" Published 2026-11-02; \"Speaking at an AI conference in Berlin\"."
+    },
+    {
+      "source": 0,
+      "text": "Merz \"called digital sovereignty 'a truly existential question' and said Germany must 'at all costs, avoid becoming entirely dependent on third parties.'\" The quote slide joins the two quotes."
+    },
+    {
+      "source": 0,
+      "text": "\"Germany's ambition, he said, should be to develop and operate its own technology across the entire supply chain, from hardware to software.\" Merz \"acknowledged that reaching that point would require 'an enormous technological and organisational effort.'\""
+    },
+    {
+      "source": 0,
+      "text": "\"At a summit last month, companies including Amazon and Nvidia joined pledges worth more than €225bn, according to the economy ministry. Germany also aims to quadruple its AI computing power by 2030.\" The article gives no pledger breakdown, period or baseline, and no exchange rate, so the post gives euros only."
+    },
+    {
+      "source": 0,
+      "text": "\"The Ifo economics institute found that Germany is still not ready to benefit fully from the AI boom, Reuters reported. Its assessment pointed to a relatively small high-tech sector, weak digital public services, skills shortages, and the country's continued reliance on paper-based processes.\" The post describes Ifo as an economics research body, from \"Ifo economics institute\"."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly",
+      "date": "Nov 2, 2026",
+      "url": "https://thenextweb.com/news/merz-germany-digital-sovereignty-ai"
+    }
+  ],
+  "caption": "Germany's chancellor Friedrich Merz just called AI independence \"a truly existential question.\"\n\nSpeaking at an AI conference in Berlin on Monday, Friedrich Merz said Germany and Europe must build their own AI faster or risk depending on outside providers, according to Reuters.\n\n→ Merz: Germany must \"at all costs, avoid becoming entirely dependent on third parties\"\n→ Companies including Amazon and Nvidia joined pledges worth more than €225bn at a summit last month, per the economy ministry; Germany aims to quadruple its AI computing power by 2030\n→ Germany's Ifo institute found the country is still not ready to benefit fully from the AI boom, citing skills shortages and weak digital public services\n\nShould countries build their own AI, or rent it from the best provider?\n\nSource: The Next Web (citing Reuters), \"Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly\", Nov 2, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Merz",
+    "#AISovereignty",
+    "#EuropeAI"
+  ],
+  "threads_caption": "Germany's chancellor Friedrich Merz called AI independence \"a truly existential question\" and said Germany must build its own AI faster.\n\nPledges worth more than €225bn were joined by firms incl. Amazon and Nvidia, per the economy ministry. Germany's Ifo institute says it is still not ready to benefit fully.\n\nSource: The Next Web, \"Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly\". #AISovereignty"
+}
