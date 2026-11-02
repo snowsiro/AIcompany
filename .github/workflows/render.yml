@@ -26,20 +26,28 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Rule check
         run: npm run lint
+      # Only posts not yet published (2026-11-02): re-rendering published posts after a template change
+      # rewrote slides that no longer match what Instagram shows, in every PR.
+      - name: Pick posts
+        run: |
+          dirs=$(for d in posts/2*/; do d=${d%/}; [ "$(jq -r '.status // ""' "$d/post.json" 2>/dev/null)" = published ] || echo "$d"; done; true)
+          echo "POSTS=$(echo $dirs)" >> "$GITHUB_ENV"
+          echo "posts to render: ${dirs:-none}"
       - name: Render
+        if: env.POSTS != ''
         env:
           REQUIRE_COVER: "1"
-        run: node scripts/render.mjs posts/2*
+        run: node scripts/render.mjs $POSTS
       # 9:16 Reel video from the same slides (added 2026-10-22), for posts from that day on. ffmpeg only, no credits.
       - name: Reel video
         run: |
           command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
-          dirs=$(for d in posts/2*/; do d=${d%/}; [[ "$(basename "$d")" > "2026-10-22" ]] && echo "$d"; done; true)
+          dirs=$(for d in $POSTS; do [[ "$(basename "$d")" > "2026-10-22" ]] && echo "$d"; done; true)
           [ -z "$dirs" ] || node scripts/reel.mjs $dirs
       # 9:16 Story image from the cover slide (PRD 2026-11-01), for posts from 2026-11-02 on. Playwright, no credits.
       - name: Story image
         run: |
-          dirs=$(for d in posts/2*/; do d=${d%/}; [[ "$(basename "$d")" > "2026-11-02" ]] && echo "$d"; done; true)
+          dirs=$(for d in $POSTS; do [[ "$(basename "$d")" > "2026-11-02" ]] && echo "$d"; done; true)
           [ -z "$dirs" ] || node scripts/story.mjs $dirs
       - name: Commit rendered slides
         run: |
