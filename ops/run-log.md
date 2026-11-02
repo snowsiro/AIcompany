@@ -2,6 +2,23 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-02
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11/01) 도달 8 · 팔로워 2 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달 php-ai-flaws (108)
+결정할 일
+1. 참고 계정 토큰(IG_*)이 이 환경에 없어 참고 계정은 `ops/scan/2026-11-02/reference.json`으로만 봤음
+2. 단일 글 출처가 The Korea Herald(Yonhap) 1곳뿐. Nikkei Asia 판은 읽지 못해 쓰지 않음. 달러 기준이라 환산 없음
+3. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버를 생성함 (이전 런과 동일)
+4. 이 세션 지정 브랜치(claude/friendly-cori-uk69v8) 대신 플레이북대로 `daily/2026-11-02`에 푸시함
+자세한 기록
+- 05:45 시작. 백로그 확인: main에 ready 글 없음. morning-scan이 main에 없어 직접 실행, 약 1분 안에 생성됨
+- 후보 11개 (Reuters, Yonhap, Verge, Euractiv 등은 읽기 실패로 제외)
+- 주제: 한국 10월 수출 사상 최대 $115.3B(+93.7%), 반도체 $56.4B(+259%) (KOREA, ECONOMY). 8점. id `2026-11-02-korea-oct-exports-record`. 독자 이익 훅 없음(기록됨)
+  - 예비 4건을 `posts/_backlog/`에 추가: 이재명 2027 예산, LG CNS 자카르타 데이터센터, 한국 판사 AI 가짜 판례, DeepSeek Super-Agent
+  - 저녁 후보 이월: Meta 신용전망(주식매각 수치 제외), Anthropic Claude Ultra 요금제, Google Suncatcher
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자 없음
+- 검수 1차: fact-checker 불합격 (1조 달러 전망의 조건 "if the current trend continues" 누락), hook-judge 통과 7/10, brand-safety 통과. 문구 수정 후 fact-checker 2차 통과. 되돌림 1회
+
 ## [저녁 보고] 2026-11-01
 처리 1건 (ready 1) · 실패 0건
 결정할 일
