@@ -2,6 +2,23 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-03
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11/02) 도달 45 · 팔로워 2 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달: ops/metrics/2026-11-03.json 참고
+결정할 일
+1. 참고 계정 토큰(IG_*)이 이 환경에 없어 참고 계정은 `ops/scan/2026-11-03/reference.json`으로만 봤음
+2. 단일 글 출처가 The Next Web 1곳뿐 (The Register 인용). "roughly 190명"은 TNW의 계산이라 그렇게 표기함
+3. writer 브리프의 카테고리 WORK는 lint가 허용하지 않아 INDUSTRY(`EUROPE AI · INDUSTRY`)로 씀. WORK를 정식 카테고리로 원하면 lint와 DESIGN.md 수정 필요
+4. 한국 후보(코스피 하락, Yonhap/Reuters)는 원문을 읽지 못해 제외. Yonhap, Verge, Politico Europe, Sifted는 403
+5. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버를 생성함 (이전 런과 동일). 렌더는 CHROMIUM_PATH로 설치된 chromium 사용
+자세한 기록
+- 05:45 시작. 백로그 확인: main에 ready 글 없음. morning-scan이 main에 없어 직접 실행, 약 1분 안에 생성됨
+- 후보 11개 (참고 계정 10/10 성공, 3x 이상 뉴스 글 없음)
+- 주제: 독일 리눅스 회사 SUSE, 직원 약 10% 감축 (AI 언급) (EUROPE, INDUSTRY). 8점. id `2026-11-03-suse-ai-job-cuts`. 독자 영향 훅 없음(기록됨)
+  - 저녁 후보 이월: Anthropic 수정 S-1 (Q3 수치), OpenAI UAE 4건 협약(`posts/_backlog/`), Google Dreambeans 인도
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자 없음
+- 검수 1차 전원 통과: fact-checker 통과, hook-judge 통과 7/10, brand-safety 통과. 되돌림 0회 (hook_types 라벨 하나를 quote에서 claim으로 정정)
+
 ## [저녁 보고] 2026-11-02
 처리 1건 (ready 1) · 실패 0건
 결정할 일

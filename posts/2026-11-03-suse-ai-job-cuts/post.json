@@ -2,7 +2,7 @@
   "id": "2026-11-03-suse-ai-job-cuts",
   "date": "2026-11-03",
   "category": "INDUSTRY",
-  "status": "draft",
+  "status": "ready",
   "korean_refs": [],
   "cover": {
     "tag": "EUROPE AI · INDUSTRY",
@@ -30,7 +30,7 @@
     ],
     "hook_types": [
       "number",
-      "quote",
+      "claim",
       "claim",
       "number"
     ],
