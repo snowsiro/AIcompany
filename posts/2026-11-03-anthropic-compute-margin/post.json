@@ -2,7 +2,7 @@
   "id": "2026-11-03-anthropic-compute-margin",
   "date": "2026-11-03",
   "category": "ECONOMY",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "notes": "Single source: TechCrunch (full text pulled with scripts/article.mjs). The AI Times and heise facts (operating loss, $895.4B commitments, Japan share sale) were not used, so no cross-source conflict and no loss claim in any hook. The 58% and 48% are TechCrunch's 'compute took up X% of the company's revenue' for 'the new quarter' and 'the quarter before'; the post says 'share of revenue' and never calls 58% a margin in its own voice (the cover and slides say only 'compute'). The 1.72x figure is read off a chart in the filing per TechCrunch; the post says 'about'. Quarter label: TechCrunch says 'the new quarter' ending Sept 30 and calls it Q3; the post says 'the quarter ending Sept 30'. 'Nearly 50% a quarter' growth is TechCrunch's phrase and is not used. 'Anthropic Direct' is TechCrunch's wording for the in-house compute project. Not used: operating loss, RSI, neocloud names other than SpaceX.",
   "cover": {
@@ -127,5 +127,9 @@
     "#AIIPO",
     "#AICompute"
   ],
-  "threads_caption": "Anthropic's new IPO filing: revenue hit $17B, up from $11.5B, but compute took 58% of revenue, up from 48%.\n\nThe filing says compute will remain its largest operating expense for the foreseeable future.\n\nSource: TechCrunch, \"Anthropic is still grappling with the economics of compute\". #Anthropic"
+  "threads_caption": "Anthropic's new IPO filing: revenue hit $17B, up from $11.5B, but compute took 58% of revenue, up from 48%.\n\nThe filing says compute will remain its largest operating expense for the foreseeable future.\n\nSource: TechCrunch, \"Anthropic is still grappling with the economics of compute\". #Anthropic",
+  "published_id": "18073474049497139",
+  "permalink": "https://www.instagram.com/p/DfSh_mdGhD2/",
+  "threads_id": "18149072641565844",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfSiGZ3G4cr"
 }
