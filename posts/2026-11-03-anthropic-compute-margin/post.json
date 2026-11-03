@@ -1,0 +1,131 @@
+{
+  "id": "2026-11-03-anthropic-compute-margin",
+  "date": "2026-11-03",
+  "category": "ECONOMY",
+  "status": "draft",
+  "korean_refs": [],
+  "notes": "Single source: TechCrunch (full text pulled with scripts/article.mjs). The AI Times and heise facts (operating loss, $895.4B commitments, Japan share sale) were not used, so no cross-source conflict and no loss claim in any hook. The 58% and 48% are TechCrunch's 'compute took up X% of the company's revenue' for 'the new quarter' and 'the quarter before'; the post says 'share of revenue' and never calls 58% a margin in its own voice (the cover and slides say only 'compute'). The 1.72x figure is read off a chart in the filing per TechCrunch; the post says 'about'. Quarter label: TechCrunch says 'the new quarter' ending Sept 30 and calls it Q3; the post says 'the quarter ending Sept 30'. 'Nearly 50% a quarter' growth is TechCrunch's phrase and is not used. 'Anthropic Direct' is TechCrunch's wording for the in-house compute project. Not used: operating loss, RSI, neocloud names other than SpaceX.",
+  "cover": {
+    "tag": "US AI · ECONOMY",
+    "headline": [
+      "ANTHROPIC: **58%**",
+      "GOES TO COMPUTE"
+    ],
+    "hook_options": [
+      [
+        "ANTHROPIC: **58%**",
+        "GOES TO COMPUTE"
+      ],
+      [
+        "$17B REVENUE,",
+        "**58%** TO COMPUTE"
+      ],
+      [
+        "ANTHROPIC'S TOP",
+        "COST: **COMPUTE**"
+      ],
+      [
+        "REVENUE SOARS,",
+        "COMPUTE **SOARS**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "claim",
+      "myth-flip"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The number hook names Anthropic and puts the one new figure up front: compute took 58% of revenue, up from 48% (slide 3 shows it, slide 2 the $17B context). It says nothing about losses, which TechCrunch's filing facts here do not cover in a hook-safe way. Hook 2 has no company name. Hook 3 is accurate but has no figure. Hook 4 compares revenue growth with a share of revenue, which is not like for like. No reader-impact hook: the article is about Anthropic's finances ahead of its IPO and states no change in what ordinary readers pay, use, can do or risk.",
+    "image_prompt": "Cinematic wide shot of a vast dark data hall at night, endless rows of unmarked server racks, thick streams of glowing golden light flowing along the floor and being drawn into the racks like a river draining into a dam, cool blue haze overhead, shallow depth of field, a few rising glowing columns of light suggesting growth. Abstract and unmarked: no branding, no screens showing content. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261103_182139_307c3994-aee9-459b-9e80-f8e2b0413381.png"
+  },
+  "slides": [
+    {
+      "kicker": "The filing",
+      "title": "Revenue keeps surging",
+      "body": [
+        "Anthropic's updated IPO filing, released Monday, extends its results through Sept 30. Revenue reached **$17B** for the quarter, up from $11.5B the quarter before, TechCrunch reported."
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "Compute took more",
+      "body": [
+        "In the new quarter, compute took up **58% of revenue**, up from 48% the quarter before. TechCrunch notes that investors would like to see compute margins improve. They got worse."
+      ]
+    },
+    {
+      "kicker": "The chart",
+      "title": "Less revenue per dollar",
+      "body": [
+        "A chart in the filing tracks revenue for every dollar spent on compute. It peaked at just over 2x last quarter, then **fell to 1.72x**, per TechCrunch."
+      ]
+    },
+    {
+      "kicker": "The bill",
+      "title": "$10B on compute",
+      "body": [
+        "Anthropic's compute bill hit **$10B** for the quarter. That includes $5.0B under short-term commitments, which the filing says cost \"significantly more\" than comparable compute under multi-year deals."
+      ]
+    },
+    {
+      "kicker": "The outlook",
+      "quote": "We expect compute and infrastructure expenses to increase in absolute dollars and **remain our largest operating expense** for the foreseeable future",
+      "who": "Anthropic's IPO filing"
+    },
+    {
+      "kicker": "The workaround",
+      "title": "Own compute, later",
+      "body": [
+        "Anthropic is building its own compute under a project called \"Anthropic Direct.\" TechCrunch says demand is too fast for it to keep pace, so **neoclouds** (smaller providers with flexible, pricier deals) stay its best option."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "\"In a new filing on Monday, Anthropic released data...The filing was an update to the S-1 released last week — but where that filing's financial disclosures only covered through June 30th of this year, the new data extended to disclose results through an extra quarter, to September 30th.\" Published 2026-11-03."
+    },
+    {
+      "source": 0,
+      "text": "\"revenue reached $17 billion, up from $11.5 billion in the previous quarter, suggesting durable growth.\""
+    },
+    {
+      "source": 0,
+      "text": "\"In the new quarter, compute took up 58% of the company's revenue, up from 48% the quarter before. At a moment when the company could win over IPO investors by showing margins improving, they're getting worse.\""
+    },
+    {
+      "source": 0,
+      "text": "\"A chart in the filing...tracking the company's revenue for every dollar spent on compute. Since the start of 2025, it's been steadily growing, peaking at just over 2x this past quarter, then falling back down to 1.72x\""
+    },
+    {
+      "source": 0,
+      "text": "\"Anthropic's compute bill shot up to $10 billion for the quarter, including, as the filing notes, '$5.0 billion of compute under short-term commitments, which currently costs significantly more than comparable compute procured under our multi-year commitments.'\""
+    },
+    {
+      "source": 0,
+      "text": "Filing quote: \"We expect compute and infrastructure expenses to increase in absolute dollars and remain our largest operating expense for the foreseeable future as additional committed compute becomes available to us under multi-year arrangements with CSPs, and as we continue to invest in additional compute.\" The quote slide shows the first part of the sentence, ending at \"foreseeable future\"."
+    },
+    {
+      "source": 0,
+      "text": "\"the company talks quite a bit about its efforts to build its own compute base under a project it calls 'Anthropic Direct.' But with demand growing so fast, those efforts aren't going to be able to keep pace, and the neoclouds will continue to be the best option they have.\" Neoclouds: \"smaller outfits that offer more flexible compute deals at higher rates.\""
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "Anthropic is still grappling with the economics of compute",
+      "date": "Nov 3, 2026",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+    }
+  ],
+  "caption": "Anthropic's new IPO filing shows compute took 58% of its revenue last quarter, up from 48%.\n\nThe amended filing, released Monday, extends results through Sept 30, according to TechCrunch.\n\n→ Revenue reached $17B, up from $11.5B the quarter before\n→ Compute took 58% of revenue, up from 48%; revenue per compute dollar fell to 1.72x\n→ The compute bill hit $10B, with $5.0B on short-term deals that cost significantly more\n\nIs AI a money machine yet, or still a money pit?\n\nSource: TechCrunch, \"Anthropic is still grappling with the economics of compute\", Nov 3, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Anthropic",
+    "#AIIPO",
+    "#AICompute"
+  ],
+  "threads_caption": "Anthropic's new IPO filing: revenue hit $17B, up from $11.5B, but compute took 58% of revenue, up from 48%.\n\nThe filing says compute will remain its largest operating expense for the foreseeable future.\n\nSource: TechCrunch, \"Anthropic is still grappling with the economics of compute\". #Anthropic"
+}
