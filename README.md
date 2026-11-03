@@ -21,7 +21,7 @@ The AI office behind **[@ai.news.company](https://www.instagram.com/ai.news.comp
            usually a US afternoon announcement, and merges it once all three reviews pass (evening slot adopted
            2026-10-30 after a 3-day trial). Ready after 20:57 but before 23:00: it starts "publish" itself
 20:57 Vienna  "publish" again for the evening post
-           It ticks every 30 minutes until 19:57 (first slot) and midnight (second slot), so a late or dropped
+           It ticks every 30 minutes until 19:15 (first slot, ends when the evening run starts) and midnight (second slot), so a late or dropped
            GitHub run still posts that day; the 3-hour guard keeps it to one post per slot. Claude's backup task
            also starts it by hand at 13:57 and 20:57
 Sundays    09:57 Vienna  "publish" posts that Sunday's weekly roundup "This week in AI" (posts/<date>-weekly),
