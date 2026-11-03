@@ -1,0 +1,116 @@
+{
+  "id": "2026-11-03-suse-ai-job-cuts",
+  "date": "2026-11-03",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · INDUSTRY",
+    "headline": [
+      "SUSE CUTS 10% OF",
+      "JOBS CITING **AI**"
+    ],
+    "hook_options": [
+      [
+        "SUSE CUTS 10% OF",
+        "JOBS CITING **AI**"
+      ],
+      [
+        "SUSE CEO CITES",
+        "**AI** IN 10% CUT"
+      ],
+      [
+        "SUSE CITES **AI**",
+        "FOR A 10% CUT"
+      ],
+      [
+        "OPEN-SOURCE SUSE",
+        "CUTS **1 IN 10**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the article reports a cut at one company and lists other employers' cuts (attributed to TNW), but states no effect on what ordinary readers pay, use or risk. The number hook leads with the 10% figure and the AI reason, both on slides 1 and 2, and names SUSE for search. The quote hook is accurate but the CEO's words are paraphrased there, not quoted exactly. The claim hook is similar but less concrete. The 1 in 10 hook drops the AI reason, which is the story. No rivalry or myth-flip hook: the article has no competing parties and no common belief to flip.",
+    "image_prompt": "Cinematic wide shot of a vast dim open-plan office at dusk, long rows of desks with softly glowing monitors, many chairs empty, tall windows with a deep blue sky. In the foreground a single pale robotic arm rests over a keyboard, golden light spilling across the desks toward the dark far end of the room. Mist-like haze, reflective floor. Abstract and unmarked, no brand marks. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The cut",
+      "title": "SUSE is cutting 10% of staff",
+      "body": [
+        "SUSE, the German company behind a widely used enterprise Linux system, is cutting about **10%** of its workforce. CEO Dirk-Peter van Leeuwen told staff on Monday, Nov 2, The Next Web reported, citing The Register."
+      ]
+    },
+    {
+      "kicker": "The reason",
+      "title": "The CEO points to AI",
+      "body": [
+        "In his message, the CEO said \"automation and AI are fundamentally shifting how software companies operate.\" He added that \"the requirement for some existing roles has greatly diminished.\" That is the company's own framing."
+      ]
+    },
+    {
+      "kicker": "The size",
+      "title": "Roughly 190 people",
+      "body": [
+        "Owner EQT, a Swedish private-equity firm, says SUSE has more than **1,900** employees. TNW puts the cut at roughly **190** people. Affected staff will be told by Nov 4."
+      ]
+    },
+    {
+      "kicker": "The owner",
+      "title": "EQT bought SUSE in 2018",
+      "body": [
+        "EQT bought SUSE, founded in 1992, from Micro Focus in 2018 for **$2.5bn**. Reuters reported in March that EQT was considering a sale. The article does not say whether that is still under way."
+      ]
+    },
+    {
+      "kicker": "Not alone",
+      "title": "Others tie cuts to AI too",
+      "body": [
+        "TNW notes other employers linking job cuts to AI: the Netherlands plans to cut 25,000 government jobs, Barclays 5,000 bank jobs, and American Express 5% of staff. SUSE's strategy for fiscal year 2027 is due on Nov 16."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "SUSE, a German Linux company founded in 1992, is cutting about 10% of its workforce. CEO Dirk-Peter van Leeuwen told staff on Monday (Nov 2), citing The Register. The gloss 'behind a widely used enterprise Linux system' is the writer's explainer."
+    },
+    {
+      "source": 0,
+      "text": "The CEO said automation and AI are fundamentally shifting how software companies operate, and that the requirement for some existing roles has greatly diminished."
+    },
+    {
+      "source": 0,
+      "text": "SUSE has more than 1,900 employees according to owner EQT, a Swedish private-equity firm; TNW's arithmetic puts the cut at roughly 190 people. Affected staff are told by 4 November."
+    },
+    {
+      "source": 0,
+      "text": "EQT bought SUSE from Micro Focus in 2018 for $2.5bn. Reuters reported in March that EQT was considering a sale."
+    },
+    {
+      "source": 0,
+      "text": "TNW notes other employers tying cuts to AI: the Netherlands plans to cut 25,000 government jobs, Barclays 5,000 bank jobs and American Express 5% of staff. The strategy for fiscal year 2027 is due on 16 November."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "SUSE to cut about 10% of its workforce, citing AI and automation",
+      "date": "Nov 2, 2026",
+      "url": "https://thenextweb.com/news/suse-job-cuts-10-percent-ai-automation"
+    }
+  ],
+  "caption": "SUSE, the German Linux company, is cutting about 10% of its workforce and citing AI and automation.\n\nThe Next Web, citing The Register, says CEO Dirk-Peter van Leeuwen told staff on Monday that the need for some roles has greatly diminished. That is the company's own framing, not a finding that AI is the only cause.\n\n→ Owner EQT says SUSE has more than 1,900 employees, so roughly 190 people\n→ Affected staff are told by Nov 4; SUSE's strategy for fiscal year 2027 is due on Nov 16\n→ TNW notes the Netherlands, Barclays and American Express have also tied cuts to AI\n\nIs AI changing the jobs around you yet, or does it still feel distant?\n\nSource: The Next Web, \"SUSE to cut about 10% of its workforce, citing AI and automation\", Nov 2, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#SUSE",
+    "#AIJobs",
+    "#Linux"
+  ],
+  "threads_caption": "SUSE, the German Linux company, is cutting about 10% of its workforce and citing AI and automation.\n\nThe CEO says the need for some roles has greatly diminished. That is the company's framing.\n\nSource: The Next Web, \"SUSE to cut about 10% of its workforce, citing AI and automation\". #SUSE"
+}
