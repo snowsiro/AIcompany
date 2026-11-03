@@ -1,0 +1,829 @@
+{
+ "date": "2026-11-03",
+ "run": "evening",
+ "cutoff_utc": "2026-11-03T04:45:00Z",
+ "note": "Evening run, ~18:00 UTC. Morning post: SUSE job cuts (excluded). Fresh stories first (first published after 04:45Z), then carried_over. Dropped/unverified: Verge Apple earnings AI, Netflix 'AI Discover' tab, Verge compute campuses (403, no other original); SCMP Lipstick King tokens, Reuters AI-debt/European bonds, Yonhap 'Seoul shares dip over 3 pct amid AI woes' (Yonhap 403, Reuters/Google News titles only, no readable original; related to the 'AI sell-off' theme in morning note). Carried-over items published before 04:45Z today: Dreambeans (03:30Z), LeCun (04:03Z). The Anthropic RSI (TechCrunch 2026-11-02) and the Q3 numbers stories are the same Anthropic IPO cluster as fresh TechCrunch compute-margin piece; pick one angle. Backlog items 2026-11-03-anthropic-s1a-q3-numbers and 2026-11-03-openai-uae-four-deals exist in posts/_backlog (not posted).",
+ "ranked": [
+  "EU adviser vs Google Gemini (Europe, Reuters)",
+  "Nvidia 49% China cap",
+  "Google schools AI/Search",
+  "Anthropic compute margin 58% (IPO cluster)",
+  "CrowdStrike $495M",
+  "Apple 18+ AI companions",
+  "Sansa Korea",
+  "carried: Anthropic RSI / Q3 / OpenAI UAE / NYT-Brave / ChatGPT tabs"
+ ],
+ "stories": [
+  {
+   "title": "EU court adviser says Google's Gemini chatbot may infringe press publishers' rights (first generative-AI copyright case at the EU top court)",
+   "region": "Europe (CJEU, Luxembourg; Hungarian publisher)",
+   "first_published_utc": "2026-11-03T09:19:08Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (Europe)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Reuters (via wincountry.com syndication)",
+     "title": "Setback for Google as EU court adviser sides with publishers against AI chatbot",
+     "date": "2026-11-03T09:19:08Z",
+     "url": "https://wincountry.com/2026/11/03/googles-use-of-press-by-ai-chatbot-may-infringe-copyright-rules-eu-court-adviser-says/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Google faced a setback on Tuesday when an adviser to Europe's highest court backed a complaint by publishers against its Gemini chatbot's use of their copyrighted articles to respond to queries from internet users."
+    },
+    {
+     "article": 0,
+     "text": "Advocate General Maciej Szpunar is advising the Luxembourg-based Court of Justice of the European Union in the case, which was brought by Hungarian website operator Like Company."
+    },
+    {
+     "article": 0,
+     "text": "\"When an LLM-driven chatbot retrieves a publication from a press publisher's website, reuses that publication to generate an answer, and provides that answer to the user, the press publisher's right may be infringed in certain circumstances,\" Szpunar said."
+    },
+    {
+     "article": 0,
+     "text": "Copyright rules do not protect the \"mere facts\" reported by press publications, but \"only the specific form of expression\", he added."
+    },
+    {
+     "article": 0,
+     "text": "He said the use of material protected by copyright to train LLMs is \"freely permitted under the text and data mining exception.\""
+    },
+    {
+     "article": 0,
+     "text": "The court, which follows the majority of its advisers' non-binding opinions, will rule in the coming months."
+    },
+    {
+     "article": 0,
+     "text": "A ruling against Google could force the tech giant to pay fees for the use of such content."
+    }
+   ],
+   "note": "Reuters original (reuters.com 403); syndicated copy fetched. Fact 3: article text continues with Google statement (fetched to ~3000 chars only)."
+  },
+  {
+   "title": "Nvidia reportedly tells cloud partners to cap Chinese customers at 49% of new contracts (FT)",
+   "region": "US/China/global",
+   "first_published_utc": "2026-11-03T10:15:20Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "medium (China/Asia)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web (citing Financial Times)",
+     "title": "Nvidia tells cloud partners to cap Chinese business at 49%, FT reports",
+     "date": "2026-11-03T10:15:20Z",
+     "url": "https://thenextweb.com/news/nvidia-cloud-partners-cap-china-business"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Nvidia has instructed its data centre partners to limit business with Chinese customers, requiring cloud computing providers to sell at least 51% of their services to non-Chinese companies, the Financial Times reported on Tuesday."
+    },
+    {
+     "article": 0,
+     "text": "The rule applies to new contracts, leaving existing agreements untouched, according to five people familiar with the matter cited by the FT."
+    },
+    {
+     "article": 0,
+     "text": "Nvidia reportedly communicated the requirement verbally through its sales force and regional teams rather than issuing written instructions."
+    },
+    {
+     "article": 0,
+     "text": "Nvidia neither confirmed nor denied the move when AFP approached it."
+    },
+    {
+     "article": 0,
+     "text": "\"America cannot win the AI race unless America's AI infrastructure wins worldwide,\" the company said in a statement."
+    },
+    {
+     "article": 0,
+     "text": "Earlier this year, several senior employees at server maker Super Micro were charged with smuggling around $2.5bn worth of Nvidia AI servers into China."
+    },
+    {
+     "article": 0,
+     "text": "Chinese foreign ministry spokeswoman Mao Ning said she was not aware of the report."
+    }
+   ]
+  },
+  {
+   "title": "Google will disable AI tools for K-12 students by default next year; schools that opt out of AI lose Google Search too",
+   "region": "US",
+   "first_published_utc": "2026-11-03T16:30:34Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "none",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+     "date": "2026-11-03T16:30:34Z",
+     "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Google announced on Tuesday that it plans to disable AI tools for K-12 students next year unless school administrators explicitly turn them on."
+    },
+    {
+     "article": 0,
+     "text": "Google is revising its approach across Gemini, NotebookLM, Gemini in Classroom, and Google Search."
+    },
+    {
+     "article": 0,
+     "text": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine."
+    },
+    {
+     "article": 0,
+     "text": "Chris Phillips, vice president for education at Google, told The New York Times that \"Search and AI are deeply integrated\" and students \"will not have access to search, and they'll see a message from their school that indicates it's not available.\""
+    },
+    {
+     "article": 0,
+     "text": "Google announced the change alongside the launch of Guided Learning in schools, which functions like an AI tutor."
+    },
+    {
+     "article": 0,
+     "text": "\"We'll share more specifics with schools in the coming months ahead of the changes rolling out,\" Phillips wrote in a blog post."
+    }
+   ],
+   "note": "Also Verge (403) and Ars Technica 17:54Z headlines; only TechCrunch readable."
+  },
+  {
+   "title": "Anthropic's compute costs took 58% of revenue in Q3, up from 48%, in amended S-1",
+   "region": "US",
+   "first_published_utc": "2026-11-03T17:07:01Z",
+   "repeat_of_posts_last_14_days": "related: backlog 2026-11-03-anthropic-s1a-q3-numbers.md and 2026-10-27-anthropic-ipo-s1.md; same Anthropic IPO cluster as carried-over items; not a post-level repeat",
+   "korea_asia_europe_angle": "none",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic is still grappling with the economics of compute",
+     "date": "2026-11-03T17:07:01Z",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "In a new filing on Monday, Anthropic released data showing margins on compute getting worse; the filing was an update to the S-1 released last week, extending results through September 30th."
+    },
+    {
+     "article": 0,
+     "text": "Revenue reached $17 billion, up from $11.5 billion in the previous quarter."
+    },
+    {
+     "article": 0,
+     "text": "In the new quarter, compute took up 58% of the company's revenue, up from 48% the quarter before."
+    },
+    {
+     "article": 0,
+     "text": "A chart tracks revenue for every dollar spent on compute: it peaked at just over 2x this past quarter, then fell back down to 1.72x."
+    },
+    {
+     "article": 0,
+     "text": "The filing says: \"We expect compute and infrastructure expenses to increase in absolute dollars and remain our largest operating expense for the foreseeable future.\""
+    },
+    {
+     "article": 0,
+     "text": "The company talks about building its own compute base under a project it calls \"Anthropic Direct.\""
+    }
+   ]
+  },
+  {
+   "title": "CrowdStrike to buy AI-security startups Fiddler AI and Dreadnode for nearly $500M",
+   "region": "US",
+   "first_published_utc": "2026-11-03T17:56:00Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "none",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+     "date": "2026-11-03T17:56:00Z",
+     "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "CrowdStrike is buying two AI security companies that expand its products to monitor, test, and cover AI models and agents."
+    },
+    {
+     "article": 0,
+     "text": "Fiddler AI makes observability software for monitoring AI agents inside enterprises."
+    },
+    {
+     "article": 0,
+     "text": "Dreadnode helps companies automate security testing aimed at detecting flaws in AI models, apps and agents before they go live."
+    },
+    {
+     "article": 0,
+     "text": "The company is paying around $400 million for Fiddler AI and about $95 million for Dreadnode, according to The Wall Street Journal."
+    },
+    {
+     "article": 0,
+     "text": "CrowdStrike has built detection and response controls dubbed Falcon Guardian to help companies see what agents are doing on their devices."
+    }
+   ]
+  },
+  {
+   "title": "Apple restricts dating apps and AI companions to users 18 and up in App Store rules",
+   "region": "US/global",
+   "first_published_utc": "2026-11-03T15:38:27Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "none",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Apple restricts dating apps and AI companions to users 18 and up",
+     "date": "2026-11-03T15:38:27Z",
+     "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Apple is adjusting its App Store policies to make it more difficult for minors to use online dating apps or AI companions that engage in \"sexual or romantic content,\" per an announcement to developers on Monday."
+    },
+    {
+     "article": 0,
+     "text": "The new policy requires all apps offering dating or romantic relationship features to carry an 18+ rating."
+    },
+    {
+     "article": 0,
+     "text": "Starting November 16, developers will be required to include new content descriptors to ensure their app's age ratings reflect its features."
+    },
+    {
+     "article": 0,
+     "text": "Character.AI, Replika, and other AI apps let people create AI companions, including friends, lovers, boyfriends and girlfriends."
+    },
+    {
+     "article": 0,
+     "text": "As of last summer, top AI companion apps across the Apple App Store and Google Play had been downloaded 220 million times globally."
+    }
+   ]
+  },
+  {
+   "title": "Korean job seeker's AI-built virtual Buddhist temple 'Sansa' draws 1 million visits in under a week",
+   "region": "Korea",
+   "first_published_utc": "2026-11-03T07:42:04Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (Korea)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "AI-built virtual Buddhist temple draws 1 mil. visitors in less than a week",
+     "date": "2026-11-03T07:42:04Z",
+     "url": "https://www.koreatimes.co.kr/business/tech-science/20261103/ai-built-virtual-buddhist-temple-draws-1-mil-visitors-in-less-than-a-week"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Sansa, an AI-created virtual Buddhist temple launched online on Oct. 26, drew more than 1 million visits in less than a week."
+    },
+    {
+     "article": 0,
+     "text": "It was created by Park Jin-won, 26, who is looking for a job after graduating with a degree in English literature."
+    },
+    {
+     "article": 0,
+     "text": "Users can control a child-monk avatar that can put its palms together in prayer or perform Buddhist bows, roll prayer beads or strike a moktak."
+    },
+    {
+     "article": 0,
+     "text": "More than 10,000 people visited on the first day, and Park raised simultaneous-user capacity from 20 to 10,000."
+    },
+    {
+     "article": 0,
+     "text": "By Oct. 31 Sansa had recorded more than 900,000 cumulative visits."
+    }
+   ],
+   "note": "Soft/feel-good; AI-built angle (how built) unconfirmed beyond 'created with AI'."
+  },
+  {
+   "title": "OpenAI quietly renames data centers 'compute campuses'",
+   "region": "US",
+   "first_published_utc": "2026-11-03T08:00:00Z (Der Standard; Verge 15:00Z)",
+   "repeat_of_posts_last_14_days": "related: backlog 2026-11-02-openai-grid-protectors.md (same 'compute campuses' wording in that program)",
+   "korea_asia_europe_angle": "Austrian outlet coverage",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Der Standard (Austria, German)",
+     "title": "OpenAI will Rechenzentren in \"Compute Campus\" umtaufen",
+     "date": "2026-11-03T08:00:00Z",
+     "url": "https://www.derstandard.at/story/3000000347094/openai-will-rechenzentren-in-compute-campus-umtaufen"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Mit OpenAI versucht jetzt einer der Vorreiter in der Branche, das Reputationsproblem dadurch zu lösen, dass er einfach den Begriff \"Rechenzentrum\" (\"Data Center\") aus dem Vokabular streicht. Alternativer Vorschlag: \"Compute Campus\"."
+    },
+    {
+     "article": 0,
+     "text": "Investoren wurde bereits neue Infrastruktur im Gegenwert von hunderten Milliarden Euro versprochen."
+    }
+   ],
+   "note": "THIN: Verge original (1025242) returns 403; only a short Der Standard commentary readable. Likely drop for a post unless another original found."
+  },
+  {
+   "title": "Anthropic's updated IPO filing: Q3 revenue $16.96B, but an operating loss and $895B in compute commitments",
+   "region": "Global (Japan share sale; Korean/German coverage)",
+   "first_published_utc": "2026-11-02T18:11:00Z (heise 19:11 CET; AI Times 2026-11-03 02:40 UTC)",
+   "repeat_of_posts_last_14_days": "related: posts/_backlog/2026-10-27-anthropic-ipo-s1.md (first S-1; this is the amended filing with new Q3 numbers, a new story)",
+   "korea_asia_europe_angle": "medium (up to JPY 552.9B / about $3.5B share sale to Japanese investors; Korean and German outlets)",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfN8VATE1RC/",
+     "multiple": 2.0,
+     "note": "Anthropic S-1 plus a manipulation experiment; under 3x"
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "앤트로픽, 매출 급증에도 영업적자…AI 인프라 투자 부담",
+     "date": "2026-11-03T02:40:26Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216932"
+    },
+    {
+     "outlet": "heise online (dpa)",
+     "title": "Börsenprospekt: 104 Milliarden Verlust bei Anthropic",
+     "date": "2026-11-02T18:11:00Z",
+     "url": "https://www.heise.de/news/Boersenprospekt-104-Milliarden-Verlust-bei-Anthropic-11508595.html"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Q3 revenue was $16.96B (about 23 trillion won), up 47% from $11.56B in Q2 and about 12x the $1.4B of a year earlier."
+    },
+    {
+     "article": 0,
+     "text": "Quarterly growth slowed: 132% in Q1, 144% in Q2, 47% in Q3."
+    },
+    {
+     "article": 0,
+     "text": "Operating income swung from $974M in Q2 to an operating loss of $567M in Q3; $5B of extra short-term compute and a $2B donation-matching cost were booked."
+    },
+    {
+     "article": 0,
+     "text": "Net loss was $23.29B, including a $21.9B loss from fair-value changes on convertible notes and derivative liabilities."
+    },
+    {
+     "article": 0,
+     "text": "Compute and infrastructure purchase and lease commitments total $895.4B; $447.5B of it falls due before the end of 2030 and $69.8B in the next 12 months."
+    },
+    {
+     "article": 0,
+     "text": "Customers paying more than $100,000 a year rose from over 1,500 at end of last year to over 11,900 at end of September."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic plans to issue new shares worth up to JPY 552.9B (about 4.7 trillion won) to Japanese investors, with Mizuho Securities leading the sale."
+    },
+    {
+     "article": 1,
+     "text": "heise/dpa: revenue in the first nine months of 2026 jumped to $33.2B from $2.5B a year earlier, with losses of $104B so far this year versus $25B in the same period last year."
+    },
+    {
+     "article": 1,
+     "text": "heise/dpa: Q3 loss was $23.3B on $17B revenue; the loss largely stems from an accounting adjustment, while the operating loss was $567M."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Anthropic's IPO filing says it may 'imminently' meet its own threshold for AI-accelerated progress (recursive self-improvement)",
+   "region": "Global (US)",
+   "first_published_utc": "2026-11-02T22:14:50Z",
+   "repeat_of_posts_last_14_days": "related to the Anthropic IPO story above and backlog 2026-10-27-anthropic-ipo-s1; same company, pick one",
+   "korea_asia_europe_angle": "weak",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfN8VATE1RC/",
+     "multiple": 2.0
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic warns that it's very close to RSI capability, aka self-building AI",
+     "date": "2026-11-02T22:14:50Z",
+     "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "On Monday Anthropic added new statements to the Risk Factors section of its revised S-1A filing."
+    },
+    {
+     "article": 0,
+     "text": "The filing says Anthropic has in the past not identified a significant acceleration in its rate of development until after it occurred."
+    },
+    {
+     "article": 0,
+     "text": "It says internal estimates and expectations for future models, rather than current models, indicate it 'may imminently meet our Responsible Scaling Policy's definition of \"dramatically accelerated progress attributable to AI.\"'"
+    },
+    {
+     "article": 0,
+     "text": "Anthropic has not designated any current model as exceeding this threshold, and says it continues to assess the underlying data."
+    },
+    {
+     "article": 0,
+     "text": "The filing says Anthropic does not anticipate being able to safely use Claude to fully autonomously design and build successive generations of frontier models without meaningful human supervision."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic is considering updates to its Responsible Scaling Policy to keep humans in control of frontier model development."
+    },
+    {
+     "article": 0,
+     "text": "TechCrunch notes skeptics say an S-1 works as both disclosure and marketing."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "OpenAI merges ChatGPT's Chat and Work tabs, and ChatGPT and Codex will share one usage allowance from December",
+   "region": "Global (US); Korean coverage",
+   "first_published_utc": "2026-11-02T13:57:53Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak (AI Times covers it in Korean)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI is finally merging ChatGPT's Chat and Work tabs",
+     "date": "2026-11-02T13:57:53Z",
+     "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+    },
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "오픈AI, 12월부터 챗GPT·코덱스 사용량 통합…기존 앱 1월 종료",
+     "date": "2026-11-03T02:27:55Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216934"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "OpenAI is merging the Chat and Work tabs inside ChatGPT, according to an email sent to users; it will first go to select users for feedback before a wide rollout."
+    },
+    {
+     "article": 0,
+     "text": "The email says users can bring files and plugins and ask ChatGPT to build a website, create a presentation, or do things on the web while reviewing its work."
+    },
+    {
+     "article": 0,
+     "text": "Codex will remain a separate experience in the ChatGPT desktop app."
+    },
+    {
+     "article": 0,
+     "text": "ChatGPT and Codex will draw tokens from the same allowance pool; OpenAI says most users won't be affected, but some may wait for resets more frequently."
+    },
+    {
+     "article": 0,
+     "text": "Rival Anthropic merged Claude's chat and Cowork functions into one screen in September."
+    },
+    {
+     "article": 1,
+     "text": "AI Times: the shared usage limit applies from December on the Plus, Pro and Business plans; usage on the Instant model in ordinary chat is not deducted from it."
+    },
+    {
+     "article": 1,
+     "text": "AI Times: the older Mac desktop app, renamed ChatGPT Classic, will shut down on January 30, 2027; existing chat history moves to the new app."
+    },
+    {
+     "article": 1,
+     "text": "AI Times: the overall usable amount after the merge was not disclosed."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "OpenAI signs four deals in the UAE, including AI agents for oil giant ADNOC, as Sam Altman visits Abu Dhabi",
+   "region": "Middle East / Asia",
+   "first_published_utc": "2026-11-03T02:55:04Z (AI Times; Reuters 2026-11-02 also covered)",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "medium (Asia/Middle East)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "오픈AI, UAE 석유·정부·투자 업무에 AI 에이전트 도입…4건 협약",
+     "date": "2026-11-03T02:55:04Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216939"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "OpenAI announced four cooperation agreements with major UAE institutions on Nov 2 (local time) around the ADIPEC oil exhibition in Abu Dhabi."
+    },
+    {
+     "article": 0,
+     "text": "ADNOC, Abu Dhabi's state oil company, becomes the first energy company to adopt OpenAI's enterprise agent platform Frontier, in a multi-year deal with UAE AI firm G42."
+    },
+    {
+     "article": 0,
+     "text": "ADNOC plans to cut oilfield development planning that used to take months to hours by analysing data from thousands of wells and production facilities."
+    },
+    {
+     "article": 0,
+     "text": "Sam Altman said at ADIPEC that 'AI will change the economics of the energy industry' and that energy supply will remain the key constraint on cost and scale (Korean paraphrase in the article)."
+    },
+    {
+     "article": 0,
+     "text": "Abu Dhabi's government is working with OpenAI on a 'Machine-Readable Government' plan; the first pilot, at the Abu Dhabi Agriculture and Food Safety Authority, has AI review food import rules with human officials making the final call, and compute runs in UAE data centers."
+    },
+    {
+     "article": 0,
+     "text": "Mubadala and G42 affiliate Inception42 signed an investment-analysis cooperation with OpenAI; Inception42 also signed a separate five-year agreement."
+    },
+    {
+     "article": 0,
+     "text": "The UAE is building a 5GW AI data-center campus with US tech firms, and OpenAI participates at an early stage."
+    },
+    {
+     "article": 0,
+     "text": "OpenAI reportedly cut its new funding target from $30B to about $20B, with UAE investor MGX expected to take part."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "New York Times sues Brave, alleging it scraped content and sold it to AI companies",
+   "region": "Global (US)",
+   "first_published_utc": "2026-11-02T19:19:17Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+     "date": "2026-11-02T19:19:17Z",
+     "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "The New York Times sued Brave on Monday, alleging it scraped the outlet's copyrighted content and unlawfully distributed it to customers the suit names as Anthropic, Perplexity, Mistral, xAI and Cohere."
+    },
+    {
+     "article": 0,
+     "text": "The Daily News, the Chicago Tribune and the Orlando Sentinel filed a similar lawsuit the same day; both were filed in federal court in Manhattan."
+    },
+    {
+     "article": 0,
+     "text": "The Times has also sued OpenAI and Perplexity over similar claims."
+    },
+    {
+     "article": 0,
+     "text": "The suit calls Brave a 'supplier, dealer, and distributor of stolen copyrighted content' and says it acts like 'a burglar' and an AI 'fence'."
+    },
+    {
+     "article": 0,
+     "text": "It says Brave built an index of more than 30 billion web pages using an unidentified crawler that publishers cannot block."
+    },
+    {
+     "article": 0,
+     "text": "The suit also targets a Brave feature that bypasses paywalls and its practice of blocking publishers' ads while selling its own."
+    },
+    {
+     "article": 0,
+     "text": "Brave, founded in 2015, has raised roughly $250M; the Times seeks an injunction and damages; Brave did not immediately comment."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Google will honor a single robots.txt token that lets sites opt out of AI training for all vendors, from 2027",
+   "region": "Europe outlet (global policy)",
+   "first_published_utc": "2026-11-02T14:22:00Z",
+   "repeat_of_posts_last_14_days": "LIKELY REPEAT: posts/2026-11-01-robots-ai-optout (same shared AI opt-out token topic, posted 11-01); only use if the angle is new (Google's 2027 timing / Gemini grounding)",
+   "korea_asia_europe_angle": "medium (heise, EU AI Act code of practice)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online (German)",
+     "title": "robots.txt auf Diät: Ein einziger Befehl soll alle KI-Trainer stoppen",
+     "date": "2026-11-02T14:22:00Z",
+     "url": "https://www.heise.de/news/KI-Training-Ein-Eintrag-in-der-robots-txt-soll-bald-fuer-alle-Bots-reichen-11508208.html"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Google will from 2027 support a shared policy token in robots.txt so site owners can opt out of AI training for several AI developers at once."
+    },
+    {
+     "article": 0,
+     "text": "Today admins must list each AI crawler separately, for example GPTBot for OpenAI, ClaudeBot for Anthropic, or Google's own Google-Extended token from 2023."
+    },
+    {
+     "article": 0,
+     "text": "The token (__usage_ai-training) uses the existing user-agent line and builds on the IETF working group AI Preferences (AIPREF)."
+    },
+    {
+     "article": 0,
+     "text": "Google-Extended stays for exceptions; if a site blocks the shared token without mentioning Google-Extended, Google treats it as a Google-Extended disallow."
+    },
+    {
+     "article": 0,
+     "text": "Per Google, explicitly allowing Google-Extended is also the prerequisite for a site to appear (and get clicks) via grounding in Gemini app answers."
+    },
+    {
+     "article": 0,
+     "text": "Google says the proposal fits the EU's code of practice for general-purpose AI models under the EU AI Act, which recognises robots.txt as the primary opt-out method."
+    },
+    {
+     "article": 0,
+     "text": "robots.txt has existed since 1994 and is a voluntary standard (RFC 9309); it does not replace technical access blocks."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Anthropic adds Claude Code rules against cloning existing games",
+   "region": "Global (German outlet)",
+   "first_published_utc": "2026-11-02T14:49:00Z",
+   "repeat_of_posts_last_14_days": "same company as Anthropic stories above; check posts/2026-10-26-claude-code-tv-ads is different",
+   "korea_asia_europe_angle": "medium (heise)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online (German)",
+     "title": "Claude Code: Anthropic verschärft Regeln gegen Spieleklone",
+     "date": "2026-11-02T14:49:00Z",
+     "url": "https://www.heise.de/news/Claude-Code-Anthropic-verschaerft-Regeln-gegen-Spieleklone-11508349.html"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Anthropic introduced two additional instructions for the model Opus 5.5 in Claude Code to stop it from recreating specific existing games."
+    },
+    {
+     "article": 0,
+     "text": "Original work inspired by well-known genres, or based on users' own drafts and materials, remains allowed."
+    },
+    {
+     "article": 0,
+     "text": "An Anthropic spokesperson confirmed the change to Game Developer and pointed to a statement by Anthropic developer Addy Osmani on X, citing terms of use that ban violating others' intellectual property."
+    },
+    {
+     "article": 0,
+     "text": "At Steam Next Fest in October AI-generated game copies caused debate; some indie studios cancelled or postponed public demos."
+    },
+    {
+     "article": 0,
+     "text": "Some developers reported blackmail attempts threatening early release of copied games; Valve knows the problem but does not want to ban AI dev tools outright."
+    },
+    {
+     "article": 0,
+     "text": "Tom's Hardware collected cases where developers say Claude Code refused work on their own projects (game mechanics, anti-cheat software, reverse engineering)."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Google takes Dreambeans, its AI personal-story app, to India with 13 local languages",
+   "region": "Asia (India)",
+   "first_published_utc": "2026-11-03T03:30:00Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "medium (India)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+     "date": "2026-11-03T03:30:00Z",
+     "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Google launched its experimental AI app Dreambeans in India, its first market outside the U.S., on Monday with support for 13 local languages plus English."
+    },
+    {
+     "article": 0,
+     "text": "Dreambeans, introduced in June, uses data from connected Google services (Calendar, Gemini, Gmail, Photos, Search, YouTube) to proactively generate personalized illustrated stories without a prompt."
+    },
+    {
+     "article": 0,
+     "text": "Sensor Tower estimates about 55,000 U.S. downloads since June, 63% in September; October downloads fell 84% month over month to about 5,500."
+    },
+    {
+     "article": 0,
+     "text": "In its first 30 days after opening to all eligible U.S. users, Dreambeans had about 29,000 downloads versus 7.4 million for Meta's Muse, 2.8 million for ChatGPT, 362,000 for Grok Bot and 155,000 for Claude in their first 30 days."
+    },
+    {
+     "article": 0,
+     "text": "Users can pick only one language at a time per story, which may limit appeal where people mix Hindi and English."
+    },
+    {
+     "article": 0,
+     "text": "Users choose which Google services to connect and can disconnect them and delete Dreambeans data; the app is for personal Gmail accounts only, not enterprise users."
+    },
+    {
+     "article": 0,
+     "text": "Google said India was chosen because of strong interest and high overlap of users across Gemini, Gmail and Google Photos."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Yann LeCun's team proves when different AIs form the same world model, using 42x fewer training samples",
+   "region": "Global research (Korean outlet)",
+   "first_published_utc": "2026-11-03T04:03:52Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak (Korean outlet)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "르쿤, 서로 다른 AI가 같은 세상 이해하는 조건 증명…학습 샘플 42배 절감",
+     "date": "2026-11-03T04:03:52Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216943"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Yann LeCun (NYU) and Randall Balestriero (Brown), both also affiliated with LeCun's AMI Labs, posted a paper on arXiv on Oct 29 proving and improving the Platonic Representation Hypothesis using JEPA."
+    },
+    {
+     "article": 0,
+     "text": "The JEPA model matched the internal-representation similarity that next-token prediction reached with 900 million samples using only 21.6 million samples, about 42x fewer (14x fewer by text tokens)."
+    },
+    {
+     "article": 0,
+     "text": "A 109M-parameter JEPA trained on text tied to about 940 million web images scored 0.184 on a representation-similarity benchmark versus 0.154 for Qwen2.5-72B, a model about 660x larger."
+    },
+    {
+     "article": 0,
+     "text": "The article cautions this measures how similar image and text models' internal representations are, not general intelligence, and that 42x fewer samples does not mean 42x lower training cost."
+    },
+    {
+     "article": 0,
+     "text": "Separately trained image and text models were linked by a simple mathematical transform to generate image captions."
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Anthropic's internal Claude use now exceeds staff pay in value; token use up 250x since January",
+   "region": "Global (Korean outlet citing Business Insider)",
+   "first_published_utc": "2026-11-02T09:06:49Z",
+   "repeat_of_posts_last_14_days": "same company/IPO cluster as top Anthropic items; secondary source (Business Insider via AI Times)",
+   "korea_asia_europe_angle": "weak",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea), citing Business Insider",
+     "title": "앤트로픽, 내부 AI 토큰 비용이 직원 급여 추월…9개월 새 사용량 250배 급증",
+     "date": "2026-11-02T09:06:49Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216891"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Citing Business Insider and Anthropic's IPO filing, the value of internal Claude use exceeded monthly employee compensation costs as of April; AI value is computed at retail prices and compensation excludes stock."
+    },
+    {
+     "article": 0,
+     "text": "Internal Claude token use in September was more than 250x January's."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic said Claude wrote over 90% of code added to its software in September."
+    },
+    {
+     "article": 0,
+     "text": "Quarterly revenue rose 86x from the quarter ending Dec 2024 to the quarter ending Sept 2026 while headcount grew more than 5x."
+    },
+    {
+     "article": 0,
+     "text": "The article notes this does not mean actual cash spent on AI exceeds payroll."
+    }
+   ],
+   "carried_over": true
+  }
+ ]
+}

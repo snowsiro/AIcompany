@@ -2,6 +2,22 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-03
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 카테고리: 브리프의 MONEY는 lint가 허용하지 않아 ECONOMY(`US AI · ECONOMY`)로 씀. MONEY를 원하면 lint와 DESIGN.md 수정 필요
+2. 단일 글 출처가 TechCrunch 1곳뿐. AI타임스, heise의 영업손실·Japan 주식 매각 수치는 쓰지 않음. "compute 58%"는 매출 대비 비중이지 마진이 아님(본문도 그렇게 씀)
+3. 커버 훅에 "of revenue"가 없어 "goes to"가 조금 느슨함 (hook-judge 선택 사항 제안, 통과에는 영향 없음)
+4. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버를 생성함 (이전 런과 동일). 렌더는 /opt/pw-browsers의 chromium을 CHROMIUM_PATH로 지정
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음 (아침 글 suse-ai-job-cuts published)
+- 후보 18개 (새 이야기 8, 아침에서 이월 10). 읽지 못한 원문: Reuters, Verge, Yonhap (403)
+- 주제: Anthropic 수정 S-1, Q3 컴퓨트 비용이 매출의 58% (전 분기 48%) (US, ECONOMY). 7점. id `2026-11-03-anthropic-compute-margin`
+  - 첫 보도 17:07 UTC (TechCrunch), 약 20:30 Vienna에 ready로 기사 나이 약 2시간 반. 아침 글과 다른 회사, 다른 매체
+  - 예비 2건 `posts/_backlog/`에 추가: CrowdStrike 인수 2건, EU 법무관 vs Google Gemini
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6: 아침 2 + 저녁 2). 사람·글자 없음
+- 검수 1차 전원 통과: fact-checker 통과, hook-judge 통과 7/10, brand-safety 통과. 되돌림 0회
+
 ## [아침 보고] 2026-11-03
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11/02) 도달 45 · 팔로워 2 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달: ops/metrics/2026-11-03.json 참고
