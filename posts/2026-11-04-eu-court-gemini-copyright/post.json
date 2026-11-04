@@ -1,0 +1,138 @@
+{
+  "id": "2026-11-04-eu-court-gemini-copyright",
+  "date": "2026-11-04",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "EU'S FIRST GENAI",
+      "CASE HITS **GEMINI**"
+    ],
+    "hook_options": [
+      [
+        "EU'S FIRST GENAI",
+        "CASE HITS **GEMINI**"
+      ],
+      [
+        "EU ADVISER: AI",
+        "CAN **INFRINGE**"
+      ],
+      [
+        "TRAINING IS **FREE**",
+        "ANSWERS MAY NOT"
+      ],
+      [
+        "LIKE COMPANY VS",
+        "GOOGLE **GEMINI**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "myth-flip",
+      "rivalry"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the articles describe a legal opinion about publishers' rights and state no effect on what ordinary readers pay, use or risk. The number hook leads with the first-ever generative-AI case at the EU's top court and names Gemini, and slides 2 to 5 support both. The claim hook is accurate but generic. The myth-flip hook is sharp but compresses a nuanced point (answers 'may' touch rights, not 'are barred'). The rivalry hook names the plaintiff, who is unknown to most readers.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261104_045251_8186fa74-307f-44b6-a6b6-70c45bd609a8.png",
+    "image_prompt": "Cinematic still life of an enormous brass balance scale in a dim marble hall, one pan holding a stack of glowing open books, the other a softly lit glass screen with abstract light patterns. Golden light shafts cut through haze, polished floor reflecting the scene. Abstract and unmarked. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The opinion",
+      "title": "EU court adviser targets chatbots",
+      "body": [
+        "AI chatbots like Google's Gemini can infringe copyright, according to an opinion at the EU's top court in Luxembourg. It was issued by Advocate General Maciej Szpunar, the court's independent legal adviser."
+      ]
+    },
+    {
+      "kicker": "The finding",
+      "title": "Using news to answer may count",
+      "body": [
+        "When a chatbot retrieves press articles from websites and uses them to answer a user, that **can touch publishers' rights** of reproduction and public display, the adviser found."
+      ]
+    },
+    {
+      "kicker": "The case",
+      "title": "Like Company sued Google",
+      "body": [
+        "Like Company, a Hungarian publisher that runs several news portals, sued Google there. Its claim: Gemini **copied and publicly displayed** the publisher's protected texts without permission. It is the first generative-AI case before the court."
+      ]
+    },
+    {
+      "kicker": "What it skips",
+      "title": "Training is not the issue",
+      "body": [
+        "The adviser noted that using protected works to train an AI model is **\"freely permitted\"** under a legal exception for text and data mining. Publishers' rights also cover only the \"specific form of expression,\" not the facts reported."
+      ]
+    },
+    {
+      "kicker": "Google's reply",
+      "title": "Gemini learns patterns, it says",
+      "body": [
+        "A Google spokesperson said Gemini learns language patterns to generate original content rather than reproduce it, and that rights holders can opt out of use of their content."
+      ]
+    },
+    {
+      "kicker": "What next",
+      "title": "Not binding, not before 2027",
+      "body": [
+        "The opinion is **not binding** on the judges. The court's ruling was earlier reported as unlikely before **2027**, so this is a signal, not a verdict."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "AI chatbots such as Google's Gemini can infringe copyright, according to an opinion at the Court of Justice of the EU (CJEU) in Luxembourg."
+    },
+    {
+      "source": 0,
+      "text": "Advocate General Maciej Szpunar found in his opinion that when chatbots retrieve press articles from websites and use them to provide users an answer, this can touch publishers' rights of reproduction and public communication (display). The gloss 'the court's independent legal adviser' for Advocate General is the writer's explainer."
+    },
+    {
+      "source": 0,
+      "text": "The case is the first on generative AI before the CJEU in Luxembourg. Press publisher Like Company, which runs several news portals, sued Google in Hungary, alleging Gemini reproduced and made public the publisher's protected texts without permission. The description 'Hungarian' follows the article's mention of Hungary as where the suit was brought."
+    },
+    {
+      "source": 0,
+      "text": "The adviser noted that using protected works to train an AI model is 'freely permitted' under the text and data mining exception. Press publishers' rights protect not the reported facts but only the 'specific form of expression'; the right should not give publishers a monopoly on news."
+    },
+    {
+      "source": 0,
+      "text": "A Google spokesperson: 'Gemini learns language patterns to generate original content instead of reproducing content.' Rights holders can also object to the use of their content."
+    },
+    {
+      "source": 0,
+      "text": "The opinion is not binding on the judges. Earlier it was said a CJEU ruling is hardly to be expected before 2027."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online (dpa)",
+      "title": "EuGH-Gutachten: KI-Chatbots können Urheberrecht verletzen",
+      "title_en": "CJEU opinion: AI chatbots can infringe copyright",
+      "language": "German",
+      "date": "Nov 4, 2026",
+      "url": "https://www.heise.de/news/EuGH-Gutachten-KI-Chatbots-koennen-Urheberrecht-verletzen-11510768.html"
+    },
+    {
+      "outlet": "Der Standard (dpa)",
+      "title": "EuGH-Gutachten: KI-Chatbots können Urheberrecht verletzen",
+      "title_en": "CJEU opinion: AI chatbots can infringe copyright",
+      "language": "German",
+      "date": "Nov 3, 2026",
+      "url": "https://www.derstandard.at/story/3000000347330/eugh-gutachten-ki-chatbots-k246nnen-urheberrecht-verletzen"
+    }
+  ],
+  "caption": "An EU court adviser says AI chatbots like Google's Gemini can infringe press publishers' copyright.\n\nIn a non-binding opinion at the EU's top court, Advocate General Maciej Szpunar (the court's independent legal adviser) said using news articles to answer users can touch publishers' rights. It is the first generative-AI case before the court.\n\n→ Like Company, a Hungarian publisher with several news portals, sued Google over Gemini\n→ Training on protected works is \"freely permitted\" under the text and data mining exception, the adviser noted\n→ Google says Gemini learns language patterns and rights holders can opt out; a ruling is unlikely before 2027\n\nShould chatbots pay publishers when they answer from news sites?\n\nSource: heise online (dpa), \"CJEU opinion: AI chatbots can infringe copyright\" (in German), Nov 4, 2026; Der Standard (dpa), same title (in German), Nov 3, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Gemini",
+    "#AICopyright",
+    "#EUAI"
+  ],
+  "threads_caption": "An EU court adviser says AI chatbots like Google's Gemini can infringe press publishers' copyright.\n\nIt is a non-binding opinion in the first generative-AI case at the EU's top court. Training is \"freely permitted\"; answering from news is the issue.\n\nSource: heise online, \"CJEU opinion: AI chatbots can infringe copyright\" (in German). #Gemini"
+}
