@@ -104,6 +104,23 @@ async function mediaPublish(post, creationId, kind) {
   }
 }
 
+// Creating a carousel item only makes an unpublished container, so it is safe to retry. On 2026-11-04 Meta failed to
+// download a different slide from raw.githubusercontent.com on each of two runs (subcode 2207052, "media download
+// failed") while the files were there; the morning post with the same setup went through. So a download failure is
+// retried a few times with a pause. IG_RECHECK_MS only shortens the wait in tests.
+async function createItem(imageUrl) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const { id } = await call("POST", `/${IG_USER_ID}/media`, { image_url: imageUrl, is_carousel_item: "true" });
+      return id;
+    } catch (err) {
+      if (attempt >= 4 || !/subcode 2207052\b/.test(err.message)) throw err;
+      console.log(`::warning::Instagram could not download ${imageUrl.split("/").slice(-2).join("/")} (try ${attempt}), retrying`);
+      await sleep(Number(process.env.IG_RECHECK_MS || 15000) * attempt);
+    }
+  }
+}
+
 function recordPublished(dir, post, mediaId, permalink) {
   post.published_id = mediaId;
   if (permalink) post.permalink = permalink;
@@ -139,10 +156,7 @@ async function publish(dir, base) {
   }
 
   const children = [];
-  for (const f of files) {
-    const { id } = await call("POST", `/${IG_USER_ID}/media`, { image_url: `${base}/${rel}/slides/${f}`, is_carousel_item: "true" });
-    children.push(id);
-  }
+  for (const f of files) children.push(await createItem(`${base}/${rel}/slides/${f}`));
   for (const id of children) await waitReady(id);
 
   const caption = `${post.caption}\n\n${post.hashtags.join(" ")}`;
