@@ -2,7 +2,7 @@
   "id": "2026-11-04-amd-seoul-cluster",
   "date": "2026-11-04",
   "category": "INDUSTRY",
-  "status": "draft",
+  "status": "ready",
   "korean_refs": [],
   "notes": "Cluster facts come only from AI Times (pulled with scripts/article.mjs): MOU signed Nov 4 at 'AMD Advancing AI World Tour Seoul 2026' (Westin Seoul Parnas hotel), reference cluster in Seoul 'next spring' (article dated 2026-11-04, so spring 2027), AMD CPU/GPU + FuriosaAI NPU + MangoBoost DPU, joint validation of the combined design first, to be built at MangoBoost's Seoul facility, plus exploring Korean AI tech in the global supply chain. The article does not say what the two companies are beyond NPU and DPU, and does not call them startups; the post says 'Korean' chip companies and names the chip type only (the brief's 'startups' wording is not used). Earnings: heise confirms server revenue nearly doubled, profit roughly doubled, stock rose, gaming fell; Der Standard confirms Lisa Su called it a record quarter with revenue above guidance (German text, paraphrased, not quoted). No dollar figures or percentages used; the $13.4B / +97% search-summary figures are not verified and not used. Der Standard text is paywalled; only the lead paragraph was readable, so only the record-quarter paraphrase is taken from it. Not checked: AMD press release / ir.amd.com (no primary page was fetched); the cluster story rests on AI Times alone. Cluster is a plan, not built; no performance or cost claims; no Nvidia comparison in the slides.",
   "cover": {

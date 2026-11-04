@@ -2,6 +2,21 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-04
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 단일 출처: 서울 클러스터 사실은 AI타임스 1곳뿐 (AMD 보도자료·영문 원문 못 읽음). heise·Der Standard는 AMD 실적 문구(매출·이익 약 2배, 기록 분기, 수치 없음)에만 사용. Der Standard는 유료벽으로 첫 문단만, 날짜 "Nov 4" 미확정
+2. 브리프의 "startups" 표현은 기사에 없어 "Korean chip firms"로 씀. 카테고리 CHIPS는 lint 불가라 INDUSTRY 사용
+3. 커버 훅 hook-judge 7/10 (독자 이익 3점). 선택 사항: hook_types 라벨 하나가 맞지 않음
+4. 첫 보도 05:18 UTC (AI타임스)라 약 13시간 전 기사로 fresh 가산 없음 (8점, Anthropic 호주 IPO와 동점에서 선택)
+5. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버 생성. 렌더는 CHROMIUM_PATH 지정. 푸시 브랜치는 세션 지정 claude/inspiring-darwin-7iqvgi (daily/ 브랜치 아님)
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음 (아침 글 eu-court-gemini-copyright published)
+- 후보 20개 (새 이야기 9, 아침에서 이월 11). 읽지 못한 원문: Reuters, SEC, openai.com, Yonhap(403), Verge RSS
+- 주제: AMD x FuriosaAI·MangoBoost 서울 AI 클러스터 (KOREA, INDUSTRY). id `2026-11-04-amd-seoul-cluster`. 예비는 `posts/_backlog/2026-11-04-evening-runners-up.md`
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6). 사람·글자 없음
+- 검수 1차 전원 통과: fact-checker 통과, hook-judge 통과 7/10, brand-safety 통과. 되돌림 0회
+
 ## [아침 보고] 2026-11-04
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11/03) 도달 9 · 팔로워 2 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달: ops/metrics/2026-11-04.json 참고
