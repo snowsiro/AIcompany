@@ -1,0 +1,152 @@
+{
+  "id": "2026-11-04-amd-seoul-cluster",
+  "date": "2026-11-04",
+  "category": "INDUSTRY",
+  "status": "draft",
+  "korean_refs": [],
+  "notes": "Cluster facts come only from AI Times (pulled with scripts/article.mjs): MOU signed Nov 4 at 'AMD Advancing AI World Tour Seoul 2026' (Westin Seoul Parnas hotel), reference cluster in Seoul 'next spring' (article dated 2026-11-04, so spring 2027), AMD CPU/GPU + FuriosaAI NPU + MangoBoost DPU, joint validation of the combined design first, to be built at MangoBoost's Seoul facility, plus exploring Korean AI tech in the global supply chain. The article does not say what the two companies are beyond NPU and DPU, and does not call them startups; the post says 'Korean' chip companies and names the chip type only (the brief's 'startups' wording is not used). Earnings: heise confirms server revenue nearly doubled, profit roughly doubled, stock rose, gaming fell; Der Standard confirms Lisa Su called it a record quarter with revenue above guidance (German text, paraphrased, not quoted). No dollar figures or percentages used; the $13.4B / +97% search-summary figures are not verified and not used. Der Standard text is paywalled; only the lead paragraph was readable, so only the record-quarter paraphrase is taken from it. Not checked: AMD press release / ir.amd.com (no primary page was fetched); the cluster story rests on AI Times alone. Cluster is a plan, not built; no performance or cost claims; no Nvidia comparison in the slides.",
+  "cover": {
+    "tag": "KOREA AI · INDUSTRY",
+    "headline": [
+      "AMD BETS ON",
+      "**KOREA'S** CHIPS"
+    ],
+    "hook_options": [
+      [
+        "AMD BETS ON",
+        "**KOREA'S** CHIPS"
+      ],
+      [
+        "AMD + 2 KOREAN",
+        "**CHIP** FIRMS"
+      ],
+      [
+        "ONE AI JOB,",
+        "**MIXED** CHIPS"
+      ],
+      [
+        "SEOUL GETS AN",
+        "**AMD** CLUSTER"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "myth-flip",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "Names AMD and Korea up front and matches the story: AMD is building a Seoul cluster around Korean NPU and DPU chips (slides 2-3). It promises no results, only the plan, and 'bets' is fair for an MOU-stage project. Hook 2 counts partners but is flatter. Hook 3 leans on the mixed-chip idea but names no one. Hook 4 is weaker on line length and stakes. No reader-impact hook: the articles describe an infrastructure plan and AMD's earnings, and state no change in what ordinary readers pay, use, can do or risk.",
+    "image_prompt": "Cinematic night view of a futuristic server hall in a glowing city, three different families of unmarked chips in warm gold, cool blue and white light feeding into one shared central rack, thin light lines connecting them like a bridge, distant abstract skyline haze behind, shallow depth of field. Abstract and unmarked: no branding, no screens showing content. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261104_182153_61106a34-20fa-4705-83a2-303daef2f342.png"
+  },
+  "slides": [
+    {
+      "kicker": "The plan",
+      "title": "A mixed-chip cluster in Seoul",
+      "body": [
+        "AMD says it will build a \"reference cluster\" in Seoul **next spring**. It is a demonstration site that combines AMD's own CPUs and GPUs with Korean AI chips, AI Times reported."
+      ]
+    },
+    {
+      "kicker": "The partners",
+      "title": "Two Korean chip firms",
+      "body": [
+        "AMD signed an MOU with **FuriosaAI**, which supplies NPUs (neural processing units), and **MangoBoost**, which supplies DPUs (data processing units). Both are Korean."
+      ]
+    },
+    {
+      "kicker": "The idea",
+      "title": "Right chip, right task",
+      "body": [
+        "The three companies will first jointly validate the combined design. The goal is \"heterogeneous AI computing\": each **inference task** goes to the processor best suited for it."
+      ]
+    },
+    {
+      "kicker": "The site",
+      "title": "Built in Seoul, not yet",
+      "body": [
+        "The cluster is planned, not built. It is meant to be a real infrastructure setup at **MangoBoost's Seoul facility**. The MOU was signed Nov 4 at AMD's Advancing AI World Tour in Seoul."
+      ]
+    },
+    {
+      "kicker": "The reach",
+      "title": "Korean tech, global chain",
+      "body": [
+        "AMD also plans to work with other Korean companies and research institutes on AI infrastructure. The aim is to explore getting **Korean AI technology** into the global supply chain."
+      ]
+    },
+    {
+      "kicker": "The backdrop",
+      "title": "AMD is riding the AI boom",
+      "body": [
+        "Same week, AMD reported a record quarter. Heise says server revenue **nearly doubled** and profit roughly doubled, while gaming fell. CEO Lisa Su said revenue beat AMD's own guidance, per Der Standard."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "\"AMD가 자사 CPU·GPU에 국산 AI 반도체를 결합한 이기종 AI 클러스터를 내년 봄 서울에 구축한다.\" (AMD will build, next spring in Seoul, a heterogeneous AI cluster combining its CPUs and GPUs with domestic AI chips.) Article dated 2026-11-04."
+    },
+    {
+      "source": 0,
+      "text": "AMD signed an MOU with FuriosaAI and MangoBoost on the 4th at 'AMD Advancing AI World Tour Seoul 2026' (Westin Seoul Parnas hotel) and said it would build a 'reference cluster', a pilot infrastructure for demonstration, in Seoul next spring."
+    },
+    {
+      "source": 0,
+      "text": "The cluster combines AMD's CPUs and GPUs, FuriosaAI's neural processing unit (NPU) and MangoBoost's data processing unit (DPU) into heterogeneous AI infrastructure."
+    },
+    {
+      "source": 0,
+      "text": "After joint validation of the combined design, the three companies will implement 'heterogeneous AI computing', which assigns the optimal processor to each inference task, and build it as real infrastructure at MangoBoost's Seoul facility (\"구축할 예정\", planned)."
+    },
+    {
+      "source": 0,
+      "text": "AMD also plans to cooperate with Korean companies and research institutes on AI infrastructure to explore getting Korean AI technology into the global supply chain."
+    },
+    {
+      "source": 1,
+      "text": "Heise: in Q3 AMD raised revenue year on year clearly and roughly doubled profit; the server division nearly doubled its revenue (\"nahezu verzweifacht\"); gaming fell clearly; the share price rose slightly."
+    },
+    {
+      "source": 2,
+      "text": "Der Standard (German): Lisa Su said on Tuesday, \"Wir haben ein Rekordquartal erzielt, in dem der Umsatz unsere Prognose übertroffen hat\" (a record quarter in which revenue beat our guidance). Paraphrased in the post."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times",
+      "title": "AMD, 퓨리오사·망고부스트와 공조...내년 봄 이기종 AI 실증 인프라 구축",
+      "title_en": "AMD teams up with FuriosaAI and MangoBoost to build a heterogeneous AI demonstration infrastructure next spring",
+      "language": "Korean",
+      "date": "Nov 4, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=216979"
+    },
+    {
+      "outlet": "heise online",
+      "title": "Mittwoch: AMD-Gewinnexplosion dank KI-Boom, Mobilfunker-Warnung vor Extremwetter",
+      "title_en": "Wednesday: AMD profit explosion thanks to AI boom, mobile operators warn of extreme weather",
+      "language": "German",
+      "date": "Nov 4, 2026",
+      "url": "https://www.heise.de/news/Mittwoch-AMD-Gewinnexplosion-dank-KI-Boom-Mobilfunker-Warnung-vor-Extremwetter-11510784.html"
+    },
+    {
+      "outlet": "Der Standard",
+      "title": "AMD dank KI-Prozessoren mit erneutem Rekordquartal",
+      "title_en": "AMD posts another record quarter thanks to AI processors",
+      "language": "German",
+      "date": "Nov 4, 2026",
+      "url": "https://www.derstandard.at/story/3000000347418/amd-dank-ki-prozessoren-mit-erneutem-rekordquartal"
+    }
+  ],
+  "caption": "AMD says it will build a mixed-chip AI cluster in Seoul next spring with two Korean chip firms, FuriosaAI and MangoBoost.\n\nThe MOU was signed Nov 4 in Seoul, according to AI Times.\n\n→ AMD CPUs and GPUs, FuriosaAI NPUs and MangoBoost DPUs in one cluster\n→ Joint validation first, then a build at MangoBoost's Seoul facility\n→ Each inference task goes to the processor best suited for it\n\nCan mixed chips from several makers share one AI job?\n\nSource: AI Times, \"AMD teams up with FuriosaAI and MangoBoost to build a heterogeneous AI demonstration infrastructure next spring\" (in Korean), Nov 4, 2026; heise online, \"Wednesday: AMD profit explosion thanks to AI boom, mobile operators warn of extreme weather\" (in German), Nov 4, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#AMD",
+    "#FuriosaAI",
+    "#KoreaAI",
+    "#AIChips"
+  ],
+  "threads_caption": "AMD says it will build a mixed-chip AI cluster in Seoul next spring with Korean chip firms FuriosaAI and MangoBoost.\n\nPlan: joint validation first, then a build at MangoBoost's Seoul facility.\n\nSource: AI Times, \"AMD teams up with FuriosaAI and MangoBoost...\" (in Korean). #AMD"
+}
