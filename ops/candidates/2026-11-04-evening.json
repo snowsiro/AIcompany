@@ -1,0 +1,908 @@
+{
+ "date": "2026-11-04",
+ "run": "evening",
+ "cutoff_utc": "2026-11-04T04:45:00Z",
+ "note": "Evening run, ~18:20 UTC. Cutoff stated by caller: 05:45 Vienna = 04:45Z (Vienna is UTC+1 on Nov 4; caller wrote 03:45 UTC, which is the CEST value; stories between 03:45Z and 04:45Z: none of note). MORNING POST: EU Advocate General vs Google Gemini (heise, Der Standard) - the evening pick must be a different company (not Google) and not lead with heise or Der Standard. The Google schools-backlash story is flagged same-company. Fresh stories first, then carried_over from the morning file (EU Gemini story excluded as used). Morning carried candidates were first published 2026-11-03/04 mostly before the cutoff. Unreadable/dropped: Reuters (OpenAI security original), SEC/CNBC AMD, OpenAI.com pages (403), Yonhap SK hynix US AI arm (403, SK Group chairman to chair SK hynix's US AI arm, 12:34Z), Drax datacenter (Register, no text), Revolut GLM cost cut (Register readable but published 2026-11-03T20:07Z, before cutoff; a good carry candidate: Revolut cut AI coding costs ~90% with self-hosted GLM), Apple agent-risk 10-K filing (CNBC readable, 2026-11-03T20:10Z, before cutoff), OpenAI GPT-6 Astra designs hardware (Decoder readable, 2026-11-03T20:15Z, before cutoff; AI Times re-reported 09:07Z Nov 4), Kimi K3.1 Pro weights (HF repo exists, lastModified 11-02; weights-release news unconfirmed), Cat Wu leaving Anthropic (single digest claim, unverified). Failed after retry: Verge RSS, Reuters.",
+ "ranked": [
+  "AMD x FuriosaAI/MangoBoost Seoul cluster (+ AMD record Q3) - different company, Korea angle",
+  "OpenAI employees' security warnings (Reuters via TNW/AI Times)",
+  "Anthropic retail IPO in Australia (IPO cluster, Anthropic)",
+  "OpenAI LifeVal benchmark 49% to 81%",
+  "Traversal $120M / Supermicro-SambaNova (niche)",
+  "Google schools backlash (SAME COMPANY as morning - flagged)",
+  "carried: Revolut GLM, Apple 18+, Fal $16B, Palantir Q3, FlashProve, ChatGPT search 1/5 of Google, Lumai, Karpathy, MIT weight editing, Grok Bot cost"
+ ],
+ "stories": [
+  {
+   "title": "AMD teams with Korean chip startups FuriosaAI and MangoBoost on a Seoul reference AI cluster for spring 2027; AMD's record Q3 (data center revenue nearly doubled) lands the same day",
+   "region": "Korea / US",
+   "first_published_utc": "2026-11-04T05:18:36Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "strong (Korea)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "AMD, 퓨리오사·망고부스트와 공조...내년 봄 이기종 AI 실증 인프라 구축",
+     "date": "2026-11-04T05:18:36Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216979"
+    },
+    {
+     "outlet": "heise online (German)",
+     "title": "Mittwoch: AMD-Gewinnexplosion dank KI-Boom, Mobilfunker-Warnung vor Extremwetter",
+     "date": "2026-11-04T05:15:00Z",
+     "url": "https://www.heise.de/news/Mittwoch-AMD-Gewinnexplosion-dank-KI-Boom-Mobilfunker-Warnung-vor-Extremwetter-11510784.html"
+    },
+    {
+     "outlet": "Der Standard (Austria, German)",
+     "title": "AMD dank KI-Prozessoren mit erneutem Rekordquartal",
+     "date": "2026-11-04T07:15:04Z",
+     "url": "https://www.derstandard.at/story/3000000347418/amd-dank-ki-prozessoren-mit-erneutem-rekordquartal"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "AMD will build a heterogeneous AI cluster in Seoul next spring that combines its own CPUs and GPUs with Korean AI chips."
+    },
+    {
+     "article": 0,
+     "text": "AMD announced it at 'AMD Advancing AI World Tour Seoul 2026' on Nov 4 at the Westin Seoul Parnas hotel, signing an MOU with FuriosaAI and MangoBoost."
+    },
+    {
+     "article": 0,
+     "text": "The 'reference cluster' pairs AMD CPUs/GPUs with FuriosaAI's NPU (neural processing unit) and MangoBoost's DPU (data processing unit)."
+    },
+    {
+     "article": 0,
+     "text": "The three firms will jointly validate the design, then assign each inference job to the best-suited processor, and build the real infrastructure at MangoBoost's Seoul facility."
+    },
+    {
+     "article": 0,
+     "text": "AMD also plans to work with Korean companies and research institutes to explore getting Korean AI technology into the global supply chain."
+    },
+    {
+     "article": 1,
+     "text": "heise: AMD raised third-quarter revenue sharply year on year and roughly doubled profit, thanks to demand for server CPUs and AI accelerators; the server division nearly doubled revenue."
+    },
+    {
+     "article": 1,
+     "text": "heise: the stock rose because AMD promised enough AI chips for 2027; only the gaming business fell significantly."
+    },
+    {
+     "article": 2,
+     "text": "Der Standard: Lisa Su said 'We delivered a record quarter in which revenue beat our guidance' and that she sees no end to the trend."
+    }
+   ],
+   "note": "Numbers for the AMD quarter are thin in readable sources (SEC/CNBC/ir.amd.com unreadable; search summary of the 8-K said revenue $13.4B, data center +97%, NOT fetched, do not use). AMD earnings were released 2026-11-03 after US close (~21:00Z) so the earnings half was first published before the cutoff; the Seoul event is fresh. Different company/outlet from the morning post."
+  },
+  {
+   "title": "Reuters: OpenAI employees warned for years about weak internal security, some before ChatGPT launched",
+   "region": "US/global",
+   "first_published_utc": "2026-11-04T07:30:09Z (AI Times; TNW 09:40Z; Reuters original 2026-11-03, before cutoff)",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web (citing Reuters)",
+     "title": "OpenAI employees flagged weak internal security before ChatGPT",
+     "date": "2026-11-04T09:40:12Z",
+     "url": "https://thenextweb.com/news/openai-staff-warned-security-lapses-years"
+    },
+    {
+     "outlet": "AI타임스 (AI Times, Korea, citing Reuters)",
+     "title": "\"오픈AI, 수년간 내부 보안 취약점 경고 무시\"...개발 속도 우선에 기밀 유출 위험",
+     "date": "2026-11-04T07:30:09Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217011"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "OpenAI employees repeatedly warned the company's leadership and board about weaknesses in its security practices over several years, including before ChatGPT launched in late 2022, Reuters reported, citing five people familiar with the matter."
+    },
+    {
+     "article": 0,
+     "text": "Some employees came away with the impression that executives were more concerned with keeping pace with rivals Google and Anthropic than addressing security risks."
+    },
+    {
+     "article": 0,
+     "text": "OpenAI stored most of its code in a single repository (a monorepo), so anyone with access could potentially inspect nonpublic projects, the five sources said."
+    },
+    {
+     "article": 0,
+     "text": "Three sources said OpenAI failed to carry out regular security checks on internal tools, including the sandboxes researchers use to test new models."
+    },
+    {
+     "article": 0,
+     "text": "OpenAI disputed parts of the account: its most sensitive work is kept in separate, restricted repositories and the monorepo does not contain its model weights."
+    },
+    {
+     "article": 0,
+     "text": "OpenAI said internal tools now undergo regular security checks under security chief Dane Stuckey, who joined in October 2024."
+    },
+    {
+     "article": 0,
+     "text": "In August, product chief Thibault Sottiaux reassigned a quarter of OpenAI's production engineers to security work, one source said."
+    },
+    {
+     "article": 0,
+     "text": "In October OpenAI said it had found a hidden recording device in a room used by senior executives; prosecutors charged former engineer Abdulrahman Alfozan with planting it."
+    }
+   ],
+   "note": "Reuters original 403; TNW and AI Times readable. Story broke Nov 3 (Reuters); outlets above are post-cutoff. Related: OpenAI hired Dan Driscoll (morning candidate), OpenAI security-sprint blog."
+  },
+  {
+   "title": "Google faces backlash from Sanders, Blumenthal, Lina Khan and NYC Mayor Mamdani over plan to cut Search for schools that restrict AI",
+   "region": "US",
+   "first_published_utc": "2026-11-04T16:17:22Z",
+   "repeat_of_posts_last_14_days": "SAME COMPANY as morning post (Google Gemini EU case) - flagged, violates different-company rule; underlying story (Nov 3) not posted before",
+   "korea_asia_europe_angle": "none",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+     "date": "2026-11-04T16:17:22Z",
+     "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Google was met with swift backlash on Tuesday after announcing that schools using Google's K-12 software will not be able to use Search unless they opt in to AI tools."
+    },
+    {
+     "article": 0,
+     "text": "Chris Phillips, Google's VP for education, told The New York Times 'Search and AI are deeply integrated', so students 'will not have access to search' if their school does not opt in to tools like Gemini."
+    },
+    {
+     "article": 0,
+     "text": "Senator Bernie Sanders accused Google on X of 'extortion'; Senator Richard Blumenthal said Google is 'more concerned with forcing Gemini into schools than enabling students to succeed'."
+    },
+    {
+     "article": 0,
+     "text": "Former FTC chair Lina Khan called it anticompetitive: 'Multiple courts have found Google liable for violating antitrust laws'."
+    },
+    {
+     "article": 0,
+     "text": "New York City mayor Zohran Mamdani: 'No corporation should have the power to dictate how we teach our children.'"
+    },
+    {
+     "article": 0,
+     "text": "For millions of students required to use Chromebooks and Google education tools, using a different search engine is not a simple fix."
+    }
+   ],
+   "note": "Same company as morning pick. Use only if the editor accepts Google; otherwise skip."
+  },
+  {
+   "title": "Anthropic opens its IPO to Australian retail investors via CommSec after Japan; plans Europe, Canada next",
+   "region": "Australia / Global",
+   "first_published_utc": "2026-11-04T06:32:06Z",
+   "repeat_of_posts_last_14_days": "related: Anthropic IPO cluster (posts/2026-11-03-anthropic-compute-margin posted yesterday; backlog anthropic S-1A); same company as yesterday's evening-adjacent pick but not as this morning's",
+   "korea_asia_europe_angle": "medium (Australia, Japan, Europe)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea, citing Reuters)",
+     "title": "앤트로픽, 일본 이어 호주서도 IPO 개인 공모…글로벌 투자자 결집",
+     "date": "2026-11-04T06:32:06Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217005"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Commonwealth Bank of Australia's brokerage CommSec said on Nov 3 (local) it will be lead broker for Anthropic's offering to Australian retail investors, per Reuters."
+    },
+    {
+     "article": 0,
+     "text": "Eight local firms, including Macquarie, Morgan Stanley Wealth Management Australia, Morgans Financial and Bell Potter, will take part in sales and brokerage."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic will not list separately on the ASX; after the IPO its shares trade on Nasdaq under the ticker 'ANT'."
+    },
+    {
+     "article": 0,
+     "text": "A similar retail offering was pursued in Japan first; Anthropic is also preparing sales in 9 European countries including the UK, Switzerland, Germany and France, plus Canada."
+    },
+    {
+     "article": 0,
+     "text": "Anthropic is targeting a Nasdaq listing before Thanksgiving."
+    },
+    {
+     "article": 0,
+     "text": "Investors reportedly see the valuation possibly falling from $2 trillion to about $1.5 trillion; disclosed infrastructure spending commitments total $895.4B, nearly half due by end of 2030."
+    }
+   ],
+   "note": "Secondary source (Reuters via AI Times). Reuters original not fetched."
+  },
+  {
+   "title": "OpenAI releases LifeVal benchmark: AI personal-assistant score rose from about 49% to 81% in a year",
+   "region": "US/global",
+   "first_published_utc": "2026-11-04T06:41:07Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "weak",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea)",
+     "title": "오픈AI, 일상 업무 AI 평가 '라이프밸' 공개...개인 비서 성능 1년 새 49%→81%",
+     "date": "2026-11-04T06:41:07Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216996"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "OpenAI released LifeVal on Nov 2 (local), a benchmark of how well AI handles everyday tasks such as parenting, health management, finance and shopping."
+    },
+    {
+     "article": 0,
+     "text": "It was designed from US and multi-country time-use survey data plus a demographic survey of 3,995 people about what they most want to rely on a personal assistant for."
+    },
+    {
+     "article": 0,
+     "text": "Over the past year the latest models' personal-assistant scores rose from about 49% to 81%, though the pace has slowed recently."
+    },
+    {
+     "article": 0,
+     "text": "OpenAI said ChatGPT must go beyond advice and conversation to actually get tasks done."
+    }
+   ],
+   "note": "Single secondary source; OpenAI original not fetched."
+  },
+  {
+   "title": "Report: Nvidia's clout makes even OpenAI cautious about speaking on China chip export curbs (The Information)",
+   "region": "US/China",
+   "first_published_utc": "2026-11-04T08:33:34Z",
+   "repeat_of_posts_last_14_days": "related: Nvidia 49% China cap (2026-11-03 evening candidate, not posted)",
+   "korea_asia_europe_angle": "medium (China)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times, Korea, citing The Information)",
+     "title": "\"엔비디아 심기 거스를라\"...오픈AI도 중국 칩 수출 규제에 발언 자제",
+     "date": "2026-11-04T08:33:34Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216992"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Per The Information (Nov 2 local), OpenAI VP Noam Brown asked in an internal Slack channel 'What is our chip export policy?' after sharing an article on OpenAI's China chip export stance; policy staff pointed to older safety material and told him to talk to global policy staff instead."
+    },
+    {
+     "article": 0,
+     "text": "OpenAI executives, reportedly including CEO Sam Altman, have refrained from public comment on China export curbs for a year out of concern about upsetting Nvidia and CEO Jensen Huang."
+    },
+    {
+     "article": 0,
+     "text": "One cloud provider using AMD GPUs said customers fear Nvidia backlash and do not want to disclose they use AMD chips."
+    },
+    {
+     "article": 0,
+     "text": "Nvidia reportedly told researchers and policy experts critical of its China export stance that raising issues or renewing funding could be difficult."
+    },
+    {
+     "article": 0,
+     "text": "Nvidia spokesperson John Rizzo: 'If clouds worldwide depend on foreign chips, the model and application layers will also be built overseas.'"
+    }
+   ],
+   "note": "Thin, anonymous-source report relayed by one Korean outlet."
+  },
+  {
+   "title": "Supermicro to sell SambaNova SN50 inference chips next to Nvidia GPUs, starting with 10,000 chips",
+   "region": "US",
+   "first_published_utc": "2026-11-04T10:11:18Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "none",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Supermicro will sell SambaNova's SN50 chips next to Nvidia GPUs",
+     "date": "2026-11-04T10:11:18Z",
+     "url": "https://thenextweb.com/news/supermicro-sambanova-sn50-nvidia-inference-racks"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Supermicro will build and sell AI inference systems pairing SambaNova's SN50 chips with Nvidia GPUs, the companies said on Tuesday."
+    },
+    {
+     "article": 0,
+     "text": "The collaboration initially plans for 10,000 SN50 chips."
+    },
+    {
+     "article": 0,
+     "text": "Nvidia GPUs do the prompt reading while SN50 chips write the answer, SambaNova said."
+    },
+    {
+     "article": 0,
+     "text": "A SambaRack SN50 draws an average of 20 kW, SambaNova said last week."
+    },
+    {
+     "article": 0,
+     "text": "The companies start with neoclouds and sovereign clouds, then plan to sell to companies running AI in their own data centres."
+    },
+    {
+     "article": 0,
+     "text": "SambaNova, founded in 2017 and based in San Jose, raised new funding at an $11 billion valuation in July; Oracle said on 27 October it plans to deploy SN50 chips."
+    }
+   ],
+   "note": "Niche."
+  },
+  {
+   "title": "Traversal raises $120M Series B at $1B valuation for AI agents that find why software breaks",
+   "region": "US",
+   "first_published_utc": "2026-11-04T09:53:23Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "none",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Traversal raises $120M at $1B valuation for its AI reliability agents",
+     "date": "2026-11-04T09:53:23Z",
+     "url": "https://thenextweb.com/news/traversal-120m-series-b-1b-valuation-ai-sre"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Traversal, a New York startup whose AI agents find out why company software breaks, raised $120 million in a Series B at a $1 billion valuation, announced on Tuesday."
+    },
+    {
+     "article": 0,
+     "text": "Kleiner Perkins, Redpoint Ventures and Khosla Ventures co-led; total raised is $173 million."
+    },
+    {
+     "article": 0,
+     "text": "Traversal says annual recurring revenue has grown nine times since the start of the year; monthly investigations rose from 513 to nearly 73,000."
+    },
+    {
+     "article": 0,
+     "text": "Its benchmark ORCA-bench (with Cornell Tech and Columbia) has 1,079 tasks; the best of five frontier agents got 25.3% of medium-difficulty incidents right, and hallucination rates reached 40%."
+    },
+    {
+     "article": 0,
+     "text": "Customers include Nubank, Harvey, DigitalOcean, PepsiCo and American Express."
+    }
+   ]
+  },
+  {
+   "title": "Apple Watch Siri Recaps and Live Rewind, hands-on: useful but a little unsettling (iOS 27.3 beta)",
+   "region": "US",
+   "first_published_utc": "2026-11-04T16:51:35Z",
+   "repeat_of_posts_last_14_days": null,
+   "korea_asia_europe_angle": "none",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "I tried Apple's Siri Recaps. They're surprisingly useful — and a little unsettling",
+     "date": "2026-11-04T16:51:35Z",
+     "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "On Tuesday Apple rolled out Audio Intelligence features into the first developer betas of iOS 27.3 and watchOS 27.3 for Apple Watch Series 12 wearers."
+    },
+    {
+     "article": 0,
+     "text": "Four features: detect important sounds, identify songs (Shazam tech), Live Rewind and Siri Recaps."
+    },
+    {
+     "article": 0,
+     "text": "Live Rewind lets you see what was said in the past 15 seconds; Siri Recaps summarize audio throughout your day."
+    },
+    {
+     "article": 0,
+     "text": "Apple processes audio on-device when possible and does not identify speakers, store raw audio, or keep private info such as government ID numbers."
+    }
+   ],
+   "note": "Hands-on opinion piece; Apple 18+ story was 11-03 candidate."
+  },
+  {
+   "title": "OpenAI: ChatGPT search volume now about a fifth of Google's; 1.2B weekly users",
+   "region": "Global/Korea-reported",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (citing Business Insider)",
+     "title": "오픈AI \"챗GPT 검색량, 구글의 20% 도달\"...주간 사용자 12억명 돌파",
+     "date": "2026-11-04T12:21+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216977"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "오픈AI가 '챗GPT'를 통한 검색량이 구글 전체 검색량의 약 20%에 도달했다고 밝혔다. 주간 활성 사용자 수도 12억명을 넘어섰다."
+    },
+    {
+     "article": 0,
+     "text": "애덤 프라이 오픈AI 챗GPT 소비자 제품 책임자는 3일(현지시간) 뉴욕에서 열린 행사에서 '챗GPT에서 발생하는 검색성 질문의 양이 현재 구글 전체 검색량의 약 5분의 1 수준'이라고 밝혔다."
+    },
+    {
+     "article": 0,
+     "text": "여기서 검색량은 사용자의 질문 가운데 실제 웹 검색이 실행된 횟수를 의미한다."
+    },
+    {
+     "article": 0,
+     "text": "오픈AI는 구체적인 산출 방식과 비교에 활용한 구글 검색량의 출처는 공개하지 않았다."
+    },
+    {
+     "article": 0,
+     "text": "주간 활성 사용자(WAU)는 두 달 전 10억명에서 현재 12억명으로 증가했다."
+    },
+    {
+     "article": 0,
+     "text": "매주 2억5000만명이 음성 기능을 이용하고 있으며, 이미지 생성량은 주당 15억장에 달한다."
+    },
+    {
+     "article": 0,
+     "text": "미국 퓨리서치센터 조사에서 조사 대상 미국 성인의 42%가 AI를 정보 검색에 사용한 적이 있다고 답했다."
+    }
+   ],
+   "first_published_utc": "2026-11-04T03:21:00Z",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "Fal, AI inference startup, doubles valuation to $16B with $1.3B round",
+   "region": "US",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+     "date": "2026-11-03",
+     "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Fal, a San Francisco-based startup that hosts and runs AI video, image, and audio models, has raised $1.3 billion in its latest funding round led by Bessemer Venture Partners, with participation from Nvidia, Sound Ventures, and T. Rowe Price."
+    },
+    {
+     "article": 0,
+     "text": "The deal values Fal at $16 billion, double its $8 billion valuation in April, Bloomberg reported."
+    },
+    {
+     "article": 0,
+     "text": "The startup announced its Series E and F rounds at the same time, noting that a combined $1.65 billion was raised across both."
+    },
+    {
+     "article": 0,
+     "text": "Fal surpassed $800 million in annualized revenue earlier this year, Bloomberg's report noted."
+    },
+    {
+     "article": 0,
+     "text": "Companies providing inference services, including Baseten, Fireworks AI, and Modal, have also been growing rapidly and raising large funding rounds at higher valuations. But their gross margins remain thin because of the high cost of buying or leasing compute."
+    },
+    {
+     "article": 0,
+     "text": "Fal was co-founded in 2021 by Burkay Gur, a former Coinbase machine learning leader and Oracle engineer, and Gorkem Yurtseven, who was previously a developer at Amazon."
+    }
+   ],
+   "first_published_utc": "2026-11-03 (date only; Nov 3 or Nov 4 per outlet)",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "Anthropic releases FlashProve, open-source way to prove which AI model wrote an output",
+   "region": "US",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic is working on a system to prove AI models' identity",
+     "date": "2026-11-03",
+     "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+    },
+    {
+     "outlet": "Anthropic",
+     "title": "Progress on provable inference for large language models",
+     "date": "2026-11-02",
+     "url": "https://www.anthropic.com/research/provable-inference"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Anthropic is working on an open source system to verify which AI model produced a given output, according to a blog post published Tuesday."
+    },
+    {
+     "article": 0,
+     "text": "The system, called FlashProve, is built to provide ... 'provable inference' — a cryptographic proof ... that a given output came from a specific model."
+    },
+    {
+     "article": 0,
+     "text": "[It] could be used to prevent an AI company from secretly swapping in a cheaper model to cut costs, or a more expensive model to inflate its performance results."
+    },
+    {
+     "article": 0,
+     "text": "the fingerprints don't reveal a model's weights, the internal numbers that define how it behaves and which closed-model makers like Anthropic and OpenAI keep private."
+    },
+    {
+     "article": 0,
+     "text": "Research in the system is ongoing, and there are no plans to deploy it at Anthropic or any other lab."
+    },
+    {
+     "article": 1,
+     "text": "For a large model (Llama 4 Maverick, 400B-parameter mixture of experts), a single H100 GPU generates proofs at around 110 tokens/second, with a proof size of ~19 MB per 1,024-token request ... This is ~70-95x the GPU time of running the model itself on vLLM."
+    },
+    {
+     "article": 1,
+     "text": "We release our code, Lean proofs, and documentation under the Apache 2.0 license."
+    },
+    {
+     "article": 1,
+     "text": "Claude found novel ways to apply state-of-the-art tools in the cryptography and security literature."
+    }
+   ],
+   "first_published_utc": "2026-11-03 (date only; Nov 3 or Nov 4 per outlet)",
+   "repeat_of_posts_last_14_days": "no (posts/2026-11-03-anthropic-compute-margin is a different story; same company)",
+   "carried_over": true
+  },
+  {
+   "title": "UK's ARIA to test Oxford startup Lumai's light-based AI servers",
+   "region": "Europe (UK)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "UK's ARIA will test Lumai's light-based AI servers in a data centre",
+     "date": "2026-11-03",
+     "url": "https://thenextweb.com/news/aria-scaling-inference-lab-lumai-optical-servers"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "The UK's Advanced Research and Invention Agency (ARIA) will test servers that use light to run AI models, in a lab it funds, Oxford startup Lumai said on Tuesday."
+    },
+    {
+     "article": 0,
+     "text": "The Scaling Inference Lab, backed by £50M from ARIA and run by the nonprofit CommonAI, will install Lumai's Iris servers as its first optical computing platform."
+    },
+    {
+     "article": 0,
+     "text": "Lumai, spun out of Oxford University in 2021, encodes data into beams of light."
+    },
+    {
+     "article": 0,
+     "text": "The company aims its hardware at 'prefill', the stage where a model first reads a user's prompt. Ordinary chips would still produce the answer."
+    },
+    {
+     "article": 0,
+     "text": "Lumai claims its approach could cut data centre power use by up to 90%. It also says the system is at least 16 times more energy efficient per request than silicon alone."
+    },
+    {
+     "article": 0,
+     "text": "None of these figures has been independently checked, and testing them is the lab's job."
+    },
+    {
+     "article": 0,
+     "text": "Salience Labs, which also builds on Oxford research, raised $125M last month for optical switches."
+    }
+   ],
+   "first_published_utc": "2026-11-03 (date only; Nov 3 or Nov 4 per outlet)",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "MIT: GPT-6 Astra edits another model's weights directly, lifting Qwen math score from 7.9% to 48.1%",
+   "region": "Global/Korea-reported",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (citing VentureBeat)",
+     "title": "\"AI가 다른 AI의 가중치 직접 수정\"…재학습 없이 수학 평가 점수 6배 상승",
+     "date": "2026-11-04T12:40+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216971"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "MIT 연구진은 2일(현지시간) AI가 신경망의 가중치를 직접 분석하고 수정하는 '가중치공간 프로그래밍(Weight-Space Programming)' 연구 결과를 공개했다. 벤처비트는 이를 신경망의 '유전자 편집'에 비유했다."
+    },
+    {
+     "article": 0,
+     "text": "연구진은 오픈AI의 'GPT-6 아스트라'에 알리바바의 소형 모델 '큐원3.5-0.8B'의 수학 성능을 개선하라는 목표를 제시했다."
+    },
+    {
+     "article": 0,
+     "text": "아스트라는 ... 15번째와 19번째 계층의 가중치 13만1072개를 수정했다. 이는 전체 약 8억개 가중치의 0.016%에 불과하다."
+    },
+    {
+     "article": 0,
+     "text": "'MATH-500' 점수는 기존 7.9%에서 48.1%로 약 6.1배 높아졌다. 'GSM8K'도 13.8%에서 67.1%로, 'IFEval'도 21.0%에서 62.3%로 개선됐다."
+    },
+    {
+     "article": 0,
+     "text": "수학적 추론 능력 자체가 6배 높아졌다는 의미는 아니다. ... MATH-500에서 출력 한도에 도달한 비율은 수정 전 93%에서 수정 후 33.1%로 낮아졌다."
+    },
+    {
+     "article": 0,
+     "text": "구글의 소형 모델 '젬마 3 270M'에서도 수학 성능 개선을 시도했지만, 뚜렷한 성과를 얻지 못했다."
+    },
+    {
+     "article": 0,
+     "text": "기존 미세조정보다 시간이나 비용이 적게 든다는 사실도 입증하지 못했으며, AI가 스스로의 성능을 지속적으로 높이는 자율적 자기 개선 능력까지 보여준 것은 아니라는 평이다."
+    }
+   ],
+   "first_published_utc": "2026-11-04T03:40:00Z",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "Musk says Grok Bot cost 'unsustainably high', weekly usage limits tightened",
+   "region": "Global/Korea-reported",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "머스크 \"그록 봇 운영 비용 감당 어려워\"...AI 에이전트 사용량 제한",
+     "date": "2026-11-03T18:04+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216942"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "머스크 CEO는 1일(현지시간) X를 통해 '그록 봇을 제공하는 비용이 매출에 비해 지속할 수 없을 정도로 높았다'고 밝혔다."
+    },
+    {
+     "article": 0,
+     "text": "일부 이용자는 서비스를 사용하지 않았는데도 주간 사용량이 50%에서 100%로 급증했다고 주장했다."
+    },
+    {
+     "article": 0,
+     "text": "실제 한도를 얼마나 축소했는지, 앞으로 어떤 기준으로 제한을 적용할지는 구체적으로 공개하지 않았다."
+    },
+    {
+     "article": 0,
+     "text": "그록 봇은 가상 컴퓨터를 활용해 쇼핑 등 다양한 작업을 이용자 대신 수행하는 AI 에이전트다. 스페이스X가 지난 8월 출시했으며, 무료부터 월 200달러 요금제까지 여러 구독 상품으로 제공한다."
+    },
+    {
+     "article": 0,
+     "text": "스페이스X가 지난달 공개한 실적 자료에 따르면 그록 봇의 주간 유료 이용자는 80만명에 달했다."
+    },
+    {
+     "article": 0,
+     "text": "메타의 AI 에이전트 '뮤즈(Muse)'도 이용자가 1000만명을 넘어섰지만, 마크 저커버그 CEO는 지난달 실적 발표에서 '컴퓨팅 자원을 매우 많이 소비하는 서비스'라며 아직 수익을 내지 못하고 있다고 설명했다."
+    }
+   ],
+   "first_published_utc": "2026-11-03T09:04:00Z",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "Karpathy builds 'HackerTube' YouTube alternative in about 2 hours with Claude Opus 5.5",
+   "region": "Global/Korea-reported",
+   "reference_posts": [
+    {
+     "username": "ai.brief.kr",
+     "url": "https://www.instagram.com/p/DfRnpxJATzs/",
+     "multiple": 1.5,
+     "note": "under 1 day old, low-signal"
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "카르파시, 유튜브 추천에 질려 AI로 대안 개발…\"2시간 만에 완성\"",
+     "date": "2026-11-03T17:52+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=216956"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "안드레이 카르파시 ... 는 유튜브의 자극적인 썸네일과 반복적인 추천 콘텐츠에 불만을 느껴 AI를 활용한 대안 서비스 '해커튜브(HackerTube)'를 개발했다."
+    },
+    {
+     "article": 0,
+     "text": "해커뉴스(Hacker News)의 댓글 4300만개를 분석해 영상 6454개를 선정하고, 앤트로픽의 '클로드 오퍼스 5.5'를 활용해 약 2시간 만에 서비스를 구축했다고 밝혔다."
+    },
+    {
+     "article": 0,
+     "text": "2007년부터 2026년까지 축적된 댓글 4300만개에서 유튜브 영상이 언급된 댓글 4만건을 추렸다. ... 최종적으로 영상 6454개를 선정해 150개 주제로 분류했다."
+    },
+    {
+     "article": 0,
+     "text": "영상 선정에는 최소 3명의 이용자가 서로 다른 3개월에 걸쳐 언급했는지 등을 고려했다."
+    },
+    {
+     "article": 0,
+     "text": "영상 제작자가 지정한 썸네일 대신 영상의 중간 지점에 해당하는 화면을 썸네일로 사용한다."
+    },
+    {
+     "article": 0,
+     "text": "직접 수행한 작업은 유튜브 API 키 발급과 서버 준비, 도메인 구매 정도였다. 나머지 ... 는 클로드 코드에 맡겼다."
+    },
+    {
+     "article": 0,
+     "text": "카르파시는 '더 이상 전통적인 엔지니어링이라고 할 만한 일을 하지 않는다'라고 말했다."
+    }
+   ],
+   "first_published_utc": "2026-11-03T08:52:00Z",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "UK AI minister: serious cyber breach 'extremely likely'",
+   "region": "Europe (UK)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "UK AI minister says a serious cyber breach is 'extremely likely'",
+     "date": "2026-11-03",
+     "url": "https://thenextweb.com/news/uk-ai-minister-narayan-cyber-attack-extremely-likely"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "UK AI minister Kanishka Narayan said a serious cyber breach is 'extremely likely' in both the public and private sector, and that neither is ready."
+    },
+    {
+     "article": 0,
+     "text": "'A cyber breach incident is extremely likely in the UK, both in the public sector and private sector,' he added. (Bloomberg Tech event, London)"
+    },
+    {
+     "article": 0,
+     "text": "His warning came hours after Richard Horne, head of the UK's National Cyber Security Centre, said British firms were 'willfully blind' to threats from Russia, Iran and China."
+    },
+    {
+     "article": 0,
+     "text": "Hackers are thought to be using AI tools to speed up attacks."
+    },
+    {
+     "article": 0,
+     "text": "The government gave [the AI Security Institute] an extra £120M in its latest budget."
+    },
+    {
+     "article": 0,
+     "text": "Last month, it won back access to new US models before release, after the White House asked labs to hold them back."
+    },
+    {
+     "article": 0,
+     "text": "Narayan would not say how long that access would last. 'Nothing is a particular guarantee in the world of AI.'"
+    }
+   ],
+   "first_published_utc": "2026-11-03 (date only; Nov 3 or Nov 4 per outlet)",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "OpenAI hires former US Army Secretary Dan Driscoll for national security role",
+   "region": "US",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI hires former US Army Secretary Dan Driscoll for security role",
+     "date": "2026-11-03",
+     "url": "https://thenextweb.com/news/openai-dan-driscoll-army-secretary-national-security"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "OpenAI has hired Dan Driscoll, the 26th Secretary of the US Army, the company said on Monday. He takes a new role: senior counselor for national security modernization."
+    },
+    {
+     "article": 0,
+     "text": "His main focus is helping US allies use the technology responsibly."
+    },
+    {
+     "article": 0,
+     "text": "Driscoll left the Pentagon in September after months of tension with Defense Secretary Pete Hegseth."
+    },
+    {
+     "article": 0,
+     "text": "As Army secretary, he oversaw nearly one million soldiers and more than 265,000 Army civilians, OpenAI said."
+    },
+    {
+     "article": 0,
+     "text": "OpenAI said the hire builds on Daybreak, its cyber resilience programme with allies and partners."
+    },
+    {
+     "article": 0,
+     "text": "In February, OpenAI agreed to deploy its models on the Defense Department's classified network. ... Anthropic is still fighting its Pentagon case in court."
+    }
+   ],
+   "first_published_utc": "2026-11-03 (date only; Nov 3 or Nov 4 per outlet)",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "Palantir Q3: revenue +96% to $2.31B, but enterprise deals are short trials",
+   "region": "US",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Hiding inside Palantir's skyrocketing quarter is a foreboding signal",
+     "date": "2026-11-03",
+     "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Revenue grew 96% from a year earlier, and 20% from the previous quarter, to $2.31 billion, beating analysts' expectations of $2.18 billion. It was the first time Palantir has topped $2 billion in a quarter."
+    },
+    {
+     "article": 0,
+     "text": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever. The company reported $984 million in commercial contracts (up 148% from the year-ago quarter), versus $953 million in U.S. government revenue."
+    },
+    {
+     "article": 0,
+     "text": "Enterprises are often signing short-term trials."
+    },
+    {
+     "article": 0,
+     "text": "CEO Alex Karp: 'much quicker interaction, much quicker to deployment, shorter duration of the contract but then an ability to expand that contract dramatically'."
+    },
+    {
+     "article": 0,
+     "text": "While the company closed a hefty $1.46 billion of total contract value from U.S. enterprises in the quarter, that's actually a decline from the record $2.13 billion in the previous quarter."
+    },
+    {
+     "article": 0,
+     "text": "They increased guidance for U.S. commercial revenue to be 'in excess of $3.559 billion, representing a growth rate of at least 143%.'"
+    }
+   ],
+   "first_published_utc": "2026-11-03 (date only; Nov 3 or Nov 4 per outlet)",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  },
+  {
+   "title": "Apple restricts dating apps and AI companions to users 18 and up",
+   "region": "US",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Apple restricts dating apps and AI companions to users 18 and up",
+     "date": "2026-11-03",
+     "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "text": "Apple is adjusting its App Store policies to make it more difficult for minors to use online dating apps or AI companions that engage in 'sexual or romantic content,' the tech giant shared in an announcement to developers on Monday."
+    },
+    {
+     "article": 0,
+     "text": "Apple's new policy will require all apps offering dating or romantic relationship features to carry an 18+ rating."
+    },
+    {
+     "article": 0,
+     "text": "Starting November 16, developers will be required to include new content descriptors to ensure their app's age ratings reflect its features."
+    },
+    {
+     "article": 0,
+     "text": "As of last summer, top AI companion apps across the Apple App Store and Google Play had been downloaded 220 million times globally."
+    }
+   ],
+   "first_published_utc": "2026-11-03 (date only; Nov 3 or Nov 4 per outlet)",
+   "repeat_of_posts_last_14_days": "no",
+   "carried_over": true
+  }
+ ]
+}
