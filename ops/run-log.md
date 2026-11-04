@@ -2,6 +2,23 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-04
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11/03) 도달 9 · 팔로워 2 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달: ops/metrics/2026-11-04.json 참고
+결정할 일
+1. 참고 계정 토큰(IG_*)이 이 환경에 없어 참고 계정은 `ops/scan/2026-11-04/reference.json`으로만 봤음. 3x 이상 글은 전부 튜토리얼·바이럴 영상이라 주제로 쓰지 않음
+2. 소스가 독일어 기사 2건(heise, Der Standard; Der Standard는 유료벽으로 첫 문단만 읽음, 사실은 heise 기준). "Hungarian publisher"는 소송이 헝가리에서 제기됐다는 데서 쓴 표현으로 기사에 국적 명시는 없음. 엄격히 하려면 "Hungarian" 삭제
+3. 커버 훅 "EU'S FIRST GENAI CASE HITS GEMINI": hook-judge 7/10. "GENAI"가 전문용어라 "EU'S FIRST AI CASE HITS GEMINI"가 더 읽기 쉽다는 선택 제안
+4. `posts/_backlog/2026-11-03-eu-adviser-google-gemini.md`는 오늘 글로 승격됨. 삭제 권한이 없어 그대로 둠 (중복이니 지워도 됨)
+5. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버를 생성함 (이전 런과 동일). 렌더는 CHROMIUM_PATH로 지정, `npm ci` 필요했음
+자세한 기록
+- 05:45 시작. 백로그 확인: main에 ready 글 없음. morning-scan이 main에 없어 직접 실행, 약 1분 안에 생성됨
+- 후보 12개 (참고 계정 10/10 성공). 읽지 못한 원문: Verge, Yonhap, Politico Europe, Sifted, Ars Technica (차단), Reuters, Nikkei, SCMP 등 (Google News 리다이렉트만). 한국 기업 뉴스 후보 없음
+- 주제: EU 사법재판소 법무관 "AI 챗봇이 언론사 저작권 침해 가능" (Gemini) (EUROPE, POLICY). 8점. id `2026-11-04-eu-court-gemini-copyright`
+  - 예비 4건 `posts/_backlog/`에 추가: Lumai/ARIA, ChatGPT 검색량, Anthropic FlashProve, UK 장관 사이버
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자 없음
+- 검수 1차 전원 통과: fact-checker 통과, hook-judge 통과 7/10, brand-safety 통과. 되돌림 0회
+
 ## [저녁 보고] 2026-11-03
 처리 1건 (ready 1) · 실패 0건
 결정할 일
