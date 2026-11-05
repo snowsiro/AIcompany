@@ -1,0 +1,131 @@
+{
+  "id": "2026-11-05-tencent-hy4",
+  "date": "2026-11-05",
+  "category": "TOOLS",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · TOOLS",
+    "headline": [
+      "TENCENT: ELITE",
+      "VALS: **13TH** OF 33"
+    ],
+    "hook_options": [
+      [
+        "TENCENT: ELITE",
+        "VALS: **13TH** OF 33"
+      ],
+      [
+        "HY4 RANKS **13TH**",
+        "OF 33 AI MODELS"
+      ],
+      [
+        "HY4 TRAILS KIMI,",
+        "DEEPSEEK, **GLM**"
+      ],
+      [
+        "TENCENT'S NEW AI",
+        "NOT YET **OPEN**"
+      ]
+    ],
+    "hook_types": [
+      "myth-flip",
+      "number",
+      "rivalry",
+      "claim"
+    ],
+    "hook_type": "myth-flip",
+    "hook_pick_reason": "Sets Tencent's top-tier declaration against the Vals AI result (13th of 33) in two lines, and both halves are shown: slide 1 for the claim, slide 4 for the rank. The number option drops the Tencent side and so loses the tension. The rivalry option is accurate (slide 4 lists Kimi, DeepSeek and GLM-5.3 ahead) but flatter. The claim option is true but hides the benchmark conflict. No reader-impact hook: the article states no effect on ordinary readers (price, access or risk); it only reports a model launch and benchmark scores, and the weights are not yet released.",
+    "image_prompt": "Cinematic wide shot of a vast dark stadium-like staircase of glowing glass platforms rising into a night sky, one bright amber platform near the top and a row of slightly higher cool blue platforms above it, mist drifting between the levels, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The claim",
+      "title": "Tencent launches Hy4",
+      "body": [
+        "**Tencent**, China's largest social media and gaming company, released Hy4 on Nov 4 and declared a place in China's AI top tier. It is a mixture-of-experts model: **770 billion** parameters in total, about 49 billion active, with a 1-million-token context window."
+      ]
+    },
+    {
+      "kicker": "What's new",
+      "title": "Images, computer use, safer training",
+      "body": [
+        "Hy4 adds **image understanding** for the first time, plus computer-use skills across command line and graphical interfaces. Tencent says it trained on defensive security data and left out attack material, to reduce misuse in **cyberattacks**."
+      ]
+    },
+    {
+      "kicker": "A finance test",
+      "title": "Ahead on a finance evaluation",
+      "body": [
+        "In a finance evaluation the article describes, 579 tasks with 213 finance experts taking part, Hy4 scored **3.04**. DeepSeek V4.1 Flash got 2.97; Kimi K3.1 Pro and GLM-5.3 each got 2.68. The article does not say who ran it."
+      ]
+    },
+    {
+      "kicker": "The outside score",
+      "title": "Vals AI puts Hy4 13th of 33",
+      "body": [
+        "Vals AI, an outside benchmark, scored Hy4 **59.35%** overall on Nov 4: **13th of 33** models, 4th among open-weight models. Ahead: Kimi K3.1 Pro (62.52%), DeepSeek V4.1 Flash (61.26%) and GLM-5.3 (59.73%)."
+      ]
+    },
+    {
+      "kicker": "The fine print",
+      "title": "Gaps remain, and no download yet",
+      "body": [
+        "Tencent admits a notable gap to top closed models in research-level math, long coding tasks, self-improvement and advanced visual Q&A. The final **weights are not yet released**; Tencent plans them soon, with a system card and a lighter Hy4 Flash."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Tencent released Hy4 on Nov 4 (local time), the follow-up to the Hy4 Preview, and declared that it enters the top tier of Chinese AI (per the article's headline). Tencent is China's largest social media and gaming company."
+    },
+    {
+      "source": 0,
+      "text": "Hy4 is a mixture-of-experts model with 770 billion parameters in total, about 49 billion active at inference, and a context window of up to 1 million tokens."
+    },
+    {
+      "source": 0,
+      "text": "Hy4 adds image understanding for the first time and computer-use skills covering both command line and graphical interfaces."
+    },
+    {
+      "source": 0,
+      "text": "Tencent says it trained on defensive security data (finding and fixing software flaws) and left out attack material, to reduce misuse in cyberattacks."
+    },
+    {
+      "source": 0,
+      "text": "In a 579-task finance evaluation with 213 finance experts, as described in the article, Hy4 scored 3.04 versus DeepSeek V4.1 Flash 2.97 and Kimi K3.1 Pro and GLM-5.3 at 2.68 each. The article does not say who ran the evaluation."
+    },
+    {
+      "source": 0,
+      "text": "Vals AI's Nov 4 evaluation put Hy4 at 59.35% overall accuracy, 13th of 33 models and 4th among open-weight models, behind Kimi K3.1 Pro (62.52%), DeepSeek V4.1 Flash (61.26%) and GLM-5.3 (59.73%)."
+    },
+    {
+      "source": 0,
+      "text": "Tencent itself admits a notable gap to top closed models in research-level math, long coding tasks, self-improvement and advanced visual Q&A."
+    },
+    {
+      "source": 0,
+      "text": "Final-model weights are not yet released; Tencent plans to publish them with a system card soon, plus a lighter Hy4 Flash model."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI타임스",
+      "title": "텐센트, 'Hy4'로 중국 AI 최상위권 진입 선언…사이버 공격 학습 제한",
+      "title_en": "Tencent declares Hy4 enters the top tier of Chinese AI... limits cyberattack training",
+      "language": "Korean",
+      "date": "Nov 5, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217039"
+    }
+  ],
+  "caption": "Tencent says its new Hy4 AI model belongs in China's top tier. An outside benchmark ranks it 13th of 33.\n\nTencent, China's largest social media and gaming company, released Hy4 on Nov 4. Its weights (the downloadable model files) are not out yet.\n\n→ Vals AI scores Hy4 59.35%: 13th of 33 models, 4th among open-weight models\n→ Ahead of it: Kimi K3.1 Pro, DeepSeek V4.1 Flash and GLM-5.3\n→ In a finance evaluation the article cites, Hy4 scores 3.04, ahead of DeepSeek (2.97)\n\nOne model, two scorecards: which one do you trust?\n\nSource: AI타임스 (in Korean), \"Tencent declares Hy4 enters the top tier of Chinese AI... limits cyberattack training\", Nov 5, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Tencent",
+    "#Hy4",
+    "#ChinaAI",
+    "#OpenWeights"
+  ],
+  "threads_caption": "Tencent says its new Hy4 model is China's top tier. Vals AI ranks it 13th of 33 (59.35%), 4th among open-weight models. Weights are not released yet.\n\nSource: AI타임스 (in Korean), \"Tencent declares Hy4 enters the top tier of Chinese AI... limits cyberattack training\". #Tencent"
+}
