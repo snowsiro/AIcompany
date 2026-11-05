@@ -35,7 +35,7 @@
       "claim"
     ],
     "hook_type": "myth-flip",
-    "hook_pick_reason": "Sets Tencent's top-tier declaration against the Vals AI result (13th of 33) in two lines, and both halves are shown: slide 1 and slide 3 for the claim, slide 4 for the rank. The number option drops the Tencent side and so loses the tension. The rivalry option is accurate (slide 4 lists Kimi, DeepSeek and GLM-5.3 ahead) but flatter. The claim option is true but hides the benchmark conflict. No reader-impact hook: the article states no effect on ordinary readers (price, access or risk); it only reports a model launch and benchmark scores, and the weights are not yet released.",
+    "hook_pick_reason": "Sets Tencent's top-tier declaration against the Vals AI result (13th of 33) in two lines, and both halves are shown: slide 1 for the claim, slide 4 for the rank. The number option drops the Tencent side and so loses the tension. The rivalry option is accurate (slide 4 lists Kimi, DeepSeek and GLM-5.3 ahead) but flatter. The claim option is true but hides the benchmark conflict. No reader-impact hook: the article states no effect on ordinary readers (price, access or risk); it only reports a model launch and benchmark scores, and the weights are not yet released.",
     "image_prompt": "Cinematic wide shot of a vast dark stadium-like staircase of glowing glass platforms rising into a night sky, one bright amber platform near the top and a row of slightly higher cool blue platforms above it, mist drifting between the levels, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people."
   },
   "slides": [
@@ -54,10 +54,10 @@
       ]
     },
     {
-      "kicker": "Tencent's test",
-      "title": "A win on its own finance exam",
+      "kicker": "A finance test",
+      "title": "Ahead on a finance evaluation",
       "body": [
-        "On a 579-task finance benchmark judged by 213 finance experts, Hy4 scored **3.04**. DeepSeek V4.1 Flash got 2.97; Kimi K3.1 Pro and GLM-5.3 each got 2.68. This is **Tencent's own test**, not an outside one."
+        "In a finance evaluation the article describes, 579 tasks with 213 finance experts taking part, Hy4 scored **3.04**. DeepSeek V4.1 Flash got 2.97; Kimi K3.1 Pro and GLM-5.3 each got 2.68. The article does not say who ran it."
       ]
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "source": 0,
-      "text": "On a 579-task finance benchmark judged by 213 finance experts, Hy4 scored 3.04 versus DeepSeek V4.1 Flash 2.97 and Kimi K3.1 Pro and GLM-5.3 at 2.68 each. The benchmark is Tencent's own."
+      "text": "In a 579-task finance evaluation with 213 finance experts, as described in the article, Hy4 scored 3.04 versus DeepSeek V4.1 Flash 2.97 and Kimi K3.1 Pro and GLM-5.3 at 2.68 each. The article does not say who ran the evaluation."
     },
     {
       "source": 0,
@@ -119,7 +119,7 @@
       "url": "https://www.aitimes.com/news/articleView.html?idxno=217039"
     }
   ],
-  "caption": "Tencent says its new Hy4 AI model belongs in China's top tier. An outside benchmark ranks it 13th of 33.\n\nTencent, China's largest social media and gaming company, released Hy4 on Nov 4. Its weights (the downloadable model files) are not out yet.\n\n→ Vals AI scores Hy4 59.35%: 13th of 33 models, 4th among open-weight models\n→ Ahead of it: Kimi K3.1 Pro, DeepSeek V4.1 Flash and GLM-5.3\n→ Tencent's own finance test has Hy4 first (3.04), but that test is Tencent's\n\nWhen a company grades its own model, which score do you trust?\n\nSource: AI타임스 (in Korean), \"Tencent declares Hy4 enters the top tier of Chinese AI... limits cyberattack training\", Nov 5, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "Tencent says its new Hy4 AI model belongs in China's top tier. An outside benchmark ranks it 13th of 33.\n\nTencent, China's largest social media and gaming company, released Hy4 on Nov 4. Its weights (the downloadable model files) are not out yet.\n\n→ Vals AI scores Hy4 59.35%: 13th of 33 models, 4th among open-weight models\n→ Ahead of it: Kimi K3.1 Pro, DeepSeek V4.1 Flash and GLM-5.3\n→ In a finance evaluation the article cites, Hy4 scores 3.04, ahead of DeepSeek (2.97)\n\nOne model, two scorecards: which one do you trust?\n\nSource: AI타임스 (in Korean), \"Tencent declares Hy4 enters the top tier of Chinese AI... limits cyberattack training\", Nov 5, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#Tencent",
