@@ -1,0 +1,142 @@
+{
+ "date": "2026-11-05",
+ "run": "morning",
+ "note": "IG token absent; reference.json used. 3x+ reference posts were all tutorial/tool/sponsored content (sdk.kim.builds 14.6x Hallmark design skill, 12.7x free AI course repo; prompt_what 12.6x Stageshow skill, 4.6x + ai.trend.kr 2.2x ArtCraft free apps, ai.trend.kr 3.9x resume prompt, 5.2x AI video reel) - not hard news, not listed. Overlap with news: ArtCraft free apps (2 accounts) not pursued (no news original fetched). Only hard-news overlap in reference is none; topics chosen from feeds. No repeats found in posts/ (last 14 days) or posts/_backlog/. Failed/unreadable: Yonhap English (403), openai.com (403), The Verge (403), Reuters/Nikkei/SCMP/Korea Times/Korea Herald/etnews/dt/ZDNet Korea/VentureBeat/Tech.eu/European Commission (Google News redirects, no readable original; searches did not surface originals for Google $15bn Malaysia, Kakao Q3/Kanana Space, SK hynix US AI arm board, Fal $16B). Euractiv, DeepL, Meta AI feeds failed/empty. Dropped: Google $15bn Malaysia (Nikkei headline only, search could not confirm).",
+ "stories": [
+  {
+   "title": "Tencent launches Hy4, claims China's top tier of open models, but outside benchmark ranks it 13th of 33",
+   "region": "Asia",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "AI타임스", "title": "텐센트, 'Hy4'로 중국 AI 최상위권 진입 선언…사이버 공격 학습 제한", "date": "2026-11-05T12:54+09:00", "url": "https://www.aitimes.com/news/articleView.html?idxno=217039"}
+   ],
+   "also_covered_by_unread": ["Nikkei Asia: Tencent says its Hy4 joins 'top-tier' of open-source AI models", "SCMP: Tencent launches Hy4 in bid to break into AI's top tier of open-weight models"],
+   "facts": [
+    {"a": 0, "fact": "Tencent released Hy4 on Nov 4 (local time), the follow-up to the Hy4 Preview from August, with scaled-up pre- and post-training."},
+    {"a": 0, "fact": "Hy4 is a mixture-of-experts model with 770 billion parameters in total, about 49 billion active at inference, and a context window of up to 1 million tokens."},
+    {"a": 0, "fact": "It adds image understanding for the first time and computer-use skills covering both command line and graphical interfaces."},
+    {"a": 0, "fact": "Tencent says it trained on defensive security data (finding and fixing software flaws) and left out attack material, to reduce misuse in cyberattacks."},
+    {"a": 0, "fact": "Final-model weights are not yet released; Tencent plans to publish them with a system card soon, plus a lighter Hy4 Flash model."},
+    {"a": 0, "fact": "On a 579-task finance benchmark judged by 213 finance experts, Hy4 scored 3.04 versus DeepSeek V4.1 Flash 2.97 and Kimi K3.1 Pro and GLM-5.3 at 2.68 each."},
+    {"a": 0, "fact": "Vals AI's Nov 4 evaluation put Hy4 at 59.35% overall accuracy, 13th of 33 models and 4th among open-weight models, behind Kimi K3.1 Pro (62.52%), DeepSeek V4.1 Flash (61.26%) and GLM-5.3 (59.73%)."},
+    {"a": 0, "fact": "Tencent itself admits a notable gap to top closed models in research-level math, long coding tasks, self-improvement and advanced visual Q&A."},
+    {"a": 0, "fact": "Hy4 is available on Tencent Cloud, CodeBuddy, WorkBuddy and Yuanbao; WorkBuddy and CodeBuddy give some free usage until the 15th."}
+   ]
+  },
+  {
+   "title": "OpenAI Images 2.6 brings animated GIFs to ChatGPT; 4 billion images a week",
+   "region": "US / global",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "The Next Web", "title": "ChatGPT can now make animated GIFs with OpenAI's Images 2.6", "date": "2026-11-04T19:24Z", "url": "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai"},
+    {"outlet": "AI타임스", "title": "오픈AI, '이미지스 2.6' 공개…챗GPT서 움직이는 GIF 생성 지원", "date": "2026-11-05T12:29+09:00", "url": "https://www.aitimes.com/news/articleView.html?idxno=217038"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "OpenAI is adding animated GIFs to ChatGPT with a new image model, Images 2.6; users can make a GIF from a text prompt or an uploaded photo."},
+    {"a": 0, "fact": "Users can change playback speed, look at and edit single frames, and share the GIF."},
+    {"a": 0, "fact": "Images 2.6 is rolling out to all ChatGPT and Codex users on web, desktop and mobile."},
+    {"a": 0, "fact": "Developers get two API models: GPT-Image-2.6 Flare (speed) and GPT-Image-2.6 Sunburst (quality)."},
+    {"a": 0, "fact": "OpenAI says people now make more than 4 billion images a week across ChatGPT and the API, up from 3 billion in September (OpenAI's own figure, covers all image use)."},
+    {"a": 0, "fact": "The feature comes months after OpenAI shut down Sora, its AI video app, in March."},
+    {"a": 1, "fact": "OpenAI says image generation is 50% faster and editing precision improved; the GIF feature is rolling out gradually so some accounts do not have it yet."},
+    {"a": 1, "fact": "A new 'Complexity' setting controls how much planning the model does before generating an image."}
+   ]
+  },
+  {
+   "title": "Apple cuts engineers' daily AI spending caps from $300 to $200, more cuts planned",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "The Next Web", "title": "Apple cuts engineers' daily AI budgets as it reins in spending", "date": "2026-11-04T20:40Z", "url": "https://thenextweb.com/news/apple-cuts-employee-ai-token-budgets"},
+    {"outlet": "TechCrunch", "title": "Apple is reportedly cutting budgets for its internal AI usage", "date": "2026-11-05T01:26Z", "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "Per Bloomberg, Apple lowered the daily AI spending cap for some engineering teams from $300 to $200 in October."},
+    {"a": 0, "fact": "More cuts are planned that could take some engineering teams to $100 a day."},
+    {"a": 0, "fact": "Many staff outside engineering already have a $100 daily cap; Apple has considered $25 for some teams."},
+    {"a": 0, "fact": "Staff can use Anthropic's Claude, OpenAI's ChatGPT and Google's Gemini; some teams are told to switch to cheaper or on-device models."},
+    {"a": 0, "fact": "John Ternus became CEO on 1 September and has pushed Apple to be leaner; Apple cut over 200 jobs in August."},
+    {"a": 0, "fact": "Apple's R&D costs rose 32% in fiscal 2026 on higher infrastructure and AI costs; operating expenses rose 22% to $75.5B."},
+    {"a": 0, "fact": "Other firms cap AI use too: Tesla $200 a week, Uber $1,500 a month per coding tool, Accenture $29 a month on Claude."},
+    {"a": 1, "fact": "TechCrunch notes a 'tokenmaxxing' push earlier this year faded as token bills came due; Apple has been asked for comment."}
+   ]
+  },
+  {
+   "title": "Saudi Aramco takes 49% of state-backed AI company Humain for about $2.6B",
+   "region": "Middle East",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "heise online", "title": "Saudi Aramco übernimmt knapp die Hälfte des KI-Unternehmens Humain", "date": "2026-11-04T18:32+01:00", "url": "https://www.heise.de/news/Saudi-Aramco-uebernimmt-knapp-die-Haelfte-des-KI-Unternehmens-Humain-11512647.html"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "State-controlled oil company Saudi Aramco took a 49% stake in Saudi AI company Humain."},
+    {"a": 0, "fact": "Aramco contributes about $2.6 billion plus existing AI, computing infrastructure and digital assets; the value of those assets is not given."},
+    {"a": 0, "fact": "Saudi sovereign wealth fund PIF keeps the other 51%."},
+    {"a": 0, "fact": "Humain plans data centers with 3 gigawatts of electrical capacity by 2030."},
+    {"a": 0, "fact": "Humain CEO Tareq Amin told Semafor in September the industry budgets $11-12 million per megawatt, which would imply $33-36 billion for 3 GW (heise's extrapolation; Amin gave no budget)."},
+    {"a": 0, "fact": "Aramco also hopes to benefit as an energy supplier to data centers and to commercialize its AI technology."}
+   ]
+  },
+  {
+   "title": "US midterms: voter anger at data centers becomes a political force",
+   "region": "US (Korea market angle: Korea Times/ZDNet Korea/Seoul shares fell, unread)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "TechCrunch", "title": "After the midterms, a bigger clash over data centers could be coming", "date": "2026-11-05T01:02Z", "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"}
+   ],
+   "also_covered_by_unread": ["Reuters: AI data-center stocks slide after Democratic sweep", "Yonhap: Seoul shares sharply down as US midterm results spark AI woes", "Korea Times: Democrats' win could compound pressures on AI spending, Korean chipmakers", "etnews, ZDNet Korea"],
+   "facts": [
+    {"a": 0, "fact": "The Nov 3 midterm results gave Democrats full control of Congress, with Republicans in the White House."},
+    {"a": 0, "fact": "An NBC exit poll: more than half of respondents think AI will do more harm than good; almost 80% oppose data centers in their neighborhood."},
+    {"a": 0, "fact": "Almost 60% said data centers were a crucial or major factor in their vote."},
+    {"a": 0, "fact": "In Ohio, the county where Meta planned a 700,000-square-foot facility passed a data center ban; OpenAI has eyed a $500 billion data center there backed by over $100 billion in Nvidia financing."},
+    {"a": 0, "fact": "Candidates in Texas, Maine, Michigan, Nevada, Georgia and South Carolina won after taking a stance against rapid buildout."},
+    {"a": 0, "fact": "Goldman Sachs predicts data center construction delays in states like Georgia and Texas; Morgan Stanley sees Ohio governor-elect Amy Acton as a risk to buildout."},
+    {"a": 0, "fact": "Sanders and Ocasio-Cortez introduced a bill for a nationwide moratorium on new data centers; it could face a veto."},
+    {"a": 0, "fact": "Pro-AI super PACs spent millions in the midterms."}
+   ]
+  },
+  {
+   "title": "KT and Samsung use AI to cut high-speed rail signal drops by about 29%",
+   "region": "Korea",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "AI타임스", "title": "KT·삼성전자, 시속 250km 고속철 '통신 끊김' AI로 잡는다", "date": "2026-11-05T12:08+09:00", "url": "https://www.aitimes.com/news/articleView.html?idxno=217041"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "KT (Korean telecom) and Samsung Electronics cut connection drops on a high-speed rail line by about 29% using AI to tune the wireless network."},
+    {"a": 0, "fact": "At 250 km/h or more, trains switch base stations (handover) often; late handovers cause delays and poor call quality."},
+    {"a": 0, "fact": "AI analyzed signal strength and connection-failure history; delayed connection to the next base station was the main cause of drops."},
+    {"a": 0, "fact": "They adjusted handover timing so switching happens earlier on problem sections."},
+    {"a": 0, "fact": "The trial ran on the Gyeongbu Line between Pyeongtaek (Godeok-myeon) and Hwaseong (Maesong-myeon), announced Nov 5."},
+    {"a": 0, "fact": "Last December the pair validated AI-RAN personalized optimization on a commercial network in Seongnam with about 18,000 subscribers."},
+    {"a": 0, "fact": "KT is considering real-world rollout on high-speed rail."}
+   ]
+  },
+  {
+   "title": "Meta acquires AI coding startup Conductor; OpenAI buys Pierre Computer (AI coding tooling land-grab)",
+   "region": "US / Europe (heise)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "TechCrunch", "title": "Meta acquires AI coding startup Conductor", "date": "2026-11-04T21:10Z", "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"},
+    {"outlet": "heise online", "title": "OpenAI wird mit Übernahme von Pierre Computer zum GitHub-Konkurrenten", "date": "2026-11-05T05:05+01:00", "url": "https://www.heise.de/news/OpenAI-wird-mit-Uebernahme-von-Pierre-Computer-zum-GitHub-Konkurrenten-11512804.html"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "Meta acquired Conductor, an AI coding startup that lets users run multiple agents in parallel workspaces; Meta confirmed but gave no details or price."},
+    {"a": 0, "fact": "Conductor was founded in 2024 and launched its core product last summer; its agents come from labs like Anthropic and OpenAI."},
+    {"a": 0, "fact": "Conductor's cloud service shuts down on November 20, after which user cloud data will be deleted."},
+    {"a": 0, "fact": "Meta's Muse agents recently passed 10 million users; Meta launched its own coding agent Muse Code in August."},
+    {"a": 1, "fact": "OpenAI announced it will acquire Pierre Computer, a US startup founded in 2023 that builds open-source dev tools and git infrastructure; some are already inside Codex."},
+    {"a": 1, "fact": "heise frames it as OpenAI building a GitHub competitor; Microsoft bought GitHub in 2018 for $7.5B and holds about a quarter of OpenAI."},
+    {"a": 1, "fact": "OpenAI also unveiled 'Pando', a git-repository backend for coding agents, this week."}
+   ]
+  }
+ ]
+}
