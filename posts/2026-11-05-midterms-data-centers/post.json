@@ -1,0 +1,140 @@
+{
+  "id": "2026-11-05-midterms-data-centers",
+  "date": "2026-11-05",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "notes": "Facts from TechCrunch (Nov 4) and MIT Technology Review (Nov 4), both read in full with scripts/article.mjs. The poll is an NBC exit poll as reported by TechCrunch. Not used: Seoul/Korea market reaction and Reuters data-center stocks (articles unreadable: Yonhap 403, Reuters redirect only). No Korea angle in this post.",
+  "cover": {
+    "tag": "US AI · POLICY",
+    "headline": [
+      "NEARLY **80%** SAY",
+      "NOT NEAR MY HOME"
+    ],
+    "hook_options": [
+      [
+        "NEARLY **80%** SAY",
+        "NOT NEAR MY HOME"
+      ],
+      [
+        "**60%** CALL DATA",
+        "CENTERS A FACTOR"
+      ],
+      [
+        "VOTERS TARGET",
+        "AI'S **BUILDOUT**"
+      ],
+      [
+        "VOTERS VS. THE",
+        "AI **DATA CENTER**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "claim",
+      "rivalry"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Leads with the exit-poll number that the slides show (almost 80% oppose data centers in their neighborhoods) and frames it as a voter reaction, which is the story. The 60% option is accurate but flatter, the claim option has no number, the rivalry option is vaguer. No reader-impact hook: the articles describe voter opposition and possible policy next steps, but state no confirmed change in what ordinary readers pay or can use.",
+    "image_prompt": "Cinematic wide shot at dusk of a huge windowless data center campus on open farmland, rows of cooling units glowing cold blue, a lone empty road leading toward it, a crowd-sized scatter of small warm amber lights (lanterns) gathered at the fence line in the foreground, low mist, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261105_181731_b0c4ffb5-69db-4f3a-811c-5b7ac4db7ee3.png"
+  },
+  "slides": [
+    {
+      "kicker": "The result",
+      "title": "Data centers became a ballot issue",
+      "body": [
+        "The Nov 3 midterms gave Democrats full control of Congress, with Republicans in the White House. TechCrunch says anger over **data centers**, the large facilities that house the computers powering AI, is becoming a political force."
+      ]
+    },
+    {
+      "kicker": "The poll",
+      "title": "Voters are wary of AI",
+      "body": [
+        "An NBC exit poll found more than half of respondents think AI will do **more harm than good**. Almost 80% oppose data centers in their neighborhoods, and almost 60% called them a crucial or major factor in their vote."
+      ]
+    },
+    {
+      "kicker": "Ohio",
+      "title": "An Ohio county bans data centers",
+      "body": [
+        "In Ohio, the county where Meta had planned a 700,000-square-foot data center passed a ban. OpenAI has eyed a **$500 billion** data center in the state, backed by more than $100 billion in Nvidia financing."
+      ]
+    },
+    {
+      "kicker": "Texas",
+      "title": "The fastest-growing market may shift",
+      "body": [
+        "Texas is the fastest-growing US data center market. Democrat Gina Hinojosa won the governor's race after pushing for a **moratorium**, and Democrats will take the Texas House for the first time in 24 years, MIT Technology Review reports."
+      ]
+    },
+    {
+      "kicker": "What next",
+      "title": "More limits could follow",
+      "body": [
+        "TechCrunch lists likely next steps: more construction moratoriums, or making data centers pay for their own **grid upgrades**. Goldman Sachs predicts delays in states like Georgia and Texas. A national moratorium bill could face a veto."
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "Following through is hard",
+      "body": [
+        "In Texas, no single office decides whether a project goes ahead, MIT Technology Review notes, and construction unions that backed some Democrats may push back. Even among Democrats, a **blanket freeze** is contested, says Nadine Smith of the racial justice group Color of Change."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The November 3 midterm results gave Democrats full control of Congress, with Republicans in the White House. Anger over data centers, the large facilities that house the computers powering AI, is becoming a political force."
+    },
+    {
+      "source": 0,
+      "text": "An NBC exit poll: more than half of respondents believe AI will do more harm than good; almost 80% are against the building of data centers in their neighborhoods; almost 60% said data centers were a crucial or major factor in their vote."
+    },
+    {
+      "source": 0,
+      "text": "Ohio: the county where Meta had planned a 700,000-square-foot facility passed a ban on data centers. OpenAI has eyed a $500 billion data center in Ohio, backed by more than $100 billion in financing from Nvidia."
+    },
+    {
+      "source": 1,
+      "text": "Texas is the fastest-growing data center market in the US. Democrat Gina Hinojosa won the governor's race against Greg Abbott; Democrats will take control of the Texas House for the first time in 24 years. During her campaign Hinojosa began pushing for a full-fledged moratorium."
+    },
+    {
+      "source": 0,
+      "text": "Likely next steps include more construction moratoriums or requiring data centers to pay for their own power grid upgrades. Goldman Sachs predicts data center construction delays in states like Georgia and Texas. A nationwide-moratorium bill by Sen. Bernie Sanders and Rep. Alexandria Ocasio-Cortez would also face a possible veto."
+    },
+    {
+      "source": 1,
+      "text": "No single office in Texas decides whether a project goes ahead. Democrats pushing for a moratorium might face pushback from the construction unions that supported some of their campaigns."
+    },
+    {
+      "source": 0,
+      "text": "Nadine Smith of Color of Change: \"Even among Democrats, a blanket freeze is contested.\""
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "After the midterms, a bigger clash over data centers could be coming",
+      "date": "Nov 4, 2026",
+      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
+    },
+    {
+      "outlet": "MIT Technology Review",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "date": "Nov 4, 2026",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+    }
+  ],
+  "caption": "Voters just made AI data centers a campaign issue after the US midterms.\n\nAn NBC exit poll found almost 80% oppose data centers in their neighborhoods, TechCrunch reports.\n\n→ Almost 60% called data centers a crucial or major factor in their vote\n→ An Ohio county where Meta planned a data center passed a ban\n→ Texas's Democratic governor-elect campaigned on a moratorium, but following through is hard\n\nWho should decide where data centers go?\n\nSource: TechCrunch, \"After the midterms, a bigger clash over data centers could be coming\", Nov 4, 2026; MIT Technology Review, \"Texas was the new epicenter of the AI data center buildout. That might be kaput.\", Nov 4, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#DataCenters",
+    "#Midterms",
+    "#AIPolicy",
+    "#Texas"
+  ],
+  "threads_caption": "Voters just made AI data centers a campaign issue after the US midterms. An NBC exit poll: almost 80% oppose data centers in their neighborhoods.\n\nOpposition could slow the AI buildout in Ohio and Texas.\n\nSource: TechCrunch, \"After the midterms, a bigger clash over data centers could be coming\". #DataCenters"
+}
