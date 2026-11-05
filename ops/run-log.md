@@ -2,6 +2,21 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-05
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11/04) 도달 4 · 팔로워 2 (변화 수집 안 됨) · 링크 클릭 0 · 최고 도달: ops/metrics/2026-11-05.json 참고
+결정할 일
+1. 단일 출처: Tencent Hy4 사실은 AI타임스 1곳뿐 (Nikkei·SCMP 읽지 못함). 금융 평가(579개 과제)는 누가 돌렸는지 기사에 없어 "기사는 밝히지 않음"으로 씀 (1차 팩트체크 불합격 → 수정 후 통과, 되돌림 1회)
+2. 카테고리 MODELS는 lint 불가라 TOOLS 사용 (`CHINA AI · TOOLS`)
+3. 커버 훅 hook-judge 7/10 ("VALS" 설명 없음, myth-flip 라벨은 약간 느슨). 선택: "VALS AI: 13TH OF 33"
+4. 참고 계정 토큰(IG_*) 없음: reference.json만 봤고 3x 이상 글은 전부 튜토리얼·도구라 주제로 안 씀
+5. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버 생성. 렌더는 CHROMIUM_PATH 지정. 푸시는 세션 지정 브랜치 claude/friendly-cori-yg7anp (daily/ 아님)
+자세한 기록
+- 05:45 시작. 백로그 확인: ready 글 없음. morning-scan이 main에 없어 직접 실행, 약 1분 안에 생성
+- 후보 6개. 주제: Tencent Hy4 (CHINA, 점수 8). 예비는 `posts/_backlog/2026-11-05-runners-up.md` (저녁 후보: 미국 중간선거·데이터센터)
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자 없음
+- 검수 2차 전원 통과: fact-checker 통과, hook-judge 통과 7/10, brand-safety 통과
+
 ## [저녁 보고] 2026-11-04
 처리 1건 (ready 1) · 실패 0건
 결정할 일
