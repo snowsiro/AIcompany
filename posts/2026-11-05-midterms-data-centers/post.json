@@ -2,7 +2,7 @@
   "id": "2026-11-05-midterms-data-centers",
   "date": "2026-11-05",
   "category": "POLICY",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "notes": "Facts from TechCrunch (Nov 4) and MIT Technology Review (Nov 4), both read in full with scripts/article.mjs. The poll is an NBC exit poll as reported by TechCrunch. Not used: Seoul/Korea market reaction and Reuters data-center stocks (articles unreadable: Yonhap 403, Reuters redirect only). No Korea angle in this post.",
   "cover": {
@@ -136,5 +136,9 @@
     "#AIPolicy",
     "#Texas"
   ],
-  "threads_caption": "Voters just made AI data centers a campaign issue after the US midterms. An NBC exit poll: almost 80% oppose data centers in their neighborhoods.\n\nOpposition could slow the AI buildout in Ohio and Texas.\n\nSource: TechCrunch, \"After the midterms, a bigger clash over data centers could be coming\". #DataCenters"
+  "threads_caption": "Voters just made AI data centers a campaign issue after the US midterms. An NBC exit poll: almost 80% oppose data centers in their neighborhoods.\n\nOpposition could slow the AI buildout in Ohio and Texas.\n\nSource: TechCrunch, \"After the midterms, a bigger clash over data centers could be coming\". #DataCenters",
+  "published_id": "18114333614622791",
+  "permalink": "https://www.instagram.com/p/DfX1oFcF__h/",
+  "threads_id": "18128433206515061",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfX1vNMDybN"
 }
