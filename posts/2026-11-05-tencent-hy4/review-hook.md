@@ -1,30 +1,29 @@
 # Hook review: 2026-11-05-tencent-hy4
 
-**Verdict: PASS. Score 7/10. Better option: none.**
+**Verdict: PASS, score 7/10, better_option: null**
 
 Chosen hook: "TENCENT: ELITE / VALS: 13TH OF 33"
 
 | Criterion | Score | Note |
 | --- | --- | --- |
-| Clear in under 2 seconds | 6 | The two-line contrast reads fast, but "VALS" is unexplained and "ELITE" is terse |
-| Curiosity | 8 | Claim against rank creates tension |
-| Concrete number or name | 8 | Tencent, 13th of 33 |
-| Promise the slides keep | 8 | Slide 2 has the top-tier claim. Slide 4 has the Vals AI 13th of 33 result. Slide 3 flags the finance test as Tencent's own. |
-| Reader stake | 3 | None, which is acceptable here |
+| Clear in under 2 seconds | 6 | "VALS" is unexplained and "of 33" has no noun. The two-line contrast reads fast. |
+| Curiosity | 8 | "Elite" against 13th makes the reader want to see who is ahead. |
+| Concrete number or name | 9 | Tencent, Vals, 13th of 33. |
+| Promise the slides keep | 8 | Slide 02 gives the top-tier claim; the Vals rank and the rivals ahead are on the "outside score" slide and in the caption. "Elite" fairly paraphrases "top tier". |
+| Reader stake | 2 | A model launch with no effect on ordinary readers. Not required for a pass. |
 
-Compared with the other options:
-- Option 1 (HY4 RANKS 13TH OF 33) is clearer, but it drops the tension and leans on an unknown name.
-- Option 2 (rivalry) is flatter.
-- Option 3 (NOT YET OPEN) hides the benchmark conflict.
+Nit: the claim is about Chinese AI, while the rank is out of 33 models overall. The slides do not claim a global comparison, so this is minor.
 
-Hook type labels:
-- "myth-flip" for the chosen hook is a slight stretch. It is a claim-versus-result contrast, not a debunked myth. Acceptable.
-- The other labels are honest.
+## Other options
+- Option 1, "HY4 RANKS 13TH OF 33 AI MODELS": clearer, but the name is unknown and there is no tension.
+- Option 2, "HY4 TRAILS KIMI, DEEPSEEK, GLM": accurate but flatter.
+- Option 3, "TENCENT'S NEW AI NOT YET OPEN": true, but hides the benchmark conflict.
+- The chosen option is the best.
 
-`hook_pick_reason` has an honest "No reader-impact hook:" reason.
+## Labels
+- "number", "rivalry" and "claim" are honest.
+- "myth-flip" on the chosen hook is a stretch. It is really claim against result. This is a note only.
+- No option is reader-impact. `hook_pick_reason` has an honest "No reader-impact hook:" reason.
+- Small slip: the reason says "slide 4 for the rank", which is the 4th content slide, not the 4th image.
 
-Minor notes:
-- The cover tag "TOOLS" is loose for a model launch.
-- Consider spelling out "VALS AI" if it fits.
-
-Also written as `review-hook.json`, which is the format `hook-judge.md` specifies.
+Optional improvement: make the cover self-explanatory, for example "VALS AI: 13TH OF 33".

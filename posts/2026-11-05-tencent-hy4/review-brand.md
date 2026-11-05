@@ -1,16 +1,16 @@
-# Brand safety review: 2026-11-05-tencent-hy4
+# Brand-safety review: 2026-11-05-tencent-hy4
 
-**Verdict: PASS**
+**PASS**
 
-Issues: none.
+Issues: none blocking.
 
 Checks
-- Cover image (cover.png, slides/01.jpg): AI-generated stylized temple/stair scene. No people, no logos, no text in the image. The only text is the template's tag and headline.
-- Reference accounts: nothing is attributed to or resembles a reference account. Wording is original, and facts come from the AI타임스 article.
-- Outlet credit: caption and threads_caption both name AI타임스 with the article title. Slide 7 also has the source line.
-- Affiliate/sponsored: no links, referral or tracking, and no "tools we use" mention in slides, caption or threads_caption. The caption's only pointer is "link in bio", which has no affiliate content.
-- Design: slides use only ink, paper, muted and accent colors, with Anton on the cover and Inter Tight elsewhere. At most 2 accent spans per body slide, and 1 accent word on the cover. Matches DESIGN.md.
-- Tone and hook: "TENCENT: ELITE / VALS: 13TH OF 33" is supported by slides 1, 3 and 4. Slide 3 says it is Tencent's own test. No mockery of Tencent or China. The caption's closing question is neutral.
+- Cover image: AI-generated cave or temple staircase with amber and blue glows. No people, no logos, no readable text. Pass.
+- Reference-account copying: no sign of it. Wording is original and the image is generated. Pass.
+- Outlet credit: caption and `threads_caption` both name AI타임스 and the article title. Slide 7 also lists the source. Pass.
+- Affiliate, referral or tracking links, or sponsored-tool mentions: none in the slides, caption or `threads_caption`. Pass.
+- Colors and fonts: ink background, paper text, muted secondary text, a single yellow accent (the amber in the image is generated art, not UI). Anton on the cover, Inter Tight elsewhere. Highlights are at most 2 per slide, and the cover has 1 accent word. Pass.
+- Tone and hook: the cover contrasts Tencent's "top tier" claim with the Vals AI rank of 13th of 33. Slides 2 and 5 support both halves, so the hook is not clickbait. No mocking of Tencent or China. Pass.
 
 Notes (non-blocking)
-- The agent spec asks for review-safety.json, but this task asked for review-brand.md, so only the .md was written.
+- "ELITE" is a paraphrase of the article's "top tier". It is acceptable because slide 2 gives the claim.
