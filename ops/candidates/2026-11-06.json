@@ -1,0 +1,157 @@
+{
+ "date": "2026-11-06",
+ "run": "morning",
+ "note": "IG token absent. reference.json present (48h): no 3x+ post is hard news (ai.trend.kr 20.1x AI reel, sdk.kim.builds 14.3x personal story, prompt_what/moodmode tutorial posts, ai.trend.kr 3.0x GPT sycophancy tip); no story overlap with feeds, so reference_posts are empty. Biggest news of the day (KOSPI circuit breaker / US tech rout / midterm data-center votes) is already posted today (posts/2026-11-06-kospi-circuit-breaker, posts/2026-11-05-midterms-data-centers); not relisted as new. Unreadable/dropped: openai.com (403), Verge (403), Reuters/Nikkei/SCMP/Korea Times/Korea Herald/etnews/dt/ZDNet Korea are Google News redirects with no readable original. Dropped: China blocks SoftBank $5.4B ABB robotics deal (Nikkei/SCMP headlines only; WebSearch could not confirm); Reuters 'AI backlash could threaten Anthropic IPO' (paywalled headline only); EU Commission voluntary AI licence for pupils (derstandard text is 3 sentences, too thin). Korea item (Kakao) has older originals (Oct 18-19), flagged freshness.",
+ "stories": [
+  {
+   "title": "OpenAI launches GPT-6 Cyber: wrote working Linux exploits for 948 flaws, found 81 new Firefox bugs, access limited to vetted defenders",
+   "region": "Global (US); covered by Korean outlets",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "AI타임스", "title": "오픈AI, 'GPT-6 사이버' 출시…취약점 공격 성공률 51% 향상", "date": "2026-11-06T06:05+09:00", "url": "https://www.aitimes.com/news/articleView.html?idxno=217074"},
+    {"outlet": "TechCrunch", "title": "OpenAI released a new cybersecurity model. Is that enough?", "date": "2026-11-05T19:06Z", "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "OpenAI announced GPT-6 Cyber on Nov 5 (US time); it is built on GPT-6 Astra (September) and specialised in finding vulnerabilities, writing exploit code and penetration testing."},
+    {"a": 0, "fact": "Researchers reproduced 1,724 Linux kernel vulnerabilities and wrote working privilege-escalation exploits for 948; GPT-5.6 Sol succeeded on 166 in the same setup (over 5x fewer)."},
+    {"a": 0, "fact": "According to Reuters (as cited by AI타임스), 588 of the 948 were previously unknown flaws; OpenAI passed 304 serious issues with fixes to Linux developers."},
+    {"a": 0, "fact": "It found 81 new high-severity vulnerabilities in Mozilla's Firefox and found 30 known ones were more severe than rated; Mozilla fixed many."},
+    {"a": 0, "fact": "On ExploitGym it scored 48.5% vs 32.1% for GPT-5.6 Cyber (a 51% relative gain); it did worse than GPT-6 Astra on FrontierCyber (90 of 288 tasks vs 96)."},
+    {"a": 0, "fact": "OpenAI rates its cyber capability 'Critical', the top tier of its safety framework, up from 'High' for GPT-5.6 Cyber."},
+    {"a": 0, "fact": "Access is limited to approved customers of Daybreak Red, with identity and permission checks; OpenAI plans to widen it over the coming weeks and add a group for critical infrastructure (power plants, water treatment) defenders."},
+    {"a": 0, "fact": "API price is $20 per million input tokens and $100 per million output tokens; context window about 1.05 million tokens."},
+    {"a": 1, "fact": "Max Justicz, CTO of Charge Robotics, used GPT 5.6 Sol via OpenAI's Daybreak Blue program to find a severe Ubuntu/Debian flaw in two hours; Debian patched it and there is no known exploitation."},
+    {"a": 1, "fact": "OpenAI says it wants to 'dramatically expand Daybreak' to organisations of every size, independent researchers and open-source maintainers."}
+   ]
+  },
+  {
+   "title": "Anthropic gives Claude read-only access to your bank accounts with new Personal Finance beta",
+   "region": "Global (US)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "TechCrunch", "title": "Claude can now analyze your spending with its new Personal Finance tool", "date": "2026-11-05T18:00Z", "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"},
+    {"outlet": "The Next Web", "title": "Anthropic lets Claude read your bank accounts, but not move money", "date": "2026-11-05T20:39Z", "url": "https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "Anthropic announced Personal Finance on Thursday; users connect bank and credit card accounts through Plaid and ask Claude about their money."},
+    {"a": 0, "fact": "Access is read-only: Claude cannot move, manage or invest money."},
+    {"a": 0, "fact": "Claude can add up monthly spending by category and flag duplicate charges, unexpected fees and steadily rising bills; it can explain terms like APR and calculate interest paid over the past year."},
+    {"a": 0, "fact": "Claude sees each bank's name, account name and type, last four digits, balances, credit limits and up to two years of transactions."},
+    {"a": 0, "fact": "Conversations in the Personal Finance hub are not used to train models; Anthropic says there are no ads or sponsored recommendations and it offers no cards, loans or savings accounts."},
+    {"a": 0, "fact": "Beta rolls out this week to Pro, Max and Ultra plan users in the US."},
+    {"a": 0, "fact": "OpenAI launched a similar ChatGPT feature in May, so TechCrunch says Claude is playing catch-up."},
+    {"a": 1, "fact": "Users can link up to 16 US banks; for investment, loan and card accounts Claude reads only balances and credit limits."},
+    {"a": 1, "fact": "Figures already shared stay in chats, artifacts and shared links until users delete them, even after a bank is unlinked; Anthropic warns Claude can make mistakes."},
+    {"a": 1, "fact": "TNW notes that unlike Anthropic, OpenAI has started showing ads in ChatGPT."}
+   ]
+  },
+  {
+   "title": "Kakao drops its standalone Kanana app and bets on an AI assistant inside KakaoTalk, pilot in December",
+   "region": "Korea",
+   "repeat": "no (freshness caveat: originals are Oct 18-19; Kakao Q3 earnings coverage is Nov 5-6 in feeds, Korea Herald 'Kakao profit rises 7% on ad growth, unveils W150b buyback' is a Google News redirect, not read)",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "아이뉴스24", "title": "[IT돋보기] 카톡에 말하면 라이언 AI가 대답⋯12월 제한적으로 시범 운영", "date": "2026-10-18T08:00+09:00", "url": "https://inews24.com/view/2016013"},
+    {"outlet": "CEO스코어데일리", "title": "카카오, '카나나' 불명예 철수…'카톡 올인' 반전 성공할까", "date": "2026-10-19T16:01+09:00", "url": "https://www.ceoscoredaily.com/page/view/2026101915404452052"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "Kakao unveiled 'Kanana Space', an AI assistant inside KakaoTalk; it will run a limited pilot for some users in December."},
+    {"a": 0, "fact": "Users activate it by swiping two fingers down the phone screen; Kakao's mascot character Ryan appears mid-screen and answers by voice, with a text mode for public places."},
+    {"a": 0, "fact": "Example given: asking it to summarise work-related KakaoTalk messages; it replies with what a project chat needs by 11 a.m."},
+    {"a": 0, "fact": "Kakao is taking pre-registrations; a subset of applicants will join a closed beta test (CBT) at year-end."},
+    {"a": 1, "fact": "Kakao shut down its standalone Kanana app and PC service on the 15th (Oct), 1 year 5 months after the beta began in May 2025."},
+    {"a": 1, "fact": "Staff, infrastructure and marketing resources move to AI inside KakaoTalk, which has about 50 million users."},
+    {"a": 1, "fact": "Plans include ordering, payments/transfers and bookings by voice command."}
+   ]
+  },
+  {
+   "title": "Google makes Gemini Omni 1.2 Flash video model generally available: 15-second clips, 30% cheaper",
+   "region": "Global (US)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "The Next Web", "title": "Google's Gemini Omni 1.2 Flash makes 15-second AI videos for less", "date": "2026-11-05T20:03Z", "url": "https://thenextweb.com/news/google-gemini-omni-1-2-flash-video-15-seconds-price-cut"},
+    {"outlet": "Google", "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips", "date": "2026-11-05", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "Google made Gemini Omni 1.2 Flash generally available; clips are up to 15 seconds, up from 10."},
+    {"a": 0, "fact": "Price is about $0.07 per second of 720p video via the Gemini API, down from $0.10 in June (30% cheaper)."},
+    {"a": 0, "fact": "Users can edit a clip over several chat turns (swap a product or background, change lighting) instead of regenerating."},
+    {"a": 0, "fact": "In Google DeepMind's own comparisons, testers preferred 1.2 over 1.1 for visual consistency 62% of the time."},
+    {"a": 0, "fact": "Rolling out in Flow, Google Vids, Google Ads and, for AI Ultra subscribers, the Gemini app; first time Omni is generally available on Google Cloud; every video carries an invisible SynthID watermark."},
+    {"a": 0, "fact": "ByteDance's Seedance 2.5 (June) makes 30-second clips; Google is the only US company in the top 10 of one popular video ranking, where Chinese models hold the other nine spots."},
+    {"a": 1, "fact": "Duration can be set in one-second steps from 3 to 15 seconds; drafts at 360p or 720p can be upscaled to 1080p or 4K."},
+    {"a": 1, "fact": "Inputs can combine character, product or style images, motion clips up to three seconds and audio cues."}
+   ]
+  },
+  {
+   "title": "Apple cuts employees' daily AI spending limits, Bloomberg reports; Tesla, Uber, Microsoft also tighten token budgets",
+   "region": "Europe angle (heise, Der Standard); source is Bloomberg via German outlets",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "heise online", "title": "Apple kürzt interne KI-Budgets für Beschäftigte deutlich", "date": "2026-11-05T13:51+01:00", "url": "https://www.heise.de/news/Apple-kuerzt-interne-KI-Budgets-fuer-Beschaeftigte-deutlich-11513091.html"},
+    {"outlet": "Der Standard", "title": "Apple kürzt laut Medienbericht Budget für KI-Nutzung der Mitarbeiter", "date": "2026-11-05", "url": "https://www.derstandard.at/story/3000000347628/apple-k252rzt-ki-ausgaben-f252r-mitarbeiter-bericht"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "Per Bloomberg (citing insiders), Apple cut the daily AI spending limit for some engineers from $300 to $200 in October; further cuts to as low as $100 a day are planned for some engineering teams."},
+    {"a": 0, "fact": "Non-engineering teams already capped at $100 a day may drop to $25; exceptions need senior-leader approval."},
+    {"a": 0, "fact": "Employees can use Anthropic's Claude, OpenAI's ChatGPT and Google's Gemini; some teams are told to move to cheaper or locally run models."},
+    {"a": 0, "fact": "Apple declined to comment; new CEO John Ternus is reportedly pushing for a faster, leaner company with fewer management layers."},
+    {"a": 0, "fact": "Tesla introduced a $200 weekly limit per employee; Uber capped single AI coding tools at $1,500 a month and used up its token budget in May; Microsoft tightened internal budgets; Meta set token budgets."},
+    {"a": 1, "fact": "Der Standard (via Bloomberg): Apple cut the daily AI spend for some engineers from $300 to $200 last month, as part of broader cost cutting even though it wants to expand AI use."}
+   ]
+  },
+  {
+   "title": "Brazilian court blocks Meta from using news publishers' content for AI training as a condition of platform use",
+   "region": "Europe angle (heise); Latin America",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "heise online", "title": "Brasilien: Gericht verbietet Meta die Nutzung von Medieninhalten für KI-Training", "date": "2026-11-05T23:22+01:00", "url": "https://www.heise.de/news/Brasilien-Gericht-verbietet-Meta-die-Nutzung-von-Medieninhalten-fuer-KI-Training-11514246.html"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "A court in Sao Paulo barred Meta from using content from media companies belonging to three Brazilian press associations for AI training (heise, citing AFP reports)."},
+    {"a": 0, "fact": "Judge Guilherme Madeira Dezem issued the preliminary injunction after suits by ANJ (newspapers), Abert (radio and TV) and Aner (magazines)."},
+    {"a": 0, "fact": "Meta's new business terms, due to take effect on November 20, made handing over content free of charge a condition of continued platform use."},
+    {"a": 0, "fact": "The court called forcing media to hand over copyrighted material for free, like a 'toll' to stay present on channels, an 'obvious abuse of rights', and suspended that part of the terms."},
+    {"a": 0, "fact": "Meta may not penalise outlets that reject the terms; a violation costs 1 million reais (EUR 162,000) a day."},
+    {"a": 0, "fact": "ANJ called it a first success in defending intellectual property and the sustainability of professional journalism."},
+    {"a": 0, "fact": "heise notes the New York Times has sued OpenAI and Microsoft over AI training since late 2023."}
+   ]
+  },
+  {
+   "title": "Anthropic releases FlashProve, open-source proof that an AI answer came from the model you were promised",
+   "region": "Global (US); covered by AI타임스",
+   "repeat": "partly: already in posts/_backlog/2026-11-04-anthropic-flashprove.md (not posted)",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "AI타임스", "title": "앤트로픽, AI 모델 '신원 확인' 기술 공개...클로드가 개발 과정 주도", "date": "2026-11-05T18:18+09:00", "url": "https://www.aitimes.com/news/articleView.html?idxno=217043"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "Anthropic released FlashProve on Nov 2 (US time), an open-source system using zero-knowledge proofs (zkSNARK) to verify a response came from a specified model without revealing its weights."},
+    {"a": 0, "fact": "It aims to catch a provider swapping in a cheaper model or tampering with outputs; it verifies the computation, not whether the answer is true."},
+    {"a": 0, "fact": "Claude helped develop it by applying existing cryptography tools to improve efficiency; Anthropic published the Claude-written protocol spec and says researchers did not review it in detail."},
+    {"a": 0, "fact": "Test on the 400-billion-parameter Llama 4 Maverick (4-bit weights) used one H100 GPU; proof size about 19 MB and verification about 17 seconds on 24 CPU threads."},
+    {"a": 0, "fact": "Proof generation needed 70-95x the GPU time of ordinary prefill in vLLM under specific conditions; current implementation uses a 1,024-token context, so it is not production-ready."}
+   ]
+  },
+  {
+   "title": "Meta acquires Conductor, a coding-agent coordination startup",
+   "region": "Global (US); heise",
+   "repeat": "no (already a candidate in ops/candidates/2026-11-05.json, not posted)",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "heise online", "title": "Meta kauft Spezialisten für KI-Coding-Agenten", "date": "2026-11-05T10:56+01:00", "url": "https://www.heise.de/news/Meta-kauft-Spezialisten-fuer-KI-Coding-Agenten-11513119.html"}
+   ],
+   "facts": [
+    {"a": 0, "fact": "Meta acquired Conductor, a San Francisco startup (founded 2024) whose software coordinates multiple AI coding agents such as Claude Code and Codex in separate workspaces; Axios reported first and Meta confirmed."},
+    {"a": 0, "fact": "Conductor advertised more than 100,000 users and builds no models of its own."},
+    {"a": 0, "fact": "Conductor's cloud service ends November 20; the local Mac app is phased out from early 2027."},
+    {"a": 0, "fact": "Meta launched Muse Code in August, the Muse agent in September and Muse Wonder models in October, and is seeking revenue beyond ads to offset AI spending."}
+   ]
+  }
+ ]
+}
