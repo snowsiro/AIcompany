@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "score": 8,
+  "better_option": null,
+  "notes": "Chosen hook 'AI WROTE 948 LINUX EXPLOITS'. Clear in under 2 seconds (short, big type, yellow EXPLOITS): 9. Curiosity: 8 (what is the AI, is that bad, who gets it). Concrete number/name: 9 (948, Linux). Promise kept: 8. Slide 2 (the release) does not show 948 itself; it sets up GPT-6 Cyber and says it writes exploit code and is not public. The 948 payoff is on the next slide (slides[1], 'The Linux test': 948 of 1,724 vs 166), and the cover figure matches the facts. 'Wrote' is accurate (working privilege-escalation exploits in a research setup), though the cover alone could read as AI attacking Linux; slide 3 clarifies it was researchers' testing. Stake: 5 (no direct reader effect, a plus not required). Cover does not name OpenAI or GPT-6; the cover image (locked vault door) fits. hook_types labels are honest: options 1 and 3 are numbers, 2 and 4 are claims. Option 2 ('NOT FOR YOU') addresses the reader but is really an access claim, so 'claim' is fair; it is vaguer on payload and less concrete. Option 3 (81 Firefox bugs) is true but smaller. Option 4 relies on a rating label. hook_pick_reason contains an honest 'No reader-impact hook:' reason (articles state no effect on ordinary readers). Chosen option is the best of the four. Optional tweak: none required."
+}
