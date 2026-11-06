@@ -1,0 +1,145 @@
+{
+  "id": "2026-11-06-kospi-circuit-breaker",
+  "date": "2026-11-06",
+  "category": "ECONOMY",
+  "status": "draft",
+  "korean_refs": [],
+  "notes": "Breaking post requested by 제이미 (posted with intraday numbers, 제이미 chose this 2026-11-06 00:59 UTC). Facts checked phrase by phrase with check-article: Newspim (Korean, market open report, KOSPI numbers), NBC News (US close), Korea JoongAng Daily (midterms and Goldman Sachs). Numbers are a snapshot from Friday morning in Seoul, not the close. Not used: investor flows and KRW exchange rate (sources conflict), single stock US moves (not confirmable in our three sources), any 'AI bubble' framing. SK hynix described as a Korean memory chipmaker (background, as in posts/2026-10-28-sk-hynix-q3-record).",
+  "cover": {
+    "tag": "KOREA AI · ECONOMY",
+    "headline": [
+      "KOSPI **-8.55%**:",
+      "TRADING HALTED"
+    ],
+    "hook_options": [
+      [
+        "KOSPI **-8.55%**:",
+        "TRADING HALTED"
+      ],
+      [
+        "US CHIP CRASH",
+        "FREEZES **KOREA**"
+      ],
+      [
+        "KOREA HITS THE",
+        "**PANIC** BUTTON"
+      ],
+      [
+        "US VOTERS SINK",
+        "KOREA'S **CHIPS**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "claim",
+      "rivalry"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Leads with the exact drop and the halt, both on slide 1. The other options are vaguer or lean on a cause the slides only report as investor fear. No reader-impact hook: the articles describe market moves and investor fears, not a confirmed change in what ordinary readers pay or can use.",
+    "image_prompt": "Cinematic night shot inside an empty stock exchange trading floor, a huge wall of screens glowing deep red with falling line charts and downward arrows, red light reflecting on a glossy black floor, scattered papers, cold blue haze in the corners. Main subject in the upper half, lower third in deep shadow. No text, no letters, no numbers, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261106_010254_4544e36e-f26c-41de-9234-54a23d41c046.png"
+  },
+  "slides": [
+    {
+      "kicker": "Seoul, Friday",
+      "title": "Korea's market hit the brakes",
+      "body": [
+        "Korea's main KOSPI index plunged **8.55%** to 4,923.47 on Friday morning, falling below 5,000, Newspim reports. At 9:03 a.m. Seoul time that triggered a **circuit breaker**, an automatic 20-minute trading halt."
+      ]
+    },
+    {
+      "kicker": "The chipmakers",
+      "title": "Samsung and SK hynix sank",
+      "body": [
+        "Samsung Electronics fell **9.98%** and SK hynix, a Korean memory chipmaker, 11.71%. A sell sidecar, a shorter pause for program trading, hit the smaller KOSDAQ market too. On Thursday the KOSPI had already lost 5.28%."
+      ]
+    },
+    {
+      "kicker": "Wall Street",
+      "title": "US chips' worst day since 2020",
+      "body": [
+        "Hours earlier, the Philadelphia Semiconductor Index fell **12.3%**, its worst day since March 2020, NBC News reports. The Nasdaq Composite lost 5.5% and the Dow fell 1,833 points."
+      ]
+    },
+    {
+      "kicker": "The trigger",
+      "title": "Voters turned on AI's buildout",
+      "body": [
+        "In this week's US midterms, Democrats took **control of both chambers** of Congress, Korea JoongAng Daily reports. Investors fear tougher regulation of AI data centers, the facilities that run AI and buy these chips."
+      ]
+    },
+    {
+      "kicker": "The risk",
+      "title": "45% of new capacity at risk",
+      "body": [
+        "Goldman Sachs warns that **45%** of planned new data center capacity could be at risk, Korea JoongAng Daily reports. These are Friday morning numbers, not the close."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "KOSPI fell 460.33 points (8.55%) to 4,923.47 on the morning of Nov 6, falling below the 5,000 line."
+    },
+    {
+      "source": 0,
+      "text": "A circuit breaker (level 1) was triggered at 9:03 a.m.; trading stopped for 20 minutes."
+    },
+    {
+      "source": 0,
+      "text": "Samsung Electronics fell 9.98% to 181,400 won; SK hynix fell 11.71%."
+    },
+    {
+      "source": 0,
+      "text": "A sell sidecar was triggered on the KOSDAQ market."
+    },
+    {
+      "source": 0,
+      "text": "The previous day (Nov 5) the KOSPI fell 5.28% to 5,383.80."
+    },
+    {
+      "source": 1,
+      "text": "On Thursday (Nov 5) the Philadelphia Semiconductor Index fell 12.3%, its worst day since March 2020. The Nasdaq Composite fell 5.5%; the Dow Jones fell 1,833 points."
+    },
+    {
+      "source": 2,
+      "text": "Democrats took control of both chambers of Congress in the US midterms."
+    },
+    {
+      "source": 2,
+      "text": "Goldman Sachs: 45 percent of planned new capacity could be at risk."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Newspim",
+      "title": "[개장시황] 美 반도체 쇼크에 코스피 8%대 폭락…서킷브레이커 발동·5000선 붕괴",
+      "title_en": "[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000",
+      "language": "Korean",
+      "date": "Nov 6, 2026",
+      "url": "https://www.newspim.com/news/view/20261106000202"
+    },
+    {
+      "outlet": "NBC News",
+      "title": "Stocks plunge as election outcome and AI worries crush tech shares",
+      "date": "Nov 5, 2026",
+      "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    },
+    {
+      "outlet": "Korea JoongAng Daily",
+      "title": "Kospi sinks below the waves as U.S. 'blue tsunami' soaks Korean tech shares",
+      "date": "Nov 5, 2026",
+      "url": "https://www.koreajoongangdaily.com/business/kospi-sinks-below-the-waves-as-us-blue-tsunami-soaks-korean-tech-shares/12958434"
+    }
+  ],
+  "caption": "Korea's KOSPI just plunged 8.55% and tripped a circuit breaker, halting all trading for 20 minutes.\n\nUS chip stocks crashed after the midterms, and the selling reached Seoul on Friday morning, Newspim reports.\n\n→ Samsung Electronics fell 9.98% and SK hynix 11.71%\n→ The Philadelphia Semiconductor Index had its worst day since March 2020 (-12.3%), NBC News reports\n→ Goldman Sachs warns 45% of planned new data center capacity could be at risk\n\nOverreaction or a real turn for AI chips?\n\nNumbers are from Friday morning in Seoul, not the close.\n\nSource: Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean), Nov 6, 2026; NBC News, \"Stocks plunge as election outcome and AI worries crush tech shares\", Nov 5, 2026; Korea JoongAng Daily, \"Kospi sinks below the waves as U.S. 'blue tsunami' soaks Korean tech shares\", Nov 5, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#KOSPI",
+    "#SKHynix",
+    "#Samsung",
+    "#Semiconductors",
+    "#AINews"
+  ],
+  "threads_caption": "Korea's KOSPI plunged 8.55% on Friday morning and tripped a circuit breaker, halting trading for 20 minutes.\n\nUS chip stocks had their worst day since 2020 after the midterms.\n\nSource: Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean). #KOSPI"
+}
