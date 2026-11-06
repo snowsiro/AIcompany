@@ -2,7 +2,7 @@
   "id": "2026-11-06-gpt6-cyber",
   "date": "2026-11-06",
   "category": "TOOLS",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "cover": {
     "tag": "US AI · TOOLS",
@@ -145,5 +145,9 @@
     "#CyberSecurity",
     "#Linux"
   ],
-  "threads_caption": "OpenAI's GPT-6 Cyber wrote working Linux exploits for 948 flaws and found 81 new Firefox bugs. Access is limited to vetted defenders.\n\nSource: TechCrunch, \"OpenAI released a new cybersecurity model. Is that enough?\". #OpenAI"
+  "threads_caption": "OpenAI's GPT-6 Cyber wrote working Linux exploits for 948 flaws and found 81 new Firefox bugs. Access is limited to vetted defenders.\n\nSource: TechCrunch, \"OpenAI released a new cybersecurity model. Is that enough?\". #OpenAI",
+  "published_id": "18117594062021322",
+  "permalink": "https://www.instagram.com/p/DfZqfPMk_fu/",
+  "threads_id": "18399229069166891",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfZqm4Dm_wD"
 }
