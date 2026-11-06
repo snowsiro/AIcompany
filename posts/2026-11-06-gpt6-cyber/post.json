@@ -65,7 +65,7 @@
       "kicker": "The lock",
       "title": "Rated Critical, access limited",
       "body": [
-        "OpenAI rates its cyber capability **Critical**, the top tier of its safety framework, up from High. Only approved customers of Daybreak Red, OpenAI's program for vetted security defenders, get it, after identity and permission checks."
+        "OpenAI rates its cyber capability **Critical**, the highest level in its own safety evaluation, up from High for GPT-5.6 Cyber. Only approved customers of Daybreak Red, OpenAI's program for vetted security defenders, get it, after identity and permission checks."
       ]
     },
     {
@@ -77,9 +77,9 @@
     },
     {
       "kicker": "What's next",
-      "title": "Defenders get a head start",
+      "title": "One bug, two hours",
       "body": [
-        "Max Justicz, CTO of Charge Robotics, used Daybreak Blue to find a severe Ubuntu and Debian flaw in two hours. Debian patched it; no exploitation is known. OpenAI wants to **dramatically expand** Daybreak in the coming weeks."
+        "Max Justicz, CTO of Charge Robotics, used GPT-5.6 Sol through Daybreak Blue to find a severe Ubuntu and Debian flaw in two hours. Debian patched it; no exploitation is known. OpenAI's goal: **dramatically expand** Daybreak. Wider GPT-6 Cyber access is planned within weeks."
       ]
     }
   ],
@@ -106,19 +106,19 @@
     },
     {
       "source": 1,
-      "text": "OpenAI rates its cyber capability 'Critical', the top tier of its safety framework, up from 'High' for GPT-5.6 Cyber."
+      "text": "OpenAI rates its cyber capability 'Critical', the highest level in OpenAI's own safety evaluation, up from 'High' for GPT-5.6 Cyber."
     },
     {
       "source": 1,
-      "text": "Access is limited to approved customers of Daybreak Red, with identity and permission checks; OpenAI plans to widen it over the coming weeks and add a group for critical infrastructure defenders."
+      "text": "Access is limited to approved customers of Daybreak Red, with identity and permission checks. Per AI타임스, OpenAI plans to widen GPT-6 Cyber to all approved customers over the coming weeks and add a group for critical infrastructure defenders."
     },
     {
       "source": 0,
-      "text": "Max Justicz, CTO of Charge Robotics, used GPT 5.6 Sol via OpenAI's Daybreak Blue program to find a severe Ubuntu/Debian flaw in two hours; Debian patched it and there is no known exploitation."
+      "text": "Max Justicz, CTO of Charge Robotics, used GPT-5.6 Sol via OpenAI's Daybreak Blue program to find a severe Ubuntu/Debian flaw in two hours; Debian patched it and there is no known exploitation."
     },
     {
       "source": 0,
-      "text": "OpenAI says it wants to 'dramatically expand Daybreak' to organisations of every size, independent researchers and open-source maintainers."
+      "text": "OpenAI says it wants to 'dramatically expand Daybreak' to organisations of every size, independent researchers and open-source maintainers (no timeline given in this article)."
     }
   ],
   "sources": [
@@ -137,7 +137,7 @@
       "url": "https://www.aitimes.com/news/articleView.html?idxno=217074"
     }
   ],
-  "caption": "OpenAI's new GPT-6 Cyber wrote working Linux exploits for 948 flaws, and it is released only to vetted defenders.\n\nOpenAI rates the model's cyber capability \"Critical\", the top tier of its safety framework. Access runs through Daybreak, its program for approved security teams.\n\n→ 1,724 Linux kernel flaws reproduced; 948 got working exploits (GPT-5.6 Sol: 166)\n→ 81 new high-severity bugs found in Firefox, many already fixed\n→ Not best at everything: 90 of 288 on FrontierCyber, below GPT-6 Astra's 96\n\nShould a model this capable ever be released, even to vetted users?\n\nSource: TechCrunch, Nov 5, 2026; AI타임스 (in Korean), \"OpenAI launches 'GPT-6 Cyber'... exploit success rate up 51%\", Nov 6, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "OpenAI's new GPT-6 Cyber wrote working Linux exploits for 948 flaws, and it is released only to vetted defenders.\n\nOpenAI rates the model's cyber capability \"Critical\", the highest level in its own safety evaluation. Access runs through Daybreak, its program for approved security teams.\n\n→ 1,724 Linux kernel flaws reproduced; 948 got working exploits (GPT-5.6 Sol: 166)\n→ 81 new high-severity bugs found in Firefox, many already fixed\n→ Not best at everything: 90 of 288 on FrontierCyber, below GPT-6 Astra's 96\n\nShould a model this capable ever be released, even to vetted users?\n\nSource: TechCrunch, \"OpenAI released a new cybersecurity model. Is that enough?\", Nov 5, 2026; AI타임스 (in Korean), \"OpenAI launches 'GPT-6 Cyber'... exploit success rate up 51%\", Nov 6, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#OpenAI",
