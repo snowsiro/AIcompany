@@ -2,6 +2,17 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [급보] 2026-11-06
+처리 1건 · 실패 0건
+결정할 일
+1. 없음 (제이미가 장중 숫자로 바로 게시를 선택, 2026-11-06 00:59 UTC)
+자세한 기록
+- 00:54 UTC 제이미 요청: 美 반도체 투매 → 코스피 서킷브레이커 급보
+- 01:00 원문 대조 (check-article): 뉴스핌, NBC News, Korea JoongAng Daily 사용. 이투데이·CNBC·Fortune·JKN도 읽힘, 야후 라이브는 실패
+- 01:03 커버 2크레딧 (오늘 6크레딧 한도에 포함)
+- 검수: fact 통과, hook 8/10 통과 (옵션 3 라벨만 claim으로 수정), brand 1차 불합격 (5번 장 제목, Threads 출처) → 수정 후 통과
+- id `2026-11-06-kospi-circuit-breaker`, 숫자는 금요일 오전 장중 기준 (캡션에 명시)
+
 ## [저녁 보고] 2026-11-05
 처리 1건 (ready 1) · 실패 0건
 결정할 일

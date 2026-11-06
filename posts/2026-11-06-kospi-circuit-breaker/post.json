@@ -2,7 +2,7 @@
   "id": "2026-11-06-kospi-circuit-breaker",
   "date": "2026-11-06",
   "category": "ECONOMY",
-  "status": "draft",
+  "status": "ready",
   "korean_refs": [],
   "notes": "Breaking post requested by 제이미 (posted with intraday numbers, 제이미 chose this 2026-11-06 00:59 UTC). Facts checked phrase by phrase with check-article: Newspim (Korean, market open report, KOSPI numbers), NBC News (US close), Korea JoongAng Daily (midterms and Goldman Sachs). Numbers are a snapshot from Friday morning in Seoul, not the close. Not used: investor flows and KRW exchange rate (sources conflict), single stock US moves (not confirmable in our three sources), any 'AI bubble' framing. SK hynix described as a Korean memory chipmaker (background, as in posts/2026-10-28-sk-hynix-q3-record).",
   "cover": {
@@ -33,7 +33,7 @@
       "number",
       "claim",
       "claim",
-      "rivalry"
+      "claim"
     ],
     "hook_type": "number",
     "hook_pick_reason": "Leads with the exact drop and the halt, both on slide 1. The other options are vaguer or lean on a cause the slides only report as investor fear. No reader-impact hook: the articles describe market moves and investor fears, not a confirmed change in what ordinary readers pay or can use.",
@@ -64,7 +64,7 @@
     },
     {
       "kicker": "The trigger",
-      "title": "Voters turned on AI's buildout",
+      "title": "The midterms spooked investors",
       "body": [
         "In this week's US midterms, Democrats took **control of both chambers** of Congress, Korea JoongAng Daily reports. Investors fear tougher regulation of AI data centers, the facilities that run AI and buy these chips."
       ]
@@ -73,7 +73,7 @@
       "kicker": "The risk",
       "title": "45% of new capacity at risk",
       "body": [
-        "Goldman Sachs warns that **45%** of planned new data center capacity could be at risk, Korea JoongAng Daily reports. These are Friday morning numbers, not the close."
+        "According to Goldman Sachs, **45%** of planned new data center capacity could be at risk, Korea JoongAng Daily reports. These are Friday morning numbers, not the close."
       ]
     }
   ],
@@ -133,7 +133,7 @@
       "url": "https://www.koreajoongangdaily.com/business/kospi-sinks-below-the-waves-as-us-blue-tsunami-soaks-korean-tech-shares/12958434"
     }
   ],
-  "caption": "Korea's KOSPI just plunged 8.55% and tripped a circuit breaker, halting all trading for 20 minutes.\n\nUS chip stocks crashed after the midterms, and the selling reached Seoul on Friday morning, Newspim reports.\n\n→ Samsung Electronics fell 9.98% and SK hynix 11.71%\n→ The Philadelphia Semiconductor Index had its worst day since March 2020 (-12.3%), NBC News reports\n→ Goldman Sachs warns 45% of planned new data center capacity could be at risk\n\nOverreaction or a real turn for AI chips?\n\nNumbers are from Friday morning in Seoul, not the close.\n\nSource: Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean), Nov 6, 2026; NBC News, \"Stocks plunge as election outcome and AI worries crush tech shares\", Nov 5, 2026; Korea JoongAng Daily, \"Kospi sinks below the waves as U.S. 'blue tsunami' soaks Korean tech shares\", Nov 5, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "Korea's KOSPI just plunged 8.55% and tripped a circuit breaker, halting all trading for 20 minutes.\n\nUS chip stocks crashed after the midterms, and the selling reached Seoul on Friday morning, Newspim reports.\n\n→ Samsung Electronics fell 9.98% and SK hynix 11.71%\n→ The Philadelphia Semiconductor Index had its worst day since March 2020 (-12.3%), NBC News reports\n→ Goldman Sachs: 45% of planned new data center capacity could be at risk\n\nOverreaction or a real turn for AI chips?\n\nNumbers are from Friday morning in Seoul, not the close.\n\nSource: Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean), Nov 6, 2026; NBC News, \"Stocks plunge as election outcome and AI worries crush tech shares\", Nov 5, 2026; Korea JoongAng Daily, \"Kospi sinks below the waves as U.S. 'blue tsunami' soaks Korean tech shares\", Nov 5, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#KOSPI",
     "#SKHynix",
@@ -141,5 +141,5 @@
     "#Semiconductors",
     "#AINews"
   ],
-  "threads_caption": "Korea's KOSPI plunged 8.55% on Friday morning and tripped a circuit breaker, halting trading for 20 minutes.\n\nUS chip stocks had their worst day since 2020 after the midterms.\n\nSource: Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean). #KOSPI"
+  "threads_caption": "Korea's KOSPI plunged 8.55% on Friday morning and tripped a circuit breaker, halting trading for 20 minutes.\n\nUS chip stocks had their worst day since March 2020 after the midterms, NBC News reports.\n\nSource: Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean); NBC News. #KOSPI"
 }
