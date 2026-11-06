@@ -1,0 +1,755 @@
+{
+ "date": "2026-11-06",
+ "run": "evening",
+ "cutoff_utc": "2026-11-06T04:45:00Z",
+ "note": "Evening run ~18:30 UTC. Strict post-cutoff stories (first published >04:45Z): Nvidia/Brightspeed, Moonshot Europe GPUs, H200 Hong Kong, Palo Alto/Clutch, MS/Nscale (AI타임스 05:20Z; underlying Bloomberg/Reuters Nov 5). Ripple-65B, Meta Muse avatar, OpenAI community compact, METR/Anthropic have originals from Nov 5 (pre-cutoff) with Korean re-reports after cutoff; flagged in first_published_utc. Morning posts excluded: Kospi circuit breaker, GPT-6 Cyber (OpenAI). Unreadable/dropped: Yonhap (403) Nvidia completes $1B Naver stake (07:36Z; payment date confirmed only by search snippets), Reuters Coforge/Grok (no readable original), Reuters Anthropic IPO backlash (paywalled), TechCrunch RSI story (404), MIT TR humanoid robot (404), Verge (403), Korea Herald/Times redirects. Carried-over stories keep their morning facts as in ops/candidates/2026-11-06.json.",
+ "stories": [
+  {
+   "title": "Nvidia reportedly eyes 130+ old US phone exchanges as AI data centers (about 1 GW of power) with Apollo's Brightspeed, sidestepping new-build backlash",
+   "region": "US",
+   "first_published_utc": "2026-11-06T08:25:00Z",
+   "repeat": "no (related to posted 2026-11-05-midterms-data-centers topic but different story)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "엔비디아, 미국 노후 전화국 130곳 AI 데이터센터로 전환 추진",
+     "date": "2026-11-06T17:25+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217096"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "The Information reported on Nov 5 (US time) that Nvidia is discussing with private equity firm Apollo Global Management converting existing facilities of Apollo-owned broadband company Brightspeed into AI data centers."
+    },
+    {
+     "a": 0,
+     "fact": "Brightspeed owns more than 130 buildings across the US that house voice and data equipment, and the network would span 20 states."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia found that many of the sites already have power for modern AI servers, adding up to about 1 gigawatt of available power."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia sent Brightspeed a proposal and a request for more data on Nov 4."
+    },
+    {
+     "a": 0,
+     "fact": "It discussed with suppliers installing next-generation Vera Rubin server racks in some converted sites from Q1 2027, and is also considering technology from Groq."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia described the sites as an 'inference network', focused on running existing models rather than training new ones."
+    },
+    {
+     "a": 0,
+     "fact": "Potential customers named are SpaceX, Anthropic and OpenAI; whether lease talks with them are happening was not confirmed."
+    },
+    {
+     "a": 0,
+     "fact": "The plan could also dodge new-site rules as some Texas governor candidates call for a pause on new data centers; old electrical equipment may raise operating costs vs new builds, per Datum CEO Zack Smith."
+    }
+   ]
+  },
+  {
+   "title": "Moonshot AI (Kimi) reportedly sought to rent 8,000+ Nvidia Blackwell GPUs in European data centers to get around US chip curbs",
+   "region": "China / Europe",
+   "first_published_utc": "2026-11-06T06:37:07Z",
+   "repeat": "no (related earlier: posts/2026-10-23-china-nvidia-35b, different)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "문샷AI, 엔비디아 블랙웰 확보 위해 유럽으로 눈 돌려...8000개 GPU 임대 추진",
+     "date": "2026-11-06T15:37+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217103"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "CNBC reported on Nov 5 (US time), citing multiple sources, that China's Moonshot AI discussed GPU rental deals this year with neocloud firms operating data centers in Europe."
+    },
+    {
+     "a": 0,
+     "fact": "The talks included a cluster of more than 8,000 Nvidia Blackwell GPUs, first for model inference, with interest in training clusters too; one source called Moonshot 'very aggressive' in securing compute."
+    },
+    {
+     "a": 0,
+     "fact": "The US bars direct export of advanced chips like Blackwell to China, but remote cloud use of GPUs in overseas data centers remains a gap in current rules."
+    },
+    {
+     "a": 0,
+     "fact": "The White House claimed in July that Moonshot accessed Blackwell GPUs through a Thai facility."
+    },
+    {
+     "a": 0,
+     "fact": "Moonshot is a Beijing company founded in 2023 that makes the Kimi model family; during Kimi K3 launch demand exceeded its compute and it paused new subscriptions."
+    },
+    {
+     "a": 0,
+     "fact": "The US House passed the Remote Access Security Act in January to cover remote chip access, but it has not cleared the Senate."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia reportedly told data center operators to cap Chinese customers' share, with a report that it required at least 51% of capacity go to non-China customers."
+    }
+   ]
+  },
+  {
+   "title": "About 600,000 Nvidia H200 chips are stuck in Hong Kong because Beijing has not approved large-scale imports (Reuters)",
+   "region": "China / US",
+   "first_published_utc": "2026-11-06T10:11:21Z",
+   "repeat": "no (related: posts/2026-10-23-china-nvidia-35b)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "China holds back approval for Nvidia H200 chips stored in Hong Kong",
+     "date": "2026-11-06T10:11:21Z",
+     "url": "https://thenextweb.com/news/nvidia-h200-chips-hong-kong-china-import-approval"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "About 600,000 Nvidia H200 AI chips are being stored in Hong Kong because Beijing has not approved large-scale imports into mainland China, Reuters reported, citing two people familiar."
+    },
+    {
+     "a": 0,
+     "fact": "Beijing wants firms such as Alibaba, ByteDance, Tencent and DeepSeek to use Chinese-made chips instead, especially for inference."
+    },
+    {
+     "a": 0,
+     "fact": "The total number of foreign chips China approves could end up below 200,000; several big Chinese internet firms each received about 10,000 H200s in recent months."
+    },
+    {
+     "a": 0,
+     "fact": "By end of October an eight-H200 server was offered on China's unofficial market for more than 6m yuan, about three times a year earlier."
+    },
+    {
+     "a": 0,
+     "fact": "Servers with Blackwell chips, which the US does not allow to be sold to China, were offered for more than 20m yuan each."
+    },
+    {
+     "a": 0,
+     "fact": "In its latest quarterly filing Nvidia said H200 sales to China were under 1% of data centre revenue and it took a $400m charge for unsold H200 stock and purchase commitments."
+    },
+    {
+     "a": 0,
+     "fact": "Last month Reuters reported ByteDance, Alibaba and Tencent ordered more than 3 million RTX Pro graphics cards worth over $35bn in total."
+    }
+   ]
+  },
+  {
+   "title": "Palo Alto Networks in talks to buy AI-agent security startup Clutch for $500M, about 50x its revenue",
+   "region": "US",
+   "first_published_utc": "2026-11-06T06:28:32Z",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+     "date": "2026-11-06T06:28:32Z",
+     "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Palo Alto Networks is in talks to acquire Clutch Security, a startup that secures AI agents' access to company systems, for $500 million in cash plus milestone-based payouts, per a person familiar."
+    },
+    {
+     "a": 0,
+     "fact": "Clutch is three years old and was last valued at $85 million when it raised a $20 million Series A in January 2025, led by Lightspeed and SignalFire."
+    },
+    {
+     "a": 0,
+     "fact": "It is approaching $10 million in annual recurring revenue, so the deal would value it at about 50 times ARR."
+    },
+    {
+     "a": 0,
+     "fact": "The Information first reported the talks; neither company responded to TechCrunch."
+    },
+    {
+     "a": 0,
+     "fact": "Upwind, a cloud-security startup, recently turned down a Datadog offer valuing it at roughly 40 times ARR."
+    },
+    {
+     "a": 0,
+     "fact": "It would be Palo Alto Networks' seventh acquisition this year, per PitchBook."
+    },
+    {
+     "a": 0,
+     "fact": "In September Palo Alto bought Console, an AI help-desk agent startup, valuing it at $500 million in stock and cash."
+    }
+   ]
+  },
+  {
+   "title": "Microsoft passes on up to 500-700 MW more from UK's Nscale in Texas, pulls back from Loughton UK site and sends staff to oversee Nebius and IREN projects",
+   "region": "US / UK",
+   "first_published_utc": "2026-11-06T05:20:00Z (AI타임스; Bloomberg/Reuters earlier on Nov 5)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "MS, 엔스케일 데이터센터 추가 임대 철회…AI 인프라 투자 재점검",
+     "date": "2026-11-06T14:20+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217095"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Microsoft dropped plans to lease more capacity from UK AI cloud firm Nscale at its Ward County, Texas data center, citing power delays and permitting, per Bloomberg and Reuters (Nov 5, US time)."
+    },
+    {
+     "a": 0,
+     "fact": "Last year Microsoft signed for about 240 MW there with an option for up to 700 MW more, which it will not exercise; Nscale says the option was really 500 MW."
+    },
+    {
+     "a": 0,
+     "fact": "The existing 240 MW contract stays and Nscale's disclosed contract backlog of $103 billion (about 139 trillion won) is reportedly unaffected."
+    },
+    {
+     "a": 0,
+     "fact": "Microsoft also withdrew from Nscale's large Loughton, Essex project because grid connection delays pushed power into the 2030s."
+    },
+    {
+     "a": 0,
+     "fact": "Microsoft is sending staff to some Nebius and IREN projects to check requirements; IREN's Texas site had cabling problems, a generator fire and delivery delays."
+    },
+    {
+     "a": 0,
+     "fact": "A Microsoft spokesperson said its strategy is a flexible mix of owned data centers, leased sites and third-party partnerships."
+    },
+    {
+     "a": 0,
+     "fact": "Executives are reportedly debating whether to keep signing new neocloud contracts."
+    }
+   ]
+  },
+  {
+   "title": "Ricursive Intelligence (ex-Google AlphaChip team) releases Ripple-65B, an open-weight coding model that beats 8x larger rivals on two benchmarks for $32M",
+   "region": "US",
+   "first_published_utc": "2026-11-06T08:44:08Z (AI타임스; VentureBeat 2026-11-05T00:56Z earlier, pre-cutoff)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "구글 출신 연구진, 65B 모델로 8배 큰 AI 코딩 성능 추월…개발비도 10분의 1",
+     "date": "2026-11-06T17:44+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217107"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Ricursive Intelligence, founded by Google AlphaChip contributors Anna Goldie (CEO) and Azalia Mirhoseini (CTO), released the 65-billion-parameter open-weight Ripple-65B Preview."
+    },
+    {
+     "a": 0,
+     "fact": "On Terminal-Bench 2.1 it scored 80.52, vs Reflection's Beam 501B at 80.1, Meta's Muse Spark Open 816B at 76.4, Thinking Machines' Inkling 975B at 63.8 and Nvidia's Nemotron 3 Ultra 550B at 56.4."
+    },
+    {
+     "a": 0,
+     "fact": "On SWE-Bench Pro v2.0 Hard it scored 79.1, ahead of Beam (76.5) and Muse Spark Open (72.4)."
+    },
+    {
+     "a": 0,
+     "fact": "It trails on DeepSWE 1.1: 44.3 vs 60.0 for Muse Spark Open; the lead is limited to some agentic coding tests."
+    },
+    {
+     "a": 0,
+     "fact": "It is a dense model pretrained from scratch on 12 trillion tokens with up to 1 million tokens of context, optimised for Nvidia hardware."
+    },
+    {
+     "a": 0,
+     "fact": "Development cost totalled $32 million (about 43 billion won), roughly a tenth of the previous leading US open model, per the company."
+    },
+    {
+     "a": 0,
+     "fact": "VentureBeat noted scores depend on evaluation tools and conditions, so the lead across all US open-weight models is not settled; the comparison combines rivals' published scores and the company's own measurements."
+    }
+   ]
+  },
+  {
+   "title": "Meta's Muse app gets real-time AI avatar video chat for US users (870 ms response, 12 sessions per GB200)",
+   "region": "US",
+   "first_published_utc": "2026-11-06T07:10:19Z (AI타임스; TechCrunch 2026-11-05T19:48Z earlier, pre-cutoff)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "메타, 표정·몸짓으로 대화하는 'AI 아바타' 출시…실시간 영상 통화 구현",
+     "date": "2026-11-06T16:10+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217097"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Meta added real-time voice conversation and video-call style chat with an on-screen AI avatar to its personal AI agent Muse, rolling out to US users on Nov 5."
+    },
+    {
+     "a": 0,
+     "fact": "The AI does not see the user's face through the camera; the avatar reacts from voice and conversation context alone."
+    },
+    {
+     "a": 0,
+     "fact": "Avatars can be people, animals, characters or everyday objects, and appearance stays consistent through the chat."
+    },
+    {
+     "a": 0,
+     "fact": "Meta cut the video diffusion process from 120 inference steps to 2 by distillation, generating 448x768 vertical video at 25 fps."
+    },
+    {
+     "a": 0,
+     "fact": "Response starts about 870 ms after the user stops talking; one GB200 GPU handles 12 video sessions at once, 8x the service capacity of the earlier baseline."
+    },
+    {
+     "a": 0,
+     "fact": "It is available on mobile, web and Mac, for ages 18+, with an invisible Video Seal watermark on generated video."
+    },
+    {
+     "a": 0,
+     "fact": "Meta plans to bring it to the Muse Charm wearable and AI glasses; Muse is only offered in the US, Canada, Japan and Singapore, not yet in Korea."
+    }
+   ]
+  },
+  {
+   "title": "OpenAI's 'National Community Compact': pays full power and grid costs at its own data centers, no NDAs for officials, after midterm backlash",
+   "region": "US",
+   "first_published_utc": "2026-11-05T15:40:00Z (heise); AI타임스 2026-11-06T05:57Z",
+   "repeat": "related to posted 2026-11-05-midterms-data-centers; same company as GPT-6 Cyber morning post (-5)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "오픈AI, 데이터센터 전력 비용 전액 부담 약속…주민 반발 달래기",
+     "date": "2026-11-06T14:57+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217088"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "On Nov 5 (US time) OpenAI published a 'National Community Compact' and a 'Policy Blueprint for Compute Campuses'."
+    },
+    {
+     "a": 0,
+     "fact": "It will pay the full electricity and grid-upgrade costs of data centers it owns and operates, with a financial guarantee so households and businesses are not left with grid costs if a project stops."
+    },
+    {
+     "a": 0,
+     "fact": "It will not require NDAs from public officials when picking sites or negotiating, except for security or trade secrets, and will publish noise, traffic, power and water impacts."
+    },
+    {
+     "a": 0,
+     "fact": "It proposes that big power users pay the grid costs they add and that tax breaks be disclosed and clawed back if jobs and investment targets are missed."
+    },
+    {
+     "a": 0,
+     "fact": "The pledge covers only OpenAI-owned sites, not those built and owned by partners such as Oracle."
+    },
+    {
+     "a": 0,
+     "fact": "Chris Lehane said the message voters sent is 'an important signal to listen and respond to'; OpenAI says the policy was prepared since August."
+    },
+    {
+     "a": 0,
+     "fact": "Democrats won governor races in Texas, Georgia and Ohio, and 40 of 41 data-center local votes favored limits."
+    }
+   ]
+  },
+  {
+   "title": "METR: Anthropic's model progress ran about 1.9x faster since Oct 2025, ~80% of the speed-up from AI used in R&D; three unreleased models confirmed",
+   "region": "US",
+   "first_published_utc": "2026-11-05T20:07:43Z (Reuters headline); AI타임스 2026-11-06T08:21:04Z",
+   "repeat": "no (same company as Claude Personal Finance carry; Anthropic IPO angle in other posts)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽, AI 자기개선 가속 징후…개발 속도 2배·미공개 모델 3개 확인",
+     "date": "2026-11-06T17:21+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217080"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "AI safety group METR published an independent assessment on Nov 5 (US time) saying Anthropic's model-improvement pace is about 1.9x faster since Oct 2025."
+    },
+    {
+     "a": 0,
+     "fact": "It means progress that took about 2 years now takes about 1 year."
+    },
+    {
+     "a": 0,
+     "fact": "METR analysed Anthropic internal data for 11 weeks (Aug 12 to Oct 29) and interviewed about 15 staff."
+    },
+    {
+     "a": 0,
+     "fact": "METR estimated about 80% of the acceleration as of Oct 2026 came from using AI in R&D, not faster growth in training compute."
+    },
+    {
+     "a": 0,
+     "fact": "Staff self-reported productivity gains of about 4x with Mythos Preview, 5x with Mythos 5 and about 12x with the newest unreleased 'Model 4'; METR says these are subjective."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic finished training three unreleased models in July, Aug-Sep and Sep-Oct (called Model 2, 3, 4)."
+    },
+    {
+     "a": 0,
+     "fact": "One researcher said 'now only ideas and compute are the bottleneck. Code writing no longer holds us back.'"
+    }
+   ]
+  },
+  {
+   "title": "Anthropic gives Claude read-only access to your bank accounts with new Personal Finance beta",
+   "region": "Global (US)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Claude can now analyze your spending with its new Personal Finance tool",
+     "date": "2026-11-05T18:00Z",
+     "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic lets Claude read your bank accounts, but not move money",
+     "date": "2026-11-05T20:39Z",
+     "url": "https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Anthropic announced Personal Finance on Thursday; users connect bank and credit card accounts through Plaid and ask Claude about their money."
+    },
+    {
+     "a": 0,
+     "fact": "Access is read-only: Claude cannot move, manage or invest money."
+    },
+    {
+     "a": 0,
+     "fact": "Claude can add up monthly spending by category and flag duplicate charges, unexpected fees and steadily rising bills; it can explain terms like APR and calculate interest paid over the past year."
+    },
+    {
+     "a": 0,
+     "fact": "Claude sees each bank's name, account name and type, last four digits, balances, credit limits and up to two years of transactions."
+    },
+    {
+     "a": 0,
+     "fact": "Conversations in the Personal Finance hub are not used to train models; Anthropic says there are no ads or sponsored recommendations and it offers no cards, loans or savings accounts."
+    },
+    {
+     "a": 0,
+     "fact": "Beta rolls out this week to Pro, Max and Ultra plan users in the US."
+    },
+    {
+     "a": 0,
+     "fact": "OpenAI launched a similar ChatGPT feature in May, so TechCrunch says Claude is playing catch-up."
+    },
+    {
+     "a": 1,
+     "fact": "Users can link up to 16 US banks; for investment, loan and card accounts Claude reads only balances and credit limits."
+    },
+    {
+     "a": 1,
+     "fact": "Figures already shared stay in chats, artifacts and shared links until users delete them, even after a bank is unlinked; Anthropic warns Claude can make mistakes."
+    },
+    {
+     "a": 1,
+     "fact": "TNW notes that unlike Anthropic, OpenAI has started showing ads in ChatGPT."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-05T18:00Z"
+  },
+  {
+   "title": "Kakao drops its standalone Kanana app and bets on an AI assistant inside KakaoTalk, pilot in December",
+   "region": "Korea",
+   "repeat": "no (freshness caveat: originals are Oct 18-19; Kakao Q3 earnings coverage is Nov 5-6 in feeds, Korea Herald 'Kakao profit rises 7% on ad growth, unveils W150b buyback' is a Google News redirect, not read)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "아이뉴스24",
+     "title": "[IT돋보기] 카톡에 말하면 라이언 AI가 대답⋯12월 제한적으로 시범 운영",
+     "date": "2026-10-18T08:00+09:00",
+     "url": "https://inews24.com/view/2016013"
+    },
+    {
+     "outlet": "CEO스코어데일리",
+     "title": "카카오, '카나나' 불명예 철수…'카톡 올인' 반전 성공할까",
+     "date": "2026-10-19T16:01+09:00",
+     "url": "https://www.ceoscoredaily.com/page/view/2026101915404452052"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Kakao unveiled 'Kanana Space', an AI assistant inside KakaoTalk; it will run a limited pilot for some users in December."
+    },
+    {
+     "a": 0,
+     "fact": "Users activate it by swiping two fingers down the phone screen; Kakao's mascot character Ryan appears mid-screen and answers by voice, with a text mode for public places."
+    },
+    {
+     "a": 0,
+     "fact": "Example given: asking it to summarise work-related KakaoTalk messages; it replies with what a project chat needs by 11 a.m."
+    },
+    {
+     "a": 0,
+     "fact": "Kakao is taking pre-registrations; a subset of applicants will join a closed beta test (CBT) at year-end."
+    },
+    {
+     "a": 1,
+     "fact": "Kakao shut down its standalone Kanana app and PC service on the 15th (Oct), 1 year 5 months after the beta began in May 2025."
+    },
+    {
+     "a": 1,
+     "fact": "Staff, infrastructure and marketing resources move to AI inside KakaoTalk, which has about 50 million users."
+    },
+    {
+     "a": 1,
+     "fact": "Plans include ordering, payments/transfers and bookings by voice command."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-10-18T08:00+09:00"
+  },
+  {
+   "title": "Google makes Gemini Omni 1.2 Flash video model generally available: 15-second clips, 30% cheaper",
+   "region": "Global (US)",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google's Gemini Omni 1.2 Flash makes 15-second AI videos for less",
+     "date": "2026-11-05T20:03Z",
+     "url": "https://thenextweb.com/news/google-gemini-omni-1-2-flash-video-15-seconds-price-cut"
+    },
+    {
+     "outlet": "Google",
+     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+     "date": "2026-11-05",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Google made Gemini Omni 1.2 Flash generally available; clips are up to 15 seconds, up from 10."
+    },
+    {
+     "a": 0,
+     "fact": "Price is about $0.07 per second of 720p video via the Gemini API, down from $0.10 in June (30% cheaper)."
+    },
+    {
+     "a": 0,
+     "fact": "Users can edit a clip over several chat turns (swap a product or background, change lighting) instead of regenerating."
+    },
+    {
+     "a": 0,
+     "fact": "In Google DeepMind's own comparisons, testers preferred 1.2 over 1.1 for visual consistency 62% of the time."
+    },
+    {
+     "a": 0,
+     "fact": "Rolling out in Flow, Google Vids, Google Ads and, for AI Ultra subscribers, the Gemini app; first time Omni is generally available on Google Cloud; every video carries an invisible SynthID watermark."
+    },
+    {
+     "a": 0,
+     "fact": "ByteDance's Seedance 2.5 (June) makes 30-second clips; Google is the only US company in the top 10 of one popular video ranking, where Chinese models hold the other nine spots."
+    },
+    {
+     "a": 1,
+     "fact": "Duration can be set in one-second steps from 3 to 15 seconds; drafts at 360p or 720p can be upscaled to 1080p or 4K."
+    },
+    {
+     "a": 1,
+     "fact": "Inputs can combine character, product or style images, motion clips up to three seconds and audio cues."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-05T20:03Z"
+  },
+  {
+   "title": "Apple cuts employees' daily AI spending limits, Bloomberg reports; Tesla, Uber, Microsoft also tighten token budgets",
+   "region": "Europe angle (heise, Der Standard); source is Bloomberg via German outlets",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Apple kürzt interne KI-Budgets für Beschäftigte deutlich",
+     "date": "2026-11-05T13:51+01:00",
+     "url": "https://www.heise.de/news/Apple-kuerzt-interne-KI-Budgets-fuer-Beschaeftigte-deutlich-11513091.html"
+    },
+    {
+     "outlet": "Der Standard",
+     "title": "Apple kürzt laut Medienbericht Budget für KI-Nutzung der Mitarbeiter",
+     "date": "2026-11-05",
+     "url": "https://www.derstandard.at/story/3000000347628/apple-k252rzt-ki-ausgaben-f252r-mitarbeiter-bericht"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Per Bloomberg (citing insiders), Apple cut the daily AI spending limit for some engineers from $300 to $200 in October; further cuts to as low as $100 a day are planned for some engineering teams."
+    },
+    {
+     "a": 0,
+     "fact": "Non-engineering teams already capped at $100 a day may drop to $25; exceptions need senior-leader approval."
+    },
+    {
+     "a": 0,
+     "fact": "Employees can use Anthropic's Claude, OpenAI's ChatGPT and Google's Gemini; some teams are told to move to cheaper or locally run models."
+    },
+    {
+     "a": 0,
+     "fact": "Apple declined to comment; new CEO John Ternus is reportedly pushing for a faster, leaner company with fewer management layers."
+    },
+    {
+     "a": 0,
+     "fact": "Tesla introduced a $200 weekly limit per employee; Uber capped single AI coding tools at $1,500 a month and used up its token budget in May; Microsoft tightened internal budgets; Meta set token budgets."
+    },
+    {
+     "a": 1,
+     "fact": "Der Standard (via Bloomberg): Apple cut the daily AI spend for some engineers from $300 to $200 last month, as part of broader cost cutting even though it wants to expand AI use."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-05T13:51+01:00"
+  },
+  {
+   "title": "Brazilian court blocks Meta from using news publishers' content for AI training as a condition of platform use",
+   "region": "Europe angle (heise); Latin America",
+   "repeat": "no",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Brasilien: Gericht verbietet Meta die Nutzung von Medieninhalten für KI-Training",
+     "date": "2026-11-05T23:22+01:00",
+     "url": "https://www.heise.de/news/Brasilien-Gericht-verbietet-Meta-die-Nutzung-von-Medieninhalten-fuer-KI-Training-11514246.html"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "A court in Sao Paulo barred Meta from using content from media companies belonging to three Brazilian press associations for AI training (heise, citing AFP reports)."
+    },
+    {
+     "a": 0,
+     "fact": "Judge Guilherme Madeira Dezem issued the preliminary injunction after suits by ANJ (newspapers), Abert (radio and TV) and Aner (magazines)."
+    },
+    {
+     "a": 0,
+     "fact": "Meta's new business terms, due to take effect on November 20, made handing over content free of charge a condition of continued platform use."
+    },
+    {
+     "a": 0,
+     "fact": "The court called forcing media to hand over copyrighted material for free, like a 'toll' to stay present on channels, an 'obvious abuse of rights', and suspended that part of the terms."
+    },
+    {
+     "a": 0,
+     "fact": "Meta may not penalise outlets that reject the terms; a violation costs 1 million reais (EUR 162,000) a day."
+    },
+    {
+     "a": 0,
+     "fact": "ANJ called it a first success in defending intellectual property and the sustainability of professional journalism."
+    },
+    {
+     "a": 0,
+     "fact": "heise notes the New York Times has sued OpenAI and Microsoft over AI training since late 2023."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-05T23:22+01:00"
+  },
+  {
+   "title": "Anthropic releases FlashProve, open-source proof that an AI answer came from the model you were promised",
+   "region": "Global (US); covered by AI타임스",
+   "repeat": "partly: already in posts/_backlog/2026-11-04-anthropic-flashprove.md (not posted)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽, AI 모델 '신원 확인' 기술 공개...클로드가 개발 과정 주도",
+     "date": "2026-11-05T18:18+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217043"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Anthropic released FlashProve on Nov 2 (US time), an open-source system using zero-knowledge proofs (zkSNARK) to verify a response came from a specified model without revealing its weights."
+    },
+    {
+     "a": 0,
+     "fact": "It aims to catch a provider swapping in a cheaper model or tampering with outputs; it verifies the computation, not whether the answer is true."
+    },
+    {
+     "a": 0,
+     "fact": "Claude helped develop it by applying existing cryptography tools to improve efficiency; Anthropic published the Claude-written protocol spec and says researchers did not review it in detail."
+    },
+    {
+     "a": 0,
+     "fact": "Test on the 400-billion-parameter Llama 4 Maverick (4-bit weights) used one H100 GPU; proof size about 19 MB and verification about 17 seconds on 24 CPU threads."
+    },
+    {
+     "a": 0,
+     "fact": "Proof generation needed 70-95x the GPU time of ordinary prefill in vLLM under specific conditions; current implementation uses a 1,024-token context, so it is not production-ready."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-05T18:18+09:00"
+  },
+  {
+   "title": "Meta acquires Conductor, a coding-agent coordination startup",
+   "region": "Global (US); heise",
+   "repeat": "no (already a candidate in ops/candidates/2026-11-05.json, not posted)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Meta kauft Spezialisten für KI-Coding-Agenten",
+     "date": "2026-11-05T10:56+01:00",
+     "url": "https://www.heise.de/news/Meta-kauft-Spezialisten-fuer-KI-Coding-Agenten-11513119.html"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Meta acquired Conductor, a San Francisco startup (founded 2024) whose software coordinates multiple AI coding agents such as Claude Code and Codex in separate workspaces; Axios reported first and Meta confirmed."
+    },
+    {
+     "a": 0,
+     "fact": "Conductor advertised more than 100,000 users and builds no models of its own."
+    },
+    {
+     "a": 0,
+     "fact": "Conductor's cloud service ends November 20; the local Mac app is phased out from early 2027."
+    },
+    {
+     "a": 0,
+     "fact": "Meta launched Muse Code in August, the Muse agent in September and Muse Wonder models in October, and is seeking revenue beyond ads to offset AI spending."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-05T10:56+01:00"
+  }
+ ]
+}
