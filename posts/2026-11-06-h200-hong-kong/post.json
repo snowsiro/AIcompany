@@ -1,0 +1,122 @@
+{
+  "id": "2026-11-06-h200-hong-kong",
+  "date": "2026-11-06",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · INDUSTRY",
+    "headline": [
+      "**600,000** H200S",
+      "SIT IN HONG KONG"
+    ],
+    "hook_options": [
+      [
+        "**600,000** H200S",
+        "SIT IN HONG KONG"
+      ],
+      [
+        "BEIJING HOLDS",
+        "**600,000** H200S"
+      ],
+      [
+        "600,000 CHIPS",
+        "AWAIT **BEIJING**"
+      ],
+      [
+        "UNDER **200,000**",
+        "H200S MAY CLEAR"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Leads with the 600,000 figure and the place, both stated on slide 1 and in the article's headline. The claim option (Beijing holds back) is also backed but the number-first version carries the same payload plus the concrete scale. The rivalry option frames it as Beijing versus Nvidia, which the article only implies. The 'under 200,000' option stays accurate only if read as conditional, and the cover has no room for 'could', so it is weaker. No reader-impact hook: the article states no effect on ordinary readers; the prices it gives are for China's unofficial server market and the stock charge concerns Nvidia.",
+    "image_prompt": "Cinematic wide shot of an endless dark warehouse hall packed with towering stacks of sealed metal crates under cold blue light, a single tall steel gate at the far end half open with faint amber light spilling through, harbour cranes and a night skyline blurred beyond, mist at floor level, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261106_182047_0a8d40ee-005f-4487-8aa7-ebcf1d416cf9.png"
+  },
+  "slides": [
+    {
+      "kicker": "The pile",
+      "title": "600,000 H200s, stored in Hong Kong",
+      "body": [
+        "About **600,000** Nvidia H200 AI chips are being stored in Hong Kong because Beijing has not approved large-scale imports into mainland China, Reuters reported, citing two people familiar, as relayed by The Next Web."
+      ]
+    },
+    {
+      "kicker": "Who holds it back",
+      "title": "Beijing wants home-made chips",
+      "body": [
+        "Beijing wants firms such as **Alibaba, ByteDance, Tencent and DeepSeek** to use Chinese-made chips instead, especially for inference, the step where a trained AI model answers users."
+      ]
+    },
+    {
+      "kicker": "The ceiling",
+      "title": "Approvals could stay under 200,000",
+      "body": [
+        "The total number of foreign chips China approves **could end up below 200,000**. Several big Chinese internet firms each received about 10,000 H200s in recent months, one source said."
+      ]
+    },
+    {
+      "kicker": "The price of scarcity",
+      "title": "Servers cost triple on the grey market",
+      "body": [
+        "By end of October, an eight-H200 server was offered on China's unofficial market for **more than 6m yuan**, about three times a year earlier. Blackwell servers, which the US bars from China, were offered for over 20m yuan."
+      ]
+    },
+    {
+      "kicker": "Nvidia's side",
+      "title": "A tiny market, and a $400m charge",
+      "body": [
+        "In its latest quarterly filing, Nvidia said H200 sales to China were **under 1%** of data centre revenue. It took a **$400m charge** for unsold H200 stock and purchase commitments."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "About 600,000 Nvidia H200 AI chips are being stored in Hong Kong because Beijing has not approved large-scale imports into mainland China, Reuters reported, citing two people familiar (as relayed by The Next Web)."
+    },
+    {
+      "source": 0,
+      "text": "Beijing wants firms such as Alibaba, ByteDance, Tencent and DeepSeek to use Chinese-made chips instead, especially for inference."
+    },
+    {
+      "source": 0,
+      "text": "The total number of foreign chips China approves could end up below 200,000; several big Chinese internet firms each received about 10,000 H200s in recent months, one source said."
+    },
+    {
+      "source": 0,
+      "text": "By end of October an eight-H200 server was offered on China's unofficial market for more than 6m yuan, about three times a year earlier."
+    },
+    {
+      "source": 0,
+      "text": "Servers with Blackwell chips, which the US does not allow to be sold to China, were offered for more than 20m yuan each."
+    },
+    {
+      "source": 0,
+      "text": "In its latest quarterly filing Nvidia said H200 sales to China were under 1% of data centre revenue and it took a $400m charge for unsold H200 stock and purchase commitments."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "China holds back approval for Nvidia H200 chips stored in Hong Kong",
+      "date": "Nov 6, 2026",
+      "url": "https://thenextweb.com/news/nvidia-h200-chips-hong-kong-china-import-approval"
+    }
+  ],
+  "caption": "About 600,000 Nvidia H200 chips are sitting in Hong Kong because Beijing has not approved large-scale imports.\n\nReuters reported, citing two people familiar, as relayed by The Next Web. Beijing wants Alibaba, ByteDance, Tencent and DeepSeek to use Chinese-made chips instead.\n\n→ China's total approvals of foreign chips could end up below 200,000\n→ An eight-H200 server was offered at more than 6m yuan by end of October, about 3x a year earlier\n→ Nvidia's H200 sales to China were under 1% of data centre revenue, with a $400m charge\n\nWho really controls the AI chip trade: Washington or Beijing?\n\nSource: The Next Web, \"China holds back approval for Nvidia H200 chips stored in Hong Kong\", Nov 6, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nvidia",
+    "#H200",
+    "#ChinaAI",
+    "#AIChips"
+  ],
+  "threads_caption": "About 600,000 Nvidia H200 chips are stored in Hong Kong because Beijing has not approved large-scale imports. China's total approvals could end up below 200,000.\n\nSource: The Next Web, \"China holds back approval for Nvidia H200 chips stored in Hong Kong\". #Nvidia"
+}

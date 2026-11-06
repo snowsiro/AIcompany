@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-06
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 단일 출처: H200 600,000개 사실은 The Next Web 1곳뿐 (원문 Reuters는 못 읽어 출처로 쓰지 않고 "Reuters reported, as relayed by The Next Web"로만 표기). 팩트체크 통과
+2. 위안 금액(6m, 20m yuan)은 기사에 환율이 없어 달러 환산 없이 위안만 씀 (CLAUDE.md 통화 규칙 예외)
+3. 커버 훅 hook-judge 7/10 (H200S 용어, 커버에 Nvidia 없음). 선택: "NVIDIA'S 600,000 H200S". 비차단 제안 반영: 훅 옵션 3 라벨 claim으로, "one source said" 추가
+4. 신선 가산 없음: 새 후보 중 12:15Z 이후 첫 보도 없음 (이 글 첫 보도 10:11Z, 점수 8). 아침 글(OpenAI, TechCrunch+AI타임스)과 다른 회사·매체
+5. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버 생성. 푸시는 세션 지정 브랜치 claude/inspiring-darwin-83e9rw (daily/ 아님)
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음 (아침 글 전부 published)
+- 후보 16개 (새 9, 이월 7). 주제: 중국의 H200 승인 보류 (CHINA, INDUSTRY). id `2026-11-06-h200-hong-kong`. 첫 보도 2026-11-06 10:11Z (11:11 Vienna), ready 시점 나이 약 9시간. 예비: posts/_backlog/2026-11-06-evening-runners-up.md
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 6/6). 사람·글자 없음
+- 검수 1차 전원 통과: fact-checker 통과, hook-judge 통과 7/10, brand-safety 통과 (되돌림 0회)
+
 ## [아침 보고] 2026-11-06
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 8 · 팔로워 2 · 링크 클릭 0 · 최고 도달 kospi-circuit-breaker (8, 릴스)
