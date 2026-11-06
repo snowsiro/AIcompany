@@ -2,7 +2,7 @@
   "id": "2026-11-06-kospi-circuit-breaker",
   "date": "2026-11-06",
   "category": "ECONOMY",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "notes": "Breaking post requested by 제이미 (posted with intraday numbers, 제이미 chose this 2026-11-06 00:59 UTC). Facts checked phrase by phrase with check-article: Newspim (Korean, market open report, KOSPI numbers), NBC News (US close), Korea JoongAng Daily (midterms and Goldman Sachs). Numbers are a snapshot from Friday morning in Seoul, not the close. Not used: investor flows and KRW exchange rate (sources conflict), single stock US moves (not confirmable in our three sources), any 'AI bubble' framing. SK hynix described as a Korean memory chipmaker (background, as in posts/2026-10-28-sk-hynix-q3-record).",
   "cover": {
@@ -141,5 +141,9 @@
     "#Semiconductors",
     "#AINews"
   ],
-  "threads_caption": "Korea's KOSPI plunged 8.55% on Friday morning and tripped a circuit breaker, halting trading for 20 minutes.\n\nUS chip stocks had their worst day since March 2020 after the midterms, NBC News reports.\n\nSource: Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean); NBC News. #KOSPI"
+  "threads_caption": "Korea's KOSPI plunged 8.55% on Friday morning and tripped a circuit breaker, halting trading for 20 minutes.\n\nUS chip stocks had their worst day since March 2020 after the midterms, NBC News reports.\n\nSource: Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean); NBC News. #KOSPI",
+  "published_id": "18074757299490241",
+  "permalink": "https://www.instagram.com/p/DfYZPoSDGG_/",
+  "threads_id": "18098729393691421",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfYZVfGFm9w"
 }
