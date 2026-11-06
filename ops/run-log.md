@@ -2,6 +2,23 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-06
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 8 · 팔로워 2 · 링크 클릭 0 · 최고 도달 kospi-circuit-breaker (8, 릴스)
+결정할 일
+1. 차별점 없는 날: 한국·아시아·유럽 후보 중 신선한 뉴스 6점 이상 없음 (카카오 Kanana는 10/18~19 기사라 낡음, Apple·Meta 브라질은 지역 각도 약함). GPT-6 Cyber 선정
+2. 인스타그램 토큰 없음(IG_*): 참고 계정은 ops/scan 데이터만 사용, 3배 이상 반응 글은 뉴스와 겹치지 않음
+3. 커버 카테고리: lint 목록에 SECURITY가 없어 `US AI · TOOLS` 사용. 바꾸고 싶으면 RESEARCH/INDUSTRY
+4. 1차 팩트체크 불합격 ("top tier of safety framework" 표현, 슬라이드 6 두 출처 혼합, 캡션 제목 누락) → 수정 후 2차 전원 통과 (되돌림 1회)
+5. 오늘 오전 급보(KOSPI)가 이미 게시됨(2크레딧). 이 글 커버 2크레딧 추가, 오늘 합계 4/6
+6. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 커버 생성. 푸시는 세션 지정 브랜치 claude/friendly-cori-2uekvl
+자세한 기록
+- 05:45 시작. 아침 스캔이 main에 없어 morning-scan 워크플로를 수동 실행, 약 2분 뒤 확인
+- 후보 8개 (openai.com, Verge, Reuters, Nikkei 등 읽기 실패 → 다른 원문 사용). 중간선거·KOSPI는 이미 게시돼 제외
+- 주제: OpenAI GPT-6 Cyber (TechCrunch + AI타임스). id `2026-11-06-gpt6-cyber`. 예비: Kakao, Apple AI 예산, Claude Personal Finance, Gemini Omni+Brazil Meta (posts/_backlog/)
+- 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧. 사람·글자 없음
+- 검수 2차: fact 통과, hook 8/10 통과, brand 통과
+
 ## [급보] 2026-11-06
 처리 1건 · 실패 0건
 결정할 일

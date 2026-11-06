@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "score": 8,
+  "better_option": null,
+  "notes": "Round 2. Chosen hook (option 0): 'AI WROTE 948 LINUX EXPLOITS'. Clear in under 2s: yes, big two-line cover, EXPLOITS highlighted. Curiosity: good (which AI, how?), slightly generic because the cover names no model; slide 02 immediately supplies GPT-6 Cyber and OpenAI. Concrete number: 948 plus Linux, strong. Promise kept: the 948 figure is slide 03 ('948 working exploits', 948 of 1,724 reproduced Linux kernel flaws vs 166 for GPT-5.6 Sol), matching the cover wording; slide 02 (the release) sets context and says not open to the public. No overclaim. Stake: low (no direct reader effect), which is acceptable since the other criteria are strong. Compared: option 1 'NOT FOR YOU' is more reader-facing but vague on the payload; option 2 (81 Firefox bugs) is smaller; option 3 (Critical) leans on a rating label. Option 0 is the best. hook_types labels are honest (two number, two claim; none is falsely reader-impact). hook_pick_reason contains an honest 'No reader-impact hook:' reason that states the articles show no direct effect on ordinary readers. Minor note: slide counter on 02.jpg reads 02/08, which is consistent with cover + 6 slides + sources."
+}
