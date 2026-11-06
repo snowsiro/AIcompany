@@ -1,0 +1,37 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 6",
+      "problem": "\"OpenAI wants to dramatically expand Daybreak in the coming weeks\" merges two statements. TechCrunch quotes OpenAI's goal to 'dramatically expand Daybreak' with no timeline. 'Coming weeks' comes from AI타임스 and refers to widening GPT-6 Cyber to all approved (Daybreak Red) customers plus a new critical-infrastructure group. The slide gives the 'dramatically expand' goal a timeline neither article gives.",
+      "fix": "Split it: 'OpenAI says its goal is to **dramatically expand** Daybreak.' Add separately, if wanted: 'Over the coming weeks it plans to widen GPT-6 Cyber access to all approved customers.' Apply the same fix to the matching fact."
+    },
+    {
+      "where": "slide 4 and facts / caption",
+      "problem": "\"the top tier of its safety framework\" / \"top tier of its safety framework\": AI타임스 says Critical is the highest level ('최고 단계') in OpenAI's own safety evaluation ('자체 안전 평가'). The word 'framework' is not in the article. Also, the same article says GPT-6 Astra already had Critical, and 'up from High' is only relative to GPT-5.6 Cyber. Slide 4 does not name that comparison.",
+      "fix": "Write 'the top level in OpenAI's own safety evaluation, up from High for GPT-5.6 Cyber'. Change the caption the same way."
+    },
+    {
+      "where": "caption",
+      "problem": "The TechCrunch source line gives only the outlet and date. CLAUDE.md requires the outlet and the article title in the caption. The AI타임스 title is there, but the TechCrunch title is not.",
+      "fix": "Source: TechCrunch, \"OpenAI released a new cybersecurity model. Is that enough?\", Nov 5, 2026; AI타임스 (in Korean), \"OpenAI launches 'GPT-6 Cyber'... exploit success rate up 51%\", Nov 6, 2026."
+    },
+    {
+      "where": "slide 6 (minor)",
+      "problem": "Title 'Defenders get a head start' is editorial. Justicz is described by TechCrunch as a hobbyist who used GPT 5.6 Sol via Daybreak Blue, not GPT-6 Cyber. TechCrunch also says the flaw is in Ubuntu, with Debian the maintaining project that patched it. 'Ubuntu and Debian flaw' is acceptable, but 'head start' is not stated in either article.",
+      "fix": "Retitle e.g. 'One bug, two hours', and say he used GPT 5.6 Sol through Daybreak Blue."
+    }
+  ],
+  "verified": [
+    "Both sources opened with scripts/article.mjs. The AI타임스 title came back truncated ('오픈AI,') there, so I confirmed the full headline with WebFetch. It matches post.json, and title_en is faithful.",
+    "TechCrunch title matches exactly.",
+    "Cover 948: correct. AI타임스 says 948 working privilege-escalation exploits out of 1,724 reproduced Linux kernel flaws, against 166 for GPT-5.6 Sol (5x or more) in the same setup. TechCrunch calls the 948 'potential issues', which is compatible.",
+    "81 new high-severity Firefox vulnerabilities: correct. Mozilla fixed 상당수 (many): correct.",
+    "588 of 948 previously unknown: AI타임스 says '로이터에 따르면' (according to Reuters), so the attribution 'Per Reuters, as cited by AI타임스' is correct.",
+    "FrontierCyber 90 of 288 vs GPT-6 Astra 96: correct. ExploitGym 48.5% vs 32.1% for GPT-5.6 Cyber: correct.",
+    "Critical (심각), up from High (높음) for GPT-5.6 Cyber: correct on the rating itself. See the wording issue above.",
+    "Daybreak Red limited to approved customers, with identity and permission checks: correct.",
+    "Nov 5 announcement and GPT-6 Astra as the base model: correct. Max Justicz, Charge Robotics CTO, two hours, Debian patch, no known exploitation: correct.",
+    "Threads caption: the 948 and 81 figures and the vetted-access claim are supported."
+  ]
+}
