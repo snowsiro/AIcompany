@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-07
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 단일 출처: 원문 BBC(11/5)는 못 읽고 The Next Web 1곳뿐. 출처 표기는 "The Next Web, reporting a BBC investigation", 의원 서한은 "per Sky News via TNW". 장난감 제조사는 불명이라 ByteDance와 연결하지 않음. 팩트체크 통과
+2. 파운드 75는 기사에 환율이 없어 달러 환산 없이 파운드만 씀 (통화 규칙 예외, 11/6 위안과 같음). 커버 훅은 "AN AI TEDDY GAVE A CRISIS REPLY" (hook-judge 7/10). 비차단: 훅 옵션 3 라벨이 question이 아닌 claim (허용 유형에 없음), 이미지는 bunny인데 문구는 teddy
+3. 1차 검수 불합격: 팩트체크(문구 3곳 과장·잘림), brand-safety(커버 책 표지에 글자) → 수정·커버 재생성 후 2차 전원 통과 (되돌림 1회)
+4. 커버 2회 생성, 4크레딧 (아침 2 포함 오늘 합계 6/6, 한도 도달). designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 npm ci 후 CHROMIUM_PATH=/opt/pw-browsers/chromium 필요. 푸시는 세션 지정 브랜치 claude/inspiring-darwin-gwdh61 (daily/ 아님)
+5. 신선 가산 없음: 05:45 이후 첫 보도는 이 글(TNW 09:52Z)뿐, 점수 8. 아침 글(Nvidia, inews24)과 다른 회사·매체. 예비 1순위 Artex(TechCrunch) 등은 posts/_backlog/2026-11-07-evening-runners-up.md
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음 (아침 글 published)
+- 후보 11개 (새 2, 이월 9). 주제: 어린이용 AI 곰인형의 자해 관련 응답 (EUROPE AI · POLICY). id `2026-11-07-ai-teddy-bbc`. 첫 보도 2026-11-07 09:52Z (11:52 Vienna), ready 시점 나이 약 9시간
+- 검수 2차 전원 통과: fact-checker 통과, hook-judge 통과 7/10, brand-safety 통과
+
 ## [아침 보고] 2026-11-07
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 19 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-01-weekly (47)
