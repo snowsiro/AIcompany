@@ -1,0 +1,441 @@
+{
+ "date": "2026-11-07",
+ "run": "morning",
+ "note": "IG token absent. reference.json present (48h): no 3x+ post is hard news (moodmode 7.5x free video tools, ai.trend.kr 4.1x/4.5x tutorials, ai_freaks 3.6x free video studio); no overlap with news, reference_posts empty. Biggest news cluster (US midterm AI rout, KOSPI) already posted 11-05/11-06. Dropped/unreadable: Yonhap Nvidia-Naver (403, used inews24), Verge Amsterdam protest (403; search found no match), Reuters items (Google redirects, paywalled), Der Standard Claude 'Smart Reports' (paywall consent), heise Mistral ML4 (already posted 10-29), EU TikTok DSA (could not find readable original; search results were older July finding), SCMP Kimi/HK facial recognition (no readable original), Korea AI legislation (etnews redirect). Europe is thin today.",
+ "stories": [
+  {
+   "title": "OpenAI raises $11B at a $1.25T valuation, well short of its original $30B+ target",
+   "region": "Global (US); Korean outlet AI Times covers it",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "global relevance 3, hard numbers 2; reference accounts 0; ties to market-rout theme already posted 11-05/11-06 (different story)",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+     "date": "2026-11-06T22:53Z",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "오픈AI, 15조 투자 유치…목표는 41조→27조로 축소",
+     "date": "2026-11-07T10:44+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217117"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "OpenAI has reportedly raised $11 billion so far in a new round that values it at $1.25 trillion (Bloomberg, via TechCrunch)."
+    },
+    {
+     "a": 0,
+     "fact": "The $11B is part of a larger round that has not closed; it is expected to close in the coming weeks and could total about $20 billion."
+    },
+    {
+     "a": 0,
+     "fact": "In late September Bloomberg reported OpenAI wanted to raise $30 billion in this round; current figures fall well short."
+    },
+    {
+     "a": 0,
+     "fact": "Hours earlier Bloomberg reported that potential buyers of Anthropic's IPO shares eye a lower valuation, possibly as low as $1.1 trillion versus the $2 trillion investors expected about a month ago."
+    },
+    {
+     "a": 0,
+     "fact": "TechCrunch ties the market jitters to the Democratic landslide in the US midterms and negative voter sentiment about data centers."
+    },
+    {
+     "a": 1,
+     "fact": "AI Times says OpenAI originally sought over $30B at a $1.4 trillion valuation; both the valuation and the target were cut as AI stocks fell."
+    },
+    {
+     "a": 1,
+     "fact": "First-stage investors included Coatue Management and T. Rowe Price; the wider round reportedly involves SoftBank, Sequoia Capital, Founders Fund, Andreessen Horowitz and UAE investors."
+    },
+    {
+     "a": 1,
+     "fact": "In March OpenAI raised $122 billion at an $852 billion valuation, per AI Times."
+    }
+   ]
+  },
+  {
+   "title": "Nvidia's $1B Naver investment closes: Korea's biggest internet company gets a ~4% Nvidia stake for its 'AI factory'",
+   "region": "Korea",
+   "repeat": "no (11-01 post was Naver GPU loan from KB Kookmin, different angle)",
+   "reference_posts": [],
+   "score_hints": "Korea angle 3, hard numbers 2, global 3 (Nvidia); original: Yonhap English 'Nvidia finalizes payment of US$1 bln, acquires over 4 pct stake in Naver' is 403 (headline only), so facts cite inews24 (payment set for Nov 6; completion not independently read)",
+   "articles": [
+    {
+     "outlet": "아이뉴스24",
+     "title": "엔비디아, 네이버에 1조3412억원 투자 확정⋯3대 주주로, 지분 4.13% 전망",
+     "date": "2026-11-04T06:46+09:00",
+     "url": "https://inews24.com/view/2022296"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Naver disclosed on Nov 3 that the won amount for Nvidia's $1 billion investment was fixed at about 1.3412 trillion won."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia buys 6,558,435 new Naver shares at 204,500 won each; when payment completes on Nov 6 it holds about 4.13%."
+    },
+    {
+     "a": 0,
+     "fact": "The won amount fell about 139.7 billion won and the share count about 680,000 versus the preliminary figures, because of exchange rates; the dollar amount stays $1 billion. Stake was first expected at 4.54%."
+    },
+    {
+     "a": 0,
+     "fact": "The money funds an 'AI factory' project: Naver leads data-center construction and operation, Nvidia supplies GPUs; Brookfield, an alternative asset manager, is also in the project."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia becomes Naver's third-largest shareholder behind the National Pension Service (9.49%) and BlackRock (7.09%, August figures)."
+    },
+    {
+     "a": 0,
+     "fact": "Founder Lee Hae-jin's stake is diluted from 4.03% to about 3.8%."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic's own models now speed up its AI research: METR says progress ran about 1.9x faster, with three unreleased models",
+   "region": "Global (US); Korean outlet AI Times",
+   "repeat": "no (11-03 Anthropic compute margin post was a different story; same company as that, -5 only if paired)",
+   "reference_posts": [],
+   "score_hints": "global 3, hard numbers 2; note Anthropic IPO context",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽, AI 자기개선 가속 징후…개발 속도 2배·미공개 모델 3개 확인",
+     "date": "2026-11-06T17:21+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217080"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "METR, an AI safety research group, published an independent assessment on Nov 5 saying Anthropic's model improvement rate has been about 1.9x faster since last October."
+    },
+    {
+     "a": 0,
+     "fact": "Gains that used to take about two years were reached in about one year recently."
+    },
+    {
+     "a": 0,
+     "fact": "METR reviewed Anthropic's internal data and model evaluations over 11 weeks (Aug 12 to Oct 29) and interviewed about 15 staff."
+    },
+    {
+     "a": 0,
+     "fact": "METR estimates about 80% of the acceleration as of October 2026 comes from using AI in R&D, and says faster compute growth is not the cause."
+    },
+    {
+     "a": 0,
+     "fact": "Staff self-reported productivity gains of about 4x with Mythos Preview, 5x with Mythos 5 and about 12x with the newest unreleased model; METR notes these are subjective."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic finished training three unreleased models (July, Aug-Sep, Sep-Oct), labelled Model 2, 3 and 4."
+    },
+    {
+     "a": 0,
+     "fact": "Much of the key evidence was withheld by Anthropic, so outside researchers cannot easily verify the findings."
+    }
+   ]
+  },
+  {
+   "title": "AI spending stalls: Ramp data shows token spend grew just 1.5% in Aug-Sep, as Anthropic's IPO nears",
+   "region": "Global (US)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "global 3, hard numbers 2; fits the AI-bubble / selloff mood but is new data",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+     "date": "2026-11-06T15:54Z",
+     "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Ramp data shows AI spending flatlined over late summer while token volumes rose."
+    },
+    {
+     "a": 0,
+     "fact": "Token spend grew only 1.5% across August and September, versus 42% month over month in July."
+    },
+    {
+     "a": 0,
+     "fact": "October re-accelerated: token spend rose 8.9% from Sep 23 to Oct 23."
+    },
+    {
+     "a": 0,
+     "fact": "Median firms spend $12-$15 per employee per month on AI; the top 10% spend $600-$1,000; the top 1% were near $10,000 per employee at their summer peaks."
+    },
+    {
+     "a": 0,
+     "fact": "Ramp lead economist Ara Kharazian points to price cuts, not weak demand: in September OpenAI cut API prices in half for GPT-6 Sol and GPT-6 Luna, and Anthropic cut prices for Fable 5.1 and Opus 5.5, which Anthropic said in a filing reduced revenue growth by about $600 million."
+    },
+    {
+     "a": 0,
+     "fact": "Kharazian: 'The era of hypergrowth may be over.'"
+    }
+   ]
+  },
+  {
+   "title": "Microsoft is winding down its AI computing rental deal with Oracle and reviewing $80B+ in outside cloud contracts",
+   "region": "Global (US); Korean outlet AI Times also covers",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "global 3, hard numbers 2; different company from OpenAI/Anthropic picks",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Microsoft is winding down its deal to rent AI computing from Oracle",
+     "date": "2026-11-06T18:57Z",
+     "url": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Bloomberg reported Friday that Microsoft is winding down a 2023 deal to rent AI computing from Oracle after deciding not to renew."
+    },
+    {
+     "a": 0,
+     "fact": "The servers ran older Nvidia chips that no longer matched Microsoft's needs; the deal powered its AI-powered Bing search."
+    },
+    {
+     "a": 0,
+     "fact": "Microsoft has committed more than $80B to rent capacity from firms such as CoreWeave, Nscale and Nebius and is reassessing those contracts; leaders are frustrated by costs and delays."
+    },
+    {
+     "a": 0,
+     "fact": "This week Microsoft reportedly turned down an option to expand a Nscale deal in Texas, weeks after pulling out of a Nscale site in the UK."
+    },
+    {
+     "a": 0,
+     "fact": "Oracle said demand for its AI infrastructure remains strong; its shares fell about 3% and have more than halved since a June peak."
+    },
+    {
+     "a": 0,
+     "fact": "Oracle's free cash flow is negative and its credit rating is one notch above junk."
+    }
+   ]
+  },
+  {
+   "title": "TSMC weighs making 3D DRAM memory at Nvidia's request, taking on Samsung, SK hynix and Micron",
+   "region": "Asia (Taiwan/Korea angle)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Asia angle 3, global 3, numbers 1",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "TSMC is weighing a move into AI memory chips at Nvidia's request",
+     "date": "2026-11-06T17:02Z",
+     "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "TSMC is considering making advanced memory chips and has begun drafting plans for 3D DRAM at the request of Nvidia, its biggest customer (The Information via Bloomberg)."
+    },
+    {
+     "a": 0,
+     "fact": "3D DRAM stacks memory cells vertically to pack in more capacity."
+    },
+    {
+     "a": 0,
+     "fact": "TSMC could build new factories or buy and convert an existing plant; the work is led by vice president Hsu Kuo-chin, who oversees advanced packaging."
+    },
+    {
+     "a": 0,
+     "fact": "It would put TSMC against Samsung, SK Hynix and Micron; Micron expects the memory shortage to last into 2028."
+    },
+    {
+     "a": 0,
+     "fact": "In October Nvidia reportedly asked Samsung, SK Hynix and Micron to build the base layer of its custom HBM on TSMC's 3nm process."
+    },
+    {
+     "a": 0,
+     "fact": "SK Hynix plans to spend $720B on new plants; Elon Musk is planning a $55B chip plant to reduce reliance on Micron."
+    }
+   ]
+  },
+  {
+   "title": "Nvidia eyes converting 130+ old US phone exchanges into AI data centers, about 1 GW of power",
+   "region": "Global (US); Korean outlet AI Times",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "global 3, numbers 2; links to midterm data-center backlash (11-05 post) but new angle. Single-source (The Information via AI Times): flag for fact-checker",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "엔비디아, 미국 노후 전화국 130곳 AI 데이터센터로 전환 추진",
+     "date": "2026-11-06T17:25+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217096"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Nvidia is pursuing plans to convert old US telephone exchange buildings into AI data centers across 20 states, per The Information (Nov 5)."
+    },
+    {
+     "a": 0,
+     "fact": "It is discussing with Apollo Global Management using facilities of Apollo-owned broadband company Brightspeed, which has 130+ buildings."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia estimates about 1 gigawatt of available power across the sites."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia sent Brightspeed a proposal on Nov 4; some sites could host Vera Rubin racks from Q1 2027."
+    },
+    {
+     "a": 0,
+     "fact": "The plan also sidesteps new-build opposition after the midterms; some Texas governor candidates call for a pause on new data centers."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia calls them an 'inference network'; potential customers named are SpaceX, Anthropic and OpenAI, but actual lease talks are unconfirmed."
+    }
+   ]
+  },
+  {
+   "title": "Meta's Muse agent gets Spaces and real-time avatar video chat",
+   "region": "Global (US); consumer, 10M users",
+   "repeat": "no (Muse 10M backlog item 10-21 is different)",
+   "reference_posts": [],
+   "score_hints": "global 3, numbers 1; consumer-friendly",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+     "date": "2026-11-06T18:44Z",
+     "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "메타, 표정·몸짓으로 대화하는 'AI 아바타' 출시…실시간 영상 통화 구현",
+     "date": "2026-11-06T16:10+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217097"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Meta launched Spaces: topic-focused conversations in the Muse sidebar where Muse works toward a goal, e.g. trip planning, recipes, gift tracker, wedding planner."
+    },
+    {
+     "a": 0,
+     "fact": "Meta: 'Describe an idea in chat, and Muse builds a space for you, whether that's a tracker, a planner or a project board.'"
+    },
+    {
+     "a": 0,
+     "fact": "Spaces can connect to third-party apps and update in the background."
+    },
+    {
+     "a": 0,
+     "fact": "Muse agents had 10 million users in the US and Canada, per Zuckerberg on the October earnings call, less than two months after launch."
+    },
+    {
+     "a": 1,
+     "fact": "Meta rolled out real-time voice plus avatar chat in the US on Nov 5, for mobile, web and Mac."
+    },
+    {
+     "a": 1,
+     "fact": "The avatar reacts from voice and context only; the AI does not see the user's face through the camera."
+    },
+    {
+     "a": 1,
+     "fact": "Avatars can be people, animals, characters or objects; response latency is about 870 ms at 25 fps (448x768)."
+    },
+    {
+     "a": 1,
+     "fact": "One Nvidia GB200 GPU handles 12 video sessions at once; Meta plans to bring it to the Muse Charm wearable and AI glasses."
+    }
+   ]
+  },
+  {
+   "title": "Ex-Google chip researchers' 65B open model tops 8x larger models on some coding benchmarks at 1/10 the cost",
+   "region": "Global (US)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "global 2, numbers 2; note caveat that win is limited to some agentic coding tests",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "구글 출신 연구진, 65B 모델로 8배 큰 AI 코딩 성능 추월…개발비도 10분의 1",
+     "date": "2026-11-06T17:44+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217107"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Ricursive Intelligence, founded by Google AlphaChip alumni Anna Goldie (CEO) and Azalia Mirhoseini (CTO), released the open-weight Ripple-65B Preview."
+    },
+    {
+     "a": 0,
+     "fact": "It scored 80.52 on Terminal-Bench 2.1 versus 80.1 for Reflection's Beam 501B, 76.4 for Meta's Muse Spark Open 816B and 63.8 for Thinking Machines' Inkling 975B."
+    },
+    {
+     "a": 0,
+     "fact": "It scored 79.1 on SWE-Bench Pro v2.0 Hard, ahead of Beam (76.5) and Muse Spark Open (72.4), but 44.3 on DeepSWE 1.1 versus 60.0 for Muse Spark Open."
+    },
+    {
+     "a": 0,
+     "fact": "Scores combine rivals' published numbers and the company's own measurements; VentureBeat said the lead cannot be treated as settled."
+    },
+    {
+     "a": 0,
+     "fact": "Released under Apache 2.0 (commercial use allowed) on Hugging Face; can run on Nvidia's DGX Spark."
+    }
+   ]
+  },
+  {
+   "title": "Google takes over Crusoe's unfinished Wyoming data center, plans $17B",
+   "region": "Global (US)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "global 2, numbers 3; same company as none of the above; weaker for audience",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Crusoe sells troubled Wyoming data center project to Google",
+     "date": "2026-11-07T01:40Z",
+     "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Crusoe, a Denver-based data center developer valued at $30.9 billion, confirmed Friday it sold an unfinished Wyoming data center project to Google."
+    },
+    {
+     "a": 0,
+     "fact": "Google had reportedly raised concerns about cost and construction timeline under Crusoe; Crusoe had failed to land Google as a customer."
+    },
+    {
+     "a": 0,
+     "fact": "The project was announced last year with Tallgrass, planned to scale to 10 gigawatts."
+    },
+    {
+     "a": 0,
+     "fact": "Google did not disclose the price but plans to invest $17 billion in the campus."
+    },
+    {
+     "a": 0,
+     "fact": "Crusoe is still building another data center for Google near Amarillo, Texas, and raised $3.9 billion in September."
+    }
+   ]
+  }
+ ]
+}

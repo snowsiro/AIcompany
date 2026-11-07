@@ -1,0 +1,125 @@
+{
+  "id": "2026-11-07-nvidia-naver",
+  "date": "2026-11-07",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · INDUSTRY",
+    "headline": [
+      "NVIDIA BUYS **4%**",
+      "OF KOREA'S NAVER"
+    ],
+    "hook_options": [
+      [
+        "NVIDIA BUYS **4%**",
+        "OF KOREA'S NAVER"
+      ],
+      [
+        "NVIDIA PAYS **$1B**",
+        "FOR NAVER STAKE"
+      ],
+      [
+        "NVIDIA BUYS INTO",
+        "KOREA'S **NAVER**"
+      ],
+      [
+        "NVIDIA'S **$1B**",
+        "BUILDS KOREA AI"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Leads with the 4% stake and names both companies; slide 2 gives the 4.13% figure and slides 3-5 explain the deal. The $1B option is equally backed but the stake size says more about what Nvidia gets. The claim option is accurate but has no number. The last option implies the AI factory is built, while the article only says the money funds it, so it is weakest. No reader-impact hook: this is an investment and shareholder story, and the article states no effect on ordinary readers.",
+    "image_prompt": "Cinematic wide shot of a vast futuristic data-center hall at dusk, endless rows of glowing server racks with green and amber light, a glass bridge crossing overhead toward a distant city skyline, cool mist at floor level, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261107_045148_371b188e-fbd4-4707-bdda-64736a8493dd.png"
+  },
+  "slides": [
+    {
+      "kicker": "The deal",
+      "title": "Nvidia pays $1B for a Naver stake",
+      "body": [
+        "Nvidia is investing **$1 billion**, about 1.34 trillion won, in Naver, Korea's largest internet company (search, messaging, shopping). Naver disclosed it on Nov 3, as reported by inews24, with payment due Nov 6."
+      ]
+    },
+    {
+      "kicker": "The stake",
+      "title": "About 4.13% once payment completes",
+      "body": [
+        "Nvidia buys **6,558,435 new Naver shares** at 204,500 won each. inews24 expects its stake to be about **4.13%** once payment completes."
+      ]
+    },
+    {
+      "kicker": "The ranking",
+      "title": "A top-three shareholder",
+      "body": [
+        "That would make Nvidia Naver's third-largest shareholder, behind Korea's state pension fund, the National Pension Service (**9.49%**), and BlackRock (**7.09%**, August figures)."
+      ]
+    },
+    {
+      "kicker": "The AI factory",
+      "title": "The money funds Korean data centers",
+      "body": [
+        "The investment backs an \"AI factory\" project. Naver leads data-center construction and operation, and Nvidia supplies the GPUs. Brookfield, an alternative asset manager, is also in the project."
+      ]
+    },
+    {
+      "kicker": "The small print",
+      "title": "Why the stake is smaller than first expected",
+      "body": [
+        "The stake was first expected at 4.54%. The exchange rate cut the won amount by about **139.7 billion won**; the dollar amount is unchanged. Founder Lee Hae-jin's stake is diluted from 4.03% to about **3.8%**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Naver disclosed on Nov 3 that the won amount for Nvidia's $1 billion investment was fixed at about 1.3412 trillion won; payment was due Nov 6 (Naver filing, as reported by inews24)."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia buys 6,558,435 new Naver shares at 204,500 won each (Naver filing, as reported by inews24); inews24 expects its stake to be about 4.13% once payment completes."
+    },
+    {
+      "source": 0,
+      "text": "Nvidia becomes Naver's third-largest shareholder behind the National Pension Service (9.49%) and BlackRock (7.09%, August figures)."
+    },
+    {
+      "source": 0,
+      "text": "The money funds an 'AI factory' project: Naver leads data-center construction and operation, Nvidia supplies GPUs; Brookfield, an alternative asset manager, is also in the project."
+    },
+    {
+      "source": 0,
+      "text": "The won amount fell about 139.7 billion won and the share count about 680,000 versus preliminary figures because of exchange rates; the dollar amount stays $1 billion. The stake was first expected at 4.54%."
+    },
+    {
+      "source": 0,
+      "text": "Founder Lee Hae-jin's stake is diluted from 4.03% to about 3.8%."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "inews24",
+      "title": "엔비디아, 네이버에 1조3412억원 투자 확정⋯3대 주주로, 지분 4.13% 전망",
+      "title_en": "Nvidia confirms 1.3412 trillion won investment in Naver, to become No. 3 shareholder with a projected 4.13% stake",
+      "language": "Korean",
+      "date": "Nov 4, 2026",
+      "url": "https://inews24.com/view/2022296"
+    }
+  ],
+  "caption": "Nvidia is putting $1 billion into Korea's Naver, about 1.34 trillion won, for a stake of about 4.13%.\n\nThis is based on Naver's filing, as reported by inews24, with payment due Nov 6. The money funds an \"AI factory\": Naver builds and runs the data centers, Nvidia supplies the GPUs.\n\n→ 6,558,435 new Naver shares at 204,500 won each\n→ Would make Nvidia Naver's third-largest shareholder, behind the National Pension Service (9.49%) and BlackRock (7.09%)\n→ Stake first expected at 4.54%; the exchange rate cut the won amount, not the $1B\n\nIs Nvidia turning from chip seller into a part-owner of national AI champions?\n\nSource: inews24, \"Nvidia confirms 1.3412 trillion won investment in Naver, to become No. 3 shareholder with a projected 4.13% stake\" (in Korean), Nov 4, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nvidia",
+    "#Naver",
+    "#KoreaAI",
+    "#AIDataCenter"
+  ],
+  "threads_caption": "Nvidia is putting $1B (about 1.34 trillion won) into Korea's Naver for a stake of about 4.13%, per Naver's filing as reported by inews24. Payment was due Nov 6. The money funds an \"AI factory\" of data centers.\n\nSource: inews24, \"Nvidia confirms 1.3412 trillion won investment in Naver, to become No. 3 shareholder with a projected 4.13% stake\" (in Korean). #Nvidia",
+  "published_id": null
+}

@@ -2,6 +2,21 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-07
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 19 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-01-weekly (47)
+결정할 일
+1. 단일 출처: Naver–Nvidia 사실은 아이뉴스24(11/4) 1곳뿐. 납입(11/6) 완료는 확인 못 해 "payment due Nov 6", "would make"로 표기. Yonhap 영문판은 403
+2. 팩트체크 선택 제안(미반영): 슬라이드 3 "August figures"가 두 지분 모두에 걸림을 명확히, 슬라이드 2의 4.13%는 공시값이 아니라 기사 전망치이므로 "inews24 reports…"로 완화
+3. 인스타그램 토큰 없음(IG_*): 참고 계정은 ops/scan 데이터만 사용. 3배 이상 글은 튜토리얼·무료 도구라 뉴스 선정에 쓰지 않음
+4. 유럽 후보 없음: 읽을 수 있는 신규 유럽 원문이 없었음
+5. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 필요. 푸시는 세션 지정 브랜치 claude/friendly-cori-whg1kw (daily/ 아님)
+6. 저녁 런 제안: OpenAI $11B 조달(TechCrunch), 다음은 Microsoft–Oracle(TNW). TSMC 3D DRAM·Nvidia 전화국 글은 Nvidia 겹침으로 제외
+자세한 기록
+- 05:45 시작. 백로그 확인: main에 ready 글 없음. 아침 스캔이 main에 없어 morning-scan 수동 실행, 약 2분 뒤 확인
+- 후보 10개 (참고 계정 3배+ 글은 뉴스 아님). 선정: Nvidia–Naver 약 4.13% 지분 (KOREA AI · INDUSTRY, 점수 8) id `2026-11-07-nvidia-naver`. 예비: posts/_backlog/2026-11-07-morning-runners-up.md
+- 검수 1차 전원 통과: fact-checker 통과, hook-judge 통과 8/10, brand-safety 통과 (되돌림 0회)
+
 ## [저녁 보고] 2026-11-06
 처리 1건 (ready 1) · 실패 0건
 결정할 일
