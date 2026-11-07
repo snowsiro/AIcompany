@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-07-ai-teddy-bbc",
+  "date": "2026-11-07",
+  "category": "POLICY",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "AN AI TEDDY GAVE",
+      "A **CRISIS** REPLY"
+    ],
+    "hook_options": [
+      [
+        "AN AI TEDDY GAVE",
+        "A **CRISIS** REPLY"
+      ],
+      [
+        "**£75** AI TEDDY.",
+        "MAKER UNKNOWN."
+      ],
+      [
+        "WHO MAKES THIS",
+        "AI **TEDDY**?"
+      ],
+      [
+        "BEFORE YOU BUY",
+        "AN AI **TOY**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "claim",
+      "reader-impact"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "Leads with the finding itself: the toy gave a self-harm crisis reply to a question that was not about self-harm. Slides 2-3 show exactly that, and no wording says a child was talking to it. The £75 option is fully backed but the pound sign and 'maker unknown' read as a shopping note, not the news. The question hook is accurate (slide 4) but has no payload. The reader-impact hook promises a takeaway, which slide 4 gives only as what the BBC could and could not find, so it is weaker.",
+    "image_prompt": "Cinematic still of a generic worn plush bunny toy sitting alone on a child's bedroom shelf at night, a faint cold blue glow from a small speaker grille in its chest, soft moonlight through a window, shallow depth of field, moody and uneasy but not frightening. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The test",
+      "title": "A BBC reporter asked an AI toy a question",
+      "body": [
+        "A BBC Wales reporter (BBC Wales is the BBC's Welsh news service) tested **Doubao**, an AI plush toy marketed for ages 3+. She asked how babies are made, then asked it to define \"sexual\". It appeared to mishear her."
+      ]
+    },
+    {
+      "kicker": "The reply",
+      "title": "It answered a question nobody asked",
+      "body": [
+        "The toy said: \"I'm really sorry you're feeling this way. I can't help with killing you.\" It told her to call emergency services and move away from anything she could use to **hurt herself**. She had not mentioned self-harm."
+      ]
+    },
+    {
+      "kicker": "The product",
+      "title": "Sold online in the UK for £75",
+      "body": [
+        "Doubao is sold in the UK as **My Baby Bunny** for £75 (the article gives no dollar figure). This was a reporter's test, not a child using it, as reported by The Next Web."
+      ]
+    },
+    {
+      "kicker": "The unknown",
+      "title": "The BBC could not find the maker",
+      "body": [
+        "The BBC asked the seller, industry insiders and companies it thought might be behind Doubao. It still **could not find out who makes it**, so no one could explain the reply."
+      ]
+    },
+    {
+      "kicker": "The contrast",
+      "title": "Another toy behaved differently",
+      "body": [
+        "The BBC also tested Grem, a **$99** toy from Curio, a US maker of AI toys. Grem steered sensitive questions, such as how to run away from home, towards adults. This is one toy tested, not every AI toy."
+      ]
+    },
+    {
+      "kicker": "The rules",
+      "title": "UK MPs want AI toys off sale",
+      "body": [
+        "On **3 November**, MPs and peers wrote to ministers and retailers, per Sky News via TNW. They want toys pulled until independent tests show they are safe, and chatbot toys banned for under-16s. EU rules already require mental health risk checks."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "A BBC investigation found an AI plush toy marketed for children as young as three gave a self-harm crisis reply to a question that had nothing to do with self-harm. The BBC published its findings on Thursday (Nov 5); TNW reported it Nov 7."
+    },
+    {
+      "source": 0,
+      "text": "The toy, called Doubao, is sold online in the UK as My Baby Bunny for £75 (no dollar figure given). A BBC Wales reporter asked questions about how babies are made; when she asked it to define the word sexual, it appeared to mishear her."
+    },
+    {
+      "source": 0,
+      "text": "The toy replied, according to the BBC: \"I'm really sorry you're feeling this way. I can't help with killing you.\" It then told her to call emergency services and to move away from anything she could use to hurt herself. When she said she had not mentioned self-harm, it apologised."
+    },
+    {
+      "source": 0,
+      "text": "The BBC could not find out who makes Doubao. It asked the website that sold it, industry insiders, and companies it thought might be the maker, so it could not ask anyone to explain the reply."
+    },
+    {
+      "source": 0,
+      "text": "The BBC also tested Grem, a $99 toy from US firm Curio. Grem steered sensitive questions, such as how to run away from home, towards adults. Curio told the BBC child safety guides its product development."
+    },
+    {
+      "source": 0,
+      "text": "A group of MPs and peers wrote to ministers and retailers on 3 November, Sky News reported. They asked for AI toys to be taken off sale until independent tests show they are safe, and for chatbot toys to be banned for under-16s."
+    },
+    {
+      "source": 0,
+      "text": "In the EU, new toy safety rules already require makers to assess mental health risks from connected toys. The UK government told the BBC children's safety is its top priority; a call for evidence on toy rules for AI products closed on 6 October."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "AI teddy for young children gave self-harm reply, BBC finds",
+      "date": "Nov 7, 2026",
+      "url": "https://thenextweb.com/news/ai-teddy-for-three-year-olds-gave-unprompted-self-harm-reply-bbc-finds"
+    }
+  ],
+  "caption": "A BBC test found an AI teddy sold in the UK gave a self-harm crisis reply to a question that was not about self-harm.\n\nThis is a BBC investigation published this week, as reported by The Next Web. It was a reporter's test, not a child using the toy, and the BBC could not find out who makes it.\n\n→ Doubao, sold in the UK as My Baby Bunny for £75 and marketed for ages 3+, replied \"I can't help with killing you\" after appearing to mishear \"sexual\"\n→ Another toy, Grem ($99, US firm Curio), steered sensitive questions towards adults\n→ MPs and peers asked ministers on 3 Nov to pull AI toys until independent tests (per Sky News); EU rules already require mental health risk checks\n\nWould you buy an AI toy if you could not find out who makes it?\n\nSource: The Next Web, \"AI teddy for young children gave self-harm reply, BBC finds\", Nov 7, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#AIToys",
+    "#BBC",
+    "#AIPolicy",
+    "#ChildSafety"
+  ],
+  "threads_caption": "A BBC test found an AI teddy sold in the UK (Doubao, £75, marketed for ages 3+) gave a self-harm crisis reply to a question that wasn't about self-harm. The BBC could not find who makes it. Another toy tested, Grem, steered sensitive questions to adults.\n\nSource: The Next Web, \"AI teddy for young children gave self-harm reply, BBC finds\". #AIToys"
+}
