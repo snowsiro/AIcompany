@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "issues": [
+    "Non-blocking: cover.image_url in post.json is empty, so I could not confirm from the file that the cover photo is AI-generated, as DESIGN.md requires. The image looks photographic. It shows no person, no recognizable logo and no readable text, which meets the cover rules. Designer should confirm where the image came from.",
+    "Non-blocking: the cover hook 'AI SOUNDS LIKE ELVIS. SUED.' is slightly ambiguous about who sued whom. Slides 2-4 support it, and it says 'sued', not 'guilty'."
+  ]
+}
