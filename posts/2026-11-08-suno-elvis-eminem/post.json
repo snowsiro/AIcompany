@@ -1,0 +1,139 @@
+{
+  "id": "2026-11-08-suno-elvis-eminem",
+  "date": "2026-11-08",
+  "category": "POLICY",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "US AI · POLICY",
+    "headline": [
+      "AI SOUNDS LIKE",
+      "ELVIS. **SUED.**"
+    ],
+    "hook_options": [
+      [
+        "AI SOUNDS LIKE",
+        "ELVIS. **SUED.**"
+      ],
+      [
+        "2 SUITS, 1 DAY:",
+        "**SUNO** IN COURT"
+      ],
+      [
+        "SUNO: WE BLOCK",
+        "NAMES. **\"FALSE.\"**"
+      ],
+      [
+        "SUED OVER AN AI",
+        "**ELVIS** VOICE?"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "rivalry",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "No reader-impact hook: the articles say nothing about what the case changes for ordinary listeners or users of AI music tools; they only describe a legal test. The headline states the new angle in six words, that the claim is about the voice and not only training data, and it says 'sued', not 'guilty'. Slides 2-4 cover the voice claim, the ELVIS Act and Suno's defence. The 2-suits option is fully backed but reads like a docket note. The rivalry option is accurate but cryptic without context. The question option is close, but the first line is long and it has less payload.",
+    "image_prompt": "Cinematic still of an empty vintage studio microphone on a stand in a dim recording booth, a glowing yellow audio waveform floating in the air beside it, a spinning black vinyl record blurred in the background, warm amber rim light, deep shadow, shallow depth of field. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The filing",
+      "title": "Elvis's rights owners sued an AI music maker",
+      "body": [
+        "On Nov. 6, Elvis Presley Enterprises, a unit of licensing company Authentic Brands Group, sued **Suno**, an AI music generator. It alleges copyright violations and that Suno let users clone his \"unmistakable and iconic voice\"."
+      ]
+    },
+    {
+      "kicker": "The new claim",
+      "title": "It is about the voice, not just training",
+      "body": [
+        "Earlier suits focused on training data. This one also alleges Suno can make songs that sound like him. The complaint says: \"The next Elvis won't pick up a guitar.\" These are **allegations**, not findings."
+      ]
+    },
+    {
+      "kicker": "The law",
+      "title": "A 2024 Tennessee law is being tested",
+      "body": [
+        "The case is one of the first major tests of Tennessee's **ELVIS Act**, a 2024 law, the first of its kind in the US. It also allows suits against companies that provide tools for voice and image cloning."
+      ]
+    },
+    {
+      "kicker": "The defence",
+      "title": "Suno says it blocks artist names",
+      "body": [
+        "A Suno spokeswoman said it does not allow prompts for specific artists' names and songs, and screens uploads. The complaint calls such claims \"**unequivocally false**\" and says Suno made an Elvis clone last month from lyrics naming him."
+      ]
+    },
+    {
+      "kicker": "The second suit",
+      "title": "Eminem's publisher filed the same day",
+      "body": [
+        "The same lawyers filed a separate case for Eight Mile Style, a publisher that owns much of Eminem's catalog. It alleges Suno trained on songs like \"Lose Yourself\". The Presley complaint is **51 pages** and cites **859 compositions**."
+      ]
+    },
+    {
+      "kicker": "The pile-up",
+      "title": "Suno already faces other cases",
+      "body": [
+        "Suno settled with Warner Music Group last year but is still in court with UMG and Sony Music. Billboard says it also faces suits from publishers and artists. **No ruling** yet exists in the Elvis or Eminem cases."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The case was filed Friday (Nov. 6) by Elvis Presley Enterprises, a unit of licensing giant Authentic Brands Group that controls the IP tied to Elvis. It levels copyright accusations against Suno and includes legally novel allegations that Suno broke the law by letting users clone Presley's \"unmistakable and iconic voice\"."
+    },
+    {
+      "source": 0,
+      "text": "The lawsuit says: \"The next Elvis won't pick up a guitar.\" It echoes the accusations made against Anthropic over training on copyrighted Elvis songs."
+    },
+    {
+      "source": 0,
+      "text": "The case is one of the first major cases under the ELVIS Act, a first-in-the-nation Tennessee law enacted in 2024. It allows lawsuits against tech firms that enable voice and image cloning, and imposes liability on companies that provide tools allowing unauthorized use of a person's likeness."
+    },
+    {
+      "source": 0,
+      "text": "A Suno spokeswoman told Billboard: \"we do not allow prompts for specific artists' names and songs and work with third party providers to screen uploaded audio files and lyrics for potential misuse.\" The complaint says Suno's claims are \"unequivocally false\" and that as recently as last month Suno generated an Elvis clone based simply on lyrics that included his name."
+    },
+    {
+      "source": 0,
+      "text": "Separately on Friday, the same attorneys filed another case against Suno on behalf of Eight Mile Style, a publisher that owns much of Eminem's catalog, with similar copyright allegations, accusing Suno of training on \"Lose Yourself,\" \"Without Me,\" \"Till I Collapse,\" \"The Real Slim Shady,\" \"Stan\" and other hits."
+    },
+    {
+      "source": 1,
+      "text": "The Presley lawsuit, filed on November 6 in the Northern District of California, is a 51-page complaint that alleges Suno copied 859 Presley compositions to train its AI system and allowed users to generate music that imitates the singer's voice and likeness."
+    },
+    {
+      "source": 0,
+      "text": "Suno settled with Warner Music Group last year and is still litigating with UMG and Sony Music. It has also faced new cases in recent months from music publishers Round Hill Music and Reservoir, as well as the Isbell case over likenesses. Weeks earlier, the Elvis owners sued Anthropic."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Billboard",
+      "title": "Elvis Presley Rights Owners Sue Suno Over AI Voice Cloning: ‘Elvis’ Identity Was Stolen’",
+      "date": "Nov 7, 2026",
+      "url": "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/"
+    },
+    {
+      "outlet": "The Daily Star",
+      "title": "Elvis, Eminem rights holders sue AI music generator Suno",
+      "date": "Nov 2026",
+      "url": "https://www.thedailystar.net/culture/entertainment/news/elvis-eminem-rights-holders-sue-ai-music-generator-suno-4318351"
+    }
+  ],
+  "caption": "Elvis Presley's rights owners just sued Suno, the AI music generator, over a voice they say it can clone.\n\nThese are allegations in new federal lawsuits, not findings. Suno has said it blocks artist names in prompts; the complaint calls that \"unequivocally false\".\n\n→ Elvis Presley Enterprises alleges Suno let users clone his voice, a claim under Tennessee's 2024 ELVIS Act\n→ Eight Mile Style, which owns much of Eminem's catalog, filed a separate copyright case the same day\n→ The Presley complaint runs 51 pages and cites 859 compositions (per The Daily Star)\n\nShould an AI company be liable when its tool sounds like a famous singer?\n\nSource: Billboard, \"Elvis Presley Rights Owners Sue Suno Over AI Voice Cloning: ‘Elvis’ Identity Was Stolen’\", Nov 7, 2026; The Daily Star, \"Elvis, Eminem rights holders sue AI music generator Suno\".\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Suno",
+    "#ElvisPresley",
+    "#AIMusic",
+    "#AIPolicy"
+  ],
+  "threads_caption": "Elvis Presley's rights owners sued AI music generator Suno, alleging it let users clone his voice. Eminem's publisher filed a separate case the same day. Suno says it blocks artist names; the complaint calls that \"unequivocally false\". These are allegations only.\n\nSource: Billboard, \"Elvis Presley Rights Owners Sue Suno Over AI Voice Cloning: ‘Elvis’ Identity Was Stolen’\". #Suno"
+}
