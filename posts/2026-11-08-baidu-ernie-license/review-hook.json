@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "score": 7,
+  "better_option": null,
+  "notes": "Chosen hook (option 0): BAIDU'S OPEN AI / SKIPS KOREA, EU. Clarity 7: readable at a glance and the cover is clean, but 'OPEN AI' with a space may briefly read as OpenAI, and 'skips' is slightly vague. Curiosity 8: an open model that skips regions raises a real question. Concrete name 7: Baidu, Korea, EU named, no number. Promise kept 8: slide 4 states the license Territory excludes the EU, UK and South Korea, and slide 5 says what that means. Gives no reason, matching the hook's neutral 'skips'. Stake 6: relevant to developers in Korea and the EU, otherwise narrow. Minor note: the hook names Korea and EU but not the UK, which is incomplete but not misleading. Slide 02 is the release slide (280B, ERNIE 5.5 Flash Base), consistent with the cover. The restriction itself lands on slide 4, a bit deep, but the caption leads with it. Other options: 280B-parameter (generic, no tension), 24 of 30 (Baidu's own unverified claim, the cover can't carry the caveat), 280B excludes the EU (drops UK and Korea, weaker). Chosen is the best. hook_types are honest: two 'claim', two 'number'. hook_pick_reason has an honest 'No reader-impact hook:' reason (narrow developer audience, articles state no effect on ordinary readers). Pass."
+}

@@ -1,0 +1,225 @@
+{
+  "id": "2026-11-08-weekly",
+  "date": "2026-11-08",
+  "kind": "weekly",
+  "category": "WEEKLY",
+  "status": "blocked",
+  "cover": {
+    "tag": "GLOBAL AI · WEEKLY",
+    "headline": [
+      "AI WROTE 948",
+      "LINUX **EXPLOITS**"
+    ],
+    "hook_options": [
+      [
+        "AI WROTE 948",
+        "LINUX **EXPLOITS**"
+      ],
+      [
+        "OPENAI LOCKS UP",
+        "ITS **HACKER** AI"
+      ],
+      [
+        "OPENAI RATES ITS",
+        "CYBER AI **CRITICAL**"
+      ],
+      [
+        "GPT-6 CYBER: 948",
+        "**EXPLOITS** WRITTEN"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "image_prompt": "Cinematic macro of a massive dark circuit-board vault door, glowing amber traces converging on a heavy closed lock at the center, cold blue light leaking through a thin seam, drifting dust and shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261106_045142_f3e78cfa-cbbe-44a7-bcdb-86a6b9b844b3.png",
+    "hook_pick_reason": "The number hook is concrete and fully backed by the lead card (working exploits for 948 of 1,724 reproduced kernel flaws), and it is the story's own card title, so the promise is kept on slide 2. 'Locks up' was dropped because it can read as the model being withheld, while access is only limited to vetted defenders. No reader-impact hook: the lead articles state no effect on ordinary readers, only on security teams and approved customers."
+  },
+  "slides": [
+    {
+      "kicker": "Story 1",
+      "from": "2026-11-06-gpt6-cyber",
+      "tag": "US AI · TOOLS",
+      "title": "AI WROTE 948 LINUX **EXPLOITS**",
+      "body": [
+        "OpenAI's new GPT-6 Cyber wrote working Linux exploits for 948 flaws, and it is released only to vetted defenders."
+      ],
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "kicker": "Story 2",
+      "from": "2026-11-06-h200-hong-kong",
+      "tag": "CHINA AI · INDUSTRY",
+      "title": "**600,000** H200S SIT IN HONG KONG",
+      "body": [
+        "About 600,000 Nvidia H200 chips are sitting in Hong Kong because Beijing has not approved large-scale imports."
+      ],
+      "sources": [
+        2
+      ]
+    },
+    {
+      "kicker": "Story 3",
+      "from": "2026-11-06-kospi-circuit-breaker",
+      "tag": "KOREA AI · ECONOMY",
+      "title": "KOSPI **-8.55%**: TRADING HALTED",
+      "body": [
+        "Korea's KOSPI just plunged 8.55% and tripped a circuit breaker, halting all trading for 20 minutes."
+      ],
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "kicker": "Story 4",
+      "from": "2026-11-03-anthropic-compute-margin",
+      "tag": "US AI · ECONOMY",
+      "title": "ANTHROPIC: **58%** GOES TO COMPUTE",
+      "body": [
+        "Anthropic's new IPO filing shows compute took 58% of its revenue last quarter, up from 48%."
+      ],
+      "sources": [
+        6
+      ]
+    },
+    {
+      "kicker": "Story 5",
+      "from": "2026-11-02-merz-ai-sovereignty",
+      "tag": "EUROPE AI · POLICY",
+      "title": "“**EXISTENTIAL**” — MERZ ON AI",
+      "body": [
+        "Germany's chancellor Friedrich Merz just called digital sovereignty \"a truly existential question.\""
+      ],
+      "sources": [
+        7
+      ]
+    },
+    {
+      "kicker": "Story 6",
+      "from": "2026-11-07-ai-teddy-bbc",
+      "tag": "EUROPE AI · POLICY",
+      "title": "AN AI TEDDY GAVE A **CRISIS** REPLY",
+      "body": [
+        "A BBC test found an AI teddy sold in the UK gave a self-harm crisis reply to a question that was not about self-harm."
+      ],
+      "sources": [
+        8
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 1,
+      "text": "OpenAI announced GPT-6 Cyber on Nov 5 (US time); it is built on GPT-6 Astra and specialised in finding vulnerabilities, writing exploit code and penetration testing."
+    },
+    {
+      "source": 1,
+      "text": "Researchers reproduced 1,724 Linux kernel vulnerabilities and wrote working privilege-escalation exploits for 948; GPT-5.6 Sol succeeded on 166 in the same setup."
+    },
+    {
+      "source": 1,
+      "text": "According to Reuters (as cited by AI타임스), 588 of the 948 were previously unknown flaws."
+    },
+    {
+      "source": 1,
+      "text": "It found 81 new high-severity vulnerabilities in Mozilla's Firefox; Mozilla fixed many."
+    },
+    {
+      "source": 1,
+      "text": "On ExploitGym it scored 48.5% vs 32.1% for GPT-5.6 Cyber; it did worse than GPT-6 Astra on FrontierCyber (90 of 288 tasks vs 96)."
+    },
+    {
+      "source": 1,
+      "text": "OpenAI rates its cyber capability 'Critical', the highest level in OpenAI's own safety evaluation, up from 'High' for GPT-5.6 Cyber."
+    },
+    {
+      "source": 1,
+      "text": "Access is limited to approved customers of Daybreak Red, with identity and permission checks. Per AI타임스, OpenAI plans to widen GPT-6 Cyber to all approved customers over the coming weeks and add a group for critical infrastructure defenders."
+    },
+    {
+      "source": 0,
+      "text": "Max Justicz, CTO of Charge Robotics, used GPT-5.6 Sol via OpenAI's Daybreak Blue program to find a severe Ubuntu/Debian flaw in two hours; Debian patched it and there is no known exploitation."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI says it wants to 'dramatically expand Daybreak' to organisations of every size, independent researchers and open-source maintainers (no timeline given in this article)."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "date": "Nov 5, 2026",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/"
+    },
+    {
+      "outlet": "AI타임스",
+      "title": "오픈AI, 'GPT-6 사이버' 출시…취약점 공격 성공률 51% 향상",
+      "title_en": "OpenAI launches 'GPT-6 Cyber'... exploit success rate up 51%",
+      "language": "Korean",
+      "date": "Nov 6, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217074"
+    },
+    {
+      "outlet": "The Next Web",
+      "title": "China holds back approval for Nvidia H200 chips stored in Hong Kong",
+      "date": "Nov 6, 2026",
+      "url": "https://thenextweb.com/news/nvidia-h200-chips-hong-kong-china-import-approval"
+    },
+    {
+      "outlet": "Newspim",
+      "title": "[개장시황] 美 반도체 쇼크에 코스피 8%대 폭락…서킷브레이커 발동·5000선 붕괴",
+      "title_en": "[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000",
+      "language": "Korean",
+      "date": "Nov 6, 2026",
+      "url": "https://www.newspim.com/news/view/20261106000202"
+    },
+    {
+      "outlet": "NBC News",
+      "title": "Stocks plunge as election outcome and AI worries crush tech shares",
+      "date": "Nov 5, 2026",
+      "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    },
+    {
+      "outlet": "Korea JoongAng Daily",
+      "title": "Kospi sinks below the waves as U.S. 'blue tsunami' soaks Korean tech shares",
+      "date": "Nov 5, 2026",
+      "url": "https://www.koreajoongangdaily.com/business/kospi-sinks-below-the-waves-as-us-blue-tsunami-soaks-korean-tech-shares/12958434"
+    },
+    {
+      "outlet": "TechCrunch",
+      "title": "Anthropic is still grappling with the economics of compute",
+      "date": "Nov 3, 2026",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+    },
+    {
+      "outlet": "The Next Web",
+      "title": "Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly",
+      "date": "Nov 2, 2026",
+      "url": "https://thenextweb.com/news/merz-germany-digital-sovereignty-ai"
+    },
+    {
+      "outlet": "The Next Web, reporting a BBC investigation",
+      "title": "AI teddy for young children gave self-harm reply, BBC finds",
+      "date": "Nov 7, 2026",
+      "url": "https://thenextweb.com/news/ai-teddy-for-three-year-olds-gave-unprompted-self-harm-reply-bbc-finds"
+    }
+  ],
+  "caption": "This week in AI: OpenAI's new GPT-6 Cyber wrote working Linux exploits for 948 flaws, and it is released only to vetted defenders.\n\n→ About 600,000 Nvidia H200 chips are sitting in Hong Kong because Beijing has not approved large-scale imports.\n→ Korea's KOSPI just plunged 8.55% and tripped a circuit breaker, halting all trading for 20 minutes.\n→ Anthropic's new IPO filing shows compute took 58% of its revenue last quarter, up from 48%.\n→ Germany's chancellor Friedrich Merz just called digital sovereignty \"a truly existential question.\"\n→ A BBC test found an AI teddy sold in the UK gave a self-harm crisis reply to a question that was not about self-harm.\n\nSources:\n1. TechCrunch, \"OpenAI released a new cybersecurity model. Is that enough?\"; AI타임스, \"OpenAI launches 'GPT-6 Cyber'... exploit success rate up 51%\" (in Korean)\n2. The Next Web, \"China holds back approval for Nvidia H200 chips stored in Hong Kong\"\n3. Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean); NBC News, \"Stocks plunge as election outcome and AI worries crush tech shares\"; Korea JoongAng Daily, \"Kospi sinks below the waves as U.S. 'blue tsunami' soaks Korean tech shares\"\n4. TechCrunch, \"Anthropic is still grappling with the economics of compute\"\n5. The Next Web, \"Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly\"\n6. The Next Web, reporting a BBC investigation, \"AI teddy for young children gave self-harm reply, BBC finds\"\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#OpenAI",
+    "#Nvidia",
+    "#KOSPI",
+    "#DataCenters"
+  ],
+  "threads_caption": "This week in AI: 6 stories from around the world. Sources: TechCrunch, AI타임스, The Next Web (incl. reporting on a BBC investigation), Newspim, NBC News, Korea JoongAng Daily. Details on each card."
+}
