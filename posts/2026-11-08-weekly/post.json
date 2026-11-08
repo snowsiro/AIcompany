@@ -3,7 +3,7 @@
   "date": "2026-11-08",
   "kind": "weekly",
   "category": "WEEKLY",
-  "status": "ready",
+  "status": "published",
   "cover": {
     "tag": "GLOBAL AI · WEEKLY",
     "headline": [
@@ -215,5 +215,9 @@
     "#KOSPI",
     "#DataCenters"
   ],
-  "threads_caption": "This week in AI: 6 stories from around the world. Sources: TechCrunch, AI타임스, The Next Web, Newspim, NBC News, and the BBC via The Next Web. Details on each card."
+  "threads_caption": "This week in AI: 6 stories from around the world. Sources: TechCrunch, AI타임스, The Next Web, Newspim, NBC News, and the BBC via The Next Web. Details on each card.",
+  "published_id": "17956540608039123",
+  "permalink": "https://www.instagram.com/p/DffJWOFD1Jp/",
+  "threads_id": "18000398000829508",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DffJdGxm9nB"
 }
