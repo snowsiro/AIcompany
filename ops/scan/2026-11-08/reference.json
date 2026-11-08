@@ -1,34 +1,44 @@
 {
- "fetched_at": "2026-11-08T04:47:07.240Z",
+ "fetched_at": "2026-11-08T10:10:48.199Z",
  "hours": 48,
  "accounts": [
   {
    "username": "ai.trend.kr",
-   "followers": 270086,
+   "followers": 270141,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 653,
-    "median_comments": 135
+    "median_engagement": 679,
+    "median_comments": 155
    },
    "posts": [
+    {
+     "timestamp": "2026-11-08T08:42:59+0000",
+     "url": "https://www.instagram.com/p/DfeWpJxj3Xu/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": null,
+     "comments": 187,
+     "multiple": 1.2,
+     "multiple_basis": "comments",
+     "caption_start": "AI로 쓴 글을 내가 쓴 것처럼 만드는 방법 AI한테 메일이나 보고서를 맡기면 내용은 맞는데 어딘가 어색해요. 대부분 단어 몇 개와 문장 끝 습관 때문이에요. 그렇다고 하나씩 직접 고칠 필요는 없어요. AI 티를 모아 둔 공개 도구 im-not-ai와 에디터가 콘텐츠를 만들며 알게 된 것을 합쳐 프롬프트로 만들었습니다. 쓴 글과 함께 붙여 넣으면 어디가 왜 걸렸는지 표로 보여 주고, 고친 글까지 줘요. 챗GPT, 클로드, 제미나이 모두 가능해요. 설정에 요청문을 한 번 넣어 두면 새 채팅마다 이 "
+    },
     {
      "timestamp": "2026-11-08T00:53:36+0000",
      "url": "https://www.instagram.com/reel/Dfdgqayvzye/",
      "type": "VIDEO",
-     "likes": null,
-     "comments": 216,
-     "multiple": 1.6,
-     "multiple_basis": "comments",
+     "likes": 190,
+     "comments": 335,
+     "multiple": 0.8,
+     "multiple_basis": "likes+comments",
      "caption_start": "이제 챗GPT에 길게 설명하지 말고 명령어만 보내세요. 📸 이거 제가 직접 또 해 봤습니다. 사진을 첨부하고 /unblur를 보내면 사진이 또렷해지고, /blurmotionview를 보내면 인물만 선명하게 남습니다. 코드 한 줄로 사진의 빛과 배경, 분위기까지 달라지는 셈인데요. 이런 사진 보정 명령어 200개가 필요하시다면 댓글 남겨주세요. 에트매거진이 정리한 자료를 DM으로 바로 보내드릴게요. Editor ・ kiki Source ・ chatgpt Content curated by ai.tr"
     },
     {
      "timestamp": "2026-11-07T08:04:50+0000",
      "url": "https://www.instagram.com/p/Dfbte3mD-a0/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 652,
-     "comments": 84,
-     "multiple": 1.1,
+     "likes": 708,
+     "comments": 91,
+     "multiple": 1.2,
      "multiple_basis": "likes+comments",
      "caption_start": "AI 판에 비상이 걸렸어요 🚨 미국에선 데이터센터를 두고 치러진 지역 투표 41건 중 40건이 제한 쪽으로 결론 났어요(비공식 집계). 인텔 주가는 하루 만에 28% 넘게 빠졌고, 디자인 앱 캔바는 직원 22%가 걸린 대규모 구조조정을 발표했고요. 사람이 원격으로 함께 조종하는 휴머노이드는 집 청소 구독을 시작했고, 입만 움직이면 글이 되는 안경까지 나왔어요. 놓치면 아쉬운 소식이 가득해요. 한 주간의 AI 소식이 더 궁금하다면 댓글에 ‘에트’ 남겨주세요. 이번 주 핵심 소식과 모든 자료 정리본"
     },
@@ -36,83 +46,53 @@
      "timestamp": "2026-11-07T01:23:23+0000",
      "url": "https://www.instagram.com/p/Dfa_ihqj6iP/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 290,
-     "comments": 805,
+     "likes": 317,
+     "comments": 847,
      "multiple": 1.7,
      "multiple_basis": "likes+comments",
      "caption_start": "찍어 둔 일상 사진 한 장, 잡지 속 일러스트로 바꿔 보세요 🎨 사진 한 장을 올리고 프롬프트를 붙여 넣으면 ChatGPT가 큼직한 색면과 고운 입자로 그린 감성 일러스트로 바꿔 줘요. 포즈와 옷, 들고 있던 소품은 그대로 두고 배경만 크림색으로 정리해요. 카페 테라스, 공항 대기실, 장보기, 웨딩 스냅까지 사진 8장으로 해 보니 8장 모두 다시 돌리지 않고 한 번에 나왔어요. 붕어빵 봉투와 캐리어 스티커 같은 작은 소품까지 그림에 남았어요. 프로필 사진이나 피드 한 장으로 바로 쓸 수 있어요."
-    },
-    {
-     "timestamp": "2026-11-06T07:58:23+0000",
-     "url": "https://www.instagram.com/p/DfZH8ulD3d-/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 196,
-     "comments": 374,
-     "multiple": 0.9,
-     "multiple_basis": "likes+comments",
-     "caption_start": "내 사진 3초 만에 수채화로 만드는 프롬프트 🎨 일상 사진을 챗GPT에 올리고 프롬프트 한 줄을 보냈더니, 얼굴이랑 옷은 그대로 두고 배경만 수채화로 바뀐 사진이 나왔어요. 카페, 산책길, 야경, 바다 사진까지 배경만 그림처럼 바뀝니다! 😆 따로 보정 앱을 쓰지 않아도, 인물은 원본 사진 그대로 두고 배경만 감쪽같이 바꿔줘요. 혼자 찍은 사진도, 친구들과 찍은 단체 사진도 그대로 쓸 수 있어요. 수채화 프롬프트와 인물까지 그림으로 바뀔 때 쓰는 수정 문장까지 한 페이지에 정리했어요. 필요하시다"
     }
    ]
   },
   {
    "username": "sdk.kim.builds",
-   "followers": 63244,
+   "followers": 63258,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 70,
-    "median_comments": 56
+    "median_engagement": 71,
+    "median_comments": 48
    },
    "posts": [
     {
      "timestamp": "2026-11-07T02:01:39+0000",
      "url": "https://www.instagram.com/reel/DfbD2BUFABn/",
      "type": "VIDEO",
-     "likes": 21,
-     "comments": 42,
-     "multiple": 0.9,
-     "multiple_basis": "likes+comments",
-     "caption_start": "클로드 하나로 AI 영상 10개 뽑는 프롬프트. 같은 자동차 하나로 애니메이션 스타일 10개 뽑았어요. 픽셀 아트, 칠판 드로잉, 글로우 스케치, 레트로 콘솔, 코믹 아트, 플랫 벡터, 미니멀 라인, 시네마틱 CGI, 블록 토이, 미니멀 3D. ━━━━━━━━━━━━━━━━ ① 차는 사진 한 장으로 고정해요 → 차 사진을 참고 이미지로 넣고 → 차 설명 문장 하나를 10개 프롬프트에 똑같이 붙여요 ② 스타일 문장만 바꿔요 → 방향·크기·위치를 숫자로 정해두면 → 1초마다 컷을 바꿔도 차는 제자리,"
-    },
-    {
-     "timestamp": "2026-11-06T08:01:37+0000",
-     "url": "https://www.instagram.com/reel/DfZIQ5_D-XI/",
-     "type": "VIDEO",
-     "likes": 12,
-     "comments": 56,
+     "likes": 23,
+     "comments": 48,
      "multiple": 1,
      "multiple_basis": "likes+comments",
-     "caption_start": "마케팅 자동화 툴, 결제하기 전에 이거부터 보세요. 저는 지난 30일 동안 게시물을 827개 올렸어요. 채널 네 개에서요. ━━━━━━━━━━━━━━━━ ① 비싼 올인원 툴은 안 써요 → 예약 발행 하나만 맡겨요 → 나머지는 설명서 한 장이에요 ② 설명서에 적는 건 네 가지예요 → 우리 채널 말투 → 첫 문장 규칙 → 금지어 → 올리는 순서 → 이걸 AI한테 주면, 카드뉴스가 우리 말투로 나와요 ③ 툴 쓰면 해결되는 거 아니냐고요? → 툴은 올리는 것만 세팅해주지 → 절대 내 말투로 콘텐츠를 잡아"
-    },
-    {
-     "timestamp": "2026-11-06T05:33:00+0000",
-     "url": "https://www.instagram.com/p/DfY3SaiCtkS/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 34,
-     "comments": 122,
-     "multiple": 2.2,
-     "multiple_basis": "likes+comments",
-     "caption_start": "PDF와 강의는 쌓이는데 어디까지 봤는지부터 잊어버리곤 합니다. DeepTutor는 내 책·PDF·영상·음성 자료를 한곳에 넣는 무료 오픈소스 학습 앱입니다. 자료에 관해 질문하고 퀴즈를 풀며 학습 경로와 진도를 이어갈 수 있습니다. 단순히 답만 주는 게 아니라 자료의 관련 부분을 찾아 설명합니다. 틀린 내용은 기록해 다음 공부에 이어줍니다. 자막이 있는 유튜브 강의는 지금 보는 장면을 기준으로 묻고 복습할 수도 있습니다. 11월 6일 기준 깃허브 별 5.5만 개, 최근 일주일 새 6천 개 이상 "
+     "caption_start": "클로드 하나로 AI 영상 10개 뽑는 프롬프트. 같은 자동차 하나로 애니메이션 스타일 10개 뽑았어요. 픽셀 아트, 칠판 드로잉, 글로우 스케치, 레트로 콘솔, 코믹 아트, 플랫 벡터, 미니멀 라인, 시네마틱 CGI, 블록 토이, 미니멀 3D. ━━━━━━━━━━━━━━━━ ① 차는 사진 한 장으로 고정해요 → 차 사진을 참고 이미지로 넣고 → 차 설명 문장 하나를 10개 프롬프트에 똑같이 붙여요 ② 스타일 문장만 바꿔요 → 방향·크기·위치를 숫자로 정해두면 → 1초마다 컷을 바꿔도 차는 제자리,"
     }
    ]
   },
   {
    "username": "moodmode.ai",
-   "followers": 158717,
+   "followers": 158777,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 294,
-    "median_comments": 55
+    "median_engagement": 299,
+    "median_comments": 57
    },
    "posts": [
     {
      "timestamp": "2026-11-08T00:38:21+0000",
      "url": "https://www.instagram.com/reel/DfdetLiTecp/",
      "type": "VIDEO",
-     "likes": 60,
+     "likes": 89,
      "comments": 3,
-     "multiple": 0.2,
+     "multiple": 0.3,
      "multiple_basis": "likes+comments",
      "caption_start": "MRI 들어갈 때 한번쯤 해본 상상을 실험해봤습니다. MRI는 사실 끄고 켤 수 있는 거대한 전자석이에요. 몸속 수소 원자가 이 자기장에 반응하는 신호를 읽어서 사진을 만드는 거라, 자석이 셀 수밖에 없어요. 전문가가 통제된 환경에서 한 실험이라 절대 따라 하시면 안 돼요. Original by ClassCrunchLabs Edited by moodmode.ai"
     },
@@ -120,7 +100,7 @@
      "timestamp": "2026-11-07T01:32:53+0000",
      "url": "https://www.instagram.com/reel/DfbAiNhTsvw/",
      "type": "VIDEO",
-     "likes": 106,
+     "likes": 111,
      "comments": 6,
      "multiple": 0.4,
      "multiple_basis": "likes+comments",
@@ -130,9 +110,9 @@
      "timestamp": "2026-11-06T14:33:33+0000",
      "url": "https://www.instagram.com/p/DfZ1LAtiWLA/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 878,
-     "comments": 3018,
-     "multiple": 13.3,
+     "likes": 910,
+     "comments": 3128,
+     "multiple": 13.5,
      "multiple_basis": "likes+comments",
      "caption_start": "이거 왜 진짜 무료지..? 속는셈치고 한번 해보세요 구글 Veo 3.1, 그록, Muse까지 한곳에서 골라 쓸 수 있는 곳을 찾았어요. 제가 직접 Veo로 1080p 영상을 만들어 봤는데, 사용 크레딧이 정말 0이었어요. 한 번에 1개씩이긴 해도 다 만들어지면 또 만들 수 있고, Muse는 하루 100개까지 무료예요. 장면을 글로 적기만 하면 끝이라 영상 편집을 몰라도 바로 써볼 수 있어요. 다만 무료 조건은 사이트 사정에 따라 바뀔 수 있어요. 열려 있을 때 먼저 써보시는 걸 추천해요. 💌 아"
     },
@@ -141,30 +121,20 @@
      "url": "https://www.instagram.com/reel/DfZrbRkpHRe/",
      "type": "VIDEO",
      "likes": null,
-     "comments": 76,
+     "comments": 78,
      "multiple": 1.4,
      "multiple_basis": "comments",
      "caption_start": "400원으로 이런 챌린지 영상 원하는대로 만들어보세요. #광고 새롭게 개편된 드리미나 웹에 캔버스라는 기능이 생겼는데요. 춤 영상을 올리고 모션 추출을 누르면 사람은 빠지고 동작만 쏙 뽑혀 나옵니다. 그 동작에 캐릭터 이미지만 연결하면 강아지도, 로봇도 박자 하나 안 틀리고 그대로 따라 춰요. 영상 하나면 결과는 무한입니다. 지금 기간 한정으로 드리미나에서 시댄스를 단돈 $0.29(월 409원)에 쓸 수 있어요. 이 가격은 제 링크로 가입해야만 적용됩니다. 댓글에 Dreamina라고 남겨주시면 가"
-    },
-    {
-     "timestamp": "2026-11-06T08:48:40+0000",
-     "url": "https://www.instagram.com/p/DfZNtAeEaZe/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 237,
-     "comments": 631,
-     "multiple": 3,
-     "multiple_basis": "likes+comments",
-     "caption_start": "숨겨진 고수들만 몰래 쓰는 사기급 무료 AI 5개 ㄷㄷ 여러 앱을 오가는 클릭과 입력은 맡기고, 무료 AI 한도는 이어 쓰고, 답변에 드는 토큰은 줄여보세요. AI를 자주 쓴다면 알아둘 무료 도구 5개를 모았습니다. 1. 화면을 보는 AI에게 여러 프로그램의 클릭·입력 맡기기 2. 한 AI의 무료 한도가 끝나면 다음 AI로 넘어가기 3. 답변 토큰 낭비를 줄여 같은 한도로 더 오래 쓰기 4. 웹·논문·특정 사이트를 골라 출처와 함께 검색하기 5. AI가 먼저 질문하게 해서 목적과 조건부터 잡기 아"
     }
    ]
   },
   {
    "username": "trenddalkak.ai",
-   "followers": 66238,
+   "followers": 66246,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 282,
+    "median_engagement": 284,
     "median_comments": 70
    },
    "posts": [
@@ -172,41 +142,41 @@
      "timestamp": "2026-11-06T12:16:01+0000",
      "url": "https://www.instagram.com/p/DfZlbpWlBO8/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 134,
+     "likes": 136,
      "comments": 66,
      "multiple": 0.7,
      "multiple_basis": "likes+comments",
      "caption_start": "AI와 대화하는 방식이 달라지고 있습니다 단순 채팅을 넘어 끝없이 확장되고 있죠, 개발자 Farza가 개발 중인 AI 데스크톱 비서 heyclicky를 공개했는데요, 단순히 음성으로 답변하는 것을 넘어, 대화 내용에 맞춰 그림과 도표를 실시간으로 생성하고 직접 회전하거나 클릭할 수 있는 3D 모델까지 만들어줍니다. 화면 캡쳐해서 이거 어떻게 해? 어디 눌러 안해도 됩니다. ai에게 아예 권한을 넘기기 보다 내가 직접 클릭하며 하고 싶을때, 어려운 프로그램을 사용할 때 클릭할 위치를 직접 짚어주며 "
-    },
-    {
-     "timestamp": "2026-11-06T09:40:12+0000",
-     "url": "https://www.instagram.com/reel/DfZTS9BtJ9J/",
-     "type": "VIDEO",
-     "likes": 25,
-     "comments": 32,
-     "multiple": 0.2,
-     "multiple_basis": "likes+comments",
-     "caption_start": "하암 자러가야겠다😴😴😴 이 영상, 저는 직접 편집하지 않았습니다. Claude에게 맡겼거든요. 캡컷도, 애프터 이펙트도 없이 AI로 영상 편집을 더 효과적이고, 고퀄로 뽑는법 가져왔어요. 1. Claude에 Higgsfield MCP 연결 2. 명령어 입력 3. 원하는 템플릿 선택 4. 대본과 사진 또는 영상 넣고 생성 Higgsfield Genjutsu for Reels를 활용하면 직접 촬영하지 않아도 사진 한 장으로 시작할 수 있고, 자막과 움직이는 그래픽까지 들어간 릴스를 만들 수 있습"
     }
    ]
   },
   {
    "username": "prompt_what",
-   "followers": 242885,
+   "followers": 242963,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 220,
-    "median_comments": 105
+    "median_engagement": 225,
+    "median_comments": 115
    },
    "posts": [
+    {
+     "timestamp": "2026-11-08T06:01:33+0000",
+     "url": "https://www.instagram.com/p/DfeEKzMkQlv/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 245,
+     "comments": 18,
+     "multiple": 1.2,
+     "multiple_basis": "likes+comments",
+     "caption_start": "인간이 표를 들고 AI를 막아서기 시작했어요 🗳️ 미국 지역 투표에 오른 데이터센터 안건 41건 중 40건이 개발을 막는 쪽으로 끝났어요. 클로드는 계좌를 연결해 새는 돈을 찾아 주고, 그록 봇은 고객센터에 대신 전화해 해지까지 마쳐요. 클로드 코드 팀 개발자는 AI 답을 그대로 믿으면 실력이 녹슨다고 경고했어요. 포토샵을 대신할 무료 앱 16개와 움짤 만드는 지피티 이미지, 응답 35% 빨라진 클로드, 보안 점수를 끌어올린 GPT-6 Cyber, 말로 플러그인을 만드는 딥시크, X 디자인 총괄"
+    },
     {
      "timestamp": "2026-11-08T00:09:59+0000",
      "url": "https://www.instagram.com/reel/Dfdb2wnyvmT/",
      "type": "VIDEO",
-     "likes": 52,
-     "comments": 78,
-     "multiple": 0.6,
+     "likes": 66,
+     "comments": 118,
+     "multiple": 0.8,
      "multiple_basis": "likes+comments",
      "caption_start": "프롬프트 한 장 붙였더니 유튜브 쇼츠 영상 5개가 나왔습니다 🎬 영상 툴은 하나도 안 켜고 클로드 코드만 썼는데 주제 한 줄만 바꿔 넣으면 같은 스타일로 새 장면이 나와요. 우주 다큐 같은 블랙홀, 손그림 막대인간 썰, 3D 홀로그램 지도, 16비트 게임 보스전까지 조회수 잘 나오는 장르를 골라 담았습니다. 다섯 가지 프롬프트 원문과 영상으로 뽑는 법까지 정리했으니 댓글에 ‘AI’ 남겨주시면 DM으로 보내드릴게요! One pasted prompt, five YouTube-style animati"
     },
@@ -224,9 +194,9 @@
      "timestamp": "2026-11-07T10:59:12+0000",
      "url": "https://www.instagram.com/reel/DfcBUkDSb0y/",
      "type": "VIDEO",
-     "likes": 111,
-     "comments": 229,
-     "multiple": 1.5,
+     "likes": 120,
+     "comments": 248,
+     "multiple": 1.6,
      "multiple_basis": "likes+comments",
      "caption_start": "클로드를 영상 편집 팀으로 만들어주는 3가지 도구입니다 🎬 첫 번째 리모션은 ”자막 더 크게“ 한마디면 코드 한 줄만 고쳐서 영상을 새로 뽑아 와요. 두 번째 하이퍼프레임은 웹페이지 짜듯 글자 모션과 그래픽 화면을 영상 파일로 굽고 자막까지 얹어 줍니다. 세 번째 오픈몽타주는 주제 한 줄로 대본부터 영상 소스, 배경음, 자막까지 완성본을 만들어 주고요. 셋 다 깃허브에 공개돼 있어 개인은 무료로 쓸 수 있고, 설치 명령도 클로드에게 맡기면 알아서 쳐 줘요. 세 도구 설치법과 클로드에 붙이는 명령"
     },
@@ -234,9 +204,9 @@
      "timestamp": "2026-11-07T06:16:26+0000",
      "url": "https://www.instagram.com/reel/Dfbg_dPS-DA/",
      "type": "VIDEO",
-     "likes": 191,
-     "comments": 641,
-     "multiple": 3.8,
+     "likes": 207,
+     "comments": 716,
+     "multiple": 4.1,
      "multiple_basis": "likes+comments",
      "caption_start": "챗 지피티가 만든 밤티 포스터, 프롬프트 하나면 광고처럼 살아납니다 🎨 방금 나온 결과물을 채팅창에 다시 올리고 이 프롬프트를 통째로 붙여 넣으면 제품 모습은 그대로 두고 글자 배치와 색 조합을 새로 잡아요. 영상 속 바나나맛우유 포스터도 같은 방법으로 브랜드 광고 같은 결과가 나왔고요. 저는 상세페이지와 가로 배너까지 작업마다 이런 프롬프트를 따로 정리해 두고 쓰는데, 내 작업에 바로 쓰는 방법과 그 포스터 프롬프트까지 영상에 아무 댓글이나 남겨주시면 DM으로 보내드릴게요! That tacky"
     },
@@ -244,7 +214,7 @@
      "timestamp": "2026-11-06T10:37:39+0000",
      "url": "https://www.instagram.com/p/DfZaLOAFO_V/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 55,
+     "likes": 56,
      "comments": 23,
      "multiple": 0.4,
      "multiple_basis": "likes+comments",
@@ -254,11 +224,11 @@
   },
   {
    "username": "ai_freaks.kr",
-   "followers": 132163,
+   "followers": 132179,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 477,
+    "median_engagement": 488.5,
     "median_comments": 19
    },
    "posts": [
@@ -266,59 +236,38 @@
      "timestamp": "2026-11-07T12:06:07+0000",
      "url": "https://www.instagram.com/reel/DfcI1JOMSZR/",
      "type": "VIDEO",
-     "likes": 231,
-     "comments": 10,
-     "multiple": 0.5,
-     "multiple_basis": "likes+comments",
+     "likes": null,
+     "comments": 15,
+     "multiple": 0.8,
+     "multiple_basis": "comments",
      "caption_start": "“두 사람은 문제아지만 세계 최강” 🕺 일론 머스크와 젠슨 황이 ‘트러블메이커’를 추는 AI 영상이 올라왔어요. AI 크리에이터 garylau_ai가 공개했는데요. 이 두 사람의 조합에 선곡까지, 생각도 못 했던 무대라는 평이에요. 영상에 덧붙인 설명도 웃겨요.. “이미 내 지갑을 충분히 괴롭힌 두 사람이 트러블메이커까지 춘다니.” 😂 댓글에는 “문제 해결사 두 명이 트러블메이커가 됐다“는 반응도 있었죠. 다음 또 보고싶은 CEO 조합이 있으신가요? 👉🏻 AI 소식 놓치지 않으려면? ai_"
     },
     {
      "timestamp": "2026-11-07T04:08:01+0000",
      "url": "https://www.instagram.com/p/DfbSYUVmh4-/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 467,
+     "likes": 482,
      "comments": 10,
      "multiple": 1,
      "multiple_basis": "likes+comments",
      "caption_start": "“11월 1주차 AI 소식 🔥 5분이면 따라잡는 이번 주 핵심 뉴스! 앤트로픽이 클로드에 계좌를 연결하는 기능을 추가했어요. 차기작 ‘페이블 5.5’에 관한 소문까지 돌고 있죠. 오픈AI는 움짤을 만드는 ‘GPT 이미지 2.6’을 선보였고, 보안 특화 모델 ‘GPT-6 사이버‘에 ‘피에르’ 인수 소식까지 전했어요. xAI의 ‘그록 봇’은 이제 전화도 대신 걸고, 최저가 쇼핑까지 챙겨준대요. 여기에 2.8조 파라미터 모델을 통째로 푼 중국 키미 소식까지.. 이번 주 주요 이슈들 15장으로 정리했으"
-    },
-    {
-     "timestamp": "2026-11-06T09:40:30+0000",
-     "url": "https://www.instagram.com/p/DfZTonFmsU6/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 303,
-     "comments": 12,
-     "multiple": 0.7,
-     "multiple_basis": "likes+comments",
-     "caption_start": "“내가 태어난 날은 어떤 모습이었을까?” 🎂 아이디어부터 감동 문구까지 AI가 맡았는데, 약 100만 명이 방문한 서비스를 아시나요? 이번 인터뷰의 주인공은 직장을 다니며 주말과 퇴근 후에 AI로 사이드 프로젝트를 만드는 알토 님입니다. ‘내가 태어난 날의 대한민국’은 생일을 넣으면 그날의 날씨와 풍경, 그 시절 노래와 과자를 보여주는 서비스인데요. 이용자 의견이 모이면서 전자기기까지 하나씩 늘었고, 사람이 몰리면서 서버와 카드값이 같이 터진 슬픈 썰도 있다고 하죠. 시작은 AI로 이전에는 못 "
     }
    ]
   },
   {
    "username": "ai.brief.kr",
-   "followers": 31740,
+   "followers": 31737,
    "ok": true,
    "baseline": {
     "posts": 25,
     "median_engagement": 60,
     "median_comments": 1
    },
-   "posts": [
-    {
-     "timestamp": "2026-11-06T09:13:44+0000",
-     "url": "https://www.instagram.com/p/DfZQkioAXvv/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 15,
-     "comments": 9,
-     "multiple": 0.4,
-     "multiple_basis": "likes+comments",
-     "caption_start": "🎬 영상 AI, 아직도 결제부터 하세요? 상위 1%를 위한 가장 빠른 AI 테크 브리핑입니다. 영상 하나 뽑으려다 구독료부터 나가는 시대입니다. 그런데 가입만 해도 크레딧을 퍼주는 곳이 꽤 많습니다. 생성부터 업스케일, 색보정까지 무료로 시작할 수 있는 사이트 8개를 모았어요. 💡 AI Brief 인사이트 무료 크레딧을 여러 곳에 나눠 받으면, 유료 플랜 하나 결제하기 전에 나한테 맞는 툴부터 찾을 수 있어요. 결제는 가장 마지막에 해도 늦지 않습니다. 📍 귀찮으신 분들은 아무 댓글 달아주시"
-    }
-   ]
+   "posts": []
   },
   {
    "username": "ai.ainow",
-   "followers": 78224,
+   "followers": 78236,
    "ok": true,
    "baseline": {
     "posts": 25,
@@ -329,33 +278,33 @@
   },
   {
    "username": "mktg.with.ai",
-   "followers": 11430,
+   "followers": 11439,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 18,
+    "median_engagement": 17,
     "median_comments": 1
    },
    "posts": [
     {
+     "timestamp": "2026-11-08T09:03:32+0000",
+     "url": "https://www.instagram.com/p/DfeY9jElUZF/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 2,
+     "comments": 0,
+     "multiple": 0.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "가격 물어보는 댓글에 \"DM 주세요\"로 답하고 계신가요? 🤔 행사 기획·대행사 잔치꾼은 가격을 감추는 게 경쟁력이던 업계에서 400여 개 상품 가격을 공개했어요. 포트폴리오와 준비 노하우까지 온라인에 풀었고요. 염재현 대표가 밝힌 2025년 매출은 20억 원을 넘어 전년보다 69% 늘었어요 📈 물론 가격만 바꾼 건 아니에요. 빠른 견적 회신, 전담 매니저, 진행 상황 안내도 함께 바꿨대요. 대표는 지금도 검색 키워드를 직접 보면서 \"이 사람은 지금 어떤 상황인가\"를 읽는다고 해요 🔍 고객이 "
+    },
+    {
      "timestamp": "2026-11-07T09:03:31+0000",
      "url": "https://www.instagram.com/p/Dfb0Lg0FfJh/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 14,
-     "comments": 35,
-     "multiple": 2.7,
+     "likes": 18,
+     "comments": 36,
+     "multiple": 3.2,
      "multiple_basis": "likes+comments",
      "caption_start": "AI로 편집한 영상, 보자마자 \"아, AI네\" 싶었던 적 있으신가요? 🎬 구독자 1만 6천 명의 AI 뉴스레터를 쓰는 소프트웨어 엔지니어 아르템 노비츠키는 편집자 대신 클로드로 영상을 편집하면서 답을 하나 찾았대요. 클로드에겐 자기 취향이 없으니, 잘 만들어 달라고 하지 말고 따라 할 영상을 주라는 거예요 ✨ 참고 영상으로 스타일 시트를 만들고, 고친 내용을 규칙 파일에 쌓고, 컷부터 오디오까지 순서대로 돌리는 5단계와 바로 넣을 설정값을 카드에 정리했어요 📝 아직 원클릭은 아니지만, 메모가 "
-    },
-    {
-     "timestamp": "2026-11-06T09:04:28+0000",
-     "url": "https://www.instagram.com/p/DfZPfTom1fy/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 4,
-     "comments": 0,
-     "multiple": 0.2,
-     "multiple_basis": "likes+comments",
-     "caption_start": "릴스 하나가 터져서 들떴는데 정작 판매는 그대로였던 경험 있으실 거예요 🤔 미국 유튜브 채널 'A Show About The News'의 두 제작자는 쇼츠를 50~60개 만들었고 100만 조회도 나왔지만, 다음 쇼츠에 그 사람들이 다시 오진 않았대요. 그래서 콘텐츠의 역할을 나눴어요. 쇼츠 2개는 발견용, 롱폼 1개는 관계용, 라이브 1회는 대화용 🎥 지금은 구독자 9.7만에, 비즈니스 뉴스레터 미디어 Morning Brew의 정식 프랜차이즈가 됐어요. 주제를 고르는 기준도 하나예요. \"새로 "
     }
    ]
   },
