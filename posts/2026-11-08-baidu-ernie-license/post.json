@@ -1,0 +1,142 @@
+{
+  "id": "2026-11-08-baidu-ernie-license",
+  "date": "2026-11-08",
+  "category": "RESEARCH",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · RESEARCH",
+    "headline": [
+      "BAIDU'S **OPEN** AI",
+      "SKIPS KOREA, EU"
+    ],
+    "hook_options": [
+      [
+        "BAIDU'S **OPEN** AI",
+        "SKIPS KOREA, EU"
+      ],
+      [
+        "BAIDU DROPS **280B**",
+        "PARAMETER MODEL"
+      ],
+      [
+        "BAIDU CLAIMS **24**",
+        "OF 30 TEST WINS"
+      ],
+      [
+        "BAIDU'S **280B** AI",
+        "EXCLUDES THE EU"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "The open-weights-but-not-for-everyone angle is what no other coverage leads with, and slide 4 backs it with the license's own definition of Territory (read on the model card repo), which excludes the EU, the UK and South Korea. 'Skips' is used instead of 'banned', and slides 4-5 say what that means and that Baidu gave no reason. The 24-of-30 option is Baidu's own unverified claim and needs its caveat, which the cover cannot carry. The 280B option is true but generic. The last option drops the UK and Korea. No reader-impact hook: the story matters to developers in three regions, a narrow group, and the articles state no effect on ordinary readers.",
+    "image_prompt": "Cinematic wide shot of a colossal glowing crystalline lattice core floating above a dark night landscape, thousands of luminous nodes connected by thin red and gold light beams, a few beams cut off at an invisible boundary line across the scene, volumetric haze, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261108_045054_c80c9ae9-3c07-4ac7-8c8f-77ccd2627291.png"
+  },
+  "slides": [
+    {
+      "kicker": "The release",
+      "title": "Baidu opens a 280B-parameter model",
+      "body": [
+        "Baidu, China's largest search company, published the weights of **ERNIE 5.5 Flash Base** on Nov 5. It is a mixture-of-experts model: **280B parameters** in total, 14B active per token, pre-trained on 33.5T tokens, per its Hugging Face model card."
+      ]
+    },
+    {
+      "kicker": "The benchmark claim",
+      "title": "24 of 30 wins, by Baidu's own count",
+      "body": [
+        "AI Times reports Baidu's tests put it first on **24 of 30 benchmarks** against DeepSeek, Tencent and Xiaomi base models. MMLU-Pro: 78.4 vs 69.2, 66.9, 65.7. Results are Baidu's own, unverified; rivals led on Chinese-language knowledge and some long-document tasks."
+      ]
+    },
+    {
+      "kicker": "What it is",
+      "title": "A base model, not a chatbot",
+      "body": [
+        "A base model is a pre-trained checkpoint, not a finished assistant. Baidu says a post-trained Flash version comes later. AI Times notes the weights are public, but it is **not open source** anyone can use freely: the license restricts where and how."
+      ]
+    },
+    {
+      "kicker": "The license",
+      "title": "The license leaves out three regions",
+      "body": [
+        "Baidu's license text defines its Territory as everywhere **except the EU, the UK and South Korea**. Developers there do not get the right to use it under that license. Per AI Times, Baidu gave no reason."
+      ]
+    },
+    {
+      "kicker": "Who it affects",
+      "title": "Free for small products, with strings",
+      "body": [
+        "Per AI Times, products with annual revenue of **$50M or less** use it free if they notify and credit Baidu. Above that, Baidu's written approval is needed. In Korea, the EU and the UK, the license grants no rights at all."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 1,
+      "text": "The model card confirms ERNIE 5.5 Flash Base has 280B total and 14B activated parameters (mixture-of-experts), pre-trained from scratch on 33.5T tokens with training context up to 128K."
+    },
+    {
+      "source": 0,
+      "text": "Baidu published the weights on Nov 5 via its blog and Hugging Face (AI Times); model card dated 2026-11-05."
+    },
+    {
+      "source": 0,
+      "text": "In Baidu's own tests against DeepSeek V4 Flash Base, Tencent Hy3 Preview Base and Xiaomi MiMo V2.5 Base, it scored highest on 24 of 30 benchmarks; MMLU-Pro 78.4 vs 69.2, 66.9 and 65.7 (AI Times)."
+    },
+    {
+      "source": 0,
+      "text": "Competitors led on Chinese-language knowledge and some long-document tasks; results are Baidu's own, with no independent verification yet, and compare pre-trained base models only (AI Times)."
+    },
+    {
+      "source": 1,
+      "text": "The model card describes it as the checkpoint at the end of pre-training, before post-training, a starting point for domain adaptation, instruction tuning and RL research."
+    },
+    {
+      "source": 0,
+      "text": "Baidu plans to release a post-trained ERNIE 5.5 Flash later; AI Times notes the weights are public but it is not open source anyone can use freely, because the license restricts where and how it can be used."
+    },
+    {
+      "source": 1,
+      "text": "License text (LICENSE file in the Hugging Face repo, read by the writer): Section 1.11 defines 'Territory' as all areas worldwide other than the European Union, the United Kingdom and South Korea; rights are granted solely within the Territory and use outside it is not authorized (Sections 2, 5.3). Fact-checker: verify against the LICENSE file."
+    },
+    {
+      "source": 0,
+      "text": "AI Times reports the license excludes South Korea, the EU and the UK, so developers there do not get the right to use, modify or distribute the model under it; no reason was given."
+    },
+    {
+      "source": 0,
+      "text": "Products with annual revenue of $50 million or less can use it without a fee but must notify and credit Baidu; above that requires written approval (AI Times). The license text, Sections 4.2-4.3, also sets the US$50 million threshold and the notice and written-authorization steps."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times",
+      "title": "바이두, 딥시크 앞선 '어니 5.5' 베이스 모델 공개…한국·유럽 사용 제한",
+      "title_en": "Baidu releases ERNIE 5.5 base model, ahead of DeepSeek, with Korea and Europe use restricted",
+      "language": "Korean",
+      "date": "Nov 7, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217131"
+    },
+    {
+      "outlet": "Hugging Face (Baidu model card)",
+      "title": "baidu/ERNIE-5.5-Flash-Base",
+      "date": "Nov 5, 2026",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+    }
+  ],
+  "caption": "Baidu's new open-weights ERNIE 5.5 Flash Base comes with a license that leaves out South Korea, the EU and the UK.\n\nBaidu, China's largest search company, released the 280B-parameter model on Nov 5. Its license text defines the permitted Territory as everywhere except those three regions. AI Times reports Baidu gave no reason.\n\n→ 280B parameters, 14B active, trained on 33.5T tokens (model card)\n→ Baidu's own tests, unverified: first on 24 of 30 benchmarks vs DeepSeek, Tencent and Xiaomi base models; rivals led on Chinese-language knowledge\n→ Free for products with revenue of $50M or less; above that needs Baidu's approval\n\nWhen a model is \"open\" but not for everyone, is it really open?\n\nSource: AI Times, \"Baidu releases ERNIE 5.5 base model, ahead of DeepSeek, with Korea and Europe use restricted\" (in Korean), Nov 7, 2026; Hugging Face, \"baidu/ERNIE-5.5-Flash-Base\" model card, Nov 5, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Baidu",
+    "#ERNIE",
+    "#OpenWeights",
+    "#ChinaAI"
+  ],
+  "threads_caption": "Baidu's open-weights ERNIE 5.5 Flash Base (280B parameters) comes with a license whose Territory excludes South Korea, the EU and the UK. AI Times reports Baidu gave no reason. Its benchmark wins are Baidu's own, unverified.\n\nSource: AI Times, \"Baidu releases ERNIE 5.5 base model, ahead of DeepSeek, with Korea and Europe use restricted\" (in Korean); Hugging Face model card. #Baidu"
+}

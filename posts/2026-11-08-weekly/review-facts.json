@@ -1,0 +1,16 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "threads_caption",
+      "problem": "Lists 'MIT Technology Review', which is not in sources and not cited by any slide or the caption. Looks like a leftover from the removed midterms story. Also the sources list is not deduplicated cleanly ('The Next Web' appears alongside 'The Next Web, reporting a BBC investigation').",
+      "fix": "Remove 'MIT Technology Review'. Use: TechCrunch, AI타임스, The Next Web, Newspim, NBC News, Korea JoongAng Daily, The Next Web (reporting a BBC investigation)."
+    },
+    {
+      "where": "slide 3 (KOSPI) sources vs caption/sources array",
+      "problem": "Slide 3 has sources [3,4] (Newspim, NBC News), but caption item 3 cites three outlets (Newspim, NBC News, Korea JoongAng Daily) and sources[5] (JoongAng) is referenced by no slide. Slide cards and caption disagree.",
+      "fix": "Set slide 3 sources to [3,4,5] if the slide may show 3 sources (rule allows max 2 per card, so then drop to two and remove the third from caption and sources[5], and from threads_caption), keeping slides, caption and sources consistent."
+    }
+  ],
+  "notes": "Cover 'AI WROTE 948 / LINUX EXPLOITS' matches lead facts (working privilege-escalation exploits for 948 of 1,724 reproduced Linux kernel flaws) and the lead card title; the claim is not overstated. Midterms story: no slide, caption text or story-level source for a midterms piece remains, but the leftover MIT Technology Review in threads_caption and the orphaned/mismatched JoongAng source show the removal was not fully consistent. Note NBC News/JoongAng titles still mention election/midterms/blue tsunami, which is fine as those are KOSPI story sources."
+}

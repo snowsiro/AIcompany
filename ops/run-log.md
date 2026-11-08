@@ -2,6 +2,22 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-08
+처리 1건 (ready 1) · 실패 0건 · 주간 모음 blocked 1건
+성과: 어제 도달 9 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-01-weekly (47)
+결정할 일
+1. 주간 모음 `2026-11-08-weekly`는 2회 검수 불합격으로 blocked (09:57 게시 안 됨). 1차: hook-judge 불합격(커버 "locks up"이 과장) → 커버를 숫자 훅으로 교체, brand-safety 불합격(midterms 카드 제목 "NEARLY 80%…"를 본문이 뒷받침 못 함, threads_caption에 매체 없음). lint가 항목 본문 수정을 막아 midterms 항목을 빼고 6개로 구성. 2차: fact-checker·brand-safety 불합격(threads_caption에 빠진 항목의 매체 MIT Technology Review 잔존; 카드 3번은 출처 2개인데 캡션은 3개(JoongAng 포함)로 불일치). threads_caption은 이후 고쳤으나 재검수 안 함. 남은 수정: KOSPI 카드·캡션·sources의 JoongAng 정리. 사람이 확인 후 status를 ready로 바꾸면 게시 가능(오늘 놓치면 게시 안 됨). weekly.mjs 개선 제안: 캡션 첫 줄만 쓰는 카드 제목이 본문에 근거 없는 경우(midterms) 대비
+2. 단일 출처: Baidu ERNIE 5.5 Flash Base. 벤치마크 24/30, 한국·EU·영국 제외 보도, $50M 구간은 AI타임스 보도이며 라이선스 원문(Hugging Face LICENSE §1.11, §4.2-4.3)으로 확인. "벤치마크는 Baidu 자체·미검증", "이유 미공개"로 표기. 커버 "SKIPS KOREA, EU"는 영국을 뺌(슬라이드 4·5에는 있음). hook-judge 7/10, 비차단 의견: "OPEN AI"가 OpenAI로 읽힐 수 있음
+3. 1차 검수 불합격 1회: fact-checker (슬라이드 3이 AI타임스 말이 아닌 문구를 AI타임스에 귀속) → 수정 후 2차 전원 통과. 카테고리 MODELS는 lint가 거부해 RESEARCH 사용
+4. 인스타그램 토큰 없음(IG_*): 참고 계정 미사용, 뉴스 원천으로만 선정. 아침 스캔은 내가 수동 실행했고 research 시점엔 main에 아직 없어 researcher는 RSS·웹 검색을 직접 사용
+5. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 필요. 푸시는 세션 지정 브랜치 claude/friendly-cori-dqydua (daily/ 아님)
+6. 저녁 런 제안: 유럽 데이터센터 시위(heise, Euronews), Anthropic 단백질 구조(Anthropic·AI타임스), 삼성–구글 AI 글라스(11/12 예약, 시간 민감). 예비: posts/_backlog/2026-11-08-morning-runners-up.md
+자세한 기록
+- 05:45 시작. 백로그 확인: main에 ready 글 없음
+- 후보 7개. 선정: Baidu ERNIE 5.5 Flash Base 라이선스 (CHINA AI · RESEARCH, 점수 7) id `2026-11-08-baidu-ernie-license`. 원점수는 유럽 시위·SoftBank/ABB·Nvidia가 8로 더 높았으나 중복·단일 출처 사유로 편집장 판단으로 선정
+- 검수: 단일 글 2차 전원 통과 (fact 통과, hook 7/10 통과, brand-safety 통과)
+- 일요일 주간 모음: 7개 초안(대표 gpt6-cyber) → 6개로 축소, blocked
+
 ## [저녁 보고] 2026-11-07
 처리 1건 (ready 1) · 실패 0건
 결정할 일

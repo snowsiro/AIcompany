@@ -1,0 +1,14 @@
+{
+  "pass": false,
+  "issues": [
+    "threads_caption credits 'MIT Technology Review', which is not in post.json sources and is not on any card or in the caption. It looks like a leftover from the removed midterms story. Remove it so the Threads credit list matches the real sources.",
+    "threads_caption lists 'The Next Web, reporting a BBC investigation' after a long comma-separated list. It reads as a separate outlet called 'The Next Web' plus an unnamed 'reporting a BBC investigation'. Rewrite so it reads clearly, e.g. 'The Next Web (reporting a BBC investigation)' or 'BBC (via The Next Web)'. The Next Web is also listed twice. Minor, but fix it in the same edit."
+  ],
+  "checked_ok": [
+    "Cover: AI-generated vault and circuit image, no people, no real logo, no readable text.",
+    "Slides 1-8: colors and fonts match DESIGN.md (ink, paper, muted, accent only; Anton on the cover, Inter Tight elsewhere). Each item card has its own sources (max 2), and the last slide says 'Sources are on each card.'",
+    "Caption credits every outlet and article title.",
+    "No affiliate, referral or tracking links, and no 'tools we use' mention in the slides, caption or threads_caption. 'Link in bio' is a plain pointer.",
+    "Tone does not mock any person, company or country. The cover hook (948 exploits) is supported by card 1."
+  ]
+}
