@@ -87,7 +87,7 @@
         "Anthropic's new IPO filing shows compute took 58% of its revenue last quarter, up from 48%."
       ],
       "sources": [
-        6
+        5
       ]
     },
     {
@@ -99,7 +99,7 @@
         "Germany's chancellor Friedrich Merz just called digital sovereignty \"a truly existential question.\""
       ],
       "sources": [
-        7
+        6
       ]
     },
     {
@@ -111,7 +111,7 @@
         "A BBC test found an AI teddy sold in the UK gave a self-harm crisis reply to a question that was not about self-harm."
       ],
       "sources": [
-        8
+        7
       ]
     }
   ],
@@ -189,12 +189,6 @@
       "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
     },
     {
-      "outlet": "Korea JoongAng Daily",
-      "title": "Kospi sinks below the waves as U.S. 'blue tsunami' soaks Korean tech shares",
-      "date": "Nov 5, 2026",
-      "url": "https://www.koreajoongangdaily.com/business/kospi-sinks-below-the-waves-as-us-blue-tsunami-soaks-korean-tech-shares/12958434"
-    },
-    {
       "outlet": "TechCrunch",
       "title": "Anthropic is still grappling with the economics of compute",
       "date": "Nov 3, 2026",
@@ -213,7 +207,7 @@
       "url": "https://thenextweb.com/news/ai-teddy-for-three-year-olds-gave-unprompted-self-harm-reply-bbc-finds"
     }
   ],
-  "caption": "This week in AI: OpenAI's new GPT-6 Cyber wrote working Linux exploits for 948 flaws, and it is released only to vetted defenders.\n\n→ About 600,000 Nvidia H200 chips are sitting in Hong Kong because Beijing has not approved large-scale imports.\n→ Korea's KOSPI just plunged 8.55% and tripped a circuit breaker, halting all trading for 20 minutes.\n→ Anthropic's new IPO filing shows compute took 58% of its revenue last quarter, up from 48%.\n→ Germany's chancellor Friedrich Merz just called digital sovereignty \"a truly existential question.\"\n→ A BBC test found an AI teddy sold in the UK gave a self-harm crisis reply to a question that was not about self-harm.\n\nSources:\n1. TechCrunch, \"OpenAI released a new cybersecurity model. Is that enough?\"; AI타임스, \"OpenAI launches 'GPT-6 Cyber'... exploit success rate up 51%\" (in Korean)\n2. The Next Web, \"China holds back approval for Nvidia H200 chips stored in Hong Kong\"\n3. Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean); NBC News, \"Stocks plunge as election outcome and AI worries crush tech shares\"; Korea JoongAng Daily, \"Kospi sinks below the waves as U.S. 'blue tsunami' soaks Korean tech shares\"\n4. TechCrunch, \"Anthropic is still grappling with the economics of compute\"\n5. The Next Web, \"Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly\"\n6. The Next Web, reporting a BBC investigation, \"AI teddy for young children gave self-harm reply, BBC finds\"\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "This week in AI: OpenAI's new GPT-6 Cyber wrote working Linux exploits for 948 flaws, and it is released only to vetted defenders.\n\n→ About 600,000 Nvidia H200 chips are sitting in Hong Kong because Beijing has not approved large-scale imports.\n→ Korea's KOSPI just plunged 8.55% and tripped a circuit breaker, halting all trading for 20 minutes.\n→ Anthropic's new IPO filing shows compute took 58% of its revenue last quarter, up from 48%.\n→ Germany's chancellor Friedrich Merz just called digital sovereignty \"a truly existential question.\"\n→ A BBC test found an AI teddy sold in the UK gave a self-harm crisis reply to a question that was not about self-harm.\n\nSources:\n1. TechCrunch, \"OpenAI released a new cybersecurity model. Is that enough?\"; AI타임스, \"OpenAI launches 'GPT-6 Cyber'... exploit success rate up 51%\" (in Korean)\n2. The Next Web, \"China holds back approval for Nvidia H200 chips stored in Hong Kong\"\n3. Newspim, \"[Market open] KOSPI plunges over 8% on US chip shock, circuit breaker triggered, falls below 5,000\" (in Korean); NBC News, \"Stocks plunge as election outcome and AI worries crush tech shares\"\n4. TechCrunch, \"Anthropic is still grappling with the economics of compute\"\n5. The Next Web, \"Chancellor Friedrich Merz says Germany and Europe must build their own AI more quickly\"\n6. The Next Web, reporting a BBC investigation, \"AI teddy for young children gave self-harm reply, BBC finds\"\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#OpenAI",
@@ -221,5 +215,5 @@
     "#KOSPI",
     "#DataCenters"
   ],
-  "threads_caption": "This week in AI: 6 stories from around the world. Sources: TechCrunch, AI타임스, The Next Web (incl. reporting on a BBC investigation), Newspim, NBC News, Korea JoongAng Daily. Details on each card."
+  "threads_caption": "This week in AI: 6 stories from around the world. Sources: TechCrunch, AI타임스, The Next Web, Newspim, NBC News, and the BBC via The Next Web. Details on each card."
 }
