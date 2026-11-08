@@ -1,0 +1,540 @@
+{
+ "date": "2026-11-08",
+ "run": "evening",
+ "cutoff_utc": "2026-11-08T04:45:00Z",
+ "note": "Evening run. No IG token: reference-account scan not available, reference_posts empty everywhere. feeds.json was fetched 10:11Z; own scan via RSS (TechCrunch, Verge, Ars, AI Times, Yonhap, TNW) and web search. Very few strictly post-cutoff AI articles exist on a Sunday: only Ant Ling (AI Times 07:59Z) and the Suno combined report (Verge 17:23Z, unreadable; Billboard 11-07 15:38Z for the Presley half). Morning post: Baidu ERNIE (AI Times first); Baidu entry kept but flagged used_by_morning/same_company. Dropped: Anthropic science-usage report (original 11-05), Mistral Studio (published 11-05), AWS Kiro bots (11-05), Amazon Alexa text shopping (TechCrunch 11-06), Verge Suno/Nvidia empty office (403), SCMP fashion AI rights / Nikkei Bridgestone / Korea Times chip risk / Der Standard Europe AI (Google News links or paywall, unreadable), OpenAI Saudi engineer plea (no readable source), Google-Qualcomm stake (AI Times only).",
+ "stories": [
+  {
+   "title": "Ant Group's Ling-3.2-flash multimodal model beats Claude Opus 5 on three vision and document tests, at $0.30 per million input tokens",
+   "region": "China / global",
+   "first_published_utc": "2026-11-08T07:59:00Z",
+   "first_published_note": "AI Times 16:59 KST 11-08 = 07:59Z (after cutoff). Model announced by Ant on 11-05; DesignArena post 11-05. AI Times is the only readable report; Ant/Hugging Face page not found, web search found no independent source.",
+   "repeat": "no",
+   "same_company_as_morning": false,
+   "carried_over": false,
+   "readable": "AI Times only (Korean); benchmarks are Ant own results",
+   "topic_overlap_note": "Chinese open-weights-style model story like the morning Baidu ERNIE post (different company)",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트그룹, '링 3.2 플래시' 공개…시각 이해 평가서 클로드 오퍼스 5 앞서",
+     "date": "2026-11-08T16:59+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217146"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Ant Group's Ling team unveiled the multimodal model Ling-3.2-flash on Nov 5; it has 560 billion total parameters, with 25 billion active at inference (a mixture-of-experts design, about 4.5% of parameters used)."
+    },
+    {
+     "a": 0,
+     "fact": "It handles up to 1 million tokens of context and understands text, images and video."
+    },
+    {
+     "a": 0,
+     "fact": "On OmniDocBench 1.5 (complex document understanding) it scored 92.21 versus 90.56 for Anthropic's Claude Opus 5; on part of ZEROBench (visual reasoning) 43.71 versus 39.52; on Vision2Web (turning a design image into a web page) 85.86 versus 80.20."
+    },
+    {
+     "a": 0,
+     "fact": "These are Ant's own measurements; all three tests focus on image or document understanding, and AI Times says this does not mean the model beats Opus 5 overall, since language reasoning and coding need more verification."
+    },
+    {
+     "a": 0,
+     "fact": "DesignArena ranked it 10th in Image to Frontend with an Elo of 1238, and listed pricing of $0.30 input and $0.90 output per 1M tokens, which it called the cheapest for that performance level."
+    },
+    {
+     "a": 0,
+     "fact": "Ant makes the API free for two weeks after launch; the official price afterward has not been announced."
+    },
+    {
+     "a": 0,
+     "fact": "It supports OpenAI's and Anthropic's API call formats, so developers who built on ChatGPT or Claude can try it without rewriting programs."
+    },
+    {
+     "a": 0,
+     "fact": "Ant has released weights for earlier Ling models but has not announced weights for this one; it is available through an API and an online chat service."
+    },
+    {
+     "a": 0,
+     "fact": "Ant Group is the Chinese fintech company that runs Alipay."
+    }
+   ]
+  },
+  {
+   "title": "Elvis Presley and Eminem rights holders sue Suno, the AI music generator; the Presley suit adds a voice-cloning claim under Tennessee's ELVIS Act",
+   "region": "US / global",
+   "first_published_utc": "2026-11-07T15:38:11Z",
+   "first_published_note": "Billboard 15:38Z 11-07 (Presley suit; before the 04:45Z cutoff). The combined Presley + Eminem (Eight Mile Style) report is The Verge 11-08 17:23Z (403, unreadable); Startup Fortune 11-08 18:01Z and RuntimeWire 11-08 17:36Z cite it. Eminem part not read from a first-hand source.",
+   "repeat": "no",
+   "same_company_as_morning": false,
+   "carried_over": false,
+   "readable": "yes (Billboard, Startup Fortune, Daily Star partial); Verge not readable",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Billboard",
+     "title": "Elvis Presley Rights Owners Sue Suno Over AI Voice Cloning: 'Elvis' Identity Was Stolen'",
+     "date": "2026-11-07T15:38:11Z",
+     "url": "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/"
+    },
+    {
+     "outlet": "Startup Fortune",
+     "title": "Elvis and Eminem rights holders sue Suno over AI music training and voice imitation",
+     "date": "2026-11-08T18:01:31Z",
+     "url": "https://startupfortune.com/elvis-and-eminem-rights-holders-sue-suno-over-ai-music-training-and-voice-imitation/"
+    },
+    {
+     "outlet": "The Daily Star",
+     "title": "Elvis, Eminem rights holders sue AI music generator Suno",
+     "date": "2026-11-08",
+     "url": "https://www.thedailystar.net/culture/entertainment/news/elvis-eminem-rights-holders-sue-ai-music-generator-suno-4318351"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "The owners of Elvis Presley's intellectual property sued Suno in a case filed Friday, Nov. 6 by Elvis Presley Enterprises, claiming the company violated Presley's likeness rights by letting users clone his \"unmistakable and iconic voice.\""
+    },
+    {
+     "a": 0,
+     "fact": "It is one of the first major cases under Tennessee's ELVIS Act, a first-in-the-nation law aimed at AI voice and image cloning, which also allows suits against tech firms that enable such cloning."
+    },
+    {
+     "a": 0,
+     "fact": "Suno said it does not allow prompts for specific artists' names and songs and works with third-party providers to screen uploaded audio files and lyrics for potential misuse."
+    },
+    {
+     "a": 0,
+     "fact": "The suit comes weeks after Elvis's rights owners sued Anthropic for training Claude on Elvis songs; Suno was already facing cases from labels and a class action by smaller artists."
+    },
+    {
+     "a": 2,
+     "fact": "The Presley complaint, 51 pages, filed Nov. 6 in the Northern District of California, was brought by a group including Authentic Brands Group and Raleigh Music Publishing; it alleges Suno copied 859 Presley compositions to train its AI system."
+    },
+    {
+     "a": 1,
+     "fact": "Eight Mile Style, which holds publishing rights to hundreds of Eminem compositions, filed a separate suit; Eminem himself is not a plaintiff; reports name \"Lose Yourself,\" \"Without Me\" and \"The Real Slim Shady.\" (secondhand; Startup Fortune citing The Verge)"
+    },
+    {
+     "a": 1,
+     "fact": "Startup Fortune says Suno raised $400 million at a $5.4 billion valuation in June, and that Warner Music Group settled its suit and signed a licensing partnership in November 2025; Universal and Sony have not settled. (secondhand, citing The Next Web)"
+    },
+    {
+     "a": 1,
+     "fact": "Suno has not yet filed a formal response in either case, and no ruling exists."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic says Claude helped map a new 'vault' protein structure in 34 hours, but it also made costly mistakes",
+   "region": "Global (US); AI Times Korea covers it",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "global relevance 3, hard numbers 2; science angle, honest-limits angle; Anthropic also in 11-03 post (different story); not hit by 11-07 same-company rule since that was Nvidia/Naver/Teddy",
+   "articles": [
+    {
+     "outlet": "Anthropic",
+     "title": "Investigating vault particles with Claude",
+     "date": "2026-11-04",
+     "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽, 클로드로 40년 미스터리 단백질 연구 돌파구…3D 구조 첫 규명",
+     "date": "2026-11-08T12:08+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217145"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Anthropic's biology team reports the first 3D structure of a vault particle from a prokaryote (a bacteriophage vault made in E. coli), using cryo-electron microscopy; the work is in a preprint submitted to bioRxiv."
+    },
+    {
+     "a": 0,
+     "fact": "Vaults are large hollow protein barrels found across nearly all complex cells; they were discovered in 1986 by Leonard Rome and Nancy Kedersha and their function is still unknown."
+    },
+    {
+     "a": 0,
+     "fact": "Claude searched a database of about 15 billion predicted proteins for vault relatives, designed DNA constructs, optimized the isolation method and processed the microscopy data."
+    },
+    {
+     "a": 0,
+     "fact": "A conventional vault purification takes about three days; Anthropic's method took about 90 minutes. A first structural model was ready 34 hours later, which Anthropic estimates would normally take weeks."
+    },
+    {
+     "a": 0,
+     "fact": "The new vault is built from 96 copies of one phage protein versus 78 in human vaults, and encloses about 25% more volume. Duplicating two wall segments made vaults about 20% larger."
+    },
+    {
+     "a": 0,
+     "fact": "Claude wrote a protocol with an additive that interferes with getting DNA into cells, costing two weeks, and skipped a standard cryo-EM step, producing a flawed map blended with its mirror image."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic says it has not determined the vaults' biological function and has only made them in E. coli so far; most of the work could be done by a typical lab with existing Claude products, except the cryo-EM analysis, which used hundreds of GPUs."
+    },
+    {
+     "a": 0,
+     "fact": "Rome, a paid consultant, said figuring out vault function 'is still enormously challenging'."
+    },
+    {
+     "a": 1,
+     "fact": "AI Times reports the project took under four months and that Anthropic proposes the vaults could become nano-capsules for carrying enzymes, though no carrying function has been shown."
+    }
+   ],
+   "first_published_utc": "2026-11-04T00:00:00Z",
+   "first_published_note": "Anthropic post 11-04 (date as recorded by morning run); AI Times 12:08 KST 11-08 = 03:08Z (before cutoff) (strictly before the 04:45Z cutoff: carried over from the morning file)",
+   "carried_over": true,
+   "same_company_as_morning": false,
+   "readable": "yes"
+  },
+  {
+   "title": "Protesters storm a Microsoft data center site in Amsterdam as 100+ groups act in 15 European countries",
+   "region": "Europe",
+   "repeat": "partial (11-05 midterms-data-centers covered the US data-center backlash; Europe protests are a new development)",
+   "reference_posts": [],
+   "score_hints": "korea_asia_europe 3, global relevance 3; hard numbers (150-200 detained, 100+ groups, 15 countries, EUR 12B to EUR 25-26B); note AI Times says 16 countries but Euronews and Irish Examiner say 15, use 15",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Protest gegen Microsoft-Rechenzentrum in Amsterdam – viele Festnahmen",
+     "date": "2026-11-07T11:31+01:00",
+     "url": "https://www.heise.de/news/Protest-gegen-Microsoft-Rechenzentrum-in-Amsterdam-viele-Festnahmen-11516304.html"
+    },
+    {
+     "outlet": "Euronews",
+     "title": "Protests across Europe to call for freeze on new large data centres",
+     "date": "2026-11-05T15:47+01:00",
+     "url": "https://www.euronews.com/2026/11/05/protesters-across-europe-to-call-for-freeze-on-energy-hungry-data-centres"
+    },
+    {
+     "outlet": "The Irish Examiner (Guardian)",
+     "title": "Ireland among 15 European countries to take part in protests against 'dirty data centres'",
+     "date": "2026-11-05T12:22Z",
+     "url": "https://www.irishexaminer.com/news/arid-41933595.html"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Hundreds of demonstrators entered the construction site of a Microsoft data center in Amsterdam; police said 150 to 200 people were detained for trespassing."
+    },
+    {
+     "a": 0,
+     "fact": "Dutch broadcaster NOS reported two groups at the site: Fossielvrij NL planned to demonstrate outside because data centers use huge amounts of energy, while activists of Geef Tegengas tried to break fences with tools to get onto the site."
+    },
+    {
+     "a": 0,
+     "fact": "Geef Tegengas called the occupation the first mass protest against large data centers in Europe; Microsoft said it respects peaceful protest but does not condone acts that break the law or endanger people."
+    },
+    {
+     "a": 1,
+     "fact": "The Stop Dirty Data Centres protests on Nov 6-7 involved over 100 rights groups across 15 European countries, calling for an immediate moratorium on new large-scale data centers until clearer rules exist."
+    },
+    {
+     "a": 1,
+     "fact": "Euronews ties the protests to the US midterms, where data centers became a decisive issue."
+    },
+    {
+     "a": 1,
+     "fact": "Annual data center investment in Europe has risen from EUR 12 billion in 2020 to EUR 25-26 billion this year, and spending is expected to reach EUR 176 billion in 2026-2031, per the PwC Global Data Centre Outlook."
+    },
+    {
+     "a": 2,
+     "fact": "Actions included a march in Dublin, a protest outside the Polish parliament in Warsaw, a demonstration outside a Microsoft data center in Denmark and an event in east London; backers include Friends of the Earth, Greenpeace and Foxglove."
+    },
+    {
+     "a": 2,
+     "fact": "In Ireland data centers used 23% of total metered electricity in 2025, and EirGrid says that could reach 30% by 2030."
+    }
+   ],
+   "first_published_utc": "2026-11-05T14:47:00Z",
+   "first_published_note": "Euronews 11-05 15:47 CET; heise 11-07 (strictly before the 04:45Z cutoff: carried over from the morning file)",
+   "carried_over": true,
+   "same_company_as_morning": false,
+   "readable": "yes"
+  },
+  {
+   "title": "SoftBank and ABB look at splitting off China to save a $5.4B robotics deal after Beijing blocked it",
+   "region": "Asia/Europe (Japan, Switzerland, China)",
+   "repeat": "partial (11-05 midterms post mentions ABB only in passing if at all; check)",
+   "reference_posts": [],
+   "score_hints": "korea_asia_europe 3, hard numbers 2, physical AI theme; only readable source is AI Times (Bloomberg original not fetched); Chinese authorities' reason not disclosed",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "소프트뱅크·ABB, 54억달러 로봇 인수 살리려 중국 사업부 분리 검토",
+     "date": "2026-11-08T09:14+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217137"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "SoftBank and Switzerland's ABB are discussing carving ABB Robotics' China business into a separate entity with different ownership, citing Bloomberg on Nov 7 and unnamed sources."
+    },
+    {
+     "a": 0,
+     "fact": "Chinese authorities blocked SoftBank's acquisition of ABB's robotics business on Nov 5, in a deal worth $5.4 billion (about 7.36 trillion won); they have not said why."
+    },
+    {
+     "a": 0,
+     "fact": "China is ABB Robotics' largest market, about 30% of the business, with a large production and development site in Shanghai."
+    },
+    {
+     "a": 0,
+     "fact": "It is uncertain whether Beijing would accept the split; neither company has settled a fix and both declined to comment."
+    },
+    {
+     "a": 0,
+     "fact": "ABB is preparing alternatives: another buyer, which sources say might value the unit at $2-3 billion, or the originally planned spin-off and listing (Switzerland and Sweden were mentioned)."
+    },
+    {
+     "a": 0,
+     "fact": "Citi analyst Martin Wilkie estimates the ban cut ABB's acquisition firepower by about half to roughly $5 billion."
+    },
+    {
+     "a": 0,
+     "fact": "SoftBank chairman Masayoshi Son has made physical AI, the combination of robots and AI, a main growth area."
+    }
+   ],
+   "first_published_utc": "2026-11-08T00:14:00Z",
+   "first_published_note": "AI Times 09:14 KST 11-08 = 00:14Z (before the 04:45Z cutoff: carried over from the morning file)",
+   "carried_over": true,
+   "same_company_as_morning": false,
+   "readable": "AI Times only (original not read)"
+  },
+  {
+   "title": "Samsung and Google's first Gemini AI glasses open pre-orders Nov 12 via Gentle Monster and Warby Parker",
+   "region": "Korea/US",
+   "repeat": "partial (10-23-korea-ai-glasses covered earlier AI glasses news; this is the pre-order date)",
+   "reference_posts": [],
+   "score_hints": "korea angle 3, consumer relevance; no price announced; only readable source is AI Times",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "삼성 첫 AI 안경 출시 임박…젠틀몬스터·워비파커, 12일 예약 시작",
+     "date": "2026-11-07T18:14+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217133"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Pre-orders for 'Intelligent Eyewear' by Korea's Gentle Monster and US brand Warby Parker start Nov 12; Gentle Monster says launch is in December and Warby Parker plans delivery over the year-end holidays."
+    },
+    {
+     "a": 0,
+     "fact": "Warby Parker confirmed the date in its Q3 earnings on Nov 5; Gentle Monster posted it on its website on Nov 6."
+    },
+    {
+     "a": 0,
+     "fact": "The glasses run Google's Gemini on the Android XR platform built by Samsung, Google and Qualcomm."
+    },
+    {
+     "a": 0,
+     "fact": "They are camera-and-voice AI glasses, not AR glasses with a lens display; features include live translation, navigation, reading messages and taking photos, and they pair with a smartphone."
+    },
+    {
+     "a": 0,
+     "fact": "Google plans display-type glasses after the voice-first product."
+    },
+    {
+     "a": 0,
+     "fact": "No prices have been announced."
+    },
+    {
+     "a": 0,
+     "fact": "Gentle Monster's teaser film stars Joaquin Phoenix and is directed by Jonathan Glazer, with the full film due mid-November. (Do not use Phoenix's likeness.)"
+    },
+    {
+     "a": 0,
+     "fact": "Meta's Ray-Ban smart glasses are the current market leader, per AI Times."
+    }
+   ],
+   "first_published_utc": "2026-11-07T09:14:00Z",
+   "first_published_note": "AI Times 18:14 KST 11-07 (strictly before the 04:45Z cutoff: carried over from the morning file)",
+   "carried_over": true,
+   "same_company_as_morning": false,
+   "readable": "AI Times only (original not read)"
+  },
+  {
+   "title": "Nvidia now requires Southeast Asian cloud partners to join a chip-tracking system, as a Megaspeed spy memo surfaces",
+   "region": "Asia (Singapore, Southeast Asia) / US",
+   "repeat": "partial (11-06-h200-hong-kong and 11-07-nvidia-naver are different Nvidia stories; same-company risk against other pick)",
+   "reference_posts": [],
+   "score_hints": "korea_asia 3, global 3; Bloomberg original not readable, using AI Times + TechCrunch; spy-memo claims are via NYT/FT reports, keep wording attributed and avoid the romance allegation",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "엔비디아, 동남아 판매 칩 위치 추적 강화로 밀수 차단 나선다",
+     "date": "2026-11-08T10:37+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217139"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+     "date": "2026-11-07T21:17Z",
+     "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Bloomberg reported on Nov 6 that Nvidia now requires Southeast Asian customers seeking its official Nvidia Cloud Partner status to enroll in its Fleet Intelligence system."
+    },
+    {
+     "a": 0,
+     "fact": "Fleet Intelligence is a data-center management tool that collects GPU status and location, so Nvidia can see where a chip is used after it leaves the supply chain."
+    },
+    {
+     "a": 0,
+     "fact": "It is not mandatory for all customers; only Southeast Asian applicants for partner status must join, and it is unknown whether existing partners or other regions will be covered."
+    },
+    {
+     "a": 0,
+     "fact": "The US suspects chips worth billions of dollars reached China via Southeast Asian intermediaries and shell companies."
+    },
+    {
+     "a": 0,
+     "fact": "Nvidia also dropped half of its pre-approved chip buyers in Asia and asked cloud operators not to rent more than half of their compute to Chinese companies."
+    },
+    {
+     "a": 0,
+     "fact": "Jensen Huang is due to attend a closed-door congressional briefing on the Megaspeed controversy (Megaspeed International is a Singapore cloud company)."
+    },
+    {
+     "a": 1,
+     "fact": "A memo reportedly based on US intelligence claimed Megaspeed executive Alice Huang was recruited by China's Ministry of State Security to spy on Jensen Huang, per NYT reporting cited by TechCrunch."
+    },
+    {
+     "a": 1,
+     "fact": "An Nvidia spokesperson said Jensen Huang's interactions with her were 'not unusual' and that Nvidia does not share classified information with customers."
+    },
+    {
+     "a": 1,
+     "fact": "A separate NYT report found only 'a hollow gray shell' at the listed address of New Matrix, a Chinese company authorized by the US Commerce Department to buy advanced Nvidia chips."
+    }
+   ],
+   "first_published_utc": "2026-11-07T21:17:08Z",
+   "first_published_note": "TechCrunch 21:17Z 11-07; AI Times 10:37 KST 11-08 = 01:37Z (strictly before the 04:45Z cutoff: carried over from the morning file)",
+   "carried_over": true,
+   "same_company_as_morning": false,
+   "readable": "yes"
+  },
+  {
+   "title": "Ramp data: AI spending grew just 1.5% in Aug-Sep as price cuts bite, just before Anthropic's IPO",
+   "region": "Global (US)",
+   "repeat": "no (11-03 anthropic-compute-margin is a different Anthropic story)",
+   "reference_posts": [],
+   "score_hints": "global 3, hard numbers 2; lower Korea/Asia/Europe fit; same-company risk with vault story (pick one Anthropic story at most)",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+     "date": "2026-11-06T15:54Z",
+     "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Ramp's data shows token spend grew only 1.5% across August and September, versus 42% in July over the prior month, even as token volumes rose."
+    },
+    {
+     "a": 0,
+     "fact": "October re-accelerated: token spend rose 8.9% from Sept 23 to Oct 23."
+    },
+    {
+     "a": 0,
+     "fact": "Median firms spend $12-$15 per employee per month on AI and the top 10% spend $600-$1,000; the top 1% were near $10,000 per employee at summer peaks."
+    },
+    {
+     "a": 0,
+     "fact": "Ramp economist Ara Kharazian points to price competition: in September OpenAI cut API prices in half for GPT-6 Sol and GPT-6 Luna, and Anthropic cut prices for Fable 5.1 and Opus 5.5, which it said in a filing reduced revenue growth by about $600 million."
+    },
+    {
+     "a": 0,
+     "fact": "Bloomberg reported Anthropic's potential valuation fell from about $2 trillion in early October to $1.2-$1.3 trillion."
+    },
+    {
+     "a": 0,
+     "fact": "Kharazian: 'You can use more AI, but use it for less.'"
+    }
+   ],
+   "first_published_utc": "2026-11-06T15:54:00Z",
+   "first_published_note": "TechCrunch 15:54Z 11-06 (strictly before the 04:45Z cutoff: carried over from the morning file)",
+   "carried_over": true,
+   "same_company_as_morning": false,
+   "readable": "yes"
+  },
+  {
+   "title": "Baidu releases ERNIE 5.5 Flash Base weights, but its license leaves out South Korea, the EU and the UK",
+   "region": "China; Korea/Europe angle",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "korea_asia_europe 3, hard numbers 2, global relevance 2; unusual angle: open weights that Korean and European developers may not be licensed to use; no reference data (no IG token)",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "바이두, 딥시크 앞선 '어니 5.5' 베이스 모델 공개…한국·유럽 사용 제한",
+     "date": "2026-11-07T17:08+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217131"
+    },
+    {
+     "outlet": "Hugging Face (Baidu model card)",
+     "title": "baidu/ERNIE-5.5-Flash-Base",
+     "date": "2026-11-05",
+     "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Baidu published the weights of ERNIE 5.5 Flash Base on Nov 5 via its blog and Hugging Face: a mixture-of-experts model with 280 billion total parameters, of which 14 billion are active per token."
+    },
+    {
+     "a": 1,
+     "fact": "The model card confirms 280B total and 14B activated parameters, pre-trained from scratch on 33.5T tokens with a training context up to 128K; fine-tuning and inference support 1M tokens."
+    },
+    {
+     "a": 0,
+     "fact": "In Baidu's own tests against DeepSeek V4 Flash Base, Tencent Hy3 Preview Base and Xiaomi MiMo V2.5 Base, it scored highest on 24 of 30 benchmarks."
+    },
+    {
+     "a": 0,
+     "fact": "On MMLU-Pro it scored 78.4 versus DeepSeek 69.2, Tencent 66.9 and Xiaomi 65.7; on HumanEval+ it scored 82.3."
+    },
+    {
+     "a": 0,
+     "fact": "Competitors led on Chinese-language knowledge and some long-document tasks; the results are Baidu's own, with no independent verification yet, and all models compared are pre-trained base models, not finished chatbots."
+    },
+    {
+     "a": 1,
+     "fact": "The model card says it is the checkpoint at the end of pre-training, before any post-training, meant as a starting point for domain adaptation, instruction tuning and reinforcement-learning research."
+    },
+    {
+     "a": 0,
+     "fact": "Baidu's own license excludes South Korea, the EU and the UK from the permitted regions, so developers there do not get the right to use, modify or distribute the model under that license; no reason was given."
+    },
+    {
+     "a": 0,
+     "fact": "Products with annual revenue of $50 million or less can use it without a fee but must notify Baidu and credit it; above that needs written approval. AI Times says that makes it open weights, not open source."
+    },
+    {
+     "a": 0,
+     "fact": "Baidu plans to release a post-trained ERNIE 5.5 Flash later."
+    }
+   ],
+   "first_published_utc": "2026-11-07T08:08:00Z",
+   "first_published_note": "AI Times 17:08 KST 11-07; used by the morning post (13:57 slot). Same company as morning. (strictly before the 04:45Z cutoff: carried over from the morning file)",
+   "carried_over": true,
+   "same_company_as_morning": true,
+   "used_by_morning": true,
+   "readable": "yes"
+  }
+ ]
+}
