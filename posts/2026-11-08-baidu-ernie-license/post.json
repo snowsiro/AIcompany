@@ -2,7 +2,7 @@
   "id": "2026-11-08-baidu-ernie-license",
   "date": "2026-11-08",
   "category": "RESEARCH",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "cover": {
     "tag": "CHINA AI · RESEARCH",
@@ -138,5 +138,9 @@
     "#OpenWeights",
     "#ChinaAI"
   ],
-  "threads_caption": "Baidu's open-weights ERNIE 5.5 Flash Base (280B parameters) comes with a license whose Territory excludes South Korea, the EU and the UK. AI Times reports Baidu gave no reason. Its benchmark wins are Baidu's own, unverified.\n\nSource: AI Times, \"Baidu releases ERNIE 5.5 base model, ahead of DeepSeek, with Korea and Europe use restricted\" (in Korean); Hugging Face model card. #Baidu"
+  "threads_caption": "Baidu's open-weights ERNIE 5.5 Flash Base (280B parameters) comes with a license whose Territory excludes South Korea, the EU and the UK. AI Times reports Baidu gave no reason. Its benchmark wins are Baidu's own, unverified.\n\nSource: AI Times, \"Baidu releases ERNIE 5.5 base model, ahead of DeepSeek, with Korea and Europe use restricted\" (in Korean); Hugging Face model card. #Baidu",
+  "published_id": "17900831604398468",
+  "permalink": "https://www.instagram.com/p/Dfez6pdl06V/",
+  "threads_id": "18121653581075210",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/Dfe0AXblkFu"
 }
