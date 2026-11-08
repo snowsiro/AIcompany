@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-08
+처리 1건 (blocked 1) · 실패 0건 · 오늘 20:57 슬롯 비어 있음
+결정할 일
+1. `2026-11-08-suno-elvis-eminem`이 2회 검수 불합격으로 blocked (20:57 게시 안 됨). 둘 다 fact-checker 불합격이고 hook-judge(7/10)와 brand-safety는 1차 통과. 1차: 슬라이드 6 "No ruling yet exists"가 원문에 없음 → 수정함. 2차: 슬라이드 2 "Earlier suits focused on training data."가 과장 (Billboard는 Isbell 초상권 소송과 소규모 아티스트 집단소송도 언급). 남은 수정은 한 문장: "Earlier label suits focused on training data." 로 바꾸고 status를 ready로 바꾸면 게시 가능 (재검수 권장, 실제 수정 후 fact-checker 3차는 안 돌림)
+2. 출처: Billboard(2026-11-07 15:38Z, 전문 확인), The Daily Star(51쪽·859곡 수치, 앞부분만 읽힘, 게재일 없음 → "Nov 2026"). 첫 보도 Billboard 11-07 15:38Z; The Verge 합본 보도 11-08 17:23Z(403, 못 읽음)로 신선 가산 +2를 적용해 점수 7. 아침 글(Baidu, AI타임스)과 다른 회사·매체
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (아침 2 포함 오늘 합계 4/6). 사람·글자 없음. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 필요. brand-safety 비차단 의견: 훅 "AI SOUNDS LIKE ELVIS. SUED."은 누가 누구를 고소했는지 모호, 커버 image_url이 비어 있어(파일 cover.png로 저장) AI 생성 여부는 파일만으로 확인 불가
+4. 인스타그램 토큰 없음(IG_*): 참고 계정 미사용. 후보 9개 (새 2, 이월 7). 예비 1순위: 유럽 데이터센터 시위(Euronews, heise), Anthropic 단백질 구조, 삼성–구글 AI 글라스(11/12 시간 민감)
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음
+- 후보 선정: Suno 소송 (US AI · POLICY, 점수 7). id `2026-11-08-suno-elvis-eminem`
+- 검수 1차: fact 불합격, hook 통과 7/10, brand-safety 통과. 2차: fact 불합격 (hook, brand-safety 재검수 없음, 수정이 문구 1곳)
+- 푸시는 세션 지정 브랜치 claude/inspiring-darwin-x90oay (daily/ 아님)
+
 ## [아침 보고] 2026-11-08
 처리 1건 (ready 1) · 실패 0건 · 주간 모음 blocked 1건
 성과: 어제 도달 9 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-01-weekly (47)
