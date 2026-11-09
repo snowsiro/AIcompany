@@ -2,7 +2,7 @@
   "id": "2026-11-09-kakao-kanana-decide",
   "date": "2026-11-09",
   "category": "TOOLS",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "cover": {
     "tag": "KOREA AI · TOOLS",
@@ -125,5 +125,9 @@
     "#OpenSourceAI",
     "#KoreaAI"
   ],
-  "threads_caption": "Kakao says its open-source Kanana-2-v-decide model is about 43x faster than GPT-6 Luna: under 0.04 seconds per response on one Nvidia H200. It is built for quick agent decisions and licensed for commercial use.\n\nSource: The Korea Herald, \"Kakao releases AI decision model 43 times faster than GPT-6 Luna\". #Kakao"
+  "threads_caption": "Kakao says its open-source Kanana-2-v-decide model is about 43x faster than GPT-6 Luna: under 0.04 seconds per response on one Nvidia H200. It is built for quick agent decisions and licensed for commercial use.\n\nSource: The Korea Herald, \"Kakao releases AI decision model 43 times faster than GPT-6 Luna\". #Kakao",
+  "published_id": "18110745863630370",
+  "permalink": "https://www.instagram.com/p/DfhYtmMDd4l/",
+  "threads_id": "18074876996732853",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfhY0wwkRGa"
 }
