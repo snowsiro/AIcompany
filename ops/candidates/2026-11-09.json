@@ -1,0 +1,458 @@
+{
+ "date": "2026-11-09",
+ "run": "morning",
+ "note": "No IG token; reference.json had no 3x+ post on AI news (prompt_what 2.4x data-center vote post is the highest relevant). Backlog 11-08 items (Europe data-center protests, SoftBank/ABB, Samsung glasses, Nvidia Fleet Intelligence, Claude vault, Ramp) not re-fetched; see posts/_backlog/2026-11-08-morning-runners-up.md. Failed fetches: yna.co.kr (403), theverge.com (fail), politico.eu (fail), androidauthority (403). Dropped (no readable original): Kakao Mobility-Nvidia L4 (Yonhap 403), RBA Hunter AI (Reuters), Gentle Monster preorders, Apple/Samsung Chinese AI (Korea Herald). Batam water protest found but dated Oct 13.",
+ "stories": [
+  {
+   "title": "Nvidia's board opens an independent probe after CEO Jensen Huang admits an affair with a former Megaspeed executive reported as a Chinese spy recruit",
+   "region": "Global; Asia (China, Singapore)",
+   "repeat": "partial: Nvidia posts on 11-06 and 11-07 were different stories; Megaspeed memo was held back on 11-08",
+   "reference_posts": [],
+   "score_hints": "biggest story today; covered by Reuters, Verge, TechCrunch, Nikkei, SCMP, Korea Herald, Korea Times, heise, Der Standard. Skip romance details; stick to board statement and Huang's own memo; allegations are 'reported', not proven",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Nvidia will investigate CEO Jensen Huang's relationship with possible Chinese spy",
+     "date": "2026-11-08T21:00Z",
+     "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+    },
+    {
+     "outlet": "NVIDIA Newsroom",
+     "title": "Statement from NVIDIA Board of Directors",
+     "date": "2026-11-08",
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "트럼프 \"민주당과 AI 규제 협력할 의사 있어\"…중간선거 패배 후 변화",
+     "date": "2026-11-09T12:29+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217157"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Nvidia's board announced Sunday that it is launching an independent investigation following reports that CEO Jensen Huang was targeted by a Chinese spy operation."
+    },
+    {
+     "a": 1,
+     "fact": "A committee of independent directors, assisted by outside independent counsel, will oversee the investigation."
+    },
+    {
+     "a": 1,
+     "fact": "The board said it has no reason to believe that either national security or NVIDIA secrets were compromised, but the inquiry will examine all available information."
+    },
+    {
+     "a": 0,
+     "fact": "Huang sent the company a message admitting an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed."
+    },
+    {
+     "a": 0,
+     "fact": "A memo circulating among U.S. policymakers earlier this year claimed Alice Huang had been recruited by China's Ministry of State Security to spy on Nvidia's CEO."
+    },
+    {
+     "a": 0,
+     "fact": "Huang wrote: \"I was unfaithful to my wife... There is no excuse for what I did.\""
+    },
+    {
+     "a": 1,
+     "fact": "Jensen fully supports the review and has committed to cooperating with it; the board has confidence in Jensen and his leadership team."
+    },
+    {
+     "a": 0,
+     "fact": "Earlier Nvidia had said the pair's interactions were 'not unusual' and that it does not share classified information with customers."
+    },
+    {
+     "a": 2,
+     "fact": "Per AI Times (citing Reuters), Trump said he thinks Huang is 'respectable' and said he would be happy to take him on next week's Asia trip."
+    }
+   ]
+  },
+  {
+   "title": "Kakao open-sources Kanana-2-v-decide, a small AI model that makes agents' split-second choices, 43x faster than GPT-6 Luna",
+   "region": "Korea",
+   "repeat": "no (posts/2026-11-06 kakao-kanana-space is only in backlog, different story)",
+   "reference_posts": [],
+   "score_hints": "Korea angle, hard numbers; speed claim is Kakao's own measurement on one H200; explain Kakao as Korea's largest messenger company",
+   "articles": [
+    {
+     "outlet": "The Korea Herald (Herald Business)",
+     "title": "Kakao releases AI decision model 43 times faster than GPT-6 Luna",
+     "date": "2026-11-06T09:24+09:00",
+     "url": "https://biz.heraldcorp.com/article/10927977"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Kakao said Friday it released Kanana-2-v-decide, an in-house multimodal AI model, as open source on Hugging Face."
+    },
+    {
+     "a": 0,
+     "fact": "It is built to handle the rapid judgments AI agents must make, such as which tools to use or which information to reference; unlike conventional LLMs, it returns results in a structured format rather than full sentences."
+    },
+    {
+     "a": 0,
+     "fact": "Results come in three formats: probability, choice (most suitable option from candidates) and score."
+    },
+    {
+     "a": 0,
+     "fact": "It is built on Kanana-2-v-3b and can analyze text and images together, e.g. customer inquiry classification, tool selection by agents and product image assessment."
+    },
+    {
+     "a": 0,
+     "fact": "On a single Nvidia H200 GPU it averaged under 0.04 seconds per response, about 43 times faster than GPT-6 Luna."
+    },
+    {
+     "a": 0,
+     "fact": "It ranked highest among all models tested on Kanana Decision Bench (Kakao's own dataset of 15,909 Korean-language questions) and on the public Decision Index."
+    },
+    {
+     "a": 0,
+     "fact": "Compared models included Microsoft's Decision-1, Typesafe AI's Jev, Perplexity's pplx-decider-v1.1-27B and Upstage's Solar Decide."
+    },
+    {
+     "a": 0,
+     "fact": "It uses the Kanana Open License, which permits research and commercial use; Kakao will first deploy it in web search and automated product category classification."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic buys $3.4 billion of gas generators to power its own AI data centers, FT reports",
+   "region": "Global/US",
+   "repeat": "no (Anthropic compute/IPO posts 11-03 are different)",
+   "reference_posts": [],
+   "score_hints": "FT original not read; TNW reports it and says it did not independently confirm. Reuters and Der Standard, ZDNet Korea also cover it. Same-company caution vs Anthropic posts",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic buys $3.4bn of gas generators, FT reports",
+     "date": "2026-11-08T14:34Z",
+     "url": "https://thenextweb.com/news/anthropic-3-4bn-gas-generators-onepwr-ft"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "The deal covers 1.7 gigawatts of large generators, the FT said, citing one person who knows about it."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic signed it in late September with OnePWR Solutions, a power supplier in San Antonio, Texas."
+    },
+    {
+     "a": 0,
+     "fact": "OnePWR had ordered the generators from Caterpillar about two years ago but needed money to complete the purchase."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic first planned to buy power from OnePWR; instead it took over the orders plus the work needed to install the machines."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic did not buy OnePWR itself and none of its staff moved to Anthropic, per the FT; it is not known where the generators will be used."
+    },
+    {
+     "a": 0,
+     "fact": "Both companies declined to comment to the FT; TNW has not independently confirmed the deal."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic's amended IPO filing last week showed $895bn in commitments, almost all for computing power and infrastructure."
+    },
+    {
+     "a": 0,
+     "fact": "Elon Musk's xAI faces a lawsuit over gas turbines at its Memphis site."
+    }
+   ]
+  },
+  {
+   "title": "Tencent's chief AI scientist warns AI will soon be able to cause harm in biology, days after Tencent's Hy4 launch",
+   "region": "China/Asia",
+   "repeat": "no (11-05 tencent-hy4 covered the launch; this is the safety warning)",
+   "reference_posts": [],
+   "score_hints": "Asia angle; relies on TNW relaying SCMP; SCMP original not fetched. Yao Shunyu is Tencent's chief AI scientist, ex-OpenAI",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Tencent AI chief warns of AI biology risks, SCMP reports",
+     "date": "2026-11-08T15:38Z",
+     "url": "https://thenextweb.com/news/tencent-yao-shunyu-ai-biology-risk-hy4"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Tencent's chief AI scientist Yao Shunyu spoke at a science event in Hong Kong on Saturday, the SCMP reported."
+    },
+    {
+     "a": 0,
+     "fact": "\"The cyber abilities of [AI] models and soon [the] bio ability of models will reach a threshold where it's actually possible to do harm,\" Yao said."
+    },
+    {
+     "a": 0,
+     "fact": "He said Chinese companies that release open models need to take safety very seriously, and that biology risks may be harder to manage than cyber risks."
+    },
+    {
+     "a": 0,
+     "fact": "Yao, 29, joined Tencent last year after a year at OpenAI; Tencent launched its flagship model Hy4 on 4 November."
+    },
+    {
+     "a": 0,
+     "fact": "Tencent said it left material on exploiting software flaws out of Hy4's training data and trained on defensive security data instead."
+    },
+    {
+     "a": 0,
+     "fact": "Tencent said Hy4 has strong basic knowledge of biology but is weaker than leading models at designing experiments, based on internal expert reviews."
+    },
+    {
+     "a": 0,
+     "fact": "Tencent plans to release Hy4's weights and a safety-testing report in the coming days, Reuters reported."
+    },
+    {
+     "a": 0,
+     "fact": "Yao said US firms such as Anthropic make a strong case for keeping top models closed, but argued a mix of open and closed models may work best."
+    }
+   ]
+  },
+  {
+   "title": "Google takes over Crusoe's Wyoming data center site after pledging $17B",
+   "region": "US/global infrastructure",
+   "repeat": "no (backlog 11-08 noted Crusoe/Google as US-only)",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfeEKzMkQlv/",
+     "multiple": 2.4
+    }
+   ],
+   "score_hints": "company newsroom + TNW readable; ties to 40-of-41 ballot theme already posted 11-05 (partial overlap)",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google takes over the Wyoming data centre site Crusoe had planned",
+     "date": "2026-11-06T20:30Z",
+     "url": "https://thenextweb.com/news/google-buys-crusoe-wyoming-data-centre-site"
+    },
+    {
+     "outlet": "Crusoe",
+     "title": "Google Acquires Crusoe's Wyoming Data Center Site",
+     "date": "2026-11-06",
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "구글, 사업 차질 빚은 크루소 AI 데이터센터 인수…170억달러 투자",
+     "date": "2026-11-09T11:30+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217148"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Google has bought Crusoe's data centre site in southeast Wyoming and will build the project itself, Crusoe said on Friday; terms were not disclosed."
+    },
+    {
+     "a": 0,
+     "fact": "It came a day after Google said it would spend $17B on its first Wyoming data centre, in Laramie County."
+    },
+    {
+     "a": 1,
+     "fact": "Crusoe said the sale completes its pre-development work: site selection, governmental approvals and a hybrid power strategy developed with Tallgrass Energy."
+    },
+    {
+     "a": 0,
+     "fact": "Crusoe announced the project with Tallgrass in July 2025, saying it could grow to 10 GW; in June Bloomberg reported Crusoe was being pushed aside after failing to sign customers, with Google raising concerns about costs and timing."
+    },
+    {
+     "a": 0,
+     "fact": "Crusoe says it still has more than 6 GW under contract and over 40 GW in its pipeline, and raised $3.9B at a $30.9B valuation in September."
+    },
+    {
+     "a": 2,
+     "fact": "Google plans a 702 MW fuel-cell power project with US utility AEP, supplied by Bloom Energy, with carbon capture, alongside the existing grid and gas generation."
+    },
+    {
+     "a": 0,
+     "fact": "Voters rejected data centres in 40 of 41 local ballot measures, and several newly elected governors promised to rein in data centres, Bloomberg said."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic shows how 'dreaming' lets Claude agents fix their own wrong memories: Pokemon Red badges 1 to 4, wiki scores 13% to 48%",
+   "region": "Global",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Anthropic blog (Nov 6) original not fetched; AI Times is the only readable source (Korean). Note: two different models compared, so not a clean test; AI Times says so. Same-company caution",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽, AI가 잘못된 기억 스스로 수정하는 '드리밍' 기술 효과 입증",
+     "date": "2026-11-09T13:09+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217161"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Anthropic published details on its blog on Nov 6 (US time) of 'Dreaming', where an AI agent reviews past work records and corrects wrong memories when not working; Anthropic first introduced dreaming in May."
+    },
+    {
+     "a": 0,
+     "fact": "In Pokemon Red, Claude Sonnet 3.7 wrote 413 files in 225 folders over about 10,000 steps and earned 1 badge; Claude Fable 5 kept 9 files in 2 folders plus a summary and earned 4 badges."
+    },
+    {
+     "a": 0,
+     "fact": "AI Times notes these are two different models, so the result does not measure memory management alone."
+    },
+    {
+     "a": 0,
+     "fact": "When Claude misremembered a Pokemon Center location and looped, dreaming caught the error by checking logs against memory; the corrected Claude reached the next city and the uncorrected one did not."
+    },
+    {
+     "a": 0,
+     "fact": "Across about 350,000 internal files (420 million tokens), Claude Opus 5 analyzed documents 128 times and built a wiki; wiki-only score rose from 13% to 48%, search-only scored 53%, and search plus wiki rose from 54% to 61%."
+    },
+    {
+     "a": 0,
+     "fact": "Combining search and wiki cut tokens per question by about 20,000; on cross-document acquisition questions wiki accuracy was 87% versus 73% for search only."
+    },
+    {
+     "a": 0,
+     "fact": "In an acquisition-contract task, changing Claude's own memory rules to write one document per contract lifted the legal-document rubric score from 72% to 100%."
+    },
+    {
+     "a": 0,
+     "fact": "Limits: in some legal analysis the wiki made little difference, wikis sometimes grew bigger than the source documents, and reviewing memory costs extra compute."
+    }
+   ]
+  },
+  {
+   "title": "DeepSeek Harness hits 1.54 million daily users in three months, with 35,000 plugins",
+   "region": "China/Asia",
+   "repeat": "no (11-02 deepseek-super-agent only in backlog)",
+   "reference_posts": [],
+   "score_hints": "AI Times only; based on DeepSeek's own X post, self-reported numbers",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "딥시크 하네스, 일일 사용자 154만명…미국 주도 AI 에이전트 시장 도전",
+     "date": "2026-11-09T12:46+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217158"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "DeepSeek's AI agent platform Harness passed 1.54 million daily active users three months after launch, per DeepSeek's official X post on Nov 8."
+    },
+    {
+     "a": 0,
+     "fact": "Daily active users were about 271,000 at end of September, up more than 5x in a month or so; the figure counts official DeepSeek API users."
+    },
+    {
+     "a": 0,
+     "fact": "Average daily token use was about 92 trillion."
+    },
+    {
+     "a": 0,
+     "fact": "Harness is an open-source agent platform: first version released Aug 13, desktop app on Sept 29; models, tools and runtime can be added or swapped as plugins."
+    },
+    {
+     "a": 0,
+     "fact": "Outside developers have built 35,000 plugins, and about 60% of active users have built or installed at least one."
+    },
+    {
+     "a": 0,
+     "fact": "DeepSeek plans an official marketplace, tokens, tech support and promotion for plugin developers, and wants Harness to be the 'operating system of the AI agent era'."
+    },
+    {
+     "a": 0,
+     "fact": "AI Times says Chinese AI had lagged US coding-agent platforms such as Claude Code and OpenAI's Codex."
+    }
+   ]
+  },
+  {
+   "title": "Trump says he is open to working with Democrats on AI guardrails after midterm losses",
+   "region": "US/global policy",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Reuters original not fetched (headline in feeds only); AI Times relays 60 Minutes interview. No concrete proposal given",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "트럼프 \"민주당과 AI 규제 협력할 의사 있어\"…중간선거 패배 후 변화",
+     "date": "2026-11-09T12:29+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217157"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "In a CBS '60 Minutes' interview aired Nov 8 (US time), Trump was asked if he would work with Democrats on AI safety rules and answered 'Of course', adding he is not against having safeguards."
+    },
+    {
+     "a": 0,
+     "fact": "It was his first in-depth interview since Republicans lost both the Senate and the House in the Nov 3 midterms."
+    },
+    {
+     "a": 0,
+     "fact": "He said AI risks are not as serious as people say and can be managed."
+    },
+    {
+     "a": 0,
+     "fact": "He said the US must not fall far behind China because of rules: 'We're number one right now and China doesn't have those safeguards.'"
+    },
+    {
+     "a": 0,
+     "fact": "No specific regulation or plan for legislative cooperation with Democrats was given."
+    },
+    {
+     "a": 0,
+     "fact": "The administration has so far preferred industry self-regulation over broad government rules."
+    }
+   ]
+  },
+  {
+   "title": "US Justice Department creates a 'Super Intelligence Task Force' for AI crimes and AI lawsuits",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "TNW readable (relays DOJ and Nextgov); US-only, lower priority",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "US Justice Department sets up AI task force",
+     "date": "2026-11-08T14:29Z",
+     "url": "https://thenextweb.com/news/doj-super-intelligence-task-force-ai"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "The DOJ set up the Super Intelligence Task Force to lead its work on AI crimes and AI lawsuits, the department said Thursday."
+    },
+    {
+     "a": 0,
+     "fact": "The name follows a September order from Trump telling federal agencies to call AI 'super intelligence' in official documents."
+    },
+    {
+     "a": 0,
+     "fact": "Associate Attorney General Stanley Woodward and Associate Deputy Attorney General Stephen Weiss will lead it."
+    },
+    {
+     "a": 0,
+     "fact": "It will go after foreign states, criminal gangs and people or firms that use AI for fraud."
+    },
+    {
+     "a": 0,
+     "fact": "It will absorb the DOJ's AI Litigation Task Force, created in January to challenge state AI laws in federal court, per an internal memo dated 13 October reported by Nextgov."
+    },
+    {
+     "a": 0,
+     "fact": "The DOJ did not say how many staff the task force will have or what it will cost."
+    }
+   ]
+  }
+ ]
+}

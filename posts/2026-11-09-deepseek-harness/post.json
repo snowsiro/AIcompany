@@ -1,0 +1,137 @@
+{
+  "id": "2026-11-09-deepseek-harness",
+  "date": "2026-11-09",
+  "category": "TOOLS",
+  "status": "blocked",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · TOOLS",
+    "headline": [
+      "**1.54M** DAILY",
+      "DEEPSEEK USERS"
+    ],
+    "hook_options": [
+      [
+        "**1.54M** DAILY",
+        "DEEPSEEK USERS"
+      ],
+      [
+        "**35,000** PLUGINS",
+        "IN 3 MONTHS"
+      ],
+      [
+        "DEEPSEEK **VS**",
+        "US AGENT TOOLS"
+      ],
+      [
+        "DEEPSEEK WANTS AN",
+        "AGENT **OS**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "rivalry",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The 1.54M daily-user figure (daily active users, as of Nov 4) is the headline number of the story and slides 1-2 and 5 back it, with every figure attributed to DeepSeek and flagged as self-reported on slides 1 and 6. The cover says 'daily' because the figure is daily active users; the 16-character line limit leaves no room for 'agent' on the cover, which the CHINA AI · TOOLS tag and slide 1 supply. The plugin option is also supported (slide 4) but is the less striking number. The rivalry option is only supported up to AI Times' remark that Chinese AI had lagged US platforms (slide 5); the articles give no performance comparison, so it would overpromise. The 'OS' option is a DeepSeek plan, not a result. No reader-impact hook: the story is about developer adoption of an agent platform by DeepSeek's own count, and the article states no effect on ordinary readers.",
+    "image_prompt": "Cinematic wide shot of a vast dark control hall at night where thousands of small glowing golden modular blocks snap together into a growing luminous lattice, streams of light flowing in from every side, deep blue haze, volumetric beams, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The claim",
+      "title": "1.54M daily users in three months",
+      "body": [
+        "DeepSeek says its open-source AI agent platform, **Harness**, passed **1.54 million daily active users** three months after launch, as of Nov 4. The figure is from DeepSeek's X post on Nov 8, relayed by AI Times. It is self-reported and unverified."
+      ]
+    },
+    {
+      "kicker": "What it is",
+      "title": "An open platform for AI agents",
+      "body": [
+        "An AI agent is software that carries out tasks on its own. Harness's first version came out **Aug 13**, with a desktop app on **Sept 29**. Models, tools and the runtime can be added or swapped as plugins, per DeepSeek."
+      ]
+    },
+    {
+      "kicker": "The scale",
+      "title": "About 92 trillion tokens a day",
+      "body": [
+        "DeepSeek says average daily token use is about **92 trillion**. Tokens are the chunks of text AI models read and write. AI Times' report does not say how this was counted or whether it covers only Harness."
+      ]
+    },
+    {
+      "kicker": "The plugins",
+      "title": "35,000 plugins from outside developers",
+      "body": [
+        "Outside developers have built **35,000 plugins**, DeepSeek says. About **60%** of active users have built or installed at least one."
+      ]
+    },
+    {
+      "kicker": "The ambition",
+      "title": "DeepSeek is aiming at an agent OS",
+      "body": [
+        "DeepSeek plans an official marketplace, tokens, support and promotion for developers. It wants Harness to be the **\"operating system of the AI agent era.\"** AI Times says Chinese AI had lagged US platforms like Claude Code and OpenAI's Codex."
+      ]
+    },
+    {
+      "kicker": "What's unclear",
+      "title": "One source, and a vague user count",
+      "body": [
+        "All numbers are DeepSeek's own. AI Times says the count is based on **official DeepSeek API users**. How that maps to Harness users is **not explained**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Per DeepSeek's official X post on Nov 8 (as relayed by AI Times), its AI agent platform Harness passed 1.54 million daily active users three months after launch. Self-reported; the writer could not open the X post itself. The figure is as of Nov 4 per the article."
+    },
+    {
+      "source": 0,
+      "text": "Harness is an open-source agent platform: first version released Aug 13, desktop app on Sept 29; models, tools and runtime can be added or swapped as plugins (DeepSeek, via AI Times)."
+    },
+    {
+      "source": 0,
+      "text": "DeepSeek says average daily token use is about 92 trillion. AI Times (as summarized in the brief) does not say what exactly is counted; the slide says so."
+    },
+    {
+      "source": 0,
+      "text": "Outside developers have built 35,000 plugins, and about 60% of active users have built or installed at least one (DeepSeek, via AI Times)."
+    },
+    {
+      "source": 0,
+      "text": "DeepSeek plans an official marketplace, tokens, support and promotion for developers. It wants Harness to be the 'operating system of the AI agent era' (DeepSeek, via AI Times)."
+    },
+    {
+      "source": 0,
+      "text": "AI Times says Chinese AI had lagged US coding-agent platforms such as Claude Code and OpenAI's Codex. This is AI Times' assessment; no performance comparison is made."
+    },
+    {
+      "source": 0,
+      "text": "AI Times says the user count covers official DeepSeek API users. Its exact meaning is unclear, so the cards do not interpret it."
+    },
+    {
+      "source": 0,
+      "text": "OMITTED ON PURPOSE: the article also says daily users were about 271,000 at end of September, up 5x+ in a month or so. This does not sit cleanly with 'three months after launch' (first version Aug 13), so no card uses it. Fact-checker: please read the article for the exact wording."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times",
+      "title": "딥시크 하네스, 일일 사용자 154만명…미국 주도 AI 에이전트 시장 도전",
+      "title_en": "DeepSeek Harness reaches 1.54 million daily users, challenging the US-led AI agent market",
+      "language": "Korean",
+      "date": "Nov 9, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217158"
+    }
+  ],
+  "caption": "DeepSeek says its open-source agent platform Harness has passed 1.54 million daily users, three months after launch.\n\nThe numbers come from DeepSeek's own X post on Nov 8, as relayed by AI Times. They are self-reported and unverified, and AI Times says the user count covers official DeepSeek API users.\n\n→ DeepSeek says Harness has 35,000 plugins from outside developers; about 60% of active users built or installed one\n→ DeepSeek says average daily token use is about 92 trillion\n→ It plans a plugin marketplace and wants Harness to be the \"operating system of the AI agent era\"\n\nCan a Chinese open-source platform catch up in AI agents?\n\nSource: AI Times, \"DeepSeek Harness reaches 1.54 million daily users, challenging the US-led AI agent market\" (in Korean), Nov 9, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#DeepSeek",
+    "#AIAgents",
+    "#ChinaAI"
+  ],
+  "threads_caption": "DeepSeek says its open-source agent platform Harness passed 1.54M daily users three months after launch, with 35,000 plugins. All numbers are DeepSeek's own, unverified.\n\nSource: AI Times, \"DeepSeek Harness reaches 1.54 million daily users, challenging the US-led AI agent market\" (in Korean). #DeepSeek"
+}

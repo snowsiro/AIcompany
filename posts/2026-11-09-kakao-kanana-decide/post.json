@@ -1,0 +1,129 @@
+{
+  "id": "2026-11-09-kakao-kanana-decide",
+  "date": "2026-11-09",
+  "category": "TOOLS",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · TOOLS",
+    "headline": [
+      "KAKAO SAYS **43X**",
+      "FASTER THAN LUNA"
+    ],
+    "hook_options": [
+      [
+        "KAKAO SAYS **43X**",
+        "FASTER THAN LUNA"
+      ],
+      [
+        "KAKAO **VS** GPT-6",
+        "LUNA: SPEED TEST"
+      ],
+      [
+        "KAKAO FREES AN",
+        "**AGENT** AI MODEL"
+      ],
+      [
+        "KAKAO SAYS **0.04**",
+        "SECONDS A REPLY"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "rivalry",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Names the company, attributes the figure ('Kakao says') and limits it to speed ('faster'), so a cover-only reader cannot take 43x for accuracy or general quality. Card 3 gives the conditions (Kakao says, single Nvidia H200, response time) and says the comparison basis is not explained; GPT-6 Luna is named as the articles name it, with no description the article does not give. The rivalry option names no winner but drops the attribution and the number. The claim option is true (open source, commercial license, slide 5) but has no hard number. The last option leads with a number that needs its context. No reader-impact hook: the article describes a developer model and Kakao's own plans for its search and product classification, and states no effect on ordinary readers.",
+    "image_prompt": "Cinematic wide shot of a tiny glowing golden crystal core at the center of a dark hall, firing hundreds of razor-thin light beams that instantly select among floating translucent panels, motion-blurred streaks of light, deep blue and gold palette, volumetric haze, shallow depth of field. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The release",
+      "title": "Kakao open-sources an AI model for agents",
+      "body": [
+        "Kakao, Korea's largest messenger company, released **Kanana-2-v-decide** as open source on Hugging Face on Friday, Nov 6. It is built on Kanana-2-v-3b and reads text and images together. It is designed for the quick judgments AI agents make."
+      ]
+    },
+    {
+      "kicker": "The speed claim",
+      "title": "Kakao says it is 43x faster",
+      "body": [
+        "Kakao says that on a single Nvidia H200 GPU its model averaged under **0.04 seconds** per response, about **43 times faster than GPT-6 Luna**. This is a speed claim only. The article does not explain how the comparison was set up."
+      ]
+    },
+    {
+      "kicker": "What it does",
+      "title": "Quick calls, not full sentences",
+      "body": [
+        "Agents make constant quick judgments, like which tool to use or which information to reference. Unlike a chatbot, this model returns a structured result: a **probability**, a **choice** from candidates, or a score. Uses include sorting customer inquiries and judging product images."
+      ]
+    },
+    {
+      "kicker": "The ranking claim",
+      "title": "Top of two tests, Kakao says",
+      "body": [
+        "Kakao says it ranked first on Kanana Decision Bench, its own set of **15,909 Korean-language questions**, and on the public Decision Index. Rivals tested included Microsoft's Decision-1 and Perplexity's pplx-decider-v1.1-27B. These results are not independently verified."
+      ]
+    },
+    {
+      "kicker": "The license",
+      "title": "Open for commercial use",
+      "body": [
+        "The model uses the **Kanana Open License**, which permits research and commercial use. Kakao says it will first apply the model to its web search and to automatic product category classification."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Kakao said Friday (Nov 6) it released Kanana-2-v-decide, an in-house multimodal model, as open source on Hugging Face. The Korea Herald article is dated Nov 6."
+    },
+    {
+      "source": 0,
+      "text": "It is built on Kanana-2-v-3b and can analyze text and images together, e.g. customer inquiry classification, tool selection by agents and product image assessment (Kakao, via Korea Herald)."
+    },
+    {
+      "source": 0,
+      "text": "It handles the rapid judgments AI agents must make, such as which tools to use or which information to reference; unlike conventional LLMs it returns structured results rather than full sentences, as probability, choice (most suitable option from candidates) or score."
+    },
+    {
+      "source": 0,
+      "text": "Kakao says that on a single Nvidia H200 GPU it averaged under 0.04 seconds per response, about 43 times faster than GPT-6 Luna. The article (per the brief) does not say how the 43x basis or test conditions were set up beyond this, and does not describe GPT-6 Luna. Cards say speed only."
+    },
+    {
+      "source": 0,
+      "text": "Kakao says it ranked highest among all models tested on Kanana Decision Bench (Kakao's own dataset of 15,909 Korean-language questions) and on the public Decision Index. The article gives no operator for the Decision Index; the card says only 'public Decision Index'. Not independently verified."
+    },
+    {
+      "source": 0,
+      "text": "Compared models included Microsoft's Decision-1, Typesafe AI's Jev, Perplexity's pplx-decider-v1.1-27B and Upstage's Solar Decide. The cards name only Microsoft and Perplexity, as unexplained names were left out."
+    },
+    {
+      "source": 0,
+      "text": "It uses the Kanana Open License, which permits research and commercial use; Kakao will first deploy it in web search and automated product category classification."
+    },
+    {
+      "source": 0,
+      "text": "Single source: The Korea Herald relaying Kakao's announcement; the writer did not check Hugging Face. Kakao as 'Korea's largest messenger company' is the brief's standard descriptor; fact-checker please confirm."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Herald (Herald Business)",
+      "title": "Kakao releases AI decision model 43 times faster than GPT-6 Luna",
+      "date": "Nov 6, 2026",
+      "url": "https://biz.heraldcorp.com/article/10927977"
+    }
+  ],
+  "caption": "Kakao says its new open-source AI model is about 43 times faster than GPT-6 Luna, on one measure: speed.\n\nKakao, Korea's largest messenger company, released Kanana-2-v-decide on Nov 6. It is a model for the quick choices AI agents make. The numbers are Kakao's own and not independently verified.\n\n→ Kakao says it averaged under 0.04 seconds per response on a single Nvidia H200 GPU\n→ Kakao says it ranked first on its own 15,909-question Korean benchmark and on the public Decision Index\n→ Kanana Open License allows commercial use; Kakao will use it first in web search and product category classification\n\nDo AI agents need giant models for quick decisions, or something built for speed?\n\nSource: The Korea Herald, \"Kakao releases AI decision model 43 times faster than GPT-6 Luna\", Nov 6, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Kakao",
+    "#KananaAI",
+    "#OpenSourceAI",
+    "#KoreaAI"
+  ],
+  "threads_caption": "Kakao says its open-source Kanana-2-v-decide model is about 43x faster than GPT-6 Luna: under 0.04 seconds per response on one Nvidia H200. It is built for quick agent decisions and licensed for commercial use.\n\nSource: The Korea Herald, \"Kakao releases AI decision model 43 times faster than GPT-6 Luna\". #Kakao"
+}
