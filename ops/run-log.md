@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-09
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 단, 두 출처가 모두 Nvidia 자사 발표(Newsroom, Blog)라 캡션에 "Nvidia's own announcement"로 표기하고 모든 문장을 "plans to / expected to" 어조로 씀. 카테고리 CHIPS는 lint가 거부해 INDUSTRY 사용
+2. 선정: Nvidia·Rebellions·SK Telecom NVLink Fusion (KOREA AI · INDUSTRY). 첫 보도 2026-11-09 05:00Z(Nvidia Newsroom), ready 시점 약 14.5시간 후. 신선 가산 없음(12:15Z 이후 첫 보도 후보 없음), 점수 6~8. 미국 오후 발표는 찾지 못함. 아침 글(DeepSeek/AI타임스, Kakao/Korea Herald, 둘 다 blocked)과 다른 회사·매체. 날짜: Newsroom 원문에 게재일 필드가 없어 본문 "today"와 Blog 날짜(11-09)로 확인
+3. 아침 blocked 2건은 그대로(아침 보고 참조). 예비: posts/_backlog/2026-11-09-evening-runners-up.md (Crusoe–Google, Nvidia 한국 스타트업 투자, Tencent 바이오 위험 등). Huang 조사 건은 실명 인물 위험으로 제외
+4. 검수: 1차 fact 불합격(슬라이드 3 "meant for"가 범위 축소, 슬라이드 5 교육 프로그램 귀속 오류) → 수정, 2차 fact 통과(선택 문구 2건 반영 후 lint·렌더 재통과). hook 7/10 통과, brand-safety 통과 (둘 다 1차 본문 기준, 문구 수정 후 재검수 안 함)
+5. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (아침 4 포함 오늘 합계 6/6, 한도 도달). 사람·글자 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 푸시는 세션 지정 브랜치 claude/inspiring-darwin-lfka4t (daily/ 아님)
+6. 인스타그램 토큰 없음(IG_*): 참고 계정 미사용
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음
+- 후보 12개 (새 5, 이월 7). 선정 id `2026-11-09-nvidia-rebellions-skt`
+- 검수 1차: fact 불합격, hook 7/10, brand-safety 통과. 2차: fact 통과
+
 ## [아침 보고] 2026-11-09
 처리 2건 (blocked 2) · 실패 0건 · 오늘 13:57 슬롯 비어 있음
 성과: 어제 도달 48 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-01-weekly (47)

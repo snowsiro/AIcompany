@@ -1,0 +1,4 @@
+{ "pass": true, "issues": [
+  { "where": "slide 3", "problem": "Minor: 'Rebellions says the R200 is optimized...' is stated in the press release's own voice, not as a Rebellions quote.", "fix": "Say 'The release says the R200 is optimized for...'." },
+  { "where": "slide 5", "problem": "Minor: 'Dynamo inference software for three ... consortia and four ... builders' is looser than the blog's 'will collaborate with ... using NVIDIA Dynamo'.", "fix": "'will work with three AI for All consortia and four Korean model builders, using Dynamo inference software'." }
+] }

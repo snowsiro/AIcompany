@@ -1,0 +1,138 @@
+{
+  "id": "2026-11-09-nvidia-rebellions-skt",
+  "date": "2026-11-09",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · INDUSTRY",
+    "headline": [
+      "NVIDIA GPUS +",
+      "KOREAN **NPUS**"
+    ],
+    "hook_options": [
+      [
+        "NVIDIA GPUS +",
+        "KOREAN **NPUS**"
+      ],
+      [
+        "REBELLIONS' R200",
+        "DUE IN **2028**"
+      ],
+      [
+        "NVIDIA, KOREA TO",
+        "SPLIT AI **WORK**"
+      ],
+      [
+        "NVIDIA PLUGS IN",
+        "KOREA'S **CHIPS**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "claim",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "No reader-impact hook: both Nvidia articles describe plans among companies and a ministry and state no effect on what ordinary readers pay, use or risk. The pairing hook is the strongest because slide 2 and 3 explain exactly that split (GPUs for prefill, NPUs for decode) and it names the two chip types at stake. The 2028 hook is accurate (R200 systems are 'expected to be ready for deployment in 2028') but covers a single date and drops the Nvidia link. The 'split AI work' and 'plugs in' hooks are less specific. No rivalry hook: the sources describe cooperation, not competition. No myth-flip or quote hook: nothing in the sources contradicts a common belief, and the only quotes come from company executives.",
+    "image_prompt": "Cinematic wide shot of a dark data hall at night: two long rows of server racks facing each other, one row glowing cool green, the other glowing warm gold, joined in the centre by a bright bridge of light beams that arcs across the aisle. Polished black floor reflecting the glow, faint mist along the aisle, small lights blinking in the racks. Abstract, unmarked equipment. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The plan",
+      "title": "Nvidia and Korea team up",
+      "body": [
+        "Nvidia, Rebellions and SK Telecom announced a collaboration on Korea's AI infrastructure. Rebellions, a Korean AI chip startup, plans to link its R200 chips to Nvidia's platform. Korea's science ministry supports the work."
+      ]
+    },
+    {
+      "kicker": "The split",
+      "title": "GPUs read, NPUs write",
+      "body": [
+        "The companies plan to give each stage of an AI answer to the chip best suited to it. Nvidia GPUs would handle **prefill**, reading the prompt. Rebellions' NPUs, chips built for AI, would handle **decode**, writing the answer."
+      ]
+    },
+    {
+      "kicker": "The link",
+      "title": "NVLink Fusion is the bridge",
+      "body": [
+        "NVLink Fusion is Nvidia's technology for connecting other makers' custom chips to its platform. Nvidia says the split aims to improve throughput and power efficiency. The release says the R200 is optimized for low-latency, energy-efficient inference with frontier models, including multitrillion-parameter mixture-of-experts models."
+      ]
+    },
+    {
+      "kicker": "The carrier",
+      "title": "SK Telecom plans to deploy",
+      "body": [
+        "SK Telecom, a Korean telecom company, plans to deploy these systems in its AI data center. It plans to connect them with its own AI models and public services, including those under Korea's **AI for All** project."
+      ]
+    },
+    {
+      "kicker": "The timeline",
+      "title": "R200 systems: 2028",
+      "body": [
+        "Rebellions' R200 systems are expected to be ready for deployment in **2028**. Nvidia says its Korea push goes beyond chips: training programs, plus work with three AI for All consortia and four Korean model builders using Dynamo inference software."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Rebellions plans to adopt NVIDIA NVLink Fusion to connect its next-generation R200 neural processing units to NVIDIA's open infrastructure platform for rack-scale inference."
+    },
+    {
+      "source": 0,
+      "text": "The collaboration is supported by Korea's Ministry of Science and ICT. NVIDIA, Rebellions and SK Telecom announced it today (Nov 9, 2026). Rebellions is described as a leading Korean AI silicon startup; it develops inference accelerators and is based in South Korea."
+    },
+    {
+      "source": 0,
+      "text": "The companies plan to develop an approach to disaggregated inference, assigning different stages of AI response generation to the processor architecture best suited to each task. Their planned work includes using NVIDIA GPUs for prefill and Rebellions NPUs for decode to improve inference throughput and power efficiency. The explainers 'reading the prompt' and 'writing the answer' for prefill and decode, and 'chips built for AI' for NPU, are the writer's glosses."
+    },
+    {
+      "source": 0,
+      "text": "NVLink Fusion extends NVIDIA's platform to custom XPUs and enables chipmakers to combine specialized silicon with NVIDIA's high-bandwidth, low-latency scale-up networking. The gloss 'Nvidia's technology for connecting other makers' custom chips' is the writer's summary."
+    },
+    {
+      "source": 0,
+      "text": "Rebellions is developing its next-generation R200 NPU, optimized for low-latency and energy-efficient inference using frontier models, including multitrillion-parameter mixture-of-experts models."
+    },
+    {
+      "source": 0,
+      "text": "SK Telecom plans to deploy these systems in its AI data center, and plans to connect this infrastructure with its proprietary foundation models and public-facing services, including those under the government's AI for All project. The gloss 'a Korean telecom company' is the writer's description (the article says SK Telecom has been a leader in telecommunications since 1984)."
+    },
+    {
+      "source": 0,
+      "text": "Rebellions' R200 systems are expected to be ready for deployment in 2028."
+    },
+    {
+      "source": 1,
+      "text": "Through Korea's AI for All initiative, NVIDIA will collaborate with three selected consortia and four leading Korean foundation model builders, using NVIDIA Dynamo software to optimize and scale AI inference."
+    },
+    {
+      "source": 1,
+      "text": "NVIDIA and MSIT are expanding collaboration from AI semiconductors and data center infrastructure to talent, startups, models, agents and security, including NVIDIA training and certification programs, hackathons and technical seminars."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "NVIDIA Newsroom",
+      "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
+      "date": "Nov 9, 2026",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion"
+    },
+    {
+      "outlet": "NVIDIA Blog",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "date": "Nov 9, 2026",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/"
+    }
+  ],
+  "caption": "Nvidia, Rebellions and SK Telecom plan to pair Nvidia GPUs with Korean NPUs for AI inference.\n\nNvidia's own announcement says Rebellions, a Korean AI chip startup, plans to link its R200 chips to Nvidia's platform with NVLink Fusion, with support from Korea's science ministry. These are company plans, not results.\n\n→ Nvidia GPUs would handle prefill (reading the prompt), Rebellions NPUs would handle decode (writing the answer)\n→ SK Telecom plans to deploy the systems in its AI data center, including for Korea's AI for All project\n→ R200 systems are expected to be ready for deployment in 2028\n\nIf AI chips can be mixed in one rack, who benefits most?\n\nSource: NVIDIA Newsroom, \"NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion\", Nov 9, 2026; NVIDIA Blog, \"From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration\", Nov 9, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nvidia",
+    "#Rebellions",
+    "#KoreaAI"
+  ],
+  "threads_caption": "Nvidia, Rebellions and SK Telecom plan to pair Nvidia GPUs (prefill) with Korean NPUs (decode) for AI inference.\n\nNvidia says R200 systems are expected to be ready for deployment in 2028.\n\nSource: NVIDIA Newsroom, \"NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion\". #Nvidia"
+}
