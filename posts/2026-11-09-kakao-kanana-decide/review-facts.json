@@ -1,11 +1,1 @@
-{
-  "pass": false,
-  "issues": [
-    {
-      "where": "caption, third arrow line",
-      "problem": "Says 'Kakao will use it first in web search'. The article says Kakao will deploy it first in internal projects including web search and automated product category classification. The caption narrows this to web search only. Slide 5 states it correctly.",
-      "fix": "Change to 'Kakao will use it first in web search and product category classification' to match slide 5."
-    }
-  ],
-  "notes": "Article opened with scripts/article.mjs. Title, date (Nov 6, 2026), the 43x and under 0.04 s figures, the single H200, 15,909 questions, the model names, the license, and 'Friday, Nov 6' all match. The 'not independently verified' wording is a hedge, not a claim of fact. Kakao's 'Korea's largest messenger company' descriptor is plain background and is allowed under the exception. All other slides, the cover and threads_caption pass."
-}
+{ "pass": true, "issues": [], "notes": "Round 3 (morning-check reviewer, 2026-11-09, after 제이미 chose to fix and post): caption arrow now reads 'Kakao will use it first in web search and product category classification', matching slide 5 and the round 2 fix. check-article on the Korea Herald article found every name and number: Kanana-2-v-decide, Kanana-2-v-3b, 43 times, 0.04, H200, 15,909, GPT-6 Luna, web search, product category, Kanana Open License, Decision-1, pplx-decider-v1.1-27B, Decision Index, Hugging Face, Friday, commercial." }
