@@ -1,0 +1,647 @@
+{
+ "date": "2026-11-09",
+ "run": "evening",
+ "cutoff_utc": "2026-11-09T04:45:00Z",
+ "note": "Evening run. No IG token / reference accounts. Own scan via feeds.json plus article fetches. Very little US-afternoon AI news was readable: WebSearch returned nothing dated 11-09 for OpenAI/Google/Anthropic/Meta/MS/xAI; OpenAI/Anthropic/Google feeds had no new items. Strictly post-cutoff with readable original: Nvidia-Rebellions-SKT (Nvidia newsroom 05:00Z), Nvidia Korean startup investments (08:00Z), Nvidia/Huang follow-ups (AI Times 09:54Z, TechCrunch Sonnenfeld 05:26Z). PSI/DeepMind RSA/OpenAI BioBasicsBench are 11-06 originals reported by AI Times today (flagged). Dropped (unreadable or not verified): Yonhap (403), Nikkei Sakana IPO (Google News link only, web search found nothing), LG K-EXAONE 2.5 free API (Korea Times/ZDNet via Google News, search found nothing), GitHub 5,000 agents (ZDNet Korea redirect), Reuters SoftBank/UBS (Google News), Mistral Studio (published earlier), heise China denies spy claim (German, not fetched). Morning topics DeepSeek and Kakao excluded.",
+ "stories": [
+  {
+   "title": "Nvidia, Rebellions and SK Telecom team up so Korean AI chips plug into Nvidia's data-center platform: Nvidia GPUs for prefill, Rebellions NPUs for decode",
+   "region": "Korea / global",
+   "carried_over": false,
+   "first_published_utc": "2026-11-09T05:00:00Z",
+   "repeat": "no; Nvidia-Naver 11-07 was a different story. Same company as the Huang carry-over (do not pick both). Not the morning Kakao story.",
+   "score_hints": "Korea angle, concrete architecture, readable original. Also reported by Yonhap (403), Korea Times, Korea Herald, AI Times. Original: Nvidia newsroom (company's own claims only).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "NVIDIA Newsroom",
+     "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
+     "date": "2026-11-09T05:00Z",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion"
+    },
+    {
+     "outlet": "NVIDIA Blog",
+     "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+     "date": "2026-11-09T05:00Z",
+     "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Rebellions plans to adopt NVIDIA NVLink Fusion to connect its next-generation R200 neural processing units to NVIDIA's open infrastructure platform for rack-scale inference."
+    },
+    {
+     "a": 0,
+     "fact": "SK Telecom plans to deploy these systems in its AI data center, including for Korea's 'AI for All' project."
+    },
+    {
+     "a": 0,
+     "fact": "The collaboration is supported by Korea's Ministry of Science and ICT."
+    },
+    {
+     "a": 0,
+     "fact": "The companies plan to use NVIDIA GPUs for prefill and Rebellions NPUs for decode to improve inference throughput and power efficiency."
+    },
+    {
+     "a": 0,
+     "fact": "Rebellions will use the NVIDIA MGX rack architecture for rack-scale system development; Rebellions is developing the R200 NPU for multitrillion-parameter mixture-of-experts models."
+    },
+    {
+     "a": 0,
+     "fact": "Jensen Huang: 'With NVLink Fusion, Korea's chipmakers can connect their custom ASICs to NVIDIA's AI factory platform.'"
+    },
+    {
+     "a": 0,
+     "fact": "Sunghyun Park, cofounder and CEO of Rebellions, called Rebellions 'a leading Korean AI silicon startup.'"
+    },
+    {
+     "a": 1,
+     "fact": "NVIDIA will use NVIDIA Dynamo software to optimize AI inference with three selected consortia and four leading Korean foundation model builders in Korea's AI for All initiative."
+    }
+   ]
+  },
+  {
+   "title": "Nvidia to invest in Korean startups Point2, Motif, RLWRLD and Upstage at Seoul forum with the science ministry",
+   "region": "Korea",
+   "carried_over": false,
+   "first_published_utc": "2026-11-09T08:00:53Z",
+   "repeat": "no. Same company as other Nvidia stories.",
+   "score_hints": "Korea angle but few numbers; combine with the NVLink story if Nvidia is picked.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "NVIDIA Blog",
+     "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+     "date": "2026-11-09T08:00Z",
+     "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Ryu Je-myung, vice minister of science and ICT, joined NVIDIA leaders to meet with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors."
+    },
+    {
+     "a": 0,
+     "fact": "NVIDIA announced an investment in Korean startup Point2, with additional investments planned in Motif Technologies, RLWRLD and Upstage."
+    },
+    {
+     "a": 0,
+     "fact": "Point2 Technology is an AI interconnect company building radio-frequency-based interconnects that move data between chips and racks."
+    },
+    {
+     "a": 0,
+     "fact": "RLWRLD is a physical AI startup based in San Francisco, Seoul and Tokyo that develops robotics foundation models for tasks needing five-finger dexterity."
+    },
+    {
+     "a": 0,
+     "fact": "Upstage is a Korean enterprise AI company that develops Solar language models and document AI tools."
+    },
+    {
+     "a": 0,
+     "fact": "NVIDIA works with more than 1,000 Korea-based members of NVIDIA Inception, its startup program."
+    }
+   ]
+  },
+  {
+   "title": "Nvidia's board opens an independent probe after CEO Jensen Huang admits an affair with a former Megaspeed executive reported as a Chinese spy recruit",
+   "region": "Global; Asia (China, Singapore)",
+   "repeat": "partial: Nvidia posts on 11-06 and 11-07 were different stories; Megaspeed memo was held back on 11-08",
+   "reference_posts": [],
+   "score_hints": "biggest story today; covered by Reuters, Verge, TechCrunch, Nikkei, SCMP, Korea Herald, Korea Times, heise, Der Standard. Skip romance details; stick to board statement and Huang's own memo; allegations are 'reported', not proven",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Nvidia will investigate CEO Jensen Huang's relationship with possible Chinese spy",
+     "date": "2026-11-08T21:00Z",
+     "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+    },
+    {
+     "outlet": "NVIDIA Newsroom",
+     "title": "Statement from NVIDIA Board of Directors",
+     "date": "2026-11-08",
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "트럼프 \"민주당과 AI 규제 협력할 의사 있어\"…중간선거 패배 후 변화",
+     "date": "2026-11-09T12:29+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217157"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "젠슨 황 논란에 엔비디아 침묵…정부 \"GPU 공급 차질 없어\"",
+     "date": "2026-11-09T18:54+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217190"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Is Jensen Huang's job on the line? Yale's Jeffrey Sonnenfeld estimates it's 'about a 50-50'",
+     "date": "2026-11-09T05:26Z",
+     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+    },
+    {
+     "outlet": "NVIDIA Newsroom",
+     "title": "A Message to Our Company",
+     "date": "2026-11-08",
+     "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Nvidia's board announced Sunday that it is launching an independent investigation following reports that CEO Jensen Huang was targeted by a Chinese spy operation."
+    },
+    {
+     "a": 1,
+     "fact": "A committee of independent directors, assisted by outside independent counsel, will oversee the investigation."
+    },
+    {
+     "a": 1,
+     "fact": "The board said it has no reason to believe that either national security or NVIDIA secrets were compromised, but the inquiry will examine all available information."
+    },
+    {
+     "a": 0,
+     "fact": "Huang sent the company a message admitting an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed."
+    },
+    {
+     "a": 0,
+     "fact": "A memo circulating among U.S. policymakers earlier this year claimed Alice Huang had been recruited by China's Ministry of State Security to spy on Nvidia's CEO."
+    },
+    {
+     "a": 0,
+     "fact": "Huang wrote: \"I was unfaithful to my wife... There is no excuse for what I did.\""
+    },
+    {
+     "a": 1,
+     "fact": "Jensen fully supports the review and has committed to cooperating with it; the board has confidence in Jensen and his leadership team."
+    },
+    {
+     "a": 0,
+     "fact": "Earlier Nvidia had said the pair's interactions were 'not unusual' and that it does not share classified information with customers."
+    },
+    {
+     "a": 2,
+     "fact": "Per AI Times (citing Reuters), Trump said he thinks Huang is 'respectable' and said he would be happy to take him on next week's Asia trip."
+    },
+    {
+     "a": 3,
+     "fact": "Nvidia stock fell more than 6% in Frankfurt trading on 9 November to a months-long low, equal to about $270 billion in market value against the 6 November US close; pre-market US trading was about 4% lower."
+    },
+    {
+     "a": 3,
+     "fact": "Vice Minister Ryu Je-myung of Korea's Science Ministry told the National Assembly that already-contracted Nvidia GPUs should arrive on schedule; 10,000 GPUs bought with last year's supplementary budget are already in Korea."
+    },
+    {
+     "a": 3,
+     "fact": "Nvidia officials at Nvidia AI Day Seoul declined to answer questions about Huang, saying they were not related to the event; Madison Huang's Korea visit was cancelled."
+    },
+    {
+     "a": 4,
+     "fact": "Yale's Jeffrey Sonnenfeld put the odds that Huang keeps his job at 'about a 50-50'."
+    },
+    {
+     "a": 4,
+     "fact": "A spokesperson for the Chinese Embassy in Washington dismissed the allegations in late October as 'groundless smears and slanders,' and no one has been charged."
+    },
+    {
+     "a": 5,
+     "fact": "Huang's message to staff: 'I was unfaithful to my wife.' and 'NVIDIA's Board of Directors has initiated an independent investigation. I support the investigation and will cooperate fully.'"
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-08T20:00:00Z (board statement; story continues, AI Times follow-up 2026-11-09T09:54Z)"
+  },
+  {
+   "title": "A private Anthropic model helped a startup, Physical Superintelligence, prove an 18-year-old quantum computing conjecture",
+   "region": "US / global",
+   "carried_over": false,
+   "first_published_utc": "2026-11-06 (PSI own announcement); AI Times report 2026-11-09T09:26Z",
+   "first_published_note": "Only readable report is AI Times (after cutoff); the original PSI post is from 11-06, so not strictly 'new today'. Caveats in the report: model name unrevealed, whole paper not formally verified.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "PSI \"비공개 앤트로픽 AI로 18년 된 양자 난제 증명\"",
+     "date": "2026-11-09T18:26+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217177"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Physical Superintelligence (PSI) announced on 6 November (US time) that its research system, built on a not-yet-public Anthropic model, produced a full proof of the Aaronson-Ambainis conjecture, posed in 2008."
+    },
+    {
+     "a": 0,
+     "fact": "PSI's first draft of the proof was done on day three of the research, and it passed verification in Lean, a tool that checks mathematical logic."
+    },
+    {
+     "a": 0,
+     "fact": "PSI launched in the US in September and raised $58 million (about 80 billion won) in seed funding, including from Breakthrough Energy Ventures."
+    },
+    {
+     "a": 0,
+     "fact": "PSI did not disclose the specific model name, how it got access, or its relationship with Anthropic."
+    },
+    {
+     "a": 0,
+     "fact": "The result concerns the number of data lookups, not total computing time; it does not mean quantum computers cannot be faster than classical ones, as Shor's factoring algorithm still shows."
+    },
+    {
+     "a": 0,
+     "fact": "The paper as a whole is not formally verified; experts still need to check that the statement checked by computer matches the original conjecture."
+    },
+    {
+     "a": 0,
+     "fact": "Stanford researchers who reviewed it called it a 'great result' solving a decades-old problem; Stanford researchers had proved part of the conjecture in August."
+    }
+   ]
+  },
+  {
+   "title": "Google DeepMind's AI agents cut the cost of factoring old 1024-bit RSA keys about 30x in theory and replay a 5-month computation in about 4 days",
+   "region": "US / global",
+   "carried_over": false,
+   "first_published_utc": "2026-11-06 (DeepMind X post); AI Times 2026-11-09T08:21Z",
+   "first_published_note": "Original is a DeepMind X post (not fetched); AI Times is the only readable report. Not strictly new today.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "구글 AI, 구형 RSA 암호 약점 2건 발견…인수분해 비용 30배 낮출 알고리즘 개발",
+     "date": "2026-11-09T17:21+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217169"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Google DeepMind said on X on 6 November (US time) that AI agents under human supervision produced two results on 1024-bit RSA cryptanalysis."
+    },
+    {
+     "a": 0,
+     "fact": "Two AI agents reproduced a computation from earlier research that took about 5 months in about 4 days using large-scale parallel computing, with about 3.5 times less CPU work."
+    },
+    {
+     "a": 0,
+     "fact": "With only a 32-byte hash value controlled, they found an algorithm theoretically about 1,600 times more efficient than the previous best method."
+    },
+    {
+     "a": 0,
+     "fact": "A new batch-factoring algorithm could, after large precomputation, cut the cost of factoring each additional 1024-bit key by about 30 times versus earlier batch methods."
+    },
+    {
+     "a": 0,
+     "fact": "1024-bit RSA is no longer recommended, and the findings do not affect the security of 2048-bit or larger RSA."
+    },
+    {
+     "a": 0,
+     "fact": "AI Times says OpenAI and Anthropic have also published AI cryptography research results."
+    }
+   ]
+  },
+  {
+   "title": "OpenAI's new BioBasicsBench: GPT-6 Astra scores 66.7% on 100 real lab-data tasks, 22.9 points above GPT-5.6 Sol",
+   "region": "US / global",
+   "carried_over": false,
+   "first_published_utc": "2026-11-06 (OpenAI blog); AI Times 2026-11-09T04:54Z",
+   "first_published_note": "OpenAI blog original not fetched; AI Times only. Not strictly new today.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "오픈AI, 생명과학 AI 벤치마크 공개…GPT-6 아스트라 성능 23%P 향상",
+     "date": "2026-11-09T13:54+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217167"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "OpenAI announced on 6 November (US time) a life-science benchmark, BioBasicsBench, developed with enzyme-design biotech Ligo."
+    },
+    {
+     "a": 0,
+     "fact": "It has 100 tasks across five areas: protein analysis, cell imaging and measurement, quantitative analysis, nucleic acid analysis and molecular cloning."
+    },
+    {
+     "a": 0,
+     "fact": "At 'xhigh' reasoning, GPT-6 Astra scored an average 66.7%, 22.9 percentage points above GPT-5.6 Sol (43.8%) and above GPT-6.1 Sol (62.0%)."
+    },
+    {
+     "a": 0,
+     "fact": "Astra used about 4,704 output tokens per task versus 9,099 for GPT-5.6 Sol, about 48% fewer."
+    },
+    {
+     "a": 0,
+     "fact": "OpenAI evaluated seven of its models; the score is average rubric points, not the share of tasks solved perfectly."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic buys $3.4 billion of gas generators to power its own AI data centers, FT reports",
+   "region": "Global/US",
+   "repeat": "no (Anthropic compute/IPO posts 11-03 are different)",
+   "reference_posts": [],
+   "score_hints": "FT original not read; TNW reports it and says it did not independently confirm. Reuters and Der Standard, ZDNet Korea also cover it. Same-company caution vs Anthropic posts",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic buys $3.4bn of gas generators, FT reports",
+     "date": "2026-11-08T14:34Z",
+     "url": "https://thenextweb.com/news/anthropic-3-4bn-gas-generators-onepwr-ft"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "The deal covers 1.7 gigawatts of large generators, the FT said, citing one person who knows about it."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic signed it in late September with OnePWR Solutions, a power supplier in San Antonio, Texas."
+    },
+    {
+     "a": 0,
+     "fact": "OnePWR had ordered the generators from Caterpillar about two years ago but needed money to complete the purchase."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic first planned to buy power from OnePWR; instead it took over the orders plus the work needed to install the machines."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic did not buy OnePWR itself and none of its staff moved to Anthropic, per the FT; it is not known where the generators will be used."
+    },
+    {
+     "a": 0,
+     "fact": "Both companies declined to comment to the FT; TNW has not independently confirmed the deal."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic's amended IPO filing last week showed $895bn in commitments, almost all for computing power and infrastructure."
+    },
+    {
+     "a": 0,
+     "fact": "Elon Musk's xAI faces a lawsuit over gas turbines at its Memphis site."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "Tencent's chief AI scientist warns AI will soon be able to cause harm in biology, days after Tencent's Hy4 launch",
+   "region": "China/Asia",
+   "repeat": "no (11-05 tencent-hy4 covered the launch; this is the safety warning)",
+   "reference_posts": [],
+   "score_hints": "Asia angle; relies on TNW relaying SCMP; SCMP original not fetched. Yao Shunyu is Tencent's chief AI scientist, ex-OpenAI",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Tencent AI chief warns of AI biology risks, SCMP reports",
+     "date": "2026-11-08T15:38Z",
+     "url": "https://thenextweb.com/news/tencent-yao-shunyu-ai-biology-risk-hy4"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Tencent's chief AI scientist Yao Shunyu spoke at a science event in Hong Kong on Saturday, the SCMP reported."
+    },
+    {
+     "a": 0,
+     "fact": "\"The cyber abilities of [AI] models and soon [the] bio ability of models will reach a threshold where it's actually possible to do harm,\" Yao said."
+    },
+    {
+     "a": 0,
+     "fact": "He said Chinese companies that release open models need to take safety very seriously, and that biology risks may be harder to manage than cyber risks."
+    },
+    {
+     "a": 0,
+     "fact": "Yao, 29, joined Tencent last year after a year at OpenAI; Tencent launched its flagship model Hy4 on 4 November."
+    },
+    {
+     "a": 0,
+     "fact": "Tencent said it left material on exploiting software flaws out of Hy4's training data and trained on defensive security data instead."
+    },
+    {
+     "a": 0,
+     "fact": "Tencent said Hy4 has strong basic knowledge of biology but is weaker than leading models at designing experiments, based on internal expert reviews."
+    },
+    {
+     "a": 0,
+     "fact": "Tencent plans to release Hy4's weights and a safety-testing report in the coming days, Reuters reported."
+    },
+    {
+     "a": 0,
+     "fact": "Yao said US firms such as Anthropic make a strong case for keeping top models closed, but argued a mix of open and closed models may work best."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "Google takes over Crusoe's Wyoming data center site after pledging $17B",
+   "region": "US/global infrastructure",
+   "repeat": "no (backlog 11-08 noted Crusoe/Google as US-only)",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfeEKzMkQlv/",
+     "multiple": 2.4
+    }
+   ],
+   "score_hints": "company newsroom + TNW readable; ties to 40-of-41 ballot theme already posted 11-05 (partial overlap)",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google takes over the Wyoming data centre site Crusoe had planned",
+     "date": "2026-11-06T20:30Z",
+     "url": "https://thenextweb.com/news/google-buys-crusoe-wyoming-data-centre-site"
+    },
+    {
+     "outlet": "Crusoe",
+     "title": "Google Acquires Crusoe's Wyoming Data Center Site",
+     "date": "2026-11-06",
+     "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "구글, 사업 차질 빚은 크루소 AI 데이터센터 인수…170억달러 투자",
+     "date": "2026-11-09T11:30+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217148"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Google has bought Crusoe's data centre site in southeast Wyoming and will build the project itself, Crusoe said on Friday; terms were not disclosed."
+    },
+    {
+     "a": 0,
+     "fact": "It came a day after Google said it would spend $17B on its first Wyoming data centre, in Laramie County."
+    },
+    {
+     "a": 1,
+     "fact": "Crusoe said the sale completes its pre-development work: site selection, governmental approvals and a hybrid power strategy developed with Tallgrass Energy."
+    },
+    {
+     "a": 0,
+     "fact": "Crusoe announced the project with Tallgrass in July 2025, saying it could grow to 10 GW; in June Bloomberg reported Crusoe was being pushed aside after failing to sign customers, with Google raising concerns about costs and timing."
+    },
+    {
+     "a": 0,
+     "fact": "Crusoe says it still has more than 6 GW under contract and over 40 GW in its pipeline, and raised $3.9B at a $30.9B valuation in September."
+    },
+    {
+     "a": 2,
+     "fact": "Google plans a 702 MW fuel-cell power project with US utility AEP, supplied by Bloom Energy, with carbon capture, alongside the existing grid and gas generation."
+    },
+    {
+     "a": 0,
+     "fact": "Voters rejected data centres in 40 of 41 local ballot measures, and several newly elected governors promised to rein in data centres, Bloomberg said."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "Anthropic shows how 'dreaming' lets Claude agents fix their own wrong memories: Pokemon Red badges 1 to 4, wiki scores 13% to 48%",
+   "region": "Global",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Anthropic blog (Nov 6) original not fetched; AI Times is the only readable source (Korean). Note: two different models compared, so not a clean test; AI Times says so. Same-company caution",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽, AI가 잘못된 기억 스스로 수정하는 '드리밍' 기술 효과 입증",
+     "date": "2026-11-09T13:09+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217161"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Anthropic published details on its blog on Nov 6 (US time) of 'Dreaming', where an AI agent reviews past work records and corrects wrong memories when not working; Anthropic first introduced dreaming in May."
+    },
+    {
+     "a": 0,
+     "fact": "In Pokemon Red, Claude Sonnet 3.7 wrote 413 files in 225 folders over about 10,000 steps and earned 1 badge; Claude Fable 5 kept 9 files in 2 folders plus a summary and earned 4 badges."
+    },
+    {
+     "a": 0,
+     "fact": "AI Times notes these are two different models, so the result does not measure memory management alone."
+    },
+    {
+     "a": 0,
+     "fact": "When Claude misremembered a Pokemon Center location and looped, dreaming caught the error by checking logs against memory; the corrected Claude reached the next city and the uncorrected one did not."
+    },
+    {
+     "a": 0,
+     "fact": "Across about 350,000 internal files (420 million tokens), Claude Opus 5 analyzed documents 128 times and built a wiki; wiki-only score rose from 13% to 48%, search-only scored 53%, and search plus wiki rose from 54% to 61%."
+    },
+    {
+     "a": 0,
+     "fact": "Combining search and wiki cut tokens per question by about 20,000; on cross-document acquisition questions wiki accuracy was 87% versus 73% for search only."
+    },
+    {
+     "a": 0,
+     "fact": "In an acquisition-contract task, changing Claude's own memory rules to write one document per contract lifted the legal-document rubric score from 72% to 100%."
+    },
+    {
+     "a": 0,
+     "fact": "Limits: in some legal analysis the wiki made little difference, wikis sometimes grew bigger than the source documents, and reviewing memory costs extra compute."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "Trump says he is open to working with Democrats on AI guardrails after midterm losses",
+   "region": "US/global policy",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Reuters original not fetched (headline in feeds only); AI Times relays 60 Minutes interview. No concrete proposal given",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "트럼프 \"민주당과 AI 규제 협력할 의사 있어\"…중간선거 패배 후 변화",
+     "date": "2026-11-09T12:29+09:00",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217157"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "In a CBS '60 Minutes' interview aired Nov 8 (US time), Trump was asked if he would work with Democrats on AI safety rules and answered 'Of course', adding he is not against having safeguards."
+    },
+    {
+     "a": 0,
+     "fact": "It was his first in-depth interview since Republicans lost both the Senate and the House in the Nov 3 midterms."
+    },
+    {
+     "a": 0,
+     "fact": "He said AI risks are not as serious as people say and can be managed."
+    },
+    {
+     "a": 0,
+     "fact": "He said the US must not fall far behind China because of rules: 'We're number one right now and China doesn't have those safeguards.'"
+    },
+    {
+     "a": 0,
+     "fact": "No specific regulation or plan for legislative cooperation with Democrats was given."
+    },
+    {
+     "a": 0,
+     "fact": "The administration has so far preferred industry self-regulation over broad government rules."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "US Justice Department creates a 'Super Intelligence Task Force' for AI crimes and AI lawsuits",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "TNW readable (relays DOJ and Nextgov); US-only, lower priority",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "US Justice Department sets up AI task force",
+     "date": "2026-11-08T14:29Z",
+     "url": "https://thenextweb.com/news/doj-super-intelligence-task-force-ai"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "The DOJ set up the Super Intelligence Task Force to lead its work on AI crimes and AI lawsuits, the department said Thursday."
+    },
+    {
+     "a": 0,
+     "fact": "The name follows a September order from Trump telling federal agencies to call AI 'super intelligence' in official documents."
+    },
+    {
+     "a": 0,
+     "fact": "Associate Attorney General Stanley Woodward and Associate Deputy Attorney General Stephen Weiss will lead it."
+    },
+    {
+     "a": 0,
+     "fact": "It will go after foreign states, criminal gangs and people or firms that use AI for fraud."
+    },
+    {
+     "a": 0,
+     "fact": "It will absorb the DOJ's AI Litigation Task Force, created in January to challenge state AI laws in federal court, per an internal memo dated 13 October reported by Nextgov."
+    },
+    {
+     "a": 0,
+     "fact": "The DOJ did not say how many staff the task force will have or what it will cost."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  }
+ ]
+}
