@@ -2,6 +2,24 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-09
+처리 2건 (blocked 2) · 실패 0건 · 오늘 13:57 슬롯 비어 있음
+성과: 어제 도달 48 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-01-weekly (47)
+결정할 일
+1. 두 글 모두 2회 검수 불합격으로 blocked (13:57 게시 안 됨). 둘 다 수정이 한 곳씩만 남아 사람이 고치면 게시 가능:
+   - `2026-11-09-kakao-kanana-decide` (KOREA AI · TOOLS): fact-checker 2차 불합격 한 건. 캡션 세 번째 화살표 줄 "Kakao will use it first in web search"를 "...first in web search and product category classification"로 바꾸면 슬라이드 5와 일치. hook-judge 7/10, brand-safety 통과 (2차), fact 외 나머지 통과. 고친 뒤 status를 ready로 (캡션만 바뀌므로 렌더 재실행 불필요)
+   - `2026-11-09-deepseek-harness` (CHINA AI · TOOLS): 1차 fact 불합격(슬라이드 4 추론 문장, 수정함), 2차 hook-judge 불합격(커버 "1.54M DAILY DEEPSEEK USERS"가 DeepSeek 챗봇 사용자로 읽힘, 6/10). fact·brand-safety 2차 통과. 해결책: 커버를 훅 옵션 4 "DEEPSEEK WANTS AN / AGENT OS"로 바꾸거나 "1.54M DAILY / HARNESS USERS"(16자 확인 필요)로 바꾸고 `node scripts/render.mjs` 재실행. 단일 출처 AI Times(DeepSeek X 게시물 원문은 402로 못 읽음)
+2. 편집 메모: Kakao 글은 점수 5로 기준(6)에 못 미침. 점수 6이던 Nvidia(Huang 이사회 조사)는 실명 인물 의혹이라 명예훼손 위험, Tencent 생물 위험 경고는 SCMP 원문 미확인이라 제외. Nvidia는 저녁 런 이월 후보 (“reported” 표현, 이사회 성명과 Huang 본인 메시지만)
+3. 반복되는 불합격 패턴: 글쓰기 단계에서 근거 없는 형용사("small")·추정 문장이 들어감 (fact-checker가 매번 잡음), 커버 훅의 범위가 본문보다 넓게 읽힘. writer에 "기사 문구에 없는 형용사 금지, 커버 숫자는 본문 범위 그대로" 규칙 추가 제안
+4. 인스타그램 토큰 없음(IG_*): 참고 계정 미사용, 뉴스 원천으로만 선정. 아침 스캔이 05:07에 안 돌아 morning-scan 워크플로를 수동 실행, 약 1분 안에 main에 올라옴
+5. 커버: Higgsfield cinematic_studio_2_5 2장, 4크레딧 (오늘 합계 4/6). 사람·글자 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 필요. 푸시는 세션 지정 브랜치 claude/friendly-cori-gvfhgw (daily/ 아님). 저녁 런 남은 예산 2크레딧(1장)
+6. 저녁 런 제안: 위 두 글이 blocked라 main에 ready 글이 없음. 예비: posts/_backlog/2026-11-09-morning-runners-up.md (Tencent 생물 위험은 Hy4 공개 시점 재확인, 삼성–구글 AI 글라스 11/12 시간 민감)
+자세한 기록
+- 05:45 시작. 백로그 확인: main에 ready 글 없음 (11-08 글 모두 published). 스캔 폴더 없음 → morning-scan 수동 실행
+- 후보 9개 (researcher). 선정: DeepSeek Harness (CHINA AI · TOOLS, 점수 8) id `2026-11-09-deepseek-harness`
+- DeepSeek 검수 1차: fact 불합격 (슬라이드 4 추론), hook 7/10 통과, brand-safety 통과. 2차: hook 불합격 6/10, fact·brand-safety 통과 → blocked
+- 대체 글: Kakao Kanana-2-v-decide (KOREA AI · TOOLS, 점수 5) id `2026-11-09-kakao-kanana-decide`. 1차: fact 불합격 ("small", "own test"), hook 7/10, brand-safety 통과. 2차: fact 불합격 (캡션 한 줄), brand-safety 통과 → blocked
+
 ## [저녁 보고] 2026-11-08
 처리 1건 (blocked 1) · 실패 0건 · 오늘 20:57 슬롯 비어 있음
 결정할 일
