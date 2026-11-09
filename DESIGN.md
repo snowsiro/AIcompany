@@ -27,6 +27,13 @@
 
 `assets/fonts/`에 포함돼 있어 어느 환경에서도 같은 결과가 나옵니다.
 
+## 글자 크기
+
+카드는 폰 피드에서 폭 약 390px로, 캔버스의 0.36배로 보입니다. 캔버스 32px가 폰에서 11.6px입니다.
+
+- 읽어야 하는 글자는 32px 이상입니다. 출처(라벨과 본문)와 팔로우 버튼이 32px입니다.
+- 아직 작은 것: 태그 pill 20px, kicker·푸터 26px, 핸들 28px, Save·Share 줄과 안내 문구 30px. 바꿀 때는 `npm run check`로 지난 게시물이 넘치지 않는지 확인합니다.
+
 ## 커버 (슬라이드 1)
 
 참고 커버 16장 분석 결과(`/mnt/project-files/ai-office/reference-covers/`)를 따릅니다.
@@ -37,7 +44,7 @@
   `GLOBAL`, `US`, `CHINA`, `KOREA`, `JAPAN`, `EUROPE`, `ASIA`, `OCEANIA`, `MIDEAST`, `INDIA`. 여러 나라에 걸치면 `GLOBAL`. 호주·뉴질랜드는 `OCEANIA` (2026-10-29 제이미 결정)
 - 맨 아래 가운데: `@ai.news.company`
 - 이미지 규칙: AI 생성 이미지만. 실존 인물, 실제 로고를 크게 넣지 않음. 이미지 안에 글자 없음
-- 이미지가 없을 때는 템플릿의 그래픽 배경(그라데이션 + 격자)으로 대체
+- 이미지가 없을 때는 템플릿의 그래픽 배경(line에서 ink로 가는 그라데이션, accent 빛, 격자)으로 대체
 
 ### 커버 문구 유형 (훅 후보는 이 중에서 만든다)
 
@@ -76,7 +83,7 @@
 - kicker `07 / 07 · FOLLOW` + 태그 pill
 - 제목 `Never miss a day of AI news.` (`AI news.`만 accent), 보조 문구 `Two stories a day, from around the world.`
 - 팔로우 박스: `@ai.news.company` + accent `+ FOLLOW` 버튼 모양. 아래에 `Save for later`, `Share with a friend`
-- 맨 아래(푸터 위): 작은 글씨로 출처. 매체명, "기사 제목" (날짜), 최대 3개. 캡션 끝에도 같은 출처를 적음
+- 맨 아래(푸터 위): 출처(32px). 매체명, "기사 제목" (날짜), 최대 3개. 캡션 끝에도 같은 출처를 적음
 
 ## 주간 모음 (일요일, 2026-10-26)
 
