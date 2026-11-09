@@ -1,0 +1,322 @@
+{
+ "fetched_at": "2026-11-09T04:46:42.016Z",
+ "hours": 48,
+ "accounts": [
+  {
+   "username": "ai.trend.kr",
+   "followers": 270345,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 884.5,
+    "median_comments": 161
+   },
+   "posts": [
+    {
+     "timestamp": "2026-11-09T00:46:10+0000",
+     "url": "https://www.instagram.com/p/DfgE3uBDw-w/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 193,
+     "comments": 380,
+     "multiple": 0.6,
+     "multiple_basis": "likes+comments",
+     "caption_start": "최근 전 세계 개발자들이 가장 많이 관심 가진 AI 도구 TOP 10 다양한 AI와 코딩 도구가 있는 깃허브 트렌딩에서 최근 한 달 동안 가장 인기 있는 도구 10개를 골랐어요. 디자인 쪽이 특히 뜨거웠습니다. Impeccable, Taste Skill, Hallmark 세 개가 모두 ”AI가 만든 티 나는 화면“을 고치는 도구였어요. 무료 AI 모델 474종을 한 주소로 모은 FreeLLMAPI, 코딩 AI를 폰으로 부리는 T3 Code도 순위에 들었습니다. 10개 도구 링크와 설치법, 내 AI"
+    },
+    {
+     "timestamp": "2026-11-08T11:11:11+0000",
+     "url": "https://www.instagram.com/p/DfenmlBj49a/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": null,
+     "comments": 100,
+     "multiple": 0.6,
+     "multiple_basis": "comments",
+     "caption_start": "사진 한 장 올리고 단어 세 개만 보내 보세요 📸 ChatGPT에 내 사진을 올리고 /photostrip /nighttimeflash /playfulpose 처럼 짧은 영어 단어 세 개를 보내면, 낮에 찍은 피크닉 사진이 밤 플래시 인생네컷이 돼요. 장면과 빛을 정하는 단어 두 개에 포즈 단어 하나를 더하면 자세까지 바뀌어요. 같은 사진 한 장으로 눈 내리는 공원, 창가 카페, 출근길 정장, 잡지 표지까지 만들어 봤어요. 얼굴은 그대로 두고 계절, 옷, 장소만 바뀌어요. 프로필, 증명사진, 여행"
+    },
+    {
+     "timestamp": "2026-11-08T08:42:59+0000",
+     "url": "https://www.instagram.com/p/DfeWpJxj3Xu/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 488,
+     "comments": 1041,
+     "multiple": 1.7,
+     "multiple_basis": "likes+comments",
+     "caption_start": "AI로 쓴 글을 내가 쓴 것처럼 만드는 방법 AI한테 메일이나 보고서를 맡기면 내용은 맞는데 어딘가 어색해요. 대부분 단어 몇 개와 문장 끝 습관 때문이에요. 그렇다고 하나씩 직접 고칠 필요는 없어요. AI 티를 모아 둔 공개 도구 im-not-ai와 에디터가 콘텐츠를 만들며 알게 된 것을 합쳐 프롬프트로 만들었습니다. 쓴 글과 함께 붙여 넣으면 어디가 왜 걸렸는지 표로 보여 주고, 고친 글까지 줘요. 챗GPT, 클로드, 제미나이 모두 가능해요. 설정에 요청문을 한 번 넣어 두면 새 채팅마다 이 "
+    },
+    {
+     "timestamp": "2026-11-08T00:53:36+0000",
+     "url": "https://www.instagram.com/reel/Dfdgqayvzye/",
+     "type": "VIDEO",
+     "likes": 275,
+     "comments": 554,
+     "multiple": 0.9,
+     "multiple_basis": "likes+comments",
+     "caption_start": "이제 챗GPT에 길게 설명하지 말고 명령어만 보내세요. 📸 이거 제가 직접 또 해 봤습니다. 사진을 첨부하고 /unblur를 보내면 사진이 또렷해지고, /blurmotionview를 보내면 인물만 선명하게 남습니다. 코드 한 줄로 사진의 빛과 배경, 분위기까지 달라지는 셈인데요. 이런 사진 보정 명령어 200개가 필요하시다면 댓글 남겨주세요. 에트매거진이 정리한 자료를 DM으로 바로 보내드릴게요. Editor ・ kiki Source ・ chatgpt Content curated by ai.tr"
+    },
+    {
+     "timestamp": "2026-11-07T08:04:50+0000",
+     "url": "https://www.instagram.com/p/Dfbte3mD-a0/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 826,
+     "comments": 114,
+     "multiple": 1.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "AI 판에 비상이 걸렸어요 🚨 미국에선 데이터센터를 두고 치러진 지역 투표 41건 중 40건이 제한 쪽으로 결론 났어요(비공식 집계). 인텔 주가는 하루 만에 28% 넘게 빠졌고, 디자인 앱 캔바는 직원 22%가 걸린 대규모 구조조정을 발표했고요. 사람이 원격으로 함께 조종하는 휴머노이드는 집 청소 구독을 시작했고, 입만 움직이면 글이 되는 안경까지 나왔어요. 놓치면 아쉬운 소식이 가득해요. 한 주간의 AI 소식이 더 궁금하다면 댓글에 ‘에트’ 남겨주세요. 이번 주 핵심 소식과 모든 자료 정리본"
+    }
+   ]
+  },
+  {
+   "username": "sdk.kim.builds",
+   "followers": 63370,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 71,
+    "median_comments": 30
+   },
+   "posts": [
+    {
+     "timestamp": "2026-11-09T03:13:02+0000",
+     "url": "https://www.instagram.com/reel/DfgVh9Rvbvl/",
+     "type": "VIDEO",
+     "likes": 0,
+     "comments": 2,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "요즘 다들 클로드 코드로 영상 편집하는데, 어떻게 하는지는 아무도 안 알려주더라고요. 그래서 프롬프트랑 순서, 제가 다 보여드릴게요. ━━━━━━━━━━━━━━━━ ① 클로드는 브라우저 말고 데스크톱 앱 → 브라우저에선 내 컴퓨터 폴더를 못 읽어요 ② AI 영상 편집자 폴더 + 안에 폴더 세 개 → 원본 영상, 레퍼런스, 내보내기 → 클로드 앱 새 채팅에서 이 폴더를 고르면 내 파일을 읽어요 ③ 편집 도구 다섯 개는 링크 주고 깔아 달라고 하기 → Remotion, HyperFrames, FFmp"
+    },
+    {
+     "timestamp": "2026-11-09T02:04:17+0000",
+     "url": "https://www.instagram.com/p/DfgNyJWAjNN/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 17,
+     "comments": 80,
+     "multiple": 1.4,
+     "multiple_basis": "likes+comments",
+     "caption_start": "유튜브 영상 한 편, 이제 혼자서도 매일 만들 수 있습니다. 채널을 시작하려다 멈추는 이유는 대부분 제작 시간입니다. 대본, 자료 화면, 녹음, 자막, 편집까지 영상 하나에 며칠이 걸리니까요. OpenMontage는 클로드 코드 같은 AI 코딩 도구를 영상 제작팀으로 바꿔주는 무료 오픈소스입니다. 주제 한 줄을 주면 이렇게 진행합니다. → 웹에서 자료를 조사하고 대본을 씁니다 → 장면을 짜고 내레이션·배경음악·자막을 붙입니다 → 영상 파일로 뽑은 뒤 화면·소리를 스스로 검사합니다 잘된 쇼츠나 릴스"
+    }
+   ]
+  },
+  {
+   "username": "moodmode.ai",
+   "followers": 158887,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 287,
+    "median_comments": 34
+   },
+   "posts": [
+    {
+     "timestamp": "2026-11-09T00:14:28+0000",
+     "url": "https://www.instagram.com/reel/DfgBGLzzXym/",
+     "type": "VIDEO",
+     "likes": 115,
+     "comments": 4,
+     "multiple": 0.4,
+     "multiple_basis": "likes+comments",
+     "caption_start": "피라미드는 사시루거인이 지었다면? AI로 만든 상상 영상입니다. 사람이 작은 모형으로 설명하면 거인은 돌을 블록처럼 쌓고, 사람들을 손바닥에 태워 내려주기까지. 거인의 시선에선 피라미드도 작은 모형 같네요. Video via xmliisu Edited by moodmode.ai"
+    },
+    {
+     "timestamp": "2026-11-08T00:38:21+0000",
+     "url": "https://www.instagram.com/reel/DfdetLiTecp/",
+     "type": "VIDEO",
+     "likes": 107,
+     "comments": 5,
+     "multiple": 0.4,
+     "multiple_basis": "likes+comments",
+     "caption_start": "MRI 들어갈 때 한번쯤 해본 상상을 실험해봤습니다. MRI는 사실 끄고 켤 수 있는 거대한 전자석이에요. 몸속 수소 원자가 이 자기장에 반응하는 신호를 읽어서 사진을 만드는 거라, 자석이 셀 수밖에 없어요. 전문가가 통제된 환경에서 한 실험이라 절대 따라 하시면 안 돼요. Original by ClassCrunchLabs Edited by moodmode.ai"
+    }
+   ]
+  },
+  {
+   "username": "trenddalkak.ai",
+   "followers": 66268,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 286,
+    "median_comments": 72
+   },
+   "posts": []
+  },
+  {
+   "username": "prompt_what",
+   "followers": 243192,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 248,
+    "median_comments": 125
+   },
+   "posts": [
+    {
+     "timestamp": "2026-11-09T04:35:04+0000",
+     "url": "https://www.instagram.com/reel/Dfge-uzSi08/",
+     "type": "VIDEO",
+     "likes": 1,
+     "comments": 1,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "보정 앱 없이 챗GPT 코드 한 줄로 사진을 고칩니다 📸 사진 한 장 올리고 슬래시 코드 하나만 보내면 얼굴은 그대로인 채 조명과 화질, 배경, 자세가 바뀌어요. 챗GPT 메뉴에 있는 기능은 아니고 코드 이름의 뜻을 읽고 반응하는 방식이라 사진마다 결과가 조금씩 달라요. 조명, 배경, 포즈별로 정리한 보정 코드 130개는 댓글에 ’보정‘ 남겨주시면 DM으로 보내드릴게요! No editing apps. One line of code in ChatGPT fixes the photo 📸 Upload"
+    },
+    {
+     "timestamp": "2026-11-08T16:02:33+0000",
+     "url": "https://www.instagram.com/reel/DffI1MnvtX7/",
+     "type": "VIDEO",
+     "likes": 44,
+     "comments": 8,
+     "multiple": 0.2,
+     "multiple_basis": "likes+comments",
+     "caption_start": "구글 영상 도구 Flow 하나에서만 AI 영상이 5억 개 넘게 나왔습니다 출시 반년 만의 숫자이고, 작년 12월 유튜브에서는 하루 평균 100만 개 넘는 채널이 AI 제작 도구를 썼는데, 만들기 쉬워진 만큼 비슷한 결과물이 피드를 덮으면서 영상 하나하나는 오히려 묻히기 시작했어요. 어도비가 크리에이터 1만 6천 명에게 물었을 때도 AI를 쓰는 사람의 87%가 성장이 빨라졌다고 답했는데, 모두가 같이 빨라지면 그 속도는 더 이상 차이가 되지 않습니다. 이럴 때 사람들이 고르는 기준은 결과물보다 만든"
+    },
+    {
+     "timestamp": "2026-11-08T06:01:33+0000",
+     "url": "https://www.instagram.com/p/DfeEKzMkQlv/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 566,
+     "comments": 40,
+     "multiple": 2.4,
+     "multiple_basis": "likes+comments",
+     "caption_start": "인간이 표를 들고 AI를 막아서기 시작했어요 🗳️ 미국 지역 투표에 오른 데이터센터 안건 41건 중 40건이 개발을 막는 쪽으로 끝났어요. 클로드는 계좌를 연결해 새는 돈을 찾아 주고, 그록 봇은 고객센터에 대신 전화해 해지까지 마쳐요. 클로드 코드 팀 개발자는 AI 답을 그대로 믿으면 실력이 녹슨다고 경고했어요. 포토샵을 대신할 무료 앱 16개와 움짤 만드는 지피티 이미지, 응답 35% 빨라진 클로드, 보안 점수를 끌어올린 GPT-6 Cyber, 말로 플러그인을 만드는 딥시크, X 디자인 총괄"
+    },
+    {
+     "timestamp": "2026-11-08T00:09:59+0000",
+     "url": "https://www.instagram.com/reel/Dfdb2wnyvmT/",
+     "type": "VIDEO",
+     "likes": 90,
+     "comments": 158,
+     "multiple": 1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "프롬프트 한 장 붙였더니 유튜브 쇼츠 영상 5개가 나왔습니다 🎬 영상 툴은 하나도 안 켜고 클로드 코드만 썼는데 주제 한 줄만 바꿔 넣으면 같은 스타일로 새 장면이 나와요. 우주 다큐 같은 블랙홀, 손그림 막대인간 썰, 3D 홀로그램 지도, 16비트 게임 보스전까지 조회수 잘 나오는 장르를 골라 담았습니다. 다섯 가지 프롬프트 원문과 영상으로 뽑는 법까지 정리했으니 댓글에 ‘AI’ 남겨주시면 DM으로 보내드릴게요! One pasted prompt, five YouTube-style animati"
+    },
+    {
+     "timestamp": "2026-11-07T11:07:28+0000",
+     "url": "https://www.instagram.com/reel/DfcCRhCSu0-/",
+     "type": "VIDEO",
+     "likes": 1,
+     "comments": 0,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "구글 영상 도구 Flow 하나에서만 AI 영상이 5억 개 넘게 나왔습니다 출시 반년 만의 숫자이고, 작년 12월 유튜브에서는 하루 평균 100만 개 넘는 채널이 AI 제작 도구를 썼는데, 만들기 쉬워진 만큼 비슷한 결과물이 피드를 덮으면서 영상 하나하나는 오히려 묻히기 시작했어요. 어도비가 크리에이터 1만 6천 명에게 물었을 때도 AI를 쓰는 사람의 87%가 성장이 빨라졌다고 답했는데, 모두가 같이 빨라지면 그 속도는 더 이상 차이가 되지 않습니다. 이럴 때 사람들이 고르는 기준은 결과물보다 만든"
+    },
+    {
+     "timestamp": "2026-11-07T10:59:12+0000",
+     "url": "https://www.instagram.com/reel/DfcBUkDSb0y/",
+     "type": "VIDEO",
+     "likes": 145,
+     "comments": 310,
+     "multiple": 1.8,
+     "multiple_basis": "likes+comments",
+     "caption_start": "클로드를 영상 편집 팀으로 만들어주는 3가지 도구입니다 🎬 첫 번째 리모션은 ”자막 더 크게“ 한마디면 코드 한 줄만 고쳐서 영상을 새로 뽑아 와요. 두 번째 하이퍼프레임은 웹페이지 짜듯 글자 모션과 그래픽 화면을 영상 파일로 굽고 자막까지 얹어 줍니다. 세 번째 오픈몽타주는 주제 한 줄로 대본부터 영상 소스, 배경음, 자막까지 완성본을 만들어 주고요. 셋 다 깃허브에 공개돼 있어 개인은 무료로 쓸 수 있고, 설치 명령도 클로드에게 맡기면 알아서 쳐 줘요. 세 도구 설치법과 클로드에 붙이는 명령"
+    },
+    {
+     "timestamp": "2026-11-07T06:16:26+0000",
+     "url": "https://www.instagram.com/reel/Dfbg_dPS-DA/",
+     "type": "VIDEO",
+     "likes": 245,
+     "comments": 877,
+     "multiple": 4.5,
+     "multiple_basis": "likes+comments",
+     "caption_start": "챗 지피티가 만든 밤티 포스터, 프롬프트 하나면 광고처럼 살아납니다 🎨 방금 나온 결과물을 채팅창에 다시 올리고 이 프롬프트를 통째로 붙여 넣으면 제품 모습은 그대로 두고 글자 배치와 색 조합을 새로 잡아요. 영상 속 바나나맛우유 포스터도 같은 방법으로 브랜드 광고 같은 결과가 나왔고요. 저는 상세페이지와 가로 배너까지 작업마다 이런 프롬프트를 따로 정리해 두고 쓰는데, 내 작업에 바로 쓰는 방법과 그 포스터 프롬프트까지 영상에 아무 댓글이나 남겨주시면 DM으로 보내드릴게요! That tacky"
+    }
+   ]
+  },
+  {
+   "username": "ai_freaks.kr",
+   "followers": 132255,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 475.5,
+    "median_comments": 19
+   },
+   "posts": [
+    {
+     "timestamp": "2026-11-08T10:28:33+0000",
+     "url": "https://www.instagram.com/p/DfeiuTPGt7i/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 209,
+     "comments": 4,
+     "multiple": 0.4,
+     "multiple_basis": "likes+comments",
+     "caption_start": "“1조 원 넘게 투자받은 한국 AI 기업은?” 💸 한국 AI 기업 중 누적 투자액 Top 10을 모아왔어요. AI와 대화하는 앱부터 공부를 돕는 서비스, 공장에서 일할 로봇과 AI에 꼭 필요한 반도체까지. 각 기업이 어떤 제품과 서비스를 만드는지, 카드뉴스를 넘겨 자세한 내용을 확인해보세요. ※ 누적 투자액 / 투자 단계 / 순위 : THEVC 👉🏻 인공지능 소식 놓치지 않으려면? ai_freaks.kr"
+    },
+    {
+     "timestamp": "2026-11-07T12:06:07+0000",
+     "url": "https://www.instagram.com/reel/DfcI1JOMSZR/",
+     "type": "VIDEO",
+     "likes": null,
+     "comments": 19,
+     "multiple": 1,
+     "multiple_basis": "comments",
+     "caption_start": "“두 사람은 문제아지만 세계 최강” 🕺 일론 머스크와 젠슨 황이 ‘트러블메이커’를 추는 AI 영상이 올라왔어요. AI 크리에이터 garylau_ai가 공개했는데요. 이 두 사람의 조합에 선곡까지, 생각도 못 했던 무대라는 평이에요. 영상에 덧붙인 설명도 웃겨요.. “이미 내 지갑을 충분히 괴롭힌 두 사람이 트러블메이커까지 춘다니.” 😂 댓글에는 “문제 해결사 두 명이 트러블메이커가 됐다“는 반응도 있었죠. 다음 또 보고싶은 CEO 조합이 있으신가요? 👉🏻 AI 소식 놓치지 않으려면? ai_"
+    }
+   ]
+  },
+  {
+   "username": "ai.brief.kr",
+   "followers": 31738,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 60,
+    "median_comments": 1
+   },
+   "posts": []
+  },
+  {
+   "username": "ai.ainow",
+   "followers": 78269,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 363,
+    "median_comments": 216
+   },
+   "posts": []
+  },
+  {
+   "username": "mktg.with.ai",
+   "followers": 11471,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 18,
+    "median_comments": 1
+   },
+   "posts": [
+    {
+     "timestamp": "2026-11-08T09:03:32+0000",
+     "url": "https://www.instagram.com/p/DfeY9jElUZF/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 7,
+     "comments": 0,
+     "multiple": 0.4,
+     "multiple_basis": "likes+comments",
+     "caption_start": "가격 물어보는 댓글에 \"DM 주세요\"로 답하고 계신가요? 🤔 행사 기획·대행사 잔치꾼은 가격을 감추는 게 경쟁력이던 업계에서 400여 개 상품 가격을 공개했어요. 포트폴리오와 준비 노하우까지 온라인에 풀었고요. 염재현 대표가 밝힌 2025년 매출은 20억 원을 넘어 전년보다 69% 늘었어요 📈 물론 가격만 바꾼 건 아니에요. 빠른 견적 회신, 전담 매니저, 진행 상황 안내도 함께 바꿨대요. 대표는 지금도 검색 키워드를 직접 보면서 \"이 사람은 지금 어떤 상황인가\"를 읽는다고 해요 🔍 고객이 "
+    },
+    {
+     "timestamp": "2026-11-07T09:03:31+0000",
+     "url": "https://www.instagram.com/p/Dfb0Lg0FfJh/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 22,
+     "comments": 47,
+     "multiple": 3.8,
+     "multiple_basis": "likes+comments",
+     "caption_start": "AI로 편집한 영상, 보자마자 \"아, AI네\" 싶었던 적 있으신가요? 🎬 구독자 1만 6천 명의 AI 뉴스레터를 쓰는 소프트웨어 엔지니어 아르템 노비츠키는 편집자 대신 클로드로 영상을 편집하면서 답을 하나 찾았대요. 클로드에겐 자기 취향이 없으니, 잘 만들어 달라고 하지 말고 따라 할 영상을 주라는 거예요 ✨ 참고 영상으로 스타일 시트를 만들고, 고친 내용을 규칙 파일에 쌓고, 컷부터 오디오까지 순서대로 돌리는 5단계와 바로 넣을 설정값을 카드에 정리했어요 📝 아직 원클릭은 아니지만, 메모가 "
+    }
+   ]
+  },
+  {
+   "username": "ddalkkak.mag",
+   "followers": 707,
+   "ok": true,
+   "baseline": {
+    "posts": 25,
+    "median_engagement": 16,
+    "median_comments": 2
+   },
+   "posts": []
+  }
+ ]
+}
