@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-10
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 단, 선정 글의 첫 보도(SBS 03:01Z)가 05:45 빈 시간 이전이라 엄밀히는 "새 글"이 아니라 아침에 못 읽어 놓친 이월 후보입니다 (아침 메모에 Reuters Australia로 기재). 05:45 이후 첫 보도 중 원문을 읽을 수 있는 더 큰 뉴스는 찾지 못함 (Google TPU 8tx/8i Max 블로그 11-09, Fireworks AI 침해 Bloomberg 11-09). 신선 가산 없음, 점수 8
+2. 선정: 호주 AI 안전 규제기관 신설·AI 침해 보고 의무화 (OCEANIA AI · POLICY). 아침 글(Deutsche Telekom, heise)과 다른 회사·매체. 출처 SBS(AAP/AFP), ABC News(AP), Al Jazeera 3곳 전문 확인. 기사에 "법 위반 여부 불명확"이라 "plans/would" 어조, "rogue/hack" 표현 안 씀. 예비: posts/_backlog/2026-11-10-evening-runners-up.md
+3. 검수: 1차 fact 불합격(캡션·슬라이드 5에서 "recommendations"와 "measures" 혼용) → 수정 후 2차 fact 통과. hook 7/10 통과(독자 영향 훅 없음 사유 기재), brand-safety 통과 (둘 다 1차 본문 기준, 수정 후 재검수 안 함. brand-safety는 슬라이드 3·5·6 미열람)
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (아침 2 포함 오늘 합계 4/6). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium, npm ci 필요. 푸시는 세션 지정 브랜치 claude/inspiring-darwin-kkkh1a (daily/ 아님)
+5. 인스타그램 토큰 없음(IG_*): 참고 계정 미사용. 후보 8개 (새 1, 이월 7)
+자세한 기록
+- 19:15 시작. 백로그 확인: main에 ready 글 없음 (11-09 deepseek는 blocked 유지)
+- 선정 id `2026-11-10-australia-ai-regulator`. 첫 보도 2026-11-10 03:01Z (SBS)
+
 ## [아침 보고] 2026-11-10
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 6 · 팔로워 2 · 링크 클릭 0 · 최고 도달 수집 기록 참조 (ops/metrics/2026-11-10.json)
