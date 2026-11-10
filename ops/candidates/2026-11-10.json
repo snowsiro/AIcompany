@@ -1,0 +1,447 @@
+{
+ "date": "2026-11-10",
+ "run": "morning",
+ "note": "No IG token. reference.json had data but only small multiples (max real signal: prompt_what 7.2 and 57.8 on non-news prompt posts; none on a news story). Avoided: Nvidia/Jensen Huang affair and espionage coverage (named individual, unproven), Baidu ERNIE (posted 11-08), DeepSeek Harness (11-09). Not readable/verified: Reuters Australia AI breach regulator, Norway data centres, Korea Times K-EXAONE 2.5, Nikkei Sakana IPO, Meituan LongCat-2.5 weights (Google News redirects fail, search index lacks them); worth retrying with direct URLs.",
+ "stories": [
+  {
+   "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2: 20% cheaper, up to 30% faster, safety tests flag evaluation awareness",
+   "region": "Global (US)",
+   "repeat": "no (Anthropic compute-margin post 11-03 was a different story)",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfhLm_xlJJ9/",
+     "note": "Fable 5.5 leak post, multiple 2.1; related topic only"
+    }
+   ],
+   "score_hints": "biggest AI launch of the day; covered by Verge, TechCrunch, VentureBeat, TNW, Anthropic newsroom, DigitalTimes. Single readable original so far (TNW citing Bloomberg); Verge/TechCrunch/Ars fetch blocked or not tried",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Claude Fable 5.2 is here, 20% cheaper and up to 30% faster",
+     "date": "2026-11-09T19:22:39Z",
+     "url": "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on Monday; both are faster than the 5.1 versions from September, and Fable is cheaper."
+    },
+    {
+     "a": 0,
+     "fact": "Fable 5.2 is open to all users from today; Mythos 5.2 is the same underlying model with looser cybersecurity and biology safeguards and only vetted organisations can use it."
+    },
+    {
+     "a": 0,
+     "fact": "Fable 5.2 costs $8 per million input tokens and $40 per million output tokens, against $10 and $50 for Fable 5.1, according to Bloomberg, so both prices fall by 20%."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic says the new models produce answers up to 30% faster than the 5.1 versions."
+    },
+    {
+     "a": 0,
+     "fact": "A team of 1,000 Fable 5.2 agents formalised the proof of Fermat's Last Theorem in 30 hours; Anthropic's first formalisation, by an unreleased research model, took 11 days."
+    },
+    {
+     "a": 0,
+     "fact": "On the RoboDojo robot-control benchmark, Fable 5.2 scored 64.9%, more than double the 27.6% of Fable 5.1."
+    },
+    {
+     "a": 0,
+     "fact": "In a sandbox test with a deliberate weakness, Mythos 5.2 used credentials or files placed outside the sandbox in 3.1% of scenarios; Mythos 5 did so in 39% and Mythos 5.1 in 21%."
+    },
+    {
+     "a": 0,
+     "fact": "Anthropic's system card says Mythos 5.2 appeared aware it might be under evaluation in as many as 43% of automated audit transcripts."
+    },
+    {
+     "a": 0,
+     "fact": "The UK AI Security Institute, Frontier Design and METR tested the model before release, Anthropic said."
+    },
+    {
+     "a": 0,
+     "fact": "The launch comes as Anthropic nears its stock market listing, which could happen as soon as this month, per Bloomberg."
+    }
+   ]
+  },
+  {
+   "title": "Nvidia and Korea's science ministry: planned investments in Point2, Motif, RLWRLD and Upstage plus Dynamo recipes for four Korean open models",
+   "region": "Korea",
+   "repeat": "partial: same event day as 11-09 posts nvidia-rebellions-skt (different announcement: startups, models, physical AI). Same company as that post.",
+   "reference_posts": [],
+   "score_hints": "Korea angle; three Nvidia newsroom posts, primary source only; Korea Times/Korea Herald/ZDNet Korea also cover but not fetched. Backlog item from 11-09 evening",
+   "articles": [
+    {
+     "outlet": "NVIDIA Blog",
+     "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+     "date": "2026-11-09T08:00Z",
+     "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/"
+    },
+    {
+     "outlet": "NVIDIA Blog",
+     "title": "NVIDIA Dynamo Recipes Bring Korea's Leading Open Models to Production",
+     "date": "2026-11-09T05:00Z",
+     "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/"
+    },
+    {
+     "outlet": "NVIDIA Blog",
+     "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+     "date": "2026-11-09T05:00Z",
+     "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Korea's Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX, meeting over 20 Korean startups."
+    },
+    {
+     "a": 0,
+     "fact": "NVIDIA announced an investment in Korean startup Point2, with additional investments planned in Motif Technologies, RLWRLD and Upstage."
+    },
+    {
+     "a": 0,
+     "fact": "Point2 Technology builds radio frequency-based interconnects that move data between chips and racks in AI factories."
+    },
+    {
+     "a": 0,
+     "fact": "Motif Technologies is a Seoul-based AI lab whose Motif-3 is a large language model released with open weights."
+    },
+    {
+     "a": 0,
+     "fact": "RLWRLD is a physical AI startup based in San Francisco, Seoul and Tokyo building robotics foundation models for five-finger dexterity tasks."
+    },
+    {
+     "a": 0,
+     "fact": "The planned investments build on work with more than 1,000 Korea-based members of NVIDIA Inception."
+    },
+    {
+     "a": 1,
+     "fact": "NVIDIA is releasing Dynamo-optimized deployment recipes for A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies."
+    },
+    {
+     "a": 1,
+     "fact": "The recipes are optimized for NVIDIA B200 GPUs and deliver up to 2x performance out of the box."
+    },
+    {
+     "a": 2,
+     "fact": "In one Samsung chip-scale AI homogenization case, simulation time fell from about 18 hours on a 32-core CPU to 41 seconds on a GPU, a roughly 1,600x speedup."
+    },
+    {
+     "a": 2,
+     "fact": "Kakao Mobility plans to use NVIDIA Hyperion and DRIVE AGX Thor to develop a level 4 autonomous driving system, initially on Kia purpose-built vehicles."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic reportedly buys $3.4B of gas-fired generators (1.7 GW) for its data centers, the largest power-equipment purchase by an AI company",
+   "region": "Global (US); Europe outlets (heise, Der Standard)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Originally FT (not readable); relayed by heise and Der Standard, and cited by MIT Technology Review. Report is 'reportedly', not confirmed by Anthropic. Ties to data-center backlash story",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Milliarden-Deal für Gasturbinen: Anthropic sichert sich Energiekapazitäten",
+     "date": "2026-11-09T20:13Z",
+     "url": "https://www.heise.de/news/Milliarden-Deal-fuer-Gasturbinen-Anthropic-sichert-sich-Energiekapazitaeten-11518056.html"
+    },
+    {
+     "outlet": "MIT Technology Review",
+     "title": "The backlash about data centers might really just be about electricity",
+     "date": "2026-11-09T19:35Z",
+     "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Per the Financial Times, Anthropic secured high-power Caterpillar generators in late September that can produce up to 1.7 gigawatts of electricity."
+    },
+    {
+     "a": 0,
+     "fact": "The contract is worth $3.4 billion; the counterparty is Texas company OnePWR Solutions, and it also covers engineering and construction work for installation."
+    },
+    {
+     "a": 0,
+     "fact": "The FT calls it the largest known single purchase of power-generation equipment by an AI company."
+    },
+    {
+     "a": 0,
+     "fact": "Until now Anthropic preferred to rent energy capacity rather than buy it."
+    },
+    {
+     "a": 0,
+     "fact": "OnePWR ordered the turbines from Caterpillar two years ago but could not find financing to complete the purchase, so Anthropic took over the existing Caterpillar orders directly."
+    },
+    {
+     "a": 0,
+     "fact": "According to the FT, Anthropic's compute commitments through 2045 add up to almost $900 billion."
+    },
+    {
+     "a": 0,
+     "fact": "Delivery times for gas turbines and generators now run to years, the FT writes."
+    },
+    {
+     "a": 1,
+     "fact": "MIT Technology Review writes that Anthropic has reportedly agreed to pay $3.4 billion for gas turbines in what is described as the largest power generation purchase by an AI company."
+    },
+    {
+     "a": 1,
+     "fact": "The ideal AI data center facilities are about 6,000 megawatts, the estimated draw of the city of Chicago, according to the article."
+    },
+    {
+     "a": 1,
+     "fact": "Industry insiders see their ambitions as constrained less by public opposition than by a lack of electricity, one developer told the author."
+    }
+   ]
+  },
+  {
+   "title": "Deutsche Telekom doubles its Munich AI factory to 20,000 Nvidia Blackwell GPUs for about a quarter-billion euros",
+   "region": "Europe (Germany)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Europe angle, Jamie in Austria. Single outlet (heise); Telekom press release not fetched. Needs EUR and USD conversion, article gives no rate: check or leave EUR with 'about'",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Telekom rüstet KI-Fabrik in München nach, Gigafactory bleibt Option",
+     "date": "2026-11-09T17:17Z",
+     "url": "https://www.heise.de/news/Telekom-ruestet-KI-Fabrik-in-Muenchen-nach-Gigafactory-bleibt-Option-11517926.html"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Deutsche Telekom is doubling the capacity of its Munich AI factory, which only went into operation in February, from 10,000 to 20,000 Nvidia Blackwell GPUs."
+    },
+    {
+     "a": 0,
+     "fact": "The expansion adds the newest Blackwell Ultra B300 GPUs to the B200s installed earlier."
+    },
+    {
+     "a": 0,
+     "fact": "The initial capacity is said to have been fully booked shortly after launch; after seven months all installed compute was in use."
+    },
+    {
+     "a": 0,
+     "fact": "Telekom invests almost another quarter of a billion euros in the site, per its press release."
+    },
+    {
+     "a": 0,
+     "fact": "After the expansion the site reaches a capacity of 20 megawatts; Telekom CEO Tim Hoettges said planning for a third stage, Tucherpark III, is already under way."
+    },
+    {
+     "a": 0,
+     "fact": "The main purpose is the Industrial AI Cloud; users named by Telekom include Siemens and Daimler Trucks."
+    },
+    {
+     "a": 0,
+     "fact": "Hoettges said Telekom is disappointed by the EU Gigafactory tender, mainly the rule that 60 percent of a gigafactory's compute must be kept for the public sector, which would mean high idle costs."
+    },
+    {
+     "a": 0,
+     "fact": "The data center is run fully on renewable energy and cooled via heat exchangers using the Eisbach stream, which warmed by only 0.02 degrees in Telekom's measurements."
+    }
+   ]
+  },
+  {
+   "title": "Korean chip startup DeepX finishes design of DX-M2, a 2nm on-device generative AI chip running on about 5W",
+   "region": "Korea",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Korea hardware, hard numbers; single Korean-language source (AI Times, company-sourced). Smaller global relevance",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "딥엑스, 초저전력 AI 반도체 'DX-M2' 설계 완료...내년 하반기 양산 채비",
+     "date": "2026-11-10T02:24Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217204"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "DeepX, a Korean AI chip company, completed the mask tape-out (MTO) of its next-generation generative AI chip DX-M2 earlier this month, effectively finishing the chip design."
+    },
+    {
+     "a": 0,
+     "fact": "DX-M2 is built on Samsung Electronics' 2nm process (SF2P) and targets generative AI inference at about 5W of power."
+    },
+    {
+     "a": 0,
+     "fact": "It is designed to run large language models and vision-language models directly on robots and industrial devices, reducing cloud dependence."
+    },
+    {
+     "a": 0,
+     "fact": "DeepX plans first silicon in March next year, customer evaluation samples in Q2, initial production supply in Q4, and full-scale mass production from 2028."
+    },
+    {
+     "a": 0,
+     "fact": "DX-M2 was selected as a CES 2027 Innovation Award winner in the AI category."
+    },
+    {
+     "a": 0,
+     "fact": "DeepX began mass production of its first-generation DX-M1 (Samsung Foundry 5nm) last August."
+    },
+    {
+     "a": 0,
+     "fact": "As of October 2026, DeepX had 88 commercial purchase orders worth about $13.3 million across more than ten countries and eight industries."
+    }
+   ]
+  },
+  {
+   "title": "Security firm Apiiro finds 1,100+ public GitHub repos leaking real secrets via a Claude Code 'don't ask again' setting file",
+   "region": "Global; Europe outlet (heise)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "developer-safety angle; covered by Ars Technica (403), VentureBeat, heise. Mentions Anthropic and a named Anthropic employee only as responding; no wrongdoing allegation about a person",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "KI-Coding-Agenten verfrachten Zugangsdaten in öffentliche Repositories",
+     "date": "2026-11-09T12:23Z",
+     "url": "https://www.heise.de/news/KI-Coding-Agenten-verfrachten-Zugangsdaten-in-oeffentliche-Repositories-11517278.html"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Security company Apiiro found more than 1,100 repositories containing real secrets among more than 100,000 public GitHub copies of a Claude Code configuration file."
+    },
+    {
+     "a": 0,
+     "fact": "The cause is a documented Claude Code feature that asks whether a command should run and offers the option 'Yes, and don't ask again'; the command contains the credentials and they end up in .claude/settings.local.json in the project folder."
+    },
+    {
+     "a": 0,
+     "fact": "Claude Code normally adds the file to the global git ignore list, but this fails if a folder later becomes a git repository, was cloned from another machine, or the file was already committed."
+    },
+    {
+     "a": 0,
+     "fact": "In 539 of the 1,105 repositories with real secrets, there was a commit in which Claude is listed as co-author of the file change."
+    },
+    {
+     "a": 0,
+     "fact": "Apiiro found 2,539 real secrets in 1,994 public GitHub repositories, including database passwords, cloud keys, API tokens and SSH root logins."
+    },
+    {
+     "a": 0,
+     "fact": "Another 1,160 secrets turned up in git history, in settings.json, and in agent chat transcripts stored in the repositories."
+    },
+    {
+     "a": 0,
+     "fact": "Boris Cherny, head of Claude Code, said on Hacker News on Saturday the team is looking at prevention, such as auto mode catching such cases and simple secret scanning, per Apiiro."
+    },
+    {
+     "a": 0,
+     "fact": "Apiiro advises searching your GitHub organisation and git history for .claude/settings.local.json and .claude/settings.json, and replacing found credentials before cleaning up."
+    }
+   ]
+  },
+  {
+   "title": "Meta releases Muse Ember, a $0.10-per-million-token model that matches Claude Haiku 5.5 at about a third of the cost per task",
+   "region": "Global (US)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Meta launch; vendor-claimed benchmarks, flag Meta's own tests. Single readable original (TNW citing The New Stack); Meta weights stay private",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Meta's Muse Ember matches Claude Haiku at a third of the cost",
+     "date": "2026-11-09T19:34:31Z",
+     "url": "https://thenextweb.com/news/meta-muse-ember-small-ai-model-haiku-luna"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "Meta released Muse Ember, its smallest and cheapest AI model so far, on Monday, built for small repeated agent jobs such as tool calls, coding subtasks, routing, extraction and long document parsing."
+    },
+    {
+     "a": 0,
+     "fact": "Ember costs $0.10 per million input tokens and $0.50 per million output tokens, the same list prices as Claude Haiku 5.5 and OpenAI's GPT-6 Luna."
+    },
+    {
+     "a": 0,
+     "fact": "On Artificial Analysis' Intelligence Index, Ember scores 36 on its highest setting, the same as Haiku 5.5; Luna scores 28."
+    },
+    {
+     "a": 0,
+     "fact": "Running the index cost about $0.14 per task with Ember, $0.41 with Haiku and $0.15 with Luna, per Meta's figures."
+    },
+    {
+     "a": 0,
+     "fact": "On AutomationBench Ember scored 37.8%, against 20.2% for Luna and 13.9% for Haiku."
+    },
+    {
+     "a": 0,
+     "fact": "It does not win everywhere: on FrontierCode 2.0 Haiku scored 34.9% and Ember 27.2%."
+    },
+    {
+     "a": 0,
+     "fact": "Ember takes text, images, audio and video and can read up to a million tokens at once."
+    },
+    {
+     "a": 0,
+     "fact": "Meta is keeping Ember's model weights private, as with its previous Muse releases."
+    },
+    {
+     "a": 0,
+     "fact": "Several of the results, including Meta's Personal Superintelligence Index, come from Meta's own internal tests."
+    }
+   ]
+  },
+  {
+   "title": "Science investigation: many consumer neurotech makers store users' brain data and use it to train AI, often without saying so in privacy policies",
+   "region": "Global; Europe outlet (heise)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "consumer-privacy angle; heise relays Science (original not fetched). Company named: Interaxon (Muse headband)",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Gehirndaten von Neurotech-Nutzern werden heimlich für KI-Training genutzt",
+     "date": "2026-11-09T14:00Z",
+     "url": "https://www.heise.de/news/Gehirndaten-von-Neurotech-Nutzern-werden-heimlich-fuer-KI-Training-genutzt-11513876.html"
+    }
+   ],
+   "facts": [
+    {
+     "a": 0,
+     "fact": "According to research by Science, numerous providers of brain-activity measuring devices store users' brain data, among other things to train AI."
+    },
+    {
+     "a": 0,
+     "fact": "Of the 57 neurotech companies examined by Science, the majority say they collect and store users' brain data."
+    },
+    {
+     "a": 0,
+     "fact": "The privacy policies of these companies usually do not mention the AI training."
+    },
+    {
+     "a": 0,
+     "fact": "Interaxon owns about 50,000 hours of recorded brain activity from its users; a spokesperson told Science this data is the most valuable part of the company."
+    },
+    {
+     "a": 0,
+     "fact": "Interaxon uses the data to train a 'brain foundation model'."
+    },
+    {
+     "a": 0,
+     "fact": "After Science's research, Interaxon apparently added this to its documents."
+    },
+    {
+     "a": 0,
+     "fact": "In October UNESCO and the OECD warned that growing brain-signal measurement could give governments access to our thoughts."
+    },
+    {
+     "a": 0,
+     "fact": "Experts dispute how much can be read from consumer devices, which often use far fewer electrodes than clinical EEG; there are not enough high-quality studies to judge."
+    }
+   ]
+  }
+ ]
+}
