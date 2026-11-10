@@ -1,0 +1,134 @@
+{
+  "id": "2026-11-10-telekom-munich-ai-factory",
+  "date": "2026-11-10",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · INDUSTRY",
+    "headline": [
+      "TELEKOM'S MUNICH",
+      "AI SITE: **2X** GPUS"
+    ],
+    "hook_options": [
+      [
+        "TELEKOM'S MUNICH",
+        "AI SITE: **2X** GPUS"
+      ],
+      [
+        "10,000 TO 20,000",
+        "MUNICH **GPUS**"
+      ],
+      [
+        "TELEKOM VS EU",
+        "GIGAFACTORY **RULE**"
+      ],
+      [
+        "TELEKOM'S GPUS",
+        "ARE **DOUBLING**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "rivalry",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Names Telekom and its Munich site and states the headline fact (GPUs go from 10,000 to 20,000, slide 1) without claiming anything about Europe as a whole. Slide 2 gives the euro figure and the B300 addition; slide 4 repeats the 20 MW total. The second option shows the exact numbers but says less about who. The rivalry option covers only slide 6 (Telekom's complaint about the 60% rule, per heise), which is a side point. 'ARE DOUBLING' repeats the claim without a number. No reader-impact hook: the article states no effect on ordinary readers (what they pay, use or risk); it covers a company's capacity and its industrial customers.",
+    "image_prompt": "Cinematic wide shot of a vast dark data hall with two long rows of server racks receding into the distance, the near row lit with cool blue indicator lights and the far row glowing amber as if newly added, thin mist near the floor, a calm stream of light reflected along the polished floor. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261110_045306_45c947e4-f1f0-4785-82ea-fdab0f643f90.png"
+  },
+  "slides": [
+    {
+      "kicker": "The expansion",
+      "title": "Telekom doubles its Munich AI site",
+      "body": [
+        "Deutsche Telekom is doubling the capacity of its Munich AI factory from **10,000 to 20,000** Nvidia Blackwell GPUs. The site went into operation only in February, Telekom announced, as reported by heise online."
+      ]
+    },
+    {
+      "kicker": "The spend",
+      "title": "Almost EUR 250M more",
+      "body": [
+        "Telekom invests **almost EUR 250M** more in the site, per its press release, as reported by heise. The expansion adds Blackwell Ultra B300 GPUs to the B200s installed earlier. After it, the site reaches **20 megawatts** of capacity."
+      ]
+    },
+    {
+      "kicker": "The demand",
+      "title": "Booked soon after launch",
+      "body": [
+        "The initial capacity is said to have been **fully booked** shortly after launch. After seven months, all installed compute was in use, heise reports."
+      ]
+    },
+    {
+      "kicker": "The customers",
+      "title": "Built for industry",
+      "body": [
+        "The site's main purpose is the **Industrial AI Cloud**. Users named by Telekom include **Siemens and Daimler Trucks**, per heise."
+      ]
+    },
+    {
+      "kicker": "What's next",
+      "title": "A third stage is in planning",
+      "body": [
+        "Telekom CEO Tim Hoettges said planning for a third stage, **Tucherpark III**, is already under way, heise reports."
+      ]
+    },
+    {
+      "kicker": "The complaint",
+      "title": "Telekom on the EU tender",
+      "body": [
+        "Hoettges said Telekom is **disappointed** by the EU Gigafactory tender, mainly the rule that **60 percent** of a gigafactory's compute must be kept for the public sector. He said that would mean high idle costs, per heise."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Deutsche Telekom is doubling the capacity of its Munich AI factory, which only went into operation in February, from 10,000 to 20,000 Nvidia Blackwell GPUs."
+    },
+    {
+      "source": 0,
+      "text": "The expansion adds Blackwell Ultra B300 GPUs to the B200s installed earlier."
+    },
+    {
+      "source": 0,
+      "text": "The initial capacity is said to have been fully booked shortly after launch; after seven months all installed compute was in use."
+    },
+    {
+      "source": 0,
+      "text": "Telekom invests almost another quarter of a billion euros (almost EUR 250M) in the site, per its press release."
+    },
+    {
+      "source": 0,
+      "text": "After the expansion the site reaches a capacity of 20 megawatts; Telekom CEO Tim Hoettges said planning for a third stage, Tucherpark III, is already under way."
+    },
+    {
+      "source": 0,
+      "text": "The main purpose is the Industrial AI Cloud; users named by Telekom include Siemens and Daimler Trucks."
+    },
+    {
+      "source": 0,
+      "text": "Hoettges said Telekom is disappointed by the EU Gigafactory tender, mainly the rule that 60 percent of a gigafactory's compute must be kept for the public sector, which would mean high idle costs."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online",
+      "title": "Telekom rüstet KI-Fabrik in München nach, Gigafactory bleibt Option",
+      "title_en": "Telekom upgrades AI factory in Munich, Gigafactory remains an option",
+      "language": "German",
+      "date": "Nov 9, 2026",
+      "url": "https://www.heise.de/news/Telekom-ruestet-KI-Fabrik-in-Muenchen-nach-Gigafactory-bleibt-Option-11517926.html"
+    }
+  ],
+  "caption": "Deutsche Telekom is doubling its Munich AI factory from 10,000 to 20,000 Nvidia Blackwell GPUs.\n\nThe site went into operation in February. Telekom's press release, as reported by heise online, says the investment is almost EUR 250M.\n\n→ The expansion adds Blackwell Ultra B300 GPUs to the B200s installed earlier; the site reaches 20 megawatts\n→ Initial capacity is said to have been fully booked shortly after launch; after seven months all installed compute was in use\n→ Telekom CEO Tim Hoettges said planning for a third stage, Tucherpark III, is under way, and that Telekom is disappointed by the EU Gigafactory tender\n\nWhat would you run on 20,000 GPUs?\n\nSource: heise online, \"Telekom upgrades AI factory in Munich, Gigafactory remains an option\" (in German), Nov 9, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#DeutscheTelekom",
+    "#Nvidia",
+    "#EuropeAI"
+  ],
+  "threads_caption": "Deutsche Telekom is doubling its Munich AI factory from 10,000 to 20,000 Nvidia Blackwell GPUs, for almost EUR 250M, per its press release as reported by heise.\n\nInitial capacity is said to have been fully booked shortly after launch.\n\nSource: heise online, \"Telekom upgrades AI factory in Munich, Gigafactory remains an option\" (in German). #DeutscheTelekom"
+}

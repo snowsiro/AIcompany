@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-10
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 6 · 팔로워 2 · 링크 클릭 0 · 최고 도달 수집 기록 참조 (ops/metrics/2026-11-10.json)
+결정할 일
+1. 없음. 단, 출처가 heise online(독일어) 하나뿐이고 기사에 환율이 없어 유로만 표기(EUR 250M, 달러 환산 없음). "AI factory"는 기사에 정의가 없어 설명 없이 둠
+2. 선정: Deutsche Telekom 뮌헨 AI 팩토리 GPU 2배 (EUROPE AI · INDUSTRY, 점수 8). 같은 회사 반복을 피해 Nvidia-Korea(어제 저녁 글과 같은 회사)는 예비로. Anthropic 2건은 원문(FT, Bloomberg) 미확인, DeepX는 단일 출처라 제외. 예비: posts/_backlog/2026-11-10-morning-runners-up.md
+3. 검수: 1차 fact 불합격(슬라이드 1·3·4의 "press release" 귀속 오류) → 수정 후 2차 fact 통과. hook 7/10 통과, brand-safety 통과 (둘 다 1차 본문 기준, 귀속 문구 수정 후 재검수 안 함)
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 필요. 푸시는 세션 지정 브랜치 (daily/ 아님)일 수 있음
+5. 인스타그램 토큰 없음(IG_*): 참고 계정 미사용, 뉴스 원천으로만 선정. 아침 스캔이 05:07에 안 돌아 morning-scan 워크플로를 수동 실행, 약 1분 안에 main에 올라옴
+자세한 기록
+- 05:45 시작. 백로그 확인: main에 ready 글 없음 (11-09 글은 published/blocked)
+- 후보 8개 (researcher). 선정 id `2026-11-10-telekom-munich-ai-factory`
+- 검수 1차: fact 불합격, hook 7/10, brand-safety 통과. 2차: fact 통과
+
 ## [저녁 보고] 2026-11-09
 처리 1건 (ready 1) · 실패 0건
 결정할 일
