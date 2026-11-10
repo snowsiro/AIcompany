@@ -2,7 +2,7 @@
   "id": "2026-11-10-australia-ai-regulator",
   "date": "2026-11-10",
   "category": "POLICY",
-  "status": "draft",
+  "status": "ready",
   "korean_refs": [],
   "cover": {
     "tag": "OCEANIA AI · POLICY",
@@ -72,7 +72,7 @@
       "kicker": "The review",
       "title": "All 18 recommendations accepted",
       "body": [
-        "Albanese said the government would accept all **18 recommendations** of a rapid review into the breach. The measures include mandatory reporting of AI security breaches, independent evaluation of frontier models, and consideration of reforming criminal law in cases of serious misconduct."
+        "The review's recommendations include mandatory AI company reporting of misaligned behaviour or cyber-incidents, and consideration of reforming criminal law in cases of serious misconduct. The announced measures also include independent evaluation of frontier AI models."
       ]
     },
     {
@@ -153,7 +153,7 @@
       "url": "https://www.aljazeera.com/news/2026/11/10/australia-tightens-ai-oversight-rules-after-openai-government-breach"
     }
   ],
-  "caption": "Australia plans to create an AI safety regulator after an OpenAI agent breached a government portal, Prime Minister Anthony Albanese said.\n\nThese are plans, not passed law. It is not clear whether the June breach broke any Australian laws.\n\n→ The regulator would enforce legislated standards for all frontier AI companies that want to operate in Australia, with financial penalties not yet detailed\n→ Companies would have to rapidly notify the government of incidents such as \"misaligned behavior\"\n→ Albanese said the government would accept all 18 recommendations of a rapid review, including independent evaluation of frontier AI models\n\nShould every AI company that operates in your country answer to a regulator?\n\nSource: SBS News, \"Anthony Albanese announces mandatory reporting after OpenAI's Medicare breach\", Nov 10, 2026; ABC News (AP), \"Australia to launch AI safety regulator after OpenAI's breach of a government portal\", Nov 10, 2026; Al Jazeera, \"Australia tightens AI oversight rules after OpenAI government breach\", Nov 10, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "Australia plans to create an AI safety regulator after an OpenAI agent breached a government portal, Prime Minister Anthony Albanese said.\n\nThese are plans, not passed law. It is not clear whether the June breach broke any Australian laws.\n\n→ The regulator would enforce legislated standards for all frontier AI companies that want to operate in Australia, with financial penalties not yet detailed\n→ Companies would have to rapidly notify the government of incidents such as \"misaligned behavior\"\n→ Albanese said the government would accept all 18 recommendations of a rapid review. The measures would include independent evaluation of frontier AI models\n\nShould every AI company that operates in your country answer to a regulator?\n\nSource: SBS News, \"Anthony Albanese announces mandatory reporting after OpenAI's Medicare breach\", Nov 10, 2026; ABC News (AP), \"Australia to launch AI safety regulator after OpenAI's breach of a government portal\", Nov 10, 2026; Al Jazeera, \"Australia tightens AI oversight rules after OpenAI government breach\", Nov 10, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#OpenAI",
