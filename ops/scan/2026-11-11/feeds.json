@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-11T04:47:15.530Z",
+ "fetched_at": "2026-11-11T10:46:17.280Z",
  "hours": 36,
  "sources": [
   {
@@ -8,6 +8,16 @@
    "ok": true,
    "via": "google_news",
    "items": [
+    {
+     "title": "China's Singles Day shopping festival puts AI selling power to the test - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd0ZRNDVrTEpZSnpqaDdwU01NX2c3SElnV09nZEsyQlpSSHlFR3FDQkt3Y1hYS0twOFJxMzk1Vm93aFZxTzZwUWlsRDJaZ1JtS0NJTE02VkdZaWpwMzFKYnRjV3BSYmxyTEtmYjhFRXZOZ1dnWEZfN0RCUVBsSUpkUGZQUUhCa3pSRW9IV1o5dkpacWxkVzVfcWthaXc2T0VwNG5ESVVFZW5tQ2dUcTYzM1RlWk1jaVBQMVhHNzdiY0UtQQ?oc=5",
+     "published": "Wed, 11 Nov 2026 06:14:00 GMT"
+    },
+    {
+     "title": "Drugmakers tap China AI app boom to reach doctors as crackdown upends marketing - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNUhMNG1KUG10c1p6SkJRa3N4T3pGcHN6dU9fOWU4MDdEbFJGLV9mQlRRYUVZYU1FQ2kzb2NiTV92elFwQ0ZMalh4VzF4LWJ0NDZXUC1FUzZ4QzMtb0VvRUcxRFVqSmY4VWRpLS1uTHFwZGNxbWtlMHVFZ2YtWW9xU19ha3ctOGVyRE1nbzhpaFVKUXRtdHA1VVRKSld5NDlqcVVURFc0VFVlMGowUVFhcHN4VVM3TWwyRW1EUmNtS1N4dm5R?oc=5",
+     "published": "Wed, 11 Nov 2026 07:03:00 GMT"
+    },
     {
      "title": "US and China should stay clear-eyed on AI cooperation and competition, Bessent says - Reuters",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWUdDU2JVSnpLTmIzYVRmNm5Wb2Y3UC1vVElXMTZwdlM4M2YwRGZKT2tkYXI5YVlzRk1GZm5HRmY3NDlPQm1UaC1McjQ3STR0ME1LeDJCQ2NPQlVyU1RBa0RkSUotV2tSWndkN3NiQmdsVFFoVENFUVdFTExITml0bnc3RVdGcU1mSTB1T1gzcHpWMUM4MXFnSm1oWTdhZ0I2TG11M1JBU0xfUUtYLTNDRlcxeFpWcWZSUFVz?oc=5",
@@ -24,14 +34,24 @@
      "published": "Tue, 10 Nov 2026 20:46:17 GMT"
     },
     {
-     "title": "OpenAI lets businesses claim ChatGPT profiles, adds AI agents for US e-commerce firms - Reuters",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeDdpWXlJb3hWWUhMQ3RPNnJ2MU9YeTFYYWVNdzBJZGoydVFxRDJOY2JPTkhaVWd5Y3ZmUzdVMWxZWGtOcmMyeGxDSndwQTJhMG9rLUgtZmdJQlFXdFd0dGppY05RTWZOMFplQlhUTFY1STNybWJjOW5rcWdkY2drWlRaRjI3NTRGdk5IbXlkeWUtSER5QVc4TnB2b3Vhand3cmY5MGJQZXBIaGhPOUVyU1M4VWZHcEZJVG83ZXM4Nml6aG5HeXc?oc=5",
-     "published": "Tue, 10 Nov 2026 18:03:43 GMT"
+     "title": "Stocks gain as CoreWeave reignites AI trade - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2pqenNYSWUzSVBxc3U2RlhRT29TZGNJWFVMRVVQa0NkaDd6STY3VzhiZTB1b0RPcXB4c0ZEM1RwaGdkZUpkZHp2Q0ZCenBZZF90eTZFMnJvT2F4elJlZlMzOFFiaTVfUmxxNVcxNFZLOVpRY1ZHTjFITVpqVlJHdDJ6UXVUNXU4Z2NoOGZrVjB0QQ?oc=5",
+     "published": "Wed, 11 Nov 2026 02:05:00 GMT"
     },
     {
      "title": "AI training startup Mercor valued at $20 billion in latest funding round - Reuters",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQakRyVVFaNHJEdFVOdTVHYUtNSWN3MEw4SkZXNFFXZFRtM21LLTZmWGtHRU9RcU9QM0dSUENscUhOZWV0WkFBZ1hQQV9vcHBFMzZxRlNrTjZvZFZwZzFZeDR2eGo2U2Q5b3VEcExyek9GY0JxQ0o4SkZYZmRTR21GaDhLTmE2b3J3MzJrRGZORXd0akdkVm41V0gzRGJYVTlvZ1hnZ0VUZ3RSa1RqckxUYUMyQ291NjVVQkdZa3NB?oc=5",
      "published": "Tue, 10 Nov 2026 17:29:28 GMT"
+    },
+    {
+     "title": "OpenAI lets businesses claim ChatGPT profiles, adds AI agents for US e-commerce firms - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeDdpWXlJb3hWWUhMQ3RPNnJ2MU9YeTFYYWVNdzBJZGoydVFxRDJOY2JPTkhaVWd5Y3ZmUzdVMWxZWGtOcmMyeGxDSndwQTJhMG9rLUgtZmdJQlFXdFd0dGppY05RTWZOMFplQlhUTFY1STNybWJjOW5rcWdkY2drWlRaRjI3NTRGdk5IbXlkeWUtSER5QVc4TnB2b3Vhand3cmY5MGJQZXBIaGhPOUVyU1M4VWZHcEZJVG83ZXM4Nml6aG5HeXc?oc=5",
+     "published": "Tue, 10 Nov 2026 18:03:43 GMT"
+    },
+    {
+     "title": "Foreign investors pull out $50 billion from Asian equities in October on AI, cash burn woes - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYlI4cExzX3Fsb05fRlR3WXl6TS1YbkN0TlNueVhva045eHFyTEx5bmtlQk81OTlrZjI3LVhhQy1rRmFvRGFjeGt5cXhJVFg1V1JPa0RRV29BOUlZOEp4bVlzdHB4QlBvejFKVHVvM2t2LXhpT01GOUVnc0hhWG9idDBJRTR3SGI3UzFqZXpzb3hJbEtMLXF3T3AwdktCdXlfeE9FZkNuRWg2X0tMLTdNaTRRMkM3cUdoemljMWlsam0wdWJF?oc=5",
+     "published": "Wed, 11 Nov 2026 07:32:00 GMT"
     },
     {
      "title": "EXCLUSIVE: Anthropic eyes $1.4 trillion IPO valuation in test of Wall Street's AI fervor - Reuters",
@@ -44,9 +64,9 @@
      "published": "Tue, 10 Nov 2026 02:42:00 GMT"
     },
     {
-     "title": "Australia to mandate AI breach reporting, create regulator after OpenAI breach - Reuters",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZVJXX0F6amhIRlpRZGpsTmNHenBVYndTci03aEFma05jOHYtNElITWF6TnVscnNfTndvaHFjeEVHNTRfSGZubWxESVlLQ295RWNCb3ZWMmpBdDJ0aVNYYktyb1RVTVRaZTFQVmRORXZ2TmpfakRQWm1aNGdlS0J3d3pENXc3NmNoSDN4Rms4UDNkYzFLNkFBSjJJSHRoNUhhYktVNl9XYmdNdFZVNjdTdk9YQlR4bDRpcmc?oc=5",
-     "published": "Tue, 10 Nov 2026 01:30:00 GMT"
+     "title": "Banks seek to rein in soaring AI agent costs, McKinsey says - Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWlk5SWg5U2ZDeExQOUMycHJsMWoycHpLYWY2S2Ntc3RhZllRcTBFTnpQSlU1eF96emQ3S1VRRFoybFdBaHZvR1k4TmFDd19uT3huaElhUzhmaUtlTW1LaEZjSmZCbENrenRkNzJjMlZwcDN6QW1zc2hHUFYtbHJJYTZWV09yRHllSWtmZ1ZNa1FEZ1NyYVdiRFdibi1OOURTLWpXSGhNRnE?oc=5",
+     "published": "Tue, 10 Nov 2026 13:32:52 GMT"
     },
     {
      "title": "US power demand to beat record highs in 2026 and 2027 as AI use surges, EIA says - Reuters",
@@ -54,34 +74,14 @@
      "published": "Tue, 10 Nov 2026 18:13:43 GMT"
     },
     {
-     "title": "Nvidia spy allegations likely to spur laws to tighten China's access to AI chips - Reuters",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPd3I1WGxHazNEeGdYc1VaNnZPbWZwN2xOQjVRZFhEbHBXVU9iYUNxQzRpZ0wtaktjcjV5NHFBNDgyWTN5OEkyRlcwMFhEbFRSZTc3ZUhjbm5nRkFrRmNQQnlIWk5WeE5RYWNPbDZlLWFWdkhuY1puVDNqaFVySUN6WWRoUWxOaDJYNGtPRVZncGh6cENyNjU5NkVSU3VnTFM3d29iOE9LZGp5TTlKclhiVUtfUzZKMWwwdnVOZ2Y2SF9PaEUt?oc=5",
-     "published": "Mon, 09 Nov 2026 22:04:30 GMT"
-    },
-    {
      "title": "AI debt faces pressure as Democrats prepare to take over Congress - Reuters",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOalJvYkZzQXhzZ2pHSFo5c2Jfb0VfZVpNNXpHZEE5dkxUM0lUYmdEeG1rbUNzV1JWbzNwMnBwSGNTeHZjS3p4TEVzTDBVSnNQbG5oUG1GTW82VVBsaXA4dTFHVnVkZUpJVFprQVhXbG9kZjUzTUgwaDFhMTYwYlBfTVJJakc2Q0h5eWc4Z1FEOTM1Y1lmUW56Qzd5SkY2cXhtZlFNb1NQVXpBOVJkc2JqTTduQ2dfQQ?oc=5",
      "published": "Tue, 10 Nov 2026 17:30:28 GMT"
     },
     {
-     "title": "Chipmakers warn AI demand is creating bottlenecks in automotive supply chain - Reuters",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOVN4MWROczZhcW1yVTF2UWdCbGVPSzRETkh5Z1FZeFFSSl90R2RIYThoWEJ6YTNKa3VmYURjZWpjakp6QXJGcFFPbVlNT2xEbjhubDF3VzBDSWlkUGY1TjdkRVZna2Z6VElUazJPd3U2M1BTdUlhNHhITXQ0RmQ4ZWthSEd5SmdVME9nS1h0d3RmQzdIU2lZVl9wd2dKU2hmZWpoUEN6MnBsNUp6QkRxd1FnMk9ObFNray1GaVB5dnRSM1lHc3M2TXBOMW83M2FvZkJ1NjBn?oc=5",
-     "published": "Tue, 10 Nov 2026 13:45:35 GMT"
-    },
-    {
      "title": "Nvidia-backed AI cloud firm Nscale considers delaying $35 billion listing, the Telegraph reports - Reuters",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM2JDSnc0eHpoTTFObmZLaDNpR0EzZU1LQ3N5blRUNW01bmZsZG5mT0NsWXRGeEdSMWd5WlNjNWhwcm9wdi1JWnVVUUhMelh1Y0V4ZU1kV0djVE1LVVlualNFa2tRYTVwWHJZdWQwSEhzSlRSOE1EaWM3NlR6WGVJT1JQOUd4UFMxNzl6eWZEZ2FqRmZhQnZjMzJwWm12QTRYZ1BCSWNNVjdVQTZ3RUlHSVNvRGlqTkFxRXFiNFBiVzkyRms?oc=5",
      "published": "Tue, 10 Nov 2026 20:18:29 GMT"
-    },
-    {
-     "title": "VIEW Anthropic's $1.4 trillion IPO bid sets up high-stakes test for AI market - Reuters",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWDNuV0ZtNUJSM09SdnhpOUNHcnJkU05iSHFPSUJicXNBLUI0aGVyODlnaThFZ2huUlJqZWpYSklNclJkOU1hdmFyeG5URzB5R3kxUTNTekd2Q0s2eEVEaHJETGVRNS1oVjFTMXdBaTBDYk9vUHM0cGp1Ykp4akRwUThxd0NYVHNnVEV5OVdZWEtVRDZDb1VJVjN5ZUlpVFZYLVV6VmdyQnl1OUVPUGxmWWRkQ2hzc3dRN1dnUVZfNA?oc=5",
-     "published": "Tue, 10 Nov 2026 13:43:22 GMT"
-    },
-    {
-     "title": "Alibaba AI chip unit T-Head files for Hong Kong IPO - Reuters",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR19pRkVFTE5nSE5tQkhjZGpqT09XM2x2VE9rLTlWbTExRU9sVEVjTUlDQkZHU2MwNmdTTm5RY0dQNDEyQjBDVGNMeWY2VGxXUV9hTjROOWl2VF9abWYwRmZfVGNVeVlRX0VZS1d3cl84QmVJdElBMXJDc2Z6blE0dGswakhsclRRX3RCZ18zZjNicUVxSmlNVFloRHcyVG8xV3d2ZTRaSGJmR3hFNGJEMHJBR3pKT3J6MVljQlhZX1FIU3UwMUM0S1lB?oc=5",
-     "published": "Tue, 10 Nov 2026 13:47:00 GMT"
     }
    ]
   },
@@ -149,6 +149,11 @@
    "ok": true,
    "via": "rss",
    "items": [
+    {
+     "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+     "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+     "published": "Wed, 11 Nov 2026 07:30:51 +0000"
+    },
     {
      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
      "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
@@ -218,11 +223,6 @@
      "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
      "link": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
      "published": "Tue, 10 Nov 2026 14:00:00 +0000"
-    },
-    {
-     "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
-     "link": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
-     "published": "Tue, 10 Nov 2026 13:30:00 +0000"
     }
    ]
   },
@@ -256,11 +256,6 @@
      "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
      "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
      "published": "Tue, 10 Nov 2026 12:15:32 +0000"
-    },
-    {
-     "title": "Claude Code is accidentally exposing secrets all over GitHub",
-     "link": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
-     "published": "Mon, 09 Nov 2026 17:24:26 +0000"
     }
    ]
   },
@@ -269,18 +264,7 @@
    "source": "MIT Technology Review (AI)",
    "ok": true,
    "via": "rss",
-   "items": [
-    {
-     "title": "The backlash about data centers might really just be about electricity",
-     "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-     "published": "Mon, 09 Nov 2026 19:35:33 +0000"
-    },
-    {
-     "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-     "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
-     "published": "Mon, 09 Nov 2026 17:05:43 +0000"
-    }
-   ]
+   "items": []
   },
   {
    "group": "global",
@@ -304,14 +288,9 @@
      "published": "Tue, 10 Nov 2026 20:46:23 GMT"
     },
     {
-     "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2, pairing new, record-high benchmarks with 20% API cost reduction - VentureBeat",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPN0VKa1ZLaWtOam8yMHotUVNoUE84dmVtYmJ4dW1XbFZZY1MxcmRhNU5jUHV5dkVINE5ERVdNdzE0TmlDdEJhcjhxZEw2TmtpUWRuVU1yb0M0cjhTQjBQaGRQUHplUjZyZDBrSUtQOWhWc1B4aTBqUlVUNUhsaUpfaXg1M1ptc1d6aTJxcEVPaFlMaDZBWnBLZzFCc1JNX2NlU2J2TWFiNXZ5M3lzSmVLRDJuXy0zUzAwLU1scGdjUFpjd3RqLTZPS3I1UmxpOWhmRURuYUhKN2tIR2czVWY2Zg?oc=5",
-     "published": "Mon, 09 Nov 2026 19:55:04 GMT"
-    },
-    {
-     "title": "Is industry ready for physical AI? - VentureBeat",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2WW5iVnpTMGxHSU12azhWLV9TQnVHNEMzZXIwT1ZJa25GR19BLVY3TXVlc1dHMno4OEhlR2ZhYjhTTGpYcS1fUDZxdl9MX3RVV05oVkZmS2htczhfQTl0UDc2SWhqNks0YlR4ellQRF8?oc=5",
-     "published": "Mon, 09 Nov 2026 18:37:14 GMT"
+     "title": "Meituan releases the open weights of its LongCat-2.5 LLM with vision under a permissive MIT License - VentureBeat",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORVVfbE1oRVBXUE9UbEVsLUlYUVJHdEFTV0xXX0pzUjM3OEI5RlVmZW5DOHYxY0xxTUlLbnhySXBsVDcxMmVzeE84UjhaaUVfOVEwbnFGdHRxcHFlVFhON0xualpxWFhOdVhQQVlXSTgxYVRkbmZNUkhHb0k4MHJXYjlZMHpyR1RjLWxSMDYyclZtWkNnVzVzSFJZMWYzWlBVejVCMWFReUY5a21NbEFOUVQ4NjNDZGp2WGJtZUFZNXYyY0pBUm13NWJCYmpiYUU?oc=5",
+     "published": "Mon, 09 Nov 2026 23:04:46 GMT"
     },
     {
      "title": "Why more GPUs and tokens don’t guarantee better AI agent outcomes - VentureBeat",
@@ -334,11 +313,6 @@
      "published": "Tue, 10 Nov 2026 02:10:20 GMT"
     },
     {
-     "title": "Meituan releases the open weights of its LongCat-2.5 LLM with vision under a permissive MIT License - VentureBeat",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORVVfbE1oRVBXUE9UbEVsLUlYUVJHdEFTV0xXX0pzUjM3OEI5RlVmZW5DOHYxY0xxTUlLbnhySXBsVDcxMmVzeE84UjhaaUVfOVEwbnFGdHRxcHFlVFhON0xualpxWFhOdVhQQVlXSTgxYVRkbmZNUkhHb0k4MHJXYjlZMHpyR1RjLWxSMDYyclZtWkNnVzVzSFJZMWYzWlBVejVCMWFReUY5a21NbEFOUVQ4NjNDZGp2WGJtZUFZNXYyY0pBUm13NWJCYmpiYUU?oc=5",
-     "published": "Mon, 09 Nov 2026 23:04:46 GMT"
-    },
-    {
      "title": "Synthetic buyers answer with last year's opinions - VentureBeat",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRUJJNUY1V3RfUWxweXNXTDgtcWI4Qlk0NllwVDl4MUw2dTFxUUMxOTJNU19USWRQU2FKMzk3ckY2Si1ZZG5qQWtkYTlsdzhtUVRNOWJhU3ZzMHY3MGZYYVJtSkJ4QVhVRUF6WG84U2VqbzFoTXdEeE81aGFpcHZmM3RZbnRaQkVu?oc=5",
      "published": "Tue, 10 Nov 2026 18:17:00 GMT"
@@ -354,14 +328,24 @@
      "published": "Tue, 10 Nov 2026 14:00:00 GMT"
     },
     {
+     "title": "Bay Emerges From Stealth With $50M After Fortune 100 Companies Used Its Platform to Triple Autonomous AI Agent Use - VentureBeat",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS09kbXoweHJtX1BsSDIxTXp6djlsVjYtR2VjdHUySkU4d0NsY0FrQ0VPZndKZ2JTTkUyRnhaUXJ1dF9yREN1ejlKcDh2cWRzZElISnR5OGgyZElVUTFIbnEwMFotYkJXblRmYkllbkxvUUZxazBmU21kT2xVZWp1ejVLeEpkOGhCWW90UlBVT0RYTFFZamREN0dzMllqNkI3UXByVjR2RzY0UHJ2aDl5VENKREpXZ0NDYlNyQmdxRDRTZ2VwdnJydUg2eXdKVXE0SGZsdDRSMnJVS2JRQWNn?oc=5",
+     "published": "Tue, 10 Nov 2026 13:00:30 GMT"
+    },
+    {
      "title": "Finite State Raises $27 Million to Help Device Makers Fight the ‘Vulnpocalypse’ with AI-Powered Product Security - VentureBeat",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMFQ5dmVrajNmd0c3N2JFZGhXV1dOV05LcGl4WFBfWldadFBfR0lrRGxldkNOeTBZeUZaYUpQSUxIMjNGeGNCblRHeUlOU1NlOUJHWXk4QjJZMXIxbGUwMnBfdS1DU0lyMjZINGpMXzVTQ0VzYm9XMEpieTNFaHVLeldabEd2ckRaNm0xbXlGR1hSeElaNXJGN0FEM2dEYmZYdmkwdkhqZlVyM0xrczd2cGNla3NlVXpGaURVN3FXaS1md2VkMm1SbU1KbFRpN2M2NHBtTHdiRC1lUQ?oc=5",
      "published": "Tue, 10 Nov 2026 11:00:30 GMT"
     },
     {
-     "title": "Bay Emerges From Stealth With $50M After Fortune 100 Companies Used Its Platform to Triple Autonomous AI Agent Use - VentureBeat",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS09kbXoweHJtX1BsSDIxTXp6djlsVjYtR2VjdHUySkU4d0NsY0FrQ0VPZndKZ2JTTkUyRnhaUXJ1dF9yREN1ejlKcDh2cWRzZElISnR5OGgyZElVUTFIbnEwMFotYkJXblRmYkllbkxvUUZxazBmU21kT2xVZWp1ejVLeEpkOGhCWW90UlBVT0RYTFFZamREN0dzMllqNkI3UXByVjR2RzY0UHJ2aDl5VENKREpXZ0NDYlNyQmdxRDRTZ2VwdnJydUg2eXdKVXE0SGZsdDRSMnJVS2JRQWNn?oc=5",
-     "published": "Tue, 10 Nov 2026 13:00:30 GMT"
+     "title": "Orvera AI Named a Major Contender in Everest Group's Conversational AI and AI Agents in Customer Experience Management (CXM) Products PEAK Matrix® Assessment 2026 - VentureBeat",
+     "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPT19aRWFTYTZZaHZDOFRmTzdSTUxRaURRQm9SZmU3MlFoa2loNnRldEVOQUxXUVNuaFE3aXMzV2JmQ0REWUNzUnNqc1pkYmVhMGJyWnl6dDdRa3dMdTVvRmJmVEliNFRENWpRREdnb0ZWZ2IwNEIwa3NDSWlHUXVheldVYlB4UEhxS0FCcUdpU2JvYTFXMU85MnFhX1draDdJQ0daS2RWN2U2cXNGZ1hhOWdBaF8xb3Z2UE1mNU45Y0k0c1J3cE84UnJram9JOXVhcXBaVGMzQkg1RzlRc1VyUEpnX3pqeTRGX1JEbUw3OVF2RHpLalU0TGdpOUdoeGhLWk1IeUNBajZ6WTFiYlplNjhkMzBweGFtWnF3?oc=5",
+     "published": "Tue, 10 Nov 2026 15:15:30 GMT"
+    },
+    {
+     "title": "Meta’s proprietary Muse Ember nearly matches Claude Haiku 5.5 at 1/3 the estimated per-task cost - VentureBeat",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWjU1RHJ4d2JfWk5VNXNzR2hCYU5WSXBxU0hUV3ducTRTMlMwN0pnQkdJc2V5RHhHWk95YlBDY1hmdVpHNGUzRFNBQVBJNmJmYm9URzNFLTMtcGxZb2xwY3l4M0t1UnRRbndMTEpOM3lmMjRhdDZaTlpGa0dKSDYwRVB3VDdOX3R0UjRLSUlkMF9WaU54dDVfZFNJN3I0bHNHVW1CSHFTSzIwRVNMRjVPb0tYaWpkVU44Q2hPR1NvY0lMMTAzQVJmZWp3?oc=5",
+     "published": "Tue, 10 Nov 2026 00:13:38 GMT"
     }
    ],
    "errors": [
@@ -395,14 +379,19 @@
      "published": "Tue, 10 Nov 2026 07:53:00 GMT"
     },
     {
+     "title": "TSMC is seeing 'insatiable' demand for chips, executive tells Nikkei Forum - Nikkei Asia",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObkF2Q2hidk5DelpQeXV4Q3NjOXM2Q0gzMlRzUkNhb1FqUHBHZDdSOTN4TkVXQkU1bUVCb3hzYnFYQmY5eDBNeW4xVU9WcGVTNHBvZnRiaW03OTYyUTRmSnR2TURSRXhlMTc5UVh3R1BHYkJaa2dVYlhKLVV6NV8zd3k0NzRoam1WajZ0MFRJNERoeHlkeTIzTzM4WVYwTmIzMW9CbzFxUGJSSDJLWmNHYlNJbGlGemVOdFhYa2NHR1NNZGY3VDFBSmdESkVGU1J2R0NHZ1E2VUhpeF9sQjZSWTVENWZTUndYLXEzRjJkR1hRZUZ4RkNB?oc=5",
+     "published": "Tue, 10 Nov 2026 23:15:00 GMT"
+    },
+    {
+     "title": "Singapore's Sea targets AI boom with asset-light cloud services push - Nikkei Asia",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZE5laTlfTVNSVlc4VmNwYTN6SzNSX21QUVFBOFd6RHlpYlJ0bHhWYVBuaGJMNjBEenRXc3NlTFNtbmxnMmhTVDJzQzJlVWt5N1ZCZFJEZ055MWdpcEY2aE9YZW11clRLMm1uQzNfaUloQlBCNjliM19EWFVMMUVVNWQ4R2E4Wl8xTjhnbElFZXpMbmxTWHllMEVBT29fZXFpMWpFOEZvT1BfSWFucFNMd213?oc=5",
+     "published": "Tue, 10 Nov 2026 16:31:00 GMT"
+    },
+    {
      "title": "Australia plans new regulator for artificial intelligence after OpenAI hack - Nikkei Asia",
      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM2V1VXBUemdrc3RZUEVkdWhqN1paUkN0bzBhQ3BXZUQ3RU95ZFh0VExqMnM2VTg1TUtob0MyNXZpdGJyRTZhZkpzNTIxal9DTFVFUC0xUHVBUUJvd056VDhtZlZRSnl2RFNpN3p0OW83SldCVHhZZ3dscTdUeHg5eGpMMjJnUTZWYzNCSURtT0psY2I1dldZWllVRkNldEp1bFU0Y0Q2ZXAxVzVTUFVrSWJfc25jeVdJbHdqSFVvTk9uSlFsdm85YlBJTE4xWDY0cV8tLVJtdGpqbGc?oc=5",
      "published": "Tue, 10 Nov 2026 03:56:00 GMT"
-    },
-    {
-     "title": "India's electronics firms face PCB squeeze as AI demand drives up costs - Nikkei Asia",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLVJWS0JPdkNQNGZlV1h1cGRzU2VYalpfV05lYTNpU0lBdVpBZ3lzOUl0RzNKWGRwZTJiYWZJTVBXa3p5NmRlWktVeDFSWUtiVkVmbW1tV29wYmdrS3J6MTE2YnFISk9DWTVMeWUxa2IyX2xHSXNOMENGVHR5QWFxck5BSmJmaU1aQUFKUEJJeWpoTUNDaG8xMWpQMVhyRk5XMVFHMDlkMUk0WXVfWHlla2llV3lBWms?oc=5",
-     "published": "Tue, 10 Nov 2026 01:56:00 GMT"
     },
     {
      "title": "Integration among ASEAN, China, Japan, South Korea boosted by AI boom - Nikkei Asia",
@@ -410,24 +399,19 @@
      "published": "Tue, 10 Nov 2026 01:27:00 GMT"
     },
     {
-     "title": "Nikkei's Global Management Dialogue to explore AI's new paths to growth - Nikkei Asia",
-     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSlQ0YTVEWDZDUkZKbm1Mbi1VYndOQkdHOEFFMDh1aktMSUNSdG5PMTNUellMd3dMcG5qTUxXQVc1VGlWM3BlOVFUd09sMko5cWIwUTFCVnV3ZXloUlE4S1Z3XzdiNzlqczcwMjJTYUUxdkYxT0NWZDlGZG8xRGthYjJwQnFsY1lkeWlhSzA0dDBYd0JJOW9td3NWYmYxcS1JdER1c19UZFUyaG1qYlotenFnSWZnRlRwTDRjb1ZQSU5DQ1k1STg0a3lTeHRrajJzR29EUHdnVDdaQ1kyYXMwMTNxd0diaGxWOFVFcDJzMS1ITUNpZVVN?oc=5",
-     "published": "Mon, 09 Nov 2026 23:30:00 GMT"
-    },
-    {
      "title": "TSMC earmarks up to $1bn to buy Anthropic and OpenAI shares - Nikkei Asia",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX3lnNU1VVFk4T18zOEhrOVBOalRYV3BNSV9qZDhkQzZoZTdKSk4tU2lNMEd5eXc4NXlTckpIYmZvaHlfeXZ5MVI3amtRdDQyckdnTHNCWmQ5anB4YW1ZT3l6NDVNUGhnOFpQQ254SS1VUjhXckNPMzJfMFhyalh3VE8wMmZfeW4tSnZHdWN2UUVUN2J4RHEyNjBmc3pkT1BfUzlsY1lVN2ZWZ3FCdE9SZHlzU244SVBoQkpXcXBVbnNrckRt?oc=5",
      "published": "Tue, 10 Nov 2026 14:19:00 GMT"
     },
     {
-     "title": "Nikkei Asia - Business, Politics, Economy and Tech News & Analysis - Nikkei Asia",
-     "link": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFAwdncxTzZBX2g1Z0FvN2RUZjZUR2oxZEd3QnVKYjM3SlhLb1ppM0prQTJzWUxDREh6VWhVRg?oc=5",
-     "published": "Wed, 11 Nov 2026 02:51:54 GMT"
+     "title": "India's electronics firms face PCB squeeze as AI demand drives up costs - Nikkei Asia",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLVJWS0JPdkNQNGZlV1h1cGRzU2VYalpfV05lYTNpU0lBdVpBZ3lzOUl0RzNKWGRwZTJiYWZJTVBXa3p5NmRlWktVeDFSWUtiVkVmbW1tV29wYmdrS3J6MTE2YnFISk9DWTVMeWUxa2IyX2xHSXNOMENGVHR5QWFxck5BSmJmaU1aQUFKUEJJeWpoTUNDaG8xMWpQMVhyRk5XMVFHMDlkMUk0WXVfWHlla2llV3lBWms?oc=5",
+     "published": "Tue, 10 Nov 2026 01:56:00 GMT"
     },
     {
-     "title": "LG-backed Japanese startup eyes mass production of new OLED material - Nikkei Asia",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZVRKZW5JQmZSNlJqVVZidGZaU2ptdFd0cGpEaC1hZE5xbjU1YVdWUnoxYW15UGFnR0ZGTHowZU8tRGNaLUQ3UTRCQXB5ZkpuQnB0Mm1wdV8yTmJHMmJZMmxMcDI0UjFONEkwaGhWMlNpZDZubDA3YXYzSXNJYzhhVWJIbWJqNUNXUjhKT2dfTHN4V0hpdUF6NXdTdnYzVFNtejNXQzRlMlMtalg3VTRCbFlDMA?oc=5",
-     "published": "Mon, 09 Nov 2026 18:05:00 GMT"
+     "title": "Nikkei's Global Management Dialogue to explore AI's new paths to growth - Nikkei Asia",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSlQ0YTVEWDZDUkZKbm1Mbi1VYndOQkdHOEFFMDh1aktMSUNSdG5PMTNUellMd3dMcG5qTUxXQVc1VGlWM3BlOVFUd09sMko5cWIwUTFCVnV3ZXloUlE4S1Z3XzdiNzlqczcwMjJTYUUxdkYxT0NWZDlGZG8xRGthYjJwQnFsY1lkeWlhSzA0dDBYd0JJOW9td3NWYmYxcS1JdER1c19UZFUyaG1qYlotenFnSWZnRlRwTDRjb1ZQSU5DQ1k1STg0a3lTeHRrajJzR29EUHdnVDdaQ1kyYXMwMTNxd0diaGxWOFVFcDJzMS1ITUNpZVVN?oc=5",
+     "published": "Mon, 09 Nov 2026 23:30:00 GMT"
     },
     {
      "title": "3 workers die at Tata's India iPhone parts factory during maintenance work - Nikkei Asia",
@@ -435,19 +419,19 @@
      "published": "Tue, 10 Nov 2026 07:31:00 GMT"
     },
     {
-     "title": "Musk's Terafab chipmaking project lines up Japan suppliers - Nikkei Asia",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdEtqOWdyRzVQWU1vcEtVeHJpeHhkUzZPOGRYNXByT2lUakdZam15SFpJNU56VWNBb0Jyb29DSnBrY1oxYkVNZERpbmFBUXBfZ1UzVF9YODVsajlKY29MS2l2TF94RlJ5TnN4aHRkcVlKdmM3MlZ6blZ2M0hLN0h5Sk1CamUweHdzUkRfdzNYRW9NUEhnTkIzR1RzbEFqRHVKMmxLMHFlZ0JzWDVLVDNNLQ?oc=5",
-     "published": "Mon, 09 Nov 2026 19:24:00 GMT"
-    },
-    {
      "title": "Japan to include denial defense in revised security documents - Nikkei Asia",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRktKbFl5c2ptY1R0eTBNMUFEYS1Md085SW1jdU9SSS1abTgyTkpoS0ZRTkpIeVpWSkFUcHlfcG9tTllhT2ZmMXZGRHoxSUdPeVRyZkpwRE5QY2hXXzZTb2k5QnVYUnBZX0QwNW5nNHZva3hfcFhaMHA5c0Jld09QbnVuM09aUmFRSTlfVHMtOTJpLVVrbkQzbWR1MTBVT3A1TkhBLQ?oc=5",
      "published": "Tue, 10 Nov 2026 17:46:00 GMT"
     },
     {
-     "title": "China is emerging as a key testing ground for healthcare innovations - Nikkei Asia",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSmJEcFRXQ2NXY0I5SEtrbUc2Z0o4M0FPbmxidzZRbjlGMjR0NUJQcnZZT0pIeUpIbG9nNC1ETFg1Y0ZKOW0zbXJEcnBaeTY1TzZzUV9rZlZFUnFrSllSSWVScXFPOEN4ZFEtWlhSc05STlpORVdLaEROc2w5ekNsUGhWdDB4MERDV0d3RUNwNG9JOFNzb1dhTUVUNmNMeTlFeWc?oc=5",
-     "published": "Mon, 09 Nov 2026 20:05:00 GMT"
+     "title": "Kioxia leveraged product debuts in Hong Kong in first for Japan stock - Nikkei Asia",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORWdYNWIwUndSRXFlYmlFWWhxVU9uS2pXY2hISkpEOWw3UjBRVm5fd2Y0eU9SalRyMTR4d29mX0h5eERKRDV5OUE4VGxhM1IzNnd3d0YxN1dDYjV1NW9NYkpYSEdaSXNicnRyV0phQ29XdlcySUllTENCbzVhbTJZeDd2eEF1QjhPWExnQkZ1TWw3UkRURTdwb2NyVTl6bFlCRGJieDhhbTNheHdPZ1puaWhCSC1yNFdHNVVZ?oc=5",
+     "published": "Tue, 10 Nov 2026 15:19:00 GMT"
+    },
+    {
+     "title": "Democrats' midterm victory puts future of House China committee in doubt - Nikkei Asia",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObGZhMjlRbGFkc3FzTkdZNkhnYV9maWdXbFNRMnI3OFA3amJqNW5vSDZZOFJzTzA2S2lsaUtYOENDNjFFc05QeTdkbFl2aVZoNVdkY0RLa2sxb0RkYTAweGk2OFppenJLUEdCTDBxYVlxd3VTT0o3SXQ0bTdZVEo5VlhfYnRVNFU3ZHc5cWZmRExPUmoxM2syN0h0aFRIQ1VLaG16VjVWZXNfTXRaNzlGZHU1UERuSDZSeXVoeUZIMGhMWFZkN3VFR1RPakYtZE1XRUhOQlN1cGpseGRUZDZV?oc=5",
+     "published": "Tue, 10 Nov 2026 04:45:00 GMT"
     }
    ]
   },
@@ -468,14 +452,14 @@
      "published": "Tue, 10 Nov 2026 13:20:29 GMT"
     },
     {
+     "title": "Chinese dad modifies TV to quiz screen-addicted son every 10 minutes - South China Morning Post",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcjMzNG5tSl9oZkhmWHJUbmhyUkhULUxHdG45YmMwX2lfUG1HZnZZeUVHVUFnemExSDk0R0NRckQwcHdKM1pyUmpXbGR5QVBiaExYLUxReGs2RlpqQTdvRTFiamV3V3NtRFltZFRRZzlWRE0wM2ZQakFoaWJzZVNyMUVuQnpLVEk4cGNtNFgxY25ZQS04cHJZZ2x2clBiLVVvb3hfWXZMX09zQWRxNEpTS3BYTkJnTVZCaGtzbDE0QXNocTh5SlRKRUthSTZSUTNZb3JsR3BDaGVZVlBSYTAxU1ZPVXYxNlJ4dG4tRnVR0gHuAUFVX3lxTE5qU2FJbmxmOGxBTngxSDRBaDRYcTJldmUzanJ4ZmxiSFYzcTFyeHBSRWdmeklBbXEzZE1UMGdJYV9fbDQ3dC1RZlM2ZmJoZjFKMnhVRWV0dGRZbE53Y2ZVSWJqVXdaTkNad3JrWEVCU0FBZEhVU1V5VjF0YTN4NUxkSEd3ZWFtWS0xNEdOc29IMVRFZTU0UTZfZkRmMWlobVFqSkl6endUdThSY2xpbDFjeWk5VW1wN3Y0RU82bk9ZX2RvNHNyUllCUzU0alpMdjRNdXRZWFg4YXRjMjRpTzZCbTdhRXdUdlhUZ0lzZlE?oc=5",
+     "published": "Wed, 11 Nov 2026 02:11:27 GMT"
+    },
+    {
      "title": "Why is Vietnam’s To Lam in Japan? AI, chips and nuclear power - South China Morning Post",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ19Jb2V0R3BqWDZvSjFNeEx1UURzSG9zTDNHUF81NUV5ZUVyT2dEVkYteV9jbDlWWmowR1lpenk0NS1EeTJuZlNkSThhdkpmOE9EUGJiUm5hQlBCYWpwQzJIMlQ4N1JMSGpHQm9jWTVQSEpTZ3FRZWNLS2l6NXF3aHhRUnlHbVhYU1ZOQW8zWEhDcFRiWGx1SmZnbWt6RUlrNjNJQW9iMlLSAagBQVVfeXFMTjJTVF82dV9ZRXdxcHhhelE1eTAySnN2bUlIbW5LMWlNTlMtd2tvVW5sVHhBYUtSLUk0SmdpemdhbVdSV0xURWJPSDZ4N1hZRzd5NTA0TkxWclozc2RsTkxXZkxDR3JESnByZWtBbjNtLUhNZW9vWkc3U1hqRFJoX0lnN3prWU9NSERPT2Z3Q0g3c1FvSlF5T2xCR2ViQ0drdUhGcUVtYm5h?oc=5",
      "published": "Tue, 10 Nov 2026 04:12:23 GMT"
-    },
-    {
-     "title": "‘Absolutely terrifying’: China’s AI start-ups face funding chill amid tech rout - South China Morning Post",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYTdUV3hkVjhZRXV3aTBQT05tMFJVUUZEOTBWY3RGSTlJUGRIZ3BRdDdJVFhqNTRlaVQ4Smw5NU5TYXBZWTlIaEU5S1FYdXEwYzc2RGZ6MnBDUzdzNmhXcG1hRGs2cXB1VkFFZjBrSzZoa3N5WUlCLW1mTjhacEs0OEJ6NHQtN2pJWUVQVmtleG1YSEk1YkN2TEZWNnhya09vWUluX1NUWlVISm92VGU2YnZfRnZUc2RnaTFzVktTQdIBvwFBVV95cUxQZTZLdzBWWlNUZEEzd3lWdXlVTmdKOUh3NFpEdkl6OWhucTVrUV9oeElqcVUwTkhHdHZab1dxZkNOT2FzeUFfTE00NXZNRGdxQ1I5TVFfSG1EeHIyV3VRMzJtSU9laFc4NU9Pb0wtcmJVNXF6ampYV3RlTm8xNzhQZDNuQUM2Ujh1Mm5SaDN4akpGRThhOEdnWnlzakRSWGxEOXAzNzBfYmIzdDctQjFERVg0b3hvUEpQazFtY0lZNA?oc=5",
-     "published": "Mon, 09 Nov 2026 22:00:13 GMT"
     },
     {
      "title": "China’s Singles’ Day turns 18: bye coupon math, hello AI tokens - South China Morning Post",
@@ -488,6 +472,11 @@
      "published": "Tue, 10 Nov 2026 13:00:28 GMT"
     },
     {
+     "title": "Who is Alice Huang and why is her relationship with Nvidia’s CEO under scrutiny? - South China Morning Post",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUkzWURIZW9ya1Q4bzRzbGdfVm80djlqX2owYmo3c0trVWs1TVk5ei0xOHF6LWJ5akJuSU40aG5qMloxMV9HQVNTVEloTUpmT1VCUXRQbmZBY2lQWFFZenhaVlp2dFN3MUxScmVSa0tPX0JLVEJyYzlnaThKUXd0U2VfYmlZcUxxTkM5RFE0ZzJSUW1tWXUxeUdYWkc0TlZmY29UWmVXX2x0SVlkZzY3ZFZPX2Z1LW13SWfSAboBQVVfeXFMUFRXNGhISHZKU2Y4VXFCaDZXT1UwdEZfeHNiRmh0RjVjLXFZbFpIRkRKSnpieVpjQmE2WHdacHYxRWNvVUNzRjhwTWQyZUtoQ3dfY2dVX1RGM3hDTWlkV3p2U0hmZ2hnbFBKRUpiQ2Q0VVFoTXJBbDRCc05FRnRDUGo3OFdQNzNYaVpmMFU1RnZrUVRzVlV0cU5RUHhtM3dNTGdGUFRjOXU1SEk2REFVZDRZYl9id2ZndmpR?oc=5",
+     "published": "Tue, 10 Nov 2026 10:40:24 GMT"
+    },
+    {
      "title": "Could Jensen Huang’s affair become another ‘spy balloon’ saga for US-China ties? - South China Morning Post",
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNc1paTGRxcVBMRFJJbGcydk8weGF6MnNtX2hTZ3oyLVkyN2tmUGxzRGZFeUZUM2d0dnhxcmZJeG5oZTR1ZGpPSmYzbHNxeDhGUEI3ZE1BQU1idlV4SUhuclQxWWJHa09YLVJyQTlKREZEa2xqTnNhQjJBWlFKcEJUZjN4dHlEUEhxSFVwLXVBNXlQMThMOXBxeFVxUkVCTnNlbWxHbnVNdVdQNGp0eXVoUUlfWk9vazNBX1ItTnRlZHdJa3dxd2F2SmNsRVZxYlhlVDNJbUUwTdIB1wFBVV95cUxNX3o2dFVJUWxRVElPMWJwZnB0QkQwZDRtbVF1NUVXYjBra1ZzODJzb1NIbWpoSDdRa3lNSXcwc0dnNTQwNW5oUlZtblFGNDdKWEVOQ1FvajEzMDQ3Tjg5Ny1XYjBOVFphMm81OFBfSjhJMy1TSS1UdkFOalVWYzBDRzhJOFNOQkxDanQ4WHVDZVc2aFhUWWtFU1g5UUFCUTR4TnhiZ3ZvMnc3dGcyMEpKdEdZV0U4M0Zwak56bUFnb3hyWnJJczlxVS1EZ3cyVzdqbzlUMm56Zw?oc=5",
      "published": "Tue, 10 Nov 2026 15:00:11 GMT"
@@ -498,24 +487,14 @@
      "published": "Tue, 10 Nov 2026 14:30:22 GMT"
     },
     {
+     "title": "Why mainland China investors are finding better returns abroad than in Hong Kong - South China Morning Post",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMnFJSDlJaGRXUkdkcF91cU1uMVVXaUdWMnMwcGZlYTJsendveWNTUFV5b29sekU0NEgxcjJOZW9YSEkySUNBeXVDTV9zOUdmTm5kTkNoblh1UG5GS3M2dVRPcEF0QkNScVhxeXI4TDlSN1ZtTEh6cmw2QnVQdVdrN2VsSjYxcDZGMnVwNW1jOVR0LTliVlp6TVRfRlRGX0xHaGNUZ2lWYmthYmFqeTJxWkxxOHFvTHE2c00wTlVLdDhueTdiUFZJNGxaQUV1M2h6RFJCMm8xN0RPVWs?oc=5",
+     "published": "Wed, 11 Nov 2026 03:00:35 GMT"
+    },
+    {
      "title": "China’s imports outpace exports in October as trade surplus passes US$1 trillion - South China Morning Post",
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMWZWdno2R1M1NGQxZ1FoMi1PVTBsblN5Qk9Ia0hadnVKU05NbFBBbmk1U0hDRFZ2Nmg3aFE0LUxyLWdKRTlKVmt4TnB0Z3JUVzJUcFAxS1huTnluakhBMWYxM1ctb0lXWjVfZjdVN0dGRUFlb2t4cW5ra2MwQklYSTZYV1RCUkJRMTRxUWdOcmhqVW5xalp1YkhlUUFlT3ZyTXNuUTNaa202UHJiREI3RkFLM3MwUllzNkgwOE5OeVFIQnY5YkhISjdVNG8tUXBL0gHQAUFVX3lxTE1uOFJFVTFUYTI1NmUwZEt0aUdVR3J5R0N3Z0x0MXUzZ1RqaHhJN1F0eVQtTElXSDUyT1NSZlloQ3Z4Skw4WWN4M1p3clZaWlBVeDBNMmJuWU5fTFlUai1Oc0hpaFBPSzVPUi1HanN2djJIY21ieGlnczROWWQ0VHFyczhHdzBlSmJ0ci1feGVNZXp2QVRteGN3cVd5ZHpscVZkVFhZYXNKaDBweHRkRGlBMEdRV3RBX25EZnBZVzY4RDQ2TkpvcFBfR2NhZkV0dG0?oc=5",
      "published": "Tue, 10 Nov 2026 02:43:24 GMT"
-    },
-    {
-     "title": "Escaping Russia’s web: Central Asia caught between Chinese networks, US curbs - South China Morning Post",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPakE5c2x2VFZnYU5Uc3NEZ2tkRG82eWRKM2RjT21nRklTLTRxYWFGQ1UyRC1MTmYwVWpQOWMzUHNFeWVCWGhKTlJ0QXNlUFBwVW1oWDNVbk1ST2hfaWFBeVlYQ2FOR1oxUXB1ME1qZjEzTmpBRlpEbGlnaXBpM3RRd2JMT2stalp2RF81WmxnYk53ZEhSU2xQYjJOS29RUlpUdWxDMGQxTE8ydmwtdVlfczIzQ0c5bkdCVlZ0UU42Rmo4aFZpc010dlVoYmVKSnBxakJDTnlfQVTSAdgBQVVfeXFMTzMwTmRvcE5YOWlUNUZsZ2lvVXAzMDhRVERBdGJEQ1k2dWhEaDJEc3Izd3hVRFphOENmLUp2TDZGRU5IWVR0bEgtcmdNRmFBaEtsV2liNkFVS3dlaUhIeGNCR003ZEhlaFVRazBRbFV3bzMwTHpScG5jQnpiczdhaTVhTmtlMEZQcDZKdXJSVjhwaFNKd2NUbWxvM1dMRmhsZGg4LXhkTzZXZ1BNYXpXLTBnallGUHZCWTNEMDc1dGI0cVUyWENCeDZkbnFOVFFDZTE0VlBrRWdi?oc=5",
-     "published": "Mon, 09 Nov 2026 22:00:21 GMT"
-    },
-    {
-     "title": "Who is Alice Huang and why is her relationship with Nvidia’s CEO under scrutiny? - South China Morning Post",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUkzWURIZW9ya1Q4bzRzbGdfVm80djlqX2owYmo3c0trVWs1TVk5ei0xOHF6LWJ5akJuSU40aG5qMloxMV9HQVNTVEloTUpmT1VCUXRQbmZBY2lQWFFZenhaVlp2dFN3MUxScmVSa0tPX0JLVEJyYzlnaThKUXd0U2VfYmlZcUxxTkM5RFE0ZzJSUW1tWXUxeUdYWkc0TlZmY29UWmVXX2x0SVlkZzY3ZFZPX2Z1LW13SWfSAboBQVVfeXFMUFRXNGhISHZKU2Y4VXFCaDZXT1UwdEZfeHNiRmh0RjVjLXFZbFpIRkRKSnpieVpjQmE2WHdacHYxRWNvVUNzRjhwTWQyZUtoQ3dfY2dVX1RGM3hDTWlkV3p2U0hmZ2hnbFBKRUpiQ2Q0VVFoTXJBbDRCc05FRnRDUGo3OFdQNzNYaVpmMFU1RnZrUVRzVlV0cU5RUHhtM3dNTGdGUFRjOXU1SEk2REFVZDRZYl9id2ZndmpR?oc=5",
-     "published": "Tue, 10 Nov 2026 10:40:24 GMT"
-    },
-    {
-     "title": "Who is Nvidia CEO Jensen Huang’s wife, Lori, whom he cheated on? - South China Morning Post",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUk1LWmFxNS1Nb0h2alJaMlR4Q3lRU2RncTRoM2JyUTQ2V1RDTEJsSkVFX2VQdm1yZlhPd0QzLUxFdWVwOXpiamxiMWc5b0MyRVFoUjkzQW1zczBsTnE2ajRXYVhNd2JPNE83RGxjWEZNUWNiQ256UWNZbVZXbXFjZzM4TlNHXzFPcVh1dVM4T1d5cDVYOS1rVmtJYjV5UGpLOGZRSFphRUIzUXJwVkhzcm9aaknSAbQBQVVfeXFMTV9GNXpPWVh0QWJFTTc2NnFBNW9sTFM1RkpQZkJHWHgwMkduZTdaWm13UzVibjdkeVhEWGdmTnJRTWtRb1J4UkRxajdnTC1oUmgzSkJ3cGhyQS0tZDNHcE5ZdThHVjhuSHExM0RNUmFDVjJHbDFveTBVSnNBLWMxQVh6eWFKYU5UTVRNQXI5a2dKaDQ3bVgtcFU3X2FqMGlBMW4zZk8zelgtTDJQRDNWRmJpbGEy?oc=5",
-     "published": "Tue, 10 Nov 2026 07:19:28 GMT"
     },
     {
      "title": "Exclusive | Hong Kong customs targets use of astronaut Yang Liwei’s name to sell ‘space oil’ - South China Morning Post",
@@ -523,14 +502,19 @@
      "published": "Tue, 10 Nov 2026 00:30:24 GMT"
     },
     {
-     "title": "Brazil’s Lula heads to Cop31 on first trip since re-election - South China Morning Post",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVFRXR25sejdPOFY2QlR6Y3lua0FYUmFsVTU0eDhteXNfSkY3ZGk1MnhpVWVhT1VhMnFqTV9POHFVQldyZVRSOW8yc1FhdkFRbjduTlp0Z3ZxOUdSNGJ1aWVkZ2VYa1FUNEh3WlBCVUEzWUJvcC1TcUFCaHVpWnAxZGktaVNya0c0ZkJBYjB4ZjA4UU9WcGwydGRTSl92YjNqN3Y5azJtQdIBpwFBVV95cUxNYlctLWowU0tJWHZ1VlRndTRobmtwYlk2alY5RGZhQnVualRlcFlKV09rN2RkbXhqVzFJdnFTaldHbnRYSTBWUVNESjNyclFhYi1YWmJtZ0lqZy1RNVNhWFZNN1o5bkZTcEZGQzdZVGduWUxLZEc4VWZvSW5YY2JOMFFvdmdUcWhsQ2Vhb2RiTnFoMC1vMXZSN2I4eGQ4VGw4bGtjZEdIaw?oc=5",
-     "published": "Mon, 09 Nov 2026 18:53:19 GMT"
-    },
-    {
      "title": "Exclusive | Elon Musk, Michael Miebach are joining Trump at Apec. What about Jensen Huang? - South China Morning Post",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMkF1WTZmZjE1c01weFFRcDNnQ3J0Wng0Y24yMkVsaFdYR2ZORm9XeGx4cnFDLUhjMG5INE5MSTFSOXhZVTZJQXBVdnBYSk01QWlKUVVsUEYxWUJHOEExN2V6MlZVWFdjUGU4amZiRDdfcndpejVfRVdJQ3lpcVdzdjVCeTZBcy1IS1FGWVl0REtNNVpyVUR6b2VmSUJ3a2VWTXNEeHNwaFRIdkVKeFhKZzlrajNEd1BLaVpQMVhVRVV0NVFyYnVSOXNScVVZdU3SAc8BQVVfeXFMUHlTZUUwenNLUGpTdjU0XzJHLVdMdlBfYm42NUVnTXoxVHZnV2s5d2JQMG1uNDZJTmJQZWhsYlk4aGxoZ2I0MzVhN2dCVUR3ZGtWX1UtUUMyajduUWtkR1JDVU1pLW03LTl4cF9yOHdSSHZlSmRrV25VNUJuWU8ySnZ5a25lbDd1NWdMRXNnaG5ZaXZieTV6Z0RvOGllUE9jWGc2WEttRzRndkV1b3doUkdtWGppc1BnWDRVd2JBZ3hvcVd3R0xVaklmbzlSNGY4?oc=5",
      "published": "Tue, 10 Nov 2026 06:16:04 GMT"
+    },
+    {
+     "title": "Bessent urges US, China to ‘de-risk, not decouple’ as Xie points to ‘red lines’ - South China Morning Post",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ3d3YlpZeWxsVmtfdzdUYVFkVmZ4NUpuOVhwaEZIckk3UXcwRWJyQm1xMW5SMldYVTBmMjZJVHJIc3FmM3RLTllaWWxzUjFhSjR0SFVWTFpxbzlWN19DMjFhcTRRenQ2QjF0eWVEaG4xMmJTUnp1aVNBdkJuaFlVb3RJdW9SNkJLa3REVWpPRG9PWm03LUVleFJTa2IxY1NCZ09oQlJTaGF2bzlESHfSAa4BQVVfeXFMTmpHMUV4UHQtb0xGZEJHcWNEcENvclV1Mjh3QkloVDNmdWFuVjFzdWpvdzNSblJWQ3FnaXlhRk8wVHNIV3JXRjlfOW8wRTdRU1lvaGRpSk1xcFB2ODFyMzhxNHlzYmx1NVhNcW5pZUJ6SWpOVUtyQkR6d1FKZzJFRE9PVnhsejFuQ3I0Y3BzNlB6N19TT3dSSjUwT3lIN3RTa2d0LVNWR1UwazhHM3RR?oc=5",
+     "published": "Wed, 11 Nov 2026 03:30:23 GMT"
+    },
+    {
+     "title": "Minibus driver arrested for alleged drug driving while carrying passengers - South China Morning Post",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTXRUU0JnVUZ5cWlWZkRhSkxkdG1ra2t5MmdDUjFIMlpKQnVWV2V6RWFZMDg5TVp2T3BpRnBxaFRnTWVDOUdaYmxLaDVKZW91c2xMakhaTGZ6eEhZLTFORzllUGx6WXhpVjlBd2xuNUI5dHpHa3NieEwyNWNLUVpsTlRZNXlwTmZDeHV4c01va2VlUjFlaVpyaVFiT0tPZWRFd3lpMXF2RmlrTDZxNmtBTC1TYlRBV3hpTkVwQjU1X3RsNUlWdjAzVDdralZzUVBJUS1tNFowdFU2VWZwaFVN0gHfAUFVX3lxTE16cWxjZW5YUGJQSW93QUhFbGhxVG40eHJoX1VrZ1RLVzZCNGxJVmI3TXBGT1MwalUyZkhTdFhpWmNxRjhNcUw0LVFLazVNSXd3LXlZZ1B5X2NGRGtFMTdFRDBjUUloNklwUmpkVGkxV0ZJUWlVRDhtX2QtYVNzMkpyYjhudFdBWU1tY3cwMTdDS0xXMTlNeG1DTU42ZF9wLXhFUzhVN29RdlFEWmxQNHhkRDNVdXBtZW5LdXBtZzZOWG13UVZ6WmVTaUUzNW16NnV4cDRyQk15UWl2ZnMwaVE?oc=5",
+     "published": "Tue, 10 Nov 2026 06:13:44 GMT"
     }
    ]
   },
@@ -540,6 +524,21 @@
    "ok": true,
    "via": "rss",
    "items": [
+    {
+     "title": "Defence startup Mistt raises £5m to build the ‘next GPS’ for autonomous systems and AI",
+     "link": "https://sifted.eu/articles/defence-mistt-fundraise-next-gps-data-autonomous-systems-world-models/",
+     "published": "Wed, 11 Nov 2026 05:00:25 GMT"
+    },
+    {
+     "title": "Europe’s chips startups mapped: 113 companies building the hardware behind AI",
+     "link": "https://sifted.eu/articles/europes-chips-startups-mapped-113-companies-building-the-hardware-behind-ai/",
+     "published": "Wed, 11 Nov 2026 05:00:08 GMT"
+    },
+    {
+     "title": "Why Europe’s AI founders are opening accounting and law firms",
+     "link": "https://sifted.eu/articles/why-europes-ai-founders-are-opening-accounting-and-law-firms/",
+     "published": "Wed, 11 Nov 2026 05:00:00 GMT"
+    },
     {
      "title": "Mistral pushes back on new AI copyright proposals, sparking outcry from creatives",
      "link": "https://sifted.eu/articles/mistral-copyright-law-proposal/",
@@ -588,11 +587,6 @@
      "title": "EU needs only ‘very trusted partners’ on AI chips, tech chief says amid Nvidia crisis",
      "link": "https://www.politico.eu/article/eu-trusted-partners-ai-chips-henna-virkkunen-nvidia-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
      "published": "Tue, 10 Nov 2026 14:57:49 +0000"
-    },
-    {
-     "title": "Europe needs Nvidia. It’ll take more than a spy scandal to change that.",
-     "link": "https://www.politico.eu/article/europe-needs-nvidia-spy-scandal-ai-microchips-germany-jensen-huang/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-     "published": "Mon, 09 Nov 2026 22:20:06 +0000"
     }
    ]
   },
@@ -602,6 +596,21 @@
    "ok": true,
    "via": "google_news",
    "items": [
+    {
+     "title": "Sumary secures $25M to expand its accounting software across Europe - Tech.eu",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmV4RXozX1d5Qmd3R2RfZmVlRTVCQURFQUQ2em1VaWM0UUJKODl0S1c4UkJLTWNqT0JESkZjeXA2TXR1amg4Z002Mm1YQnlMQmNsVVZsb1hOTmlHV09vZlo1Tl9tRk9hM243VmZPSlVnMzB4QTl0Q3FuSkxPLWR2T0FmcFUzQXhtcW82WDl1VGltckJKRVpDZ0hn?oc=5",
+     "published": "Tue, 10 Nov 2026 07:24:36 GMT"
+    },
+    {
+     "title": "\"Admin is Europe's growth tax\": Agent F raises $4M to automate it away - Tech.eu",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb2puODVKSTg0cVZjVDYyelNSLVE3dGdRMkQ5bmF5UUx5SFVsTGIycVVleXh3bWNmZ215Y1JhbkJzX1pnRmlxMy16SHpsZkRnX3NScW10V3VJS1liaVdOVlBOQ2FkclpINWtrRjNVTzItWFhySENrVE0ydjBvQ01mQ3hTdGdZZDRVUTNyRjRWMTl6UXZBRkZJSg?oc=5",
+     "published": "Tue, 10 Nov 2026 09:03:42 GMT"
+    },
+    {
+     "title": "The future of frontend starts with the design system - Tech.eu",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVDcyWEg2bGtxYUIyY3hxVTlhMTRSMzQxbHNCWGxBQkF2cUpYY3FHZlYyajN3aURkemh3R2tkUGI1cHlwbHhWMkR1cF9JUUZQODZKVWlscHRrZ1lTMTZfSEN5NHBlWmVLMk4zMHFrdFVqSndRQkt6clI5Nmw0OUNyaV80TmRQSEU?oc=5",
+     "published": "Wed, 11 Nov 2026 07:00:19 GMT"
+    },
     {
      "title": "Elomia Health acquires Earkick to expand AI mental wellbeing platform - Tech.eu",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUmF3d1YzaGpxVXBDNkJxRldlczJNVXA2Q245ZVNfOExrdThKcVNROWpRdEs5djEySGhVcllkWEs1UHZIZTRGY1B3UE5jRkRCMGdaUGlSbHB3RHhCRkdmTURmX1dlVGE4bWQ4eENRbnRld0Zlb1VhbnJEbjJ0c1ZTSDhUcW5icHk4azE3N3cxR1VjX191VHRVb3VfRl8zZw?oc=5",
@@ -618,19 +627,9 @@
      "published": "Tue, 10 Nov 2026 13:04:42 GMT"
     },
     {
-     "title": "Sumary secures $25M to expand its accounting software across Europe - Tech.eu",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmV4RXozX1d5Qmd3R2RfZmVlRTVCQURFQUQ2em1VaWM0UUJKODl0S1c4UkJLTWNqT0JESkZjeXA2TXR1amg4Z002Mm1YQnlMQmNsVVZsb1hOTmlHV09vZlo1Tl9tRk9hM243VmZPSlVnMzB4QTl0Q3FuSkxPLWR2T0FmcFUzQXhtcW82WDl1VGltckJKRVpDZ0hn?oc=5",
-     "published": "Tue, 10 Nov 2026 07:24:36 GMT"
-    },
-    {
      "title": "Tamara Djurickovic - Tech.eu",
      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0wQjdTV3hiTUFYbG1qRi1IUFlrLUN2a3B5Q3NkQXRLOTIzd1JCM084MU9yczZJNzNQUzJkWHd5MlJfOU9EaVAxRzJ3?oc=5",
      "published": "Tue, 10 Nov 2026 08:07:24 GMT"
-    },
-    {
-     "title": "\"Admin is Europe's growth tax\": Agent F raises $4M to automate it away - Tech.eu",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb2puODVKSTg0cVZjVDYyelNSLVE3dGdRMkQ5bmF5UUx5SFVsTGIycVVleXh3bWNmZ215Y1JhbkJzX1pnRmlxMy16SHpsZkRnX3NScW10V3VJS1liaVdOVlBOQ2FkclpINWtrRjNVTzItWFhySENrVE0ydjBvQ01mQ3hTdGdZZDRVUTNyRjRWMTl6UXZBRkZJSg?oc=5",
-     "published": "Tue, 10 Nov 2026 09:03:42 GMT"
     },
     {
      "title": "Anthropic to raise $64BN in landmark US IPO - Tech.eu",
@@ -648,6 +647,21 @@
      "published": "Tue, 10 Nov 2026 16:05:10 GMT"
     },
     {
+     "title": "Czech medtech Kardi Ai raises €5.3M to advance predictive heart monitoring - Tech.eu",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWWdNM1BtZUZYcHAtb2gzQU5WWHpLOE5QcXNDRTNuUjIxc2dTNkNkOTczTHpkS21zVGRvZ29fajd1T0w4WjU1bUF1c0hCdnhubXZtamNfdkdXRlJ5Yk1FZWJDOEZEN1ZkQTJ5VDk4blhnandVS0VYZEFfZ2pKcm9jczFTT3pfX1c3NWV5RHBLQXpYdHdQOENfd3JaQnJZUm5zeWZaS0ZR?oc=5",
+     "published": "Wed, 11 Nov 2026 09:15:45 GMT"
+    },
+    {
+     "title": "Berlin freight unicorn sennder raises €228M in debt and equity - Tech.eu",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZDJySFlxVDk2Y1Vzd2N1UlFSWHlUYUNPX0dSSlRmQ0taMi1UeUROM2g4ZVlBTUw5RXN6amVnMDRNTEVRODFJZXc5YlF3Qlo1Ml9PRkl2MnV5OGVzVktKeVhlRDFEQU01TFFCLWdYYU5sT0pRaGhkMldWQkhRRXJ5b25CbnlkZWhEWkRhTl9KeEVnc1E?oc=5",
+     "published": "Wed, 11 Nov 2026 09:30:41 GMT"
+    },
+    {
+     "title": "Why do some patients respond to drugs and others don't? Switchpoint Bio raises $5.3M to find out - Tech.eu",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcmdNNTc5VGtOVGI2X21NclFGZld3dWl6VGFKMjVFM2w1NndqTWZ4WGRXWkhta2NhdFlFakkweEtoVThaeTQ5Y0JBYmZBM3h0YU1vVVQ4U1kxSjFVYkpaVjAxSUVycmF6UERrLW9Cc052TTlWMERNQ0N0NHUtQmYxd3RzWV90TFhmNVJXaFlwUFdVTmo4MzBwYXI1b0hXd1VwYlhWbktYdW9wNlA5c2VUYnFxTkxldHdWQ1RVNA?oc=5",
+     "published": "Wed, 11 Nov 2026 09:48:56 GMT"
+    },
+    {
      "title": "Mistral and N26 backer Redalpine closes $250M fund - Tech.eu",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQejhENkhJbHZUaWJqR3I2MXE1UjVBNTBBNWJESk1mRjB6Nkw4M3ZnUFJXcWRwZ1VGeXJTZXNLeVZjMGpQd2tQZ3ZiTWFZUFI0dVJtWUhQZ2hzb3Utck5KR0cwRXFaUlJ4TzJJNFR6NnhYQ25SdnV2c0c3eDM2ZVU3TXVjYw?oc=5",
      "published": "Tue, 10 Nov 2026 10:39:23 GMT"
@@ -656,26 +670,6 @@
      "title": "triPica bags €12.4M to break billing barriers in Europe's energy transition - Tech.eu",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd1ZGeHljd1ZRV3ZkTzFVdmw5bEE5bktoM1ptVV9qNmg2Szc4WWtZSkhhYjY0ZlFEcjhwU0c4YkpjcXBDSXRsZGwtc1BNaG1CRVpDeE5tVzgwNF9fMG1mX1ZGQ3FqelFqbkM4aVBMbnNzTjRCVm5jNWxPSXFJN0Vpc2FGS2U3enpqR1RFMVlfMVBCOHcweURjbng1Q2VaZzNjYlJtX3RB?oc=5",
      "published": "Tue, 10 Nov 2026 07:19:22 GMT"
-    },
-    {
-     "title": "Swiss fintech infrastructure startup Light Frame raises over $5M - Tech.eu",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT3RMR1VHa2VGaXcwUUtacTVtZFl0OHhaUzhrNTZid1MyS0Nma2NDMldnOHpkbzNvZXMwRzNBaVNPTkJsRVFUQkxYaUtjSzVfalZrUVZRSDhHRk1pSFdIaG5Ud2U2XzNBMzRvYURkaWVDTm5LV3NCa0d2Wlk3aFZFcnc2Q3ZSY0phdnRfR0laQ3d6QzIzNWc?oc=5",
-     "published": "Tue, 10 Nov 2026 06:03:04 GMT"
-    },
-    {
-     "title": "Too much research, too few startups: Noctua raises €15M to close Austria's deeptech gap - Tech.eu",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOTE0OWRjOHcwanZrNzI2X3h0X1ZadjVObzQ0dElsMVRwTFFDaWpmX0kxdEF6c0NrUDI0bWZIUVU1WDRTblZnZnNmUVNBZXB1eEFkbnUybEZDb2JnLWdnRk9RaHI0aG5XMy1XaUwxczNja2lmWGtwSkdmZFItdFNRWWJIZTZMelllbGRvUWZYV29hODE1ZVZDQ1EzWGdRMTFlem5tY282aUZzNm9PTms3OW93?oc=5",
-     "published": "Tue, 10 Nov 2026 11:19:40 GMT"
-    },
-    {
-     "title": "Efferon raises €4.3M to expand sepsis treatment technology into new markets - Tech.eu",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOalBOeVMwclY3N3B5TnZmNEx0ZFdLdjEwMHVub0l2Uktkc2dZdlpoVHVqaEVqWmowbkFYcDBpZk1zY053dzdybVYyTWVMYWJCQjl1NFdBY2lQd2Mzb0pPSzhvUG5FdldXb1ZlMVhhWG5QR2o4TFd2RHhCVmNwWTJvNVg3Sm1ZMnJQSEY0M0twR0poTS13NVUyMmdSSzlZOEdwUEZuM2RYRQ?oc=5",
-     "published": "Tue, 10 Nov 2026 11:34:23 GMT"
-    },
-    {
-     "title": "From sleeping on a Kyiv factory floor to €1M funding: Valkyrie Dynamics takes on drone warfare - Tech.eu",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOXpXeklpNVg2Zzl0VjVOU0JNNjdZOEpNb0M5cVJiMjV3WjJWMEpGcG53cWtHXzdrV0tPaDI4RXoxd1lzZnoxT2w0SHI3aGNkUVVOVzJHbWF0YnNnWHVxUVJ6eVhjQzVSUjJTS1ROZ0FjYzhza0c2WUozTnBoY3Z0V3pNRzFHU0lsbnRWTGdiVDNrQnp6b0JIYm9jd21Wb3NrejNpUFFUV0hOUklJbk1GRmNQOVRSTHdpLWNYV195cC0?oc=5",
-     "published": "Tue, 10 Nov 2026 09:03:41 GMT"
     }
    ],
    "errors": [
@@ -689,6 +683,21 @@
    "via": "rss",
    "items": [
     {
+     "title": "Anthropic’s IPO seeks up to $64.4B at a $1.4 trillion valuation",
+     "link": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation",
+     "published": "Wed, 11 Nov 2026 08:45:40 +0000"
+    },
+    {
+     "title": "Microsoft finds AI agents can be backdoored by editing under 10 neurons",
+     "link": "https://thenextweb.com/news/microsoft-lazarus-ai-agent-backdoor-neurons",
+     "published": "Wed, 11 Nov 2026 08:30:50 +0000"
+    },
+    {
+     "title": "OpenAI buys Odessia, the AI travel agent from Sonder’s founder",
+     "link": "https://thenextweb.com/news/openai-acquires-odessia-ai-travel-agent",
+     "published": "Wed, 11 Nov 2026 06:06:33 +0000"
+    },
+    {
      "title": "Zendesk moves to pay-per-result AI pricing with its new Outcome AI Platform",
      "link": "https://thenextweb.com/news/zendesk-outcome-ai-platform-pay-per-result",
      "published": "Tue, 10 Nov 2026 22:00:16 +0000"
@@ -697,31 +706,6 @@
      "title": "AI firms sign Macron’s Paris Call, but safety group says it lacks teeth",
      "link": "https://thenextweb.com/news/paris-call-ai-safety-openai-anthropic-cesia",
      "published": "Tue, 10 Nov 2026 20:15:44 +0000"
-    },
-    {
-     "title": "Nvidia board hires ex-prosecutor Joon Kim to investigate Jensen Huang",
-     "link": "https://thenextweb.com/news/nvidia-board-jensen-huang-inquiry-directors-succession",
-     "published": "Tue, 10 Nov 2026 20:10:49 +0000"
-    },
-    {
-     "title": "Nvidia says it cut off Megaspeed in 2025, but Bloomberg found later imports",
-     "link": "https://thenextweb.com/news/nvidia-megaspeed-ban-gb300-imports-bloomberg",
-     "published": "Tue, 10 Nov 2026 19:49:46 +0000"
-    },
-    {
-     "title": "Ohio State and Microsoft sign a five-year AI and cloud hospital deal",
-     "link": "https://thenextweb.com/news/ohio-state-microsoft-five-year-ai-hospital-partnership",
-     "published": "Tue, 10 Nov 2026 19:30:59 +0000"
-    },
-    {
-     "title": "OpenAI lets businesses claim ChatGPT profiles and launch their own agents",
-     "link": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents",
-     "published": "Tue, 10 Nov 2026 19:06:21 +0000"
-    },
-    {
-     "title": "Graphon Labs raises $35m to give AI agents a memory that lasts",
-     "link": "https://thenextweb.com/news/graphon-labs-35m-series-a-ai-agent-memory",
-     "published": "Tue, 10 Nov 2026 18:01:41 +0000"
     }
    ]
   },
@@ -731,6 +715,36 @@
    "ok": true,
    "via": "rss",
    "items": [
+    {
+     "title": "heise+ | Mit LibreEcho und Home Assistant: So bringt man ChatGPT auf den Amazon Echo Dot",
+     "link": "https://www.heise.de/ratgeber/Mit-LibreEcho-und-Home-Assistant-So-bringt-man-ChatGPT-auf-den-Amazon-Echo-Dot-11507744.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
+     "published": "2026-11-11T10:30:00+01:00"
+    },
+    {
+     "title": "Nahles: „800.000 Jobs werden aufgrund von KI wegfallen“",
+     "link": "https://www.heise.de/news/Nahles-800-000-Jobs-werden-aufgrund-von-KI-wegfallen-11520276.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+     "published": "2026-11-11T09:48:00+01:00"
+    },
+    {
+     "title": "Anthropic erweitert Claude um neue Büro-Anwendungen",
+     "link": "https://www.heise.de/news/Office-Offensive-Claude-erhaelt-eigene-Tabellenkalkulation-und-Whiteboards-11520210.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+     "published": "2026-11-11T09:42:00+01:00"
+    },
+    {
+     "title": "Nvidia-Aktien fallen und fallen: Microsoft zieht beim Marktwert kurz vorbei",
+     "link": "https://www.heise.de/news/Skandal-bei-Nvidia-Aktienkurs-faellt-auf-den-tiefsten-Stand-seit-Maerz-11520096.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+     "published": "2026-11-11T07:55:00+01:00"
+    },
+    {
+     "title": "OpenAI: 10 Milliarden US-Dollar Umsatz, 11 Milliarden US-Dollar Verlust",
+     "link": "https://www.heise.de/news/OpenAI-Umsatz-zuletzt-stark-gewachsen-Milliardenverluste-noch-leicht-11520086.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+     "published": "2026-11-11T07:17:00+01:00"
+    },
+    {
+     "title": "Mittwoch: US-Hitparaden wieder mit YouTube, Vorwürfe an Freundin des Nvidia-CEO",
+     "link": "https://www.heise.de/news/Mittwoch-US-Hitparaden-wieder-mit-YouTube-Vorwuerfe-an-Freundin-des-Nvidia-CEO-11520074.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+     "published": "2026-11-11T06:15:00+01:00"
+    },
     {
      "title": "Bericht: Jensen Huangs Affäre brachte Nvidia-Chips im Milliardenwert nach China",
      "link": "https://www.heise.de/news/Bericht-Jensen-Huangs-Affaere-brachte-Nvidia-Chips-im-Milliardenwert-nach-China-11520058.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
@@ -775,36 +789,6 @@
      "title": "KI-Regulierung: Macron drängt auf internationale Sicherheitsstandards",
      "link": "https://www.heise.de/news/KI-Regulierung-Macron-draengt-auf-internationale-Sicherheitsstandards-11518762.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
      "published": "2026-11-10T11:27:00+01:00"
-    },
-    {
-     "title": "Meta Muse Ember: Neues KI-Modell soll Agenten günstiger machen",
-     "link": "https://www.heise.de/news/Meta-Muse-Ember-Neues-KI-Modell-soll-Agenten-guenstiger-machen-11518746.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-     "published": "2026-11-10T11:25:00+01:00"
-    },
-    {
-     "title": "Australien verschärft KI-Regularien nach OpenAI-Angriffen",
-     "link": "https://www.heise.de/news/Australien-verschaerft-KI-Regularien-nach-OpenAI-Angriffen-11518320.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-     "published": "2026-11-10T10:03:00+01:00"
-    },
-    {
-     "title": "Alexa+: Amazons KI-Assistentin läuft jetzt auch in Deutschland im Browser",
-     "link": "https://www.heise.de/news/Alexa-Amazons-KI-Assistentin-laeuft-jetzt-auch-in-Deutschland-im-Browser-11518366.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-     "published": "2026-11-10T09:44:00+01:00"
-    },
-    {
-     "title": "heise-Angebot: betterCode() .NET 11.0: Die wichtigsten Updates und .NET in Zeiten von KI",
-     "link": "https://www.heise.de/news/betterCode-NET-11-0-Die-wichtigsten-Updates-und-NET-in-Zeiten-von-KI-11517504.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-     "published": "2026-11-10T08:00:00+01:00"
-    },
-    {
-     "title": "Dienstag: Klage wegen EU-Grenzkontrollsystem, Anthropic kauft Gasgeneratoren",
-     "link": "https://www.heise.de/news/Dienstag-Klage-wegen-EU-Grenzkontrollsystem-Anthropic-kauft-Gasgeneratoren-11518084.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-     "published": "2026-11-10T06:15:00+01:00"
-    },
-    {
-     "title": "Anthropic Claude Fable 5.2 ist günstiger, aber Tempo kostet extra",
-     "link": "https://www.heise.de/news/Anthropic-Claude-Fable-5-2-ist-guenstiger-aber-Tempo-kostet-extra-11518102.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-     "published": "2026-11-10T05:45:00+01:00"
     }
    ]
   },
@@ -820,24 +804,24 @@
      "published": "Tue, 10 Nov 2026 13:18:49 Z"
     },
     {
-     "title": "Trump: FBI ermittelt bei Affäre des Nvidia-Chefs Huang",
-     "link": "https://www.derstandard.at/story/3000000348348/trump-fbi-ermittelt-bei-aff228re-des-nvidia-chefs-huang?ref=rss",
-     "published": "Tue, 10 Nov 2026 06:08:13 Z"
-    },
-    {
      "title": "Milliarden für Gasturbinen: Anthropic investiert erstmals direkt in Anlagen zur Stromerzeugung",
      "link": "https://www.derstandard.at/story/3000000348385/milliarden-fuer-gasturbinen-anthropic-investiert-erstmals-direkt-in-anlagen-zur-stromerzeugung?ref=rss",
      "published": "Tue, 10 Nov 2026 10:58:01 Z"
     },
     {
-     "title": "Macron trommelt Gipfel zu KI-Sicherheit zusammen – USA und Konzerne unterzeichnen nicht",
-     "link": "https://www.derstandard.at/story/3000000348373/macron-trommelt-gipfel-zu-ki-sicherheit-zusammen-usa-und-konzerne-unterzeichnen-nicht?ref=rss",
-     "published": "Tue, 10 Nov 2026 09:23:40 Z"
+     "title": "Trump: FBI ermittelt bei Affäre des Nvidia-Chefs Huang",
+     "link": "https://www.derstandard.at/story/3000000348348/trump-fbi-ermittelt-bei-aff228re-des-nvidia-chefs-huang?ref=rss",
+     "published": "Tue, 10 Nov 2026 06:08:13 Z"
     },
     {
      "title": "Demokraten gewannen Midterms auch durch Anti-KI-Stimmung – der Plan für danach fehlt",
      "link": "https://www.derstandard.at/story/3000000348242/demokraten-gewannen-midterms-auch-durch-anti-ki-stimmung-der-plan-fuer-danach-fehlt?ref=rss",
      "published": "Tue, 10 Nov 2026 04:00:00 Z"
+    },
+    {
+     "title": "Macron trommelt Gipfel zu KI-Sicherheit zusammen – USA und Konzerne unterzeichnen nicht",
+     "link": "https://www.derstandard.at/story/3000000348373/macron-trommelt-gipfel-zu-ki-sicherheit-zusammen-usa-und-konzerne-unterzeichnen-nicht?ref=rss",
+     "published": "Tue, 10 Nov 2026 09:23:40 Z"
     },
     {
      "title": "Australien will nach Hackerangriff durch KI-Agenten Regeln für Tech-Konzerne verschärfen",
@@ -881,6 +865,11 @@
      "published": "Thu, 12 Nov 2026 00:00:00 GMT"
     },
     {
+     "title": "ChatGPT Plus for veterans and servicemembers",
+     "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+     "published": "Wed, 11 Nov 2026 08:00:00 GMT"
+    },
+    {
      "title": "Helping caregivers use AI in everyday life",
      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
      "published": "Tue, 10 Nov 2026 12:00:00 GMT"
@@ -896,14 +885,19 @@
      "published": "Tue, 10 Nov 2026 09:00:00 GMT"
     },
     {
+     "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+     "link": "https://openai.com/index/singapore-airlines-travel-work",
+     "published": "Tue, 10 Nov 2026 08:00:00 GMT"
+    },
+    {
      "title": "Work at the Frontier: AI’s effect on freelance work",
      "link": "https://openai.com/index/ai-effect-on-freelance-work",
      "published": "Tue, 10 Nov 2026 07:00:00 GMT"
     },
     {
-     "title": "ChatGPT Enterprise now available in AWS Marketplace",
-     "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-     "published": "Mon, 09 Nov 2026 19:00:00 GMT"
+     "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+     "link": "https://openai.com/index/cogent-security",
+     "published": "Tue, 10 Nov 2026 00:00:00 GMT"
     }
    ]
   },
@@ -919,19 +913,9 @@
      "published": "Tue, 10 Nov 2026 19:08:57 GMT"
     },
     {
-     "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 - Anthropic",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
-     "published": "Mon, 09 Nov 2026 21:04:35 GMT"
-    },
-    {
      "title": "Anthropic launches roadshow for proposed initial public offering - Anthropic",
      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51YVF6eThycm5nblZRV2ZpeDRhWUtVRi03bmxZMGNuX0pJMzUzRDFWSHh5clR6VVN1R3ZzaTNFWHNvYjRwUTNCUERQbFQ3WmFyMkxVcGpFTUpjQQ?oc=5",
      "published": "Tue, 10 Nov 2026 11:44:40 GMT"
-    },
-    {
-     "title": "Claude can design electronic prototypes from start to finish - Anthropic",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCTmk0c0tyNmVjUlFGNGlCZUtLSkxDQS13Unc1LUVXanhOVmt2a2xTLUQ2Vm5LZ2RLQnMzVUhUQXFLTVBfd1VQZi01V0ppVkZLU0VIcXNJT3V3Ul9ZSEFUS3l6S2ZLY0tHOVgxNw?oc=5",
-     "published": "Mon, 09 Nov 2026 18:58:57 GMT"
     },
     {
      "title": "Class A Common Stock 825,000,000 Shares Anthropic, PBC - Anthropic",
@@ -995,11 +979,6 @@
      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
      "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
      "published": "Tue, 10 Nov 2026 12:02:28 +0000"
-    },
-    {
-     "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-     "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-     "published": "Mon, 09 Nov 2026 19:51:47 +0000"
     }
    ]
   },
@@ -1009,6 +988,11 @@
    "ok": true,
    "via": "rss",
    "items": [
+    {
+     "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+     "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+     "published": "Wed, 11 Nov 2026 09:00:00 +0000"
+    },
     {
      "title": "Gemini Intelligence: New features, on more devices",
      "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
@@ -1072,23 +1056,31 @@
     {
      "title": "Build Enterprise Agents, Workflows & Apps in Mistral Studio - mistral.ai",
      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vb2Y2YS15S1NVQ2pMNGpPNzdkaklaQ3hHRkU4WnoySVNJNWZ0R3ZBTGFEU1pyNTB1ZmtlUmozdTJGUkJkV2ljNVZGMFA0UFlEOEg4OQ?oc=5",
-     "published": "Wed, 11 Nov 2026 02:30:56 GMT"
+     "published": "Wed, 11 Nov 2026 08:34:41 GMT"
     },
     {
      "title": "Mistral Large 4 (Le Chonk) è ora open-weight - mistral.ai",
      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14SkktZWRkOHVLZUZydDd6MjAxZkpSM2pPMGJQcmJHWTNEaksyVnJIdDY1bzZXbVA1Ym9DS2dQWDktVkpjWTQtaW1tNm5kS1g2TUdEZ2V1WGMtQU0?oc=5",
      "published": "Tue, 10 Nov 2026 02:03:44 GMT"
+    },
+    {
+     "title": "Majordome: a personal assistant that messages you first - Mistral AI Docs",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PY04tT2VGSk8wc2ZmcDBkVGd2MC1KRmZ1bXBCeExOU1l0dVhzdUE5Y0ZSbXdEckRhVjFYYlV3WVZBZ0ZWNndzaUpTTHlKenlDQ1cwdTQ1VF91YkE4TFNQckNNTkw0aGM?oc=5",
+     "published": "Wed, 11 Nov 2026 08:27:45 GMT"
     }
    ]
   },
   {
    "group": "company_newsrooms",
    "source": "DeepL",
-   "ok": false,
-   "via": null,
-   "items": [],
-   "errors": [
-    "google_news: no items"
+   "ok": true,
+   "via": "google_news",
+   "items": [
+    {
+     "title": "DeepL unveils Aure, its most lifelike Voice AI translation model yet - DeepL",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYSG4ydU5qTXhSQXdCVEp6ckxIVnJLd3l6Z0NOMXN6aG9sNllHMTZMbHpmRHVTMHdHTDNQRkFDeGNiRWd0OUkwaVJ6N0o3R1lZYmpJSS14aDhFcllXdXJDREFRTTQtU0l4bWc?oc=5",
+     "published": "Wed, 11 Nov 2026 08:04:21 GMT"
+    }
    ]
   },
   {
@@ -1098,19 +1090,34 @@
    "via": "google_news",
    "items": [
     {
-     "title": "Trump's close ties to Nvidia's Huang scrutinized after foreign intelligence concerns - The Korea Times",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNjE3ajg0TDB0a3V4VWNJekZyVTJTNlZlSDF5VUY1LVJpc3FhdnllQTNRWW53V3huOFFrZzVxTHhCd3ZIeGx1SV9BX2k2ZWJJSmptYUhVSmpIdERXWDVEZHhwbWlRYW5LcFNwcVd6LWE2MzJBeWgzeTQtQlJieFVJeVlFMElTZjBEX2xjWVhiVWp5bTF3blZUS0lZYTNIeWZUSmFFQ3dRQUpMeGlHZk5DZ3hSMHhxOEFNVFZlSXg3cVY4OWUw0gHKAUFVX3lxTE1oaGVLckFYM3prRHdnVzNJYkZGdzBYR1YzMXFvREYwS1JrVl9ZUjNYYVc4Wnk0cGNuaE05TXlQVzhTM25QNmNlUlNMRkRmOFhNaThaRmFudWw4NlRkaDdUeFJ2SlBpcE1RandNWGpmSk5xYjVWTWZzLXJJdEFKV2VlV3o4WDJ4cWE3WWlZS3NzalYwdWlnSnBrbVZMc2lrc3ZwVHU5bS14VlJhMUh0X09qSnRrd05UVUl2M2VBMkxMbkxnS25ER0t2S3c?oc=5",
-     "published": "Mon, 09 Nov 2026 18:36:00 GMT"
-    },
-    {
      "title": "'Honey trap': Nvidia spy scandal puts Korea on alert - The Korea Times",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQalpiRlhHLUlPalBSUTRUREM0SHhjMFhfT2dmaVZaMndrZVFmQjM0OHJ3U2VJR3N1cGNTbnhpUGd0dlBocnRrNW1mV2pNYW9XN1ZxcFg2THJUUjdsSHpjdEl3aU5oLU05OUJyLU4ybmd5UEZRaG1rOWhQeklvZF80eUNiNWN4dC10Ql9UR2xSaW4zVEJlQ2dzWGotZEpCaGtCU1JFalZ6WGpqb1E0V1HSAbMBQVVfeXFMT1pRWWJzNmc1Z2dYbUxXTlM0RVIxYmV0eS1obEFGbWQ4b1llRnd1Z2JCZ3lrVEpCWHBmYmR0MFpQd0dxeVhnclJ3c3hpTkwxVzZmMVh6X05qdFZtUjFBaEd3YkFvLVoxZGk2cEdMLVJrWDJxbFFnaGNmeG9BWC0wTUNYczdkV0N6ajFJeUg1MTZXTnh6aU5IV2F6c2pBbWtUWmtuS2pmY241SDhiSS1QVGJVLW8?oc=5",
      "published": "Tue, 10 Nov 2026 05:34:03 GMT"
     },
     {
-     "title": "String of drug busts shatters Korea's drug-free myth - The Korea Times",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYUFRRXduSnlMalF2SVVnNm9aWWJnM2ZZd1ZiZXBkTlpxUnN1dXlSdVRicUVIRU1NVVp3WGhYZnVfWUdBUnlwYmJ4WllWZndldlF1Yk96cDUyNDFnZ25nQlN0aFBxazVPMkU0N0VaWHNCY1BNVE9RVm9XN2c0cHNQVWZHTi1HdmdUdlZHbnotcUdrSWgtX1l6XzA3bHpwU0piYzA5VzF2UG5QeG5N0gGyAUFVX3lxTE5SS001cVB2Q2YwVUFfTDBDT1RreGVjTFVlQUU4U0thT0gtWnJFYVM1cDllMGw4VEF2c041dDN4UmsxRV9YX0w1aE0xQUR2UURKLTkzMkJkbkpFTWdFQXVfRXk1YzlMRWVESnRmQ3dQLVI4RnU4M3JubGdrenZBX1FlVWtMcmdDV25WckdVeU5ITENzRFZvd05yeEVMUHZWSEt0Z3JNc2xCcmVhNC1rUm5pekE?oc=5",
-     "published": "Mon, 09 Nov 2026 22:02:00 GMT"
+     "title": "Taiwan, China tap market rescue funds. Why won't Korea? - The Korea Times",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWhMdl9PbjJld3Z2Y2EyeVRjSFRHaURLMEFLbEZCajVZbE1oalYyNFY3c01lcFMwVjhMakNNYXlfOG5zMk9OUm0tN2ZNVjRZVy13SUVLMHNUWC1VSWpHc2R5OGJDaDhrU2NNYlI1WEZueHhkbEZNb1pSWXJYMkdGU1A2ZHRQZzZYZnJOWFNld1RPWVJtczdNSFAzWDNBZ9IBowFBVV95cUxPQ1dPR2MzSER6LUl6V2w5YjdNX2pGTDc4ZS0tMGdDQjlCazlMeWFBenpuUHFtNW9PUU9OVHd4bVJEWHhucGF0STI1a1UtdDZ6QjNyT1BydWdHTjZEWFBUcUdIRmNucXRUYmRHTTM0SkxHQmllUXNFYXp2U2RoRW95LXo5NWVSaTlrZkQwMWpKdnNScG1sSWpaa3I3Q2pheTNTbnE4?oc=5",
+     "published": "Tue, 10 Nov 2026 22:01:00 GMT"
+    },
+    {
+     "title": "Nvidia faces deepening scrutiny over China chip ties, CEO affair - The Korea Times",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTGNPaW9YNDFILUlaWkpkcUw5RmRLTTBMcHppYWRmRlpnTTRram5JVkM4Ql9TM0wtQzlGbTRlVkFfWGlXem1xR0tFd1d1ZEJISjN4SmNLbVJic2lSOHhlVFY5ZHFoWmxzazdiazJ2dUJVWTdfM203NDNmN1J5R2NrcGd2VzdiZWk0T2R2c3ZDSzdfR0tBSk14ZUNJNlItci01UUVSbVBXX3JfNWPSAbABQVVfeXFMUE5hT2d2cHR4N083QzIzRjltVTdrMXFxQ295bE9EdFUyTE0wcVppZTlXZWF2TVZ6WDV0SW4yVWFIYUV5QTZ3dlMzemotZUVPSWh2b3lsbDRteDI5cTI0bVN1YWlMbC1qaERKOFM3eXJoT3dfVE02c0MtTnNuc2RGSzVZMllKdXZkcWdCbnZRR251RE1tcjJzc25SdFAwNjIwQkJhRVowZWloc3JoaXRRelI?oc=5",
+     "published": "Wed, 11 Nov 2026 02:05:03 GMT"
+    },
+    {
+     "title": "[COVER STORY] AI glasses solve 4 CSAT math questions in 10 seconds - The Korea Times",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWkxHMmNMZy14ekZNUkRYdHF0QTRBSWdkVmxoRFNqWUVxUWJ0aTd2Vk1xOTVhT3JOYXp4T3d0eEtBcXJrOVEzLXh3aWVweVUxa2I5aWY5WEJvWFRwaWROR045bmEwazl5emRQWEJielBSM29zazh3a3ByWHZRaF9TMzlmcGhScEo2NUFZeUVMZVk4RzVBR0Rnc1Q3cnpWSktXZTBkVWxOa0Q3d2VSLTQzTVpHQXl3b044UlR2MF9CSkvSAcYBQVVfeXFMT2dtMjJtWDhCSDNnZC04aXVTUUp3T3ppdVY3SEJySWZXa3NSODlxSExYclNneFJwY09adWVqZkNJVjBuaEFUZU1USWd3NWFfTngycC1EdEkzaWtYbng4WmN5dERwdDZFTklaNFptMFJfVlE2aWFXcUNJV2dUN09TRWRrTlllZ3EzaGU3Vl9BWm9tYW5LT1E4Rk1teHRuZVl6OHU3akUzSUQyNmQyVW81UUdBWFo2bWFBR2VIZk96dEtJMEtEV0FB?oc=5",
+     "published": "Wed, 11 Nov 2026 06:19:03 GMT"
+    },
+    {
+     "title": "How Disney+'s 'The Remarried Empress' wins over Gen Z, global viewers - The Korea Times",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWE53blhrZ0JxdVIzUGhGMjVjbXlyYWVXb3pKcWJmSUM2bW5TWEdvejdzYWpyTC1mNEFpbHdMYUQxNjFydEkzRjNrcXg2bTRlT3ltazFta1RMU1JNVjlmc2RyUHNjQjRSSGZ1RHBzc2xScFp2MnFIbS1COXlTSHN2TjVueF9CbHY0UTNNMlhDS2Q0NmROdVBjWmFMci1tcGItLTRNVDhEejE4aGNNUGMxRmFza2VLYm5RdHNkWHdXMTVyZVEzZE8zSNIBzgFBVV95cUxQODRhT0U1azdxaHctR0JLX200OE9hbm1pQl9RRkFhYlQyQUVURzFzakNzQndTRkM1SlY2WWhrMnRmZWJOOTkwd2tNTDRfQUNzUnJUNWg5amlkUXM1S3J5MFVXWEdxbXRLLUJlMnpTWGhOTG5aM01jdWc0bEVfblB6TnE1NTlRUVNDSXRGSzN3RWV3SzJsdHJma1VSU1FDZ3Vwb0c4QkZwQXVFR1dDa0phV2RqeGZnMVNOVU9DMlB5cGpzTkpVT3NBUTliZ1FUdw?oc=5",
+     "published": "Tue, 10 Nov 2026 22:00:00 GMT"
+    },
+    {
+     "title": "Korea's shift toward cashless society leaves elderly behind - The Korea Times",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUWFLalhSLU14T25FUTFZakVPeGRtdEowTUZHbXlXZDIzYURSYTR4OTN4QTZsMk5MN2g0cFZpdUNTdC1kQlM0NHAzZHpMbklvVGo2Q1R0WkJEMU04RFYxOWxpZDc4ckZySERTZ183SzhWX0ZGUHJ0Z1ZwT2p1ZmxKcTl6T3NGMENBTVl4Q3lVYldUdFhDbmpPZ05KNHFVcGdxd2lTcVBrb9IBrAFBVV95cUxPc1lTcnFEcU5OMEVIWk1aWnliemdaNlBDTWFTSGlFcDJ2OUFJMk5fc1V6Y09JektSVmRLVDZwT2ZQaVh3enVQd05OWGpCZWM4WkxEZGd4VFU1ZXdoZmFRWE55TzFtZFktUzBqaDZVakw5LVAybUNTQjFMM3djMjhuS3Babk4yZGtWekJOU0dVOFhrQ3hhcHctdF8zZWdJS3owR2w4cmZ5a1FwaDNS?oc=5",
+     "published": "Tue, 10 Nov 2026 22:00:00 GMT"
     },
     {
      "title": "When a tech billionaire's private life becomes America's problem - The Korea Times",
@@ -1138,39 +1145,24 @@
      "published": "Tue, 10 Nov 2026 02:17:02 GMT"
     },
     {
+     "title": "S. Korea pledges $20 mil. to ADB fund for AI projects - The Korea Times",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTW0xczVLZWxhM0NqdlRZR3pFcEJlU2luaXl3ZmdCMGNHRUowQmhoZ2lBNmZzT0VRS3hXVGs0a3dvV1l6OF95X1V4cDB2Q3poank4b0hzME85bFZmTFJnODFzYWp3Z0RrRFJyWjBKbDZRRkY4UWZYczFEX2hYNnVJQnN1OWVDbVQ3eWtPQ3ltaVJhUWhCTWVsTGpqTjNnQlRFZGfSAaIBQVVfeXFMTU1tMXM1S2VsYTNDanZUWUd6RXBCZVNpbml5d2ZnQjBjR0VKMEJoaGdpQTZmc09FUUt4V1RrNGt3b1dZejhfeV9VeHAwdkN6aGp5OG9IczBPOWxWZkxSZzgxc2Fqd2dEa0RSclowSmw2UUZGOFFmWHMxRF9oWDZ1SUJzdTllQ21UN3lrT0N5bWlSYVFoQk1lbExqak4zZ0JURWRn?oc=5",
+     "published": "Wed, 11 Nov 2026 08:45:03 GMT"
+    },
+    {
+     "title": "AI glass technology puts Korea's exam supervisors to test ahead of CSAT - The Korea Times",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORVBuVEwyZGlmSVJDejVxOENvaHpTeEh2bEE0WnEyR2ZJWWFuelJfX3UtUW16TWhMRkJrZ19JR3FGQmpIRHBkc2hSMHEyaFUxQU9DR2NENGFyamFiY0I3d1cyMFZ2Vm5kOEZhSHAtNFQtXzRpcHZ3WGN4c0VvUWdDM0p5Vk4zMkc2Mmd5N1l0eWdpbXl3QnJUajZpdlc0RkFsbjRpUEo1MnRGUlEzRFpmN090TmRnalVITmFyaW9KOWE1LTVlSjloSWhfRWtEd9IBzgFBVV95cUxORVBuVEwyZGlmSVJDejVxOENvaHpTeEh2bEE0WnEyR2ZJWWFuelJfX3UtUW16TWhMRkJrZ19JR3FGQmpIRHBkc2hSMHEyaFUxQU9DR2NENGFyamFiY0I3d1cyMFZ2Vm5kOEZhSHAtNFQtXzRpcHZ3WGN4c0VvUWdDM0p5Vk4zMkc2Mmd5N1l0eWdpbXl3QnJUajZpdlc0RkFsbjRpUEo1MnRGUlEzRFpmN090TmRnalVITmFyaW9KOWE1LTVlSjloSWhfRWtEdw?oc=5",
+     "published": "Wed, 11 Nov 2026 07:07:03 GMT"
+    },
+    {
+     "title": "POSCO, GS team up to explore overseas AI data center projects - The Korea Times",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN2pVN2xiS1JCY1A1THNzbUR2Nm1qVmItN19JaDJKN0tvZ2VwSV9sX0xFb1RqSFNoWDBPeEtnMnlMUUxEWXQ2VWt6RUc5ZndycWZFX3RSTS1haG8tMWJ0Z3FVTm53eFR0dHl4QWstQ2ZlREEwWTYxb3FpejJCcnAybXJiMFJBX3RGTmVvTU1aNkpUNk53WC1SbEpWWVdLenh5MjdScDYzYlhJbGkyakhBMkR2aElRQi1X0gG-AUFVX3lxTFBWV0h0S0xnb2xEWkZtSTQ3T0VKQk5KYWRnRm5LOXotWjVCUWFxTUtNNmZLYUhPbENfWm0zLW9fU24yaVFELW80Tk5yM0JZLU85WHdnWE50V3h1QjNTdTVzelNmYktMYlhuRXdVdmZkSUZ4QXducmZ3b2RIbXo5VEVkU0lNOC01S0pkTFhBMWwwX3kzbTBUd01FNUhPdHVkTF9QYnFvVlExcEJWeWJrSi1kdEJhZ0pWNXVLZllNUHc?oc=5",
+     "published": "Wed, 11 Nov 2026 08:25:03 GMT"
+    },
+    {
      "title": "Korean NPU maker DEEPX's new chip wins CES Innovation Award - The Korea Times",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVmFMd1pMVEtoZlI0dnViVGplNHRhQ3ZMTHQ5RVpLRjFhYmJUSTJ4ZTRTZVFTeE4tSVpTeXk3alpiWVdpemc5eERXRl9WekJhOGc3eEhPcDBBaExfMUhBZjFiZ21sN1RfdFR4TXlXMlh3cklqd1F2ZTNIOVVqd2xvM2pGOUdCak5oT2c5b2VOcU5HNENJbzV3YmYydXhzaTVFa2ZpWnAzWElfX0ZkSHNBZUpHSHp6ZC1OZUHSAb8BQVVfeXFMUC11UDltSWdBS3k4amdMWXh4QW1vbmNQVXZIeFR4Z2hjLWQ1bEkyYnhqdk1pMU1lNDRHYmIyMHhKZHp5S1ZobmZwWDN2R2IyLW80NGwxbjZaQ21qUzlwSjV3dF9VU0Z4Z1hMamRrOU5CaG1YN3dkYTJralN1ZFQ1T2w1ZTdFVU1iSllBLUVsS1hfQ015NVNJMHJhZ3UwemRWRFBiYWNwdjg5b3VPMVAzcHVUWWRMaHI3T0REcGFHMjQ?oc=5",
      "published": "Tue, 10 Nov 2026 02:05:04 GMT"
-    },
-    {
-     "title": "Inside AI-powered fight against digital sex crimes - The Korea Times",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWjg1LUdpdXRkNE1kSTJXMVYwQWxEWHlPRTVjdXl0aTdtVGdBNEtpVGYyTVoyLWdrWEJzUk1VUzJSdzV4VTJwUE1iamNwQktmVTVRMzNiR3dvNXN5MVA3OHhRODhGUEw4RVJhZllyak5RTnF5Q0lkZzNxMHV0aDlTU3VrQnM2cTlUWDNnLUpaTUcwZzZpVnFiMlRKNU0yUEdCRlhHSHBtZDZqN3k1d1HSAbMBQVVfeXFMTm00LTc5TkpJUXpZQnN2RTdJSUdMS3lEQWIyclFDWkRrVHY2cGpYS2JuUHFzZk5QalEyam9oT1hFUmctRkNyVF9UeFBUMTljN1g5OGUtS1RUSDdzenY3aERidVNWWTl3S3d3OFROd1ppU2xyZFZ6MTVXbnV6dDRwM2RQNWVxa0ZDWW1mMUZzMml1OFkxMFJ1Y29mdTZmelFPZDh5QTFCZjhINVd1Q0lZTnMwdzA?oc=5",
-     "published": "Tue, 10 Nov 2026 07:18:03 GMT"
-    },
-    {
-     "title": "Dot-Com lessons for the AI bubble - The Korea Times",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdE4zYmNuOExLNEU0S1BzR1RYc0diNEVROU1iM1cwa3o4bkVQeFM1LWZNY3hUYU9UOFd5NnhSenJsemdXQU1ZeDVtYU9YYWdSOXFjWjNkUFhjWDVwVHpMbF9fd3kzR3lvbDR3Qy1DZGowbE5MSEVocDlEMFNZaFJmS1N6VWdfNXduX3hj0gGLAUFVX3lxTE10TjNiY244TEs0RTRLUHNHVFhzR2I0RVE5TWIzVzBrejhuRVB4UzUtZk1jeFRhT1Q4V3k2eFJ6cmx6Z1dBTVl4NW1hT1hhZ1I5cWNaM2RQWGNYNXBUekxsX193eTNHeW9sNHdDLUNkajBsTkxIRWhwOUQwU1loUmZLU3pVZ181d25feGM?oc=5",
-     "published": "Tue, 10 Nov 2026 00:40:03 GMT"
-    },
-    {
-     "title": "Anthropic eyes $1.4 tril. IPO valuation in test of Wall Street's AI fervor - The Korea Times",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQazhjVWxLSzRFQkN3VUN0SkZoUUhLR29OUzhqNXBoYVIwY0xrdDRobGJuUjBzVG1YT0tQYWFUaG5fVXhtdnlrenQwTEpabGE1cHdna3NzekpoOG1kemxsaGZLMnBLMzNJdVNRWFVBY1VHUERRdk9HQkVkb2phRFFkZGFjTElTamprd2E3MmhzWW9fcDdnNmZub0tJaklpaUpIbXUyNnBPLTk3cWstZURPM1JNRlPSAboBQVVfeXFMTmpBSlVlYXFXc2Vtcl8tNFNPU09rYm5IUVB1YV81NzJEQ0I4TnNfbTRxTlgxWFF0NHlpVWk0LUJCZzByNFJaeWlobzdDa01VWUlJU1VIMktTSnRBZUpRRU9OREZMY016ekRCZDNJRGJnSUJFWGpPT1dwdWZ5NzRaVzNQaGF5eEpOTmVkN0NnTXIwNndMWDhkZkZVaE9XbWVldncyQ1VtN0tGOExEZ3dUaWFSVXN4NFFtVEhn?oc=5",
-     "published": "Tue, 10 Nov 2026 16:27:00 GMT"
-    },
-    {
-     "title": "Korea ranks 10th place in global AI, digital competitiveness - The Korea Times",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUlhmVksxcFZvYmY4YUo3OFRma1BheHhBX29hMzlXd3F5dmZ1QVZiZTNLcDNJNFlPVjRXZmxtOFdBVlNjeXNpdGIzaUNvQ211b0EtQlZYTjVjZVpLV21kdEpsSTl4V0MtckozcVdQVTZOVWp5VllCUUpZMDJPejJxcjRfMmx5UUdFd1F3NWNtanA5Ylo2eXNPbGdLQWFiRmhjdHB6R2JHWHpKa3JqZ0lfTm5B0gGyAUFVX3lxTE9SWGZWSzFwVm9iZjhhSjc4VGZrUGF4eEFfb2EzOVd3cXl2ZnVBVmJlM0twM0k0WU9WNFdmbG04V0FWU2N5c2l0YjNpQ29DbXVvQS1CVlhONWNlWktXbWR0SmxJOXhXQy1ySjNxV1BVNk5VanlWWUJRSlkwMk96MnFyNF8ybHlRR0V3UXc1Y21qcDliWjZ5c09sZ0tBYWJGaGN0cHpHYkdYekprcmpnSV9ObkE?oc=5",
-     "published": "Wed, 11 Nov 2026 00:41:02 GMT"
-    },
-    {
-     "title": "Korea climbs 8 spots to rank 10th in global digital and AI competitiveness - The Korea Times",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVTR0djRZSG9STXF2Tlk4MkhKeVI3amJQU0Mzal9XQ3JzcXJ1MVZVX0pGblQ2Q3F1X1p6Y0NUbmZacC1sZHhMOUVxVUJMNjNfanljUmNPdlhBTzg0bDRpR2RpR0JzRW1KRzdld3g1cG9aaXNUczVMWFhaQl9IcUZodXhRc0k2YVd6X1VTWjVOSGZLNGFmNVN4Ti1EZ2liMHM5SHhzTEdNeUdabExRa2k5cklIZTBQdVVsN2tjd3ZCSll1dk84dHM2QW9TQ2VNcEnSAc8BQVVfeXFMUFU0dHY0WUhvUk1xdk5ZODJISnlSN2piUFNDM2pfV0Nyc3FydTFWVV9KRm5UNkNxdV9aemNDVG5mWnAtbGR4TDlFcVVCTDYzX2p5Y1JjT3ZYQU84NGw0aUdkaUdCc0VtSkc3ZXd4NXBvWmlzVHM1TFhYWkJfSHFGaHV4UXNJNmFXel9VU1o1TkhmSzRhZjVTeE4tRGdpYjBzOUh4c0xHTXlHWmxMUWtpOXJJSGUwUHVVbDdrY3d2QkpZdXZPOHRzNkFvU0NlTXBJ?oc=5",
-     "published": "Wed, 11 Nov 2026 02:17:03 GMT"
-    },
-    {
-     "title": "UK writer M. John Harrison wins Booker for AI-tinged apocalyptic novel - The Korea Times",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd3pmT1dsWUZ1RURJOFRraENLLUFYTm5nYlVONUFqaUYwLUxzazk0TGVmUXRwWDR4SWhEN3N5YzhDMjlweXlXOENoOHh5amtlQWgwcUx2b0JqUUg1X3Q3VGhiTTV1QlYta01lMlg5VEM3bmhKUVJ0UVhraUEyaF8waTN6QVVZUklNUS1qZmxwNFVQQ0xVZkVHckc4akEwSEJQcHdTWU4yeUtJSnoyMVBhLVo1b9IBuAFBVV95cUxPWk1oX0NLd1pQVldkZWsydGZlRHU4dEx3S2FDQVFtdklnZlhXbDBMMzVINkJNbXU1WUtvb0ltX2JBYU1TNFpNYkI3QWp3VnZoTnpuZUJuRENjTlAyX0g3OVB6N1Q1Q2xoajNWWlRxSHI0aGVCQUZDNmQxV0tNOE5EUXI2MHp6SnZsTlFpVkVSSXhrdWt3dFRlVjJqblpOSWpyclN2TmJTQTZGQ1h2WFk0b0V5Q1pueHRl?oc=5",
-     "published": "Tue, 10 Nov 2026 02:00:03 GMT"
     }
    ]
   },
@@ -1191,39 +1183,24 @@
    "via": "google_news",
    "items": [
     {
-     "title": "Stanford University offers ‘Namjooning’ course inspired by BTS’ RM - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5idS1Dd2dtcVhZY0FNLUxGYXI3WUhjT2g5ZTZVMFAzXzFaWTZjUlRfUFlUVGNxanZfRVNkNmtZb1N3NUtueDlHd3NtM3d6cEhMUWI4WTBiVQ?oc=5",
-     "published": "Tue, 10 Nov 2026 03:01:36 GMT"
-    },
-    {
      "title": "Cabinet approves wider naval operations closer to Hormuz; Assembly vote next - The Korea Herald",
      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oa3o1WWtrVGtlTUJreFBSXzNMamNQaV8xSE5SV0JoLXJpbE1GZ2k3Z3hZckplaS1EWFktbWFTeGkwRVNYY2JqejZpR3A3SzdBc0l1RUlraw?oc=5",
      "published": "Tue, 10 Nov 2026 03:04:51 GMT"
     },
     {
-     "title": "Nvidia, KAIST tackle Korean AI's data shortage - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uWDd6Z251OWhoRnJmSExtU01mTzFOMGlLNG9faUhsWERYa0V4b0xrV09sNm1QN2duZFlTbFZHVmRyUkZ4QUUxc3MtamVsRllRN1Z0OVNrcw?oc=5",
-     "published": "Tue, 10 Nov 2026 05:48:13 GMT"
+     "title": "Stanford University offers ‘Namjooning’ course inspired by BTS’ RM - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5idS1Dd2dtcVhZY0FNLUxGYXI3WUhjT2g5ZTZVMFAzXzFaWTZjUlRfUFlUVGNxanZfRVNkNmtZb1N3NUtueDlHd3NtM3d6cEhMUWI4WTBiVQ?oc=5",
+     "published": "Tue, 10 Nov 2026 03:01:36 GMT"
     },
     {
-     "title": "Ceragem wins 9 CES awards for AI wellness innovations - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vQUloZTM5MnVlcGJhY09iak9uV1k1eXNtUDF5MHJPQWFSUVYtU001d2RXaE9BeHhDT1JmOFNLSnYwTHJseXo0d3JlTGgtaG9kdDROZGktbw?oc=5",
-     "published": "Tue, 10 Nov 2026 02:38:59 GMT"
+     "title": "Korea to permit dual appointments for overseas professors in advanced technology fields - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vY29oRmZhWXFhdmhnWkMwTWJXNkN4SzA5bnozWWgyYU9GUHpuV3VzaHJFN2VoUGU1S281WnJraU5QM2FFWUhGWWNmRUluMkVZakI0OFN6WQ?oc=5",
+     "published": "Tue, 10 Nov 2026 05:41:57 GMT"
     },
     {
-     "title": "Kolmar Korea's AI lip maker wins top CES beauty award - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xSlJCcDlMQk42Q3I1ZUNKNW93Nkw0OGUwS0RLX3hNUVJxM3lvcFQ5YV9PaDRhSG5OWGJzMFE5aVhvRGdKZWdxNm5tSnN6c2lsWmpKbG90VQ?oc=5",
-     "published": "Tue, 10 Nov 2026 02:44:26 GMT"
-    },
-    {
-     "title": "Deux revives late Kim Sungjae's voice with AI for new album - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ERjFLQkhlNUZOYXlueWowR2FlUzlydVlSekVCVXd5STNhajJ3X2x5OGhJYmE2SUozeUN5c2hHbnBzR2pHUXFYZ1BmRm8tall3MXl3d3U0RQ?oc=5",
-     "published": "Tue, 10 Nov 2026 04:53:34 GMT"
-    },
-    {
-     "title": "Samsung SDI's backup battery for AI data centers wins CES award - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ldlpkLW8wRjkzUzE3NWdndUd1TUtlZTUyMk5La1BPdVE1S2tBVEUzNGpfLUwtWVhiakN2aWtDU1dJZDI4Y2lpTFJJUDNRTi1CTnlERTVNbw?oc=5",
-     "published": "Tue, 10 Nov 2026 02:44:18 GMT"
+     "title": "Samsung, SK hynix price targets diverge nearly threefold over AI outlook - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BbTNHVlZURFNuM3c5T0VrODU3VkVVWjZINjYzOFNHNENfMnhOVFdMaC1taHJlOUNTRFU5eUEyNFhfbEhrbzdqV2tiVDhOVlpubWtsUUhvbw?oc=5",
+     "published": "Wed, 11 Nov 2026 04:53:51 GMT"
     },
     {
      "title": "Innocean turns Seoul billboards into outdoor AI art galleries - The Korea Herald",
@@ -1231,9 +1208,29 @@
      "published": "Wed, 11 Nov 2026 02:31:48 GMT"
     },
     {
+     "title": "Nvidia, KAIST tackle Korean AI's data shortage - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uWDd6Z251OWhoRnJmSExtU01mTzFOMGlLNG9faUhsWERYa0V4b0xrV09sNm1QN2duZFlTbFZHVmRyUkZ4QUUxc3MtamVsRllRN1Z0OVNrcw?oc=5",
+     "published": "Tue, 10 Nov 2026 05:48:13 GMT"
+    },
+    {
+     "title": "Kolmar Korea's AI lip maker wins top CES beauty award - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xSlJCcDlMQk42Q3I1ZUNKNW93Nkw0OGUwS0RLX3hNUVJxM3lvcFQ5YV9PaDRhSG5OWGJzMFE5aVhvRGdKZWdxNm5tSnN6c2lsWmpKbG90VQ?oc=5",
+     "published": "Tue, 10 Nov 2026 02:44:26 GMT"
+    },
+    {
      "title": "S. Korea ranks 10th place in global AI, digital competitiveness - The Korea Herald",
      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01ekl5X3RoX0Fodk1tNVptcHF5MU5ZdDBfS2hzaENnVjd6YmdmTGVaZkNYaGNYbF8zOHZfbzlwbGN6OHpkVFprLTlTamNtajdtb1pObk5VZw?oc=5",
      "published": "Wed, 11 Nov 2026 00:28:30 GMT"
+    },
+    {
+     "title": "Samsung SDI's backup battery for AI data centers wins CES award - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ldlpkLW8wRjkzUzE3NWdndUd1TUtlZTUyMk5La1BPdVE1S2tBVEUzNGpfLUwtWVhiakN2aWtDU1dJZDI4Y2lpTFJJUDNRTi1CTnlERTVNbw?oc=5",
+     "published": "Tue, 10 Nov 2026 02:44:18 GMT"
+    },
+    {
+     "title": "Posco, GS Group team up to tap AI data center boom - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1rSTdEZEdoVDA1d0NjQmxSazdqbm8xU1M3MlU4c3ozUmNmNFZRRW9Walo5VlBkYnJlQVZWQ3U1VlU3YTNBemNwenhtQmpVVm1IaU5BOW45WQ?oc=5",
+     "published": "Wed, 11 Nov 2026 07:30:00 GMT"
     },
     {
      "title": "LG Energy Solution's AI cuts battery testing time to 10 minutes - The Korea Herald",
@@ -1241,29 +1238,24 @@
      "published": "Tue, 10 Nov 2026 02:28:38 GMT"
     },
     {
-     "title": "SK Group to hold CEO seminar to discuss 2027 business strategies - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81UHdlQ3E3YWlWcURwbUMwcDV4SFVfRDJOUlZmaUU2bnFRcjI3R25DaGRMcUxURVZ5T01tSzhrQjM5cW9vem1pN195enFEV09DYncxU0FXSQ?oc=5",
-     "published": "Wed, 11 Nov 2026 00:17:34 GMT"
+     "title": "Google's AI chip expansion opens new doors for Samsung, SK hynix - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mSEZqdENTY25Kd0NVWDlXSGxwSUJidmhzV2h3X2thb1RrczlJNjZJY25kbW1ZSk53WWdMZ0duSzhVXzVzTGptdV9QWXRDMGZ5MXk2NGtpdw?oc=5",
+     "published": "Wed, 11 Nov 2026 05:24:11 GMT"
     },
     {
-     "title": "Govt. to foster sensor, actuator, humanoid battery industries - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5nc0FxaUVnTlMzTHJUM0pMa3VsRUo0enlfOGZ6LThmVXd2UUlPMHcxbTNwS2xwNkR3NFM4LWYzc2RpZHJjTUsycjVkNDlJLWRZa0FZOUFKVQ?oc=5",
-     "published": "Wed, 11 Nov 2026 00:10:30 GMT"
+     "title": "Ceragem wins 9 CES awards for AI wellness innovations - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vQUloZTM5MnVlcGJhY09iak9uV1k1eXNtUDF5MHJPQWFSUVYtU001d2RXaE9BeHhDT1JmOFNLSnYwTHJseXo0d3JlTGgtaG9kdDROZGktbw?oc=5",
+     "published": "Tue, 10 Nov 2026 02:38:59 GMT"
     },
     {
-     "title": "S. Korea to launch task force to tackle disparities - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9CZUdmMnFscWxLNk9YVEx2dHVqNkRQbU50b0E0ZnhVUXRlYjZOUHpTbVA1MGVib0Q0RVBWVXBYMVlDdW16X0d0aFBBdXlULUwwZDJGd1RJYw?oc=5",
-     "published": "Wed, 11 Nov 2026 00:14:50 GMT"
+     "title": "Deux revives late Kim Sungjae's voice with AI for new album - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ERjFLQkhlNUZOYXlueWowR2FlUzlydVlSekVCVXd5STNhajJ3X2x5OGhJYmE2SUozeUN5c2hHbnBzR2pHUXFYZ1BmRm8tall3MXl3d3U0RQ?oc=5",
+     "published": "Tue, 10 Nov 2026 04:53:34 GMT"
     },
     {
-     "title": "Trump says FBI is looking at Nvidia CEO Jensen Huang's affair with alleged Chinese agent - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pbzR6MzJHQVhRMUJiOV85dU1TZGVUR0dBa3MwT1VFYlNGTkdiNHZveFZLTENmWmZRWjVzYnptV21xcmZmVndRRHFfT0xvUUJPODhfYw?oc=5",
-     "published": "Tue, 10 Nov 2026 03:45:43 GMT"
-    },
-    {
-     "title": "Thailand sets noise, water use limits for data centers - The Korea Herald",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwREtoMVByWG0wejVHVlc4ZndPaGJvTFI4U01PZ0JuWDlVcU5qUXlHN3REaU5yZ1pPcG5jMmwxUEgxOXBTcGw0cW84QV9GN3daZzZJT2czVQ?oc=5",
-     "published": "Tue, 10 Nov 2026 11:16:02 GMT"
+     "title": "Senior Seoul diplomat says crypto heists carry 'significant' intl. security implications - The Korea Herald",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE03N0ZhdUh0SFVCbzFNSUFsTkp0QVZHTHZQU3BZQlYweDMzU09hbnN1ZmpLRDlnTkJib0VVelZDS2gzaUZhZXVJb1liOXBkeWZwTkFGbVVaNA?oc=5",
+     "published": "Wed, 11 Nov 2026 06:26:47 GMT"
     }
    ]
   },
@@ -1274,19 +1266,29 @@
    "via": "rss",
    "items": [
     {
+     "title": "S. Korea pledges US$20 mln to ADB fund for AI projects",
+     "link": "https://en.yna.co.kr/view/AEN20261111009000320",
+     "published": "Wed, 11 Nov 2026 17:00:03 +0900"
+    },
+    {
+     "title": "POSCO, GS team up to explore overseas AI data center projects",
+     "link": "https://en.yna.co.kr/view/AEN20261111009300320",
+     "published": "Wed, 11 Nov 2026 16:49:14 +0900"
+    },
+    {
+     "title": "AI uncertainties after U.S. midterms 'golden opportunity' for S. Korea: 2nd vice science minister",
+     "link": "https://en.yna.co.kr/view/AEN20261111006900320",
+     "published": "Wed, 11 Nov 2026 15:19:21 +0900"
+    },
+    {
+     "title": "(News Focus) Jensen Huang scandal casts uncertainty over S. Korea's deepening AI ties with Nvidia",
+     "link": "https://en.yna.co.kr/view/AEN20261111005900320",
+     "published": "Wed, 11 Nov 2026 13:50:39 +0900"
+    },
+    {
      "title": "S. Korea ranks 10th place in global AI, digital competitiveness",
      "link": "https://en.yna.co.kr/view/AEN20261111002200320",
      "published": "Wed, 11 Nov 2026 09:16:49 +0900"
-    },
-    {
-     "title": "S. Korea employs AI to boost detection, removal of child sexual abuse material",
-     "link": "https://en.yna.co.kr/view/AEN20261110006700315",
-     "published": "Tue, 10 Nov 2026 15:00:01 +0900"
-    },
-    {
-     "title": "DEEPX's AI chip built on Samsung's 2-nanometer foundry process wins CES award",
-     "link": "https://en.yna.co.kr/view/AEN20261110006600320",
-     "published": "Tue, 10 Nov 2026 14:39:35 +0900"
     }
    ]
   },
@@ -1297,79 +1299,79 @@
    "via": "rss",
    "items": [
     {
+     "title": "메타, AI 에이전트 '뮤즈' 애플워치·웨어OS로 확대",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217278",
+     "published": "2026-11-11 17:41:19"
+    },
+    {
+     "title": "문샷, 중국서 엔비디아 최신 AI 칩 임대 정황…금융 문서 확인",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217294",
+     "published": "2026-11-11 17:33:29"
+    },
+    {
+     "title": "TSMC, 자체 칩 개발 나선 오픈AI·앤트로픽에 최대 1.3조원 투자",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217289",
+     "published": "2026-11-11 17:05:18"
+    },
+    {
+     "title": "[게시판] 패스트캠퍼스·엔비디아 해커톤서 신약개발 AI 에이전트 우승 등 단신",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217295",
+     "published": "2026-11-11 17:00:00"
+    },
+    {
+     "title": "소프트뱅크, AI 발전 설비 선주문에 5조 손실…분기 적자 9조",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217292",
+     "published": "2026-11-11 16:56:18"
+    },
+    {
+     "title": "구글, AI로 암호 약점 발견 이어 시그널 보안 검증…650만줄 증명",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217275",
+     "published": "2026-11-11 16:49:39"
+    },
+    {
+     "title": "오픈AI, 오데시아 인수하며 여행 AI 서비스 개발 본격화",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217282",
+     "published": "2026-11-11 16:29:11"
+    },
+    {
+     "title": "중기부, 2030년까지 ‘AI 유니콘 20곳·데카콘 1곳' 키운다",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217284",
+     "published": "2026-11-11 16:17:43"
+    },
+    {
+     "title": "엔스케일, 350억달러 IPO 연기 검토…AI 데이터센터 투자 불안 여파",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217290",
+     "published": "2026-11-11 16:08:02"
+    },
+    {
+     "title": "구글, AI 검색에 광고 수익성 악화…기업 인수까지 검토",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217264",
+     "published": "2026-11-11 15:49:35"
+    },
+    {
+     "title": "오픈AI, 분기 매출 13조에도 손실 14조…앤트로픽에 밀려",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217263",
+     "published": "2026-11-11 15:36:01"
+    },
+    {
+     "title": "오픈AI, 챗GPT에 기업 프로필·AI 에이전트 도입…고객 접점 확대",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217253",
+     "published": "2026-11-11 15:08:13"
+    },
+    {
+     "title": "\"편의점서 AI 아바타가 상품 추천\"...이스트소프트, 세븐일레븐과 기술 검증",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217267",
+     "published": "2026-11-11 14:43:08"
+    },
+    {
+     "title": "원프레딕트, CJ제일제당 공장 AI 팩토리 기술개발 사업 참여",
+     "link": "https://www.aitimes.com/news/articleView.html?idxno=217256",
+     "published": "2026-11-11 14:42:29"
+    },
+    {
      "title": "KT, KAIST에 AI 메일 보안 서비스 제공",
      "link": "https://www.aitimes.com/news/articleView.html?idxno=217252",
      "published": "2026-11-11 13:29:22"
-    },
-    {
-     "title": "엔비디아, CEO 스캔들에 AI 투자 불안 겹쳐…이틀간 시총 627조 증발",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217258",
-     "published": "2026-11-11 13:00:40"
-    },
-    {
-     "title": "정부, 피지컬 AI 신규 과제에 차세대 센서·액추에이터·이차전지 선정",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217250",
-     "published": "2026-11-11 11:56:00"
-    },
-    {
-     "title": "[AI리더의 서가] 파이토치로 배우는 현대 인공지능",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217031",
-     "published": "2026-11-11 09:00:00"
-    },
-    {
-     "title": "한국 디지털·AI 경쟁력, 세계 10위 도약...전년 대비 8단계 상승",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217238",
-     "published": "2026-11-11 08:05:00"
-    },
-    {
-     "title": "[11월10일] 젠슨 황 불륜 스캔들 뒤에 가려진 'AI 스파이 전쟁'",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217207",
-     "published": "2026-11-11 07:00:00"
-    },
-    {
-     "title": "챗GPT, 주요 AI 챗봇 이용량 81% 차지…클로드 급성장에도 독주",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217239",
-     "published": "2026-11-10 18:14:53"
-    },
-    {
-     "title": "텐센트도 'AI 자기 개선' 연구 본격화…미국 이어 RSI 경쟁 가세",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217232",
-     "published": "2026-11-10 17:50:00"
-    },
-    {
-     "title": "스페이스X, 텍사스에 32조 AI 데이터센터·가스발전소 건설 추진",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217214",
-     "published": "2026-11-10 17:48:19"
-    },
-    {
-     "title": "BMW, '챗GPT'로 차량 추천부터 시승 예약까지…AI 쇼핑 확대",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217233",
-     "published": "2026-11-10 17:13:10"
-    },
-    {
-     "title": "오픈AI, AI 연구용 '킬 스위치' 공개…35초 내 출력 차단",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217241",
-     "published": "2026-11-10 17:02:55"
-    },
-    {
-     "title": "소프트뱅크, 미국 AI 데이터센터 사업 재검토…중간선거 후 규제 부담",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217235",
-     "published": "2026-11-10 16:54:22"
-    },
-    {
-     "title": "디즈니, 어도비와 전용 AI 모델 공동 개발…영화·테마파크로 확대",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217221",
-     "published": "2026-11-10 16:47:29"
-    },
-    {
-     "title": "바이두, AI 연구 자동화하는 '어니 이볼브' 공개…추론 속도 6배 개선",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217240",
-     "published": "2026-11-10 16:15:00"
-    },
-    {
-     "title": "[AI 모델 신작] 가상 세계 실시간 탐험부터 22MB 이미지 분석 AI까지 6종",
-     "link": "https://www.aitimes.com/news/articleView.html?idxno=217237",
-     "published": "2026-11-10 15:58:06"
     }
    ]
   },
@@ -1380,79 +1382,79 @@
    "via": "google_news",
    "items": [
     {
+     "title": "이스트소프트, 아바타 기술 적용 'AI 메이트' 세븐일레븐 테스트 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZXzAzN2FUZ1JIZXpvY1FDZGtDN0VKcjQ2UnYwdVFhdHcyX2MwVmxvUFlsOUkxR1hQbXhkUGUwOEFPOFB0a0dKdHFVSlJudw?oc=5",
+     "published": "Wed, 11 Nov 2026 09:23:29 GMT"
+    },
+    {
+     "title": "의료AI 미래 그리는 빅테크, 글로벌 시장 뚫는 K-헬스케어 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1BREhPd2daQjIxcUo2TkhNalBXeVlwOWRyWTVySEdiYzQ0ZVRxVVRPcVg1TzdCaW50UDhIVWFhM2VxbkxiUEpmaTRDcDlpdw?oc=5",
+     "published": "Wed, 11 Nov 2026 07:30:00 GMT"
+    },
+    {
+     "title": "[경남 디지털 혁신거점] 제조업 중심지 넘어 '글로벌 피지컬 AI 선도도시'로 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JWnM1cG10Rm9KVERmSFZrNFdJQmtGdjZycFEzMS0wYXI4YktxdkhtV3YtX1BRV0Q4eXRmSlpUVUFYd1N2MVVpY3ZSaHdqZw?oc=5",
+     "published": "Wed, 11 Nov 2026 07:00:00 GMT"
+    },
+    {
+     "title": "[데이터뉴스] AI 쇼핑객 구매 전환율 역전…일반 방문객보다 90% 높아 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XS3hacjdjbWY4SE9hSWR0LV9Iem5DNFVTdDQwanA0QXlTWHp5aXgydFYydndaSjhBNFRGTGpXeHJLOUhCSExRcUh6czN6Zw?oc=5",
+     "published": "Wed, 11 Nov 2026 07:00:00 GMT"
+    },
+    {
+     "title": "[AIx소프트웨이브 2026] AI+X 투자사협의회 “AI 기업 키울 전주기 투자 생태계 구축해야” - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBRUzQ3dDJnbFlOOXlIN296ZkhycHlqa0VIVVpBZ3BYeW9aaElBQW5Yd3ZkZEFvZGIwN0Y5TmV6ZUN2OVpaOGhkdG5hZWZ6QQ?oc=5",
+     "published": "Wed, 11 Nov 2026 06:09:15 GMT"
+    },
+    {
+     "title": "미국발 불확실성에 삼성 AI 인프라 현지 전략도 '주춤'…美 미스트라, 헬릭스 자금납입 연기 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Ib0pCcDlVVlVRLWNSbzg2bEgxUmktZmxJWngwRUUtbzgyTExMWVNxTjFIUGtXdUltcHRVTFJ2ZFh3ZDlxbjRsVzlGa0VnQQ?oc=5",
+     "published": "Wed, 11 Nov 2026 07:00:00 GMT"
+    },
+    {
+     "title": "[포토] AI 앵커 디지털 휴먼 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPZk5pdlNFVWFFYW92Qk5mOE9CTVBPaEpOQ1loaFNvY3k4Q0U3NG53UVZqajV0WWlhYWJ1TDRFMlFGTzRvakZYYXRacUVPUQ?oc=5",
+     "published": "Wed, 11 Nov 2026 06:37:50 GMT"
+    },
+    {
+     "title": "[ET시론] 글로벌 AI 도시 전환의 현장 'SCEWC 2026' - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pMmFQNzFfOWM4dk9xZm55RXdOR2NVcXNwS0c3Q3YwSDhJOW9zMWpxY2pQYklERDQ3RWVDRHk1cU44TTRvX3BTVy1aOG9yQQ?oc=5",
+     "published": "Wed, 11 Nov 2026 07:00:00 GMT"
+    },
+    {
+     "title": "[기고] AI와 함께 일하는 조직, 리더십이 성패를 가른다 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6cjJoMV95VDVteWZYMTYtdEVsWUJlNlpnVUFpUXROZU5mWEtqVjNCV1RJV3Z6RV96dUhaOE9BaFBZaGtZUGJCcnp4Q19iUQ?oc=5",
+     "published": "Wed, 11 Nov 2026 07:00:00 GMT"
+    },
+    {
+     "title": "2027년 AI·ICT 화두 'AX 생산성'…성능 경쟁에서 성과 입증 시대로 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTbXF5TmEzaWxsTGZHLUNBVjlaSTk3RmVleVhvaFNCSFZJS3VvWFBmNDloWk5OaHpac1IwRFJkRzZKUDdqYWl0eG5maXFUZw?oc=5",
+     "published": "Wed, 11 Nov 2026 05:43:37 GMT"
+    },
+    {
+     "title": "[경남 디지털 혁신거점] 세계가 주목하는 피지컬 AI 대표 행사 'The NEXT AI' - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nZmZ0UjJMeXdvSmt1NzVJaU9jSXIzSjlmOENacnVnUWtWYXBWR1J1cUx6V25iZE1JbExGdDhGX1RuZF9qZTFzaV8tMHhEZw?oc=5",
+     "published": "Wed, 11 Nov 2026 07:00:00 GMT"
+    },
+    {
+     "title": "마니쉬 쿠마 솔리드웍스 CEO “AI로 제조 플랫폼 전환 가속…데이터 보호가 AI 신뢰 출발점” - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3QXdST3BEMmd2eEJZRzlzRE9rejBUYTJadzVObE5FVTNYaHcyb0I0NDhIMGxZQ2N3anl4cjYyYnJIR0gxbTZ0RVJrRXRyZw?oc=5",
+     "published": "Wed, 11 Nov 2026 07:02:53 GMT"
+    },
+    {
      "title": "AI부터 보안, 양자까지...정부·IITP 지원 'AI·ICT R&D' 우수 성과, 13일까지 대중에 소개 - 전자신문",
      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qeWJwVjcxaVlROWVFem5HTTNVWTB5NlNmeE9TaURhcDM3X3ktSnZHdGVsUzk1U1g1WWVuSDlWTGdxRFVscVhqekxXdnJWZw?oc=5",
      "published": "Wed, 11 Nov 2026 03:00:22 GMT"
     },
     {
-     "title": "[포토] AI 로보틱스 자동화 스튜디오 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UaFg3LV8zQnFYMmYwdkh4amp6UnV1b2sxVkpQZkFVNVdWTWxIN3AxSml2eXd5c3FKZ2Yxay1DOXZZUlZWTXVuU2p2bWs5Zw?oc=5",
-     "published": "Wed, 11 Nov 2026 03:49:32 GMT"
+     "title": "국립목포대 AI부트캠프사업단, AI·SW미래설계 및 진로탐색 워크숍 성료 - 전자신문",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93cWs4dkM5QVgwdmpnR2tMSng0VlRxbF82OUY3YnZ2WXBlbFc5VjUtX1UyUVB1ZUVBZngyRGpDb0VkZ3dFdzB5bFRlNjhPZw?oc=5",
+     "published": "Wed, 11 Nov 2026 06:42:40 GMT"
     },
     {
      "title": "프랑스·캐나다 등 6개국, 오픈AI·앤트로픽 등 10개사와 'AI 안전·보안' 선언 - 전자신문",
      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05NFpBNW16SkRCNGdWNnF5bU92cnk1Sy1XXzU4VmJJRDVNNkpCR1JlOTZZTUY1cmp5M1lOYWI4Wmw1S1FndnFlZzhzRnVzQQ?oc=5",
      "published": "Wed, 11 Nov 2026 00:44:08 GMT"
-    },
-    {
-     "title": "KTC, 의료 AI 보안·안전성 검증기술 성과 공개 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PUmlRRTd6RndqTmF3ZGE0WEFFbnlmdnJTQUJfWFAxaDIwU2g0QzRnb2ttLXFFRXM5T0ZJbTdHTnRvZXFIbW1qY1hyX0NxUQ?oc=5",
-     "published": "Wed, 11 Nov 2026 04:27:36 GMT"
-    },
-    {
-     "title": "한국탄소산업진흥원, 직원 주도 AI 활용으로 행정업무 개선 추진 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tXzFwWnM1TmxpS1ZMQVBCU2pzQVVVTWd2clZ3cEUydEtfanp3bWp5dEs3b0ZpZVp0WDNkejhIaWdKUnY5VWY0eTZTalJVUQ?oc=5",
-     "published": "Wed, 11 Nov 2026 02:29:59 GMT"
-    },
-    {
-     "title": "조재혁 전북대 교수, 병원 주도 의료 AI 구축 방향 제시 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MRi1fejd0dFNsa0VoTmh1NDdUNG5xVDJKUmxkemhzSEFMNmFGSGxVX3RiYWtMZ3dTeTF5UWlwZENSb1h3TnVRNWNiVVJ0Zw?oc=5",
-     "published": "Wed, 11 Nov 2026 02:31:47 GMT"
-    },
-    {
-     "title": "카카오벤처스, 'KV 인사이트풀데이' 개최…'AI 네이티브' 시대 조명 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQZ19ua0w1MXRCTjV4eC1Tanc3bnU1MmZfelc1WURhdTlUeEdPRUFzb210VzZNV3NlN0ZRMTRPVVV4Umtod3l0ekVPX2VGdw?oc=5",
-     "published": "Wed, 11 Nov 2026 00:51:52 GMT"
-    },
-    {
-     "title": "CJ올리브영, AI 쇼핑 어시스턴트 '올영 티키' 내달 출시 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05NlhXd1ZQVmRUV0lfazB6bjJwei0taHpwd21IcE04OUhJazNid1RJN3RJU05DUGRnbGw5b1BGNDFsUGM3dHpnNnBQYkFTdw?oc=5",
-     "published": "Wed, 11 Nov 2026 01:40:59 GMT"
-    },
-    {
-     "title": "대전시, 지적행정에 AI 입힌 공무원 전국 세미나 우수상 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9iNGJ0UHpKQjFWMDQxYUtQdUpmVC04RUV6Y1MxclFoY19qWURlZE5BZXAtYS1GeUtZaEtOai1ma21ock4wNDk0VHl4dng4dw?oc=5",
-     "published": "Wed, 11 Nov 2026 01:43:21 GMT"
-    },
-    {
-     "title": "“젠슨 황 외도 상대 앨리스 황, 10조원 엔비디아 AI칩 中 밀반입” - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQa1czM1NFOTdvdXViZG9reWNXQU5uV2NjNnI2ZUFrLVhlVVhGSXlGdDBONzJWTXRWMVNPTm9FeEZ0QVFPcmRjWWVJSnBwZw?oc=5",
-     "published": "Tue, 10 Nov 2026 23:42:00 GMT"
-    },
-    {
-     "title": "더픽트, 중기부 딥테크 팁스 선정…공간 AI 운영체제 개발 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBId01XY0dqQTIxdFpPZ05wX0FneEMwYTBaelpXQUpDcnJjQV9qYm81djNHS1IwNnEzUVQ0cUVPbUV2bFJUeG13TEZpRXhLdw?oc=5",
-     "published": "Wed, 11 Nov 2026 00:48:07 GMT"
-    },
-    {
-     "title": "韓 디지털·AI 경쟁력 세계 10위…전년보다 8단계 상승 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mT0Q4X2xxQi0zNG03ZTdUMmx6UDh1TFNveDlFelNVR3BMeFVFUFJ2eHBtTWYzVTB1QzFqb0NCSTJJTGs5X1F6eWRBOEdqUQ?oc=5",
-     "published": "Wed, 11 Nov 2026 01:09:24 GMT"
-    },
-    {
-     "title": "국립광주과학관, AI 특별전 '모두의 A.I.' 성료…87일간 3만 1천여 명 관람 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LVUNOZTNJQklDX3d4T1lMSTlLdEd4aHZIRHJmS2NRczAwR0ZhNkpfdHJJUFFPTXczRzF1ZWd2ZnZoRzVTV3hZdHRLWmdXUQ?oc=5",
-     "published": "Wed, 11 Nov 2026 00:18:48 GMT"
-    },
-    {
-     "title": "어드밴텍, 로보월드 2026서 피지컬 AI·로보틱스 기술 선보여 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03eGhaV29hMU1kTTZuaDNkdmEwMEwzS0dZcnFKMC03QklvQ0JLcmVrMzQ2SVJpQXRtZ0lDV05HTWM3bzIxMVdUdGVJdTZIQQ?oc=5",
-     "published": "Wed, 11 Nov 2026 00:22:41 GMT"
-    },
-    {
-     "title": "슈가스AI, DB글로벌칩과 피지컬 AI 반도체 협력…공급망·해외 판로 확대 추진 - 전자신문",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5hYW9yR1BkUnM0bm9YdGxDNVRfenVyeVZIV0JYNmhKUDd3OUJXWDBtRTh3VGJzUkljUENlRU13Z3FQXzlJZTByRGV1UjVtdw?oc=5",
-     "published": "Wed, 11 Nov 2026 00:00:00 GMT"
     }
    ]
   },
@@ -1463,19 +1465,9 @@
    "via": "google_news",
    "items": [
     {
-     "title": "상장 앞둔 앤트로픽, 최상위 AI ‘페이블·미토스 5.2’ 출시 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03YV9NbVNhR1hQdE5qOGxsWlU2X1NhVmFLN2E5a0VFb3FEMTFRNUFuTTFnZ1pnVHpkMmdtUmFnYTlscGxTZnljeDdlNmV0UQ?oc=5",
-     "published": "Mon, 09 Nov 2026 22:23:20 GMT"
-    },
-    {
-     "title": "오픈AI, 3분기 매출 100억달러 돌파…AI 성장 둔화 우려 털어내나 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tX1N1YVlkcFRWUDd1OHotQmVvOGFKMnVKUW4yR3E4N3FGMFJjTzNwQWFQWndUVnpodVFpUllkV1pZOWh5cXQ3bmZmVWF2QQ?oc=5",
-     "published": "Tue, 10 Nov 2026 22:49:42 GMT"
-    },
-    {
-     "title": "워카토·타임게이트, ‘AI 오케스트레이션’ 세미나 성료 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56dV9CNGVNUHZnOUp3NFduY3c2c1hacEI1aWxPS2k5TEtaaUFOV3QwT2JhemN6aE5fVkRMaWR6cS1CcUlqdllsOWx2eEhEUQ?oc=5",
-     "published": "Tue, 10 Nov 2026 05:49:52 GMT"
+     "title": "‘화학과 AI의 만남’…화학분야 난제 해결 나서 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oMmppR0wtZDNKaERmRVNMWE94UVFJVTFuVERIQkZ2WW5NX0hDY1E1TGhhQk15TWRGckp3cE1UYWp6dVExV2JDdUZ0eU11QQ?oc=5",
+     "published": "Wed, 11 Nov 2026 06:14:37 GMT"
     },
     {
      "title": "ETRI, AI·통신 분야 최고 전문가 ‘특임고문’ 위촉 - www.dt.co.kr",
@@ -1483,29 +1475,49 @@
      "published": "Wed, 11 Nov 2026 02:49:59 GMT"
     },
     {
+     "title": "오픈AI, 기업이 회사·상품 정보 제공하는 ‘비즈니스 인 챗GPT’ 출시 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9XNVppSzBzanJ3RUNTYWxiRTZtdUFSSmRfQnc3ZWZfZ3JjSGhSaGNXaDdLUldKeUFZZ3BCWDM5NzhWOHR1M3FhemI2Z1Zadw?oc=5",
+     "published": "Wed, 11 Nov 2026 06:07:14 GMT"
+    },
+    {
+     "title": "WATA AI ‘WATON TRACE’, CES 2027 혁신상 2관왕 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE45aUF6VWtzaVRUSEY5OExjcjZ6YkFfbTFIMVU3U1doXzR5MEFldlNpWld1bjAxSUdlLUdwZmNndC0xam1uUy1lM2lzQUlMQQ?oc=5",
+     "published": "Wed, 11 Nov 2026 02:25:12 GMT"
+    },
+    {
+     "title": "한국부동산경영학회, ‘AI시대 대응’ 학술 세미나 개최 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mbUxrOFRUVG9RelcydUV4Y0hrSWRQTVR4R2ZIY1MxREQ5QUY5b0Z3TUJCdUJmWFBRWlVKLTdPd0hPQTNJaVBMZUpPM1g4dw?oc=5",
+     "published": "Wed, 11 Nov 2026 02:34:14 GMT"
+    },
+    {
+     "title": "오픈메이드컨설팅, ‘AI SQL 튜닝 비서’ 선봬 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JWnhZQlVRMFFxdUtyNC0wUk1Vd3BYMlhNTEEzbWZzVTF1UzUxczBteThhZEFjV0RxVjhrVTNCZUZvSlB6bUFycG9jVW5IQQ?oc=5",
+     "published": "Wed, 11 Nov 2026 02:37:49 GMT"
+    },
+    {
      "title": "韓 디지털·AI 경쟁력 10위…인프라 강세 속 인재·보안 과제 - www.dt.co.kr",
      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zOHpuWXp1bmxmZ3A1b0RzUjF4VllKX2dndnlhWUFSQ1pOamdhY0NVb3A0TFl1NWJwazdpV2t4Z1hjN2V2YU50S3VNTmNndw?oc=5",
      "published": "Wed, 11 Nov 2026 00:23:55 GMT"
     },
     {
-     "title": "[기획] ‘AI 투자 자금줄’ 엔비디아 순환출자… 젠슨황 스캔들에 위태 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE91VDhmUmxrMTAxSVhJcXFISmhTcVcxTHZYYWV4TFB2TDRKUmtLSlppbHBDdjRGVTVfTlZ5N3h5NHN4NFpBTHllSElDRGJTQQ?oc=5",
-     "published": "Tue, 10 Nov 2026 00:16:56 GMT"
+     "title": "SK그룹, 12~14일 ‘CEO 세미나’…AI·리밸런싱 등 논의 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XU3ZBV3ZHci1zQWoyMFpacFZlWEY0N3hVRlI4TWlBZDctN2dob0YxRmJ5cDFvQm11UjJHNWZUa2N0SEpoUHJnQnVVUWFHUQ?oc=5",
+     "published": "Wed, 11 Nov 2026 04:30:11 GMT"
     },
     {
-     "title": "앤트로픽, IPO 앞두고 차세대 AI 공개…성능 평가서 경쟁사 압도 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpTUJYTGFXcmxaMmctVU9mMmxIVnlpaENBRHFUSEdzbUw1Y1U4MU04RC13UHlRZ0xILTF1WXR6OWkxd1NjNWZTaGZaZHM4Zw?oc=5",
-     "published": "Tue, 10 Nov 2026 06:08:31 GMT"
+     "title": "앤트로픽, IPO 몸값 최대 1조4040억달러…AI 기업 상장 새 역사 쓰나 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50ZGJWVWwzclhrTWk2enRZSUJUU0doMzI2cXNwUVc2QTFPWlV4SDNkdThia0lWX3hEeGhONTc1dXM3RjV1TUhiQVVrRXBZZw?oc=5",
+     "published": "Tue, 10 Nov 2026 22:31:25 GMT"
     },
     {
-     "title": "구글, 차세대 AI 칩 2종 공개…“에이전트 연산·보안 성능 강화” - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBCdjA0VDAzRmVWQk9PRm5GMnZpVWJVREhJdGYzMS1zbVJNZ3hVZHBubjBmTUtWMFhzaEt6WVlCS3ZjSG9waEhtSEVibHdadw?oc=5",
-     "published": "Tue, 10 Nov 2026 00:24:39 GMT"
+     "title": "오픈AI도 분기 매출 100억달러 돌파…AI 성장 둔화 우려 털어내나 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tX1N1YVlkcFRWUDd1OHotQmVvOGFKMnVKUW4yR3E4N3FGMFJjTzNwQWFQWndUVnpodVFpUllkV1pZOWh5cXQ3bmZmVWF2QQ?oc=5",
+     "published": "Tue, 10 Nov 2026 22:49:42 GMT"
     },
     {
-     "title": "무협 등 6개 기관, AI 기반 ‘차세대무역플랫폼’ 구축 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rdmhvYTRkcUdkVlJCaXNscW5PU0xpQUNIX0l1VnhxRlRnWUFtSHBWbVdzMEVpTTdpYXFrVm5ldGdFdWxZaXpyOVZiMV9IQQ?oc=5",
-     "published": "Tue, 10 Nov 2026 10:28:26 GMT"
+     "title": "알피, AI 심전도 분석 솔루션 ‘ECG Buddy-LVD’ 미국 FDA 510(k) 인증 획득 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBteGhWNUwzLVE1SWtRekRxZXZ3b21nTnhITU50RVVaYjVJR3d5ZFl4TlRjVWFDOEFSbkZZd25PZ0ZOZkZCYndVc2JqU3dWdw?oc=5",
+     "published": "Wed, 11 Nov 2026 02:27:52 GMT"
     },
     {
      "title": "서류 흔적없이…“‘中 스파이’ 앨리스황, 10조원 엔비디아 AI칩 중국 밀반입” - www.dt.co.kr",
@@ -1518,24 +1530,14 @@
      "published": "Tue, 10 Nov 2026 21:00:00 GMT"
     },
     {
-     "title": "슈어소프트테크, 네이블과 Physical AI 기술 개발 및 사업화 협력 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9uWUNaTHRtazZmTEJiM1NBVW0ycFBjMFIycnZvUUI3VkhqdGJSakNnLUNremtDcDQybE5XTGViRjdWcEYwSzNaQU91M0Fxdw?oc=5",
-     "published": "Tue, 10 Nov 2026 00:25:42 GMT"
+     "title": "무협 등 6개 기관, AI 기반 ‘차세대무역플랫폼’ 구축 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rdmhvYTRkcUdkVlJCaXNscW5PU0xpQUNIX0l1VnhxRlRnWUFtSHBWbVdzMEVpTTdpYXFrVm5ldGdFdWxZaXpyOVZiMV9IQQ?oc=5",
+     "published": "Tue, 10 Nov 2026 10:28:26 GMT"
     },
     {
-     "title": "에스티씨랩, AI 봇 공격 막는 다층 방어 체계 제공 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JZGNPbFNUQ0ZBai1yX2hqRy1YYWUzYzBua0JVUU9oLVNDdGxKNWRiOHp0MkV1cFFDcWRQbk9icXEzeUx3ZE8tWHdKelkyUQ?oc=5",
-     "published": "Tue, 10 Nov 2026 00:00:00 GMT"
-    },
-    {
-     "title": "카카오, 단편 AI 애니메이션 ‘그래도, 라이언’ 공개 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DcWlOVmpZRGwtXzh2SlZEdGtkMy1xcFNWaTl5eWNTSXNoV2pkelhNMDZpcGtMUTRqb0NoSmFLd3FOUHRGdHJfQXRxYmlKUQ?oc=5",
-     "published": "Tue, 10 Nov 2026 01:21:49 GMT"
-    },
-    {
-     "title": "‘과학 AI-OS’ 내달 선봬…전략연구사업 ‘임무중심’ 고도화 - www.dt.co.kr",
-     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90NzhLOWRRZFQ3NVFMa1BXalRMR0FERzFLbFZXdXVfMGFJczNqeEdXek0yWnpzQnVJQ0Vici1MeUdaZF9hdFUxR2Z2cFBHQQ?oc=5",
-     "published": "Tue, 10 Nov 2026 00:03:57 GMT"
+     "title": "숭실대 AI안전성연구센터, AI 해커 기만 방어기술 개발 - www.dt.co.kr",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5DbE5qMHpKMHhYVXVOR2RKSFJqR0l3ZlYxZGUxbmtUbDhEdTNsTG9WZGRzNVIzWi1BdEFWb19POEphZzdnbkdtRFN6TmUxQQ?oc=5",
+     "published": "Tue, 10 Nov 2026 08:56:51 GMT"
     }
    ]
   },
@@ -1545,6 +1547,11 @@
    "ok": true,
    "via": "google_news",
    "items": [
+    {
+     "title": "로봇은 어디서 일을 배울까…피지컬 AI 훈련장 '버추얼 트윈' - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wdnA2dVN2VmNSWXRqM2swVllURnRON3VOVElwNGtOZXdOVnRJeC1oak1uWFpTcWR5TnhaVDNDa2U5SXhyU2VKWFQ3NFBBeG5aWkhreFJn?oc=5",
+     "published": "Wed, 11 Nov 2026 05:44:47 GMT"
+    },
     {
      "title": "HWP 탓하는 정부, 이미 다 읽는 AI… 번지수 틀린 공공 AX - 지디넷코리아",
      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZX3RxcFE2VjZGVElFZmFzdEFUUFN6d2hUZmxWdHl4dmQ1MWoycnpWYk9iTi1oNUY5X2hwU0RfWWdfbUMwRVUzYVZUeFZCTGNpVlgtR0hn?oc=5",
@@ -1556,14 +1563,14 @@
      "published": "Tue, 10 Nov 2026 02:50:23 GMT"
     },
     {
+     "title": "[르포] GPU부터 보안·산업용 무선망까지…新 기술 뽐낸 시스코, 'AI 올라운더' 입증 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WMGV5LUlRY0RPN2Nfa240RUd4aDlvVW1jdFEyWURwcFFiSloxdEdjU19IWWdNcllsMFhNMVgzWFp1Y2JJXzl3RUlkTTBsYXdVNFVSNVN3?oc=5",
+     "published": "Wed, 11 Nov 2026 04:12:05 GMT"
+    },
+    {
      "title": "엔비디아, 이번엔 AI 칩 중국 우회수출 조사 개입 의혹 - 지디넷코리아",
      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yWjJxN0VROUJVdUdGX0hsYnRmUW1YRGs1RkhkQXN5RlU5UjJRTmVjZi15UGR5NVJrM3NXdC1IZkVsM1gzNnVYczJkeW11emJid1JNc2pn?oc=5",
      "published": "Tue, 10 Nov 2026 04:59:40 GMT"
-    },
-    {
-     "title": "국방 AI 힘주는 기업들…군 인재 확보 속도전 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QlhlMUdMWlgzZDcxbWdDVTlCcGFLTk9VYTg1RThjNnpLNE8xbjNQNUJpOXpUTlV5VHM2dXFWdlVISlY1b1RDUmtqMXlVbl9xR1RxOXNB?oc=5",
-     "published": "Tue, 10 Nov 2026 02:53:06 GMT"
     },
     {
      "title": "새 모델 내놓은 앤트로픽, 개인정보 유출 조사 받는다 - 지디넷코리아",
@@ -1571,54 +1578,49 @@
      "published": "Tue, 10 Nov 2026 08:30:59 GMT"
     },
     {
-     "title": "\"AI 가능성, 생산성으로 입증해야\"...IITP, 내년 AI·ICT 10대 이슈 선정 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DcWlDb2d1anZoTFFzYmRJVTFSam9COGp6WDlNYjlIcTlMVG5VVmNLdTNLNW9lelJwUm0xOEVzMVMxNVNNU2U0WjJ1czRldDVZaGZlWkdB?oc=5",
-     "published": "Wed, 11 Nov 2026 03:11:57 GMT"
+     "title": "링크브릭스, 한글·MS 문서 편집하는 무료 AI 오피스 출시 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lWE02QndOOGRneER5T3JkQ2labGdDSDZkT1ZEQy1FRE5lRGVQajVscktneGVoSjA1VE5HSXM5UUJDbVZra2EydWprcU95YmlyT2hFeWNR?oc=5",
+     "published": "Wed, 11 Nov 2026 09:14:24 GMT"
     },
     {
-     "title": "SK하이닉스, 피지컬 AI 메모리 보안인증 라인업 확대 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wc21HbWpOMm9rNXQ5aUFQQmFiN0Z2V1BQNWlQWktRVjBsb2g0MmhQS3pVbWRaeHVsMW5kOHdsbXBmN3B2UGtXYVRTNEJCVEg5STBYQTNB?oc=5",
-     "published": "Wed, 11 Nov 2026 02:59:50 GMT"
+     "title": "국방 AI 힘주는 기업들…군 인재 확보 속도전 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85QlhlMUdMWlgzZDcxbWdDVTlCcGFLTk9VYTg1RThjNnpLNE8xbjNQNUJpOXpUTlV5VHM2dXFWdlVISlY1b1RDUmtqMXlVbl9xR1RxOXNB?oc=5",
+     "published": "Tue, 10 Nov 2026 02:53:06 GMT"
     },
     {
-     "title": "\"AI 에이전트가 돈값 할까\"…시스코, 스플렁크로 기업 AI 비용 잡는다 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00XzNQQ1lwRGRDaHZUdHV6Z2ZOczVZRVA3TUNBWkZwQ2FRdlNwQU9yODBXdk5WQXpSbGVHclNOUXFEbThzUWhwUUpPQU55Vk9BSjVlSHB3?oc=5",
-     "published": "Tue, 10 Nov 2026 00:05:01 GMT"
+     "title": "지브라, AI 머신비전으로 광학렌즈 검사 시간 50% 줄였다 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vQ1EwZlFubHh4c3Z5MjIwcUgwU2VnbjBlVkxoREsxY3pKenI3ZFdXdHZ3bnRCeS0yNEV1RGJoclctS3BoTEhYUGRGZE9TMEVYOFRNNWZn?oc=5",
+     "published": "Wed, 11 Nov 2026 09:29:33 GMT"
     },
     {
-     "title": "\"중대 사고 시 72시간 내 보고\"…美 뉴욕, 첨단 AI 기업 감독 본격화 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CUUxaZG9tcjlEZTExN3hvbWt5REthSU9pUFZnRy0zWHlsdU9rbDg5OUpwMkhuT05VTmdZRnpUU0t0WEh1U0JZLW5hNFptMG00RGEzMzJ3?oc=5",
-     "published": "Wed, 11 Nov 2026 02:33:39 GMT"
+     "title": "더존비즈온, AI 경영시스템 국제표준 인증…위험관리 체계 강화 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kUmJFdTQxZUFpSml6dFU5WUpqV2s5VnJZV1hyWUtsVGFGRnM2NUR0aWVaR29MaGRKMjg4NEhnUjN0eXE2TnB1RDVIdVpxQzU1UW0wT09B?oc=5",
+     "published": "Wed, 11 Nov 2026 08:29:40 GMT"
     },
     {
-     "title": "오픈AI, 챗GPT에 기업 프로필 도입…상품 검색서 구글과 경쟁 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZZ3IxNjNfeTFoT1JISHR3REhraWZzWE03V0NjMGlTV2tVbXBqMXFheVZEeXdQbWE2cXpuXzJ4OWliVkhQWlRTcjhLZ2ZFa0dvb0xzRC1B?oc=5",
-     "published": "Wed, 11 Nov 2026 02:33:02 GMT"
+     "title": "유아이패스, 소프트웨어 테스트도 AI에 맡긴다 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RelhaV1ByRWlIajhKVzRBQzE0UWxfdjRDRFVpMnBkUFZFQ2czQ1p4anZCYzA2Z1VUa1FVQWw3X3k2ODVPUkNGSm02LUhhTVR3cnRfOEV3?oc=5",
+     "published": "Wed, 11 Nov 2026 08:07:37 GMT"
     },
     {
-     "title": "딥엑스, 특허기술상 '홍대용상' 수상…AI 반도체 원천기술 입증 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hNHN2VDhzS3pSRjF2dEJEaW12ZDFRM2U3R0NrZ3BxT3JDazRBLXZSVXpSYlJaNWVIU2tISWVuS2RaMWJEblhaSV9DMkFtV3dpQmhnLUd3?oc=5",
-     "published": "Wed, 11 Nov 2026 01:03:22 GMT"
+     "title": "사이냅소프트, 문서뷰어에 AI 번역·민감정보 마스킹 기능 추가 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xeWJCREJYay1xbHJpWmtjUUd5c3lyTEVuWHA3MXFocTRrZlNja1hvT0s1SWJJckhuZ2pNVXpnUmVBTVhTYlQyTnJpMUtsQTNfU1l4Vmpn?oc=5",
+     "published": "Wed, 11 Nov 2026 08:13:09 GMT"
     },
     {
-     "title": "구글, 차세대 TPU 2종 공개…추론 속도 높이고 보안까지 잡는다 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuaXk2bHZOd0IzdXFKMTMxSFBkWWR0TGRHUk9tRmo0d1M4M0tDOWNpOXNxMWtSWDBiNHc2cExIV1BWcDJFNm03amt6RmlzNXVpeVQwMTdn?oc=5",
-     "published": "Mon, 09 Nov 2026 23:20:32 GMT"
+     "title": "AI 3강 목표, 해저케이블에 발목 잡힌다 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04MWI5NUNiUU9RTlFYZFhiYzBGdTQzUXZqVE1WYm1yNmVGVE9ORG9rRU9qRVNqdzlrZXk2b3lGNTV1OVdva1hKU2gzRG5LaDd4NjlPMnVR?oc=5",
+     "published": "Wed, 11 Nov 2026 09:19:59 GMT"
     },
     {
-     "title": "호주 학생 게임 개발 대회, 생성형 AI 확산에 12년 만에 폐지 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aREJYa2Y3N2RPNEdxNU5uSEVvelNMVFhpS1JuRHp4bVl5TlFNVC1NYXZ4a1ZnNmNqdDluY0VZbW1GMXJwdG5DY2FtZXNENnhBSG54MGdn?oc=5",
-     "published": "Wed, 11 Nov 2026 01:03:47 GMT"
+     "title": "[컨콜] 박병무 엔씨 공동대표 \"AI 시대에도 MMO 경쟁력 유지…퍼블리싱 역량 강화\" - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2M3VZS2ZfTGhaM2hTX25TWHpGckloTktENm4xeVl4YldrNjNBN1A3VUtaNEgxRHhLbUszeGpLbldUdjRaNWhVVGhRZEU5cm9iMFRCSG9R?oc=5",
+     "published": "Wed, 11 Nov 2026 08:05:01 GMT"
     },
     {
-     "title": "올리버 투직 시스코 부회장 \"韓 AI 기업과 협력 환영…中 AI 모델도 수용\" - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sa1JKSnFKQmZpdHM4R3B3UXdfWTViaXk3YjlxRlg2UVJuR0l2RUFnNnNfenp3Vm96WEVjTWtRYllRZl9aMHZGR1A4QU9nNVBpUGlRYVBn?oc=5",
-     "published": "Wed, 11 Nov 2026 00:48:38 GMT"
-    },
-    {
-     "title": "ST마이크로, 에지 AI 개발환경 재설계 - 지디넷코리아",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mV0dmSXNaaGw0S1Vyb0VMMmxMVk9CMTA4WlVKdVlCQVpxNVcxZVNwNjFLWC12NFJsQ1hET3hHRFpDaWR5aHBWTVlLQmdmYUNEbVJyUTV3?oc=5",
-     "published": "Wed, 11 Nov 2026 00:47:31 GMT"
+     "title": "\"통신요금 감면, AI 시대엔 ‘ICT 바우처’로\"...보편서비스 개편론 부상 - 지디넷코리아",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBnejdGVHo1c0ZMWjQ1eDJMSnpZUWR2aEE2NW5HWmxxNk5KdDR0R2dZMzVaMk5sSFMwbFgtSV8yYUNCNjZqUzVMUEc1UzZhbWR4WHA0UFpR?oc=5",
+     "published": "Wed, 11 Nov 2026 08:47:33 GMT"
     }
    ]
   }

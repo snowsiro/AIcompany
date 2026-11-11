@@ -1,34 +1,44 @@
 {
- "fetched_at": "2026-11-11T04:46:22.862Z",
+ "fetched_at": "2026-11-11T10:45:03.489Z",
  "hours": 48,
  "accounts": [
   {
    "username": "ai.trend.kr",
-   "followers": 271033,
+   "followers": 271148,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 1174,
-    "median_comments": 182
+    "median_engagement": 1316,
+    "median_comments": 262
    },
    "posts": [
+    {
+     "timestamp": "2026-11-11T07:44:43+0000",
+     "url": "https://www.instagram.com/reel/Dfl-PPsPFwp/",
+     "type": "VIDEO",
+     "likes": null,
+     "comments": 25,
+     "multiple": 0.1,
+     "multiple_basis": "comments",
+     "caption_start": "직접 써보고 싶다면? 댓글에 ’홍보‘ 남겨주세요 🎬 가상의 음료 매장 ’bearbear‘ 사진 한 장을 두 AI에게 똑같이 맡겨봤어요. 둘 다 Newtake를 MCP로 연결해서, 대화창에서 기획부터 영상까지 한 번에 뽑았습니다. 커튼이 열리고 자몽티가 터진 뒤, 커튼 뒤 테디베어 공장으로 이어지는 흐름은 같은데요. GPT 아스트라는 황금빛이 쏟아지는 동화 같은 연출을, 클로드 오퍼스 5.5는 얼음이 튀는 클로즈업과 컨베이어 벨트 공장을 골랐죠. 같은 사진인데 디테일은 꽤 다른 셈이에요. 연결 방"
+    },
     {
      "timestamp": "2026-11-11T03:03:44+0000",
      "url": "https://www.instagram.com/p/DfleNCwj5Q-/",
      "type": "CAROUSEL_ALBUM",
-     "likes": null,
-     "comments": 110,
-     "multiple": 0.6,
-     "multiple_basis": "comments",
+     "likes": 182,
+     "comments": 262,
+     "multiple": 0.3,
+     "multiple_basis": "likes+comments",
      "caption_start": "X 디자인 총괄이 쓰던 화면 감각, 스킬 하나로 그대로 가져와요 🎞️ X 디자인 총괄 벤지 테일러가 제품 소개 화면을 만들며 직접 내리던 결정을 Stageshow라는 스킬로 무료 공개했어요. 클로드 코드, 코덱스, 제미나이에 명령어 한 줄로 설치하면 AI가 이 결정을 따라 화면을 만들어요. AI가 만든 소개 화면이 빽빽하거나 텅 비거나 캡처를 붙인 것처럼 보이는 문제를 짚어 다듬고, 다 만든 화면은 녹화해서 프레임을 한 장씩 펼쳐 4px 튀는 움직임까지 스스로 고쳐요. Linear, Figma,"
     },
     {
      "timestamp": "2026-11-11T01:04:03+0000",
      "url": "https://www.instagram.com/p/DflQgZ9j1wI/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 318,
-     "comments": 257,
-     "multiple": 0.5,
+     "likes": 527,
+     "comments": 423,
+     "multiple": 0.7,
      "multiple_basis": "likes+comments",
      "caption_start": "3일짜리 AI 영상 프리패스가 열렸어요 🎟️ Fable 5.2 출시 기념으로 Higgsfield가 준비한 혜택입니다. Claude에 Higgsfield MCP를 연결한 신규 사용자라면 3일 동안 모든 영상 생성 모델을 무료 무제한으로 쓸 수 있거든요. 크레딧 걱정 없이 마음껏 뽑아 볼 수 있다는 게 핵심입니다. 브랜드 광고 컷도, 시네마틱 브이로그도, 폰으로 찍은 듯한 UGC도 장면 설명 한 줄이면 충분해요. 연결 방법과 바로 쓰는 예시 프롬프트 3개를 정리해 뒀습니다. 댓글에 ‘페블’ 남겨주시"
     },
@@ -37,7 +47,7 @@
      "url": "https://www.instagram.com/reel/Dfj2OKCuN-J/",
      "type": "VIDEO",
      "likes": null,
-     "comments": 23,
+     "comments": 27,
      "multiple": 0.1,
      "multiple_basis": "comments",
      "caption_start": "나만의 게임 프롬프트 공유드릴게요. 댓글에 ’페이블‘ 남겨 주세요 🏎️ 종이에 쓱 그린 자동차 한 대가 진짜 레이싱 게임이 됐거든요. Fable 5.2에 Higgsfield MCP를 연결하고, 그림 사진 한 장과 프롬프트만 넣었습니다. 손그림 속 스포일러 모양 그대로 디지털 자동차가 만들어지고, 방향키로 도심을 질주하는 3인칭 레이싱 게임까지 완성되죠. 이런 게임은 수업용 교육 자료로도, 아이디어를 빠르게 확인하는 테스트 컷이나 시안으로도, 아이들과 함께하는 놀이로도 쓸 수 있어요. 활용 범위가"
@@ -46,9 +56,9 @@
      "timestamp": "2026-11-10T10:54:04+0000",
      "url": "https://www.instagram.com/reel/DfjvGk7vehr/",
      "type": "VIDEO",
-     "likes": 877,
-     "comments": 170,
-     "multiple": 0.9,
+     "likes": 1176,
+     "comments": 213,
+     "multiple": 1.1,
      "multiple_basis": "likes+comments",
      "caption_start": "용아맥 시야 보려고 블로그 후기만 몇 개씩 뒤져보셨나요? 🎬 듄 1편 아이맥스 재개봉이 내일(11일)부터 시작되고, 파트 3은 12월 16일 개봉합니다. 그런데 예매창을 열면 앞줄만 남아 고민될 때가 있죠. 그래서 좌석표에서 자리를 누르면 그 자리까지 걸어 들어가 앉고, 그 시점에서 예고편까지 틀어볼 수 있게 준비했어요. 1열은 고개를 한껏 들어야 하고, I열 23번 같은 명당은 화면이 시야에 꽉 찹니다. 맨 뒤는 한눈에 들어오는 대신 작아지고요. 실제 좌석 사진과 대조해 맞췄는데요. 용아맥을 "
     },
@@ -56,8 +66,8 @@
      "timestamp": "2026-11-10T08:20:25+0000",
      "url": "https://www.instagram.com/p/Dfjdpp1D_jH/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 992,
-     "comments": 182,
+     "likes": 1147,
+     "comments": 205,
      "multiple": 1,
      "multiple_basis": "likes+comments",
      "caption_start": "프롬프트 한 번에 8시간, 사람 손 없이 게임 한 편이 나왔어요 🎮 앤트로픽이 11월 9일 새 모델 ’페이블 5.2‘를 공개했는데요. 공개 하루 만에 X에는 게임과 3D 애니메이션, 음악까지 제작 사례가 쏟아지고 있습니다. 4K 애니메이션을 5.75달러에 뽑아낸 사례부터 기기 3대를 혼자 설계해 한 번에 작동시킨 사례까지 나왔죠. 비결은 공간을 다루는 실력이에요. 3D 설계 점수는 거의 두 배로 뛰었고, 가격은 20% 내리고 속도는 최대 30% 빨라졌습니다. 댓글에 ’에트‘를 남겨주시면 공식 발"
@@ -66,8 +76,8 @@
      "timestamp": "2026-11-10T02:59:05+0000",
      "url": "https://www.instagram.com/p/Dfi44Gmj7N8/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 116,
-     "comments": 130,
+     "likes": 119,
+     "comments": 138,
      "multiple": 0.2,
      "multiple_basis": "likes+comments",
      "caption_start": "혼자서 기획도 글도 편집도 다 하고 계신가요? 클로드 하나로 내 콘텐츠팀을 꾸려 보세요 📝 프로젝트에 나 소개 메모를 넣고 채팅 3개에 담당을 한 명씩 맡기면 돼요. 기획 담당이 무엇을 올릴지 정하고, 카피 담당이 글을 쓰고, 편집 담당이 다듬어 카드 미리보기까지 그려 줘요. 가상의 독서모임으로 12월 멤버 모집을 맡겨 보니 기획안, 장별 문구, 캡션, 카드 7장까지 나왔어요. 카피 담당이 메모에 없는 말을 쓰면 편집 담당이 [확인 필요]로 표시해 줬어요. 같은 방식으로 릴스와 유튜브 대본도 만"
@@ -76,9 +86,9 @@
      "timestamp": "2026-11-10T01:10:01+0000",
      "url": "https://www.instagram.com/p/DfisZRcD8DN/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 1144,
-     "comments": 293,
-     "multiple": 1.2,
+     "likes": 1184,
+     "comments": 308,
+     "multiple": 1.1,
      "multiple_basis": "likes+comments",
      "caption_start": "이제는 그 어려운 영상 누끼도 클로드와 힉스필드가 만나서 해 줍니다 🪄 영상을 올리고 클로드와 채팅하면서 색보정부터 누끼, 물체 지우기까지 해결할 수 있습니다. AI 영상 플랫폼 힉스필드를 클로드에 연결하면 쓸 수 있는 ’미라클‘ 명령어인데요. 타임라인을 붙잡고 몇 시간씩 하던 작업을 명령어 네 가지로 정리했습니다. 135프레임에 마스크를 씌우는 일도, 지나가는 행인을 지우는 일도 손으로 할 필요가 없어요. 연결은 1분이면 끝나고, 신규 가입자는 3일 동안 무료로 체험할 수 있습니다. 여러분도 "
     },
@@ -86,41 +96,51 @@
      "timestamp": "2026-11-09T11:45:26+0000",
      "url": "https://www.instagram.com/p/DfhQUSCD3W1/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 922,
-     "comments": 1197,
-     "multiple": 1.8,
+     "likes": 954,
+     "comments": 1233,
+     "multiple": 1.7,
      "multiple_basis": "likes+comments",
      "caption_start": "내 메일, 드라이브, 사진에서 뽑은 정보가 맞춤 광고에 쓰일 수 있다는 것, 알고 계셨나요? 🚨 구글 개인정보처리방침에 ‘허용하지 않는 한’이라는 말이 붙었어요. 구글 검색이나 제미나이에 Gmail, 드라이브를 연결하면 거기서 뽑은 정보가 맞춤 광고에 쓰일 수 있다는 뜻이에요. 검색, 제미나이, 광고 센터 세 곳만 확인하면 돼요. 맞춤 광고를 꺼도 광고는 나오지만, 내 계정 정보로 고르지 않아요. 30초 해결 방법을 한 페이지에 정리했어요. 댓글로 ‘광고’ 남겨주시면 보내드려요. Title Im"
-    },
-    {
-     "timestamp": "2026-11-09T09:51:58+0000",
-     "url": "https://www.instagram.com/p/DfhDVRGj293/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 71,
-     "comments": 26,
-     "multiple": 0.1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "편집 프로그램을 열지 않고 영상 한 편을 만들었어요 🎬 마누스 스튜디오에 새 비디오 에디터가 나왔는데요. 원본 영상과 한 문장만 넣으면 컷 편집, 자막, 모션그래픽, 효과음까지 마누스가 알아서 붙여 줍니다. 핵심은 알케미 모드예요. Manus 2.0 Max를 가장 높은 울트라 강도로 돌려서, 리듬과 분위기까지 따져 가며 컷을 고릅니다. 긴 원본도 컴퓨터에서 바로 불러올 수 있고요. 고칠 땐 채팅으로 말하거나 타임라인에서 직접 손으로 다듬으면 돼요. 링크로 가입하면 1,000 크레딧을 무료로 받을"
     }
    ]
   },
   {
    "username": "sdk.kim.builds",
-   "followers": 63632,
+   "followers": 63678,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 122,
-    "median_comments": 90
+    "median_engagement": 93,
+    "median_comments": 42
    },
    "posts": [
+    {
+     "timestamp": "2026-11-11T09:02:27+0000",
+     "url": "https://www.instagram.com/reel/DfmHLSYDRe-/",
+     "type": "VIDEO",
+     "likes": 3,
+     "comments": 0,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "#광고 AI로 뭐 만들어는 봤는데, 출시까지 해 보셨어요? AI 공부는 대부분 모델 학습시키고 성능 확인하는 데서 끝나요. 근데 현업에서 진짜 어려운 건 그걸 서비스로 배포하고 운영하는 거예요. 엘리스트랙 AI 엔지니어링 트랙은 그 전체 과정을 다뤄요. ✔ 실제 기업 데이터로 하는 실무 프로젝트 ✔ 데이터 처리 → 모델 배포 → 버전 관리 → 모니터링까지 전체 파이프라인 ✔ Claude Code 등 AI 툴 + GPU 서버·LLM API 실습 환경 지원 ✔ 우수 수료생 엘리스그룹 AI팀 인턴십 기"
+    },
+    {
+     "timestamp": "2026-11-11T08:01:45+0000",
+     "url": "https://www.instagram.com/reel/DfmAQ1Gk4l-/",
+     "type": "VIDEO",
+     "likes": 6,
+     "comments": 6,
+     "multiple": 0.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "챗지피티 무료로 쓰신다면 이거 꼭 설정하세요. 매일 아침 똑같은 거 물어보고 계시잖아요. 오늘 뭐 새로 나왔어, 이거 바뀐 거 있어. 한 번만 말해두면 매일 알아서 보내줘요. ━━━━━━━━━━━━━━━━ ① 무료도 예약을 세 개까지 걸 수 있어요 → ChatGPT 「예약 작업」, Free·Go 요금제 3개 → 하루 한 번까지 반복돼요 ② 첫 번째는 아침 브리핑 → \"매일 아침 AI 소식 세 개랑 링크 보내줘.\" → 이렇게 말하면 예약이 잡히고, 다음 날 아침부터 알림으로 와요 ③ 두 번째는 변동"
+    },
     {
      "timestamp": "2026-11-11T02:02:23+0000",
      "url": "https://www.instagram.com/p/DflXKtHDEFg/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 32,
-     "comments": 90,
-     "multiple": 1,
+     "likes": 79,
+     "comments": 260,
+     "multiple": 3.6,
      "multiple_basis": "likes+comments",
      "caption_start": "이제 클로드가 게임을 공짜로 만들어줍니다. 게임 아이디어는 있는데 코딩을 몰라서 접어 둔 분 많죠. 그냥 클로드한테 \"게임 만들어줘\" 하면 한 번에 대충 만들고 끝나서, 고칠수록 엉망이 되기 쉽습니다. Claude Code Game Studios는 클로드를 작은 게임 회사처럼 일하게 만드는 무료 템플릿입니다. → 한 줄 아이디어를 넣으면 질문 몇 개로 취향을 잡고 → 기획서 한 장을 보여준 뒤, 더블클릭하면 열리는 브라우저 게임을 만들고 → 넘기기 전에 직접 켜서 눌러 보고 글자 겹침·멈춤을 한 "
     },
@@ -128,9 +148,9 @@
      "timestamp": "2026-11-10T08:02:14+0000",
      "url": "https://www.instagram.com/reel/DfjbetwjRV3/",
      "type": "VIDEO",
-     "likes": 49,
-     "comments": 40,
-     "multiple": 0.7,
+     "likes": 51,
+     "comments": 42,
+     "multiple": 1,
      "multiple_basis": "likes+comments",
      "caption_start": "떡볶이는 아무나 만들어요. 줄은 아무나 못 세우죠. 올해 상반기에만 앱스토어에 새 앱이 56만 개 올라왔어요. 작년 한 해 동안 나온 것과 거의 맞먹어요. 그런데 다운로드는 2% 늘었어요. 앱 만들기는 쉬워졌어요. 어려운 건 그 앱을 기다려 줄 사람이에요. ━━━━━━━━━━━━━━━━ ① 잘 아는 사람 한 종류와 문제 하나를 골라요 → 예를 들면 편식하는 아이를 둔 부모님 ② 그분들의 불만은 클로드한테 찾게 하세요 → 온라인에 실제로 쓴 말 그대로, 고민 10개 ③ 무료 팁을 매일 하나씩 올려요"
     },
@@ -138,51 +158,51 @@
      "timestamp": "2026-11-10T02:03:15+0000",
      "url": "https://www.instagram.com/p/DfiybdqCBkC/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 31,
-     "comments": 94,
-     "multiple": 1,
+     "likes": 33,
+     "comments": 101,
+     "multiple": 1.4,
      "multiple_basis": "likes+comments",
      "caption_start": "그록봇, 메타 뮤즈, 지피티 닷츠. 요즘 AI 비서들은 내 컴퓨터로 일을 대신 해준다는데, 막상 열어보면 문이 닫혀 있습니다. 그록봇은 월 20~30달러 요금제가 있어야 하고, 닷츠는 월 100달러부터인 프로 요금제 전용이고, 뮤즈는 아직 한국에서 안 열립니다. MausBot은 이 'AI 직원들을 메신저로 부리는' 모양을 오픈소스로 만든 무료 앱입니다. → 봇마다 이름·성격·모델(클로드·지피티·그록)을 따로 정하고 → 봇마다 자기 컴퓨터 화면을 띄워 직접 클릭하고 지메일·슬랙·노션 같은 앱을 쓰고"
-    },
-    {
-     "timestamp": "2026-11-09T08:02:13+0000",
-     "url": "https://www.instagram.com/reel/Dfg2uU1Drbq/",
-     "type": "VIDEO",
-     "likes": 14,
-     "comments": 14,
-     "multiple": 0.2,
-     "multiple_basis": "likes+comments",
-     "caption_start": "#광고 끝났어요. 곱셈 함수 버그 고쳤습니다. 방금 그 목소리, 제가 녹음한 거 아니에요. 30초 녹음 하나로 만든 AI 제 목소리예요. Fish Audio(fishaudio_ai) Drama 3라는 모델이에요. ━━━━━━━━━━━━━━━━ ① 클로드 코드 시켜놓고, 끝났나 자꾸 들여다보시죠? → 가보면 권한 하나 묻고 멈춰 있고요 → 그래서 일이 끝나면 제 목소리로 알려주게 했어요 ② Fish Audio API에 제 녹음 파일만 넣었고요 → 마지막 결론을 읽어주는 데 2초도 안 걸려요 → 괄호"
     }
    ]
   },
   {
    "username": "moodmode.ai",
-   "followers": 159082,
+   "followers": 159150,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 261,
-    "median_comments": 21
+    "median_engagement": 270,
+    "median_comments": 22
    },
    "posts": [
     {
-     "timestamp": "2026-11-11T04:01:52+0000",
-     "url": "https://www.instagram.com/reel/DflkwPKxOZ7/",
+     "timestamp": "2026-11-11T09:36:22+0000",
+     "url": "https://www.instagram.com/reel/DfmK1ubJC8O/",
      "type": "VIDEO",
-     "likes": 10,
-     "comments": 1,
-     "multiple": 0,
+     "likes": 3,
+     "comments": 11,
+     "multiple": 0.1,
      "multiple_basis": "likes+comments",
-     "caption_start": "로봇과 인간이 스파링을 하면 얼마나 버틸까요 프랭키 라페나가 링 위에서 로봇과 맞붙었습니다. 넘어졌다가 다시 일어나 발차기를 주고받는 모습을 보니, 끝까지 눈을 떼기 어렵네요. 조종자 닉이 로봇을 원격으로 움직인 대결입니다. Edited by moodmode.ai"
+     "caption_start": "종이에 그린 차로 도심을 달린다면? #광고 자동차를 그리고 사진을 찍은 뒤, 클로드에 올려 레이싱 게임을 만들어 달라고 요청하는 과정이에요. 차 뒤에 그린 스포일러가 화면에서도 살아 있는지 보는 재미가 있죠. 클로드에서 Fable 5.2를 선택하고 힉스필드 MCP를 연결해 시작합니다. 신규 사용자는 MCP 영상 모델을 3일간 무료로 무제한 이용할 수 있어요. 이 혜택은 영상 생성에 적용되며, 클로드 이용 조건과 체험 기간은 신청 화면에서 확인해 주세요. 아무 댓글이나 남겨주시면 따라 해볼 프롬프트"
+    },
+    {
+     "timestamp": "2026-11-11T07:20:52+0000",
+     "url": "https://www.instagram.com/p/Dfl7oTnEdLl/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 82,
+     "comments": 398,
+     "multiple": 1.8,
+     "multiple_basis": "likes+comments",
+     "caption_start": "다 해봤는데 영어 회화는 이 방법이 최고.. 일 때문에 영어가 급했던 저한테는, 원하는 시간에 제 목적에 맞는 표현을 골라 연습할 수 있다는 점이 컸어요. 초급, 중급, 고급, 원어민 실전까지 각 30일씩 나눠서 표현 연습과 리액션, 상황별 대화를 담았습니다. ChatGPT에 내 수준의 프롬프트를 넣고 음성으로 대화하면, 그날 배울 표현을 말해보고 내 문장으로 바꿔 연습할 수 있어요. 다음 날에는 같은 채팅에서 일차를 말하고 이어가면 됩니다. 무료 계정도 음성 대화를 쓸 수 있지만 사용량 제한이 "
     },
     {
      "timestamp": "2026-11-10T11:04:32+0000",
      "url": "https://www.instagram.com/p/DfjwbqIiay5/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 275,
-     "comments": 723,
-     "multiple": 3.8,
+     "likes": 319,
+     "comments": 863,
+     "multiple": 4.4,
      "multiple_basis": "likes+comments",
      "caption_start": "힉스필드에서 엄청난 프로모션을 열었습니다ㄷㄷ #광고 앤트로픽이 Fable 5.2를 내놓으면서, 힉스필드가 신규 사용자에게 3일 무료 무제한을 열었어요. 클로드에 힉스필드 MCP를 연결하면 MCP에서 제공하는 모든 영상 생성 모델을 3일 동안 무료로 무제한 쓸 수 있습니다. 만드는 방식도 달라요. 영상 사이트를 따로 열 필요 없이, 클로드 대화창에 ”비 오는 골목, 천천히 다가가는 카메라“처럼 장면을 말로 설명하면 영상이 나와요. 시네마틱 장면, 제품 광고, 사람이 직접 말하는 UGC 영상까지 한 "
     },
@@ -190,9 +210,9 @@
      "timestamp": "2026-11-10T08:58:01+0000",
      "url": "https://www.instagram.com/p/Dfjh9DNEQNm/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 149,
-     "comments": 689,
-     "multiple": 3.2,
+     "likes": 179,
+     "comments": 793,
+     "multiple": 3.6,
      "multiple_basis": "likes+comments",
      "caption_start": "AI는 나에 대해 생각보다 잘 알고 있어요. 핵심은 일만 보지 않는 거예요. 일, 돈, 관계, 몸, 마음, 성장, 쉼, 의미 8칸을 다 보고 지금 먼저 챙길 곳을 짚어 주고, 좋아하는 순간과 싫어하는 순간을 나란히 놓고, 5년 뒤 인생 3개를 비교해요. 하버드 85년 추적 연구와 스탠퍼드 인생 설계 수업에서 가져온 방식이에요. AI랑 대화를 많이 했을수록 결과가 정확해져요. 아무 댓글이나 남겨주시면 인생 설계 프롬프트 전문이랑 단계별 사용법 가이드 DM으로 보내드릴게요. Created by • m"
     },
@@ -200,18 +220,18 @@
      "timestamp": "2026-11-10T05:58:11+0000",
      "url": "https://www.instagram.com/reel/DfjNUlqRsLr/",
      "type": "VIDEO",
-     "likes": 8,
-     "comments": 11,
-     "multiple": 0.1,
-     "multiple_basis": "likes+comments",
+     "likes": null,
+     "comments": 15,
+     "multiple": 0.7,
+     "multiple_basis": "comments",
      "caption_start": "편집할 필요없이 클로드로 요청만 하세요. #광고힉스필드(higgsfield.ai)가 클로드 안에서 쓰는 영상 명령어 ‘Miracle Commands’를 공개했어요. 영상 속 네 가지 명령어는 출시 예정 기능의 데모예요. /miracle color grading은 밋밋한 영상을 영화 색감으로 바꿔요. 장면마다 색을 하나씩 맞추던 과정이 한 줄로 줄어요. /miracle rotobrush는 사람을 프레임마다 따라가며 오려 내요. 마스크를 한 장씩 그리던 일이 사라지는 거예요. /miracle clea"
     },
     {
      "timestamp": "2026-11-10T02:48:45+0000",
      "url": "https://www.instagram.com/reel/Dfi3lAuxvsR/",
      "type": "VIDEO",
-     "likes": 310,
-     "comments": 21,
+     "likes": 321,
+     "comments": 22,
      "multiple": 1.3,
      "multiple_basis": "likes+comments",
      "caption_start": "인간과 돼지가 서로 바뀐 세상이라면? 정육점 유리 진열장 안에서 무게를 달고, 30% 할인 스티커가 붙은 채 마트 매대에 누워 있는 존재가 동물이 아닌 인간이에요. 돼지 가족이 식탁에 둘러앉아 요리에 소스를 붓는 장면이나, 얼음 위에서 눈물을 흘리는 디테일이 꽤나 서늘합니다. 현실에서 절대 찍을 수 없는 기괴한 상상을 텍스트 명령어 몇 줄로 실제 다큐멘터리처럼 뽑아내는 생성형 AI의 특징이 역설적으로 가장 잘 살아난 연출이죠. 우리가 당연하게 여겼던 공장식 축산과 육식 문화를 정반대 시선에서 비틀"
@@ -220,41 +240,51 @@
      "timestamp": "2026-11-09T11:30:08+0000",
      "url": "https://www.instagram.com/reel/DfhOcNmOtLc/",
      "type": "VIDEO",
-     "likes": 19,
+     "likes": 21,
      "comments": 23,
      "multiple": 0.2,
      "multiple_basis": "likes+comments",
      "caption_start": "제품 사진만 넣었는데 광고 영상이 그대로 나왔습니다.. #광고 블프 시즌이라 광고 소재 급하게 필요하신 분들 많을 텐데요. 위가 원본 광고, 아래가 드리미나 마케팅 스튜디오로 다시 만든 버전이에요. 요즘 터진 바이럴 블랙프라이데이 광고 템플릿이 한곳에 모여 있어서, 템플릿 하나 고르고 제품 사진만 넣었더니 카메라 움직임이랑 연출은 그대로 두고 제품만 바뀌더라구요. 저는 캔, 수박, 도넛, 볼링공, 휴지까지 다섯 개로 바꿔봤는데, 같은 방식으로 포스터까지 뽑을 수 있어서 혼자 브랜드 운영하시는 분들"
-    },
-    {
-     "timestamp": "2026-11-09T09:00:21+0000",
-     "url": "https://www.instagram.com/reel/Dfg9T-iRbcs/",
-     "type": "VIDEO",
-     "likes": 211,
-     "comments": 10,
-     "multiple": 0.8,
-     "multiple_basis": "likes+comments",
-     "caption_start": "GPU보다 그녀에게 빠진 젠슨황 첫사랑.. 영화 ’500일의 썸머‘에서 가장 유명한 엘리베이터 명장면에 엔비디아 대표 젠슨 황의 얼굴을 입힌 AI 패러디 영상이에요. 헤드폰을 낀 그에게 옆자리 여성이 다가와 밴드 ’더 스미스‘를 좋아한다며 노래를 흥얼거리죠. 여성이 내린 뒤 홀로 남아 탄식하며 사랑에 빠지는 원작의 표정 연기가 그대로 재현됐어요. 기존 배우의 얼굴 움직임과 조명 각도를 AI가 프레임 단위로 계산해 새로운 얼굴을 덧입히는 얼굴 교체 기술 덕분인데요. 엔비디아 그래픽카드로 돌아가는 A"
     }
    ]
   },
   {
    "username": "trenddalkak.ai",
-   "followers": 66465,
+   "followers": 66484,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 265,
+    "median_engagement": 258,
     "median_comments": 72
    },
    "posts": [
     {
+     "timestamp": "2026-11-11T10:19:56+0000",
+     "url": "https://www.instagram.com/reel/DfmP7OaBi_I/",
+     "type": "VIDEO",
+     "likes": 2,
+     "comments": 1,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "스케치 하나로 Claude Fable 5.2가 만든 호그스터 레이싱 게임…🏎️✨ 종이에 대충 그린 차 한 대 + 컨셉아트 몇 장 줬을 뿐인데 진짜로 하늘 날아다니는 레이싱 게임이 나와버림 🤯 어제 나온 Fable 5.2에 힉스필드 MCP 연결해서 만들었음 게임 코드부터 3D 자동차, 배경, 사운드까지 대화만으로 다 해결됨 ✔️ 내 손그림 차가 그대로 3D 모델로 변신 ✔️ 달밤 고성 맵 + 크리스마스 도서관 맵 ✔️ 순위, 랩타임, 미니맵, 부스트 게이지까지 진짜 게임 HUD ✔️ 링 하나라도"
+    },
+    {
+     "timestamp": "2026-11-11T10:03:37+0000",
+     "url": "https://www.instagram.com/reel/DfmOGT4RGMc/",
+     "type": "VIDEO",
+     "likes": 24,
+     "comments": 16,
+     "multiple": 0.2,
+     "multiple_basis": "likes+comments",
+     "caption_start": "스케치 하나로 Claude Fable 5.2가 만든 호그스터 레이싱 게임…🏎️✨ 종이에 대충 그린 차 한 대 + 컨셉아트 몇 장 줬을 뿐인데 진짜로 하늘 날아다니는 레이싱 게임이 나와버림 🤯 어제 나온 Fable 5.2에 힉스필드 MCP 연결해서 만들었음 게임 코드부터 3D 자동차, 배경, 사운드까지 대화만으로 다 해결됨 ✔️ 내 손그림 차가 그대로 3D 모델로 변신 ✔️ 달밤 고성 맵 + 크리스마스 도서관 맵 ✔️ 순위, 랩타임, 미니맵, 부스트 게이지까지 진짜 게임 HUD ✔️ 링 하나라도"
+    },
+    {
      "timestamp": "2026-11-11T01:59:18+0000",
      "url": "https://www.instagram.com/p/DflW1HwmQK0/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 22,
-     "comments": 4,
-     "multiple": 0.1,
+     "likes": 35,
+     "comments": 7,
+     "multiple": 0.2,
      "multiple_basis": "likes+comments",
      "caption_start": "우리 집 애들 사진 넣었더니, 웹툰 한 편이 나왔다 🐶🐱 집사가 집을 나가면 우리 강아지와 고양이들은 뭘 하고 있을까요? 혹시 우리 몰래 자기들끼리 대화하고, 회의하고, 사고 치고 있는 건 아닐까요? ㅋㅋㅋ 이런 상상을 실제 웹툰으로 만들어봤습니다! 이번에 사용한 도구는 Higgsfield Mangaka인데요. 실제로 키우는 고양이 3마리와 강아지 1마리의 사진을 넣고, 각자의 나이와 성격, 특징을 알려줬습니다. 그리고 딱 한 가지 설정을 추가했어요. ”집사가 외출하면 동물들이 사람처럼 말을 "
     },
@@ -262,8 +292,8 @@
      "timestamp": "2026-11-10T09:47:48+0000",
      "url": "https://www.instagram.com/p/DfjnpkZFDaC/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 22,
-     "comments": 5,
+     "likes": 25,
+     "comments": 7,
      "multiple": 0.1,
      "multiple_basis": "likes+comments",
      "caption_start": "공책 구석에 적어둔 세계관, 머릿속에만 있던 주인공, 혼자 몰래 키우던 망상. 이걸 만화로 뽑아주는 툴이 나왔어요. Higgsfield의 Mangaka입니다. 직접 해봤어요. 아이디어를 몇 줄만 적었더니 등장인물 이름과 설정, 스토리라인부터 잡아주고, 그다음엔 작화, 대사, 컷 배치까지 한 번에 이어졌습니다. 결과물은 판타지 만화였는데, 일본 만화 특유의 연출 톤이 꽤 살아 있어서 놀랐어요. 내 캐릭터나 반려동물 사진을 참고 이미지로 넣을 수 있고, 스타일도 흑백 만화·컬러 만화·코믹스·웹툰 중에"
@@ -272,41 +302,41 @@
      "timestamp": "2026-11-10T03:53:16+0000",
      "url": "https://www.instagram.com/p/Dfi_E7tlL67/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 648,
-     "comments": 1353,
-     "multiple": 7.6,
+     "likes": 681,
+     "comments": 1380,
+     "multiple": 8,
      "multiple_basis": "likes+comments",
      "caption_start": "🤑하....드디어....Claude Fable 5.2🤑 이번 업데이트에서는 코딩·추론·비전 성능이 전반적으로 강화됐고, Fable 5.1 대비 출력 속도는 최대 30% 빨라졌습니다. API 가격도 입력·출력 모두 20% 내려갔고요. 특히 복잡한 코딩과 에이전트 작업에서 성능이 크게 올라가면서, 실제 활용 사례도 꽤 놀랍게 나오고 있습니다. 🧩Higgsfield도 🧩이번 Fable 5.2 공개에 맞춰 다양한 제작 사례와 워크플로우를 공개했는데요. 실제 지구를 그대로 옮긴 오픈월드 게임부터, "
-    },
-    {
-     "timestamp": "2026-11-09T09:00:03+0000",
-     "url": "https://www.instagram.com/reel/Dfg84WDM4zh/",
-     "type": "VIDEO",
-     "likes": 230,
-     "comments": 26,
-     "multiple": 1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "단 9명이 만든 극장용 AI 블록버스터… 🎬 AI로 만든 장편 영화가 진짜 극장에 개봉합니다. 100% 생성형 AI 기술로 거대한 미래 세계관을 구현한 SF 액션 영화 〈라파엘〉이 오는 11월 25일 개봉합니다. “AI 블록버스터의 시작을 목격하라” AI로 구현한 압도적인 스케일과 명령과 구원 사이, 인간성을 깨달아가는 묵직한 서사까지. 나를 위해 살 것인가, 누군가를 위해 죽을 것인가? 안드로이드 전쟁 병기 알렉세이가 맞이하게 될 모순된 운명과 그의 선택은? 과연 AI가 만든 장편영화는 어떤 "
     }
    ]
   },
   {
    "username": "prompt_what",
-   "followers": 246442,
+   "followers": 246892,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 295,
-    "median_comments": 68
+    "median_engagement": 312,
+    "median_comments": 67
    },
    "posts": [
+    {
+     "timestamp": "2026-11-11T05:15:30+0000",
+     "url": "https://www.instagram.com/p/DfltSJKFGWk/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 171,
+     "comments": 34,
+     "multiple": 0.7,
+     "multiple_basis": "likes+comments",
+     "caption_start": "하룻밤 새 Claude 대화창에 새 기능 5개가 쏟아졌습니다 🗂️ 화이트보드와 시트는 시험판(베타)으로 들어왔고 대시보드는 Claude Data로 이름을 바꿔 정식 출시됐어요. 말로 대충 푼 계획은 날짜 붙은 보드가 되고 요청 한 번이면 탭·수식·드롭다운까지 짠 표가 나옵니다. 숫자는 목소리 입힌 영상 초안으로 풀어 주고 어도비·노션 같은 앱도 대화창 옆에서 바로 열리고요. 통화에 Claude를 불러 메모하는 회의 기능은 곧 나온다니 유료 플랜이라면 오늘부터 대화창을 작업실로 써 보세요! Fiv"
+    },
     {
      "timestamp": "2026-11-11T03:46:03+0000",
      "url": "https://www.instagram.com/p/DfljC_PFP06/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 50,
-     "comments": 14,
-     "multiple": 0.2,
+     "likes": 105,
+     "comments": 35,
+     "multiple": 0.4,
      "multiple_basis": "likes+comments",
      "caption_start": "몇 번만 고쳐도 얼굴이 바뀌던 AI 편집, 이제 100번까지 버팁니다 🧶 바이트댄스가 공개한 이미지 모델 Seedream 5.5는 고칠 곳만 바꾸고 나머지는 픽셀 단위로 그대로 지켜서 한 장을 100번 연달아 수정한 데모에서도 안 고친 곳이 그대로 남았어요. 배경이 투명한 PNG를 처음부터 바로 만들어 배경 지우기가 필요 없고, 작은 글자가 심하게 깨지는 비율도 0.4%까지 낮췄다고 합니다. 드리미나와 캡컷에도 곧 들어갈 예정이라 투명 PNG 프롬프트 예시와 이어 고치는 순서를 정리본에 모아 뒀"
     },
@@ -314,9 +344,9 @@
      "timestamp": "2026-11-11T03:06:17+0000",
      "url": "https://www.instagram.com/reel/DfleZiPSxHk/",
      "type": "VIDEO",
-     "likes": 164,
-     "comments": 19,
-     "multiple": 0.6,
+     "likes": 326,
+     "comments": 58,
+     "multiple": 1.2,
      "multiple_basis": "likes+comments",
      "caption_start": "겨울왕국 자매가 대사 한 줄 없이 40초 동안 사고를 칩니다 🚓 언니는 손바닥 한 번으로 유치장 철창과 경찰을 얼리고 동생은 담배를 문 채 빨간 오픈카로 도주하는데 뜨거운 커피도 언니 손에 닿으면 아이스가 돼요. 카지노에선 룰렛 공을 얼음 구슬로 바꿔 빨간 7에 세우고, 펜트하우스 거울엔 노란 마커로 서명까지 남기고요. 캐릭터 시트 두 장에 글자 소품 세 장만 붙여 여섯 장면 모두 같은 두 사람으로 이어지게 만들었습니다. 댓글에 ’AI‘ 남겨주시면 프롬프트 + 제작 가이드를 보내드릴게요! Fro"
     },
@@ -324,9 +354,9 @@
      "timestamp": "2026-11-11T02:02:21+0000",
      "url": "https://www.instagram.com/p/DflXLccmfG1/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 143,
-     "comments": 68,
-     "multiple": 0.7,
+     "likes": 271,
+     "comments": 152,
+     "multiple": 1.4,
      "multiple_basis": "likes+comments",
      "caption_start": "클로드에 매달 돈 내면서 채팅창만 쓰고 있었다면 이 8가지부터 해보세요 📘 Fable 5.2가 새로 나오면서 고를 모델이 4개로 늘었는데 모델 고르는 기준부터 프로젝트, 메모리, 커넥터까지 켜 두기만 하면 되는 기능을 모르고 지나치는 분이 많습니다. 11월 10일 기준 앤트로픽 공식 문서와 하나씩 대조해서 지금 실제로 되는 것만 골라 메뉴 위치까지 적어 뒀고요. Pro 플랜은 11월 16일까지 한도 안에서 Fable 5.2를 써 볼 수 있으니 플랜 조건과 복붙 프롬프트 8개가 담긴 정리본으로 먼"
     },
@@ -334,8 +364,8 @@
      "timestamp": "2026-11-10T11:45:58+0000",
      "url": "https://www.instagram.com/reel/Dfj1EoYSo4r/",
      "type": "VIDEO",
-     "likes": 28,
-     "comments": 9,
+     "likes": 29,
+     "comments": 12,
      "multiple": 0.1,
      "multiple_basis": "likes+comments",
      "caption_start": "맛있어도 별 하나만 주는 갈매기 걸버트, 1화입니다 ⭐ 동물 영상에서 손가락이 멈추는 건 귀여워서보다 멤버마다 성격이 보여서라고 생각했는데 그래서 RoboNeo에서 성격 있는 동물을 직접 만들어 봤어요. 남의 간식을 훔쳐 먹고 평론가처럼 별점을 매기는 부산 갈매기라고 적었더니 메인 이미지와 앞옆뒤 모습이 나오고 성격 칸에 ‘맛있어도 절대 인정 안 함’을 넣어 캐릭터 카드로 저장했습니다. AI 쇼트 드라마 첫 대본은 판정이 영어로 나왔는데 한국어로 바꾸고 맛있어서 흔들리다 정색하게 해 달라고 한 줄"
@@ -344,9 +374,9 @@
      "timestamp": "2026-11-10T11:01:25+0000",
      "url": "https://www.instagram.com/reel/DfjwADdyH7a/",
      "type": "VIDEO",
-     "likes": 1609,
-     "comments": 534,
-     "multiple": 7.3,
+     "likes": 2117,
+     "comments": 654,
+     "multiple": 8.9,
      "multiple_basis": "likes+comments",
      "caption_start": "조명 이름 34개만 알아도 AI 영상의 분위기가 달라집니다 💡 같은 얼굴, 같은 옷, 같은 방인데 빛 하나 바뀌니까 전혀 다른 장면이 되고요. 한쪽 볼에 삼각형 빛이 남는 렘브란트, 블라인드 틈으로 줄무늬가 떨어지는 빛, 얼굴 아래에서 올려 비춰 서늘해지는 빛까지 들어 있어요. 이름을 알면 원하는 빛을 정확히 부를 수 있으니, 댓글에 ‘AI’ 남겨주시면 34가지 조명 프롬프트 보내드릴게요! Know these 34 lighting names and your AI videos change mood"
     },
@@ -364,8 +394,8 @@
      "timestamp": "2026-11-10T03:47:55+0000",
      "url": "https://www.instagram.com/p/Dfi-dvUmZYm/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 2180,
-     "comments": 515,
+     "likes": 2314,
+     "comments": 540,
      "multiple": 9.1,
      "multiple_basis": "likes+comments",
      "caption_start": "찍어 둔 영상에서 사람만 집어 옮기는 기능이 나왔습니다 🎬 힉스필드가 공개한 Miracle은 영상을 사람과 나무, 배경으로 나눠서 고치고 싶은 층만 골라 수정하는 편집 기술인데요. 낮 12시 거리를 저녁 8시로 바꾸고, 한 사람만 느리게 움직이게 할 수 있고요. 발표 글은 나흘 만에 조회수 2천만을 넘겼고 이미 있던 기술을 묶은 것 아니냐는 의심도 함께 나왔습니다. 지금은 일부 테스터만 사용하는 비공개 베타라 미리 연결해 두는 순서와 기능 여덟 가지를 정리했어요. 아무 댓글 남겨주시면 정리본 보"
@@ -374,8 +404,8 @@
      "timestamp": "2026-11-10T01:42:28+0000",
      "url": "https://www.instagram.com/reel/DfiwBVUSwzW/",
      "type": "VIDEO",
-     "likes": 448,
-     "comments": 675,
+     "likes": 471,
+     "comments": 713,
      "multiple": 3.8,
      "multiple_basis": "likes+comments",
      "caption_start": "보정 앱 없이 챗GPT 코드 한 줄로 사진을 고칩니다 📸 사진 한 장 올리고 슬래시 코드 하나만 보내면 얼굴은 그대로인 채 조명과 화질, 배경, 자세가 바뀌어요. 챗GPT 메뉴에 있는 기능은 아니고 코드 이름의 뜻을 읽고 반응하는 방식이라 사진마다 결과가 조금씩 달라요. 조명, 배경, 포즈별로 정리한 보정 코드 130개는 댓글에 ’보정‘ 남겨주시면 DM으로 보내드릴게요! No editing apps. One line of code in ChatGPT fixes the photo 📸 Upload"
@@ -384,9 +414,9 @@
      "timestamp": "2026-11-09T23:41:59+0000",
      "url": "https://www.instagram.com/p/DfiiUe0k88b/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 426,
-     "comments": 163,
-     "multiple": 2,
+     "likes": 434,
+     "comments": 168,
+     "multiple": 1.9,
      "multiple_basis": "likes+comments",
      "caption_start": "앤트로픽이 8일 만에 운영체제를 만든 Claude Fable 5.2를 공개했습니다 🖥️ Fable 5.2와 Mythos 5.2는 안전장치만 다른 같은 모델인데 Fable은 누구나, Mythos는 심사를 통과한 기관만 쓸 수 있고 API 가격도 전작보다 20% 내렸어요. 공개되자마자 먼저 써 본 사람들은 게임 엔진을 직접 조작한 3D 게임부터 실제 날씨가 반영되는 지구 오픈월드까지 만들어 올렸습니다. 카드에는 눈에 띈 사례 5개를 골랐고, 가격·성능 비교와 사례 20개 원본 링크까지 정리했으니 댓"
     },
@@ -394,9 +424,9 @@
      "timestamp": "2026-11-09T11:04:18+0000",
      "url": "https://www.instagram.com/p/DfhLm_xlJJ9/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 675,
+     "likes": 689,
      "comments": 67,
-     "multiple": 2.5,
+     "multiple": 2.4,
      "multiple_basis": "likes+comments",
      "caption_start": "유출된 Fable 5.5의 코드만 써서 만든 사례 12가지입니다 🎬 Claude에서 아직 발표 전인 Fable 5.5로 연결되는 A/B 테스트가 포착됐는데, 먼저 써 본 사람들의 결과물이 영상 생성 AI 없이 코드로만 만든 애니와 3D 공간이에요. 92초 일본 애니는 장면 43개를 에이전트 여럿이 나눠 만들었고 8개 에이전트 팀은 83초 애니를 3시간 안에 끝냈습니다. 고래 물보라는 입자 1,690만 개로 계산했고, 영상 한 편에 든 AI 사용료는 11.89~17.85달러 선입니다. 12 thi"
     },
@@ -404,41 +434,51 @@
      "timestamp": "2026-11-09T10:49:46+0000",
      "url": "https://www.instagram.com/reel/DfhJl3-y3Lv/",
      "type": "VIDEO",
-     "likes": 42076,
-     "comments": 92,
-     "multiple": 142.9,
+     "likes": 43641,
+     "comments": 94,
+     "multiple": 140.2,
      "multiple_basis": "likes+comments",
      "caption_start": "댓글에 ‘Elsa’ 남겨주시면 프롬프트 보내드릴게요 ❄️ comment ‘Elsa’ and I’ll send you the prompt ❄️"
-    },
-    {
-     "timestamp": "2026-11-09T06:59:15+0000",
-     "url": "https://www.instagram.com/p/DfgvkN-FL8R/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 1041,
-     "comments": 1743,
-     "multiple": 9.4,
-     "multiple_basis": "likes+comments",
-     "caption_start": "내 계정 운영을 통째로 맡기는 클로드 스킬 13개입니다 📸 깃허브에서 별 5천 개를 받은 저장소인데 클로드에 한 번 설치해 두면 프로필 채점부터 릴스 대본, 캡션, DM 문구까지 대신 써 줘요. 글은 스킬이 쓰고 올리는 버튼은 내가 누르는 구조라 게시나 DM을 대신 누르는 자동화는 계정이 막힐 수 있어 일부러 넣지 않았다고 합니다. 카드에는 계정 운영 순서대로 바로 써먹기 좋은 6개를 골랐고, 나머지 7개와 한 번에 설치하는 프롬프트는 정리본에 담았습니다. ✅prompt_what 계정 팔로우 후"
     }
    ]
   },
   {
    "username": "ai_freaks.kr",
-   "followers": 132576,
+   "followers": 132619,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 586,
+    "median_engagement": 344,
     "median_comments": 20
    },
    "posts": [
     {
+     "timestamp": "2026-11-11T10:08:43+0000",
+     "url": "https://www.instagram.com/reel/DfmOlSYM3sW/",
+     "type": "VIDEO",
+     "likes": 21,
+     "comments": 25,
+     "multiple": 0.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "“페이블 5.2 모션 꿀조합 3일 동안 무제한 무료” 🤯 힉스필드가 페이블 5.2 출시를 기념해 MCP 신규 사용자에게 모든 영상 모델을 3일간 무료·무제한으로 열었어요. MCP는 쉽게 말해 Claude가 외부 도구를 직접 쓸 수 있게 해주는 연결 통로예요. 페이블 5.2가 아이디어를 장면으로 설계하면, 힉스필드 MCP가 실제 영상으로 만들어줘요. 클로드와의 대화만으로 애니메이션부터 시네마틱 브이로그, 제품 3D 광고, UGC 영상까지 만들 수 있죠. 광고나 제품 영상을 직접 만들어보고 싶었다면"
+    },
+    {
+     "timestamp": "2026-11-11T04:59:51+0000",
+     "url": "https://www.instagram.com/p/DflrfhHGllJ/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 89,
+     "comments": 15,
+     "multiple": 0.3,
+     "multiple_basis": "likes+comments",
+     "caption_start": "“사무직 삼켜버린 클로드 신기능” 🤯 앤트로픽이 클로드에 화이트보드와 시트, 데이터 기능을 추가했어요. 기존 대시보드가 ‘클로드 데이터’로 바뀌면서 데이터를 이야기와 영상으로 풀어내고, 화이트보드에 아이디어와 메모를 모으면 주제별로 정리하고, 문서나 발표자료로 이어갈 수 있죠. 예산표나 업무 관리표를 요청하면 클로드가 여러 탭을 오가며 수식까지 함께 만들어요. 어도비나 노션 같은 앱도 클로드 안에서 바로 열어 작업할 수 있대요. 카드뉴스를 넘겨 자세한 내용을 확인해보세요. 👉🏻 AI 소식 놓"
+    },
+    {
      "timestamp": "2026-11-10T12:10:31+0000",
      "url": "https://www.instagram.com/reel/Dfj4CrHz5Jb/",
      "type": "VIDEO",
-     "likes": 144,
-     "comments": 8,
-     "multiple": 0.3,
+     "likes": 165,
+     "comments": 9,
+     "multiple": 0.5,
      "multiple_basis": "likes+comments",
      "caption_start": "“아스트라 대신 게임기를 내버린 오픈AI” 🎮 오픈AI가 레트로 게임기 브랜드 ‘모드레트로‘와 손잡았어요. AI로 만든 게임을 실제 게임팩에 담아 즐기는 ‘크로매틱: 코덱스 에디션‘을 선보였는데요. 컴퓨터에서 AI 코딩 도구 ‘코덱스’에 전용 플러그인을 설치하고, 원하는 캐릭터와 맵, 게임 규칙을 말하면 나만의 게임팩이 만들어지죠. 직접 플레이하면서 마음에 안 드는 부분을 고칠 수 있고, 게임보이를 닮은 게임기에 게임팩을 꽂아 사용하면 돼요. 게임기는 예전에 갖고 있던 게임보이 컬러 팩도 호환된"
     },
@@ -446,9 +486,9 @@
      "timestamp": "2026-11-10T09:25:15+0000",
      "url": "https://www.instagram.com/p/DfjlEe3GuEd/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 92,
-     "comments": 47,
-     "multiple": 0.2,
+     "likes": 98,
+     "comments": 48,
+     "multiple": 0.4,
      "multiple_basis": "likes+comments",
      "caption_start": "“명령어 한 줄로 끝내는 후반작업” 🎬 힉스필드가 클로드에서 쓰는 ‘/miracle’ 명령어를 공개했어요. 빛바랜 영상에 색감을 입히고, 움직이는 인물만 따서 다른 배경에 합성하고, 지나가는 행인까지 지워줘요. 원래는 전문 영상 편집툴로 하나하나 손봐야 했던 작업인데 이제는 채팅창에 명령어만 입력하면 끝이죠. 신규 사용자는 3일 무료 체험까지 주어지니 한 번 사용해보세요 🤗 💌 댓글 남겨주시면 ‘MCP 3일 무료체험’ 링크 보내드릴게요! 👉🏻 AI 소식 놓치지 않으려면? ai_freaks"
     },
@@ -456,9 +496,9 @@
      "timestamp": "2026-11-10T02:01:56+0000",
      "url": "https://www.instagram.com/p/DfiyVeOGhSX/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 917,
-     "comments": 408,
-     "multiple": 2.3,
+     "likes": 932,
+     "comments": 420,
+     "multiple": 3.9,
      "multiple_basis": "likes+comments",
      "caption_start": "“클로드가 쏘아올린 AI 블프” 🤖 오늘 새벽 앤트로픽이 최상위 모델 ‘페이블 5.2’와 ‘미토스 5.2’를 공개! 출시 기념으로 Max·Ultra 사용자는 구독 기간에 따라 페이블 한도 리셋을 1~3번 증정해요. Pro 사용자라면 11월 16일까지 페이블 사용량만 1회 리셋하는 쿠폰을 사용할 수 있어요. 이전 버전보다 최대 30% 빨라졌는데, 가격은 오히려 20% 내려갔고, 각종 코딩 벤치마크에서 최상위 성적을 기록하면서 벌써부터 기대감을 불러 일으키는데요. 홈 디바이스도 프롬프트 한 문단으로"
     },
@@ -471,26 +511,16 @@
      "multiple": 0.5,
      "multiple_basis": "comments",
      "caption_start": "“샘 알트만 X, 이젠 램 알트만” 💾 오픈AI의 CEO 샘 알트먼이 X 계정 이름을 잠시 ‘램 알트만‘으로 바꿨었는데요. 발단은 한 팟캐스트 인터뷰에서 알트만은 ’한정된 D램을 각자 컴퓨터에 묵혀둔 채 5%만 쓰는 건 꽤 끔찍하다“고 말해서에요. 컴퓨터 메모리인 램(RAM)에 대해 한 말이 역풍을 맞은거죠. AI 데이터센터가 전 세계 메모리를 쓸어 담으면서 PC용 램 가격까지 오르고 있는데, 이용자들 입장에선 가격을 올린 쪽에서 내 PC 램까지 아깝다고 하는게 불만을 샀어요! 조롱 밈이 쏟아지"
-    },
-    {
-     "timestamp": "2026-11-09T05:00:08+0000",
-     "url": "https://www.instagram.com/p/Dfgh70QGt57/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 406,
-     "comments": 460,
-     "multiple": 1.5,
-     "multiple_basis": "likes+comments",
-     "caption_start": "“클로드 업데이트, 어디까지 써보셨나요?” 👀 빠르게 쏟아지는 업데이트 중 꼭 알아둘 8가지를 정리했어요. 이제 클로드에서는 구글 파일을 복붙 없이 읽고 수정할 수 있어요. 데이터가 갱신되는 대시보드를 만들고, 모션그래픽도 제작할 수 있죠. /usage로 한도를 어디에 많이 썼는지 확인하고, 복잡한 질문에는 ultrathink를 넣어 더 깊게 생각하도록 할 수 있어요. 여러 작업을 세션으로 나눠 동시에 진행하거나, Mods로 내게 필요한 화면과 기능을 만들 수도 있고요. 카드뉴스를 넘기며 내 작"
     }
    ]
   },
   {
    "username": "ai.brief.kr",
-   "followers": 31748,
+   "followers": 31745,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 60,
+    "median_engagement": 64,
     "median_comments": 1
    },
    "posts": [
@@ -498,9 +528,9 @@
      "timestamp": "2026-11-10T09:52:18+0000",
      "url": "https://www.instagram.com/p/DfjoKmOAWi5/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 40,
+     "likes": 46,
      "comments": 2,
-     "multiple": 0.7,
+     "multiple": 0.8,
      "multiple_basis": "likes+comments",
      "caption_start": "📞 고객센터 전화, 이제 AI가 대신 겁니다 상위 1%를 위한 가장 빠른 AI 테크 브리핑입니다. 요금제 하나 바꾸려고 고객센터에 전화했다가 대기음만 듣다 끊은 경험.. 다들 있으시죠? 요즘 이 귀찮은 일을 대신 해주는 AI 비서 피클이 한국 앱스토어 생산성 1위에 올랐습니다. 전화 대행부터 쇼핑, KTX 취소표 예매, 친구 AI와 약속 잡기까지 자세한 내용은 카드뉴스에 담았습니다! 💡 AI Brief 인사이트 AI의 다음 단계는 더 똑똑해지는 게 아니라 손발이 생기는 것입니다. 다만 손발이 "
     }
@@ -508,21 +538,31 @@
   },
   {
    "username": "ai.ainow",
-   "followers": 78421,
+   "followers": 78454,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 395,
+    "median_engagement": 363,
     "median_comments": 218
    },
    "posts": [
+    {
+     "timestamp": "2026-11-11T08:08:45+0000",
+     "url": "https://www.instagram.com/p/DfmBHAznez4/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 26,
+     "comments": 44,
+     "multiple": 0.2,
+     "multiple_basis": "likes+comments",
+     "caption_start": "💻GPT를 깔고 바로 대화만 했다면, 설정 화면부터 한 번 열어 보세요. 1. 메모리 활성화 → 지난 대화 기억 내 상황을 다시 설명할 필요가 없어요. 2. 내 문체 참고 → 내 말투로 글쓰기 결과물에서 AI 티가 빠집니다. 3. 추가 ChatGPT 설정 7개 → 전부 켜기 웹·스페이스·커넥터 검색까지 알아서 써요. 1분이면 끝나는 설정인데 답의 결이 달라집니다. 💬 자세한 설정 방법이 궁금하신 분들은 아무 댓글 남겨 주시면 설정 가이드북 바로 공유해 드릴게요. #ai #chatgpt #gpt"
+    },
     {
      "timestamp": "2026-11-09T14:05:57+0000",
      "url": "https://www.instagram.com/p/DfhgZgBHYiv/",
      "type": "CAROUSEL_ALBUM",
      "likes": 105,
-     "comments": 216,
-     "multiple": 0.8,
+     "comments": 228,
+     "multiple": 0.9,
      "multiple_basis": "likes+comments",
      "caption_start": "💻마케터를 따로 뽑기 전에, GPT에 이 다섯 개부터 연결해 보세요. 1. Ahrefs · vidIQ → 검색어와 잘되는 영상 분석 쓸 주제와 영상 제목이 데이터로 정해져요. 2. Figma · Higgsfield → 시안과 광고 소재 제작 디자이너·촬영 없이 첫 소재가 나옵니다. 3. Metricool → 예약과 성과 확인 여러 채널 운영을 한 화면에서 끝내요. 앱마다 요금제가 따로 있으니 막힌 일 하나부터 연결하세요. 연결 방법이 궁금하신 분들은 💬 아무 댓글 남겨 주시면 자료 공유해 드릴"
     }
@@ -530,7 +570,7 @@
   },
   {
    "username": "mktg.with.ai",
-   "followers": 11559,
+   "followers": 11570,
    "ok": true,
    "baseline": {
     "posts": 25,
@@ -538,6 +578,16 @@
     "median_comments": 1
    },
    "posts": [
+    {
+     "timestamp": "2026-11-11T09:05:02+0000",
+     "url": "https://www.instagram.com/p/DfmHd04lO5d/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 2,
+     "comments": 0,
+     "multiple": 0.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "릴스를 열심히 올리는데 그대로라면, 더 올리기 전에 이미 올린 걸 먼저 뜯어볼 차례예요 🔍 인스타그램 마케팅 전략가 엘리자베스 마베리는 1년 동안 매일 릴스를 올렸는데 거의 안 컸다고 고백했어요. 그녀가 지금 강조하는 건 양이 아니라 비교예요. Edits 앱 Insights에서 최근 90일 상위 3개를 골라 장소, 화면 문구, 편집 속도, 길이 네 가지를 나란히 적으면 겹치는 패턴이 보여요 📝 아이폰이라면 인스타그램 First Draft로 초안 편집 시간도 줄일 수 있어요. 다만 반복 테이크는"
+    },
     {
      "timestamp": "2026-11-10T09:03:32+0000",
      "url": "https://www.instagram.com/p/DfjigR1EdhF/",
@@ -547,16 +597,6 @@
      "multiple": 0,
      "multiple_basis": "likes+comments",
      "caption_start": "AI로 만든 보고서, 받는 사람은 끝까지 읽고 있을까요? 👀 구독자 99만 명 뉴스레터를 쓰는 루벤 하시드는 AI가 찍어낸 문서를 '슬롭 수류탄'이라고 불러요. 글자는 많은데 뭘 보라는 건지 모르는 문서요 💣 루벤이 공개한 해법은 프롬프트 끝에 공개 규칙 링크 한 줄을 붙이는 거예요. 고치면 단어가 절반쯤 사라진다는 게 본인 설명이에요. 새로 만들 때와 받은 문서를 고칠 때 쓰는 문장, 문서 목적별 형식을 카드에 정리했어요 📝 클로드 기준 방법이에요. 다음 보고 쓰기 전에 보도록 저장해두세요"
-    },
-    {
-     "timestamp": "2026-11-09T09:03:05+0000",
-     "url": "https://www.instagram.com/p/Dfg9pIkEeZ6/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 13,
-     "comments": 1,
-     "multiple": 0.9,
-     "multiple_basis": "likes+comments",
-     "caption_start": "지난번 잘된 릴스, 다시 올리면 또 잘될 거라고 믿고 계셨나요? 🤔 예전 영상을 테스트 릴스로 다시 올려 팔로워 40만까지 키운 한 운영자가, 10월 20일 이후 다시 올린 영상이 2,500회 근처에서 멈춘다고 레딧에 털어놨어요 📉 하루 평균 2,000명씩 늘던 팔로워는 요즘 하루 80명씩 줄고 있다고 해요. 그런데 댓글에는 같은 기간 100만 가까이 나왔다는 사람도 있어요. 인스타그램 도움말에는 같은 콘텐츠로 감지되면 도달이 제한될 수 있다고 적혀 있지만, 10월 20일에 뭐가 바뀌었는지는 "
     }
    ]
   },
