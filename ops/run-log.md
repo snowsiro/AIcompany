@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-11
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 40 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-01-weekly (47)
+결정할 일
+1. 없음. 단, 소스가 The Next Web 하나뿐(heise는 원문 미확인이라 인용 안 함). 작은 회사(Mistral, Sakana AI 등)는 기사에 설명이 없어 설명 없이 이름만 나열. hook-judge 선택 개선안: 커버에 Paris Call/AI safety 표기 또는 슬라이드 2에서 불참 예고 (비차단)
+2. 선정: Macron의 Paris Call for AI Safety and Security — 10개 기업·6개국 서명, 미국·Google·Meta 불참 (EUROPE AI · POLICY, 점수 8). 예비: posts/_backlog/2026-11-11-morning-runners-up.md (Gemini Robotics 2.5, 한국 IMD 순위 등). Nvidia/Huang/Megaspeed는 입증 안 된 실명 의혹이라 제외
+3. 검수: fact 통과, hook 7/10 통과 (독자 영향 훅 없음 사유 기재), brand-safety 통과. 모두 1차 통과. brand-safety는 슬라이드 1·4·8만 열람
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 필요
+5. 인스타그램 토큰 없음(IG_*): 참고 계정 미사용, 뉴스 원천(스캔 feeds)으로 선정. 아침 스캔이 05:07에 안 돌아 morning-scan 워크플로를 수동 실행, 약 2분 안에 main에 올라옴
+6. 후보 7개 중 아시아·한국 읽을 수 있는 원문이 AI타임스뿐이라 한국 후보가 약했음 (Yonhap, Politico EU, Verge 등 403)
+자세한 기록
+- 05:45 시작. 백로그 확인: main에 ready 글 없음
+- 선정 id `2026-11-11-paris-call-ai-safety`
+
 ## [저녁 보고] 2026-11-10
 처리 1건 (ready 1) · 실패 0건
 결정할 일

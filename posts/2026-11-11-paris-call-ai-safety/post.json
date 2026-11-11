@@ -1,0 +1,136 @@
+{
+  "id": "2026-11-11-paris-call-ai-safety",
+  "date": "2026-11-11",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "US, GOOGLE, META",
+      "DIDN'T **SIGN**"
+    ],
+    "hook_options": [
+      [
+        "US, GOOGLE, META",
+        "DIDN'T **SIGN**"
+      ],
+      [
+        "10 AI FIRMS SIGN",
+        "MACRON'S **CALL**"
+      ],
+      [
+        "AI LABS PLEDGE",
+        "MODEL **SHUTDOWN**"
+      ],
+      [
+        "10 COMPANIES AND",
+        "6 **COUNTRIES** SIGN"
+      ]
+    ],
+    "hook_types": [
+      "rivalry",
+      "number",
+      "claim",
+      "number"
+    ],
+    "hook_type": "rivalry",
+    "hook_pick_reason": "Names who is missing (US, Google, Meta) and is fully backed by slide 3, which says exactly that and nothing about why. The number options (10 companies, 6 countries) are backed by slides 1 and 2 but say less about what is at stake. The shutdown option is backed by slide 4, which explains it as fail-safe mechanisms that can shut models down, not a literal kill switch. No reader-impact hook: the articles state no direct effect on ordinary readers (what they pay, use or risk); they cover who signed and what the text commits companies to.",
+    "image_prompt": "Cinematic wide shot of a dark circular hall with a long round table lit by a single beam from above, most seats glowing warm gold and a few seats left empty in shadow, a large softly lit glass globe hovering above the table, thin mist across the floor. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The signers",
+      "title": "Ten AI companies sign on",
+      "body": [
+        "**OpenAI, Anthropic, Microsoft and Mistral** are among ten companies that signed the Paris Call for AI Safety and Security. The other six are Hugging Face, Cohere, Black Forest Labs, Domyn, Sakana AI and Synthesia."
+      ]
+    },
+    {
+      "kicker": "The countries",
+      "title": "Six countries signed too",
+      "body": [
+        "France, Canada, Finland, Norway, the Netherlands and Bahrain signed. It was agreed on Monday at a meeting hosted by French President Emmanuel Macron, on the **opening day** of the Paris Peace Forum."
+      ]
+    },
+    {
+      "kicker": "The holdouts",
+      "title": "Who did not sign",
+      "body": [
+        "**The US, Google, Meta and China** have not signed. About 50 people joined by video, including Sam Altman, Dario Amodei and Microsoft president Brad Smith. US Treasury Secretary Scott Bessent took part, but the US is not a signatory."
+      ]
+    },
+    {
+      "kicker": "The pledge",
+      "title": "Shutdown and outside testing",
+      "body": [
+        "Signatories committed to **fail-safe mechanisms** that can shut down their AI models, including during training and internal use. They also agreed to let qualified independent experts test the models where appropriate."
+      ]
+    },
+    {
+      "kicker": "The openness",
+      "title": "Results, warnings, whistleblowers",
+      "body": [
+        "Non-sensitive test results would be published in a **common format**. Governments and companies will share early warnings about serious incidents, and whistleblowers get secure reporting channels."
+      ]
+    },
+    {
+      "kicker": "The critique",
+      "title": "A signer says it lacks teeth",
+      "body": [
+        "CeSIA, a French AI safety group that signed, says the text sets **no common risk thresholds** for deciding whether a model should be released. It says independent testers are not guaranteed access, and wants governments to be able to suspend a model."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "OpenAI, Anthropic, Microsoft and Mistral are among ten AI companies that have signed the Paris Call for AI Safety and Security."
+    },
+    {
+      "source": 0,
+      "text": "The other participating companies are Hugging Face, Cohere, Black Forest Labs, Domyn, Sakana AI and Synthesia."
+    },
+    {
+      "source": 0,
+      "text": "Six countries signed: France, Canada, Finland, Norway, the Netherlands and Bahrain."
+    },
+    {
+      "source": 0,
+      "text": "It was agreed on Monday at a meeting hosted by French President Emmanuel Macron, on the opening day of the Paris Peace Forum."
+    },
+    {
+      "source": 0,
+      "text": "Around 50 people joined by video, including OpenAI's Sam Altman, Anthropic's Dario Amodei and Microsoft president Brad Smith; US Treasury Secretary Scott Bessent took part, but the US is not among the signatories. Google, Meta and China have not signed either."
+    },
+    {
+      "source": 0,
+      "text": "Signatories committed to fail-safe mechanisms that can shut down their AI models, including during training and internal use, and to let qualified independent experts test them where appropriate."
+    },
+    {
+      "source": 0,
+      "text": "Non-sensitive test results would be published in a common format, and governments and companies will share early warnings about serious incidents; whistleblowers get secure reporting channels."
+    },
+    {
+      "source": 0,
+      "text": "French AI safety group CeSIA, which signed, says the text sets no common risk thresholds for deciding whether a model should be released and does not guarantee independent testers access; it wants governments to be able to suspend a model."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "AI firms sign Macron's Paris Call, but safety group says it lacks teeth",
+      "date": "Nov 10, 2026",
+      "url": "https://thenextweb.com/news/paris-call-ai-safety-openai-anthropic-cesia"
+    }
+  ],
+  "caption": "OpenAI, Anthropic, Microsoft and Mistral are among ten AI companies that signed Macron's Paris Call for AI Safety and Security. The US, Google, Meta and China have not signed.\n\nSix countries signed too: France, Canada, Finland, Norway, the Netherlands and Bahrain. The meeting was hosted by Macron on the opening day of the Paris Peace Forum.\n\n→ Signatories committed to fail-safe mechanisms that can shut down their AI models, including during training and internal use\n→ Qualified independent experts test the models where appropriate, and non-sensitive results are published in a common format\n→ CeSIA, a French AI safety group that signed, says the text sets no common risk thresholds for release decisions\n\nShould governments be able to suspend an AI model?\n\nSource: The Next Web, \"AI firms sign Macron's Paris Call, but safety group says it lacks teeth\", Nov 10, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#ParisCall",
+    "#OpenAI",
+    "#AISafety"
+  ],
+  "threads_caption": "OpenAI, Anthropic, Microsoft and Mistral are among ten AI companies that signed Macron's Paris Call for AI Safety and Security. The US, Google, Meta and China have not.\n\nThe text commits signers to fail-safe mechanisms that can shut down models.\n\nSource: The Next Web, \"AI firms sign Macron's Paris Call, but safety group says it lacks teeth\". #ParisCall"
+}
