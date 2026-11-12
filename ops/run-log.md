@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-12
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 단, 저녁 런이 21:59(빈 시간)에 늦게 시작함 (예정 19:15). 출처는 The Next Web 하나뿐(Tech.eu 15:55Z 첫 보도는 피드 요약만). 카테고리 BUSINESS는 lint가 거부해 INDUSTRY 사용
+2. 선정: Nebius(암스테르담 AI 클라우드) 3분기 매출 571% 증가에도 데이터센터 지연으로 주가 16% 하락 (EUROPE AI · INDUSTRY, 점수 10, 신선 가산 포함). 첫 보도 2026-11-12 15:55Z (Tech.eu), ready 시점 약 5시간 후. 아침 글(TSMC/OpenAI/Anthropic, AI타임스)과 다른 회사·매체. Google Gemini 4 Hydrogen(7점)은 예비. 예비: posts/_backlog/2026-11-12-evening-runners-up.md
+3. 검수: 1차 fact 불합격(슬라이드 3 "early 2027" → 원문 "first half of 2027") → 수정 후 2차 fact 통과. hook 8/10 통과(독자 영향 훅 없음 사유 기재), brand-safety 통과 (둘 다 1차 기준, 한 단어 수정 후 재검수 안 함)
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (아침 2 포함 오늘 합계 4/6). 사람·글자·로고 없음. 내가 직접 생성 (designer 서브에이전트에 Higgsfield 도구 없음)
+5. Jensen Huang 사임 보도(오늘 최대 뉴스)는 실명 사생활 의혹 기반이라 제외. 본문에도 넣지 않음
+자세한 기록
+- 21:59 시작. 백로그 확인: main에 ready 글 없음 (TSMC 글 published)
+- 후보 10개 (새 10, 이월 0: 아침 후보 파일 없음). 선정 id `2026-11-12-nebius-delays`
+
 ## [아침 보고] 2026-11-12 (수동 실행)
 처리 1건 (ready 1) · 실패 0건
 성과: 수집 안 됨 (수동 실행)

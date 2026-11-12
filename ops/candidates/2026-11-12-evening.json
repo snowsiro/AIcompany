@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-12",
+  "run": "evening",
+  "cutoff_utc": "2026-11-12T04:45:00Z",
+  "run_started_utc": "2026-11-12T21:00:00Z",
+  "notes": [
+    "Morning post (2026-11-12-tsmc-openai-anthropic, AI타임스) excluded. No morning candidates file, so no carried_over entries.",
+    "Excluded on purpose: Jensen Huang resignation/scandal cluster (TechCrunch, Sifted, TNW, Der Standard, heise, etnews) - built on alleged affairs and an alleged spy; real-person allegation story, per instruction.",
+    "Reference accounts: no 48h reference post maps to an evening story (all 3x+ posts predate 04:45 UTC).",
+    "Readability checked with scripts/article.mjs: all listed URLs returned text, except sifted.eu (fetch failed, not used).",
+    "No repeats found in posts/ for the last 14 days."
+  ],
+  "candidates": [
+    {
+      "rank": 1,
+      "title": "Google puts Gemini 4 Hydrogen, a fast cheaper model, into Search for everyone",
+      "company": "Google",
+      "region": "US / global",
+      "first_published_utc": "2026-11-12T18:00:00Z",
+      "repeat": false,
+      "summary": "Google rolled Gemini 4 Hydrogen into Search globally, calling it the biggest model upgrade to Search yet; it is 2.5x faster than Gemini 3.8 Flash and costs $1.50 per million input tokens.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "Google (The Keyword)", "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen", "date": "2026-11-12", "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/", "readable": true},
+        {"outlet": "TechCrunch", "title": "Google's latest Search upgrade promises better answers to your most complicated questions", "date": "2026-11-12T19:27:45Z", "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/", "readable": true},
+        {"outlet": "The Next Web", "title": "Google's Gemini 4 Hydrogen brings a fast, cheaper model to everyone", "date": "2026-11-12T20:19:32Z", "url": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone", "readable": true}
+      ],
+      "facts": [
+        {"text": "Today, Google Search is bringing cutting-edge intelligence to everyone with Gemini 4 Hydrogen. This is the biggest model upgrade to Search yet.", "article": 0},
+        {"text": "Hydrogen is now available globally in Google Search for all users", "article": 0},
+        {"text": "Google says Hydrogen completes tasks 2.5 times faster than Gemini 3.8 Flash, its previous fast model", "article": 1},
+        {"text": "even beating the more powerful Gemini 4 Argon on one broad intelligence benchmark, the Artificial Analysis Intelligence Index, at its default high thinking level", "article": 1},
+        {"text": "The model offers four thinking levels: low, medium, high (default), and a new, extra-high tier (\"xhigh\")", "article": 1},
+        {"text": "Gemini 4 Hydrogen is coming to all tiers of Google's AI Studio, the Gemini API, the Gemini App, and the paid AI Pro and Ultra subscribers in Google's Antigravity development platform.", "article": 1},
+        {"text": "For developers, it costs $1.50 per million input tokens and $7.50 per million output tokens. That is less than half the standard price of Google's flagship Gemini 4 Argon. Hydrogen can handle up to 1 million tokens of input at once.", "article": 2},
+        {"text": "Google also says Hydrogen makes up facts five times less often than 3.8 Flash.", "article": 2},
+        {"text": "Artificial Analysis puts its top setting one point behind Anthropic's Claude Sonnet 5.5", "article": 2}
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Hack at Fireworks AI exposes Notion AI chat transcripts",
+      "company": "Fireworks AI / Notion",
+      "region": "US",
+      "first_published_utc": "2026-11-12T15:02:28Z",
+      "repeat": false,
+      "summary": "Attackers breached Fireworks AI's cloud provider and stole customer data; Notion says about 1% of its customers were affected, including Notion AI 'Insights' chat transcripts.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "TechCrunch", "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts", "date": "2026-11-12T15:02:28Z", "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/", "readable": true}
+      ],
+      "facts": [
+        {"text": "Fireworks AI, a platform that developers use to access and use open AI models, said an attacker breached its cloud provider to gain access to a Fireworks development system", "article": 0},
+        {"text": "the cybercriminals took Fireworks' customers' billing information and some datasets", "article": 0},
+        {"text": "Fireworks touts tens of thousands of customers worldwide using its platform, including legal tech company Harvey and AI company Cursor.", "article": 0},
+        {"text": "Notion, which said in a disclosure that the breach affected around 1% of its own customers.", "article": 0},
+        {"text": "On November 3, Notion said it disconnected its systems from Fireworks, deleted the data stored in its systems, and stopped all connectivity between the two.", "article": 0},
+        {"text": "the hackers took chat transcripts of its Notion AI customers who used the \"Insights\" feature", "article": 0},
+        {"text": "their goals are focused on selling tokens from breaching access to large language models", "article": 0},
+        {"text": "This is the second breach affecting Fireworks in as many months, following a security incident in October.", "article": 0}
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "United Airlines blocks personal AI agents from booking flights",
+      "company": "United Airlines",
+      "region": "US",
+      "first_published_utc": "2026-11-12T15:11:00Z",
+      "first_published_note": "Earliest seen: AI타임스 Korean rewrite 15:11 UTC citing reports; Reuters headline in feeds.json; TechCrunch 17:17 UTC. Lead with TechCrunch.",
+      "repeat": false,
+      "summary": "United says it will restrict unauthorized third-party AI agents from booking and managing reservations, citing credential leaks, unintended purchases and federal rules requiring a human check-in.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "TechCrunch", "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks", "date": "2026-11-12T17:17:58Z", "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/", "readable": true}
+      ],
+      "facts": [
+        {"text": "United Airlines said it will restrict access to AI agents seeking to book flights and manage reservations on their users' behalf", "article": 0},
+        {"text": "\"sharing account credentials with personal, third-party, AI assistants can expose sensitive information, and actions taken by these tools may result in unintended purchases, account changes, or use of MileagePlus miles.\"", "article": 0},
+        {"text": "requiring that a human completes flight check-ins to acknowledge that their bags do not contain banned substances", "article": 0},
+        {"text": "\"United is taking steps to restrict access — directly within our digital platforms and indirectly via travel agencies and aggregators — to prohibit use by unauthorized, third-party personal AI agents or assistants\"", "article": 0},
+        {"text": "The airline's move follows a warning from banks, including Bank of America, which last week urged customers not to share their passwords with their AI assistants.", "article": 0}
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Nebius shares fall 16% as data-centre delays cut its 2026 outlook",
+      "company": "Nebius (Amsterdam-based AI cloud company)",
+      "region": "Europe",
+      "first_published_utc": "2026-11-12T15:55:00Z",
+      "first_published_note": "Tech.eu 15:55 UTC (feed); TNW 19:34 UTC is the readable roundup used here.",
+      "repeat": false,
+      "summary": "Revenue rose 571% to $980.8M, but delays at rented sites push capacity into 2027; 2027 capex plan $40-45B, shares down 16%.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "The Next Web", "title": "Nebius: 'Delays are part of our industry right now. We are not immune'", "date": "2026-11-12T19:34:15Z", "url": "https://thenextweb.com/news/nebius-q3-2026-shares-fall-data-centre-delays-outlook", "readable": true}
+      ],
+      "facts": [
+        {"text": "Nebius shares fell 16% on Thursday after the Amsterdam-based AI cloud company cut its outlook for this year.", "article": 0},
+        {"text": "third-quarter revenue that rose 571% from a year earlier, to $980.8m", "article": 0},
+        {"text": "Nebius now expects 2026 revenue at the low end of its $3bn to $3.4bn range.", "article": 0},
+        {"text": "For 2027, Nebius expects revenue of $12bn to $13bn.", "article": 0},
+        {"text": "One of them is a 300MW site in Vineland, New Jersey, held up by delays in power", "article": 0},
+        {"text": "\"Building at this scale is hard, and delays are part of our industry right now. We are not immune,\" Volozh said", "article": 0},
+        {"text": "For 2027, it plans $40bn to $45bn, well above the $28.77bn analysts expected", "article": 0}
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "SoftBank leads $500M round in German robot maker Agile Robots at $8.5B valuation",
+      "company": "Agile Robots",
+      "region": "Europe (Germany)",
+      "first_published_utc": "2026-11-12T09:41:00Z",
+      "first_published_note": "Sifted 09:41 UTC (feed, not readable); Tech.eu 12:38 UTC readable.",
+      "repeat": false,
+      "summary": "Munich humanoid and industrial robot maker raises $500M Series F from SoftBank with Nvidia and Hitachi; has a factory for up to 10,000 humanoids a year.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "Tech.eu", "title": "SoftBank leads $500M funding round in Agile Robots", "date": "2026-11-12T12:38:00Z", "url": "https://tech.eu/2026/11/12/softbank-leads-500m-funding-round-in-agile-robots/", "readable": true}
+      ],
+      "facts": [
+        {"text": "SoftBank has led a $500m funding round in German humanoid robotics startup Agile Robots", "article": 0},
+        {"text": "the Series F funding round, which also features Nvidia, Hitachi, and T Capital and valued Agile at $8.5bn. Agile has raised around $2bn in total.", "article": 0},
+        {"text": "Founded in 2018 as a spin-off out of the German Aerospace Centre", "article": 0},
+        {"text": "Agile opened a factory close to Munich, which can make up to 10,000 legged and wheeled humanoid robots a year", "article": 0},
+        {"text": "Agile employs over 2,000 research and development specialists and holds over 650 patents.", "article": 0},
+        {"text": "Agile said it would use the new funds to expand in the US and boost production capacity.", "article": 0}
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Grok Build left more than 35,000 user-built apps open without sign-in",
+      "company": "SpaceXSI (maker of Grok)",
+      "region": "US",
+      "first_published_utc": "2026-11-12T18:03:30Z",
+      "first_published_note": "Claroc research published 10 Nov and Ars Technica reported earlier; TNW 18:03 UTC is first readable. Freshness after 04:45 UTC uncertain - editor should treat as borderline.",
+      "repeat": false,
+      "summary": "Security firm Claroc found 35,578 of 37,571 live Grok Build apps (94.7%) opened without sign-in, including SpaceXSI's own sales plans; 650-800 held private data.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "The Next Web", "title": "Grok Build left 35,000 apps open, SpaceXSI sales plans included", "date": "2026-11-12T18:03:30Z", "url": "https://thenextweb.com/news/grok-build-apps-exposed-claroc-spacexsi", "readable": true}
+      ],
+      "facts": [
+        {"text": "Of the 37,571 still online, 35,578, or 94.7%, opened without any sign-in.", "article": 0},
+        {"text": "Claroc estimates that 650 to 800 apps held private data.", "article": 0},
+        {"text": "a hospital group's roster of more than 3,500 staff", "article": 0},
+        {"text": "SpaceXSI's own open apps included a map of 594 strategic sales accounts and eight X advertising proposals.", "article": 0},
+        {"text": "\"Apps are private by default and nothing goes public unless the creator chooses to share it,\" the representative said, according to Ars Technica.", "article": 0}
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "OpenAI's quarterly revenue reportedly hits $10B as adjusted losses grow",
+      "company": "OpenAI",
+      "region": "US",
+      "first_published_utc": "2026-11-12T17:55:22Z",
+      "repeat": false,
+      "caution": "OpenAI/Anthropic overlap with the morning TSMC post; based on reports citing people familiar. Lower priority.",
+      "summary": "Q3 revenue $10B, up almost 50% on Q2; adjusted operating loss $10.9B; Anthropic's Q3 revenue was $16.96B.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "The Next Web", "title": "OpenAI revenue hits $10bn a quarter as its adjusted losses widen", "date": "2026-11-12T17:55:22Z", "url": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss", "readable": true}
+      ],
+      "facts": [
+        {"text": "OpenAI's revenue reached $10bn in the third quarter, up almost 50% from the second, The Information reported.", "article": 0},
+        {"text": "Its adjusted operating loss still rose, to $10.9bn from $10.1bn.", "article": 0},
+        {"text": "Anthropic reported $16.96bn in revenue for the same quarter.", "article": 0},
+        {"text": "The company told investors it ended September with roughly $50bn in annualised revenue.", "article": 0}
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "AMD plans to invest in PsiQuantum and co-design hybrid quantum-AI systems",
+      "company": "AMD / PsiQuantum",
+      "region": "US",
+      "first_published_utc": "2026-11-12T19:45:22Z",
+      "repeat": false,
+      "summary": "Investment size undisclosed; adds AMD GPUs/CPUs to PsiQuantum's photonic quantum work, first focus drug discovery.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "The Next Web", "title": "AMD plans to invest in PsiQuantum as they team up on quantum", "date": "2026-11-12T19:45:22Z", "url": "https://thenextweb.com/news/psiquantum-amd-partnership-equity-investment-quantum", "readable": true}
+      ],
+      "facts": [
+        {"text": "AMD plans to invest in PsiQuantum, as the two expand their partnership on quantum computing.", "article": 0},
+        {"text": "Neither said how much AMD will invest.", "article": 0},
+        {"text": "The first focus will be drug discovery.", "article": 0},
+        {"text": "In October, the Pentagon offered PsiQuantum a conditional $150m loan.", "article": 0}
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Anthropic lets companies self-host Claude Managed Agents",
+      "company": "Anthropic",
+      "region": "US",
+      "first_published_utc": "2026-11-12T19:06:13Z",
+      "repeat": false,
+      "caution": "Anthropic overlaps with the morning post's company; few hard numbers.",
+      "summary": "Agents, session histories and credentials can now stay on customers' own servers; model calls still go to an outside provider.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "The Next Web", "title": "Anthropic lets companies run Claude's agent service on their own servers", "date": "2026-11-12T19:06:13Z", "url": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents", "readable": true}
+      ],
+      "facts": [
+        {"text": "Anthropic now lets companies run Claude Managed Agents in their own cloud or data centre.", "article": 0},
+        {"text": "each model call still goes to an outside provider such as Anthropic or AWS", "article": 0},
+        {"text": "some features, such as webhooks and scheduled runs, are missing", "article": 0}
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Ukrainian-founded UFORCE raises $700M at $6B valuation for autonomous drones and AI command software",
+      "company": "UFORCE",
+      "region": "Europe (UK/Ukraine)",
+      "first_published_utc": "2026-11-12T10:10:00Z",
+      "first_published_note": "Sifted scoop 10:10 UTC (not readable); Tech.eu 10:51 UTC readable.",
+      "repeat": false,
+      "caution": "Weapons/combat content; brand-safety risk.",
+      "summary": "Series A co-led by Valor Equity Partners and the UK National Wealth Fund.",
+      "reference_posts": [],
+      "articles": [
+        {"outlet": "Tech.eu", "title": "Ukrainian defencetech UFORCE raises $700M Series A at $6B valuation", "date": "2026-11-12T10:51:00Z", "url": "https://tech.eu/2026/11/12/ukrainian-defence-tech-uforce-raises-700m-series-a-at-6b-valuation/", "readable": true}
+      ],
+      "facts": [
+        {"text": "today announced a $700 million Series A financing round at a $6 billion valuation", "article": 0},
+        {"text": "Valor Equity Partners and the UK National Wealth Fund (NWF) co-led the funding round", "article": 0}
+      ]
+    }
+  ]
+}

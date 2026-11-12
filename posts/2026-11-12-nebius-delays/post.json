@@ -1,0 +1,122 @@
+{
+  "id": "2026-11-12-nebius-delays",
+  "date": "2026-11-12",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "cover": {
+    "tag": "EUROPE AI · INDUSTRY",
+    "headline": [
+      "REVENUE UP **571%**",
+      "BUT NEBIUS SINKS"
+    ],
+    "hook_options": [
+      [
+        "REVENUE UP **571%**",
+        "BUT NEBIUS SINKS"
+      ],
+      [
+        "NEBIUS: \"WE ARE",
+        "NOT **IMMUNE**\""
+      ],
+      [
+        "NEBIUS PLANS UP",
+        "TO **$45B** IN 2027"
+      ],
+      [
+        "AI DEMAND ISN'T",
+        "THE **BOTTLENECK**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "quote",
+      "number",
+      "myth-flip"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The 571% revenue jump against a share drop (16%) is the story's tension in one line, and both halves are backed by slides 1 and 2. The quote hook is backed by slide 4 but needs context to land. The $45B hook is backed by slide 5 but hides the delays. The demand myth-flip is backed by slides 3 and 4 but names no company or number. No reader-impact hook: the article states no direct effect on ordinary readers (what they pay, use or risk); it covers Nebius's results, data-centre delays and spending plans.",
+    "image_prompt": "Cinematic wide shot at dusk of a half-built hyperscale data center on flat farmland: unfinished concrete halls, exposed steel frames, idle construction cranes, rows of empty server racks visible through open walls, unconnected power transmission towers and cable spools in the foreground, moody teal and amber light, low clouds, dramatic depth. No people, no text, no logos.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261112_210310_634a0ec1-30bf-40ed-8484-f4b7b37f0bc2.png"
+  },
+  "slides": [
+    {
+      "kicker": "The results",
+      "title": "Revenue up 571% in a year",
+      "body": [
+        "**Nebius**, an Amsterdam-based AI cloud company, said third-quarter revenue rose **571%** from a year earlier, to $980.8M. Analysts had expected $907.5M."
+      ]
+    },
+    {
+      "kicker": "The drop",
+      "title": "Yet shares fell 16%",
+      "body": [
+        "Nebius shares fell **16%** on Thursday after it cut its outlook. It now expects 2026 revenue at the **low end** of its $3B to $3.4B range."
+      ]
+    },
+    {
+      "kicker": "The delay",
+      "title": "Waiting on power",
+      "body": [
+        "The cut comes from delays at data-centre sites Nebius rents from other companies. One is a **300MW** site in Vineland, New Jersey, held up by power delays. Some capacity moves to **first half of 2027**."
+      ]
+    },
+    {
+      "kicker": "The founder",
+      "quote": "Building at this scale is hard, and delays are part of our industry right now. We are **not immune**.",
+      "who": "Arkady Volozh, Nebius founder and CEO"
+    },
+    {
+      "kicker": "The spending",
+      "title": "Up to $45B next year",
+      "body": [
+        "Nebius plans to spend **$40B to $45B** in 2027, well above the $28.77B analysts expected. It expects 2027 revenue of **$12B to $13B**."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "Nebius: ‘Delays are part of our industry right now. We are not immune’",
+      "date": "Nov 12, 2026",
+      "url": "https://thenextweb.com/news/nebius-q3-2026-shares-fall-data-centre-delays-outlook"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Nebius shares fell 16% on Thursday after the Amsterdam-based AI cloud company cut its outlook for this year."
+    },
+    {
+      "source": 0,
+      "text": "Third-quarter revenue rose 571% from a year earlier, to $980.8m. Analysts surveyed by LSEG had expected $907.5m."
+    },
+    {
+      "source": 0,
+      "text": "Nebius now expects 2026 revenue at the low end of its $3bn to $3.4bn range. For 2027, Nebius expects revenue of $12bn to $13bn."
+    },
+    {
+      "source": 0,
+      "text": "The cut comes from delays at data centre sites that Nebius rents from other companies. Some capacity due this year has moved to the first half of 2027."
+    },
+    {
+      "source": 0,
+      "text": "One of them is a 300MW site in Vineland, New Jersey, held up by delays in power."
+    },
+    {
+      "source": 0,
+      "text": "Founder and chief executive Arkady Volozh: \"Building at this scale is hard, and delays are part of our industry right now. We are not immune.\""
+    },
+    {
+      "source": 0,
+      "text": "For 2027, Nebius plans to spend $40bn to $45bn, well above the $28.77bn analysts expected."
+    }
+  ],
+  "caption": "Nebius grew revenue 571% in a year, but data-centre delays cut its 2026 outlook and its shares fell 16%.\n\nNebius is an Amsterdam-based AI cloud company. Its results show AI demand and real-world building limits side by side.\n\n→ Third-quarter revenue rose 571% from a year earlier, to $980.8M\n→ A 300MW site Nebius rents in Vineland, New Jersey, is held up by power delays\n→ Nebius plans to spend $40B to $45B in 2027, well above analyst forecasts\n\nIs power now the real limit on AI?\n\nSource: The Next Web, \"Nebius: ‘Delays are part of our industry right now. We are not immune’\", Nov 12, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nebius",
+    "#DataCenters",
+    "#AICloud"
+  ],
+  "threads_caption": "Nebius grew revenue 571% in a year, but data-centre delays cut its 2026 outlook and its shares fell 16%.\n\nA 300MW site in New Jersey is waiting on power. Still, Nebius plans $40B to $45B of spending in 2027.\n\nSource: The Next Web, \"Nebius: ‘Delays are part of our industry right now. We are not immune’\". #Nebius"
+}
