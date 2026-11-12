@@ -1,0 +1,125 @@
+{
+  "id": "2026-11-12-tsmc-openai-anthropic",
+  "date": "2026-11-12",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [
+    "AI타임스"
+  ],
+  "cover": {
+    "tag": "ASIA AI · INDUSTRY",
+    "headline": [
+      "TSMC PUTS UP TO",
+      "**$1B** IN AI LABS"
+    ],
+    "hook_options": [
+      [
+        "TSMC PUTS UP TO",
+        "**$1B** IN AI LABS"
+      ],
+      [
+        "UP TO **$1B** FROM",
+        "TSMC FOR AI LABS"
+      ],
+      [
+        "AI LABS GO FOR",
+        "THEIR **OWN CHIPS**"
+      ],
+      [
+        "UP TO **$500M** EACH",
+        "FOR TWO AI LABS"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The up-to $1 billion and the two names (OpenAI and Anthropic, shown on slide 1) are fully backed by slides 1 and 2. The own-chips option is backed by slide 4 but hides the investment. The $500M option is backed by slide 2 but is a smaller number. No reader-impact hook: the articles state no direct effect on ordinary readers (what they pay, use or risk); they cover who is investing and why.",
+    "image_prompt": "Cinematic wide shot of a vast dark silicon wafer fab floor seen from above, rows of glowing gold circular wafers on a conveyor, two bright beams of warm light arcing from the wafers toward two softly lit glass spheres hovering above, thin mist across the floor. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261112_081301_154fa63d-a085-4e6f-abcc-09ccc9957d46.png"
+  },
+  "slides": [
+    {
+      "kicker": "The investment",
+      "title": "A chipmaker bets up to $1B",
+      "body": [
+        "**TSMC**, the world's largest contract chipmaker, will invest up to **$1 billion** in OpenAI and Anthropic, both of which are developing their own AI chips."
+      ]
+    },
+    {
+      "kicker": "The split",
+      "title": "Up to $500 million each",
+      "body": [
+        "TSMC's board approved up to **$500 million** for Anthropic shares and up to **$500 million** for OpenAI preferred stock on Nov. 10."
+      ]
+    },
+    {
+      "kicker": "The timing",
+      "title": "Anthropic is in its IPO process",
+      "body": [
+        "The decision comes while Anthropic runs its IPO process. TSMC would buy its shares at the IPO offering price."
+      ]
+    },
+    {
+      "kicker": "The chips",
+      "title": "Both labs are building chips",
+      "body": [
+        "OpenAI unveiled an in-house AI inference chip in June, developed with **Broadcom**. Anthropic said in August it was forming a team to design a chip optimized for Claude."
+      ]
+    },
+    {
+      "kicker": "The chipmaker",
+      "title": "TSMC is running hot",
+      "body": [
+        "TSMC reported its **sixth straight quarter** of record profit. It says demand for AI chips exceeds its production capacity."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times",
+      "title": "TSMC, 자체 칩 개발 나선 오픈AI·앤트로픽에 최대 1.3조원 투자",
+      "title_en": "TSMC to invest up to ₩1.3T in OpenAI and Anthropic, which are moving to develop their own chips",
+      "language": "Korean",
+      "date": "Nov 11, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217289"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "TSMC is the world's largest foundry and will invest up to $1 billion (about 1.34 trillion won) in OpenAI and Anthropic, both developing their own AI chips to reduce reliance on outside chipmakers."
+    },
+    {
+      "source": 0,
+      "text": "TSMC's board approved on the 10th up to $500 million for Anthropic shares and up to $500 million for OpenAI preferred stock."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic is running its IPO process; TSMC would buy its shares at the IPO offering price."
+    },
+    {
+      "source": 0,
+      "text": "OpenAI unveiled its in-house AI inference chip in June, co-developed with Broadcom."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic said in August it was forming a team to design a chip optimized for Claude."
+    },
+    {
+      "source": 0,
+      "text": "TSMC announced last month six consecutive quarters of record profit and says demand exceeds production capacity."
+    }
+  ],
+  "caption": "TSMC will invest up to $1 billion in OpenAI and Anthropic, two AI labs that are building their own chips.\n\nTSMC is the world's largest contract chipmaker.\n\n→ TSMC's board approved up to $500 million for Anthropic shares and up to $500 million for OpenAI preferred stock\n→ OpenAI unveiled its own inference chip with Broadcom in June; Anthropic is forming a chip-design team\n→ TSMC reported its sixth straight quarter of record profit and says demand exceeds capacity\n\nWould you invest in the company that builds the chips?\n\nSource: AI Times, \"TSMC to invest up to ₩1.3T in OpenAI and Anthropic, which are moving to develop their own chips\" (in Korean), Nov 11, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#TSMC",
+    "#OpenAI",
+    "#Anthropic"
+  ],
+  "threads_caption": "TSMC will invest up to $1 billion in OpenAI and Anthropic, two AI labs building their own chips.\n\nThe board approved up to $500 million for each.\n\nSource: AI Times, \"TSMC to invest up to ₩1.3T in OpenAI and Anthropic, which are moving to develop their own chips\" (in Korean). #TSMC"
+}

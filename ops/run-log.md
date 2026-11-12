@@ -2,6 +2,17 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-12 (수동 실행)
+처리 1건 (ready 1) · 실패 0건
+성과: 수집 안 됨 (수동 실행)
+결정할 일
+1. 없음. 아침·저녁 루틴이 사용 한도로 못 돌아 제이미 요청으로 Claude가 아침 런을 직접 실행. 11-11 저녁 슬롯은 비었음
+2. 선정: TSMC가 OpenAI·Anthropic에 최대 $1B 투자 (ASIA AI · INDUSTRY). 소스 AI타임스 1개 (Ars Technica는 검수자가 열 수 없어 인용 안 함). Nvidia/Huang 의혹 기사는 입증 안 된 사생활 의혹이라 제외
+3. 검수: fact 2라운드 후 통과(1라운드는 'up to' 누락, title_en 수정), hook 7/10, brand-safety 통과
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6)
+자세한 기록
+- 선정 id `2026-11-12-tsmc-openai-anthropic`
+
 ## [아침 보고] 2026-11-11
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 40 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-01-weekly (47)
