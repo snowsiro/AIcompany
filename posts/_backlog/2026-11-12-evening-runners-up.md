@@ -1,0 +1,14 @@
+# Backlog: 2026-11-12 evening runners-up
+
+Source: ops/candidates/2026-11-12-evening.json. The evening pick was Nebius (score 10). Check freshness and repeats again before you use any of these.
+
+1. **SoftBank leads $500M round in Agile Robots at $8.5B valuation**: score 8 (global 3 + number 2 + Europe 3; first published 09:41 UTC, so no freshness bonus). Tag `EUROPE AI · ROBOTICS`. Agile Robots is a Munich-area humanoid and industrial robot maker, spun off from the German Aerospace Centre in 2018. Series F with Nvidia, Hitachi and T Capital; about $2B raised in total. Its factory can make up to 10,000 humanoids a year. It has 2,000+ R&D staff and 650+ patents. The new money goes to US expansion and production capacity.
+   - Tech.eu, "SoftBank leads $500M funding round in Agile Robots" (2026-11-12): https://tech.eu/2026/11/12/softbank-leads-500m-funding-round-in-agile-robots/
+2. **Google puts Gemini 4 Hydrogen into Search for everyone**: score 7 (global 3 + number 2 + fresh 2, 18:00 UTC). Tag `US AI · LAUNCH`. Hydrogen is 2.5x faster than Gemini 3.8 Flash. Developers pay $1.50 per 1M input tokens and $7.50 per 1M output tokens, less than half the price of Gemini 4 Argon. 1M-token context, makes up facts 5x less often, and a new "xhigh" thinking level. Live globally in Search. This is time-sensitive and a weak backlog item after today.
+   - Google (The Keyword), "Google Search gets a major upgrade with Gemini 4 Hydrogen": https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/
+   - TechCrunch, "Google's latest Search upgrade promises better answers to your most complicated questions": https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/
+   - The Next Web, "Google's Gemini 4 Hydrogen brings a fast, cheaper model to everyone": https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone
+3. **Hack at Fireworks AI exposes Notion AI chat transcripts**: score 7 (global 3 + number 2 + fresh 2, 15:02 UTC). Tag `US AI · SECURITY`. An attacker got in through Fireworks' cloud provider. About 1% of Notion customers were affected, and Notion AI "Insights" chat transcripts were taken. This is Fireworks' second breach in two months. Notion cut its link to Fireworks on Nov 3. Only one source.
+   - TechCrunch, "Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts": https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/
+
+Not kept: UFORCE (8, but weapons content and a brand-safety risk), Grok Build exposure (5-7, freshness borderline), United AI-agent ban (5, no hard number), AMD/PsiQuantum (5, no investment amount), OpenAI revenue (2, same company as the morning post), Anthropic self-hosting (0, same company as the morning post).
