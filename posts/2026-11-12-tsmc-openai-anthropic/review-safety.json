@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "issues": [
+    "Non-blocking: cover hook says 'TSMC BETS $1B' while every source and slide says 'up to $1 billion'. Slide 1 restores 'up to', so the hook is supported, but the writer could keep 'UP TO' in a future edit if it fits 16 chars per line.",
+    "Not verified locally: the rendered cover image (not available). The image_prompt asks for no people, no text and no logos, so it is compliant on paper. Check the CI-rendered cover once for stray text or a fab-equipment logo before merge."
+  ]
+}
