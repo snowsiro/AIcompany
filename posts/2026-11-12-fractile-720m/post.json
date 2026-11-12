@@ -1,0 +1,135 @@
+{
+  "id": "2026-11-12-fractile-720m",
+  "date": "2026-11-12",
+  "category": "STARTUPS",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · STARTUPS",
+    "headline": [
+      "**$720M** FOR A CHIP",
+      "WITH NO PRODUCT"
+    ],
+    "hook_options": [
+      [
+        "**$720M** FOR A CHIP",
+        "WITH NO PRODUCT"
+      ],
+      [
+        "UK CHIP STARTUP",
+        "RAISES **$720M**"
+      ],
+      [
+        "THE BET: AI'S",
+        "LIMIT IS **MEMORY**"
+      ],
+      [
+        "NO PRODUCT YET,",
+        "**$720M** RAISED"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The $720M is on slide 1 and the 'no product yet' tension is stated on slide 5, so the hook is fully backed and gives the reader something at stake. The UK option is backed by slide 1 but has less tension. The memory option is backed by slide 4 but is Fractile's own bet, not a fact. No reader-impact hook: the articles state no direct effect on ordinary readers (what they pay, use or risk); they cover who funded the chip startup and what it is betting on.",
+    "image_prompt": "Cinematic macro shot of a towering glowing stack of thin silicon layers like a miniature skyscraper, streams of warm golden light flowing vertically between the layers, dark laboratory backdrop, soft mist at the base. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261112_201522_f5155c6a-8bb3-44d1-b9ff-bc3cecb132cb.png"
+  },
+  "slides": [
+    {
+      "kicker": "The round",
+      "title": "A London chip startup raises $720M",
+      "body": [
+        "**Fractile**, a four-year-old London chip designer, raised **$720 million** in a Series C round. It makes chips for AI inference, the step where trained models answer users."
+      ]
+    },
+    {
+      "kicker": "The backers",
+      "title": "Who put in the money",
+      "body": [
+        "Thrive Capital, Founders Fund, Lightspeed and Redpoint led the round. Others include Alphabet's CapitalG, BlackRock and the UK's **Sovereign AI fund**."
+      ]
+    },
+    {
+      "kicker": "The valuation",
+      "title": "From about $1 billion to $7 billion",
+      "body": [
+        "In May, Fractile raised about **$220 million** at a valuation of roughly $1 billion. The Financial Times, citing people familiar with the deal, reports the new valuation is about **$7 billion**."
+      ]
+    },
+    {
+      "kicker": "The bet",
+      "title": "Memory, not raw compute",
+      "body": [
+        "Fractile bets that **memory bandwidth** is the main limit on AI performance. Its design stacks custom DRAM and logic, which it says gives substantially higher bandwidth than HBM while keeping enough capacity for large models."
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "No product yet",
+      "body": [
+        "Its first chip is planned for next year. CEO Walter Goodwin says the design could make inference up to **10 times** faster, but those gains have yet to be demonstrated in a production chip."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "With $720M round, Britain's Fractile gets a leg up in the race for AI chips",
+      "date": "Nov 11, 2026",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+    },
+    {
+      "outlet": "The Next Web",
+      "title": "London's Fractile raises $720M for memory-first AI chips and hits $7B valuation",
+      "date": "Nov 11, 2026",
+      "url": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Fractile, a British startup developing AI chips, raised a $720 million Series C, backed by Britain's Sovereign AI Fund."
+    },
+    {
+      "source": 0,
+      "text": "The round was led by Thrive Capital, Founders Fund, Lightspeed Venture Partners and Redpoint."
+    },
+    {
+      "source": 0,
+      "text": "Fractile's hardware approach revolves on DRAM stacked on each chip; its CEO Walter Goodwin said the funding will let it ship its first chips and systems next year."
+    },
+    {
+      "source": 1,
+      "text": "London-based, four-year-old chip designer Fractile raised $720 million in a Series C round, betting that memory bandwidth, not raw compute, is the main constraint on AI performance."
+    },
+    {
+      "source": 1,
+      "text": "Other investors include Alphabet's CapitalG, DST Global, BlackRock, Bain Capital Ventures, T. Rowe Price, Shopify Ventures, Balderton, the UK's Sovereign AI fund and the British Business Bank."
+    },
+    {
+      "source": 1,
+      "text": "In May Fractile raised about $220 million at a valuation of roughly $1 billion. The $7 billion valuation is according to the Financial Times, citing people familiar with the deal."
+    },
+    {
+      "source": 1,
+      "text": "Its design combines custom DRAM and logic in a three-dimensional stack, which the company says gives substantially higher bandwidth than HBM while keeping enough capacity for large models and long context windows."
+    },
+    {
+      "source": 1,
+      "text": "There is no commercial product yet; the first chip is planned for next year. Goodwin claims the design could make inference up to 10 times faster, gains that have yet to be demonstrated in a production chip."
+    }
+  ],
+  "caption": "Fractile, a London AI chip startup, just raised $720 million without a product on the market.\n\nIt makes chips for AI inference, the step where trained models answer users.\n\n→ Thrive Capital, Founders Fund, Lightspeed and Redpoint led the Series C; the UK's Sovereign AI fund also invested\n→ The Financial Times, citing people familiar with the deal, reports a valuation of about $7 billion, up from roughly $1 billion in May\n→ The first chip is planned for next year, and the 10x inference claim has yet to be shown in a production chip\n\nIs memory the real bottleneck for AI chips?\n\nSources: TechCrunch, \"With $720M round, Britain's Fractile gets a leg up in the race for AI chips\", Nov 11, 2026. The Next Web, \"London's Fractile raises $720M for memory-first AI chips and hits $7B valuation\", Nov 11, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Fractile",
+    "#AIChips",
+    "#UKTech"
+  ],
+  "threads_caption": "Fractile, a London AI chip startup, raised $720 million with no product on the market yet.\n\nIts first chip is planned for next year.\n\nSources: TechCrunch, \"With $720M round, Britain's Fractile gets a leg up in the race for AI chips\"; The Next Web. #Fractile"
+}
