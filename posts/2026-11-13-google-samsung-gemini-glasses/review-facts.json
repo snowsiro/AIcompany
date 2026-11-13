@@ -1,1 +1,1 @@
-{ "pass": false, "issues": [ { "where": "caption line 2", "problem": "\"so this is the first big challenge\" is not in the article; overstated. The article only says Google and Samsung join and competition is expected.", "fix": "Meta holds most of the AI glasses market, per Omdia, a market research firm, and Google and Samsung are now entering it." } ] }
+{ "pass": true, "issues": [] }
