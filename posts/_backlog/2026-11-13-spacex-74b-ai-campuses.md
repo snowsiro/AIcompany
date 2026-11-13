@@ -1,0 +1,2 @@
+# Backlog (2026-11-13 runner-up, score 5)
+SpaceX announces over $74B for AI campuses in Texas and Arizona (Arizona $50B, up to 6 GW, 747 acres, Cochise County; Texas over $24B near Starbase; about 2,400 petition signatures against; AI over half of Q3 revenue per Reuters). Source: AI타임스 "스페이스X, 100조 규모 AI 데이터센터 투자…애리조나에 6GW 추가" (2026-11-13), https://www.aitimes.com/news/articleView.html?idxno=217371. Good evening-run candidate (different company from the Google morning post). Dec 9 Starbase council vote and December Cochise hearing are the next dates.

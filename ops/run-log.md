@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-13
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 25 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-07-ai-teddy-bbc (44, 최근 14일 기준)
+결정할 일
+1. 없음. 아침 스캔은 05:07에 안 돌아 morning-scan을 수동 실행했고 약 2분 뒤 main에 올라옴. 참고 계정은 IG 토큰이 없어(IG_USER_ID 미설정) 스캔 파일 reference.json 기준으로만 주제 파악
+2. 선정: Google·Samsung Gemini AI 안경 사전 주문, 12월 10일 출시, Meta와 정면 대결 (KOREA AI · TOOLS, 점수 8). 소스는 AI타임스 1개(번역은 researcher). 카테고리는 lint가 DEVICES를 허용하지 않아 TOOLS 사용
+3. 검수: fact 1차 불합격(캡션 "first big challenge"는 원문에 없음) → 수정 후 2차 통과. hook 7/10 통과(독자 영향 훅 없음 사유 기재), brand-safety 통과
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+5. Jensen Huang 사임 보도(오늘 최대 뉴스)와 그에 딸린 GPU 규제 기사는 입증 안 된 실명 사생활 의혹 기반이라 제외 (11-12와 같은 기준). 저녁 런 예비: posts/_backlog/2026-11-13-spacex-74b-ai-campuses.md (Gemini 4 Hydrogen은 같은 Google이라 저녁엔 부적합)
+자세한 기록
+- 후보 8개, 선정 id `2026-11-13-google-samsung-gemini-glasses`
+- 푸시는 세션 지정 브랜치가 아닌 daily/2026-11-13
+
 ## [저녁 보고] 2026-11-12
 처리 1건 (ready 1) · 실패 0건
 결정할 일

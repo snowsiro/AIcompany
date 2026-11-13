@@ -1,0 +1,392 @@
+{
+ "date": "2026-11-13",
+ "run": "morning",
+ "note": "No Instagram token; reference.json and feeds.json present and used (reference for topic spotting only; no multiple 3x+ except moodmode.ai Huang-Spiderman post 3.1x, sdk.kim.builds 'Jarvis' 9.1x and moodmode.ai ads, not usable). Not listed for lack of readable original: Korea Times/Herald/Yonhap Huang-Korea angle (Seoul shares, Korean investors' $2.4B valuation loss), Naver W2tr AI computing deal (Korea Herald), Verge, Ars, Sifted, Politico EU, Mistral Large 4 open-weight (only a mistral.ai headline), Anthropic Claude Meetings (TechCrunch body not fetched), Fireworks AI/Notion breach. Facts from AI Times Korea and heise are translated by the researcher. Nothing in posts/ from last 14 days repeats these stories; Nvidia appeared in 11-07 and 11-09 posts on different stories.",
+ "stories": [
+  {
+   "title": "Nvidia CEO Jensen Huang resigns after affair with alleged Chinese spy; CFO Colette Kress interim CEO",
+   "region": "US/Asia/Korea (Seoul shares react)",
+   "repeat": "no",
+   "reference_posts": [
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/p/DfpWym_Pdzh/",
+     "multiple": 0.3
+    },
+    {
+     "username": "moodmode.ai",
+     "note": "11-12 two posts, 0.8x and 3.1x"
+    }
+   ],
+   "score_hints": "Biggest story of the day, every outlet covers it; reference accounts covered it on 11-12 (ai.trend.kr, moodmode.ai 3.1x). Korea/Asia angle exists (Korea Times, Korea Herald, Yonhap on Seoul shares) but those originals were not readable. Same-company note: Nvidia appeared in 11-07 and 11-09 posts, different stories.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "The unfolding Jensen Huang scandal: a timeline",
+     "date": "2026-11-12",
+     "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Five ways Jensen Huang's ouster from Nvidia could damage the AI industry",
+     "date": "2026-11-12",
+     "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Jensen Huang's exit puts Nvidia's support for open source in question",
+     "date": "2026-11-12",
+     "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Nvidia confirmed in an SEC filing on Thursday that the board accepted Huang's resignation on Wednesday.",
+     "article": 0
+    },
+    {
+     "fact": "CFO Colette Kress will take over as interim CEO while still fulfilling her CFO duties; Nvidia is expected to run a larger search for a permanent successor.",
+     "article": 0
+    },
+    {
+     "fact": "Harvey C. Jones, a managing partner of Square Wave Ventures and former CEO of Synopsys, was appointed as Nvidia's first-ever chair of the board.",
+     "article": 0
+    },
+    {
+     "fact": "U.S. officials believe Megaspeed executive Alice Huang (no relation), a Chinese citizen, is a Chinese spy; Megaspeed is a Singapore-based AI infrastructure company that reportedly bought $4.8 billion in Nvidia chips over two years.",
+     "article": 0
+    },
+    {
+     "fact": "In a letter to employees on November 8 Huang wrote: \"I was unfaithful to my wife.\" Nvidia's board started an independent investigation.",
+     "article": 0
+    },
+    {
+     "fact": "Huang agreed to testify in Congress before Thanksgiving (November 26); the testimony is expected to be behind closed doors.",
+     "article": 0
+    },
+    {
+     "fact": "Huang co-founded Nvidia 33 years ago; Nvidia stock fell about 8% in after-hours trading on Wednesday and was down 11% over five days. He has about 60 direct reports and the company had no obvious succession plan.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia has agreed to acquire Hugging Face for $13 billion (the deal is not yet finalized); Huang was the loudest advocate of open-weight AI models.",
+     "article": 2
+    },
+    {
+     "fact": "An Nvidia insider told TechCrunch they do not expect a leadership change to affect development of the Nemotron open-weight models.",
+     "article": 2
+    }
+   ]
+  },
+  {
+   "title": "US readies rules to block China's remote use of Nvidia GPUs in 7 countries, as Chinese firms rush to lock in capacity",
+   "region": "US/China/Southeast Asia",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Follow-on of the Huang story (export controls); same company as pick 1, so choose one. Fact source is AI Times Korea citing The Information and Reuters (Korean, translated by researcher).",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "미국, 중국의 해외 GPU 임대 규제 추진…중국 기업들 확보 서둘러",
+     "date": "2026-11-13",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217351"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The Information reported on the 11th (US time), citing two people, that the US Commerce Department is finalizing a rule limiting remote access by Chinese AI companies to overseas data centers; it could be announced as early as this month.",
+     "article": 0
+    },
+    {
+     "fact": "The rule would tighten export controls on advanced AI chips to 7 countries: Singapore, Malaysia, Thailand, Indonesia, Brazil, Norway and South Africa; Nvidia Blackwell and later chips would need a US license.",
+     "article": 0
+    },
+    {
+     "fact": "Data center operators in those countries would have to report who receives the chips and what they are used for to Commerce, and be monitored on an ongoing basis.",
+     "article": 0
+    },
+    {
+     "fact": "Reuters reported on the 12th, citing three people, that Chinese AI companies are trying to secure overseas Nvidia GPU capacity before the rule takes effect; one large Chinese cloud company discussed reserving capacity in advance.",
+     "article": 0
+    },
+    {
+     "fact": "The Remote Access Security Act passed the House in January and awaits Senate review.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia said in July that the act could significantly affect its business; The Information said the rule may show Nvidia's influence in Washington is weakening.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google launches Gemini 4 Hydrogen, a faster Flash-tier model, in Search, the Gemini app and the API",
+   "region": "US/global",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Big launch with hard numbers; no reference account covered it yet (they covered Claude/Higgsfield). Original is Google's own announcement (company claims, benchmark numbers are Google's).",
+   "articles": [
+    {
+     "outlet": "Google DeepMind / Google blog",
+     "title": "Introducing Gemini 4 Hydrogen",
+     "date": "2026-11-12",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google introduced Gemini 4 Hydrogen on Nov 12, 2026, built for rapid execution in everyday coding and agentic workflows; the frontier models are Gemini 4 Carbon and Gemini 4 Argon.",
+     "article": 0
+    },
+    {
+     "fact": "Hydrogen is priced flat across its 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens.",
+     "article": 0
+    },
+    {
+     "fact": "Google says Hydrogen scores 51 on the Artificial Analysis Intelligence Index at its default high thinking level vs 50 for Argon, reaching 54 at the highest xhigh setting.",
+     "article": 0
+    },
+    {
+     "fact": "Versus Gemini 3.8 Flash, Google says Hydrogen finishes tasks 2.5 times faster at its default setting and scores 57% vs 18.2% on Terminal-Bench 4.1.",
+     "article": 0
+    },
+    {
+     "fact": "It is available in Google AI Studio, the Gemini API, Gemini for business, the Gemini app and Google Search; paid AI Pro and Ultra subscribers get it in Google Antigravity.",
+     "article": 0
+    },
+    {
+     "fact": "In Search, Google says it better understands multi-part questions, gives more visual answers and widens the range of links via an upgraded query fan-out.",
+     "article": 0
+    },
+    {
+     "fact": "Google introduced Orchestrator in Antigravity, which switches between models such as Carbon and Hydrogen in one session; on Terminal-Bench 4.0 it used on average 24% less quota and finished 19% faster.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google and Samsung open pre-orders for Gemini AI glasses in Korea and the US, from $395, shipping Dec 10",
+   "region": "Korea/US",
+   "repeat": "no (posts/2026-10-23-korea-ai-glasses was a different story, 21 days ago)",
+   "reference_posts": [],
+   "score_hints": "Korea angle (Samsung, Gentle Monster Korean eyewear brand; Korea is a launch market). Yonhap also reports Korea govt vows zero tolerance for cheating with AI glasses (not fetched; yna blocked).",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "구글·삼성, AI 안경 시장 출사표… 12월10일 메타와 정식 격돌",
+     "date": "2026-11-12",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217346"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google unveiled a Gemini-based 'Intelligent Eyewear' line made with Samsung, Gentle Monster and Warby Parker; pre-orders began Nov 12 (US time) in Korea and the US.",
+     "article": 0
+    },
+    {
+     "fact": "Official launch date is Dec 10; the Gentle Monster collection sells in Korea and the US, the Warby Parker collection only in the US.",
+     "article": 0
+    },
+    {
+     "fact": "The glasses have no AR display; they work through voice commands and visual recognition, and are compatible with Galaxy phones and iPhones.",
+     "article": 0
+    },
+    {
+     "fact": "They have a 12-megapixel ultra-wide camera and open speakers, weigh about 41 g, and last up to 9 hours on battery.",
+     "article": 0
+    },
+    {
+     "fact": "US starting prices: Gentle Monster $449 (about 600,000 won), Warby Parker $395 (about 530,000 won).",
+     "article": 0
+    },
+    {
+     "fact": "Gemini automatically blurs bystanders' faces before processing video, and recording stops if the indicator light is covered or tampered with; a physical switch turns power fully off.",
+     "article": 0
+    },
+    {
+     "fact": "Omdia says Meta had 85.2% of global AI smart glasses shipments last year and 81.3% in the first half of this year; Omdia expects over 15 million AI glasses shipped this year.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "SpaceX announces more than $74 billion for AI campuses in Texas and Arizona, including a 6 GW site",
+   "region": "US",
+   "repeat": "no (posts/2026-10-21-spacex-ai-revenue was a different story)",
+   "reference_posts": [],
+   "score_hints": "Hard numbers ($74B, 6 GW, 2,400 petition signatures against). Reuters headline in feeds but readable original is AI Times Korea (cites Reuters).",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "스페이스X, 100조 규모 AI 데이터센터 투자…애리조나에 6GW 추가",
+     "date": "2026-11-13",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217371"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SpaceX officially announced on Nov 12 (US time) over $74 billion (about 100 trillion won) for AI supercomputing facilities in Texas and Arizona.",
+     "article": 0
+    },
+    {
+     "fact": "Arizona: $50 billion for an AI campus using up to 6 GW of power, on a 747-acre site in Cochise County with up to 9 data center buildings, built in four 1.5 GW phases; construction could start March 2027 if local approval is given.",
+     "article": 0
+    },
+    {
+     "fact": "Texas: more than $24 billion near Starbase for a data center and natural gas power plant that generates its own power instead of using the public grid; Starbase city council reviews a property-tax break on Dec 9.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX claims co-op members' electricity bills could fall by up to 20%, and says it will use dry cooling and no industrial groundwater.",
+     "article": 0
+    },
+    {
+     "fact": "About 2,400 people signed a petition against the Arizona permit; Cochise County holds a hearing in December.",
+     "article": 0
+    },
+    {
+     "fact": "Arizona is expected to create 5,500 construction jobs and 1,000 operating jobs.",
+     "article": 0
+    },
+    {
+     "fact": "Per Reuters, AI business made up more than half of SpaceX's Q3 revenue.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI revenue hits $10bn in a quarter as losses widen; Anthropic IPO set for Nov 19",
+   "region": "US/Europe",
+   "repeat": "partial overlap with posts/2026-11-12-tsmc-openai-anthropic (TSMC investment) and 11-03 anthropic-compute-margin; different angle",
+   "reference_posts": [],
+   "score_hints": "Hard numbers; two-company comparison. Same companies as 11-12 post, so lower priority.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI revenue hits $10bn a quarter as its adjusted losses widen",
+     "date": "2026-11-12",
+     "url": "https://thenextweb.com/news/openai-revenue-q3-10bn-operating-loss"
+    },
+    {
+     "outlet": "heise online",
+     "title": "Datum offiziell: Anthropic-Aktien ab 19. November im Handel",
+     "date": "2026-11-12",
+     "url": "https://www.heise.de/news/Datum-offiziell-Anthropic-Aktien-ab-19-November-im-Handel-11522895.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI's Q3 revenue reached $10bn, up almost 50% from Q2 and almost three times a year earlier, per The Information and Bloomberg as cited by TNW.",
+     "article": 0
+    },
+    {
+     "fact": "Adjusted operating loss rose to $10.9bn from $10.1bn, while adjusted operating margin improved to -109% from -150% (WSJ).",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI ended September with roughly $50bn in annualised revenue.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic reported $16.96bn revenue for the same quarter, with an operating loss of $567m and 15% adjusted operating margin; growth was about 47% vs 144% the quarter before.",
+     "article": 0
+    },
+    {
+     "fact": "The two count revenue differently: Anthropic includes sales through cloud partners, OpenAI counts only its share of some partner sales.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI is completing a funding round at a $1.25tn valuation and has delayed its listing until next year.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic shares are to start trading Nov 19 if approved; final price set around Nov 18; indicated range $70-$78 per share; up to about 801 million shares and up to about $64 billion gross proceeds.",
+     "article": 1
+    }
+   ]
+  },
+  {
+   "title": "Anthropic lets companies self-host Claude Managed Agents; model calls still go to a provider",
+   "region": "US/Europe angle (sovereign AI)",
+   "repeat": "no",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "note": "covers Anthropic Claude Meetings, 1x; different Anthropic feature"
+    }
+   ],
+   "score_hints": "Europe sovereignty angle (Lagarde, Mistral). Same company as OpenAI/Anthropic story; pick one.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic lets companies run Claude's agent service on their own servers",
+     "date": "2026-11-12",
+     "url": "https://thenextweb.com/news/anthropic-self-hosted-claude-managed-agents"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic now lets companies run Claude Managed Agents in their own cloud account or data centre; launched Thursday, access by request through the Anthropic account team.",
+     "article": 0
+    },
+    {
+     "fact": "Agents, session histories and credentials stay on the customer's systems and every tool call can be logged.",
+     "article": 0
+    },
+    {
+     "fact": "Each time the agent asks Claude something, the conversation still goes to a model provider such as Anthropic, Amazon Bedrock, Google Cloud or Microsoft Foundry.",
+     "article": 0
+    },
+    {
+     "fact": "Customers take on securing and updating the server; nothing migrates from the hosted service, and webhooks and scheduled runs are missing.",
+     "article": 0
+    },
+    {
+     "fact": "TNW notes ECB president Christine Lagarde has warned of the risk of relying on foreign AI, and Mistral has pitched sovereign AI.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI took a different route in September, letting companies run its agents inside Amazon's cloud.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "United Airlines blocks third-party AI agents from booking flights, citing security and federal rules",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Short 'In Brief' article; consumer-relatable, thin on numbers.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+     "date": "2026-11-12",
+     "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "United will restrict access for AI agents that book flights and manage reservations for users, citing cybersecurity risk and federal regulations.",
+     "article": 0
+    },
+    {
+     "fact": "United warns that sharing credentials with third-party AI assistants can expose sensitive information and lead to unintended purchases, account changes or use of MileagePlus miles.",
+     "article": 0
+    },
+    {
+     "fact": "Federal aviation rules require a human to complete flight check-in to acknowledge bags hold no banned substances.",
+     "article": 0
+    },
+    {
+     "fact": "United will restrict access directly on its platforms and indirectly via travel agencies and aggregators, updating booking, ticketing and distribution policies.",
+     "article": 0
+    },
+    {
+     "fact": "Last week banks including Bank of America urged customers not to share passwords with AI assistants.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}
