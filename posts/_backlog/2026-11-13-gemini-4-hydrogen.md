@@ -1,0 +1,2 @@
+# Backlog (2026-11-13 runner-up, score 5)
+Google launches Gemini 4 Hydrogen, a faster Flash-tier model ($1.50 in / $7.50 out per 1M tokens, 1M context; 57% vs 18.2% Terminal-Bench 4.1 vs Gemini 3.8 Flash, per Google). Source: Google DeepMind blog "Introducing Gemini 4 Hydrogen" (2026-11-12), https://deepmind.google/blog/introducing-gemini-4-hydrogen/. All benchmark numbers are Google's claims. Candidate for the evening run (different company from the glasses story is not the case: both Google, so only if the evening run needs a different pick, check the same-company rule).
