@@ -1,0 +1,131 @@
+{
+  "id": "2026-11-14-kakao-still-ryan",
+  "date": "2026-11-14",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "cover": {
+    "tag": "KOREA AI · INDUSTRY",
+    "headline": [
+      "KAKAO'S AI SHORT",
+      "NEEDED **HUMANS**"
+    ],
+    "hook_options": [
+      [
+        "KAKAO'S AI SHORT",
+        "NEEDED **HUMANS**"
+      ],
+      [
+        "KAKAO + OPENAI",
+        "MAKE **RYAN** AI"
+      ],
+      [
+        "RYAN AI FILM",
+        "FROM **SKETCHES**"
+      ]
+    ],
+    "hook_types": [
+      "myth-flip",
+      "claim",
+      "claim"
+    ],
+    "hook_type": "myth-flip",
+    "hook_pick_reason": "The myth-flip hook says AI animation is not one prompt and done, and slides 2 to 4 back it with sketches, about 1,500 prompts (per Digital Today), hand editing and redoing scenes that missed the emotion. The claim hook names both companies but has less tension.  No reader-impact hook: the articles describe how a short film was made and where it was set to be shown, but they state no effect on what ordinary readers pay, use or risk.",
+    "image_prompt": "Cinematic still life of a dark animation desk: a glowing monitor showing abstract soft light, loose pencil sketches fanned beside it, a strip of film frames catching warm amber and cool blue light, drifting dust motes, shallow depth of field, moody studio at night. Generic unbranded equipment, no brand marks on any device. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261114_045443_94b57e61-0294-411b-a296-456c25b4d183.png"
+  },
+  "slides": [
+    {
+      "kicker": "The project",
+      "title": "Ryan gets an AI short",
+      "body": [
+        "**Kakao**, the company behind Korea's KakaoTalk messenger, teamed up with OpenAI on **\"Still, Ryan\"**, its first AI short starring Ryan, a Kakao Friends character. It runs about five minutes and is based on a webtoon of the same name."
+      ]
+    },
+    {
+      "kicker": "The process",
+      "title": "It began with sketches",
+      "body": [
+        "The team used OpenAI's **ChatGPT Image** feature. They generated images from sketches of the scenes plus prompts, then **edited the results by hand** to finish each scene."
+      ]
+    },
+    {
+      "kicker": "The effort",
+      "title": "About 1,500 prompts",
+      "body": [
+        "Per Digital Today, about **1,500 prompts** were used in producing some scenes. Han Ji-won directed the animation. Kim Young-jun served as AI supervisor, overseeing the AI side of the work."
+      ]
+    },
+    {
+      "kicker": "The quote",
+      "title": "Emotion over output",
+      "body": [
+        "Kim said: \"Even if it was an image made by AI, if it did not match the emotion the work aimed to convey, we worked on it again.\""
+      ]
+    },
+    {
+      "kicker": "The rollout",
+      "title": "Made for Ryan's 10th",
+      "body": [
+        "Kakao said the project marks **Ryan's 10th anniversary**. Release was set for Nov. 11 on Ryan's Instagram and Kakao Friends' YouTube. Kakao also said a Nov. 8 Seoul screening talk **sold out in under a day**."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Digital Today",
+      "title": "Kakao to produce Ryan AI short animation with OpenAI",
+      "date": "Nov 10, 2026",
+      "url": "https://www.digitaltoday.co.kr/en/view/123440/kakao-to-produce-ryan-ai-short-animation-with-openai"
+    },
+    {
+      "outlet": "Kakao (press release)",
+      "title": "카카오, 라이언의 첫 AI 단편 애니메이션 <그래도, 라이언> 공개",
+      "title_en": "Kakao unveils Ryan's first AI short animation, 'Still, Ryan'",
+      "language": "Korean",
+      "date": "Nov 10, 2026",
+      "url": "https://www.kakaocorp.com/page/detail/12195"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Kakao will collaborate with OpenAI to present its first AI short animation using Ryan, a Kakao Friends character."
+    },
+    {
+      "source": 0,
+      "text": "The roughly five-minute animation, \"Still, Ryan,\" is based on the webtoon of the same name and was scheduled for release online on Nov. 11."
+    },
+    {
+      "source": 0,
+      "text": "The work involves animation director Han Ji-won and AI supervisor Kim Young-jun, and uses OpenAI's ChatGPT Image feature."
+    },
+    {
+      "source": 0,
+      "text": "The production team generated images based on sketches of animation scenes and prompts, then completed the scenes by directly editing the results; Digital Today reports about 1,500 prompts were used (the two sources differ on how many scenes that covers, so the post gives no scene count)."
+    },
+    {
+      "source": 0,
+      "text": "The animation is scheduled to be released on Ryan's official Instagram and Kakao Friends' YouTube, as well as OpenAI's Instagram and YouTube channels."
+    },
+    {
+      "source": 0,
+      "text": "Kakao said it is a project planned to mark Ryan's 10th anniversary."
+    },
+    {
+      "source": 0,
+      "text": "AI supervisor Kim said: \"Even if it was an image made by AI, if it did not match the emotion the work aimed to convey, we worked on it again.\""
+    },
+    {
+      "source": 1,
+      "text": "Kakao held a special screening and a talk with the director on Nov. 8 at Movieland in Seongsu-dong, Seoul; the talk session sold out in less than a day (Kakao press release, translated)."
+    }
+  ],
+  "caption": "Kakao, the company behind Korea's KakaoTalk messenger, made an AI short film starring Ryan with OpenAI, and the team edited the output by hand.\n\nRyan is a Kakao Friends character. The team started from sketches, then edited the AI images by hand.\n\n→ \"Still, Ryan\" runs about five minutes and is based on a webtoon of the same name\n→ The team used OpenAI's ChatGPT Image, with about 1,500 prompts for some scenes, per Digital Today\n→ Kakao says scenes were redone if they did not match the emotion intended\n\nDoes knowing a person edited the AI output change how you see it?\n\nSource: Digital Today, \"Kakao to produce Ryan AI short animation with OpenAI\", Nov 10, 2026; Kakao press release (in Korean), \"Kakao unveils Ryan's first AI short animation, 'Still, Ryan'\", Nov 10, 2026.\n\nFollow @ai.news.company for daily AI news.",
+  "hashtags": [
+    "#AINews",
+    "#Kakao",
+    "#OpenAI",
+    "#KoreaAI"
+  ],
+  "threads_caption": "Kakao, the company behind Korea's KakaoTalk messenger, made an AI short film starring Ryan with OpenAI.\n\nThe team started from sketches and edited the results by hand. About 1,500 prompts for some scenes, per Digital Today.\n\nSource: Digital Today, \"Kakao to produce Ryan AI short animation with OpenAI\". #Kakao"
+}
