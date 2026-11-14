@@ -1,0 +1,2 @@
+# Backlog: OpenAI ChatGPT Wallet (score 5, no fresh bonus)
+Lead TechCrunch "ChatGPT's new Wallet lets AI agents shop and check out for you" (2026-11-13), plus The Next Web "OpenAI wants ChatGPT Wallet to be 'safe and easy to use' for agents". Facts and URLs: `ops/candidates/2026-11-14-evening.json`. Hard number: Visa test, 22 models failed 42.8% as shoppers. Limits: US Pro subscribers only at first. Pairs with United/Schwab/JPMorgan blocking agents. Pick only one OpenAI story at a time.

@@ -1,0 +1,2 @@
+# Backlog: OpenAI disbands stand-alone robotics team (score 5)
+Fortune exclusive (2026-11-13), single outlet: "Exclusive: OpenAI disbands its stand-alone robotics team as its general-purpose AI models start running robots". Numbers: 74.8% vs 51.0% in an Nvidia simulation study, $10.9B quarterly operating loss, humanoid demo targeted 2027. Needs a second source or careful single-outlet attribution. Facts in `ops/candidates/2026-11-14-evening.json`.
