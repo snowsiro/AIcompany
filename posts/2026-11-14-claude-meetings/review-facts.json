@@ -1,1 +1,10 @@
-{ "pass": true, "issues": [] }
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 5",
+      "problem": "Says 'Team seats list at $20 per user per month on annual billing, or $25 monthly'. VentureBeat says 'Team standard seats' at $20 annual or $25 monthly. Dropping 'standard' makes the price sound like it covers every Team seat.",
+      "fix": "Write 'Per VentureBeat, Team standard seats list at **$20** per user per month on annual billing, or $25 monthly.' Shorten other words if the text overflows."
+    }
+  ]
+}
