@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-14-claude-meetings",
+  "date": "2026-11-14",
+  "category": "TOOLS",
+  "status": "blocked",
+  "cover": {
+    "tag": "US AI · TOOLS",
+    "headline": [
+      "CLAUDE JOINS",
+      "A **MEETING**"
+    ],
+    "hook_options": [
+      [
+        "CLAUDE JOINS",
+        "A **MEETING**"
+      ],
+      [
+        "CLAUDE DRAFTS",
+        "IN **MEETINGS**"
+      ],
+      [
+        "CLAUDE NOW SITS",
+        "IN **MEET** CALLS"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "claim",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "The headline names the product and the setting (a meeting) and matches slide 2, 'Claude joins the call'. 'A meeting' avoids implying everyone has it: slide 5 limits it to a beta on business plans, and slide 4 to Google Meet. The second option adds what Claude does (drafts), the third names Meet. No reader-impact hook: the articles describe a beta for paid business plans on Google Meet only, so they state no effect on what ordinary readers pay, use or risk.",
+    "image_prompt": "Cinematic abstract video-call scene: a dark wall of softly glowing rectangular panels in a grid, each panel filled with blurred, faceless light and shadow, and one panel at the center radiating a warm golden glow that spills across the others, thin lines of light sketching a timeline between the panels, volumetric haze, shallow depth of field, moody blue and amber palette. Generic unbranded interface, no brand marks. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261114_182056_83066987-8c00-4e08-951d-aba836ed6e4e.png"
+  },
+  "slides": [
+    {
+      "kicker": "The launch",
+      "title": "Claude joins the call",
+      "body": [
+        "Anthropic **launched Claude Meetings this week**. Teams can add Claude to a video call as a visible participant. It follows the conversation and starts working on tasks while people are still talking."
+      ]
+    },
+    {
+      "kicker": "What it does",
+      "title": "It drafts as you talk",
+      "body": [
+        "As the team talks, Claude can **draft the plan**, map a timeline on a whiteboard and answer in the meeting chat. It can also pull figures, such as last year's event spending, from connected work apps."
+      ]
+    },
+    {
+      "kicker": "After the call",
+      "title": "Notes land in Claude",
+      "body": [
+        "Afterward, the notes, action items and materials Claude made are available in claude.ai. Claude saves a transcript, a summary and descriptions of what was on screen. **Audio is not saved.**"
+      ]
+    },
+    {
+      "kicker": "The limits",
+      "title": "Beta, Meet only, no guests",
+      "body": [
+        "It is a **beta** on Claude's business plans, and works with **Google Meet** only for now. By default Claude stays out of calls with outside guests and leaves if one joins, unless an admin allows it."
+      ]
+    },
+    {
+      "kicker": "The price",
+      "title": "Free for now, partly",
+      "body": [
+        "Notes, transcripts and most in-call answers are free during the beta. Documents and whiteboards have a **free-use deadline of Feb 10, 2027**. Per VentureBeat, Team seats list at **$20** per user per month on annual billing, or $25 monthly."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "date": "Nov 10, 2026",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+    },
+    {
+      "outlet": "VentureBeat",
+      "title": "Anthropic brings Claude into Google Meet to draft documents and whiteboards during your meetings",
+      "date": "Nov 12, 2026",
+      "url": "https://venturebeat.com/ai/anthropic-brings-claude-into-google-meet-to-draft-documents-and-whiteboards-during-your-meetings"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Anthropic announced Claude Meetings on Tuesday (Nov 10, 2026), which brings Claude into video calls to begin working on tasks while participants are still talking."
+    },
+    {
+      "source": 0,
+      "text": "Teams can add Claude to a video call as a visible participant; as participants talk, it can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information such as last year's figures."
+    },
+    {
+      "source": 0,
+      "text": "After the call, the meeting notes, action items and other materials Claude created are available in claude.ai."
+    },
+    {
+      "source": 0,
+      "text": "Claude identifies itself as a meeting participant and posts a notice in the meeting chat. It won't join calls with external guests unless authorized by an admin, and will automatically leave if an external guest joins."
+    },
+    {
+      "source": 0,
+      "text": "Claude Meetings is launching in beta on Team and Enterprise plans. At launch it works with Google Meet."
+    },
+    {
+      "source": 1,
+      "text": "Anthropic says Claude saves the transcript, a summary, and descriptions of what appeared on screen. Audio is excluded from that record."
+    },
+    {
+      "source": 1,
+      "text": "Notes, transcripts and most in-call answers are included at no extra charge during the beta. Documents, whiteboards and other materials Claude creates in a meeting have a separate free-use deadline of February 10, 2027."
+    },
+    {
+      "source": 1,
+      "text": "Anthropic's pricing page lists Team standard seats at $20 per user per month with annual billing or $25 with monthly billing."
+    },
+    {
+      "source": 1,
+      "text": "By default, Claude stays out when the invite includes someone from outside the organization and leaves if an outside guest joins midway; admins can allow Claude on those calls."
+    }
+  ],
+  "caption": "Anthropic launched Claude Meetings this week: Claude can join a Google Meet call and draft the plan while people talk.\n\nIt is a beta on Claude's business plans, and it has limits.\n\n→ Claude joins as a visible participant, drafts plans, maps timelines on a whiteboard and pulls figures from connected work apps\n→ It saves a transcript, summary and on-screen descriptions, not audio, and by default stays out of calls with outside guests\n→ Notes and most in-call answers are free in the beta; documents and whiteboards are free to use until Feb 10, 2027\n\nWould you want an AI in your next meeting?\n\nSource: TechCrunch, \"Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks\", Nov 10, 2026; VentureBeat, \"Anthropic brings Claude into Google Meet to draft documents and whiteboards during your meetings\", Nov 12, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Anthropic",
+    "#Claude",
+    "#AIatWork"
+  ],
+  "threads_caption": "Anthropic launched Claude Meetings this week: Claude can join a Google Meet call as a visible participant and draft the plan while people talk.\n\nIt is a beta on business plans, and by default it stays out of calls with outside guests.\n\nSource: TechCrunch, \"Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks\". #Anthropic"
+}

@@ -1,0 +1,2 @@
+# Backlog: Anthropic IPO terms (score 5, time-sensitive: trading due Nov 19)
+The Next Web "Anthropic's IPO seeks up to $64.4B at a $1.4 trillion valuation" (2026-11-11). 825M shares at $70-$78, ticker ANT, run-rate revenue about $81B, valuation guidance down from near $2T. Use before Nov 19 or drop. Only TNW read; Reuters unreadable. Avoid same-company clash with any other Anthropic post that day. Facts in `ops/candidates/2026-11-14-evening.json`.
