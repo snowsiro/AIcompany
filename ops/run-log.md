@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-14
+처리 1건 (ready 0 · blocked 1) · 실패 0건
+결정할 일
+1. 저녁 슬롯 비어 있음: `2026-11-14-claude-meetings`가 2라운드 모두 검수 불합격이라 `blocked`. 사소한 수정 두 개면 통과할 가능성이 큼. (a) fact: 슬라이드 5 "Team seats" → "Team standard seats" (VentureBeat 표현). (b) hook-judge(6점, 2회 연속): 커버 훅을 "CLAUDE DRAFTS / IN **MEETINGS**"로 교체하면 통과 예상 (커버 이미지는 그대로, 크레딧 추가 없음). 규칙상 3번째 시도는 하지 않았음. 직접 고쳐 머지하거나 이 글을 내일 아침 슬롯에 쓸지 결정 필요
+2. 선정: Anthropic Claude Meetings (US AI · TOOLS, 점수 14, 이월 후보). 토요일이라 05:45 이후 새 기사가 거의 없었고(읽을 수 있는 것은 한국어 기사 2건뿐), 새 후보는 모두 5점이라 규칙대로 이월 후보 중 최고점. 첫 보도 TechCrunch 2026-11-10 (4일 전, 신선 가산 없음, "launched this week"로 표기). 아침 글(Kakao, Digital Today)과 다른 회사·매체
+3. 검수 1차: fact 통과, brand-safety 통과, hook 6점 불합격(커버가 회의/통화를 말하지 않음). 2차: 훅을 "CLAUDE JOINS A MEETING"으로 교체 → brand-safety 통과, fact 불합격(위 a), hook 6점 불합격(호기심 부족, "DRAFTS" 옵션 권고)
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (아침 4 포함 오늘 합계 6/6, 한도 도달). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 필요
+5. Jensen Huang 의혹 보도, Malaysia/Megaspeed 기사는 제외. 예비 주제: posts/_backlog/2026-11-14-chatgpt-wallet.md, ...-openai-robotics-team.md, ...-anthropic-ipo-terms.md (상장 거래 예정 11-19, 시한 있음)
+6. 일요일 아침 런은 단일 글 후에 주간 모음을 만듦. blocked 글은 모음에 들어가지 않음
+자세한 기록
+- 후보 13개(새 3 + 이월 10), 선정 id `2026-11-14-claude-meetings`
+- 푸시는 daily/2026-11-14-evening, 머지하지 않음(blocked)
+
 ## [아침 보고] 2026-11-14
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 2 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-07-ai-teddy-bbc (44, 최근 14일 기준)
