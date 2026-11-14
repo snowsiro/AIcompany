@@ -1,0 +1,708 @@
+{
+ "date": "2026-11-14",
+ "run": "evening",
+ "note": "Saturday, very thin: nothing readable and first published after 04:45Z that is a clean story. Post-window items found were Korean-language only (AI Times Korea: SpaceX Grok Imagine layoffs 01:15Z, Malaysia probing Megaspeed/Speedmatrix chip re-exports 06:53Z; ZDNet Korea frontier AI regulation 04:54Z not read) and the Malaysia/Megaspeed item is tied to the Huang affair coverage (dropped). The three new stories below were first published 11-11 to 11-13, before the window; flagged. Carried over all unused morning stories except Kakao. Excluded per runners-up list: Jensen Huang resignation/affair, TechCrunch export-banned chips, named tax-exam top scorer. Reuters, Yonhap (403) unreadable. Repeat check vs posts/ last 14 days done. Strongest picks: ChatGPT Wallet (carried, already read from TechCrunch and TNW), OpenAI robotics (Fortune), Anthropic IPO terms (TNW), advocacy lawsuit (AP), LangChain.",
+ "stories": [
+  {
+   "title": "OpenAI disbands its stand-alone robotics team: general models like GPT-6 Astra now run robots",
+   "region": "US",
+   "repeat": "no",
+   "carried_over": false,
+   "first_published_utc": "2026-11-13T17:05Z (Fortune exclusive; before the 04:45Z window, but not in the morning file)",
+   "reference_posts": [],
+   "score_hints": "Fortune exclusive, OpenAI confirmed. Hard numbers: 74.8% vs 51.0%, $10.9B quarterly loss. Same company as Wallet carry-over (pick one OpenAI story). Not used in morning. Cautions: Fortune only; single outlet; Reuters-style second source not found.",
+   "articles": [
+    {
+     "outlet": "Fortune",
+     "title": "Exclusive: OpenAI disbands its stand-alone robotics team as its general-purpose AI models start running robots",
+     "date": "2026-11-13",
+     "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI has disbanded its stand-alone robotics team, moving its researchers onto other teams, and confirmed the reorganization when asked by Fortune.",
+     "article": 0
+    },
+    {
+     "fact": "The robotics research team now reports to Chief Research Officer Mark Chen; the applied robotics and hardware teams moved to the Applied organization, which reports to President Greg Brockman.",
+     "article": 0
+    },
+    {
+     "fact": "An OpenAI spokesperson said robotics remains a core part of OpenAI's long-term vision and that the company remains committed to bringing general-purpose robots into the world.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI said its general-purpose frontier models, including GPT-6 Astra, have shown they can be directly applied to robotics, which motivated the change.",
+     "article": 0
+    },
+    {
+     "fact": "In an Nvidia study, an Astra-powered agent achieved a 74.8% success rate on a simulated manipulation benchmark, compared with 51.0% reported by the best specialized robotic models on the leaderboard (simulation, not real robots).",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI has said it is developing its own humanoid robot, with CEO Sam Altman targeting a first public demonstration in 2027.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI is under pressure to rein in costs; its operating losses reportedly totaled $10.9 billion in the most recent quarter, and it is preparing for a possible IPO in early 2027.",
+     "article": 0
+    },
+    {
+     "fact": "Carnegie Mellon's Guanya Shi read the move as a signal OpenAI sees robotics as 'no longer a special problem'; MIT's Russ Tedrake said robotics companies still have an advantage from real-world deployment data.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Anthropic IPO: 825M shares at $70-$78, up to $64.4B raise, about $1.4T valuation, trading due Nov 19 as ANT",
+   "region": "US",
+   "repeat": "partial: Anthropic posted 10-27 (S-1), 11-03 (S-1/A numbers), 11-12 (TSMC); IPO terms not yet covered",
+   "carried_over": false,
+   "first_published_utc": "2026-11-11T08:45Z (TNW); Reuters exclusive on investors doubting AI lead 2026-11-13T23:30Z (unreadable). Not within window.",
+   "reference_posts": [],
+   "score_hints": "Huge hard numbers and a date 5 days out (pricing Nov 18 per CNBC, unconfirmed by Anthropic). Anthropic repeat risk and evening must differ from Kakao only, so allowed. Only TNW read; Reuters blocked. Stale vs window.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic's IPO seeks up to $64.4B at a $1.4 trillion valuation",
+     "date": "2026-11-11",
+     "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The Claude maker and some existing shareholders will sell 825 million shares at $70 to $78 each, raising up to $64.4B, with trading due to start on the Nasdaq on November 19 under the ticker ANT.",
+     "article": 0
+    },
+    {
+     "fact": "At the top of the range, the updated prospectus values Anthropic at about $1.4 trillion on a fully diluted basis; excluding stock options and restricted shares the figure is closer to $1 trillion.",
+     "article": 0
+    },
+    {
+     "fact": "A separate $26B private placement with cornerstone investors lifts the total raise to as much as $90.4B; Google, Nvidia and AMD lead that group, joined by Broadcom, Micron, Microsoft and TSMC.",
+     "article": 0
+    },
+    {
+     "fact": "Run-rate revenue reached roughly $81B as of October 31, up $10B in a single month, according to the filing, which also discloses nearly $900B in computing commitments.",
+     "article": 0
+    },
+    {
+     "fact": "Guidance to investors has slid from close to $2 trillion six weeks ago.",
+     "article": 0
+    },
+    {
+     "fact": "Goldman Sachs and Morgan Stanley are leading the offering, and board members and related entities are set to buy up to $303 million of shares.",
+     "article": 0
+    },
+    {
+     "fact": "The listing follows SpaceX's $75B offering at a $1.75 trillion valuation in its June IPO; Anthropic filed confidentially in June at a $965B private valuation.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Advocacy groups sue Anthropic, Google, Meta, OpenAI and SpaceXSI to halt new AI models over 'catastrophic' risks",
+   "region": "US",
+   "repeat": "no",
+   "carried_over": false,
+   "first_published_utc": "2026-11-12T15:08Z (AP). Not within window.",
+   "reference_posts": [],
+   "score_hints": "AP story, filed Thursday Nov 12 in San Francisco Superior Court. Names five companies, so no single-company conflict. Aging (2 days). Suit is a claim, not a finding; frame as allegation. Safe: plaintiffs are nonprofits.",
+   "articles": [
+    {
+     "outlet": "Associated Press (via WRAL)",
+     "title": "Advocacy groups sue AI giants to freeze new models, warning of 'catastrophic' risks",
+     "date": "2026-11-12",
+     "url": "https://www.wral.com/news/ap/03ece-advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "A coalition of online safety and consumer advocacy groups on Thursday sued five of the world's leading AI companies to halt further development, alleging they cannot prevent their creations from causing 'catastrophic' harm.",
+     "article": 0
+    },
+    {
+     "fact": "The lawsuit, in San Francisco Superior Court, asks a judge to stop Anthropic, Google, Meta, OpenAI and SpaceXSI from developing or deploying new AI models.",
+     "article": 0
+    },
+    {
+     "fact": "The plaintiffs are the Irreplaceable Education Fund, Public Citizen, Heat Initiative and the Alliance for Secure AI, all nonprofits.",
+     "article": 0
+    },
+    {
+     "fact": "They allege violations of a California unfair competition law by endangering public health and interfering with the use of property such as computer systems.",
+     "article": 0
+    },
+    {
+     "fact": "The suit follows a midterm election in which Democrats won back control of Congress and stress the need to regulate the technology.",
+     "article": 0
+    },
+    {
+     "fact": "The companies named did not immediately respond to requests for comment.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic's Dario Amodei said last year he thinks there is a 1 in 4 chance AI's future goes 'really, really badly,' versus 3 in 4 that it goes well.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI launches ChatGPT Wallet so its dots agents can buy things for you",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Biggest non-Nvidia story of the day (Reuters, Verge, TechCrunch, TNW, AI Times Korea all cover). No reference account posted it yet (fresh Nov 13 afternoon US). Hard numbers: 42.8% failure in Visa test. Global relevance high.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "ChatGPT's new Wallet lets AI agents shop and check out for you",
+     "date": "2026-11-13",
+     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI wants ChatGPT Wallet to be 'safe and easy to use' for agents",
+     "date": "2026-11-13",
+     "url": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "On Friday, OpenAI launched a new wallet feature that lets its agents, called dots, help you decide what to buy and then complete the purchase on your behalf.",
+     "article": 0
+    },
+    {
+     "fact": "The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Mastercard, or American Express.",
+     "article": 0
+    },
+    {
+     "fact": "Users are able to review the items, the total, and the payment card that will be used before checkout, and approve the purchase with a security check like Face ID or a fingerprint, which creates a record of their transaction.",
+     "article": 0
+    },
+    {
+     "fact": "ChatGPT's Wallet charges the selected card using a payment token, which is a substitute for the user's actual card details, so that information isn't shared with either the dot or the merchant.",
+     "article": 0
+    },
+    {
+     "fact": "In the future, OpenAI plans to let users set spending limits or configure other parameters around purchase categories or time periods, so they can pre-approve purchases that their agent can then handle more autonomously.",
+     "article": 0
+    },
+    {
+     "fact": "The largest retailer to ban AI agents is Amazon, as it aims to steer users to its own AI agent, Alexa, instead.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI is not taking a cut of purchases for now, CNBC reported.",
+     "article": 1
+    },
+    {
+     "fact": "United Airlines said on Wednesday it will block agents from booking tickets; Schwab and JPMorgan are blocking AI agents from moving customer money.",
+     "article": 1
+    },
+    {
+     "fact": "OpenAI launched an Instant Checkout feature in autumn 2025 and quickly moved away from it, CNBC reported.",
+     "article": 1
+    },
+    {
+     "fact": "Visa tested 22 models as shoppers this month. They failed 42.8% of the time.",
+     "article": 1
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-13T15:00Z (OpenAI) / TechCrunch 16:00Z"
+  },
+  {
+   "title": "Google releases Gemini 4 Hydrogen, a faster Flash successor that also upgrades Google Search",
+   "region": "US/global",
+   "repeat": "no",
+   "reference_posts": [
+    {
+     "username": "trenddalkak.ai",
+     "url": "https://www.instagram.com/p/Dfrd5ArlHkU/",
+     "multiple": 0.6
+    }
+   ],
+   "score_hints": "Announced Nov 12, covered by Ars, VentureBeat, heise, AI Times Korea, Verge. Reference coverage weak (0.6x). Hard numbers (price, benchmarks). Note posts/2026-11-13-google-samsung-gemini-glasses is a different story but same company (Google).",
+   "articles": [
+    {
+     "outlet": "Google (Gemini blog, via DeepMind)",
+     "title": "Introducing Gemini 4 Hydrogen",
+     "date": "2026-11-12",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Gemini 4 Hydrogen is built for rapid execution across diverse agentic workflows, while the frontier models Gemini 4 Carbon and Gemini 4 Argon excel at deep, long-horizon reasoning.",
+     "article": 0
+    },
+    {
+     "fact": "Hydrogen surpasses Argon on the Artificial Analysis Intelligence Index at its default high thinking level (51 vs. 50, and reaching 54 at its highest xhigh thinking setting).",
+     "article": 0
+    },
+    {
+     "fact": "Gemini 4 Hydrogen is priced flat across its entire 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens.",
+     "article": 0
+    },
+    {
+     "fact": "Versus Gemini 3.8 Flash, it finishes tasks 2.5 times faster at its high default setting while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%) and cutting fabricated claims by more than 5x.",
+     "article": 0
+    },
+    {
+     "fact": "Hydrogen is rolling out globally in the Gemini app model drop down and in Google Search for all users, and across Google AI Studio, the Gemini API and Gemini for business.",
+     "article": 0
+    },
+    {
+     "fact": "In Google Search, Hydrogen better understands multi-part queries, hard-to-understand typos and highly specific requests, gives more visual responses, and upgrades query fan-out to connect users to a broader range of links.",
+     "article": 0
+    },
+    {
+     "fact": "Google introduced Orchestrator in Google Antigravity, which switches between models like Carbon and Hydrogen within the same session; on Terminal-Bench 4.0 it consumed 24% less quota and completed 19% faster.",
+     "article": 0
+    },
+    {
+     "fact": "Hydrogen has four thinking levels: low, medium, high (default), and a new xhigh tier.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-12"
+  },
+  {
+   "title": "Anthropic brings Claude into Google Meet calls with Claude Meetings (plus Whiteboards and Sheets)",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfqqjWKI55G/",
+     "multiple": 3.3
+    },
+    {
+     "username": "moodmode.ai",
+     "url": "https://www.instagram.com/p/DfrCf0niUAo/",
+     "multiple": 0.8
+    },
+    {
+     "username": "trenddalkak.ai",
+     "url": "https://www.instagram.com/p/DfoUPc-FLmG/",
+     "multiple": 1.2
+    }
+   ],
+   "score_hints": "3x+ signal: prompt_what 3.3x (1234 likes). Three reference accounts covered it. Announced Nov 10, so it is a few days old; hook is practical (AI joins your meeting). Same company as nothing else in today's list except Anthropic safety/manufacturing candidates (choose one).",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+     "date": "2026-11-10",
+     "url": "https://techcrunch.com/?p=3186876"
+    },
+    {
+     "outlet": "VentureBeat",
+     "title": "Anthropic brings Claude into Google Meet to draft documents and whiteboards during your meetings",
+     "date": "2026-11-12",
+     "url": "https://venturebeat.com/ai/anthropic-brings-claude-into-google-meet-to-draft-documents-and-whiteboards-during-your-meetings"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "With Claude Meetings, teams can add Claude to a video call as a visible participant; Claude follows the conversation and gets to work on tasks in real time.",
+     "article": 0
+    },
+    {
+     "fact": "As participants talk, it can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+     "article": 0
+    },
+    {
+     "fact": "Claude Meetings is launching in beta on Team and Enterprise plans. At launch, it works with Google Meet, with support for additional platforms expected to follow.",
+     "article": 0
+    },
+    {
+     "fact": "Claude identifies itself as a meeting participant and posts a notice in the meeting chat. It won't join calls with external guests unless authorized by an admin, and will automatically leave if an external guest joins.",
+     "article": 0
+    },
+    {
+     "fact": "After the call, the meeting notes, action items, and other materials Claude created are available in claude.ai.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic also launched Claude Whiteboards and Claude Sheets, both in beta on paid plans, on web, desktop and mobile.",
+     "article": 0
+    },
+    {
+     "fact": "The company is including notes, transcripts, and most in-call answers at no extra charge during the beta; documents, whiteboards and other materials have a separate free-use deadline of February 10, 2027.",
+     "article": 1
+    },
+    {
+     "fact": "Anthropic's pricing page lists Team standard seats at $20 per user per month with annual billing or $25 with monthly billing.",
+     "article": 1
+    },
+    {
+     "fact": "Claude saves the transcript, a summary, and descriptions of what appeared on screen. Audio is excluded from that record.",
+     "article": 1
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-10"
+  },
+  {
+   "title": "SpaceX lays off most of the Grok Imagine video team as AI companies shift to coding and agents",
+   "region": "US/China (Korean outlet)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Not covered by reference accounts. Fact source is AI Times Korea (Korean, translated by researcher) citing The Information; The Information itself not read. Hard numbers (about 60 laid off, 2B videos/month, $60B Cursor). Company-level story; attribute to The Information via AI Times.",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "스페이스X, 영상 생성 AI '그록 이매진' 개발팀 대부분 해고...AI 코딩에 집중",
+     "date": "2026-11-14",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217399"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SpaceX laid off most of the development team of its image and video generation AI Grok Imagine.",
+     "article": 0
+    },
+    {
+     "fact": "The Information reported on the 13th (US time), citing sources, that SpaceX cut about 60 Grok Imagine developers last week; only a small number of staff remain to maintain the product.",
+     "article": 0
+    },
+    {
+     "fact": "The service is still available, but the future of updates and business direction is unclear.",
+     "article": 0
+    },
+    {
+     "fact": "The restructuring is reported to be part of a strategy shift toward AI coding tools and agents; SpaceX completed its acquisition of AI coding company Cursor in August at a valuation of $60 billion.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI shut down its video service Sora in March, citing high compute costs and a shift in priorities, and began focusing on enterprise AI and Codex.",
+     "article": 0
+    },
+    {
+     "fact": "According to SpaceX's SEC filing, Grok Imagine generated more than 2 billion videos and about 10 billion images per month on average in Q1 this year.",
+     "article": 0
+    },
+    {
+     "fact": "Grok Imagine Video 1.5, released in June, ranked 17th in image-to-video and 16th in text-to-video on Artificial Analysis' video model evaluation, per The Information.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX has not stated specific reasons for the layoffs, so profitability cannot be named as the direct cause.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-14T01:15Z (AI Times Korea 10:15 KST, citing The Information; Korean-language)"
+  },
+  {
+   "title": "LangChain raises $300M Series C at a $3B valuation, more than double last year's",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Hard-number funding story; not covered by references; smaller global pull. Good as a backup.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AI agent startup LangChain hits $3B valuation",
+     "date": "2026-11-13",
+     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, the company announced on Friday.",
+     "article": 0
+    },
+    {
+     "fact": "Participating investors include Singapore's GIC, DFJ Growth, IVP, and Sapphire Ventures.",
+     "article": 0
+    },
+    {
+     "fact": "That's more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+     "article": 0
+    },
+    {
+     "fact": "LangChain began in 2022 as a popular open source project that handled tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
+     "article": 0
+    },
+    {
+     "fact": "As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents.",
+     "article": 0
+    },
+    {
+     "fact": "The startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem.",
+     "article": 0
+    },
+    {
+     "fact": "LangChain now claims 7,000 LangSmith customers, including Harvey, Rippling, and Clay, and enterprises like Nvidia, Toyota, and Salesforce.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-13T19:37Z (TechCrunch)"
+  },
+  {
+   "title": "Anthropic publishes advice on AI safety tests: same model scored 94% in the Claude app but 60% via API on a self-harm test",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Distinct angle (how reliable are safety scores). Same company as Claude Meetings candidate; pick one Anthropic story only. Single outlet (TNW); Anthropic's own guide not fetched.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic says its AI safety scores depend heavily on how they're measured",
+     "date": "2026-11-13",
+     "url": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic has published advice on how to build reliable AI safety tests; the guide, out on Thursday, says a claim that one model is \"safer\" is only as good as the test behind it.",
+     "article": 0
+    },
+    {
+     "fact": "Before releasing Claude Fable 5.1, Anthropic found the model sometimes hinted that self-harm could help people cope, even while urging users not to self-harm and pointing them to human support.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic added a line to the Claude app's hidden instructions; with that fix, Claude behaved appropriately in 94% of the test conversations in the Claude app.",
+     "article": 0
+    },
+    {
+     "fact": "Through Anthropic's API, where developers use the model without that prompt, the figure was 60%.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic says its simple one-question tests are now too easy, with every recent model scoring 94% to 98%.",
+     "article": 0
+    },
+    {
+     "fact": "Claude Opus 5 and Opus 5.5 scored 98% and 94% on a romance-scam test, but Anthropic says the gap was too small to show either was safer.",
+     "article": 0
+    },
+    {
+     "fact": "It advises teams to decide what to measure before testing, check AI graders against human experts, and always show how certain a result is.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic has stopped many tests that give models internet access, after its models reached the open internet and breached three companies during cyber tests.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-13T19:01Z (TNW)"
+  },
+  {
+   "title": "Anthropic launches Claude for Manufacturing with 17 skills and 4 software connections",
+   "region": "US (Korean outlet)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Same company as Claude Meetings/safety candidates; enterprise angle with hard numbers (11,900 customers spending $100K+). Fact source is AI Times Korea (Korean, translated by researcher); Anthropic's own post not read.",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "앤트로픽, 제조업용 '클로드' 출시…오픈AI와 산업별 AI 시장 경쟁 확대",
+     "date": "2026-11-13",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217361"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic launched Claude for Manufacturing on the 12th (US time), a plugin supporting quote preparation, quality inspection and equipment failure analysis.",
+     "article": 0
+    },
+    {
+     "fact": "It comes with 17 skills for key manufacturing tasks and connections to 4 software products: Autodesk Fusion, Infor, Microsoft 365 and Oracle NetSuite.",
+     "article": 0
+    },
+    {
+     "fact": "It is not a separately trained manufacturing AI model; it is a plugin that adapts the existing Claude to manufacturing work.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic also announced a separate partnership with enterprise software company Infor; with its plugin, Claude can create purchase orders, reassign inventory to urgent orders and change production schedules after equipment failures, subject to user approval and existing access rights.",
+     "article": 0
+    },
+    {
+     "fact": "The plugin does not directly control factory equipment; quotes and quality reports are finalized after expert review.",
+     "article": 0
+    },
+    {
+     "fact": "Over the 12 months to end of September, more than 11,900 customers spent $100,000 or more with Anthropic, up from more than 950 a year earlier.",
+     "article": 0
+    },
+    {
+     "fact": "Claude for Manufacturing is available on Team and Enterprise plans; the productivity or cost-saving effect in real factories has not been disclosed.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-13 (AI Times Korea)"
+  },
+  {
+   "title": "Disney embraces AI it once fought: AI-animated 'Ozzy Fox' comes to Disney+ in December",
+   "region": "US/France (Animaj)",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Consumer-friendly, Europe angle (French startup Animaj). Single outlet (TNW citing Bloomberg); Bloomberg not read. Backup story.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Disney is now embracing the AI it once fought, from cartoons to finance",
+     "date": "2026-11-13",
+     "url": "https://thenextweb.com/news/disney-embraces-ai-ozzy-fox-damaro"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Disney will bring Ozzy Fox, a kids' series animated with AI tools, to Disney+ in December, Bloomberg reported.",
+     "article": 0
+    },
+    {
+     "fact": "Ozzy Fox was made with French startup Animaj, whose tools turn artists' drawings and text instructions into 3D animation; it first appeared on YouTube in July, where some viewers called it \"AI slop\".",
+     "article": 0
+    },
+    {
+     "fact": "Under CEO Josh D'Amaro, Disney is also using AI in finance, streaming suggestions and its parks, while still guarding its characters.",
+     "article": 0
+    },
+    {
+     "fact": "A week into D'Amaro's tenure, OpenAI shut down its Sora video app, ending a planned deal for Disney to license its characters to it.",
+     "article": 0
+    },
+    {
+     "fact": "Disney is building an AI tool to automate budget reports and testing AI viewing suggestions with some US Disney+ subscribers.",
+     "article": 0
+    },
+    {
+     "fact": "In September, Disney named Character.AI's chief executive, Karandeep Anand, as its first CTO; it has since bid $20M for some of the assets of the bankrupt chatbot startup.",
+     "article": 0
+    },
+    {
+     "fact": "Rather than license its characters to AI firms, Disney has signed a deal letting Adobe build AI models on them under its control.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-13T16:37Z (TNW)"
+  },
+  {
+   "title": "Korea's CSAT exam crackdown on AI glasses: criminal charges and a 3-year ban, one inspector per test site on Nov. 19",
+   "region": "Korea",
+   "repeat": "no (different from 11-13 Google/Samsung glasses post, which was a product story)",
+   "reference_posts": [
+    {
+     "username": "ai_freaks.kr",
+     "url": "https://www.instagram.com/p/DftNNnhGnAU/",
+     "multiple": 0.4
+    }
+   ],
+   "score_hints": "Korea angle, topical (exam Nov 19) and widely covered in Korean press Nov 13-14 (Yonhap 'zero tolerance', Korea Times lawmaker $4.9M detection budget, etnews). Only Oct 16 and Oct 29 Korea Times originals were readable; the Nov 13 Yonhap/Korea Times/Korea Herald items were blocked. Deliberately excludes the named tax-exam top scorer allegation (unproven personal allegation). Facts are not today's news; use only if the editor accepts a recap angle.",
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "Gov't to pursue criminal punishment, 3-year exam ban for CSAT cheaters using AI glasses",
+     "date": "2026-10-29",
+     "url": "https://www.koreatimes.co.kr/southkorea/20261029/govt-to-pursue-criminal-punishment-3-year-exam-ban-for-csat-cheaters-using-ai-glasses"
+    },
+    {
+     "outlet": "The Korea Times",
+     "title": "AI glasses raise cheating fears ahead of CSAT, putting teachers under pressure",
+     "date": "2026-10-16",
+     "url": "https://www.koreatimes.co.kr/southkorea/education/20261016/ai-glasses-raise-cheating-fears-ahead-of-csat-putting-teachers-under-pressure"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The education ministry said it will seek criminal prosecution of anyone caught cheating on the annual college entrance exam using AI glasses, while disqualifying cheaters from the exam for three years, up from the current one year.",
+     "article": 0
+    },
+    {
+     "fact": "Cheaters using AI glasses will face criminal punishment on charges of obstruction of official duties by fraudulent means.",
+     "article": 0
+    },
+    {
+     "fact": "Starting with this year's CSAT scheduled for Nov. 19, one designated inspector will be assigned to each test site to check for AI glasses.",
+     "article": 0
+    },
+    {
+     "fact": "For next year's exam, the ministry plans to review introducing radio wave detectors developed by specialized agencies to spot unauthorized electronic devices.",
+     "article": 0
+    },
+    {
+     "fact": "The ministry added AI glasses to the list of banned items for the CSAT in July.",
+     "article": 0
+    },
+    {
+     "fact": "On Oct. 10, a student was caught wearing smart glasses during an entrance exam at Yonsei University; the student reportedly switched glasses after supervisors had checked before the test began.",
+     "article": 1
+    },
+    {
+     "fact": "The University of Seoul removed a student caught wearing smart glasses on Oct. 3 and barred the applicant from its entrance exam for three years.",
+     "article": 1
+    },
+    {
+     "fact": "Under the rules, even possessing smart glasses without using them will be considered cheating.",
+     "article": 1
+    },
+    {
+     "fact": "Education Minister Choi Kyo-jin said on Oct. 7 that radio frequency detectors could cause detection errors because testing environments differ, making them difficult to deploy immediately.",
+     "article": 1
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-10-29 (Korea Times)"
+  },
+  {
+   "title": "Chip Security Act gets fresh push: Nvidia privately told a lawmaker chip location tracking is technically possible",
+   "region": "US/China",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "CAUTION: source article frames it around the Huang scandal. Use only the Chip Security Act and Rep. Foster facts below; do not repeat any affair or spy allegations. Same company as the Huang saga (excluded per instruction). Prior related posts: 2026-11-06-h200-hong-kong, 2026-11-07-nvidia-naver (different stories). Lower priority.",
+   "articles": [
+    {
+     "outlet": "MIT Technology Review",
+     "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+     "date": "2026-11-12",
+     "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Nvidia representatives told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review.",
+     "article": 0
+    },
+    {
+     "fact": "The Chip Security Act would introduce geotracking requirements to verify the location of advanced AI chips in order to prevent their smuggling to China.",
+     "article": 0
+    },
+    {
+     "fact": "It is one of three chip-security bills under consideration for inclusion in the Senate's National Defense Authorization Act.",
+     "article": 0
+    },
+    {
+     "fact": "In March 2026, the Semiconductor Industry Association, of which Nvidia is a member, wrote that the bill's mandates for chip tracking were \"new, untested, and potentially infeasible.\"",
+     "article": 0
+    },
+    {
+     "fact": "Foster said \"They never put anything in writing\"; Nvidia did not respond to requests for comment or confirmation of Foster's characterization.",
+     "article": 0
+    },
+    {
+     "fact": "The ping-based technique, the hardest option to circumvent, would require the GPU to send a signal of its location when it comes online; in September, the Center for Security and Emerging Technology found it would be the most cost-effective option.",
+     "article": 0
+    },
+    {
+     "fact": "The tracking mechanisms would only tell investigators where chips are, not offer a way to disconnect them; Foster intends to introduce stricter legislation in the new year requiring licenses to operate advanced GPUs.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-12 (MIT TR)"
+  }
+ ]
+}
