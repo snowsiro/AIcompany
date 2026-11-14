@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-14
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 2 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-07-ai-teddy-bbc (44, 최근 14일 기준)
+결정할 일
+1. 없음. 아침 스캔은 05:07에 안 돌아 morning-scan을 수동 실행했고 약 2~4분 뒤 main에 올라옴. IG 토큰이 없어 참고 계정은 스캔 파일 reference.json 기준으로만 주제 파악
+2. 선정: Kakao·OpenAI 첫 AI 단편 애니메이션 "Still, Ryan" (KOREA AI · INDUSTRY, 참고 계정 2곳 2.1x·1.7x). 소스는 Digital Today + 카카오 보도자료(한국어, researcher 번역). 두 소스가 1,500 프롬프트 범위(일부 장면 vs 한 장면)가 달라 장면 수 없이 "Digital Today 기준, 일부 장면"으로 표기
+3. 검수: 1차 fact 불합격(1,500 프롬프트 장면 수 불일치), brand-safety 불합격(커버에 DELL 로고 보임), hook 7/10 통과 → 수정·커버 재생성 후 2차 3개 모두 통과. hook 7/10 (독자 영향 훅 없음 사유 기재)
+4. 커버: Higgsfield cinematic_studio_2_5 2장(로고 때문에 1회 재생성), 4크레딧 (오늘 합계 4/6). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 월 합계는 이전 보고에 더해 계산 필요
+5. 렌더: npm ci 후 Playwright 브라우저 버전 불일치로 CHROMIUM_PATH=/opt/pw-browsers/chromium 사용. 재렌더 시 이전 cover.png가 재사용되니 지우고 렌더해야 함
+6. Jensen Huang 사임·사생활 의혹 보도는 입증 안 된 실명 의혹이라 제외 (11-12, 11-13과 같은 기준). 저녁 런 예비: posts/_backlog/2026-11-14-morning-runners-up.md (ChatGPT Wallet 1순위, Kakao는 피할 것)
+자세한 기록
+- 후보 11개, 선정 id `2026-11-14-kakao-still-ryan`
+- 11-13 저녁 글은 없었음(브랜치 없음). 11-13 아침 글은 published라 넘어온 글 없음
+
 ## [아침 보고] 2026-11-13
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 25 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-07-ai-teddy-bbc (44, 최근 14일 기준)
