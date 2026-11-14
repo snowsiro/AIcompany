@@ -6,30 +6,30 @@
   "cover": {
     "tag": "US AI · TOOLS",
     "headline": [
-      "NOT JUST NOTES:",
-      "CLAUDE **DRAFTS**"
+      "CLAUDE JOINS",
+      "A **MEETING**"
     ],
     "hook_options": [
       [
-        "NOT JUST NOTES:",
-        "CLAUDE **DRAFTS**"
+        "CLAUDE JOINS",
+        "A **MEETING**"
       ],
       [
-        "CLAUDE JOINS",
-        "YOUR **MEETING**"
+        "CLAUDE DRAFTS",
+        "IN **MEETINGS**"
       ],
       [
         "CLAUDE NOW SITS",
-        "IN YOUR **CALLS**"
+        "IN **MEET** CALLS"
       ]
     ],
     "hook_types": [
-      "myth-flip",
+      "claim",
       "claim",
       "claim"
     ],
-    "hook_type": "myth-flip",
-    "hook_pick_reason": "The myth-flip hook says an AI in a call is more than a notetaker, and slides 2 to 4 back it: Claude drafts the plan, maps a timeline on a whiteboard and pulls figures from connected apps while people talk. The claim hooks are plainer. No reader-impact hook: the articles describe a beta for paid business plans on Google Meet only, so they state no effect on what ordinary readers pay, use or risk.",
+    "hook_type": "claim",
+    "hook_pick_reason": "The headline names the product and the setting (a meeting) and matches slide 2, 'Claude joins the call'. 'A meeting' avoids implying everyone has it: slide 5 limits it to a beta on business plans, and slide 4 to Google Meet. The second option adds what Claude does (drafts), the third names Meet. No reader-impact hook: the articles describe a beta for paid business plans on Google Meet only, so they state no effect on what ordinary readers pay, use or risk.",
     "image_prompt": "Cinematic abstract video-call scene: a dark wall of softly glowing rectangular panels in a grid, each panel filled with blurred, faceless light and shadow, and one panel at the center radiating a warm golden glow that spills across the others, thin lines of light sketching a timeline between the panels, volumetric haze, shallow depth of field, moody blue and amber palette. Generic unbranded interface, no brand marks. No text, no letters, no logos, no people.",
     "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261114_182056_83066987-8c00-4e08-951d-aba836ed6e4e.png"
   },
