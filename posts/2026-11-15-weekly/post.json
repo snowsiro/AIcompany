@@ -3,7 +3,7 @@
   "date": "2026-11-15",
   "kind": "weekly",
   "category": "WEEKLY",
-  "status": "ready",
+  "status": "published",
   "cover": {
     "tag": "GLOBAL AI · WEEKLY",
     "headline": [
@@ -253,5 +253,9 @@
     "#Nebius",
     "#TSMC"
   ],
-  "threads_caption": "This week in AI: 7 stories from around the world. Sources on each card, including SBS News, ABC News (AP), Al Jazeera, The Next Web and more."
+  "threads_caption": "This week in AI: 7 stories from around the world. Sources on each card, including SBS News, ABC News (AP), Al Jazeera, The Next Web and more.",
+  "published_id": "18137487583656279",
+  "permalink": "https://www.instagram.com/p/DfwaAxFl2UX/",
+  "threads_id": "18652469749003824",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DfwaH9RFjRY"
 }
