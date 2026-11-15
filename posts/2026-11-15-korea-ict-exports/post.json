@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-15-korea-ict-exports",
+  "date": "2026-11-15",
+  "category": "ECONOMY",
+  "status": "ready",
+  "cover": {
+    "tag": "KOREA AI · ECONOMY",
+    "headline": [
+      "KOREA SHIPPED",
+      "**$70B** OF ICT"
+    ],
+    "hook_options": [
+      [
+        "KOREA SHIPPED",
+        "**$70B** OF ICT"
+      ],
+      [
+        "ICT IS **61%** OF",
+        "KOREA'S EXPORTS"
+      ],
+      [
+        "KOREA CHIP SALES",
+        "UP **259.4%**"
+      ],
+      [
+        "KOREA'S EXPORTS",
+        "**TRIPLED** ON AI"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The $70B hook puts the biggest figure first and slides 1 to 5 back it: ICT exports of $70.35B in October, second-highest month ever, led by chips. The 61% hook is accurate but less vivid, the 259.4% hook covers only semiconductors, and the tripled hook leans on the AI link, which the article gives as demand for memory and high prices. No reader-impact hook: the article reports Korean trade data and states no effect on what ordinary readers pay, use or risk.",
+    "image_prompt": "Cinematic night view of a vast container port: stacked shipping containers glowing under cool blue floodlights, a gantry crane lifting a container toward a ship, faint streaks of light from rows of cargo trucks, a sealed crate beside it softly lit from within by cold circuit-like light, wet concrete reflecting amber and blue, shallow depth of field. Generic unmarked containers. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261115_045150_9d81d333-58c2-49bc-84d9-bafe0b6ac2ce.png"
+  },
+  "slides": [
+    {
+      "kicker": "The jump",
+      "title": "ICT exports more than tripled",
+      "body": [
+        "South Korea shipped **$70.35B** of ICT (information and communications technology) products abroad in October, up from **$23.29B** a year earlier. The data comes from the Ministry of Science and ICT."
+      ]
+    },
+    {
+      "kicker": "The scale",
+      "title": "Over 60% for three months",
+      "body": [
+        "October was the **second-highest month on record**, just below September's $75.1B. ICT made up **61%** of Korea's total exports of $115.28B, staying above 60% for three straight months."
+      ]
+    },
+    {
+      "kicker": "The chips",
+      "title": "Semiconductors led the surge",
+      "body": [
+        "Chip exports jumped **259.4%** from a year earlier to **$56.47B**. The article credits strong global demand for premium memory products and persistently high memory prices."
+      ]
+    },
+    {
+      "kicker": "Beyond chips",
+      "title": "Server drives and phones",
+      "body": [
+        "Computers and accessories reached **$5.99B**, more than fivefold, led by high-capacity solid-state drives (SSDs) for servers. Mobile phones rose a modest 6.5% to $1.71B on premium models."
+      ]
+    },
+    {
+      "kicker": "The buyers",
+      "title": "China and the US",
+      "body": [
+        "Exports to **China** more than tripled to $27.2B, driven by chips and computers. Shipments to the **United States** grew more than sixfold to $15.56B."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Times",
+      "title": "ICT exports log record-high growth in Oct. amid AI boom",
+      "date": "Nov 15, 2026",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20261115/ict-exports-log-record-high-growth-in-oct-amid-ai-boom"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Outbound shipments of ICT products came to $70.35 billion in October, more than tripling from $23.29 billion a year earlier, according to data compiled by the Ministry of Science and ICT."
+    },
+    {
+      "source": 0,
+      "text": "The figure marked the second-highest monthly total on record, just below the $75.1 billion posted in September."
+    },
+    {
+      "source": 0,
+      "text": "ICT exports accounted for 61 percent of the country's total outbound shipments of $115.28 billion in October, with the proportion remaining above 60 percent for three consecutive months."
+    },
+    {
+      "source": 0,
+      "text": "Exports of semiconductors shot up 259.4 percent on-year in October to $56.47 billion, driven by strong global demand for premium memory products and persistently high memory prices."
+    },
+    {
+      "source": 0,
+      "text": "Outbound shipments of computers and accessories reached $5.99 billion in October, growing more than fivefold from a year earlier, led by high-capacity solid-state drives (SSDs) for servers."
+    },
+    {
+      "source": 0,
+      "text": "Exports of mobile phones rose 6.5 percent to $1.71 billion on the back of strong sales of premium models."
+    },
+    {
+      "source": 0,
+      "text": "Exports to China more than tripled to $27.2 billion, driven by gains in semiconductors and computers. Shipments to the United States grew more than sixfold to $15.56 billion."
+    }
+  ],
+  "caption": "South Korea shipped $70.35B of ICT products in October, more than triple last year, led by chips.\n\nICT is information and communications technology. The figures come from the Ministry of Science and ICT, via The Korea Times.\n\n→ ICT was 61% of Korea's $115.28B total exports, above 60% for three straight months\n→ Semiconductor exports rose 259.4% to $56.47B on premium memory demand and high memory prices\n→ October was the second-highest month on record, just below September's $75.1B\n\nWhat other numbers show the AI build-out best?\n\nSource: The Korea Times, Nov 15, 2026.\n\nFollow @ai.news.company for daily AI news.",
+  "hashtags": [
+    "#AINews",
+    "#KoreaAI",
+    "#Korea",
+    "#ICT"
+  ],
+  "threads_caption": "South Korea shipped $70.35B of ICT products in October, more than triple a year earlier.\n\nChips led at $56.47B (+259.4%), and ICT was 61% of all Korean exports.\n\nSource: The Korea Times, \"ICT exports log record-high growth in Oct. amid AI boom\". #KoreaAI"
+}

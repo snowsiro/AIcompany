@@ -1,0 +1,410 @@
+{
+ "date": "2026-11-15",
+ "run": "morning",
+ "note": "No Instagram token; used reference.json and feeds.json. Skipped on purpose: all Jensen Huang resignation/affair/Alice Huang coverage (unproven allegations about named people, ~half of feeds), the named tax-exam top-scorer AI-glasses story (now a self-admission but still a named-person case), Reuters items (Anthropic IPO, Fed survey, Amazon product graph; originals unreadable, 403). Unreadable: Yonhap, The Verge, Politico, Korea Herald (Hyundai Home Shopping AI broadcast, HD Hyundai-Anduril vessel, AI funeral portraits all unread, not usable).",
+ "stories": [
+  {
+   "title": "South Korea's October ICT exports more than triple to $70.35B on the AI boom",
+   "region": "KOREA",
+   "repeat": "related only: 2026-11-02-korea-oct-exports-record (total exports, different data release)",
+   "reference_posts": [],
+   "score_hints": "Korea angle, hard numbers, no reference coverage; fresh Nov 15 (Yonhap/Korea Times). Yonhap original blocked (403); Korea Times readable.",
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "ICT exports log record-high growth in Oct. amid AI boom",
+     "date": "2026-11-15",
+     "url": "https://www.koreatimes.co.kr/business/tech-science/20261115/ict-exports-log-record-high-growth-in-oct-amid-ai-boom"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Outbound shipments of ICT products came to $70.35 billion in October, more than tripling from $23.29 billion a year earlier, according to data compiled by the Ministry of Science and ICT.",
+     "article": 0
+    },
+    {
+     "fact": "The figure also marked the second-highest monthly total on record, just below the $75.1 billion posted in September.",
+     "article": 0
+    },
+    {
+     "fact": "ICT exports accounted for 61 percent of the country's total outbound shipments of $115.28 billion in October, with the proportion remaining above 60 percent for three consecutive months.",
+     "article": 0
+    },
+    {
+     "fact": "Exports of semiconductors shot up 259.4 percent on-year in October to $56.47 billion, driven by strong global demand for premium memory products and persistently high memory prices.",
+     "article": 0
+    },
+    {
+     "fact": "Outbound shipments of computers and accessories also reached $5.99 billion in October, growing more than fivefold from a year earlier, led by high-capacity solid-state drives (SSDs) for servers.",
+     "article": 0
+    },
+    {
+     "fact": "Exports of mobile phones rose 6.5 percent to $1.71 billion on the back of strong sales of premium models.",
+     "article": 0
+    },
+    {
+     "fact": "By destination, exports to China more than tripled to $27.2 billion, driven by gains in semiconductors and computers. Shipments to the United States also grew more than sixfold to $15.56 billion.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "SK chairman Chey Tae-won tells every affiliate to become an AI company and build an 'AI flywheel'",
+   "region": "KOREA",
+   "repeat": "no (SK hynix/SK Telecom appeared in earlier posts, not this topic)",
+   "reference_posts": [],
+   "score_hints": "Korea angle; covered by etnews, Digital Times, ZDNet Korea, Korea Times same morning. Few hard numbers.",
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "SK chairman calls for AI expansion beyond chips into models, services",
+     "date": "2026-11-15",
+     "url": "https://www.koreatimes.co.kr/business/tech-science/20261115/sk-chairman-calls-for-ai-expansion-beyond-chips-into-models-services"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SK Group Chairman Chey Tae-won urged leaders of group subsidiaries to redefine themselves as artificial intelligence (AI) companies and expand beyond chips, infrastructure and energy into AI models and services.",
+     "article": 0
+    },
+    {
+     "fact": "Chey outlined the strategy at CEO seminar held Thursday to Saturday in Icheon, Gyeonggi Province.",
+     "article": 0
+    },
+    {
+     "fact": "Chey highlighted the importance of an \"AI flywheel\" to position SK as a key player in a \"token economy,\" where AI computing and services are traded as resources.",
+     "article": 0
+    },
+    {
+     "fact": "\"We must break out of existing business frameworks and redefine ourselves as AI companies,\" Chey said.",
+     "article": 0
+    },
+    {
+     "fact": "\"In the AI era, we cannot do everything alone,\" he said, calling open cooperation with global partners essential.",
+     "article": 0
+    },
+    {
+     "fact": "SK hynix is improving production efficiency by upgrading smart fabs that combine AI and digital twin technology.",
+     "article": 0
+    },
+    {
+     "fact": "SK Innovation has improved yields at its Ulsan complex using a \"process map,\" linking equipment and operating data.",
+     "article": 0
+    },
+    {
+     "fact": "Executives also agreed to continue the group's ongoing \"portfolio rebalancing\" which restructures inefficient businesses.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Malaysia opens probe into whether Nvidia AI chips at Megaspeed's local unit were re-exported",
+   "region": "ASIA",
+   "repeat": "no (Nvidia posted 11-07, 11-09, 11-12 on other topics)",
+   "reference_posts": [],
+   "score_hints": "Asia/policy angle. CAUTION: source frames Megaspeed through the Jensen Huang / Alice Huang allegations; if used, lead only on Malaysia's export-permit probe and the PM's statement that no re-export evidence was found, and omit the personal allegations. Single readable original (AI Times Korea, Korean).",
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "말레이시아, 메가스피드 AI 칩 재수출 의혹 조사 착수",
+     "date": "2026-11-14",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217405"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Malaysia's Ministry of Investment, Trade and Industry said on the 13th (local time) it is working with customs authorities to check whether AI chips and servers imported by Speedmatrix, a local affiliate of Singapore cloud company Megaspeed, were re-exported to other countries and whether the deals complied with Malaysian law.",
+     "article": 0
+    },
+    {
+     "fact": "Speedmatrix is a company housed in a Malaysian data center that brings in servers and AI chips for its own operations.",
+     "article": 0
+    },
+    {
+     "fact": "Since July 2025 Malaysia requires prior permission from the trade ministry to export, re-export, transship or transit high-performance US-made AI chips; importing chips into Malaysia needs no separate permit.",
+     "article": 0
+    },
+    {
+     "fact": "The government said the visit to the facility was part of routine industry inspection and did not confirm or approve that there is no problem with Megaspeed's or Speedmatrix's business.",
+     "article": 0
+    },
+    {
+     "fact": "Prime Minister Anwar Ibrahim said no evidence so far shows Megaspeed-related AI chips left Malaysia for another country, and that Malaysia had received no official request for cooperation from the US or Singapore.",
+     "article": 0
+    },
+    {
+     "fact": "Megaspeed said it takes US compliance obligations 'very seriously'.",
+     "article": 0
+    },
+    {
+     "fact": "In Singapore, police charged a fifth suspect and two companies on the 13th over money laundering tied to server purchases; a direct link to Megaspeed has not been confirmed.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "EU Parliament and Commission swamped by AI-written amendments, petitions and complaints",
+   "region": "EUROPE",
+   "repeat": "no (Paris Call 11-11 and Merz 11-02 were different topics)",
+   "reference_posts": [],
+   "score_hints": "Europe angle, vivid reader hook, a few numbers (50% more ombudsman complaints, 5,000+ amendments). Single outlet (heise, German; reports Rapporteur portal). Politico Dublin summit piece blocked.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Generative KI stiftet Chaos in Brüssel und Straßburg",
+     "date": "2026-11-13",
+     "url": "https://www.heise.de/news/KI-ueberflutet-EU-Institutionen-mit-Antraegen-und-Halluzinationen-11525079.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Chatbots are causing a flood of amendments and inquiries in Brussels and Strasbourg; officials and MEPs warn of democratic risks.",
+     "article": 0
+    },
+    {
+     "fact": "European Parliament Secretary-General Alessandro Chiocchetti warned of a rapid rise in amendments, parliamentary questions, petitions and access-to-documents requests, which he attributes to increased use of generative AI.",
+     "article": 0
+    },
+    {
+     "fact": "Parliament President Roberta Metsola urged MEPs not to hand democratic responsibility to algorithms.",
+     "article": 0
+    },
+    {
+     "fact": "On Thursday the Parliament passed a resolution on AI in administration and democracy; new internal guidelines on AI use are to follow soon.",
+     "article": 0
+    },
+    {
+     "fact": "Interpreters working into 24 official languages find hallucinations and references to non-existent laws in texts from elected members; the legal service has sometimes spent days checking AI-generated claims.",
+     "article": 0
+    },
+    {
+     "fact": "The number of complaints to the European Ombudsman rose 50 percent because of AI, a senior EU official said.",
+     "article": 0
+    },
+    {
+     "fact": "Irish MEP Barry Andrews bans himself from using AI for votes, plenary speeches, press releases and Commission questions.",
+     "article": 0
+    },
+    {
+     "fact": "Swedish MEP Jörgen Warborn said the Industrial Accelerator Act received more than 5,000 amendments.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI launches ChatGPT Wallet so its dots agents can buy things for you",
+   "region": "US",
+   "repeat": "no (runner-up from 11-14, not posted)",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfveB7-kd36/",
+     "multiple": 0.6
+    }
+   ],
+   "score_hints": "Strongest global story. Reference 0.6x (single account, noise). Hard number: Visa test 22 models failed 42.8%. OpenAI was only a partner in the 11-14 Kakao post.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "ChatGPT's new Wallet lets AI agents shop and check out for you",
+     "date": "2026-11-13",
+     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI wants ChatGPT Wallet to be 'safe and easy to use' for agents",
+     "date": "2026-11-13",
+     "url": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "On Friday, OpenAI launched a new wallet feature that lets its agents, called dots, help you decide what to buy and then complete the purchase on your behalf.",
+     "article": 0
+    },
+    {
+     "fact": "The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Mastercard, or American Express.",
+     "article": 0
+    },
+    {
+     "fact": "Users approve purchases with a security check like Face ID or a fingerprint, which creates a record of their transaction.",
+     "article": 0
+    },
+    {
+     "fact": "ChatGPT's Wallet charges the selected card using a payment token, a substitute for the user's actual card details, so that information isn't shared with either the dot or the merchant.",
+     "article": 0
+    },
+    {
+     "fact": "United Airlines said on Wednesday it will block agents from booking tickets. Amazon stops them buying on its platform, CNBC reported. Schwab and JPMorgan are blocking AI agents from moving customer money.",
+     "article": 1
+    },
+    {
+     "fact": "Visa tested 22 models as shoppers this month. They failed 42.8% of the time.",
+     "article": 1
+    },
+    {
+     "fact": "OpenAI is not taking a cut of purchases for now, CNBC reported.",
+     "article": 1
+    },
+    {
+     "fact": "In the future, OpenAI plans to let users set spending limits or configure other parameters around purchase categories or time periods.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google releases Gemini 4 Hydrogen, a faster Flash successor that also upgrades Google Search",
+   "region": "US/GLOBAL",
+   "repeat": "company repeat: Google-Samsung glasses 2026-11-13 (different topic)",
+   "reference_posts": [
+    {
+     "username": "trenddalkak.ai",
+     "url": "https://www.instagram.com/p/Dfrd5ArlHkU/",
+     "multiple": 1.0
+    }
+   ],
+   "score_hints": "Reference 1.0x. Price and speed numbers; same company as 11-13 post.",
+   "articles": [
+    {
+     "outlet": "Google (The Keyword)",
+     "title": "Introducing Gemini 4 Hydrogen",
+     "date": "2026-11-12",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Hydrogen is coming to all tiers of Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search, and paid Google AI Pro and Ultra subscribers in Google Antigravity.",
+     "article": 0
+    },
+    {
+     "fact": "Gemini 4 Hydrogen is priced flat across its entire 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens.",
+     "article": 0
+    },
+    {
+     "fact": "Hydrogen surpasses Argon on the Artificial Analysis Intelligence Index at its default high thinking level (51 vs. 50, and reaching 54 at its highest xhigh setting).",
+     "article": 0
+    },
+    {
+     "fact": "Compared with Gemini 3.8 Flash it finishes tasks 2.5 times faster at its high default setting while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%) and cutting fabricated claims by more than 5x.",
+     "article": 0
+    },
+    {
+     "fact": "Orchestrator in Google Antigravity switches between models like Carbon and Hydrogen in one session; on Terminal-Bench 4.0 it consumed 24% less quota and completed 19% faster on average.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Anthropic: the same model scored 94% in the Claude app but 60% via API on a self-harm safety test",
+   "region": "US",
+   "repeat": "company repeat: Anthropic 11-03 and 11-12 (different topics)",
+   "reference_posts": [],
+   "score_hints": "Single outlet (TNW), Anthropic's own guide not read directly. Hard numbers 94% vs 60%. Pick at most one Anthropic story.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic says its AI safety scores depend heavily on how they're measured",
+     "date": "2026-11-13",
+     "url": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic published advice on how to build reliable AI safety tests; the guide came out Thursday and says a claim that one model is 'safer' is only as good as the test behind it.",
+     "article": 0
+    },
+    {
+     "fact": "Before releasing Claude Fable 5.1, Anthropic found the model sometimes hinted that self-harm could help people cope, even while urging users not to self-harm and pointing them to human support.",
+     "article": 0
+    },
+    {
+     "fact": "With a fix added to the Claude app's hidden instructions, Claude behaved appropriately in 94% of test conversations in the app; through Anthropic's API, without that prompt, the figure was 60%.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic says its simple one-question tests are now too easy, with every recent model scoring 94% to 98%.",
+     "article": 0
+    },
+    {
+     "fact": "Claude Opus 5 and Opus 5.5 scored 98% and 94% on a romance-scam test, but Anthropic says the gap was too small to show either was safer.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic has stopped many tests that give models internet access, after its models reached the open internet and breached three companies during cyber tests.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "LangChain raises $300M Series C at a $3B valuation, more than double last year's",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Solid numbers, small global pull. Backup. Includes Singapore's GIC.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AI agent startup LangChain hits $3B valuation",
+     "date": "2026-11-13",
+     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors including Singapore's GIC, DFJ Growth, IVP, and Sapphire Ventures.",
+     "article": 0
+    },
+    {
+     "fact": "That's more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+     "article": 0
+    },
+    {
+     "fact": "LangChain began in 2022 as a popular open source project that handled tasks early LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
+     "article": 0
+    },
+    {
+     "fact": "LangChain now claims 7,000 LangSmith customers, including Harvey, Rippling, and Clay, and enterprises like Nvidia, Toyota, and Salesforce.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "SpaceX cuts about 60 people from the Grok Imagine video team as AI firms shift to coding and agents",
+   "region": "US",
+   "repeat": "no (runner-up from 11-14)",
+   "reference_posts": [],
+   "score_hints": "Source is AI Times Korea citing The Information (not read). Do not name profitability as cause.",
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "스페이스X, 영상 AI '그록 이매진' 개발팀 대부분 해고",
+     "date": "2026-11-14",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217399"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The Information reported on the 13th (local time), citing sources, that SpaceX laid off about 60 Grok Imagine developers last week.",
+     "article": 0
+    },
+    {
+     "fact": "According to SpaceX's SEC filing, Grok Imagine generated over 2 billion videos and about 10 billion images per month on average in Q1 this year.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX completed the acquisition of AI coding company Cursor in August, valuing it at $60 billion.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI shut down its Sora video service in March, citing high compute costs and shifting priorities.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX has not given a specific reason for the layoffs, so profitability cannot be named as the direct cause.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}
