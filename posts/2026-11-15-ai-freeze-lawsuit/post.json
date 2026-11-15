@@ -1,0 +1,154 @@
+{
+  "id": "2026-11-15-ai-freeze-lawsuit",
+  "date": "2026-11-15",
+  "category": "POLICY",
+  "status": "ready",
+  "cover": {
+    "tag": "GLOBAL AI · POLICY",
+    "headline": [
+      "4 NONPROFITS SUE",
+      "**5** AI GIANTS"
+    ],
+    "hook_options": [
+      [
+        "4 NONPROFITS SUE",
+        "**5** AI GIANTS"
+      ],
+      [
+        "OPENAI FACES A",
+        "**FREEZE** DEMAND"
+      ],
+      [
+        "NONPROFITS VS",
+        "**OPENAI**, GOOGLE"
+      ],
+      [
+        "SUE TO STOP",
+        "**SMARTER** AI?"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "rivalry",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The number hook puts the hard facts first (4 plaintiffs, 5 defendants) and slides 1 to 5 back it with the complaint's size, the request and the legal basis, without taking a side. The cap and rivalry hooks are vivid but longer and lean on the plaintiffs' request; the freeze hook is generic. No reader-impact hook: the articles only say existing products such as ChatGPT would not necessarily be shut down, and state no effect on what ordinary readers pay, use or risk.",
+    "image_prompt": "Cinematic wide shot of a vast dark server hall, rows of glowing racks fading into the distance, with a single heavy glass-and-steel gate half lowered across the central aisle, cold blue light on one side and warm amber on the other, a faint frost forming on the gate, a scale of justice silhouette abstracted into shadow on the far wall, shallow depth of field, volumetric haze. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261115_181858_1372c91a-ec9a-492a-a83a-ff926c9451e8.png"
+  },
+  "slides": [
+    {
+      "kicker": "The filing",
+      "title": "Four nonprofits go to court",
+      "body": [
+        "Public Citizen, Heat Initiative, The Alliance for Secure AI and Irreplaceable Education Fund filed a **63-page complaint** on Thursday in San Francisco. It names OpenAI, Anthropic, Google, Meta and SpaceXSI, Elon Musk's AI unit at SpaceX."
+      ]
+    },
+    {
+      "kicker": "The ask",
+      "title": "Make today's AI the limit",
+      "body": [
+        "The plaintiffs want an injunction barring the five from developing or deploying AI **more capable than their best systems** as of the filing date. That would not necessarily shut down ChatGPT, Claude or Gemini."
+      ]
+    },
+    {
+      "kicker": "The second ask",
+      "title": "No AI-led AI research",
+      "body": [
+        "The complaint also asks the court to stop the companies from using AI to run or direct research into better models, known as **recursive self-improvement**."
+      ]
+    },
+    {
+      "kicker": "The argument",
+      "title": "Existing law, public nuisance",
+      "body": [
+        "The plaintiffs invoke California's **Unfair Competition Law** and argue that building ever more capable AI is a public nuisance. Public Citizen's Robert Weissman says the suit asks the court to apply existing law."
+      ]
+    },
+    {
+      "kicker": "The caveat",
+      "title": "Allegations, not findings",
+      "body": [
+        "**Defendants have not been found liable**, and warnings about catastrophe do not automatically establish a violation of California law. Meta declined to comment; the others did not respond at first. On Saturday, PauseAI held a march in Berlin."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online",
+      "title": "Stopp von KI-Entwicklung per Klage gefordert",
+      "title_en": "Lawsuit demands halt to AI development",
+      "language": "German",
+      "date": "Nov 15, 2026",
+      "url": "https://www.heise.de/news/Kalifornien-Klage-fordert-Stopp-der-KI-Entwicklung-wegen-katastrophaler-Risiken-11525487.html"
+    },
+    {
+      "outlet": "Decrypt",
+      "title": "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze",
+      "date": "Nov 14, 2026",
+      "url": "https://decrypt.co/383270/openai-anthropic-google-ai-giants-lawsuit-development-freeze"
+    },
+    {
+      "outlet": "Public Citizen",
+      "title": "Coalition of Nonprofits Files Landmark Lawsuit to Stop Development of Advanced AI Systems at Anthropic, Google, Meta, OpenAI, and SpaceXSI that Proliferate Bioweapons and Cyberattacks",
+      "date": "Nov 12, 2026",
+      "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/"
+    }
+  ],
+  "facts": [
+    {
+      "source": 2,
+      "text": "Irreplaceable Education Fund, Public Citizen, Heat Initiative and The Alliance for Secure AI filed a lawsuit in the Superior Court of California, County of San Francisco, seeking to freeze the development of increasingly advanced AI models at Anthropic, Google, Meta, OpenAI and SpaceXSI."
+    },
+    {
+      "source": 1,
+      "text": "The 63-page complaint, filed Thursday in San Francisco Superior Court, targets 5 defendants (OpenAI, Anthropic, Google, Meta and SpaceX); the plaintiffs are 4 nonprofits."
+    },
+    {
+      "source": 0,
+      "text": "SpaceXSI is Elon Musk's AI division at SpaceX, into which xAI has merged."
+    },
+    {
+      "source": 1,
+      "text": "The plaintiffs ask for an immediate injunction forbidding the defendants from developing or deploying AI systems more capable than their most capable systems as of the date of the complaint."
+    },
+    {
+      "source": 1,
+      "text": "That wouldn't necessarily mean shutting down ChatGPT, Claude, Gemini, or other existing products; it would effectively make today's technology the limit."
+    },
+    {
+      "source": 1,
+      "text": "The complaint also asks the court to prohibit the companies from using AI to independently conduct or direct research into better models, a process related to recursive self-improvement."
+    },
+    {
+      "source": 1,
+      "text": "The lawsuit invokes California's Unfair Competition Law, and one part of the argument is that developing increasingly capable AI systems creates a public nuisance."
+    },
+    {
+      "source": 2,
+      "text": "Robert Weissman, co-president of Public Citizen, said the lawsuit asks the court to apply existing law and find the AI corporations' reckless practices unlawful and freeze further AI development."
+    },
+    {
+      "source": 1,
+      "text": "As defendants they have not been found liable, and warnings about potential catastrophe do not automatically establish a violation of California law."
+    },
+    {
+      "source": 0,
+      "text": "Meta declined to comment; the other defendant companies did not initially respond."
+    },
+    {
+      "source": 0,
+      "text": "On Saturday, PauseAI held an AI Treaty March in Berlin as part of a worldwide day of action, urging an international agreement to contain AI risks."
+    }
+  ],
+  "caption": "Four nonprofits are asking a San Francisco court to freeze AI at today's level at OpenAI, Anthropic, Google, Meta and SpaceXSI.\n\nThese are the plaintiffs' allegations and requests. Defendants have not been found liable.\n\n→ The 63-page complaint, filed Thursday, asks for an injunction against building or deploying AI more capable than the defendants' best systems as of filing\n→ It also asks to bar AI-led research into better AI (recursive self-improvement)\n→ The plaintiffs rely on California's Unfair Competition Law and a public-nuisance argument\n\nShould courts have a say in how fast AI advances?\n\nSources: heise online, \"Lawsuit demands halt to AI development\" (German original, Nov 15, 2026); Decrypt, \"OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze\" (Nov 14, 2026); Public Citizen, \"Coalition of Nonprofits Files Landmark Lawsuit to Stop Development of Advanced AI Systems\" (Nov 12, 2026, shortened title).\n\nFollow @ai.news.company for daily AI news.",
+  "hashtags": [
+    "#AINews",
+    "#AIPolicy",
+    "#OpenAI",
+    "#Anthropic"
+  ],
+  "threads_caption": "Four nonprofits are asking a San Francisco court to freeze AI at today's level at OpenAI, Anthropic, Google, Meta and SpaceXSI.\n\nThese are the plaintiffs' allegations; defendants have not been found liable.\n\nSource: Decrypt, \"OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze\". #AIPolicy"
+}

@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-15
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 선정: 비영리 4곳이 OpenAI·Anthropic·Google·Meta·SpaceXSI를 상대로 샌프란시스코 법원에 AI 개발 동결 소송 (GLOBAL AI · POLICY, 점수 8, 소스 heise online·Decrypt·Public Citizen). 소송 제기는 11-12(목)라 "속보"가 아니라 "filed Thursday"로 표기, 오늘의 새 소식은 heise 기사(10:17 UTC)와 11-14 베를린 PauseAI 행진. 첫 게시 시각은 heise 2026-11-15 10:17 UTC, ready 시점(약 19:40 Vienna) 기준 약 9시간 경과. 신선도 보너스 없음
+2. 모든 문장은 원고(plaintiffs)의 주장·요청으로 귀속, "Defendants have not been found liable" 명시. 제외: Hugging Face 해킹 사례, 생물무기·사이버공격 표현(원문 단일 출처), Jensen Huang 관련 의혹 전부
+3. 검수: fact·hook(8/10)·brand 모두 1차 통과. 팩트체커 지적에 따라 캡션에 기사 제목 추가(Public Citizen 제목은 길어서 줄임, heise는 영문 제목+German original 표기). SpaceXSI는 heise 설명 그대로 "Elon Musk's AI unit at SpaceX"
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6, 아침 2 + 저녁 2). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+5. 예비: posts/_backlog/2026-11-15-evening-runners-up.md (ChatGPT Wallet 1순위, EU 의회 AI 수정안 폭주 기사는 내일 아침 후보)
+자세한 기록
+- 후보 11개 (신규 3 + 넘어온 8), 선정 id `2026-11-15-ai-freeze-lawsuit`
+- 넘어온 ready 글 없음 (아침 단일·주간 모두 published)
+
 ## [아침 보고] 2026-11-15
 처리 2건 (ready 2: 단일 1 + 주간 모음 1) · 실패 0건
 성과: 어제 도달 2 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-09-nvidia-rebellions-skt (23, 지난주 기준)
