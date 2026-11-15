@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-15
+처리 2건 (ready 2: 단일 1 + 주간 모음 1) · 실패 0건
+성과: 어제 도달 2 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-09-nvidia-rebellions-skt (23, 지난주 기준)
+결정할 일
+1. 없음. 아침 스캔은 05:07에 안 돌아 morning-scan을 수동 실행했고 약 3분 뒤 main에 올라옴. IG 토큰이 없어 참고 계정은 스캔 파일 reference.json 기준으로만 주제 파악
+2. 선정: 한국 10월 ICT 수출 $70.35B, 1년 전의 3배 넘게 (KOREA AI · ECONOMY, 소스 Korea Times 1개, Yonhap 원문은 403). "record month"가 아니라 역대 2위(9월 $75.1B)라 그대로 표기. 11-02 총수출 글과 다른 발표라 중복 아님
+3. 검수: 단일 글은 fact·hook(7/10)·brand 모두 1차 통과 (독자 영향 훅 없음 사유 기재). 카테고리는 lint가 MONEY를 허용하지 않아 ECONOMY 사용
+4. 주간 모음: 대표 이야기 Australia AI regulator (7개). 1차에서 fact 불합격(커버 훅 "18 FIXES"는 원문상 권고안이라 과장 → 삭제), brand 불합격(threads_caption에 매체명 없음 → 추가) → 2차 3개 모두 통과. 대표 글에 이미지가 없어 커버는 그래픽 배경(크레딧 0). 09:57 게시 시각이 지났을 수 있어 오늘 못 올라가면 게시되지 않음
+5. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6, 재생성 없음). 사람·글자·로고 없음. 월 합계는 이전 보고에 더해 계산 필요
+6. 렌더: CHROMIUM_PATH=/opt/pw-browsers/chromium 사용. 제외: Megaspeed/Jensen Huang 관련(입증 안 된 실명 의혹), 실명 세금시험 사례. 저녁 런 예비: posts/_backlog/2026-11-15-morning-runners-up.md (ChatGPT Wallet 1순위)
+자세한 기록
+- 후보 9개, 선정 id `2026-11-15-korea-ict-exports`
+- 넘어온 ready 글 없음 (11-14 글 published)
+
 ## [아침 보고] 2026-11-14
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 2 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-07-ai-teddy-bbc (44, 최근 14일 기준)
