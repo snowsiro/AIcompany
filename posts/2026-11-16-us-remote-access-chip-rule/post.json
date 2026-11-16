@@ -57,14 +57,14 @@
       "kicker": "Five countries",
       "title": "New licensing for five countries",
       "body": [
-        "Advanced chip exports to **Malaysia, Singapore, Indonesia, Thailand and Brazil** now need licenses too. Commerce says they \"present a higher-than-normal risk of diversion.\" The rule does not say chip sales to them stop."
+        "Advanced chip exports to **Malaysia, Singapore, Indonesia, Thailand and Brazil** now need licenses too. Commerce says they \"present a higher-than-normal risk of diversion.\" Companies headquartered in the US are exempt, as long as they file monthly reports."
       ]
     },
     {
       "kicker": "The exceptions",
-      "title": "90 days, with carve-outs",
+      "title": "90 days, one carve-out",
       "body": [
-        "Existing data center operators offering covered services must get licenses within **90 days** of the rule taking effect. US-headquartered companies are exempt if they file monthly reports. Commercial recommendation systems, such as e-commerce or social media, are not covered."
+        "Existing data center operators offering covered services must get licenses within **90 days** of the rule taking effect. Commercial recommendation systems, such as e-commerce or social media, are not covered."
       ]
     },
     {
@@ -78,7 +78,7 @@
       "kicker": "The reaction",
       "title": "Markets and analysts weigh in",
       "body": [
-        "Per Bloomberg via The Next Web, Nvidia shares fell as much as **2.9%** on Monday, and the Philadelphia Semiconductor Index as much as 5.5%. Analysts told Fortune, per TNW, the rule could hit Southeast Asian countries hosting data centers for Chinese firms."
+        "Per Bloomberg, Nvidia shares fell as much as **2.9%** on Monday, and the Philadelphia Semiconductor Index as much as 5.5%. Analysts told Fortune the rule could hit Southeast Asian countries that want to host data centers for Chinese firms."
       ]
     }
   ],

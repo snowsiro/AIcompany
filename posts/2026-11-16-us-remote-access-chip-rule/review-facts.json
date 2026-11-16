@@ -1,0 +1,25 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 4",
+      "problem": "Slide places the US-headquartered exemption (monthly reports) right after the data-center 90-day licence requirement, implying it exempts US firms from the data-center licence. TNW states it in the paragraph about the five-country licence (the exemption for them); TechCrunch says that for those countries the requirement does not apply to chips destined for US-based companies. The article does not say the exemption covers the data-center rule.",
+      "fix": "Move the exemption to slide 3 (five countries), worded as TNW has it: companies headquartered in the US are exempt from the five-country licence requirement as long as they file monthly reports. Keep slide 4 to the 90 days and the recommendation-systems exemption."
+    },
+    {
+      "where": "slide 3",
+      "problem": "\"The rule does not say chip sales to them stop.\" Neither article says this. It is the writer's inference about the rule text, which was not opened.",
+      "fix": "Delete the sentence, or replace it with a sourced fact such as: the licence requirement does not apply to chips destined for US-based companies (TechCrunch)."
+    },
+    {
+      "where": "slide 6",
+      "problem": "\"could hit Southeast Asian countries hosting data centers for Chinese firms\" overstates TNW, which says countries \"that want to host data centres for Chinese firms\".",
+      "fix": "Write \"Southeast Asian countries that want to host data centers for Chinese firms\"."
+    },
+    {
+      "where": "caption",
+      "problem": "The third bullet attaches the US-headquartered exemption to the five-country sentence, which matches TNW, but it conflicts with how slide 4 presents it.",
+      "fix": "Keep the caption as is once slide 4 is fixed, so the two agree."
+    }
+  ]
+}
