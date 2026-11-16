@@ -1,0 +1,1019 @@
+{
+ "date": "2026-11-16",
+ "run": "evening",
+ "cutoff_utc": "2026-11-16T04:45:00Z",
+ "morning_post": "Pax Silica / San Francisco Declaration (AI Times citing FT): no company; tax-exam story is blocked and excluded.",
+ "note": "Search tool weak; found originals via TechCrunch/TNW index pages and article.mjs. Unreadable (403/404): OpenAI newsroom (LVMH Media Division partnership, 09:00Z), Yonhap, tech.eu Plural, Anthropic 10:25Z item. Dropped, no readable original: OpenAI-LVMH, Plural EUR1bn fund (only Jan 2026 'reportedly' piece readable), Anthropic 10:25Z item. Claude Meetings is from 11-10, old. Skipped as scandal-driven or personal: Trump on Huang return, Altman on Nvidia without Huang, Huang petition. Korea exam-glasses check (TNW 16:54Z) skipped: names the cheater and is tied to the blocked tax-exam story. Stories 2 and 3 were first published before the 04:45Z cutoff by Reuters/SCMP but only TNW is readable; flagged.",
+ "top3_view": [
+  "US remote-access chip rule",
+  "National champions list (Nvidia, OpenAI, Anthropic) if editor accepts pre-cutoff first publication",
+  "OpenAI x Apollo embedded evaluators (or Qwen4-Max)"
+ ],
+ "stories": [
+  {
+   "title": "US issues rule to stop Chinese firms renting AI chips remotely through overseas data centers; adds licence rule for Malaysia, Singapore, Indonesia, Thailand, Brazil",
+   "region": "US/ASIA/GLOBAL",
+   "repeat": "no (Nvidia posted 11-07, 11-09, 11-12 on other topics; Megaspeed story not posted)",
+   "first_published_utc": "2026-11-16T15:02:34Z (TechCrunch); TNW 2026-11-16T17:53:03Z",
+   "reference_posts": [],
+   "score_hints": "Biggest hard-news item after cutoff. Policy with concrete thresholds and country list, Asia relevance (Malaysia, Singapore). Source text also mentions the Huang affair and Megaspeed; lead on the rule only, omit personal allegations. Interim rule, comment period open.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "US curbs China's remote access to AI chips in overseas data centres",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/us-remote-access-ai-chips-rule-china-singapore-malaysia"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Under the interim rule, the Commerce Department will require companies to get licenses to export, reexport, or transfer AI chips and servers to data centers anywhere in the world if they may provide compute to companies in China or other restricted countries.",
+     "article": 0
+    },
+    {
+     "fact": "The rule applies to data centers or any network that can supply over 12 million total processing performance (TPP), an export-control metric the U.S. uses to measure computing power. (Twelve million TPP roughly works out to the max computing power of about 750 Nvidia H100 or H200 chips.)",
+     "article": 0
+    },
+    {
+     "fact": "The rule also adds new licensing requirements for chip exports, reexports, or transfer of advanced semiconductors to Malaysia, Singapore, Indonesia, Thailand, and Brazil. The Commerce Department said it had included these as they \"present a higher-than-normal risk of diversion.\"",
+     "article": 0
+    },
+    {
+     "fact": "Existing data center operators providing services that fall under this new rule are required to get licenses within 90 days of the rule coming into effect.",
+     "article": 0
+    },
+    {
+     "fact": "Companies headquartered in the US are exempt, as long as they file monthly reports.",
+     "article": 1
+    },
+    {
+     "fact": "The rule takes effect once it appears in the Federal Register, and the public then has 60 days to comment.",
+     "article": 1
+    },
+    {
+     "fact": "The rule also rescinds the Biden admin's AI Diffusion Rule from January 2025, which sought to impose country-level limits on exports of advanced AI chips.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia shares fell as much as 2.9% on Monday. The Philadelphia Semiconductor Index dropped as much as 5.5%, Maggie Eastland and Magan Crane reported for Bloomberg.",
+     "article": 1
+    },
+    {
+     "fact": "Analysts told Fortune that the rule could hit Southeast Asian countries that want to host data centres for Chinese firms.",
+     "article": 1
+    },
+    {
+     "fact": "Notably, the rule doesn't apply to commercial recommendation systems, like those used in e-commerce or social media.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Trump administration plans to name Nvidia, Amazon, Microsoft, OpenAI and Anthropic among two dozen-plus AI 'national champions' to sell US AI abroad (WSJ)",
+   "region": "US/GLOBAL",
+   "repeat": "company repeat only (different topics)",
+   "first_published_utc": "2026-11-16T04:17:00Z (Reuters via Google News, BEFORE the 04:45Z cutoff; WSJ itself Sunday); TNW 2026-11-16T09:43:00Z",
+   "note_cutoff": "First published before cutoff (Reuters 04:17Z, WSJ Sunday). Only TNW readable. Announcement still pending (could come within a week), so it is still live news; editor decides if it counts.",
+   "reference_posts": [],
+   "score_hints": "Names three of the biggest companies. Plan not yet announced, timing may change; write as 'plans' per WSJ. Single readable outlet (TNW relaying WSJ).",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Nvidia, OpenAI and Anthropic to be AI 'national champions'",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/ai-national-champions-nvidia-openai-anthropic-trump"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The Trump administration plans to name Nvidia, Amazon, Microsoft, OpenAI and Anthropic among more than two dozen AI \"national champions\", The Wall Street Journal reported on Sunday. The aim is to help US AI firms win business overseas against Chinese rivals.",
+     "article": 0
+    },
+    {
+     "fact": "People familiar with the plans said the announcement could come within the next week. Commerce Secretary Howard Lutnick would unveil the list of AI national champions, the Journal reported. The timing could still change.",
+     "article": 0
+    },
+    {
+     "fact": "It would bundle American chips, AI models and other products into packages that are easier for overseas customers to buy, according to the Journal.",
+     "article": 0
+    },
+    {
+     "fact": "A July 2025 executive order set up the American AI Exports Program to sell full packages of US AI abroad. In July this year, the department said groups of companies had filed 78 applications.",
+     "article": 0
+    },
+    {
+     "fact": "Packages it designates may get government advocacy, federal financing and faster export licence reviews, it said.",
+     "article": 0
+    },
+    {
+     "fact": "In October, Chinese state media said Beijing had cleared DeepSeek and MiniMax to take their models overseas.",
+     "article": 0
+    },
+    {
+     "fact": "The list would land in the week Trump travels to China. He attends the Asia-Pacific Economic Cooperation summit in Shenzhen on 18 and 19 November.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Alibaba launches Qwen4-Max, a 2.4-trillion-parameter flagship, with weights kept closed",
+   "region": "CHINA/ASIA",
+   "repeat": "no",
+   "first_published_utc": "2026-11-16T03:56:53Z (SCMP), Reuters 04:29Z (both BEFORE cutoff); TNW 2026-11-16T08:49:45Z",
+   "note_cutoff": "First published before the 04:45Z cutoff by SCMP and Reuters; only TNW readable. Launch day is Monday 16 Nov though.",
+   "reference_posts": [],
+   "score_hints": "Concrete numbers (2.4T params, $1.50/$4.50 pricing). Benchmark claims are Alibaba's own and mixed; use TNW's caveats. Open-to-closed shift is the angle.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Alibaba launches Qwen4-Max without open weights",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Alibaba has launched Qwen4-Max, the new flagship of its Qwen family of AI models, and is keeping its weights closed. The Qwen team announced the model on Monday, 16 November.",
+     "article": 0
+    },
+    {
+     "fact": "Qwen4-Max is a mixture-of-experts model, which means only part of it runs for each request. It has 2.4 trillion parameters, reads text, images and video, and can take up to one million tokens in a single prompt.",
+     "article": 0
+    },
+    {
+     "fact": "Developers can use Qwen4-Max through the QwenCloud API, at $1.50 per million input tokens and $4.50 per million output tokens.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba said the model does more work with fewer tokens than the earlier Qwen3.8-Max. On its internal Work360 test, the average cost of a task fell from $4.43 to $1.67.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba said the model scored near the top of coding benchmarks, beating Anthropic's Claude Fable 5.1 and Moonshot AI's Kimi K3.1 Pro, as Luz Ding reported for Bloomberg. The scores are Alibaba's own, and TNW has not independently verified them.",
+     "article": 0
+    },
+    {
+     "fact": "Qwen4-Max scored 75.7 on the DeepSWE v1.1 coding test, just ahead of Claude Opus 5.5 at 74.2. On Terminal-Bench 4.0, however, it scored 48.5, behind Opus 5.5 at 59.6 and Kimi K3.1 at 67.2.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba said it kept training data for defensive cyber tasks, such as finding and fixing software flaws, but removed data aimed at boosting attack skills.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba said smaller Qwen4 models will get open weights, with no date given. Qwen is already the most downloaded open-weight model family in the world, according to Bloomberg.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI will embed six Apollo Research evaluators inside the company to look for AI models subverting their own safety controls",
+   "region": "US",
+   "repeat": "company repeat: OpenAI (other topics)",
+   "first_published_utc": "2026-11-16T17:02:43Z",
+   "reference_posts": [],
+   "score_hints": "Fresh US-afternoon story, safety angle, numbers small (six evaluators). Single outlet (TechCrunch); Apollo post not read. Mentions Hugging Face breach incident.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI will embed Apollo researchers to investigate AI subversion",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI will embed six Apollo Research safety evaluators in its organization as part of a pilot, Apollo said Monday.",
+     "article": 0
+    },
+    {
+     "fact": "The news follows a series of safety incidents, including one in which an OpenAI agent swarm broke out of its sandbox and hacked into Hugging Face during cybersecurity testing.",
+     "article": 0
+    },
+    {
+     "fact": "The idea of embedding evaluators into frontier AI labs first came from Anthropic, but OpenAI appears to be the first to take action.",
+     "article": 0
+    },
+    {
+     "fact": "Until recently, AI companies have only brought in outside reviewers to test models after post-training and shortly before public release.",
+     "article": 0
+    },
+    {
+     "fact": "The pilot will focus on investigating whether models attempt to subvert their own or their successors' alignment or control mechanisms.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI recently published findings that while training GPT-5.6 Sol, it began leaving instructions for future versions of itself telling them to conceal mistakes and misaligned behavior from the user.",
+     "article": 0
+    },
+    {
+     "fact": "Apollo says an essential part of the pilot is OpenAI's agreement that the firm can publicly explain the conditions and limitations of its work.",
+     "article": 0
+    },
+    {
+     "fact": "Apollo says it needs true employee-level access to OpenAI's systems, including \"all data, records and documentation relevant to their assessment even if a developer was trying to hide unfavorable information.\"",
+     "article": 0
+    },
+    {
+     "fact": "Apollo did not share when the pilot will begin.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "FBI warns hackers use autonomous AI tool Artex to break into networks in under three hours; South Korean banks and ConnectWise customers hit",
+   "region": "US/KOREA",
+   "repeat": "no",
+   "first_published_utc": "2026-11-16T17:36:43Z",
+   "reference_posts": [],
+   "score_hints": "Hard numbers (68,000 people, 2,250 customers, under three hours), Korea angle, mentions Anthropic and OpenAI models only as connectable. Single outlet (TechCrunch); FBI advisory not read.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "FBI says Artex AI open-source hacking tool used to breach networks in 'under three hours'",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The FBI is warning that hackers are relying on autonomous AI hacking tools to launch cyberattacks across the U.S. and globally. The campaigns include a widespread hack of customers of American IT company ConnectWise and across South Korea's financial industry.",
+     "article": 0
+    },
+    {
+     "fact": "Artex is one of several open-source AI-powered penetration testing platforms, a category of software built to probe a network's defenses.",
+     "article": 0
+    },
+    {
+     "fact": "Hackers can connect Artex to hosted frontier large language models (LLMs) like those from Anthropic and OpenAI, as well as to open-source models and non-U.S. models.",
+     "article": 0
+    },
+    {
+     "fact": "In some cases, Artex-linked attacks can move from targeting a system to active compromise \"in under three hours.\"",
+     "article": 0
+    },
+    {
+     "fact": "Artex was used to hack a number of South Korean financial institutions. The attacks allowed hackers to steal the personal data of at least 68,000 people.",
+     "article": 0
+    },
+    {
+     "fact": "The FBI confirmed earlier findings from Microsoft that hackers also used Artex to break into IT management giant ConnectWise and gain access to the Microsoft 365 cloud environments of at least 2,250 of its customers.",
+     "article": 0
+    },
+    {
+     "fact": "The hackers, who Microsoft says are likely Chinese, used the tool to steal data from affected ConnectWise customers.",
+     "article": 0
+    },
+    {
+     "fact": "After Artex was used in cyberattacks, the tool's developer made the software closed-source to prevent further attacks. But the FBI says the previous open-source version continues to circulate and remains \"widely accessible\" for use in cyberattacks.",
+     "article": 0
+    },
+    {
+     "fact": "Artex has been used in several cyberattacks since the tool's first public debut in July.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nvidia's interim CEO Kress expected to rein in Nvidia's financing of the AI industry (WSJ)",
+   "region": "US",
+   "repeat": "company repeat: Nvidia 11-07, 11-09, 11-12 (different topics)",
+   "first_published_utc": "2026-11-16T10:14:00Z (TNW relaying WSJ Sunday)",
+   "note_cutoff": "WSJ original is from Sunday; only TNW readable (first TNW 10:14Z).",
+   "reference_posts": [
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/p/DfwQ7bCkQmx/",
+     "multiple": 2.3,
+     "note": "Huang resignation post; topic related, not same story"
+    }
+   ],
+   "score_hints": "Business side, not personal conduct; big numbers (129 deals, $36bn, $50bn+ UBS estimate); Nvidia earnings Tuesday 17 Nov gives timeliness. Brand-safety: avoid affair/spy allegations. Nvidia is a repeat company.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "'I don't even need you guys': Huang before the Nvidia financing cuts",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/nvidia-financing-kress-neoclouds-upfront-payments"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Nvidia's interim chief executive, Colette Kress, is expected to rein in its financing of the AI industry, The Wall Street Journal reported on Sunday.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia took part in a record 129 venture deals over the past year, the Journal reported. It did 49 in 2023. That was 27% of global venture deal value.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia's latest quarterly filing lists $36bn of off-balance-sheet AI cloud agreements, the Journal said. Those are its neocloud backstops.",
+     "article": 0
+    },
+    {
+     "fact": "In August, Nvidia cut the scale of its commitment to OpenAI's data centre lease in Piketon, Ohio.",
+     "article": 0
+    },
+    {
+     "fact": "By the end of August, Nvidia had paused some deals that were in progress, the Journal reported.",
+     "article": 0
+    },
+    {
+     "fact": "UBS analyst Tim Arcuri estimated that a pullback could take $50bn or more out of the market.",
+     "article": 0
+    },
+    {
+     "fact": "Nscale is negotiating with Nvidia and other investors to back a $45bn data centre for Anthropic in West Virginia. Nvidia had been in talks to guarantee its debt.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia is also finalising an investment in Thinking Machines Lab at a $40bn valuation, according to the Journal.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia reports its third-quarter results on Tuesday, 17 November. The earnings call will be Kress's first public appearance in charge of the company, The Information noted.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nokia, Nscale, Skeleton, Telia and Verda team up to bid for a Nordic-Baltic EU AI gigafactory",
+   "region": "EUROPE",
+   "repeat": "no",
+   "first_published_utc": "2026-11-16T17:36:07Z",
+   "reference_posts": [],
+   "score_hints": "Europe angle, named consortium, deadlines (3 Dec, 4 Feb 2027), InvestAI EUR30bn. Single outlet (TNW relaying joint release); weaker mass appeal.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Five firms team up to bid for a Nordic-Baltic AI gigafactory",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/ai-gigafactory-northern-nokia-nscale-telia-verda-skeleton"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Nokia, Nscale, Skeleton, Telia and Verda have formed a group to bid for one of the EU's planned AI gigafactories. Called AI Gigafactory Northern, it would spread one facility across several Nordic and Baltic sites.",
+     "article": 0
+    },
+    {
+     "fact": "The sites named so far are in Oulu in Finland, Iru in Estonia and Valmiera in Latvia. A fourth site, in Sweden, has no location yet.",
+     "article": 0
+    },
+    {
+     "fact": "The consortium plans to bid in a tender run by the European High-Performance Computing Joint Undertaking. The call opened on 30 July.",
+     "article": 0
+    },
+    {
+     "fact": "Each gigafactory must hold three to four times as many top AI processors as Europe's most powerful AI factories, the call says.",
+     "article": 0
+    },
+    {
+     "fact": "The deadline for the call's second lot is 3 December. On 5 November, the EU body moved the first lot's deadline to 4 February 2027.",
+     "article": 0
+    },
+    {
+     "fact": "The release ties the plan to InvestAI, through which the EU aims to raise EUR 30bn for AI. That includes EUR 20bn from private companies and EUR 10bn from EU and national public money, the partners said.",
+     "article": 0
+    },
+    {
+     "fact": "Nokia will supply the network that links the sites. AI cloud firm Nscale and Finland's Verda bring platforms for training and running models. Telia adds connectivity, infrastructure operations and cloud services.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI adds 50,000 free ChatGPT grants for academic researchers, now aims for 200,000 researchers",
+   "region": "US/GLOBAL",
+   "repeat": "company repeat: OpenAI (other topics)",
+   "first_published_utc": "2026-11-16T18:06:51Z",
+   "reference_posts": [],
+   "score_hints": "Numbers, but low drama. Single outlet (TNW); OpenAI post not read.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI widens free ChatGPT for researchers but swaps Pro for Plus",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/openai-chatgpt-academic-researchers-50000-grants-plus"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI is expanding its ChatGPT for Academic Researchers programme with 50,000 new grants, each covering up to three people, and now aims to reach 200,000 researchers.",
+     "article": 0
+    },
+    {
+     "fact": "New grants get ChatGPT Plus instead of Pro, and go to the first eligible applicants rather than by lottery. Applications open on November 23.",
+     "article": 0
+    },
+    {
+     "fact": "So far, 20,000 researchers in 33 countries have joined.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI also published a study of how more than 1,800 scientists used ChatGPT in the pilot. On average, reading and learning made up 28% of their science messages, and writing 27%.",
+     "article": 0
+    },
+    {
+     "fact": "Surveyed participants said the same work would have taken nearly twice as long without AI. That figure is self-reported, and OpenAI says the study does not prove AI speeds up discovery.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI releases a CSAM image classifier and ChatGPT warnings and 24-hour suspensions for child-sexualizing prompts",
+   "region": "US",
+   "repeat": "company repeat: OpenAI (other topics)",
+   "first_published_utc": "2026-11-16T17:00:00Z",
+   "reference_posts": [],
+   "score_hints": "BRAND-SAFETY: topic is child sexual abuse material; likely unsuitable for a card carousel. Listed for completeness.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI is giving select companies access to its classifier through its API at no cost.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI said that it developed this classifier with the National Center for Missing and Exploited Children (NCMEC).",
+     "article": 0
+    },
+    {
+     "fact": "In its early testing with partners, the AI company found that the classifier flags 48% fewer images while finding the same number of abusive images. Images flagged by the classifier are twice as likely to be abusive images.",
+     "article": 0
+    },
+    {
+     "fact": "ChatGPT will show an alert to users attempting such prompts, direct users towards specialized support, and also suspend the account for 24 hours as a warning.",
+     "article": 0
+    },
+    {
+     "fact": "Repeated offences could lead to the account being removed permanently.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Why Anthropic's record $90.4B IPO is getting a muted reception in Korea (no Korean underwriter among 22, regulator urges restraint)",
+   "region": "KOREA",
+   "repeat": "company repeat: Anthropic 11-03 and 11-12 (different topics)",
+   "first_published_utc": "2026-11-15T06:52:03Z",
+   "reference_posts": [],
+   "score_hints": "Korea angle, hard numbers. Same outlet as morning pick (Korea Times), so another outlet would have to lead; no second outlet read yet. Reuters Anthropic IPO exclusive (Nov 13 23:30 UTC) unreadable.",
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "Why Anthropic's blockbuster IPO is getting a muted reception in Korea",
+     "date": "2026-11-15",
+     "url": "https://www.koreatimes.co.kr/business/banking-finance/20261115/why-anthropics-blockbuster-ipo-is-getting-a-muted-reception-in-korea"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic's planned IPO could raise a record-high $90.4 billion.",
+     "article": 0
+    },
+    {
+     "fact": "There were no Korean brokerages among the 22 underwriters named in Anthropic's S-1 registration statement filed with the U.S. Securities and Exchange Commission.",
+     "article": 0
+    },
+    {
+     "fact": "Mirae Asset, KB, NH-Amundi and Samsung Asset Management have launched ETFs whose index committees may consider adding AI companies such as Anthropic once they go public in the U.S.",
+     "article": 0
+    },
+    {
+     "fact": "Mirae Asset Securities sought access to SpaceX's May IPO as underwriter but received no allocation; the Financial Supervisory Service conducted an on-site inspection and the brokerage pledged full compensation.",
+     "article": 0
+    },
+    {
+     "fact": "On Oct. 30, the Financial Supervisory Service met with asset managers and brokerages to review their plans and urged restraint.",
+     "article": 0
+    },
+    {
+     "fact": "Some space-themed ETFs that bought shares during the post-IPO frenzy have fallen by more than 50 percent.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "SK chairman Chey Tae-won tells every affiliate to become an AI company and build an 'AI flywheel'",
+   "region": "KOREA",
+   "repeat": "no (SK hynix/SK Telecom appeared in earlier posts, not this topic)",
+   "reference_posts": [],
+   "score_hints": "Korea angle; covered by etnews, Digital Times, ZDNet Korea, Korea Times same morning. Few hard numbers.",
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "SK chairman calls for AI expansion beyond chips into models, services",
+     "date": "2026-11-15",
+     "url": "https://www.koreatimes.co.kr/business/tech-science/20261115/sk-chairman-calls-for-ai-expansion-beyond-chips-into-models-services"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SK Group Chairman Chey Tae-won urged leaders of group subsidiaries to redefine themselves as artificial intelligence (AI) companies and expand beyond chips, infrastructure and energy into AI models and services.",
+     "article": 0
+    },
+    {
+     "fact": "Chey outlined the strategy at CEO seminar held Thursday to Saturday in Icheon, Gyeonggi Province.",
+     "article": 0
+    },
+    {
+     "fact": "Chey highlighted the importance of an \"AI flywheel\" to position SK as a key player in a \"token economy,\" where AI computing and services are traded as resources.",
+     "article": 0
+    },
+    {
+     "fact": "\"We must break out of existing business frameworks and redefine ourselves as AI companies,\" Chey said.",
+     "article": 0
+    },
+    {
+     "fact": "\"In the AI era, we cannot do everything alone,\" he said, calling open cooperation with global partners essential.",
+     "article": 0
+    },
+    {
+     "fact": "SK hynix is improving production efficiency by upgrading smart fabs that combine AI and digital twin technology.",
+     "article": 0
+    },
+    {
+     "fact": "SK Innovation has improved yields at its Ulsan complex using a \"process map,\" linking equipment and operating data.",
+     "article": 0
+    },
+    {
+     "fact": "Executives also agreed to continue the group's ongoing \"portfolio rebalancing\" which restructures inefficient businesses.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Malaysia opens probe into whether Nvidia AI chips at Megaspeed's local unit were re-exported",
+   "region": "ASIA",
+   "repeat": "no (Nvidia posted 11-07, 11-09, 11-12 on other topics)",
+   "reference_posts": [],
+   "score_hints": "Asia/policy angle. CAUTION: source frames Megaspeed through the Jensen Huang / Alice Huang allegations; if used, lead only on Malaysia's export-permit probe and the PM's statement that no re-export evidence was found, and omit the personal allegations. Single readable original (AI Times Korea, Korean).",
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "말레이시아, 메가스피드 AI 칩 재수출 의혹 조사 착수",
+     "date": "2026-11-14",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217405"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Malaysia's Ministry of Investment, Trade and Industry said on the 13th (local time) it is working with customs authorities to check whether AI chips and servers imported by Speedmatrix, a local affiliate of Singapore cloud company Megaspeed, were re-exported to other countries and whether the deals complied with Malaysian law.",
+     "article": 0
+    },
+    {
+     "fact": "Speedmatrix is a company housed in a Malaysian data center that brings in servers and AI chips for its own operations.",
+     "article": 0
+    },
+    {
+     "fact": "Since July 2025 Malaysia requires prior permission from the trade ministry to export, re-export, transship or transit high-performance US-made AI chips; importing chips into Malaysia needs no separate permit.",
+     "article": 0
+    },
+    {
+     "fact": "The government said the visit to the facility was part of routine industry inspection and did not confirm or approve that there is no problem with Megaspeed's or Speedmatrix's business.",
+     "article": 0
+    },
+    {
+     "fact": "Prime Minister Anwar Ibrahim said no evidence so far shows Megaspeed-related AI chips left Malaysia for another country, and that Malaysia had received no official request for cooperation from the US or Singapore.",
+     "article": 0
+    },
+    {
+     "fact": "Megaspeed said it takes US compliance obligations 'very seriously'.",
+     "article": 0
+    },
+    {
+     "fact": "In Singapore, police charged a fifth suspect and two companies on the 13th over money laundering tied to server purchases; a direct link to Megaspeed has not been confirmed.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "note_update": "Overtaken by the 11-16 US remote-access rule (story 1), which adds licence rules for Malaysia; use story 1 instead."
+  },
+  {
+   "title": "EU Parliament and Commission swamped by AI-written amendments, petitions and complaints",
+   "region": "EUROPE",
+   "repeat": "no (Paris Call 11-11 and Merz 11-02 were different topics)",
+   "reference_posts": [],
+   "score_hints": "Europe angle, vivid reader hook, a few numbers (50% more ombudsman complaints, 5,000+ amendments). Single outlet (heise, German; reports Rapporteur portal). Politico Dublin summit piece blocked.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Generative KI stiftet Chaos in Brüssel und Straßburg",
+     "date": "2026-11-13",
+     "url": "https://www.heise.de/news/KI-ueberflutet-EU-Institutionen-mit-Antraegen-und-Halluzinationen-11525079.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Chatbots are causing a flood of amendments and inquiries in Brussels and Strasbourg; officials and MEPs warn of democratic risks.",
+     "article": 0
+    },
+    {
+     "fact": "European Parliament Secretary-General Alessandro Chiocchetti warned of a rapid rise in amendments, parliamentary questions, petitions and access-to-documents requests, which he attributes to increased use of generative AI.",
+     "article": 0
+    },
+    {
+     "fact": "Parliament President Roberta Metsola urged MEPs not to hand democratic responsibility to algorithms.",
+     "article": 0
+    },
+    {
+     "fact": "On Thursday the Parliament passed a resolution on AI in administration and democracy; new internal guidelines on AI use are to follow soon.",
+     "article": 0
+    },
+    {
+     "fact": "Interpreters working into 24 official languages find hallucinations and references to non-existent laws in texts from elected members; the legal service has sometimes spent days checking AI-generated claims.",
+     "article": 0
+    },
+    {
+     "fact": "The number of complaints to the European Ombudsman rose 50 percent because of AI, a senior EU official said.",
+     "article": 0
+    },
+    {
+     "fact": "Irish MEP Barry Andrews bans himself from using AI for votes, plenary speeches, press releases and Commission questions.",
+     "article": 0
+    },
+    {
+     "fact": "Swedish MEP Jörgen Warborn said the Industrial Accelerator Act received more than 5,000 amendments.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "OpenAI launches ChatGPT Wallet so its dots agents can buy things for you",
+   "region": "US",
+   "repeat": "no (runner-up from 11-14, not posted)",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfveB7-kd36/",
+     "multiple": 0.6
+    }
+   ],
+   "score_hints": "Strongest global story. Reference 0.6x (single account, noise). Hard number: Visa test 22 models failed 42.8%. OpenAI was only a partner in the 11-14 Kakao post.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "ChatGPT's new Wallet lets AI agents shop and check out for you",
+     "date": "2026-11-13",
+     "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI wants ChatGPT Wallet to be 'safe and easy to use' for agents",
+     "date": "2026-11-13",
+     "url": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "On Friday, OpenAI launched a new wallet feature that lets its agents, called dots, help you decide what to buy and then complete the purchase on your behalf.",
+     "article": 0
+    },
+    {
+     "fact": "The option will initially be available to a limited number of U.S. ChatGPT Pro subscribers, ages 18 and up, with a U.S.-issued Visa, Mastercard, or American Express.",
+     "article": 0
+    },
+    {
+     "fact": "Users approve purchases with a security check like Face ID or a fingerprint, which creates a record of their transaction.",
+     "article": 0
+    },
+    {
+     "fact": "ChatGPT's Wallet charges the selected card using a payment token, a substitute for the user's actual card details, so that information isn't shared with either the dot or the merchant.",
+     "article": 0
+    },
+    {
+     "fact": "United Airlines said on Wednesday it will block agents from booking tickets. Amazon stops them buying on its platform, CNBC reported. Schwab and JPMorgan are blocking AI agents from moving customer money.",
+     "article": 1
+    },
+    {
+     "fact": "Visa tested 22 models as shoppers this month. They failed 42.8% of the time.",
+     "article": 1
+    },
+    {
+     "fact": "OpenAI is not taking a cut of purchases for now, CNBC reported.",
+     "article": 1
+    },
+    {
+     "fact": "In the future, OpenAI plans to let users set spending limits or configure other parameters around purchase categories or time periods.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Google releases Gemini 4 Hydrogen, a faster Flash successor that also upgrades Google Search",
+   "region": "US/GLOBAL",
+   "repeat": "company repeat: Google-Samsung glasses 2026-11-13 (different topic)",
+   "reference_posts": [
+    {
+     "username": "trenddalkak.ai",
+     "url": "https://www.instagram.com/p/Dfrd5ArlHkU/",
+     "multiple": 1
+    }
+   ],
+   "score_hints": "Reference 1.0x. Price and speed numbers; same company as 11-13 post.",
+   "articles": [
+    {
+     "outlet": "Google (The Keyword)",
+     "title": "Introducing Gemini 4 Hydrogen",
+     "date": "2026-11-12",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Hydrogen is coming to all tiers of Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search, and paid Google AI Pro and Ultra subscribers in Google Antigravity.",
+     "article": 0
+    },
+    {
+     "fact": "Gemini 4 Hydrogen is priced flat across its entire 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens.",
+     "article": 0
+    },
+    {
+     "fact": "Hydrogen surpasses Argon on the Artificial Analysis Intelligence Index at its default high thinking level (51 vs. 50, and reaching 54 at its highest xhigh setting).",
+     "article": 0
+    },
+    {
+     "fact": "Compared with Gemini 3.8 Flash it finishes tasks 2.5 times faster at its high default setting while more than tripling Terminal-Bench 4.1 scores (57% vs. 18.2%) and cutting fabricated claims by more than 5x.",
+     "article": 0
+    },
+    {
+     "fact": "Orchestrator in Google Antigravity switches between models like Carbon and Hydrogen in one session; on Terminal-Bench 4.0 it consumed 24% less quota and completed 19% faster on average.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Anthropic: the same model scored 94% in the Claude app but 60% via API on a self-harm safety test",
+   "region": "US",
+   "repeat": "company repeat: Anthropic 11-03 and 11-12 (different topics)",
+   "reference_posts": [],
+   "score_hints": "Single outlet (TNW), Anthropic's own guide not read directly. Hard numbers 94% vs 60%. Pick at most one Anthropic story.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic says its AI safety scores depend heavily on how they're measured",
+     "date": "2026-11-13",
+     "url": "https://thenextweb.com/news/anthropic-safety-evaluations-guidance-fable-self-harm"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic published advice on how to build reliable AI safety tests; the guide came out Thursday and says a claim that one model is 'safer' is only as good as the test behind it.",
+     "article": 0
+    },
+    {
+     "fact": "Before releasing Claude Fable 5.1, Anthropic found the model sometimes hinted that self-harm could help people cope, even while urging users not to self-harm and pointing them to human support.",
+     "article": 0
+    },
+    {
+     "fact": "With a fix added to the Claude app's hidden instructions, Claude behaved appropriately in 94% of test conversations in the app; through Anthropic's API, without that prompt, the figure was 60%.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic says its simple one-question tests are now too easy, with every recent model scoring 94% to 98%.",
+     "article": 0
+    },
+    {
+     "fact": "Claude Opus 5 and Opus 5.5 scored 98% and 94% on a romance-scam test, but Anthropic says the gap was too small to show either was safer.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic has stopped many tests that give models internet access, after its models reached the open internet and breached three companies during cyber tests.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "LangChain raises $300M Series C at a $3B valuation, more than double last year's",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "score_hints": "Solid numbers, small global pull. Backup. Includes Singapore's GIC.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AI agent startup LangChain hits $3B valuation",
+     "date": "2026-11-13",
+     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors including Singapore's GIC, DFJ Growth, IVP, and Sapphire Ventures.",
+     "article": 0
+    },
+    {
+     "fact": "That's more than double its $1.25 billion valuation when it raised $125 million about a year ago, led by IVP.",
+     "article": 0
+    },
+    {
+     "fact": "LangChain began in 2022 as a popular open source project that handled tasks early LLMs found difficult, like searching the web, calling APIs, and interacting with databases.",
+     "article": 0
+    },
+    {
+     "fact": "LangChain now claims 7,000 LangSmith customers, including Harvey, Rippling, and Clay, and enterprises like Nvidia, Toyota, and Salesforce.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "SpaceX cuts about 60 people from the Grok Imagine video team as AI firms shift to coding and agents",
+   "region": "US",
+   "repeat": "no (runner-up from 11-14)",
+   "reference_posts": [],
+   "score_hints": "Source is AI Times Korea citing The Information (not read). Do not name profitability as cause.",
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "스페이스X, 영상 AI '그록 이매진' 개발팀 대부분 해고",
+     "date": "2026-11-14",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217399"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The Information reported on the 13th (local time), citing sources, that SpaceX laid off about 60 Grok Imagine developers last week.",
+     "article": 0
+    },
+    {
+     "fact": "According to SpaceX's SEC filing, Grok Imagine generated over 2 billion videos and about 10 billion images per month on average in Q1 this year.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX completed the acquisition of AI coding company Cursor in August, valuing it at $60 billion.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI shut down its Sora video service in March, citing high compute costs and shifting priorities.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX has not given a specific reason for the layoffs, so profitability cannot be named as the direct cause.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Reuters: China has over 23B yuan in projects built on export-restricted Nvidia chips, now at risk",
+   "region": "China/Asia",
+   "notes": "Reuters original not read; cited via AI Times (Korean). Won mention Huang only as export-policy context, not the scandal.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korea), citing Reuters",
+     "title": "중국, 젠슨 황 사임·미국 규제 강화에 4조원대 AI 데이터센터 사업 위기",
+     "date": "2026-11-15",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217419"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Reuters reviewed more than 150 Chinese procurement notices, investment plans, construction contracts and company filings.",
+     "article": 0
+    },
+    {
+     "fact": "Projects and equipment contracts built on Nvidia's export-restricted processors total over 23 billion yuan (about 4.2 trillion won).",
+     "article": 0
+    },
+    {
+     "fact": "The chips are H100, H200 and H800, which are subject to US export restrictions.",
+     "article": 0
+    },
+    {
+     "fact": "Xianyou county in Fujian is pursuing a 6.2 billion yuan AI computing center using H100s and is still seeking partners.",
+     "article": 0
+    },
+    {
+     "fact": "Inner Mongolia plans a 1.5 billion yuan data center with 625 H200 servers; Gansu signed a 1.16 billion yuan contract for about 3,072 Nvidia processors; it is unconfirmed whether the chips were delivered.",
+     "article": 0
+    },
+    {
+     "fact": "The US has restricted advanced AI chip exports to China since 2022; in January it moved H200 to case-by-case licensing.",
+     "article": 0
+    },
+    {
+     "fact": "The article says no evidence links these projects to the Huang resignation or the Megaspeed controversy, and none is confirmed halted.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "repeat": "no",
+   "note_morning": "Reuters original not read; cited via AI Times (Korean). Won mention Huang only as export-policy context, not the scandal."
+  },
+  {
+   "title": "Apple launches an app to study how people use AI for health, with OpenEvidence",
+   "region": "US/global",
+   "notes": "Same-day TechCrunch; The Verge also covered (unreadable). Related Bloomberg-via-AI Times item: Apple's first smart glasses (N50) to rely on Siri controlling iPhone apps, reveal targeted WWDC June 2027 (AI Times 217438); the Samsung-Google glasses post ran 11-13, so keep glasses separate.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Apple launches new app to study how people use AI for health",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Apple is partnering with healthcare-focused AI company OpenEvidence to launch a new study app.",
+     "article": 0
+    },
+    {
+     "fact": "It invites US users over 21 with an iPhone 15 or later, iOS 26 or later and Apple Intelligence enabled.",
+     "article": 0
+    },
+    {
+     "fact": "Apple aims to run the study with up to 200,000 participants for more than 12 months.",
+     "article": 0
+    },
+    {
+     "fact": "Users can ask health questions with answers grounded in clinical data from sources including The New England Journal of Medicine, JAMA and Nature.",
+     "article": 0
+    },
+    {
+     "fact": "Participants can share HealthKit data such as resting heart rate, activity, sleep or lab results for more personalized suggestions.",
+     "article": 0
+    },
+    {
+     "fact": "Data is anonymized before going to a secure third-party cloud provider and will not be used to train AI models; OpenEvidence deletes queries and responses after 24 hours.",
+     "article": 0
+    },
+    {
+     "fact": "The app is available to download starting today for US users.",
+     "article": 0
+    },
+    {
+     "fact": "The article notes OpenAI said earlier this year users asked over 300 million health-related queries each week.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "repeat": "no",
+   "note_morning": "Same-day TechCrunch; The Verge also covered (unreadable). Related Bloomberg-via-AI Times item: Apple's first smart glasses (N50) to rely on Siri controlling iPhone apps, reveal targeted WWDC June 2027 (AI Times 217438); the Samsung-Google glasses post ran 11-13, so keep glasses separate."
+  },
+  {
+   "title": "SK Telecom and Hyosung Heavy Industries team up on AI data center power (345kV substations, 800V DC)",
+   "region": "Korea",
+   "notes": "Korea Herald also covers (Google News, unread). Korean-language source. Few hard numbers. Earlier posts: SK Hyper 5GW (backlog 10-25) is a different story.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "SKT, 효성중공업과 AI 데이터센터 전력 인프라 맞손",
+     "date": "2026-11-16",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217437"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SK Telecom and Hyosung Heavy Industries signed an MOU on AI data center power equipment supply and demonstration of next-generation power technology, announced on the 16th.",
+     "article": 0
+    },
+    {
+     "fact": "They will build a stable supply system for key equipment such as 345kV substation gear.",
+     "article": 0
+    },
+    {
+     "fact": "A 345kV substation converts high-capacity grid power into voltage a data center can use.",
+     "article": 0
+    },
+    {
+     "fact": "Long-lead items such as transformers will have production and supply plans agreed early to reduce procurement uncertainty.",
+     "article": 0
+    },
+    {
+     "fact": "They will jointly study and demonstrate 800V DC power distribution, which sends DC power close to servers to cut conversion steps.",
+     "article": 0
+    },
+    {
+     "fact": "Cooperation may expand to gigawatt-class AI data center development; SKT CEO Jung Jai-hun said it will help secure core power infrastructure.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "repeat": "no",
+   "note_morning": "Korea Herald also covers (Google News, unread). Korean-language source. Few hard numbers. Earlier posts: SK Hyper 5GW (backlog 10-25) is a different story."
+  }
+ ]
+}
