@@ -1,0 +1,130 @@
+{
+  "id": "2026-11-16-pax-silica-declaration",
+  "date": "2026-11-16",
+  "category": "POLICY",
+  "status": "ready",
+  "cover": {
+    "tag": "GLOBAL AI · POLICY",
+    "headline": [
+      "**9 NATIONS** SIGN",
+      "AI SUPPLY PLEDGE"
+    ],
+    "hook_options": [
+      [
+        "**9 NATIONS** SIGN",
+        "AI SUPPLY PLEDGE"
+      ],
+      [
+        "AI SUPPLY CHAINS",
+        "NOW A **SHARED** JOB"
+      ],
+      [
+        "US, KOREA, JAPAN",
+        "+6 **SIGN ON**"
+      ],
+      [
+        "NINE NATIONS, NO",
+        "NEW **EXPORT RULES**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "number",
+      "myth-flip"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The number hook leads with nine signers, which slides 1 and 2 state outright (per the FT, as reported by AI Times), and 'pledge' matches the article: a joint declaration, not a rule. The shared-job hook is a fair paraphrase of Helberg but less concrete, the signer-list hook hides the point, and the no-new-rules hook is a negative framing that fits slide 5 only. No reader-impact hook: the article describes a government pledge and states no effect on what ordinary readers pay, use or risk.",
+    "image_prompt": "Cinematic wide shot of a dark globe seen from space at night, with three glowing icons set on different continents: a microchip, a tall port crane and a cargo ship, each connected to the others by thin luminous golden lines that arc across the sphere. Deep ink-black background, cool blue highlights, subtle amber glow, shallow depth of field, no national symbols. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261116_045738_f2dc0fdb-4ff8-431d-84f8-81a6d7e52958.png"
+  },
+  "slides": [
+    {
+      "kicker": "The pledge",
+      "title": "Nine countries signed on",
+      "body": [
+        "Per the FT, as reported by AI Times, nine countries signed the **San Francisco Declaration** to protect AI supply chains: the US, Korea, Japan, Australia, Israel, the UK, India, Qatar and the UAE."
+      ]
+    },
+    {
+      "kicker": "The framework",
+      "title": "Part of Pax Silica",
+      "body": [
+        "The declaration is part of **Pax Silica**, a US-led AI supply chain initiative. Germany, Sweden, the Netherlands and the European Commission (the EU's executive arm) are also expected to sign next week, AI Times reports."
+      ]
+    },
+    {
+      "kicker": "The logic",
+      "title": "Links can sit in different countries",
+      "body": [
+        "Jacob Helberg, a US State Department Under Secretary, told the FT that chip design technology, manufacturing equipment and shipping ports can each be in different countries. Members agreed to treat their security as a **shared responsibility**."
+      ]
+    },
+    {
+      "kicker": "The plan",
+      "title": "Pick, share, attract",
+      "body": [
+        "AI Times reports members will jointly pick **sensitive AI technologies and infrastructure** to protect and share information on where supply chains need diversifying. They also plan to create economic hubs to attract AI investment and run working groups to strengthen supply chains."
+      ]
+    },
+    {
+      "kicker": "The limit",
+      "title": "No new rules attached",
+      "body": [
+        "The declaration announced **no new export controls** or legally binding regulations, AI Times reports. It came ahead of the planned Trump-Xi talks at the APEC summit in Shenzhen on the 19th."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times (Korea), citing the Financial Times",
+      "title": "미국·한국 등 9개국, 중국 견제 AI 공급망 보호 공동 선언",
+      "title_en": "Nine countries including US and Korea sign joint declaration to protect AI supply chains and counter China",
+      "language": "Korean",
+      "date": "Nov 16, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217435"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Nine countries signed the 'San Francisco Declaration' to protect AI supply chains: the US, Korea, Japan, Australia, Israel, the UK, India, Qatar and the UAE, per the Financial Times as reported by AI Times."
+    },
+    {
+      "source": 0,
+      "text": "Germany, Sweden, the Netherlands and the European Commission are also expected to sign next week, AI Times reports."
+    },
+    {
+      "source": 0,
+      "text": "The declaration is part of Pax Silica, a US-led AI supply chain initiative."
+    },
+    {
+      "source": 0,
+      "text": "Members will jointly pick sensitive AI technologies and infrastructure to protect, and share information on where supply chains need diversifying, AI Times reports."
+    },
+    {
+      "source": 0,
+      "text": "US State Department Under Secretary Jacob Helberg told the FT that chip design technology, manufacturing equipment and shipping ports can each be in different countries, and members agreed to treat their security as a shared responsibility."
+    },
+    {
+      "source": 0,
+      "text": "Members also plan to create economic hubs to attract AI investment and run working groups to strengthen supply chains."
+    },
+    {
+      "source": 0,
+      "text": "The declaration announced no new export controls or legally binding regulations."
+    },
+    {
+      "source": 0,
+      "text": "The declaration came ahead of the planned Trump-Xi talks at the APEC summit in Shenzhen on the 19th."
+    }
+  ],
+  "caption": "Nine countries, including the US, Korea and Japan, signed the Pax Silica \"San Francisco Declaration\" to protect AI supply chains, per the FT as reported by AI Times.\n\nPax Silica is a US-led AI supply chain initiative. The declaration is a joint pledge, not a new rule.\n\n→ Signers: the US, Korea, Japan, Australia, Israel, the UK, India, Qatar and the UAE; Germany, Sweden, the Netherlands and the European Commission are also expected to sign next week, AI Times reports\n→ Members will jointly pick sensitive AI technologies and infrastructure to protect and share where supply chains need diversifying\n→ No new export controls or legally binding regulations were announced\n\nCan countries guard AI together when chips, machines and ports sit in different places?\n\nSource: AI Times (Korea), citing the Financial Times, \"Nine countries including US and Korea sign joint declaration to protect AI supply chains and counter China\" (in Korean), Nov 16, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#PaxSilica",
+    "#AISupplyChain",
+    "#Korea"
+  ],
+  "threads_caption": "Nine countries, including the US, Korea and Japan, signed the Pax Silica \"San Francisco Declaration\" to protect AI supply chains, per the FT.\n\nIt is a joint pledge: no new export controls or binding regulations.\n\nSource: AI Times (citing the FT), \"Nine countries including US and Korea sign joint declaration to protect AI supply chains and counter China\" (in Korean). #PaxSilica"
+}

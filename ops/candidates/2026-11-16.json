@@ -1,0 +1,493 @@
+{
+ "date": "2026-11-16",
+ "run": "morning",
+ "note": "No Instagram token; used reference.json and feeds.json. Source failures: Euractiv, Tech.eu, European Commission, Korea JoongAng Daily, Meta AI (feeds.json ok=false); Ars Technica, MIT Tech Review, Google, Google DeepMind, Microsoft returned no new items. Unreadable originals (403/blocked or not found by search): Yonhap (all), The Verge, Politico, Reuters, Nikkei, SCMP, FT, Korea Herald, TechCrunch/TNW originals not all read. Dropped for no readable original: SK Hynix $1B supplier fund (Reuters), Korea PM vows on AI cheating at the CSAT (Yonhap), LS Electric $94M US data center deal (Yonhap), Reuters China AI-native generation, SCMP China AI film flop, Nikkei Asian investors Anthropic IPO, Samsung-Google glasses sell out (repeat topic of 11-13 post). Reference posts: nothing from prompt_what/ai.trend.kr hit 3x except tax exam (4.6x) and Huang resignation (ai.trend.kr 2.3x). Facts for Korean-language articles are English translations. Repeat check vs posts/ last 14 days: no story repeats; Nvidia (11-07, 11-09), Google-Samsung glasses (11-13) and Korea ICT exports (11-15) are different stories.",
+ "stories": [
+  {
+   "title": "Korea's top tax-exam scorer admits cheating with a tiny camera and generative AI; state exam body files complaint",
+   "region": "Korea",
+   "notes": "Anonymised in the article (Mr. A); do not name him. Korean-language source (facts translated). Yonhap/Korea Herald originals returned 403 or were not found. Previous run skipped this when it was still an allegation; it is now a self-admission and a police report. Related: PM vows to block AI cheating at the CSAT college exam (Yonhap/Korea Herald, unread), CSAT is days away.",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfwxNfglGLB/",
+     "multiple": 4.6
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "세무사 시험 수석 합격자 \"생성 AI로 부정행위\" 자백",
+     "date": "2026-11-15",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217426"
+    }
+   ],
+   "facts": [
+    {
+     "text": "The top passer of the 63rd tax accountant exam in Korea said he cheated using a micro camera and generative AI.",
+     "article": 0
+    },
+    {
+     "text": "He said he photographed exam questions with the micro camera, sent them to AI and read the answers on a smartphone.",
+     "article": 0
+    },
+    {
+     "text": "He said he used the same method on the first-round certified public accountant (CPA) exam, which he failed this year.",
+     "article": 0
+    },
+    {
+     "text": "In April's first-round tax exam he missed only one of 160 questions; he then topped the July second round.",
+     "article": 0
+    },
+    {
+     "text": "The Human Resources Development Service of Korea (HRDK), which runs the exam, earlier found nothing suspicious from its proctors.",
+     "article": 0
+    },
+    {
+     "text": "On the 15th the HRDK apologised, said it will file a complaint for obstruction of business, seek to cancel his pass and check other national exams.",
+     "article": 0
+    },
+    {
+     "text": "The Ministry of Finance and Economy is considering suspending the pass; police began an investigation after receiving his self-report.",
+     "article": 0
+    },
+    {
+     "text": "He did not disclose the AI model or equipment used, saying details could enable repeats, and will tell investigators only.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "US, Korea, Japan and six others sign 'San Francisco Declaration' to protect AI supply chains (Pax Silica)",
+   "region": "Asia/global",
+   "notes": "Original is FT interview with US Under Secretary Jacob Helberg (unreadable); cited via AI Times. Korean-language source. Signing comes before the Trump-Xi meeting on the 19th in Shenzhen.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korea), citing the Financial Times",
+     "title": "미국·한국 등 9개국, 중국 견제 AI 공급망 보호 공동 선언",
+     "date": "2026-11-16",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217435"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Nine countries signed the 'San Francisco Declaration' to protect AI supply chains: the US, Korea, Japan, Australia, Israel, UK, India, Qatar and the UAE, per the FT.",
+     "article": 0
+    },
+    {
+     "text": "Germany, Sweden, the Netherlands and the European Commission are expected to sign next week.",
+     "article": 0
+    },
+    {
+     "text": "It is part of the US-led AI supply chain initiative Pax Silica.",
+     "article": 0
+    },
+    {
+     "text": "Members will jointly pick sensitive AI technologies and infrastructure to protect and share information on where supply chains need diversifying.",
+     "article": 0
+    },
+    {
+     "text": "Helberg said the chip design technology, manufacturing equipment and shipping ports can each be in different countries, and the declaration treats their security as a shared responsibility.",
+     "article": 0
+    },
+    {
+     "text": "Working groups will also set up economic hubs to attract AI investment.",
+     "article": 0
+    },
+    {
+     "text": "The declaration announces no new export controls or legally binding rules.",
+     "article": 0
+    },
+    {
+     "text": "It came ahead of the Trump-Xi talks at the APEC summit in Shenzhen on the 19th.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "Reuters: China has over 23B yuan in projects built on export-restricted Nvidia chips, now at risk",
+   "region": "China/Asia",
+   "notes": "Reuters original not read; cited via AI Times (Korean). Won mention Huang only as export-policy context, not the scandal.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korea), citing Reuters",
+     "title": "중국, 젠슨 황 사임·미국 규제 강화에 4조원대 AI 데이터센터 사업 위기",
+     "date": "2026-11-15",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217419"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Reuters reviewed more than 150 Chinese procurement notices, investment plans, construction contracts and company filings.",
+     "article": 0
+    },
+    {
+     "text": "Projects and equipment contracts built on Nvidia's export-restricted processors total over 23 billion yuan (about 4.2 trillion won).",
+     "article": 0
+    },
+    {
+     "text": "The chips are H100, H200 and H800, which are subject to US export restrictions.",
+     "article": 0
+    },
+    {
+     "text": "Xianyou county in Fujian is pursuing a 6.2 billion yuan AI computing center using H100s and is still seeking partners.",
+     "article": 0
+    },
+    {
+     "text": "Inner Mongolia plans a 1.5 billion yuan data center with 625 H200 servers; Gansu signed a 1.16 billion yuan contract for about 3,072 Nvidia processors; it is unconfirmed whether the chips were delivered.",
+     "article": 0
+    },
+    {
+     "text": "The US has restricted advanced AI chip exports to China since 2022; in January it moved H200 to case-by-case licensing.",
+     "article": 0
+    },
+    {
+     "text": "The article says no evidence links these projects to the Huang resignation or the Megaspeed controversy, and none is confirmed halted.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "OpenAI launches ChatGPT Wallet so its AI agents (Dots) can shop for you, US Pro only",
+   "region": "US/global",
+   "notes": "Runner-up from 11-15 morning and evening lists. heise (Germany) article read; OpenAI/TechCrunch/TNW originals not read this run. Visa 42.8% test figure from the earlier notes is NOT verified here, do not use.",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfveB7-kd36/",
+     "multiple": 0.9
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "heise online (Germany)",
+     "title": "OpenAI startet ChatGPT Wallet: KI-Agenten kaufen für Nutzer ein",
+     "date": "2026-11-15",
+     "url": "https://www.heise.de/news/OpenAI-startet-ChatGPT-Wallet-KI-Agenten-kaufen-fuer-Nutzer-ein-11525597.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenAI introduced ChatGPT Wallet on Friday, a payment method that lets its AI agents, called Dots, buy on users' behalf.",
+     "article": 0
+    },
+    {
+     "text": "It was built with American Express, Mastercard and Visa so cardholders keep existing rewards and protections.",
+     "article": 0
+    },
+    {
+     "text": "At first it is available only to ChatGPT Pro subscribers in the US aged 18 and over.",
+     "article": 0
+    },
+    {
+     "text": "Users enter card details once; before purchase they review items, amount and card, then approve with Face ID or a fingerprint scan.",
+     "article": 0
+    },
+    {
+     "text": "Dots get no direct access to card data; payment networks issue a per-transaction token with a card number, security code and expiry date.",
+     "article": 0
+    },
+    {
+     "text": "OpenAI introduced Dots in late September.",
+     "article": 0
+    },
+    {
+     "text": "Many websites and payment systems are not ready for agent purchases and may decline purchases made via the Wallet.",
+     "article": 0
+    },
+    {
+     "text": "OpenAI is publishing a 'Commerce Partner Playbook' and says it works with Forter, Riskified, Sardine, Signifyd, Adyen, Checkout.com and Stripe.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "Apple launches an app to study how people use AI for health, with OpenEvidence",
+   "region": "US/global",
+   "notes": "Same-day TechCrunch; The Verge also covered (unreadable). Related Bloomberg-via-AI Times item: Apple's first smart glasses (N50) to rely on Siri controlling iPhone apps, reveal targeted WWDC June 2027 (AI Times 217438); the Samsung-Google glasses post ran 11-13, so keep glasses separate.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Apple launches new app to study how people use AI for health",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Apple is partnering with healthcare-focused AI company OpenEvidence to launch a new study app.",
+     "article": 0
+    },
+    {
+     "text": "It invites US users over 21 with an iPhone 15 or later, iOS 26 or later and Apple Intelligence enabled.",
+     "article": 0
+    },
+    {
+     "text": "Apple aims to run the study with up to 200,000 participants for more than 12 months.",
+     "article": 0
+    },
+    {
+     "text": "Users can ask health questions with answers grounded in clinical data from sources including The New England Journal of Medicine, JAMA and Nature.",
+     "article": 0
+    },
+    {
+     "text": "Participants can share HealthKit data such as resting heart rate, activity, sleep or lab results for more personalized suggestions.",
+     "article": 0
+    },
+    {
+     "text": "Data is anonymized before going to a secure third-party cloud provider and will not be used to train AI models; OpenEvidence deletes queries and responses after 24 hours.",
+     "article": 0
+    },
+    {
+     "text": "The app is available to download starting today for US users.",
+     "article": 0
+    },
+    {
+     "text": "The article notes OpenAI said earlier this year users asked over 300 million health-related queries each week.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "Uber driver licence data stolen via AI vendor Fireworks AI",
+   "region": "US/global",
+   "notes": "TNW relays TechCrunch's original (not read). Single outlet.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Uber driver licence data stolen via Fireworks AI",
+     "date": "2026-11-15",
+     "url": "https://thenextweb.com/news/uber-drivers-licence-data-stolen-in-fireworks-ai-hack"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Uber is warning drivers that hackers stole personal and driver's licence information from one of its vendors, which TechCrunch identified as Fireworks AI; Uber confirmed it.",
+     "article": 0
+    },
+    {
+     "text": "Fireworks told Uber on 9 October that hackers had stolen internal credentials, which were then used to reach Uber's data.",
+     "article": 0
+    },
+    {
+     "text": "State filings list 2,567 people in Massachusetts, 3,430 in South Carolina and 1,873 in Rhode Island, 7,870 so far; California and Illinois residents were notified without a count.",
+     "article": 0
+    },
+    {
+     "text": "Fireworks, valued at $17.5bn in July, sells developers access to open AI models.",
+     "article": 0
+    },
+    {
+     "text": "It disclosed two incidents in October; attackers took billing data and, for some customers, secrets, datasets and unfinished model weights.",
+     "article": 0
+    },
+    {
+     "text": "Fireworks blamed a group that sells stolen access to AI models, a practice known as LLMjacking.",
+     "article": 0
+    },
+    {
+     "text": "It is unclear why driver licence data sat with an AI inference provider; it is Uber's second known breach this year.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "SK Telecom and Hyosung Heavy Industries team up on AI data center power (345kV substations, 800V DC)",
+   "region": "Korea",
+   "notes": "Korea Herald also covers (Google News, unread). Korean-language source. Few hard numbers. Earlier posts: SK Hyper 5GW (backlog 10-25) is a different story.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "SKT, 효성중공업과 AI 데이터센터 전력 인프라 맞손",
+     "date": "2026-11-16",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217437"
+    }
+   ],
+   "facts": [
+    {
+     "text": "SK Telecom and Hyosung Heavy Industries signed an MOU on AI data center power equipment supply and demonstration of next-generation power technology, announced on the 16th.",
+     "article": 0
+    },
+    {
+     "text": "They will build a stable supply system for key equipment such as 345kV substation gear.",
+     "article": 0
+    },
+    {
+     "text": "A 345kV substation converts high-capacity grid power into voltage a data center can use.",
+     "article": 0
+    },
+    {
+     "text": "Long-lead items such as transformers will have production and supply plans agreed early to reduce procurement uncertainty.",
+     "article": 0
+    },
+    {
+     "text": "They will jointly study and demonstrate 800V DC power distribution, which sends DC power close to servers to cut conversion steps.",
+     "article": 0
+    },
+    {
+     "text": "Cooperation may expand to gigawatt-class AI data center development; SKT CEO Jung Jai-hun said it will help secure core power infrastructure.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "Nvidia AI Day Seoul: 2,000+ attendees, physical AI and Korean developer communities",
+   "region": "Korea",
+   "notes": "Company newsroom (self-reported event wrap-up). Low news weight; Nvidia is in the Huang headlines today, so brand-safety/context matters. Nvidia posted 11-07 and 11-09.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "NVIDIA Blog",
+     "title": "AI Day Seoul Brings Together Korea's Industry Leaders, Startups and Developer Communities",
+     "date": "2026-11-16",
+     "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "More than 2,000 attendees came over two days at COEX for AI Day Seoul, focused on physical AI and AI agents.",
+     "article": 0
+    },
+    {
+     "text": "Deepu Talla, Nvidia VP of robotics and edge AI, said Korea is 'punching above its weight'.",
+     "article": 0
+    },
+    {
+     "text": "He named Doosan Robotics, Hyundai Motor Group, LG Electronics and SK Group, and startups Real World and Luda Robotics, as using Nvidia platforms.",
+     "article": 0
+    },
+    {
+     "text": "More than 500 developers took part in full-day Deep Learning Institute workshops and certification exams in Korean.",
+     "article": 0
+    },
+    {
+     "text": "Ten NVIDIA Inception startups pitched at the Physical AI Startup Connect event, including TwelveLabs, Avikus and Tesollo.",
+     "article": 0
+    },
+    {
+     "text": "The Hangul Day hackathon winner, FlyGate, built agents on Korean language and culture and received an NVIDIA DGX Spark.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "Jensen Huang reportedly discussing Nvidia comeback; Treasury's Bessent wants an outside CEO; Nvidia reports Tuesday",
+   "region": "US/global",
+   "notes": "BRAND-SAFETY: story is driven by affair and China-spy allegations about named people (prior run skipped all Huang coverage for that reason). Facts below are limited to the corporate and policy side; write about governance and earnings, not personal conduct. Reference: ai.trend.kr 2.3x on the resignation. Companion TNW story: Nvidia pressed Taiwan officials over an indicted manager in a chip-smuggling case (74 servers to China; Nvidia says no sign its employee knew). Verge/Reuters/FT originals unreadable; TNW relays FT/Bloomberg.",
+   "reference_posts": [
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/p/DfwQ7bCkQmx/",
+     "multiple": 2.3
+    },
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/DfwxNfglGLB/",
+     "multiple": 4.6,
+     "note": "post mentions Nvidia only in passing"
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Jensen Huang discusses Nvidia comeback, FT says",
+     "date": "2026-11-15",
+     "url": "https://thenextweb.com/news/jensen-huang-is-discussing-a-return-to-nvidia-ft-reports"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+     "date": "2026-11-15",
+     "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "Nvidia pressed Taiwan over indicted manager",
+     "date": "2026-11-15",
+     "url": "https://thenextweb.com/news/nvidia-taiwan-officials-indicted-manager-smuggling"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Jensen Huang has been discussing a possible comeback as Nvidia's CEO, days after the board pushed him out, the FT reported; he resigned on Thursday.",
+     "article": 0
+    },
+    {
+     "text": "Brad Gerstner of Altimeter and Gavin Baker of Atreides, both Nvidia investors, urged the board to take a slow approach to choosing a successor, including 'the potential return of Jensen Huang'.",
+     "article": 0
+    },
+    {
+     "text": "Treasury Secretary Scott Bessent said Nvidia needs a dramatic leadership shakeup and should look outside the company for its next chief.",
+     "article": 0
+    },
+    {
+     "text": "The board's inquiry is run by Wachtell Lipton; Huang is expected to testify before Congress; Nvidia reports results on Tuesday under interim CEO Colette Kress.",
+     "article": 0
+    },
+    {
+     "text": "Nvidia apparently accounts for roughly 80% of the AI GPU market.",
+     "article": 1
+    },
+    {
+     "text": "Nvidia reported $99 billion in investments, another $25 billion in commitments and $36 billion in cloud service commitments, including CoreWeave, Nebius, OpenAI and Anthropic.",
+     "article": 1
+    },
+    {
+     "text": "There was no succession plan in place, and CFO Colette Kress is interim CEO.",
+     "article": 1
+    },
+    {
+     "text": "Prosecutors in Keelung, Taiwan call an indicted Nvidia manager the core figure in a network that sent 74 servers with Nvidia chips to China; another 56 were seized.",
+     "article": 2
+    },
+    {
+     "text": "Nvidia said it found no indication its employee knew of the alleged diversion effort by employees at other companies.",
+     "article": 2
+    }
+   ],
+   "repeat_of_posted": false
+  },
+  {
+   "title": "AI models took down a replica Polish wind farm in under two hours (security research)",
+   "region": "Europe",
+   "notes": "Der Standard (Austria) article is partly paywalled; only the lede was readable. Needs the underlying research report before use. Weak: facts limited to the lede.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Der Standard (Austria)",
+     "title": "Zu Forschungszwecken: KI-Modelle legen Windpark in unter zwei Stunden lahm",
+     "date": "2026-11-15",
+     "url": "https://www.derstandard.at/story/3000000349319/zu-forschungszwecken-ki-modelle-legen-windpark-in-unter-zwei-stunden-lahm"
+    }
+   ],
+   "facts": [
+    {
+     "text": "In December last year, suspected Russian hackers attacked a Polish wind farm; they spent 11 days in the network before shutting the plant down.",
+     "article": 0
+    },
+    {
+     "text": "Security experts recreated the incident for research and let two AI systems loose on a fictional wind farm.",
+     "article": 0
+    },
+    {
+     "text": "The AI systems needed under two hours to take six turbines, with almost 10 megawatts of capacity, out of operation.",
+     "article": 0
+    }
+   ],
+   "repeat_of_posted": false
+  }
+ ]
+}
