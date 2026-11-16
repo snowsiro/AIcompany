@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-16
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 선정: 미국 상무부 임시 규칙, 중국 고객에게 서비스하는 해외 데이터센터에 칩 수출 라이선스 요구 + 말레이시아·싱가포르·인도네시아·태국·브라질 라이선스 추가 (GLOBAL AI · POLICY, 점수 10 = 글로벌 3 + 숫자 2 + 아시아 3 + 신선도 2, 소스 TechCrunch·The Next Web). 첫 게시 시각은 TechCrunch 2026-11-16 15:02 UTC, ready 시점(약 19:30 Vienna = 18:30 UTC) 기준 약 3.5시간 경과
+2. 1차 fact 불합격(슬라이드 4 미국 기업 면제 위치, 슬라이드 3 기사에 없는 문장, 슬라이드 6 "want to host" 과장) → writer 수정 후 2차 fact·hook(7/10)·brand 모두 통과. 시장 수치(엔비디아 -2.9%, 반도체 지수 -5.5%)는 TNW가 Bloomberg를 인용한 것이라 "Per Bloomberg"로 표기, 원문 2차 인용이므로 참고
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 6/6, 아침 4 + 저녁 2). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium (npm ci 필요했음)
+4. 주의: 아침 Pax Silica와 같은 미국 AI 공급망 정책 계열이나 회사·매체 다름(TechCrunch 선두). TechCrunch 원문은 첫 fetch에 내비게이션만 나와 재시도로 확인. 브랜드 검수자는 커버 이미지를 직접 봄
+5. 예비: posts/_backlog/2026-11-16-evening-runners-up.md (FBI Artex 10점, OpenAI×Apollo 7점 등). 아침 Pax Silica 예비 파일 `posts/_backlog/2026-11-16-pax-silica-san-francisco-declaration.md`는 삭제 대상(승인 필요해 남겨둠)
+자세한 기록
+- 후보: 신규 9개 + 넘어온 12개, 선정 id `2026-11-16-us-remote-access-chip-rule`
+- 넘어온 ready 글 없음 (아침 Pax Silica published, 세무사 글 blocked)
+
 ## [아침 보고] 2026-11-16
 처리 2건 (ready 1 + blocked 1) · 실패 0건
 성과: 어제 도달 13 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-07-ai-teddy-bbc (44, 14일 기준)

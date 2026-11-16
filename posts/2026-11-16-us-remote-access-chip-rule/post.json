@@ -1,0 +1,149 @@
+{
+  "id": "2026-11-16-us-remote-access-chip-rule",
+  "date": "2026-11-16",
+  "category": "POLICY",
+  "status": "ready",
+  "cover": {
+    "tag": "GLOBAL AI · POLICY",
+    "headline": [
+      "US TARGETS CHIP",
+      "**RENTING** ABROAD"
+    ],
+    "hook_options": [
+      [
+        "US TARGETS CHIP",
+        "**RENTING** ABROAD"
+      ],
+      [
+        "5 COUNTRIES NOW",
+        "NEED **LICENSES**"
+      ],
+      [
+        "12M TPP IS THE",
+        "NEW **LINE**"
+      ],
+      [
+        "BUYING CHIPS WAS",
+        "NOT THE **ONLY** WAY"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "number",
+      "myth-flip"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "The claim hook states the story in plain words (the US rule aimed at renting chips abroad) and slides 1 to 3 back it fully: the license requirement, the 12M TPP threshold and the five countries. The number hooks are specific but need context to land, and the myth-flip implies a wider shift than the rule text shows. No reader-impact hook: the articles state no effect on what ordinary readers pay, use or risk.",
+    "image_prompt": "Cinematic wide shot of a dark data center corridor of server racks, a single glowing accent-yellow line running out of the building along the floor toward a distant dark horizon, a faint barrier of light stretched across the line, cold blue haze, shallow depth of field, volumetric light. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The rule",
+      "title": "The US targets chip rentals abroad",
+      "body": [
+        "The Commerce Department, the US trade agency running export controls, issued an **interim rule**: it applies first, comments follow. It **requires licenses** to ship AI chips and servers to data centers anywhere that may serve companies in China or other restricted countries."
+      ]
+    },
+    {
+      "kicker": "The threshold",
+      "title": "Over 12 million TPP",
+      "body": [
+        "The rule covers data centers or networks that can supply **over 12 million TPP**, total processing performance, the metric the US uses to measure computing power. TechCrunch says that is roughly the max of about 750 Nvidia H100 or H200 chips."
+      ]
+    },
+    {
+      "kicker": "Five countries",
+      "title": "New licensing for five countries",
+      "body": [
+        "Advanced chip exports to **Malaysia, Singapore, Indonesia, Thailand and Brazil** now need licenses too. Commerce says they \"present a higher-than-normal risk of diversion.\" Companies headquartered in the US are exempt, as long as they file monthly reports."
+      ]
+    },
+    {
+      "kicker": "The exceptions",
+      "title": "90 days, one carve-out",
+      "body": [
+        "Existing data center operators offering covered services must get licenses within **90 days** of the rule taking effect. Commercial recommendation systems, such as e-commerce or social media, are not covered."
+      ]
+    },
+    {
+      "kicker": "What's next",
+      "title": "Comments open, old rule scrapped",
+      "body": [
+        "The rule takes effect once published in the Federal Register, the US government's official journal of rules. Then comes a **60-day public comment period**. It also rescinds the Biden administration's January 2025 AI Diffusion Rule."
+      ]
+    },
+    {
+      "kicker": "The reaction",
+      "title": "Markets and analysts weigh in",
+      "body": [
+        "Per Bloomberg, Nvidia shares fell as much as **2.9%** on Monday, and the Philadelphia Semiconductor Index as much as 5.5%. Analysts told Fortune the rule could hit Southeast Asian countries that want to host data centers for Chinese firms."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+      "date": "Nov 16, 2026",
+      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+    },
+    {
+      "outlet": "The Next Web",
+      "title": "US curbs China's remote access to AI chips in overseas data centres",
+      "date": "Nov 16, 2026",
+      "url": "https://thenextweb.com/news/us-remote-access-ai-chips-rule-china-singapore-malaysia"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Under the interim rule, the Commerce Department will require companies to get licenses to export, reexport, or transfer AI chips and servers to data centers anywhere in the world if they may provide compute to companies in China or other restricted countries."
+    },
+    {
+      "source": 0,
+      "text": "The rule applies to data centers or any network that can supply over 12 million total processing performance (TPP), an export-control metric the U.S. uses to measure computing power. (Twelve million TPP roughly works out to the max computing power of about 750 Nvidia H100 or H200 chips.)"
+    },
+    {
+      "source": 0,
+      "text": "The rule also adds new licensing requirements for chip exports, reexports, or transfer of advanced semiconductors to Malaysia, Singapore, Indonesia, Thailand, and Brazil. The Commerce Department said it had included these as they \"present a higher-than-normal risk of diversion.\""
+    },
+    {
+      "source": 0,
+      "text": "Existing data center operators providing services that fall under this new rule are required to get licenses within 90 days of the rule coming into effect."
+    },
+    {
+      "source": 1,
+      "text": "Companies headquartered in the US are exempt, as long as they file monthly reports."
+    },
+    {
+      "source": 0,
+      "text": "The rule doesn't apply to commercial recommendation systems, like those used in e-commerce or social media."
+    },
+    {
+      "source": 1,
+      "text": "The rule takes effect once it appears in the Federal Register, and the public then has 60 days to comment."
+    },
+    {
+      "source": 0,
+      "text": "The rule also rescinds the Biden admin's AI Diffusion Rule from January 2025, which sought to impose country-level limits on exports of advanced AI chips."
+    },
+    {
+      "source": 1,
+      "text": "Nvidia shares fell as much as 2.9% on Monday. The Philadelphia Semiconductor Index dropped as much as 5.5%, Maggie Eastland and Magan Crane reported for Bloomberg."
+    },
+    {
+      "source": 1,
+      "text": "Analysts told Fortune that the rule could hit Southeast Asian countries that want to host data centres for Chinese firms."
+    }
+  ],
+  "caption": "The US just moved to stop China-based firms from renting AI chips through overseas data centers.\n\nThis is an interim rule from the Commerce Department. It takes effect once published in the Federal Register, with a 60-day comment period after.\n\n→ It requires licenses to ship AI chips and servers to data centers anywhere that may serve companies in China or other restricted countries\n→ It covers data centers or networks above 12 million TPP, roughly the max of about 750 Nvidia H100 or H200 chips, per TechCrunch\n→ Advanced chip exports to Malaysia, Singapore, Indonesia, Thailand and Brazil now need licenses; US-headquartered firms are exempt if they file monthly reports\n\nIs renting chips abroad a loophole worth closing?\n\nSources: TechCrunch, \"US tightens AI chip export controls to deter Chinese companies from accessing compute remotely\" (Nov 16, 2026); The Next Web, \"US curbs China's remote access to AI chips in overseas data centres\" (Nov 16, 2026).\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#AIChips",
+    "#ExportControls",
+    "#China"
+  ],
+  "threads_caption": "The US just moved to stop Chinese firms from renting AI chips through data centers abroad.\n\nAn interim Commerce Department rule requires licenses for AI chips and servers sent to data centers that may serve companies in China or other restricted countries.\n\nSource: TechCrunch, \"US tightens AI chip export controls to deter Chinese companies from accessing compute remotely\". #AIChips"
+}
