@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-16-korea-tax-exam-ai-cheating",
+  "date": "2026-11-16",
+  "category": "POLICY",
+  "status": "blocked",
+  "cover": {
+    "tag": "KOREA AI · POLICY",
+    "headline": [
+      "TOP SCORER: I",
+      "**CHEATED** WITH AI"
+    ],
+    "hook_options": [
+      [
+        "HRDK CHECKED:",
+        "**NOTHING** ODD"
+      ],
+      [
+        "1 WRONG OF **160**",
+        "ON KOREA'S EXAM"
+      ],
+      [
+        "AI BEAT KOREA'S",
+        "EXAM **PROCTORS**"
+      ],
+      [
+        "TOP SCORER: I",
+        "**CHEATED** WITH AI"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "claim",
+      "quote"
+    ],
+    "hook_type": "quote",
+    "hook_pick_reason": "The quote hook is clear in two seconds, names the confession and the AI, and slides 1 and 2 deliver it directly, framed as his self-report ('said he cheated') rather than a ruling. The proctors hook hides the exam and the AI, the 1 of 160 hook hides the AI angle, and the claim hook states as fact what is only a self-report. No reader-impact hook: the article reports one exam case and the agency's response, and states no effect on what ordinary readers pay, use or risk.",
+    "image_prompt": "Cinematic wide shot of a silent, empty national exam hall at night: rows of wooden desks with blank answer sheets, a single tiny glass lens catching a point of cold blue light on one desk, a smartphone lying face-up beside it glowing with soft abstract amber circuit patterns, long shadows from tall windows, shallow depth of field, moody teal and amber grading. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261116_045318_2109fe53-c5c3-4e22-800b-4adb299c5826.png"
+  },
+  "slides": [
+    {
+      "kicker": "The confession",
+      "title": "A top scorer said he cheated",
+      "body": [
+        "The top passer of Korea's 63rd **tax accountant exam**, a national licence test, said he cheated with a micro camera and generative AI. It is a self-report, and police have reportedly opened an investigation."
+      ]
+    },
+    {
+      "kicker": "The method",
+      "title": "Camera, AI, smartphone",
+      "body": [
+        "He said he photographed the questions, sent them to AI and read the answers on a smartphone. He did not name the AI model or equipment, saying details could enable repeats. He will tell **investigators only**."
+      ]
+    },
+    {
+      "kicker": "The score",
+      "title": "One wrong out of 160",
+      "body": [
+        "In April's first round he missed only **1 of 160 questions**, then topped the July second round. He said he used the same method on this year's first-round CPA exam, which he failed."
+      ]
+    },
+    {
+      "kicker": "The blind spot",
+      "title": "Agency found no red flags",
+      "body": [
+        "After doubts were raised, the Human Resources Development Service of Korea (HRDK), which runs the exam, checked with its proctors and found **nothing suspicious**."
+      ]
+    },
+    {
+      "kicker": "The response",
+      "title": "HRDK apologises, acts",
+      "body": [
+        "On the 15th HRDK apologised. It will file a complaint for **obstruction of business**, seek to cancel his pass, and check other national exams."
+      ]
+    },
+    {
+      "kicker": "Next steps",
+      "title": "Ministry weighs suspension",
+      "body": [
+        "The Ministry of Finance and Economy is **considering suspending** his pass. Police have reportedly opened an investigation after his self-report. The ministry is still considering."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times",
+      "title": "세무사 시험 수석 합격자 \"생성 AI로 부정행위\" 자백",
+      "title_en": "Top passer of tax accountant exam confesses to cheating with generative AI",
+      "language": "Korean",
+      "date": "Nov 15, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217426"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The top passer of Korea's 63rd tax accountant exam said he cheated with a micro camera and generative AI: he photographed questions, sent them to AI, and read the answers on a smartphone."
+    },
+    {
+      "source": 0,
+      "text": "In the April first round he missed only 1 of 160 questions, and he then topped the July second round."
+    },
+    {
+      "source": 0,
+      "text": "He said he used the same method on this year's first-round CPA exam, which he failed."
+    },
+    {
+      "source": 0,
+      "text": "After doubts were raised, the Human Resources Development Service of Korea (HRDK), which runs the exam, checked with its exam proctors and found nothing suspicious."
+    },
+    {
+      "source": 0,
+      "text": "On the 15th HRDK apologised, will file a complaint for obstruction of business, seek to cancel his pass, and check other national exams."
+    },
+    {
+      "source": 0,
+      "text": "The Ministry of Finance and Economy is considering suspending the pass; police have reportedly opened an investigation after his self-report."
+    },
+    {
+      "source": 0,
+      "text": "He did not disclose the AI model or equipment, saying details could enable repeats; he will tell investigators only."
+    }
+  ],
+  "caption": "Korea's tax accountant exam top scorer said he cheated with a micro camera and generative AI.\n\nThe exam is a national licence test run by the Human Resources Development Service of Korea (HRDK). The case is his self-report, which police have reportedly opened an investigation into. It is not a ruling.\n\n→ He missed only 1 of 160 questions in the April first round, then topped the July second round\n→ After doubts were raised, HRDK checked with its proctors and found nothing suspicious, then apologised and said it will seek to cancel his pass\n→ The Ministry of Finance and Economy is considering suspending the pass\n\nCan any exam stay cheat-proof when AI fits in a pocket?\n\nSource: AI Times, \"Top passer of tax accountant exam confesses to cheating with generative AI\" (in Korean), Nov 15, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Korea",
+    "#AICheating",
+    "#TaxExam"
+  ],
+  "threads_caption": "Korea's tax accountant exam top scorer said he cheated with a micro camera and generative AI. Police have reportedly opened an investigation.\n\nHe missed 1 of 160 questions. The exam agency said its proctors found nothing suspicious when it checked, and will seek to cancel his pass.\n\nSource: AI Times, \"Top passer of tax accountant exam confesses to cheating with generative AI\" (in Korean). #KoreaAI"
+}

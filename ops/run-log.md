@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-16
+처리 2건 (ready 1 + blocked 1) · 실패 0건
+성과: 어제 도달 13 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-07-ai-teddy-bbc (44, 14일 기준)
+결정할 일
+1. 없음. 아침 스캔은 05:07에 안 돌아 morning-scan을 수동 실행했고 약 3분 뒤 main에 올라옴. IG 토큰이 없어 참고 계정은 스캔 파일 reference.json 기준
+2. blocked: `2026-11-16-korea-tax-exam-ai-cheating` (KOREA AI · POLICY, 세무사 시험 수석 합격자 부정행위 자백). 1차 fact 불합격(프록터 확인 시점, 경찰 수사 "reportedly" 누락) + hook 불합격(5/10, 커버를 "TOP SCORER: I CHEATED WITH AI"로 교체), 2차 fact 불합격(원문은 "최종 수석 합격"이지 2차 시험 1등이 아님 — 슬라이드 3·캡션·facts[1] 3곳). 규칙대로 blocked, 파일 보존. 수정은 문구 3곳이라 사람이 고치면 재사용 가능(cover.png 있음, 단 발행 시 "scored high in July second round and finished as top passer"로)
+3. ready: `2026-11-16-pax-silica-declaration` (GLOBAL AI · POLICY, 9개국 AI 공급망 샌프란시스코 선언, 소스 AI Times가 FT 인용, 단일 매체). 1차 fact 불합격(허브/작업반 문장, title_en, FT 귀속 과다) → 2차 fact·hook(7/10)·brand 모두 통과. 시한성: 19일 트럼프-시진핑 회담 전, EU 4곳 서명 시 "9개국" 변동 가능. brand-safety 참고: 커버 강조어가 "9 NATIONS" 두 단어(DESIGN.md는 1단어)
+4. 커버: Higgsfield cinematic_studio_2_5 2장(글 2개 각 1장), 4크레딧 (오늘 합계 4/6, 아침 런 전체; 저녁 런 여유 2). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 월 합계는 이전 보고에 더해 계산 필요. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+5. 예비: posts/_backlog/2026-11-16-openai-chatgpt-wallet.md (저녁 후보 1순위). Pax Silica 예비 파일은 글로 사용돼 삭제 대상(승인 필요해 남겨둠). 실패한 소스: Euractiv, Tech.eu, EU 집행위, JoongAng Daily, Meta AI, Yonhap 원문 403
+자세한 기록
+- 후보 10개, 1차 선정 점수 11(세무사 시험, prompt_what 4.6x), 2차 선정 점수 8(Pax Silica)
+- 넘어온 ready 글 없음 (11-15 글 모두 published)
+
 ## [저녁 보고] 2026-11-15
 처리 1건 (ready 1) · 실패 0건
 결정할 일

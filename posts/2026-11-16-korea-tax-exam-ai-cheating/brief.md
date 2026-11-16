@@ -1,0 +1,20 @@
+# Brief: 2026-11-16-korea-tax-exam-ai-cheating (morning run, 13:57 post)
+
+- 결과: One carousel on Korea's top tax-accountant exam scorer admitting he cheated with a micro camera and generative AI, and the exam body's response. Tag: `KOREA AI · SOCIETY`. Angle: AI cheating beat human proctors at a national licensing exam, and the body that runs it now has to check other exams. Hook types to try: number (1 wrong out of 160), claim, reader-impact only if the article supports it (it does not clearly, so probably skip and write "No reader-impact hook:" in hook_pick_reason).
+- 맥락: Any country with licensing or entrance exams faces the same problem. Facts that carry it (all article 0, AI Times, 2026-11-15, "세무사 시험 수석 합격자 '생성 AI로 부정행위' 자백"):
+  1. The top passer of Korea's 63rd tax accountant exam said he cheated with a micro camera and generative AI: photographed questions, sent them to AI, read answers on a smartphone.
+  2. April first round: he missed only 1 of 160 questions; he then topped the July second round.
+  3. He said he used the same method on this year's first-round CPA exam, which he failed.
+  4. The Human Resources Development Service of Korea (HRDK, the agency that runs the exam) had found nothing suspicious from its proctors.
+  5. On the 15th HRDK apologised, will file a complaint for obstruction of business, seek to cancel his pass, and check other national exams.
+  6. The Ministry of Finance and Economy is considering suspending the pass; police opened an investigation after his self-report.
+  7. He did not disclose the AI model or equipment, saying details could enable repeats; he will tell investigators only.
+  Explain on first mention: "tax accountant exam" (national licence exam in Korea) and HRDK. Optional light context from candidate notes only: Korea's CSAT college exam is days away. Do not state this as fact in the post unless a listed article supports it; the CSAT/PM-vow articles were unreadable, so leave it out.
+- 제약: Facts only from the one listed article (AI Times, Korean; translated facts above). Sources slide and caption: AI Times, the Korean title above (translated title is fine alongside), 2026-11-15. Do not name the person (the article anonymises him as "Mr. A"; say "the top scorer" or "a candidate"); no real-person photos or lookalikes; cover image AI-generated, no text, no real logos (exam room / tiny lens / glowing phone motif). Wording: "said he cheated" and "admitted", since this is a self-report under police investigation, not a court finding; do not say "convicted" or "guilty". Do not describe any technique beyond the three items in fact 1 (no how-to). Do not mention Nvidia or Jensen Huang. DESIGN.md applies (tag pill, 2-line Anton cover max 16 chars per line, one accent word, 45 words max per body slide, last slide follow + source).
+- 질문 기준: Flag, do not guess: (a) any claim about how many people were affected or whether other exams were compromised (not in the article); (b) any 'AI model used' (undisclosed); (c) exact English name of the exam or agency if you are unsure (use the article's translated names above); (d) any statement about the outcome of the investigation or the pass cancellation (only "considering" and "will seek"); (e) fact-checker should note the source is a single Korean-language outlet whose English facts are translations.
+
+## Scoring (config/sources.yaml)
+- Tax exam: reference accounts 3 (prompt_what, 4.6x) + global 3 + hard number 2 (1 of 160) + Korea 3 = 11. Picked.
+- Pax Silica declaration (9 countries): 0 + 3 + 2 + 3 = 8. Runner-up, FT original unreadable, via AI Times only. Moved to backlog; timely until the Trump-Xi talks on the 19th.
+- China Nvidia chip projects (23B yuan): 0 + 3 + 2 + 3 = 8, but tied to the Huang affair coverage; backlog with caution.
+- SKT-Hyosung data center power MOU: 0 + 2 + 0 + 3 = 5. Nvidia AI Day Seoul: 3-ish, low news weight, skip. OpenAI ChatGPT Wallet: 3 + 3 + 0 + 0 = 6 (the one reference post was 0.9x, below the 3x bar so counted 0 here, lean 6). Apple health study 3+2 = 5. Uber/Fireworks 5. Polish wind farm: needs research report, weak. Huang comeback story: excluded (brand safety).
