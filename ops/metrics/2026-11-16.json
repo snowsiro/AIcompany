@@ -1,12 +1,12 @@
 {
- "fetched_at": "2026-11-16T04:47:40.210Z",
+ "fetched_at": "2026-11-16T11:01:38.817Z",
  "days": 14,
  "account": {
   "day": "2026-11-15",
   "followers": 2,
   "media_count": 52,
-  "reach": 13,
-  "views": 18,
+  "reach": 14,
+  "views": 20,
   "accounts_engaged": 1,
   "profile_links_taps": 0,
   "follows_and_unfollows": null
@@ -21,14 +21,14 @@
    "category": "POLICY",
    "published_at": "2026-11-15T20:00:51+0000",
    "url": "https://www.instagram.com/reel/Dfxlt3fjmVZ/",
-   "reach": 1,
+   "reach": 2,
    "views": 2,
    "saved": 0,
    "shares": 0,
    "likes": 0,
    "comments": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 1758
+   "ig_reels_avg_watch_time": 1316
   },
   {
    "media_id": "18020252483972028",
@@ -963,24 +963,6 @@
    "region": "KOREA",
    "category": "ECONOMY",
    "published_at": "2026-11-15T13:01:03+0000",
-   "unavailable": [
-    "reach",
-    "views",
-    "replies",
-    "shares",
-    "navigation",
-    "follows",
-    "profile_visits"
-   ]
-  },
-  {
-   "media_id": "18104707910533991",
-   "post": "2026-11-15-weekly",
-   "format": "story",
-   "hook_type": "claim",
-   "region": "GLOBAL",
-   "category": "WEEKLY",
-   "published_at": "2026-11-15T09:02:06+0000",
    "unavailable": [
     "reach",
     "views",
