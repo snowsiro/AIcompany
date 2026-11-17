@@ -28,7 +28,9 @@ Today is {{date}} (Vienna time). Run these steps in order, using the subagents i
    `node scripts/render.mjs posts/<id>`, must pass
 5. **fact-checker**, **hook-judge**, **brand-safety** in parallel, same rules as the morning. Each sees only the post.
 6. All three pass → `"status": "ready"`. Any fail → back to the writer and repeat from step 3. After 2 failed rounds set
-   `"status": "blocked"`, explain it in the PR and report; the slot stays empty that evening.
+   `"status": "blocked"`, keep its files and explain it in the PR. Then make one post from the next-best candidate
+   (steps 2-6 once more, no third attempt), so the 20:57 slot is not empty (2026-11-17, Jamie). Skip this retry and
+   report if the budget would be exceeded or usage is tight; the slot then stays empty that evening.
 7. Add the evening report to the top of `ops/run-log.md`: the CLAUDE.md format with the heading `## [저녁 보고] {{date}}`
    and no 성과 line. Include the story's first-published time and its age at ready.
 8. Commit, push `daily/{{date}}-evening`, open one PR titled `post: {{date}} evening <headline>` with the cover image and
