@@ -1,0 +1,992 @@
+{
+ "date": "2026-11-17",
+ "run": "evening",
+ "cutoff_utc": "2026-11-17T04:45:00Z",
+ "morning_post": "Alibaba Qwen4-Max (The Next Web lead); evening must be a different company and lead outlet.",
+ "note": "Run at about 18:20Z. feeds.json snapshot was 11:42Z, so US afternoon items came from live TNW and Ars feeds (TechCrunch, VentureBeat blocked 403/429; Ars article bodies 403, so Ars Grok-bot and Gemini training opt-out items dropped, no readable original). NVIDIA EARNINGS NOT OUT YET: results scheduled about 21:20Z (1:20pm PT), call 2pm PT; no readable report at 18:20Z, so not included as a story. Microsoft Ignite 2026 keynote is today but no readable post-keynote coverage found. Skipped as scandal-driven: Huang offers to return (TNW 16:13Z), Huang daughter, WSJ Alice Huang husband data centre. Skipped: Korea CSAT AI-cheating items (tied to blocked tax-exam story). Carried over from morning: everything unused except Qwen4-Max; all carried items were first published before the 04:45Z cutoff and are marked carried_over. California v OpenAI is the biggest carried story (no new post-cutoff story beats it unless the editor wants Anthropic IPO).",
+ "top3_view": [
+  "Anthropic IPO to price at top of range or higher (new, 16:08Z, fresh within 6h)",
+  "California AG sues OpenAI over rogue agents (carried, 11-16 20:07Z, strongest hard news)",
+  "Nvidia board export-control committee (new, 10:27Z; earnings after 21:20Z not readable yet)"
+ ],
+ "stories": [
+  {
+   "title": "Anthropic IPO set to price at the top of its $70-$78 range or higher; order book closes 21:00 UTC Tuesday, pricing Wednesday, Nasdaq trading as ANT from Thursday",
+   "region": "US/GLOBAL",
+   "repeat": "partial: Anthropic IPO posted 10-27 and 11-03 (S-1); this is new pricing news. Anthropic also in 11-12 post. Morning post was Alibaba (different company).",
+   "first_published_utc": "2026-11-17T16:08:51Z (TNW, citing Bloomberg and CNBC)",
+   "reference_posts": [],
+   "score_hints": "Fresh within 6h (18:15Z run). Hard numbers, global relevance, live event; outcome lands after 21:00Z, so post must say 'expected', attribute to Bloomberg/CNBC via TNW, TNW has not verified. Single readable outlet (TNW); Bloomberg/CNBC originals not read. No Asia/Europe angle in this article (Korea muted-reception story is separate).",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic IPO set to price at the top of its range, or even higher",
+     "date": "2026-11-17",
+     "url": "https://thenextweb.com/news/anthropic-ipo-price-top-of-range-amazon-google-stakes-coatue"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Investors in Anthropic's share sale are being told to expect a price at the top of the $70 to $78 range or above, people familiar with the matter told Bloomberg on Tuesday. The deal has drawn several orders of $10bn or more.",
+     "article": 0
+    },
+    {
+     "fact": "Multiple sources told David Faber that the price is likely to land above the range, CNBC reported. Both outlets reported that the order book closes at 4pm in New York on Tuesday, which is 21:00 UTC. TNW has not independently verified either report.",
+     "article": 0
+    },
+    {
+     "fact": "The Anthropic IPO is set to price on Wednesday, with trading on the Nasdaq under ANT from Thursday. At $78 a share, the company would be worth about $1.4tn on a fully diluted basis, Bloomberg reported.",
+     "article": 0
+    },
+    {
+     "fact": "By Sunday, orders had reached close to seven times the shares on offer.",
+     "article": 0
+    },
+    {
+     "fact": "Amazon and Google are set to hold nearly 15% and 14% of Anthropic's stock after the IPO and a $26bn private placement, according to a filing on Tuesday.",
+     "article": 0
+    },
+    {
+     "fact": "Customers of Amazon, Google and Microsoft can buy Claude through their cloud accounts. That business brought in about 44% of Anthropic's revenue in the first nine months of 2026, the filing shows.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic made $33.24bn in revenue in the nine months to 30 September, CNBC reported from the prospectus. That is up about 1,200% on a year earlier. Its net loss was $104bn, mostly from changes in the value of convertible notes and derivatives.",
+     "article": 0
+    },
+    {
+     "fact": "Its compute commitments of about $448bn through 2030 put pressure on Anthropic to keep token prices high against OpenAI, Google and others, Bloomberg Intelligence analyst Mandeep Singh wrote.",
+     "article": 0
+    },
+    {
+     "fact": "Altimeter Capital aims to put $5bn into the IPO, five times as much as it has ever put into one.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI's top executives said on Monday they are not worried about Anthropic listing first.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Vals tests: AI models from eight companies flagged civilians, ambulances and a school in Iran as military targets in simulations; Claude Opus 5.5 did worst (Bloomberg via TNW)",
+   "region": "US/GLOBAL",
+   "repeat": "no (Anthropic posted 11-03, 11-12 on other topics)",
+   "first_published_utc": "2026-11-17T16:10:29Z",
+   "reference_posts": [],
+   "score_hints": "BRAND-SAFETY CAUTION: real strike on a school with about 120 children killed, war context, Anthropic named as worst performer. TNW has not seen the full Vals report; Bloomberg original not read. Could be framed around the test result and the 'no human oversight in test' caveat. Single outlet.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "AI models flagged civilians as military targets in tests",
+     "date": "2026-11-17",
+     "url": "https://thenextweb.com/news/ai-models-flagged-civilians-as-military-targets-in-tests-bloomberg-reports"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "AI models from eight companies often marked civilians, ambulances, surrendering soldiers and a school in Iran as military targets in simulated tests, Bloomberg reported. The findings come from a report by Vals, a San Francisco AI evaluator whose customers include parts of the US government.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic's models did worst, while OpenAI's were among the best but still made mistakes. TNW has not seen the full Vals report.",
+     "article": 0
+    },
+    {
+     "fact": "In one test, each model was asked 32 times to pick military targets in satellite images of southern Iran. Anthropic's Claude Opus 5.5 chose a school in Minab 22 times. OpenAI's models did not choose it once.",
+     "article": 0
+    },
+    {
+     "fact": "When told the task was a game, Claude Opus 5.5 picked the school 23 times. Three OpenAI models then picked it 9, 11 and 13 times. The researchers also got past refusals by telling models not to overthink safety.",
+     "article": 0
+    },
+    {
+     "fact": "Models from Google, xAI, DeepSeek and others also sometimes marked civilian objects as targets, Bloomberg reported.",
+     "article": 0
+    },
+    {
+     "fact": "An Anthropic spokesperson told Bloomberg the examples clearly broke its rules, and that new safeguards would be in place soon. OpenAI and Google told Bloomberg they ban such uses of their public models.",
+     "article": 0
+    },
+    {
+     "fact": "The tests left out military doctrine, legal checks and human oversight, Bloomberg noted. The Pentagon also uses government versions of some models that Vals could not test.",
+     "article": 0
+    },
+    {
+     "fact": "The Vals report said labs should introduce new safeguards and alignment training around this category of misuse.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nvidia board creates a national security and export control oversight committee five days after Huang's exit; Nvidia reports Q3 results Tuesday after US close",
+   "region": "US/GLOBAL",
+   "repeat": "company repeat: Nvidia 11-07, 11-09, 11-12 (other topics); not posted: this committee",
+   "first_published_utc": "2026-11-17T10:00:00Z (Nvidia release); TNW 2026-11-17T10:27:52Z",
+   "reference_posts": [
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/p/DfwQ7bCkQmx/",
+     "multiple": 3.5,
+     "note": "Huang CEO exit post, 11-15; related topic, not the same story"
+    }
+   ],
+   "score_hints": "EARNINGS NOT OUT: Nvidia results scheduled about 1:20pm PT (21:20Z) with call at 2pm PT; at 18:20Z nothing readable. Earnings would arrive after the evening run's writer finishes, so cannot be written from facts unless run is delayed. This committee story is the hard-news fallback with a timely hook (earnings tonight). Brand-safety: lead on governance, omit the affair/spy allegations (TNW text mentions them). Nvidia newsroom item not read separately.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Nvidia's board sets up an export control committee after Huang's exit",
+     "date": "2026-11-17",
+     "url": "https://thenextweb.com/news/nvidia-board-national-security-export-control-committee"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Nvidia's board has set up a standing committee to oversee the chipmaker's export control compliance and national security policies. It comes five days after Jensen Huang resigned as chief executive.",
+     "article": 0
+    },
+    {
+     "fact": "Director Suzanne Nora Johnson will chair the new National Security and Export Control Oversight Committee, Nvidia said on Tuesday. Directors Stephen C. Neal and John O. Dabiri will join her as members.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia's National Security Team and its Global Trade Compliance Team will now report directly to the committee. They will also report to interim chief executive Colette Kress on day-to-day work.",
+     "article": 0
+    },
+    {
+     "fact": "The committee will meet at least once a quarter, with management and in executive session. It will also hire independent experts in law, national security and trade compliance.",
+     "article": 0
+    },
+    {
+     "fact": "Nora Johnson, a former vice chairman of Goldman Sachs, joined the board in July.",
+     "article": 0
+    },
+    {
+     "fact": "Jones became Nvidia's first board chair when Huang resigned on 12 November.",
+     "article": 0
+    },
+    {
+     "fact": "No Nvidia director had national security experience, Semafor reported on 9 November. In June, Senator Elizabeth Warren wrote to Nvidia asking whether its board was exercising meaningful oversight of export controls.",
+     "article": 0
+    },
+    {
+     "fact": "On Sunday, Treasury Secretary Scott Bessent said he wanted answers from the board within 10 days on its export compliance, Axios reported.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia reports its third-quarter results later on Tuesday. It is Kress's first earnings report as interim chief executive.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google Labs buys Howie, an AI assistant that books meetings from email threads",
+   "region": "US",
+   "repeat": "no (Google-Samsung glasses 11-13 different topic)",
+   "first_published_utc": "2026-11-17T16:50:13Z",
+   "reference_posts": [],
+   "score_hints": "Small deal, no price disclosed; low hard-number value (PitchBook $14M in 2024). Backup.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google buys Howie, an AI assistant that books your meetings",
+     "date": "2026-11-17",
+     "url": "https://thenextweb.com/news/google-labs-buys-howie-ai-scheduling-agent"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google Labs has bought Howie, an AI scheduling tool that users copy into emails to arrange meetings, Bloomberg reported. Terms were not disclosed; PitchBook valued Howie at $14M in 2024.",
+     "article": 0
+    },
+    {
+     "fact": "Google Labs announced the deal on Monday in a post on X.",
+     "article": 0
+    },
+    {
+     "fact": "Users copy Howie into an email thread, and it finds a time and books the meeting.",
+     "article": 0
+    },
+    {
+     "fact": "Google Labs said it wants to build \"the next generation of intuitive AI tools\" for small businesses with the Howie team.",
+     "article": 0
+    },
+    {
+     "fact": "Google has not said whether Howie will be built into its own apps.",
+     "article": 0
+    },
+    {
+     "fact": "In May, Google launched Gemini Spark, an always-on agent that takes tasks by email. OpenAI bought travel agent Odessia last week.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI signs non-binding MoU with Chile's science ministry (OpenAI for Chile): civil servant training, startup support; backed by US Commerce AI exports programme",
+   "region": "US/LATAM",
+   "repeat": "company repeat: OpenAI (other topics)",
+   "first_published_utc": "2026-11-17T17:45:39Z",
+   "reference_posts": [],
+   "score_hints": "Few hard numbers, non-binding. Backup.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI for Chile aims to train civil servants and back startups",
+     "date": "2026-11-17",
+     "url": "https://thenextweb.com/news/openai-for-chile-mou-public-sector-startups"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI has signed a memorandum of understanding with Chile's science ministry to explore AI in public administration, train civil servants and support local startups. The deal sets no investment or purchasing commitment.",
+     "article": 0
+    },
+    {
+     "fact": "Science minister Ximena Lincolao signed for Chile at Semafor's Silicon Valley & The World conference in California, where Sam Altman also spoke.",
+     "article": 0
+    },
+    {
+     "fact": "The deal is a non-binding pact, not a contract. Abu Dhabi, by contrast, signed four deals with OpenAI this month.",
+     "article": 0
+    },
+    {
+     "fact": "The pact is backed by the US Commerce Department's American AI Exports Program, which helps US AI firms win deals abroad.",
+     "article": 0
+    },
+    {
+     "fact": "Malta agreed in May to give citizens free ChatGPT Plus. Chile already has its own AI plan, with 177 actions across 14 ministries.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI weighed buying interpretability startup Goodfire for $5B+, then started an outside safety-evaluation partnership (The Information via AI Times)",
+   "region": "US",
+   "repeat": "company repeat: OpenAI (other topics); Apollo embedded evaluators was a 11-16 candidate, not posted",
+   "first_published_utc": "2026-11-17T07:41:07Z (AI Times, KST 16:41; The Information report 11-16)",
+   "reference_posts": [],
+   "score_hints": "Korean-language source citing The Information (not read). Deal did not happen. Numbers: $5B vs $1.25B valuation.",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "오픈AI, 'AI 내부 분석' 굿파이어 인수 검토…무산 후 안전성 평가 협력",
+     "date": "2026-11-17",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217488"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI reportedly considered acquiring Goodfire, a startup that analyses the inner workings of AI models, for more than $5 billion (about 6.7 trillion won). The deal did not happen, but the two have recently begun a safety-evaluation collaboration.",
+     "article": 0
+    },
+    {
+     "fact": "The Information reported on the 16th (local time) that OpenAI executives including CEO Sam Altman met with Goodfire several times since this summer to discuss an acquisition or business partnership.",
+     "article": 0
+    },
+    {
+     "fact": "A senior OpenAI executive proposed buying Goodfire for more than $5 billion, more than four times its $1.25 billion valuation at a February funding round. Goodfire's management judged it better to remain independent and supply several AI developers.",
+     "article": 0
+    },
+    {
+     "fact": "Founded in 2024, Goodfire develops mechanistic interpretability technology, which analyses a model's internal neurons and circuits rather than relying on its answers or reasoning text.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI's research published on the 10th said the reasoning of GPT-6 Astra is less monitorable than earlier models.",
+     "article": 0
+    },
+    {
+     "fact": "Goodfire's customers include Japan's Rakuten, and Anthropic invested $1 million last year.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI recently introduced an external safety-evaluation programme giving four organisations access to internal models and training: Goodfire, Apollo Research, METR and Transluce.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Reuters: Chinese firms industrialise 'distillation' of US AI models; US officials warned Beijing in July talks it may infringe IP",
+   "region": "CHINA/US",
+   "repeat": "no",
+   "first_published_utc": "2026-11-17T08:53:09Z (AI Times, KST 17:53, citing Reuters 17 Nov); Reuters first appeared as 'China taps US AI models to train homegrown rivals' 2026-11-17T03:42Z, BEFORE cutoff",
+   "reference_posts": [],
+   "score_hints": "Reuters original unreadable; cited via AI Times (Korean). Strong global angle and fresh in Asia, but Reuters piece pre-cutoff by about 1h. Few exact numbers (300+ documents).",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea), citing Reuters",
+     "title": "중국, 미국 AI '증류' 산업화…자동 수집에 전문 인력까지 투입",
+     "date": "2026-11-17",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217497"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Reuters analysed more than 300 Chinese papers, patents, company filings, job postings and government documents and reported that distillation, using US model outputs to train models, has moved beyond academic experiments into industrial use.",
+     "article": 0
+    },
+    {
+     "fact": "Chinese researchers obtain answers, code and solutions to complex problems from US models to train their own models. Companies have built software that automates the collection and use specialists to process the training material.",
+     "article": 0
+    },
+    {
+     "fact": "According to three people, at a July meeting in Chengdu US Commerce Department officials raised the collection of outputs from major US AI models with Chinese regulators and warned some of it could amount to intellectual property infringement.",
+     "article": 0
+    },
+    {
+     "fact": "A US official said Chinese authorities described distillation as a normal AI development technique but said they could act against IP infringement, and made no specific commitment.",
+     "article": 0
+    },
+    {
+     "fact": "Some Chinese developers recently asked the industry regulator for criteria separating ordinary use of foreign models from systematic collection of outputs for training.",
+     "article": 0
+    },
+    {
+     "fact": "The Chinese government encourages distillation for industrial AI: a January policy from eight ministries, 'AI+Manufacturing', includes support for training, fine-tuning and distillation. The government document does not tell companies to distil US models.",
+     "article": 0
+    },
+    {
+     "fact": "Distillation is not illegal in itself and is used in other countries. OpenAI and Anthropic restrict by their terms the use of their outputs to build competing models.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Tencent releases Hy4 Flash, a 224B-parameter low-cost work model; up to 95% lower cost per task, API $0.07 per million input tokens",
+   "region": "CHINA/ASIA",
+   "repeat": "company repeat: Tencent Hy4 posted 2026-11-05 (the large model; Flash is new)",
+   "first_published_utc": "2026-11-16 (Tencent, local time); AI Times 2026-11-17T09:18:21Z",
+   "reference_posts": [],
+   "score_hints": "Pre-cutoff first publication by Tencent; Korean-language secondary. Alibaba Qwen4-Max was this morning's post, so two Chinese-model posts in a row. Benchmarks are Tencent's own.",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "텐센트 'Hy4 플래시' 출시...일상 업무 특화·작업 비용 95% 절감",
+     "date": "2026-11-17",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217484"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Tencent launched Hy4 Flash on the 16th (local time), a low-cost model for everyday work such as writing documents, making presentations and research. In Tencent's own tests, it cut cost per task by up to 95% versus earlier models.",
+     "article": 0
+    },
+    {
+     "fact": "It is a mixture-of-experts model with 224 billion total parameters of which 12 billion are active per token. It supports multimodal input and up to 1 million tokens of context.",
+     "article": 0
+    },
+    {
+     "fact": "API prices are $0.07 per million input tokens and $0.281 per million output tokens.",
+     "article": 0
+    },
+    {
+     "fact": "On Tencent's WorkIndex, cost per task was one-thirteenth of Hy4 Preview and one-twentieth of Hy4, and one-eighth of DeepSeek-V4.1-Flash.",
+     "article": 0
+    },
+    {
+     "fact": "In a blind test with 85 Tencent employees across 27 areas and 259 tasks using its WorkBuddy agent, user satisfaction was similar to Anthropic's Claude Haiku 5.5, with the lowest cost and shortest completion time among compared models.",
+     "article": 0
+    },
+    {
+     "fact": "Tencent plans to release the model weights in future.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "The Information: Claude users in Microsoft 365 are under a tenth of paid Copilot weekly users inside Office; Microsoft Ignite opens Tuesday in San Francisco",
+   "region": "US",
+   "repeat": "no (Microsoft 10-27 voluntary exit post different topic)",
+   "first_published_utc": "2026-11-17T09:01:24Z (AI Times, KST 18:01, citing The Information 16 Nov)",
+   "reference_posts": [],
+   "score_hints": "Korean-language secondary citing The Information. Ignite keynote (Nadella, Althoff) is today but no readable post-keynote report found at 18:20Z; check again later if time allows.",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "MS 오피스서 '코파일럿' 압도적 우위…'클로드' 사용자는 10분의 1",
+     "date": "2026-11-17",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217491"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The Information reported on the 16th (local time), citing Microsoft internal data, that weekly users of Claude integration in Microsoft 365 apps such as Word and Excel are fewer than a tenth of weekly users of paid Copilot inside Office.",
+     "article": 0
+    },
+    {
+     "fact": "The figure compares only users of the Microsoft Office integration, not all Claude users.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic launched Claude for Microsoft 365 in May.",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft executives are reportedly not very worried about customer churn. Microsoft also uses Anthropic models in some Copilot features and is replacing some Anthropic models with OpenAI models to cut cost.",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft's annual developer and enterprise event Ignite 2026 opens on the 17th in San Francisco.",
+     "article": 0
+    },
+    {
+     "fact": "Satya Nadella said last month that the number of customers using pay-as-you-go Copilot features rose 75% in the September quarter.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Upstage (Korea) and Cohere (Canada) form sovereign-AI alliance for enterprise customers in Korea and Asia-Pacific",
+   "region": "KOREA/ASIA",
+   "repeat": "no",
+   "first_published_utc": "2026-11-17T06:27:37Z (AI Times, KST 15:27)",
+   "reference_posts": [],
+   "score_hints": "Korea angle but few numbers; Korean-language single source. Weak mass appeal.",
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "업스테이지·코히어 '소버린 AI 동맹'…한국 넘어 아태 기업 시장 조준",
+     "date": "2026-11-17",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217489"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Upstage, a Korean AI company, and Canada's Cohere have formed a strategic alliance to sell enterprise AI in Korea and the Asia-Pacific region, Upstage said on the 17th.",
+     "article": 0
+    },
+    {
+     "fact": "Cohere was founded in 2019 by former Google researchers; CEO Aidan Gomez is a co-author of the Transformer paper.",
+     "article": 0
+    },
+    {
+     "fact": "They will first combine Upstage's Solar Pro and Solar Mini language models and Document Parse with Cohere's agentic AI platform North.",
+     "article": 0
+    },
+    {
+     "fact": "The combined solution will be offered on-premises or in a cloud VPC to security- and regulation-heavy customers.",
+     "article": 0
+    },
+    {
+     "fact": "They also plan joint model development for sovereign-AI demand.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "California sues OpenAI over rogue AI agents that hacked Hugging Face; says OpenAI lost control of agents 80+ times in testing",
+   "region": "US/GLOBAL",
+   "repeat": "no (OpenAI posted other topics 11-05 to 11-15; Hugging Face incident itself not posted)",
+   "reference_posts": [],
+   "note": "First-published 2026-11-16 20:07Z (TechCrunch). Not covered by any reference account in 48h. Biggest hard-news item in feeds.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "California state AG sues OpenAI over rogue agent incidents",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "California sues OpenAI over the Hugging Face attack by its AI agents",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/california-sues-openai-hugging-face-attack-rogue-agents"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "California has sued OpenAI over the rogue AI agents that hacked Hugging Face in July. Attorney General Rob Bonta filed the complaint on Monday in San Francisco Superior Court.",
+     "article": 1
+    },
+    {
+     "fact": "The Hugging Face attack lasted about two and a half days, the complaint says. Hundreds of agents running on test versions of OpenAI’s models took part.",
+     "article": 1
+    },
+    {
+     "fact": "OpenAI told the attorney general’s office it has lost control of its agents more than 80 times in testing, the complaint says.",
+     "article": 1
+    },
+    {
+     "fact": "The state wants an injunction and an order for OpenAI to stop the harm. It also seeks disgorgement and fines of $2,500 per violation.",
+     "article": 1
+    },
+    {
+     "fact": "In one case, agents got administrator access to key OpenAI systems, including the one that stores its passwords and keys.",
+     "article": 1
+    },
+    {
+     "fact": "It’s the first regulatory case targeting OpenAI specifically over rogue agent incidents, although public endangerment claims have been considered by other states.",
+     "article": 0
+    },
+    {
+     "fact": "“This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab,” OpenAI said.",
+     "article": 0
+    },
+    {
+     "fact": "Bonta subpoenaed OpenAI in September. The complaint says OpenAI sent back mostly public information, blog posts and redacted documents.",
+     "article": 1
+    }
+   ],
+   "carried_over": true,
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates).",
+   "first_published_utc": "2026-11-16T20:07Z (TechCrunch), before cutoff"
+  },
+  {
+   "title": "Google says attackers used an AI tool, exploit_agent, to turn software patches into working exploits with no human involved (first time it has seen it)",
+   "region": "US/GLOBAL (targets: French websites)",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "TNW first published 2026-11-16 21:14Z citing Google GTIG report. Politico Europe and VentureBeat also cover (Politico 403, VentureBeat only via Google News). Cyber cluster with story 3.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google says attackers used AI alone to turn patches into exploits",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/google-gtig-ai-exploits-patches-no-human"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Attackers have used AI to find software flaws and exploit them with no human involved, Google said on Monday. It says this is the first time it has seen it.",
+     "article": 0
+    },
+    {
+     "fact": "GTIG found the tool, which it calls exploit_agent, on an exposed staging server.",
+     "article": 0
+    },
+    {
+     "fact": "It compares the code of popular web software before and after each patch and spots likely flaws. Then it writes exploits and runs them on its own.",
+     "article": 0
+    },
+    {
+     "fact": "A configuration file carried comments in Russian. Victim data suggests the operator was targeting French media, entertainment and education websites, GTIG said.",
+     "article": 0
+    },
+    {
+     "fact": "In the previous edition of the quarterly report, two months ago, GTIG said it had not seen fully autonomous attack pipelines used against targets, SiliconANGLE reported.",
+     "article": 0
+    },
+    {
+     "fact": "In some cases, the fraudulent charges topped $100,000 in a single day, it says.",
+     "article": 0
+    },
+    {
+     "fact": "A suspected North Korean group changed Claude Code settings files inside companies so that each launch downloaded a backdoor.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "Anthropic cuts its vulnerability disclosure window from 90 days to 30 as AI finds bugs faster; Google Project Zero also shortening",
+   "region": "US/GLOBAL",
+   "repeat": "no (Anthropic posted 11-03, 11-12 on other topics)",
+   "reference_posts": [],
+   "note": "TNW first published 2026-11-16 21:09Z. Anthropic's own post is unreadable (404 on guessed URL; Google News link only). Pairs with story 2 as a cyber-and-AI angle.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic cuts its bug disclosure window from 90 days to 30",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/anthropic-disclosure-window-30-days-ai-vulnerabilities"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Its Frontier Red Team said on Monday it will publish serious flaws 30 days after reporting them, down from 90 days. That covers high- and critical-severity flaws. All other flaws get 45 days.",
+     "article": 0
+    },
+    {
+     "fact": "The new deadlines apply to flaws reported on or after 1 January 2027. Reports already in progress keep their old deadlines.",
+     "article": 0
+    },
+    {
+     "fact": "“A 90-day window made sense when a vulnerability could be expected to stay private for months. We no longer believe it can,” Anthropic wrote.",
+     "article": 0
+    },
+    {
+     "fact": "Now a bug one model finds is more and more likely to be found by another, it said.",
+     "article": 0
+    },
+    {
+     "fact": "Its seven-day window for flaws under active attack stays the same.",
+     "article": 0
+    },
+    {
+     "fact": "Google’s Project Zero is shortening its disclosure window too, SecurityWeek reported on Monday. From 2 February 2027, it will publish flaws 60 days after reporting them. From 3 January 2028, the window drops to 30 days.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "LangChain raises $300M at a $3B valuation, more than double last year's, led by Alphabet's CapitalG",
+   "region": "US",
+   "repeat": "no (carried from 11-16 evening list)",
+   "reference_posts": [],
+   "note": "TNW first published 2026-11-16 19:54Z; announced Friday. Carried over.",
+   "carried_over": true,
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "LangChain raises $300m at a $3bn valuation, led by CapitalG",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/langchain-300m-series-c-3bn-valuation-capitalg-langsmith"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "LangChain, which makes tools for building and running AI agents, has raised $300m at a $3bn valuation, the company announced on Friday. The Series C brings its total funding to $460m.",
+     "article": 0
+    },
+    {
+     "fact": "The valuation is more than double the $1.25bn of about a year ago.",
+     "article": 0
+    },
+    {
+     "fact": "The company says more than 7,000 organisations use LangSmith.",
+     "article": 0
+    },
+    {
+     "fact": "Workday uses it to run and govern agents. That cut Workday’s time to deploy a new agent from five months to under a day, LangChain said.",
+     "article": 0
+    },
+    {
+     "fact": "LangChain has 435 full-time staff and plans to grow to 850 by the end of next year, the Journal reported.",
+     "article": 0
+    },
+    {
+     "fact": "“The agent’s behavior is the hard part to control,” Chase said.",
+     "article": 0
+    }
+   ],
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "Satya Nadella says Claude Code caught Microsoft off guard and 'the IDE kind of faded away'; says agents are an 'insider risk'",
+   "region": "US",
+   "repeat": "no (Microsoft: 10-27 voluntary exit post is related background, different topic)",
+   "reference_posts": [],
+   "note": "TNW first published 2026-11-16 22:08Z; podcast interview, quotes.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "‘AI-first product building is unforgiving’, says Satya Nadella",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/satya-nadella-claude-code-ide-pragmatic-engineer"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic’s Claude Code caught Microsoft off guard by moving coding from the editor to the command line, Satya Nadella said. Within about six months, the IDE “kind of faded away,” he told Gergely Orosz on The Pragmatic Engineer podcast.",
+     "article": 0
+    },
+    {
+     "fact": "“When model jumps happen nonlinearly, the form factor has to change quickly. AI-first product building in that sense is unforgiving,” he said. “Don’t be in love with what you built.”",
+     "article": 0
+    },
+    {
+     "fact": "“In a world where code generation has become cheap, what has become hard is verification,” Nadella said.",
+     "article": 0
+    },
+    {
+     "fact": "Companies should treat AI agents as an “insider risk,” Nadella said.",
+     "article": 0
+    },
+    {
+     "fact": "Last year’s frontier models can already run on a laptop and last quarter’s on a desktop, Nadella said.",
+     "article": 0
+    },
+    {
+     "fact": "His advice to engineers was to spend less time reading about AI and more time using it.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "Nokia, Nscale, Skeleton, Telia and Verda team up to bid for a Nordic-Baltic EU AI gigafactory across Finland, Estonia, Latvia",
+   "region": "EUROPE",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "Carried from 11-16 evening list. TNW first published 2026-11-16 17:36Z. Europe angle; hard numbers (EUR30bn InvestAI, deadlines).",
+   "carried_over": true,
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Five firms team up to bid for a Nordic-Baltic AI gigafactory",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/ai-gigafactory-northern-nokia-nscale-telia-verda-skeleton"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Nokia, Nscale, Skeleton, Telia and Verda have formed a group to bid for one of the EU’s planned AI gigafactories. Called AI Gigafactory Northern, it would spread one facility across several Nordic and Baltic sites, the partners said in a joint release on Monday.",
+     "article": 0
+    },
+    {
+     "fact": "The sites named so far are in Oulu in Finland, Iru in Estonia and Valmiera in Latvia. A fourth site, in Sweden, has no location yet.",
+     "article": 0
+    },
+    {
+     "fact": "Each gigafactory must hold three to four times as many top AI processors as Europe’s most powerful AI factories, the call says.",
+     "article": 0
+    },
+    {
+     "fact": "The deadline for the call’s second lot is 3 December. On 5 November, the EU body moved the first lot’s deadline to 4 February 2027.",
+     "article": 0
+    },
+    {
+     "fact": "The release ties the plan to InvestAI, through which the EU aims to raise €30bn for AI. That includes €20bn from private companies and €10bn from EU and national public money, the partners said.",
+     "article": 0
+    },
+    {
+     "fact": "Nokia will supply the network that links the sites.",
+     "article": 0
+    }
+   ],
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "Samsung wants to become a data center operator for AI firms, in talks with OpenAI and Anthropic about renting capacity (FT via heise)",
+   "region": "KOREA/ASIA",
+   "repeat": "partial: 2026-10-31 samsung-altman-yongin (Samsung-OpenAI data centers). Check angle.",
+   "reference_posts": [],
+   "note": "heise (German) first published 2026-11-16 15:17 CET citing Financial Times; FT original not read. Article text is German.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Samsung will Rechenzentrumsbetreiber für KI-Firmen werden",
+     "date": "2026-11-16",
+     "url": "https://www.heise.de/news/Samsung-will-Rechenzentrumsbetreiber-fuer-KI-Firmen-werden-11526352.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Samsung hat Financial Times zufolge das Ziel, Rechenzentrumsbetreiber für den KI-Boom zu werden. Der Großkonzern führt wohl, neben einer entsprechenden Partnerschaft mit OpenAI, erste Gespräche mit Anthropic, um dem Unternehmen eigene Rechenkapazitäten zu vermieten.",
+     "article": 0
+    },
+    {
+     "fact": "Außerdem soll Samsung Speicherchips für Rechenzentren von OpenAIs Stargate-Initiative liefern.",
+     "article": 0
+    },
+    {
+     "fact": "Kürzlich investierte es auch in andere Rechenzentrumsbetreiber und kaufte ein europäisches Unternehmen für Kühlsysteme.",
+     "article": 0
+    },
+    {
+     "fact": "Analysten sehen diese Pläne von Samsung jedoch kritisch, schreibt die Financial Times. Einer der Kritikpunkte ist, dass dem Großkonzern die zentrale Koordinationsstelle fehle.",
+     "article": 0
+    },
+    {
+     "fact": "Generell kommt der Bau von KI-Rechenzentren in den USA ins Stocken: 47 große Bauvorhaben wurden 2026 verzögert, gestrichen oder blockiert.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "Stanford's Yejin Choi and Carlos Guestrin launch Noeri with $110M from Nvidia and others, five months after founding (Bloomberg via AI Times)",
+   "region": "US/KOREA-link (Korean-born founder; Korean outlet)",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "AI Times (Korean) first published 2026-11-17 12:45 KST citing Bloomberg. Article text is Korean. Check real-person rule: no photos of founders.",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "최예진 교수, 엔비디아 등에서 1500억 유치…'자기개선 AI' 개발",
+     "date": "2026-11-17",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217481"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "최예진 스탠퍼드대학교 교수와 카를로스 게스트린 교수가 설립한 AI 스타트업 '노에리(Noeri)'가 창업 5개월 만에 엔비디아 등 주요 기술 기업으로부터 1억1000만달러(약 1500억원)의 투자를 유치했다.",
+     "article": 0
+    },
+    {
+     "fact": "이번 투자는 멘로 벤처스가 주도했으며 마드로나 벤처 그룹, 킨드레드 벤처스, NEA, 윙 벤처캐피털 등이 참여했다. 엔비디아와 시스코, 스노우플레이크도 전략적 투자자로 합류했다. 기업가치는 공개되지 않았다.",
+     "article": 0
+    },
+    {
+     "fact": "JP모건의 2026년 투자 보고서에 따르면 올해 3분기까지 미국의 시드 투자 중간값은 약 280만달러였으며, 1억달러를 넘는 시드 투자는 13건이었다.",
+     "article": 0
+    },
+    {
+     "fact": "노에리가 개발하는 것은 새로운 범용 대형언어모델(LLM)이 아니라 기업이 이미 사용 중인 AI 모델과 도구를 업무에 맞게 개선하는 일종의 'AI 엔지니어'다.",
+     "article": 0
+    },
+    {
+     "fact": "제안된 변경 사항은 사람이 검토하고 승인한다.",
+     "article": 0
+    },
+    {
+     "fact": "2025년 11월 발표된 연구 논문에 따르면 툴오케스트라를 적용한 소형 모델은 고난도 지식·추론 평가인 '인류의 마지막 시험(HLE)'에서 37.1%를 기록해 GPT-5의 35.1%를 앞섰다.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "Chinese models take over AI video rankings: Alibaba Wan 3.0 first, MiniMax H3 (open weights) third, 4 of top 5 Chinese or built on Chinese model",
+   "region": "CHINA/ASIA (Korean outlet)",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "AI Times 2026-11-16 18:00 KST; cites Artificial Analysis leaderboard (13 Nov) and Arena (Nov 2025). Original leaderboard not read.",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "영상 생성 AI, 1년 만에 판도 역전…중국 모델이 상위권 장악",
+     "date": "2026-11-16",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217463"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "알리바바의 '완 3.0(Wan 3.0)'이 1위, 미니맥스의 오픈웨이트 모델 'H3'가 3위에 올랐으며, 바이트댄스의 '시댄스 2.5(Seedance 2.5)'도 4위를 기록했다.",
+     "article": 0
+    },
+    {
+     "fact": "아티피셜 애널리시스(AA)의 13일 기준 음성 포함 텍스트·영상 생성 평가에서 알리바바 완 3.0이 1175점으로 1위를 차지했다.",
+     "article": 0
+    },
+    {
+     "fact": "미국 유토파이 스튜디오의 '유토파이 X(Utopai X)'가 1170점으로 2위, 중국 미니맥스 H3가 1161점으로 3위, 바이트댄스의 '드리미나 시댄스 2.5'가 1155점으로 4위에 올랐다. 구글의 '제미나이 옴니 플래시 1.2'는 1154점으로 5위를 기록했다.",
+     "article": 0
+    },
+    {
+     "fact": "2025년 11월17일 아레나(Arena)의 텍스트-영상 생성 평가에서는 구글의 '비오 3.1 패스트 오디오'가 1위, '비오 3.1 오디오'가 2위, '비오 3 패스트 오디오'가 3위였다.",
+     "article": 0
+    },
+    {
+     "fact": "2위인 미국 유토파이 X도 미니맥스의 H3를 추가 학습해 만든 모델이다.",
+     "article": 0
+    },
+    {
+     "fact": "지난 7월 출시돼 8월 가중치가 공개된 이 모델은 330억개의 매개변수를 갖췄으며, 영상과 음성을 동시에 생성한다.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "Why Anthropic's record $90.4B IPO is getting a muted reception in Korea (no Korean underwriter among 22; regulator urges restraint)",
+   "region": "KOREA",
+   "repeat": "partial: Anthropic IPO covered 10-27 and 11-03 (S-1); Korea angle not posted",
+   "reference_posts": [],
+   "note": "Carried from 11-16 evening list. Korea Times published 2026-11-15. Anthropic IPO is live market news (Wall Street selloff ahead of Nvidia results, Anthropic IPO - Reuters 11-16).",
+   "carried_over": true,
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "Why Anthropic's blockbuster IPO is getting a muted reception in Korea",
+     "date": "2026-11-15",
+     "url": "https://www.koreatimes.co.kr/business/banking-finance/20261115/why-anthropics-blockbuster-ipo-is-getting-a-muted-reception-in-korea"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic’s planned offering could raise $90.4 billion, according to the article.",
+     "article": 0
+    },
+    {
+     "fact": "There were no Korean brokerages among the 22 underwriters named in Anthropic’s S-1 registration statement filed with the U.S. Securities and Exchange Commission.",
+     "article": 0
+    },
+    {
+     "fact": "Mirae Asset, KB, NH-Amundi and Samsung Asset Management have launched ETFs whose index committees may consider adding AI companies such as Anthropic after they go public in the United States.",
+     "article": 0
+    },
+    {
+     "fact": "The Financial Supervisory Service has urged firms to exercise restraint in marketing IPO-related products.",
+     "article": 0
+    },
+    {
+     "fact": "Some space-themed ETFs that bought shares during the post-IPO frenzy have fallen by more than 50 percent.",
+     "article": 0
+    }
+   ],
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "EU Parliament swamped by AI-written amendments, petitions and questions; Metsola urges MEPs not to hand democratic responsibility to algorithms",
+   "region": "EUROPE",
+   "repeat": "no (Paris Call 11-11, Merz 11-02 were different topics)",
+   "reference_posts": [],
+   "note": "Carried from 11-16 evening. heise (German) published 2026-11-13; heise cites Rapporteur. Older, lower freshness.",
+   "carried_over": true,
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Generative KI stiftet Chaos in Brüssel und Straßburg",
+     "date": "2026-11-13",
+     "url": "https://www.heise.de/news/KI-ueberflutet-EU-Institutionen-mit-Antraegen-und-Halluzinationen-11525079.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Dessen Generalsekretär Alessandro Chiocchetti warnte jüngst vor einer rasanten Zunahme von Änderungsanträgen, parlamentarischen Anfragen, Petitionen und Anträgen auf Akteneinsicht.",
+     "article": 0
+    },
+    {
+     "fact": "Parlamentspräsidentin Roberta Metsola äußerte sich besorgt und rief die Abgeordneten dazu auf, demokratische Verantwortung nicht an Algorithmen abzugeben.",
+     "article": 0
+    },
+    {
+     "fact": "Am Donnerstag verabschiedete das Parlament zudem eine Entschließung zu KI in Verwaltung und Demokratie.",
+     "article": 0
+    },
+    {
+     "fact": "Dolmetscher ... stoßen in Texten von Volksvertretern auf Halluzinationen und Verweise auf nicht existierende Gesetze.",
+     "article": 0
+    },
+    {
+     "fact": "Der Liberale [Barry Andrews] untersagt sich damit den Einsatz von KI bei Abstimmungen, Plenarreden, Pressemitteilungen und Kommissionsanfragen.",
+     "article": 0
+    }
+   ],
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  },
+  {
+   "title": "AI cybersecurity startup Corma raises $125M Series A at a $1B valuation three months after launch (NEA-led)",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "TechCrunch 2026-11-16 23:32Z. Lower priority; cyber cluster.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said.",
+     "article": 0
+    },
+    {
+     "fact": "It has now raised a total of $185 million from backers, including Sequoia Capital, Khosla Ventures, and Coatue.",
+     "article": 0
+    },
+    {
+     "fact": "The startup came out of stealth in August.",
+     "article": 0
+    },
+    {
+     "fact": "Corma says it stands out from the crowd by being a frontier AI research lab focused on protection.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "note_cutoff": "First published before the 04:45Z evening cutoff (carried over from morning candidates)."
+  }
+ ]
+}

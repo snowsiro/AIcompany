@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-17-china-distillation-reuters",
+  "date": "2026-11-17",
+  "category": "POLICY",
+  "status": "ready",
+  "cover": {
+    "tag": "GLOBAL AI · POLICY",
+    "headline": [
+      "CHINA'S AI TRICK",
+      "GOES **INDUSTRIAL**"
+    ],
+    "hook_options": [
+      [
+        "CHINA'S AI TRICK",
+        "GOES **INDUSTRIAL**"
+      ],
+      [
+        "REUTERS READ 300",
+        "FILES ON **DISTILLING**"
+      ],
+      [
+        "US VS CHINA OVER",
+        "AI **OUTPUTS**"
+      ],
+      [
+        "US WARNED CHINA",
+        "IN **CHENGDU**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "rivalry",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "The claim hook states the Reuters finding in plain words (distillation moving from lab experiments to industrial use) and slides 2 to 3 back it fully. It avoids any 'stole' or 'copied' framing, which the article does not support. The number hook says 300 where the article says 'about 300' and needs context, the rivalry hook covers only the policy half, and the Chengdu hook is narrower and relies on unnamed sources. No reader-impact hook: the article states no effect on what ordinary readers pay, use or risk.",
+    "image_prompt": "Cinematic wide shot of a dark industrial hall where a thin stream of glowing accent-yellow liquid drips from one large glass vessel through narrow glass tubes into rows of smaller vessels on an automated conveyor line, cold blue haze, faint reflections on a wet floor, shallow depth of field, volumetric light. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The finding",
+      "title": "A lab trick becomes an industry",
+      "body": [
+        "Reuters reported, as relayed by AI Times Korea, that Chinese firms are using **distillation**: training their own AI models on the answers of US models. After reviewing about 300 documents, it says this now goes beyond academic experiments."
+      ]
+    },
+    {
+      "kicker": "The method",
+      "title": "Automated collection, expert prep",
+      "body": [
+        "Per the report, Chinese researchers gather answers, code and solutions to hard problems from US models for training. Some companies built **software that automates collection** and use specialists to process the material."
+      ]
+    },
+    {
+      "kicker": "The evidence",
+      "title": "What Reuters looked at",
+      "body": [
+        "Reuters analysed about 300 Chinese **papers, patents, company filings, job postings and government documents**. AI Times Korea, a Korean AI news outlet, says the report goes beyond known individual research cases."
+      ]
+    },
+    {
+      "kicker": "The US warning",
+      "title": "A July meeting in Chengdu",
+      "body": [
+        "According to three people cited by Reuters, US Commerce Department officials raised the issue with Chinese regulators in **Chengdu** in July. They warned some collection of US model outputs could amount to **IP infringement**."
+      ]
+    },
+    {
+      "kicker": "China's response",
+      "title": "\"Normal\" technique, no promise",
+      "body": [
+        "A US official said Chinese authorities called distillation a normal AI development technique and said they could act on IP infringement. They made **no specific commitment**. Some Chinese developers have asked their industry regulator where the line sits."
+      ]
+    },
+    {
+      "kicker": "Still open",
+      "title": "Not illegal in itself",
+      "body": [
+        "Distillation is **not illegal in itself** and is used in other countries. A January Chinese policy backs distillation, but does not tell firms to distil US models. OpenAI and Anthropic restrict by their terms using their outputs to build competing models."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times Korea",
+      "title": "중국, 미국 AI ‘증류’ 산업화…자동 수집에 전문 인력까지 투입",
+      "title_en": "China industrialises distillation of US AI, from automated collection to dedicated specialists",
+      "language": "Korean",
+      "date": "Nov 17, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217497"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Reuters, on the 17th (local time), analysed about 300 Chinese papers, patents, company filings, job postings and government documents and reported that distillation, using US model outputs for training, is used in industry beyond academic experiments."
+    },
+    {
+      "source": 0,
+      "text": "Chinese researchers obtain answers, code and solutions to complex problems from US models to train their own models. Companies developed software that automates collection and use specialists to process training material."
+    },
+    {
+      "source": 0,
+      "text": "According to three people, at a July meeting in Chengdu, US Commerce Department officials raised the collection of outputs from major US AI models with Chinese regulators and warned some actions could amount to intellectual property infringement."
+    },
+    {
+      "source": 0,
+      "text": "A US government official said Chinese authorities described distillation as a general AI development technique but said they could respond to IP infringement, and made no specific commitment."
+    },
+    {
+      "source": 0,
+      "text": "Some developers recently asked China's industry regulator for criteria separating ordinary use of foreign models from systematic collection of outputs for training."
+    },
+    {
+      "source": 0,
+      "text": "A January policy from eight Chinese government ministries, 'AI+Manufacturing', includes support for model training, fine-tuning and distillation. The government document does not instruct companies to distil US models."
+    },
+    {
+      "source": 0,
+      "text": "Distillation itself is not illegal and is used in other countries. OpenAI and Anthropic restrict by their terms the use of their outputs to develop and train competing models."
+    }
+  ],
+  "caption": "Reuters reports Chinese firms have turned AI distillation into an industrial process, as relayed by AI Times Korea.\n\nDistillation means training a model on the answers of another model. It is not illegal in itself.\n\n→ Reuters analysed about 300 Chinese papers, patents, filings, job postings and government documents; some firms built software to automate collecting US model outputs\n→ Per three people, US Commerce officials warned Chinese regulators in Chengdu in July that some of it could be IP infringement\n→ A US official said China called distillation normal and made no specific commitment\n\nWhere should the line between learning from a model and copying it sit?\n\nSource: AI Times Korea, \"China industrialises distillation of US AI, from automated collection to dedicated specialists\" (in Korean) (Nov 17, 2026), citing Reuters.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Distillation",
+    "#AIPolicy",
+    "#China"
+  ],
+  "threads_caption": "Reuters reports Chinese firms have turned AI distillation into an industrial process, as relayed by AI Times Korea.\n\nPer three people, US officials warned Chinese regulators in July that some output collection could be IP infringement. China made no specific commitment.\n\nSource: AI Times Korea, \"China industrialises distillation of US AI, from automated collection to dedicated specialists\" (in Korean). #Distillation"
+}
