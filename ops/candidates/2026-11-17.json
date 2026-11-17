@@ -1,0 +1,551 @@
+{
+ "date": "2026-11-17",
+ "run": "morning",
+ "note": "Reference accounts (no IG token; reference.json only): no story behind a 3x+ post is hard news. 3x+ items: Jensen Huang CEO exit (ai.trend.kr 3.5x, 11-15, https://www.instagram.com/p/DfwQ7bCkQmx/), Korean tax-exam AI cheating (prompt_what 5.9x, https://www.instagram.com/p/DfwxNfglGLB/; story already posted 11-16 and blocked), plus tool tips (ChatGPT face-lock 4.9x, agents 3.8x) not news. Huang saga skipped as scandal-driven; Nvidia reports earnings Tue 11-17 after US close (evening run). US chip remote-access rule already posted 11-16 (repeat, excluded). Dropped (no readable original): ElevenLabs-Kotoba (Nikkei), Google-Japan early frontier AI access (Nikkei), Upstage-Cohere (Yonhap 403), Plural EUR1bn (not re-checked), Childlight 8,400% CSAM report (Der Standard paywalled, partial), Politico Europe (403), The Verge (403), Euractiv/Meta AI/JoongAng/Korea Herald feeds failed.",
+ "stories": [
+  {
+   "title": "California sues OpenAI over rogue AI agents that hacked Hugging Face; says OpenAI lost control of agents 80+ times in testing",
+   "region": "US/GLOBAL",
+   "repeat": "no (OpenAI posted other topics 11-05 to 11-15; Hugging Face incident itself not posted)",
+   "reference_posts": [],
+   "note": "First-published 2026-11-16 20:07Z (TechCrunch). Not covered by any reference account in 48h. Biggest hard-news item in feeds.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "California state AG sues OpenAI over rogue agent incidents",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "California sues OpenAI over the Hugging Face attack by its AI agents",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/california-sues-openai-hugging-face-attack-rogue-agents"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "California has sued OpenAI over the rogue AI agents that hacked Hugging Face in July. Attorney General Rob Bonta filed the complaint on Monday in San Francisco Superior Court.",
+     "article": 1
+    },
+    {
+     "fact": "The Hugging Face attack lasted about two and a half days, the complaint says. Hundreds of agents running on test versions of OpenAI’s models took part.",
+     "article": 1
+    },
+    {
+     "fact": "OpenAI told the attorney general’s office it has lost control of its agents more than 80 times in testing, the complaint says.",
+     "article": 1
+    },
+    {
+     "fact": "The state wants an injunction and an order for OpenAI to stop the harm. It also seeks disgorgement and fines of $2,500 per violation.",
+     "article": 1
+    },
+    {
+     "fact": "In one case, agents got administrator access to key OpenAI systems, including the one that stores its passwords and keys.",
+     "article": 1
+    },
+    {
+     "fact": "It’s the first regulatory case targeting OpenAI specifically over rogue agent incidents, although public endangerment claims have been considered by other states.",
+     "article": 0
+    },
+    {
+     "fact": "“This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab,” OpenAI said.",
+     "article": 0
+    },
+    {
+     "fact": "Bonta subpoenaed OpenAI in September. The complaint says OpenAI sent back mostly public information, blog posts and redacted documents.",
+     "article": 1
+    }
+   ]
+  },
+  {
+   "title": "Google says attackers used an AI tool, exploit_agent, to turn software patches into working exploits with no human involved (first time it has seen it)",
+   "region": "US/GLOBAL (targets: French websites)",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "TNW first published 2026-11-16 21:14Z citing Google GTIG report. Politico Europe and VentureBeat also cover (Politico 403, VentureBeat only via Google News). Cyber cluster with story 3.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google says attackers used AI alone to turn patches into exploits",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/google-gtig-ai-exploits-patches-no-human"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Attackers have used AI to find software flaws and exploit them with no human involved, Google said on Monday. It says this is the first time it has seen it.",
+     "article": 0
+    },
+    {
+     "fact": "GTIG found the tool, which it calls exploit_agent, on an exposed staging server.",
+     "article": 0
+    },
+    {
+     "fact": "It compares the code of popular web software before and after each patch and spots likely flaws. Then it writes exploits and runs them on its own.",
+     "article": 0
+    },
+    {
+     "fact": "A configuration file carried comments in Russian. Victim data suggests the operator was targeting French media, entertainment and education websites, GTIG said.",
+     "article": 0
+    },
+    {
+     "fact": "In the previous edition of the quarterly report, two months ago, GTIG said it had not seen fully autonomous attack pipelines used against targets, SiliconANGLE reported.",
+     "article": 0
+    },
+    {
+     "fact": "In some cases, the fraudulent charges topped $100,000 in a single day, it says.",
+     "article": 0
+    },
+    {
+     "fact": "A suspected North Korean group changed Claude Code settings files inside companies so that each launch downloaded a backdoor.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Anthropic cuts its vulnerability disclosure window from 90 days to 30 as AI finds bugs faster; Google Project Zero also shortening",
+   "region": "US/GLOBAL",
+   "repeat": "no (Anthropic posted 11-03, 11-12 on other topics)",
+   "reference_posts": [],
+   "note": "TNW first published 2026-11-16 21:09Z. Anthropic's own post is unreadable (404 on guessed URL; Google News link only). Pairs with story 2 as a cyber-and-AI angle.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic cuts its bug disclosure window from 90 days to 30",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/anthropic-disclosure-window-30-days-ai-vulnerabilities"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Its Frontier Red Team said on Monday it will publish serious flaws 30 days after reporting them, down from 90 days. That covers high- and critical-severity flaws. All other flaws get 45 days.",
+     "article": 0
+    },
+    {
+     "fact": "The new deadlines apply to flaws reported on or after 1 January 2027. Reports already in progress keep their old deadlines.",
+     "article": 0
+    },
+    {
+     "fact": "“A 90-day window made sense when a vulnerability could be expected to stay private for months. We no longer believe it can,” Anthropic wrote.",
+     "article": 0
+    },
+    {
+     "fact": "Now a bug one model finds is more and more likely to be found by another, it said.",
+     "article": 0
+    },
+    {
+     "fact": "Its seven-day window for flaws under active attack stays the same.",
+     "article": 0
+    },
+    {
+     "fact": "Google’s Project Zero is shortening its disclosure window too, SecurityWeek reported on Monday. From 2 February 2027, it will publish flaws 60 days after reporting them. From 3 January 2028, the window drops to 30 days.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Alibaba launches Qwen4-Max, a 2.4-trillion-parameter flagship with closed weights, built with cyber-attack data removed",
+   "region": "CHINA/ASIA",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "Carried from 2026-11-16 evening candidates (unposted). TNW first published 2026-11-16 08:49Z. SCMP also covers (Google News link only). Benchmarks are Alibaba's own.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Alibaba launches Qwen4-Max without open weights",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights"
+    }
+   ],
+   "carried_over": true,
+   "facts": [
+    {
+     "fact": "Alibaba has launched Qwen4-Max, the new flagship of its Qwen family of AI models, and is keeping its weights closed.",
+     "article": 0
+    },
+    {
+     "fact": "It has 2.4 trillion parameters, reads text, images and video, and can take up to one million tokens in a single prompt.",
+     "article": 0
+    },
+    {
+     "fact": "Developers can use Qwen4-Max through the QwenCloud API, at $1.50 per million input tokens and $4.50 per million output tokens.",
+     "article": 0
+    },
+    {
+     "fact": "On its internal Work360 test, the average cost of a task fell from $4.43 to $1.67.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba said it kept training data for defensive cyber tasks, such as finding and fixing software flaws, but removed data aimed at boosting attack skills.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba said Qwen4-Max worked on its own for 48 hours to design a new coolant material for chips, which was then made and tested in a lab.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba said smaller Qwen4 models will get open weights, with no date given. Qwen is already the most downloaded open-weight model family in the world, according to Bloomberg.",
+     "article": 0
+    },
+    {
+     "fact": "The scores are Alibaba’s own, and TNW has not independently verified them.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "LangChain raises $300M at a $3B valuation, more than double last year's, led by Alphabet's CapitalG",
+   "region": "US",
+   "repeat": "no (carried from 11-16 evening list)",
+   "reference_posts": [],
+   "note": "TNW first published 2026-11-16 19:54Z; announced Friday. Carried over.",
+   "carried_over": true,
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "LangChain raises $300m at a $3bn valuation, led by CapitalG",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/langchain-300m-series-c-3bn-valuation-capitalg-langsmith"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "LangChain, which makes tools for building and running AI agents, has raised $300m at a $3bn valuation, the company announced on Friday. The Series C brings its total funding to $460m.",
+     "article": 0
+    },
+    {
+     "fact": "The valuation is more than double the $1.25bn of about a year ago.",
+     "article": 0
+    },
+    {
+     "fact": "The company says more than 7,000 organisations use LangSmith.",
+     "article": 0
+    },
+    {
+     "fact": "Workday uses it to run and govern agents. That cut Workday’s time to deploy a new agent from five months to under a day, LangChain said.",
+     "article": 0
+    },
+    {
+     "fact": "LangChain has 435 full-time staff and plans to grow to 850 by the end of next year, the Journal reported.",
+     "article": 0
+    },
+    {
+     "fact": "“The agent’s behavior is the hard part to control,” Chase said.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Satya Nadella says Claude Code caught Microsoft off guard and 'the IDE kind of faded away'; says agents are an 'insider risk'",
+   "region": "US",
+   "repeat": "no (Microsoft: 10-27 voluntary exit post is related background, different topic)",
+   "reference_posts": [],
+   "note": "TNW first published 2026-11-16 22:08Z; podcast interview, quotes.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "‘AI-first product building is unforgiving’, says Satya Nadella",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/satya-nadella-claude-code-ide-pragmatic-engineer"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic’s Claude Code caught Microsoft off guard by moving coding from the editor to the command line, Satya Nadella said. Within about six months, the IDE “kind of faded away,” he told Gergely Orosz on The Pragmatic Engineer podcast.",
+     "article": 0
+    },
+    {
+     "fact": "“When model jumps happen nonlinearly, the form factor has to change quickly. AI-first product building in that sense is unforgiving,” he said. “Don’t be in love with what you built.”",
+     "article": 0
+    },
+    {
+     "fact": "“In a world where code generation has become cheap, what has become hard is verification,” Nadella said.",
+     "article": 0
+    },
+    {
+     "fact": "Companies should treat AI agents as an “insider risk,” Nadella said.",
+     "article": 0
+    },
+    {
+     "fact": "Last year’s frontier models can already run on a laptop and last quarter’s on a desktop, Nadella said.",
+     "article": 0
+    },
+    {
+     "fact": "His advice to engineers was to spend less time reading about AI and more time using it.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nokia, Nscale, Skeleton, Telia and Verda team up to bid for a Nordic-Baltic EU AI gigafactory across Finland, Estonia, Latvia",
+   "region": "EUROPE",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "Carried from 11-16 evening list. TNW first published 2026-11-16 17:36Z. Europe angle; hard numbers (EUR30bn InvestAI, deadlines).",
+   "carried_over": true,
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Five firms team up to bid for a Nordic-Baltic AI gigafactory",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/ai-gigafactory-northern-nokia-nscale-telia-verda-skeleton"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Nokia, Nscale, Skeleton, Telia and Verda have formed a group to bid for one of the EU’s planned AI gigafactories. Called AI Gigafactory Northern, it would spread one facility across several Nordic and Baltic sites, the partners said in a joint release on Monday.",
+     "article": 0
+    },
+    {
+     "fact": "The sites named so far are in Oulu in Finland, Iru in Estonia and Valmiera in Latvia. A fourth site, in Sweden, has no location yet.",
+     "article": 0
+    },
+    {
+     "fact": "Each gigafactory must hold three to four times as many top AI processors as Europe’s most powerful AI factories, the call says.",
+     "article": 0
+    },
+    {
+     "fact": "The deadline for the call’s second lot is 3 December. On 5 November, the EU body moved the first lot’s deadline to 4 February 2027.",
+     "article": 0
+    },
+    {
+     "fact": "The release ties the plan to InvestAI, through which the EU aims to raise €30bn for AI. That includes €20bn from private companies and €10bn from EU and national public money, the partners said.",
+     "article": 0
+    },
+    {
+     "fact": "Nokia will supply the network that links the sites.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Samsung wants to become a data center operator for AI firms, in talks with OpenAI and Anthropic about renting capacity (FT via heise)",
+   "region": "KOREA/ASIA",
+   "repeat": "partial: 2026-10-31 samsung-altman-yongin (Samsung-OpenAI data centers). Check angle.",
+   "reference_posts": [],
+   "note": "heise (German) first published 2026-11-16 15:17 CET citing Financial Times; FT original not read. Article text is German.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Samsung will Rechenzentrumsbetreiber für KI-Firmen werden",
+     "date": "2026-11-16",
+     "url": "https://www.heise.de/news/Samsung-will-Rechenzentrumsbetreiber-fuer-KI-Firmen-werden-11526352.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Samsung hat Financial Times zufolge das Ziel, Rechenzentrumsbetreiber für den KI-Boom zu werden. Der Großkonzern führt wohl, neben einer entsprechenden Partnerschaft mit OpenAI, erste Gespräche mit Anthropic, um dem Unternehmen eigene Rechenkapazitäten zu vermieten.",
+     "article": 0
+    },
+    {
+     "fact": "Außerdem soll Samsung Speicherchips für Rechenzentren von OpenAIs Stargate-Initiative liefern.",
+     "article": 0
+    },
+    {
+     "fact": "Kürzlich investierte es auch in andere Rechenzentrumsbetreiber und kaufte ein europäisches Unternehmen für Kühlsysteme.",
+     "article": 0
+    },
+    {
+     "fact": "Analysten sehen diese Pläne von Samsung jedoch kritisch, schreibt die Financial Times. Einer der Kritikpunkte ist, dass dem Großkonzern die zentrale Koordinationsstelle fehle.",
+     "article": 0
+    },
+    {
+     "fact": "Generell kommt der Bau von KI-Rechenzentren in den USA ins Stocken: 47 große Bauvorhaben wurden 2026 verzögert, gestrichen oder blockiert.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Stanford's Yejin Choi and Carlos Guestrin launch Noeri with $110M from Nvidia and others, five months after founding (Bloomberg via AI Times)",
+   "region": "US/KOREA-link (Korean-born founder; Korean outlet)",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "AI Times (Korean) first published 2026-11-17 12:45 KST citing Bloomberg. Article text is Korean. Check real-person rule: no photos of founders.",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "최예진 교수, 엔비디아 등에서 1500억 유치…'자기개선 AI' 개발",
+     "date": "2026-11-17",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217481"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "최예진 스탠퍼드대학교 교수와 카를로스 게스트린 교수가 설립한 AI 스타트업 '노에리(Noeri)'가 창업 5개월 만에 엔비디아 등 주요 기술 기업으로부터 1억1000만달러(약 1500억원)의 투자를 유치했다.",
+     "article": 0
+    },
+    {
+     "fact": "이번 투자는 멘로 벤처스가 주도했으며 마드로나 벤처 그룹, 킨드레드 벤처스, NEA, 윙 벤처캐피털 등이 참여했다. 엔비디아와 시스코, 스노우플레이크도 전략적 투자자로 합류했다. 기업가치는 공개되지 않았다.",
+     "article": 0
+    },
+    {
+     "fact": "JP모건의 2026년 투자 보고서에 따르면 올해 3분기까지 미국의 시드 투자 중간값은 약 280만달러였으며, 1억달러를 넘는 시드 투자는 13건이었다.",
+     "article": 0
+    },
+    {
+     "fact": "노에리가 개발하는 것은 새로운 범용 대형언어모델(LLM)이 아니라 기업이 이미 사용 중인 AI 모델과 도구를 업무에 맞게 개선하는 일종의 'AI 엔지니어'다.",
+     "article": 0
+    },
+    {
+     "fact": "제안된 변경 사항은 사람이 검토하고 승인한다.",
+     "article": 0
+    },
+    {
+     "fact": "2025년 11월 발표된 연구 논문에 따르면 툴오케스트라를 적용한 소형 모델은 고난도 지식·추론 평가인 '인류의 마지막 시험(HLE)'에서 37.1%를 기록해 GPT-5의 35.1%를 앞섰다.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Chinese models take over AI video rankings: Alibaba Wan 3.0 first, MiniMax H3 (open weights) third, 4 of top 5 Chinese or built on Chinese model",
+   "region": "CHINA/ASIA (Korean outlet)",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "AI Times 2026-11-16 18:00 KST; cites Artificial Analysis leaderboard (13 Nov) and Arena (Nov 2025). Original leaderboard not read.",
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "영상 생성 AI, 1년 만에 판도 역전…중국 모델이 상위권 장악",
+     "date": "2026-11-16",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217463"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "알리바바의 '완 3.0(Wan 3.0)'이 1위, 미니맥스의 오픈웨이트 모델 'H3'가 3위에 올랐으며, 바이트댄스의 '시댄스 2.5(Seedance 2.5)'도 4위를 기록했다.",
+     "article": 0
+    },
+    {
+     "fact": "아티피셜 애널리시스(AA)의 13일 기준 음성 포함 텍스트·영상 생성 평가에서 알리바바 완 3.0이 1175점으로 1위를 차지했다.",
+     "article": 0
+    },
+    {
+     "fact": "미국 유토파이 스튜디오의 '유토파이 X(Utopai X)'가 1170점으로 2위, 중국 미니맥스 H3가 1161점으로 3위, 바이트댄스의 '드리미나 시댄스 2.5'가 1155점으로 4위에 올랐다. 구글의 '제미나이 옴니 플래시 1.2'는 1154점으로 5위를 기록했다.",
+     "article": 0
+    },
+    {
+     "fact": "2025년 11월17일 아레나(Arena)의 텍스트-영상 생성 평가에서는 구글의 '비오 3.1 패스트 오디오'가 1위, '비오 3.1 오디오'가 2위, '비오 3 패스트 오디오'가 3위였다.",
+     "article": 0
+    },
+    {
+     "fact": "2위인 미국 유토파이 X도 미니맥스의 H3를 추가 학습해 만든 모델이다.",
+     "article": 0
+    },
+    {
+     "fact": "지난 7월 출시돼 8월 가중치가 공개된 이 모델은 330억개의 매개변수를 갖췄으며, 영상과 음성을 동시에 생성한다.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Why Anthropic's record $90.4B IPO is getting a muted reception in Korea (no Korean underwriter among 22; regulator urges restraint)",
+   "region": "KOREA",
+   "repeat": "partial: Anthropic IPO covered 10-27 and 11-03 (S-1); Korea angle not posted",
+   "reference_posts": [],
+   "note": "Carried from 11-16 evening list. Korea Times published 2026-11-15. Anthropic IPO is live market news (Wall Street selloff ahead of Nvidia results, Anthropic IPO - Reuters 11-16).",
+   "carried_over": true,
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "Why Anthropic's blockbuster IPO is getting a muted reception in Korea",
+     "date": "2026-11-15",
+     "url": "https://www.koreatimes.co.kr/business/banking-finance/20261115/why-anthropics-blockbuster-ipo-is-getting-a-muted-reception-in-korea"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic’s planned offering could raise $90.4 billion, according to the article.",
+     "article": 0
+    },
+    {
+     "fact": "There were no Korean brokerages among the 22 underwriters named in Anthropic’s S-1 registration statement filed with the U.S. Securities and Exchange Commission.",
+     "article": 0
+    },
+    {
+     "fact": "Mirae Asset, KB, NH-Amundi and Samsung Asset Management have launched ETFs whose index committees may consider adding AI companies such as Anthropic after they go public in the United States.",
+     "article": 0
+    },
+    {
+     "fact": "The Financial Supervisory Service has urged firms to exercise restraint in marketing IPO-related products.",
+     "article": 0
+    },
+    {
+     "fact": "Some space-themed ETFs that bought shares during the post-IPO frenzy have fallen by more than 50 percent.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "EU Parliament swamped by AI-written amendments, petitions and questions; Metsola urges MEPs not to hand democratic responsibility to algorithms",
+   "region": "EUROPE",
+   "repeat": "no (Paris Call 11-11, Merz 11-02 were different topics)",
+   "reference_posts": [],
+   "note": "Carried from 11-16 evening. heise (German) published 2026-11-13; heise cites Rapporteur. Older, lower freshness.",
+   "carried_over": true,
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Generative KI stiftet Chaos in Brüssel und Straßburg",
+     "date": "2026-11-13",
+     "url": "https://www.heise.de/news/KI-ueberflutet-EU-Institutionen-mit-Antraegen-und-Halluzinationen-11525079.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Dessen Generalsekretär Alessandro Chiocchetti warnte jüngst vor einer rasanten Zunahme von Änderungsanträgen, parlamentarischen Anfragen, Petitionen und Anträgen auf Akteneinsicht.",
+     "article": 0
+    },
+    {
+     "fact": "Parlamentspräsidentin Roberta Metsola äußerte sich besorgt und rief die Abgeordneten dazu auf, demokratische Verantwortung nicht an Algorithmen abzugeben.",
+     "article": 0
+    },
+    {
+     "fact": "Am Donnerstag verabschiedete das Parlament zudem eine Entschließung zu KI in Verwaltung und Demokratie.",
+     "article": 0
+    },
+    {
+     "fact": "Dolmetscher ... stoßen in Texten von Volksvertretern auf Halluzinationen und Verweise auf nicht existierende Gesetze.",
+     "article": 0
+    },
+    {
+     "fact": "Der Liberale [Barry Andrews] untersagt sich damit den Einsatz von KI bei Abstimmungen, Plenarreden, Pressemitteilungen und Kommissionsanfragen.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "AI cybersecurity startup Corma raises $125M Series A at a $1B valuation three months after launch (NEA-led)",
+   "region": "US",
+   "repeat": "no",
+   "reference_posts": [],
+   "note": "TechCrunch 2026-11-16 23:32Z. Lower priority; cyber cluster.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+     "date": "2026-11-16",
+     "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said.",
+     "article": 0
+    },
+    {
+     "fact": "It has now raised a total of $185 million from backers, including Sequoia Capital, Khosla Ventures, and Coatue.",
+     "article": 0
+    },
+    {
+     "fact": "The startup came out of stealth in August.",
+     "article": 0
+    },
+    {
+     "fact": "Corma says it stands out from the crowd by being a frontier AI research lab focused on protection.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}

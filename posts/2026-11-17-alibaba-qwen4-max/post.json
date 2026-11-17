@@ -1,0 +1,131 @@
+{
+  "id": "2026-11-17-alibaba-qwen4-max",
+  "date": "2026-11-17",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "cover": {
+    "tag": "CHINA AI · INDUSTRY",
+    "headline": [
+      "ALIBABA CLOSES",
+      "ITS TOP **QWEN**"
+    ],
+    "hook_options": [
+      [
+        "ALIBABA CLOSES",
+        "ITS TOP **QWEN**"
+      ],
+      [
+        "2.4T PARAMETERS,",
+        "NO **OPEN** WEIGHTS"
+      ],
+      [
+        "$1.50 IN, $4.50",
+        "OUT: **QWEN4-MAX**"
+      ],
+      [
+        "QWEN'S TOP MODEL",
+        "IS **CLOSED**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "The claim hook names the company and the news in plain words, and slides 1 to 4 back it fully: Qwen4-Max has closed weights, while smaller Qwen4 models are promised open. The number hooks need context to land, and the last option drops the company name. No reader-impact hook: the article states no effect on what ordinary readers pay, use or risk, and it has no price comparison with rivals.",
+    "image_prompt": "Cinematic wide shot of a vast dark vault chamber with a single enormous glowing accent-yellow sphere of light sealed inside a transparent glass cube at the center, thin beams of light leaking through a narrow slot toward rows of small dim cubes receding into the dark, cold blue haze, shallow depth of field, volumetric light. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The launch",
+      "title": "Alibaba keeps its top Qwen closed",
+      "body": [
+        "Alibaba, China's e-commerce and cloud giant, launched **Qwen4-Max**, the new flagship of its Qwen family of AI models. It is keeping the model's weights, the files that let others run it themselves, **closed**."
+      ]
+    },
+    {
+      "kicker": "The size",
+      "title": "2.4 trillion parameters",
+      "body": [
+        "Qwen4-Max has **2.4 trillion parameters**, reads text, images and video, and takes up to **one million tokens** in a single prompt. Developers can use it through Alibaba's QwenCloud API."
+      ]
+    },
+    {
+      "kicker": "The price",
+      "title": "$1.50 in, $4.50 out",
+      "body": [
+        "Access through QwenCloud costs **$1.50 per million input tokens** and **$4.50 per million output tokens**. Alibaba said that on its internal Work360 test, the average cost of a task fell versus the earlier Qwen3.8-Max from $4.43 to $1.67."
+      ]
+    },
+    {
+      "kicker": "The context",
+      "title": "Qwen is the open-weight giant",
+      "body": [
+        "Qwen is already the **most downloaded open-weight model family** in the world, according to Bloomberg. Alibaba said smaller Qwen4 models **will get open weights**, with no date given."
+      ]
+    },
+    {
+      "kicker": "The safety call",
+      "title": "Attack data out, defense data in",
+      "body": [
+        "Alibaba said it kept training data for **defensive cyber tasks**, such as finding and fixing software flaws, but **removed data** aimed at boosting attack skills."
+      ]
+    },
+    {
+      "kicker": "The claim",
+      "title": "48 hours on its own",
+      "body": [
+        "Alibaba said Qwen4-Max worked on its own for **48 hours** to design a new coolant material for chips, which was then made and tested in a lab. The claim comes from Alibaba."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "Alibaba launches Qwen4-Max without open weights",
+      "date": "Nov 16, 2026",
+      "url": "https://thenextweb.com/news/alibaba-launches-qwen4-max-flagship-ai-model-without-open-weights"
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Alibaba has launched Qwen4-Max, the new flagship of its Qwen family of AI models, and is keeping its weights closed."
+    },
+    {
+      "source": 0,
+      "text": "It has 2.4 trillion parameters, reads text, images and video, and can take up to one million tokens in a single prompt."
+    },
+    {
+      "source": 0,
+      "text": "Developers can use Qwen4-Max through the QwenCloud API, at $1.50 per million input tokens and $4.50 per million output tokens."
+    },
+    {
+      "source": 0,
+      "text": "On its internal Work360 test, the average cost of a task fell versus the earlier Qwen3.8-Max from $4.43 to $1.67."
+    },
+    {
+      "source": 0,
+      "text": "Alibaba said it kept training data for defensive cyber tasks, such as finding and fixing software flaws, but removed data aimed at boosting attack skills."
+    },
+    {
+      "source": 0,
+      "text": "Alibaba said Qwen4-Max worked on its own for 48 hours to design a new coolant material for chips, which was then made and tested in a lab."
+    },
+    {
+      "source": 0,
+      "text": "Alibaba said smaller Qwen4 models will get open weights, with no date given. Qwen is already the most downloaded open-weight model family in the world, according to Bloomberg."
+    }
+  ],
+  "caption": "Alibaba just launched Qwen4-Max, its 2.4-trillion-parameter flagship, and is keeping the weights closed.\n\nQwen is the most downloaded open-weight model family in the world, per Bloomberg. Alibaba said smaller Qwen4 models will get open weights, with no date given.\n\n→ Qwen4-Max reads text, images and video and takes up to one million tokens in a single prompt\n→ Through the QwenCloud API it costs $1.50 per million input tokens and $4.50 per million output tokens\n→ Alibaba said it removed training data aimed at boosting cyber-attack skills but kept defensive data\n\nShould the biggest open-weight family keep its best model closed?\n\nSource: The Next Web, \"Alibaba launches Qwen4-Max without open weights\" (Nov 16, 2026).\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Alibaba",
+    "#Qwen",
+    "#OpenWeights"
+  ],
+  "threads_caption": "Alibaba just launched Qwen4-Max, a 2.4-trillion-parameter flagship, and is keeping the weights closed.\n\nQwen is the most downloaded open-weight family, per Bloomberg. Alibaba said smaller Qwen4 models will be open, no date given.\n\nSource: The Next Web, \"Alibaba launches Qwen4-Max without open weights\". #Qwen"
+}

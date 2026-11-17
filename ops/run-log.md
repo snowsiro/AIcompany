@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-17
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 7 · 팔로워 2 · 링크 클릭 0 · 최고 도달: metrics 파일 기준 (아직 정산 중, Meta 최대 48h)
+결정할 일
+1. 없음. 아침 스캔은 05:07에 안 돌아 morning-scan을 수동 실행, 약 3분 뒤 main에 올라옴. IG 토큰이 없어 참고 계정은 스캔 파일 reference.json 기준
+2. ready: `2026-11-17-alibaba-qwen4-max` (CHINA AI · INDUSTRY, 알리바바 Qwen4-Max 2.4T 파라미터, 가중치 비공개, 소스 The Next Web 단일 매체, 수치는 알리바바 주장으로 표기, "most downloaded"는 Bloomberg 인용). 1차 fact 불합격(슬라이드 6·캡션에 벤치마크 단서가 엉뚱한 곳에 붙음, 슬라이드 3 비교 기준 누락) → writer 수정 후 2차 fact·hook(7/10)·brand 모두 통과. 참고: 벤치마크 점수는 글에 없음. hook-judge 제안: "KEEPS ... CLOSED"가 "closes"의 오독을 줄일 수 있음(선택)
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6, 재생성 없음). 사람·글자·로고 없음. 월 합계는 이전 보고에 더해 계산 필요. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+4. 예비(저녁 런용): 캘리포니아주의 OpenAI 소송(TechCrunch·TNW), Google GTIG AI 익스플로잇, Anthropic 공개 기한 단축, 엔비디아 실적(화요일 장마감 후, 후보 파일에 없음). `posts/_backlog/2026-11-17-morning-runners-up.md`. 실패한 소스: Euractiv, Meta AI, JoongAng Daily, Korea Herald, The Verge·Politico Europe·Yonhap 원문 403
+자세한 기록
+- 후보 13개 (넘어온 일부 포함), 선정 점수 8 (글로벌 3 + 숫자 2 + 아시아 3)
+- 넘어온 ready 글 없음 (11-16 글 모두 published)
+- 주간 모음은 일요일만, 오늘은 해당 없음
+
 ## [저녁 보고] 2026-11-16
 처리 1건 (ready 1) · 실패 0건
 결정할 일
