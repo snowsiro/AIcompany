@@ -1,24 +1,44 @@
 {
- "fetched_at": "2026-11-17T04:47:44.699Z",
+ "fetched_at": "2026-11-17T11:42:03.815Z",
  "hours": 48,
  "accounts": [
   {
    "username": "ai.trend.kr",
-   "followers": 273854,
+   "followers": 273975,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 660.5,
-    "median_comments": 111
+    "median_engagement": 516.5,
+    "median_comments": 105
    },
    "posts": [
+    {
+     "timestamp": "2026-11-17T11:00:03+0000",
+     "url": "https://www.instagram.com/p/Df1xg-jD-WI/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": null,
+     "comments": 20,
+     "multiple": 0.2,
+     "multiple_basis": "comments",
+     "caption_start": "AI가 가장 먼저 가져갈 직업, 순위로 정리했어요 🚨 오픈AI CEO 샘 올트먼은 미국 연준 행사에서 ”어떤 직업은 완전히, 완전히 사라질 것“이라고 말했어요. 실제로 한국은행 자료를 보면 최근 줄어든 청년 일자리의 94%가 AI 노출이 높은 업종에서 나왔어요. 1위 고객상담·콜센터, 2위 신입 사무직, 3위 주니어 개발자, 4위 출판·콘텐츠 순으로 신입 자리부터 빠르게 줄고 있어요. 반대로 뜨는 직업도 있어요. AI·머신러닝 전문가, 간호사, 요양보호사처럼 AI를 다루거나 몸을 쓰고 사람을 돌"
+    },
+    {
+     "timestamp": "2026-11-17T07:31:46+0000",
+     "url": "https://www.instagram.com/p/Df1ZpblD3l-/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 224,
+     "comments": 70,
+     "multiple": 0.6,
+     "multiple_basis": "likes+comments",
+     "caption_start": "그림체 한 줄이 AI 티를 지웁니다 ✨ 광택 나는 피부에 커다란 눈, 어디서 본 듯한 3D 그림은 이제 한눈에 AI로 보이죠. 반대로 그림체를 정확히 적어주면 손으로 그린 애니메이션 같은 결과가 나옵니다. 그림과 영상은 모두 힉스필드로 만들었어요. 다섯 가지 스타일을 골라 소개했고, 각 스타일에 넣을 단어도 함께 정리했습니다. 애니메이션을 한 번도 만들어 본 적 없어도 괜찮아요. Claude에 힉스필드 MCP만 연결하면 이미지 생성부터 영상화까지 말로 설명해서 진행할 수 있습니다. 튜토리얼 가이드"
+    },
     {
      "timestamp": "2026-11-17T03:27:56+0000",
      "url": "https://www.instagram.com/p/Df09vgpD5x9/",
      "type": "CAROUSEL_ALBUM",
      "likes": null,
-     "comments": 7,
-     "multiple": 0.1,
+     "comments": 21,
+     "multiple": 0.2,
      "multiple_basis": "comments",
      "caption_start": "핀터레스트에서 찜한 그 방, 내 방에서도 될까? 🛋️ 저장만 해 둔 인테리어 사진, 우리 집엔 안 어울릴 것 같아 망설인 적 있으시죠? 빈 방 사진 한 장을 ChatGPT에 올리고 원하는 무드를 한 줄로 적으면, 창문과 바닥은 그대로 두고 가구, 조명, 소품까지 채운 방이 나와요. 에디터가 같은 빈 방 사진으로 빈티지 앤틱, 컬러풀 레트로, 햇살 책방, 크림 프렌치, 그리고 ‘알아서 꾸며 줘’까지 해 봤어요. 침대 자리와 조명을 무드마다 다르게 적으니 같은 방이 전혀 다른 집처럼 바뀌었어요. 가"
     },
@@ -26,9 +46,9 @@
      "timestamp": "2026-11-16T08:00:03+0000",
      "url": "https://www.instagram.com/p/Dfy4JlpkrJN/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 249,
+     "likes": 273,
      "comments": 2,
-     "multiple": 0.4,
+     "multiple": 0.5,
      "multiple_basis": "likes+comments",
      "caption_start": "AI가 틀린 대답을 줘서 ‘어?’ 하고 멈춘 적, 다들 있으시죠? 🤔 보통은 오류라고 부르고 바로 지워버리는 순간들이죠. 이 빗나가고 어긋난 결과를 흥미로운 아이디어의 원천으로 바라보는 사람들이 모여 축제를 엽니다. 국립과천과학관의 ”첨단주간 26 《어?랏 페스티벌》“인데요. AI의 오류를 예술과 과학의 관점에서 살펴보고, 그 틈에서 새로운 가능성을 찾는 자리입니다. 전시를 보고, 강연을 듣고, 워크숍과 퍼포먼스에 직접 참여할 수 있어요. 11월 24일(화)부터 29일(일)까지 국립과천과학관 첨"
     },
@@ -36,51 +56,41 @@
      "timestamp": "2026-11-16T01:00:02+0000",
      "url": "https://www.instagram.com/p/DfyIFb3EgXX/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 1390,
-     "comments": 1829,
-     "multiple": 4.9,
+     "likes": 1465,
+     "comments": 1944,
+     "multiple": 6.6,
      "multiple_basis": "likes+comments",
      "caption_start": "GPT로 이미지 만들 때, 내 얼굴을 넣었는데 딴사람이 나왔다면? 지금 바로 이것부터 설정하세요 😅 크리스마스나 여행 사진을 만들 때 옷과 배경만 바꿔 달라고 했는데 얼굴까지 슬쩍 바뀌어 나오곤 하죠. 이럴 땐 설정 두 가지만 해 두면 됩니다. 먼저 ’개인 맞춤 설정‘의 ’사용자 지정 지침‘에 얼굴 유지 문구를 한 번만 저장해 두세요. 새 채팅마다 긴 프롬프트를 다시 붙여넣지 않아도 자동으로 적용돼요. 같은 화면에 새로 생긴 ’참고 사진‘ 칸에 내 사진도 등록해 두세요. 내 모습을 그릴 때 참고"
-    },
-    {
-     "timestamp": "2026-11-15T11:00:02+0000",
-     "url": "https://www.instagram.com/p/Dfwn7GXEY_G/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": null,
-     "comments": 98,
-     "multiple": 0.9,
-     "multiple_basis": "comments",
-     "caption_start": "새해 계획 세우기 전에, AI에게 내 10년부터 물어보세요 🗓️ AI에게 ”설명은 빼고, 앞으로 10년 어떻게 살지 알려 줘“라고 물으면 이유 없이 할 일만 한 줄씩 담긴 목록이 와요. ChatGPT, 클로드 무료 플랜에서 바로 돼요. 같은 대화창에 ”월급 받는 한국 직장인 기준으로 다시 알려 줘“처럼 내 기준을 한 줄 이어 보내면, 연금저축 세액공제 채우기, 연차는 다 쓰기처럼 내 월급과 시간 안에서 할 수 있는 일로 좁혀져요. 에디터가 기억 없는 새 대화창에서 직접 물어보니 한국 직장인 기준"
-    },
-    {
-     "timestamp": "2026-11-15T07:39:23+0000",
-     "url": "https://www.instagram.com/p/DfwQ7bCkQmx/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 1937,
-     "comments": 370,
-     "multiple": 3.5,
-     "multiple_basis": "likes+comments",
-     "caption_start": "AI 판이 하루아침에 흔들렸어요 🚨 엔비디아 창업자 젠슨 황이 33년 만에 CEO 자리에서 갑자기 물러났어요. 회사는 이유를 밝히지 않았고, 콜레트 크레스 CFO가 임시 CEO를 맡았죠. 수능을 코앞에 두고 AI 안경 부정행위도 잇따라 적발됐어요. 중·고교 내신에서만 4건이 나와 모두 0점 처리됐고, 수능에선 착용만 해도 시험이 무효가 된다고 합니다. 카메라 화면만 흐리게 해도 AI 로봇이 위험한 지시를 따르려 한 비율이 27%에서 88%까지 뛴 실험이 나왔고, 앤트로픽 CEO는 암·알츠하이머가"
     }
    ]
   },
   {
    "username": "sdk.kim.builds",
-   "followers": 65368,
+   "followers": 65543,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 213,
-    "median_comments": 166
+    "median_engagement": 228,
+    "median_comments": 174
    },
    "posts": [
+    {
+     "timestamp": "2026-11-17T08:01:50+0000",
+     "url": "https://www.instagram.com/reel/Df1c_8sCDpC/",
+     "type": "VIDEO",
+     "likes": 16,
+     "comments": 27,
+     "multiple": 0.2,
+     "multiple_basis": "likes+comments",
+     "caption_start": "클로드 코드 플러그인 TOP 5, 순위대로 정리했어요. ━━━━━━━━━━━━━━━━ 5위 Claude Code Setup → 내 프로젝트를 보고 자동화할 부분을 알아서 알려줘요 → 처음 세팅할 때 쓰면 좋아요 4위 Frontend Design → 만든 티 나는 화면 말고, 디자이너가 만든 것 같은 화면을 뽑아줘요 → 바이브 코딩으로 랜딩 페이지 만들 때 결과물이 달라져요 3위 Superpowers → 바로 코딩부터 안 하고, 먼저 질문하고 계획부터 세워요 → 테스트까지 짜두고 시작하니까 엉뚱한 "
+    },
     {
      "timestamp": "2026-11-17T02:03:13+0000",
      "url": "https://www.instagram.com/p/Df0z_9kCgWK/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 26,
-     "comments": 99,
-     "multiple": 0.6,
+     "likes": 59,
+     "comments": 169,
+     "multiple": 1,
      "multiple_basis": "likes+comments",
      "caption_start": "세상에서 가장 쉬운 영상 편집 스킬, 직접 돌려봤습니다. 컷 자르고, 자막 달고, 세로로 바꾸고. 영상 한 편에 편집만 몇 시간씩 걸리죠. ffmpeg-skill은 클로드 코드·커서·코덱스 같은 AI 코딩 도구에 영상 편집 도구 42개를 붙여주는 무료 오픈소스 스킬입니다. → \"말 안 하는 부분 다 잘라 줘\" 한마디로 무음 구간 컷편집 → 말소리를 받아 적어 한 단어씩 강조되는 자막 → 가로 영상을 릴스용 9:16으로, 소리 크기도 플랫폼 기준에 맞게 저희 촬영본 90초짜리를 넣어 보니 말 없는 "
     },
@@ -88,9 +98,9 @@
      "timestamp": "2026-11-16T12:06:19+0000",
      "url": "https://www.instagram.com/reel/DfzT6ecnYR3/",
      "type": "VIDEO",
-     "likes": 125,
-     "comments": 686,
-     "multiple": 3.8,
+     "likes": 165,
+     "comments": 923,
+     "multiple": 4.8,
      "multiple_basis": "likes+comments",
      "caption_start": "지금 에이전트 몇 개째 만들고 계세요? 메일용, 보고서용, 블로그용. 일마다 에이전트를 하나씩 만들고 다 연결하다 보면 반쯤 만든 프로젝트만 쌓이고, 제대로 도는 건 몇 개 안 남아요. 잘 쓰는 사람들은 반대로 해요. 에이전트는 하나만 두고, 일마다 매뉴얼을 줘요. ━━━━━━━━━━━━━━━━ ① 인터뷰 → 매뉴얼 → AI가 내 일을 질문으로 다 뽑아내게 하고, 그걸 매뉴얼로 정리해요 ② 툴박스 → 스크립트, 템플릿, 문서처럼 한 번 만든 건 폴더에 쌓아 두고 다시 써요 ③ 검증 → \"완료\"가 "
     },
@@ -98,8 +108,8 @@
      "timestamp": "2026-11-16T08:04:17+0000",
      "url": "https://www.instagram.com/reel/Dfy4e0NgjGp/",
      "type": "VIDEO",
-     "likes": 16,
-     "comments": 28,
+     "likes": 17,
+     "comments": 37,
      "multiple": 0.2,
      "multiple_basis": "likes+comments",
      "caption_start": "지금 보시는 이 자막이랑 그래픽, 전부 클로드가 넣었어요. 제가 한 건 원본 영상 넣고 말 한마디 한 게 다예요. 하이퍼프레임(HyperFrames)이라는 무료 도구 덕분이에요. 편집 프로그램이 아니라 코드로 영상을 만드는 도구라서, 클로드가 화면을 웹페이지처럼 짜면 하이퍼프레임이 그걸 MP4로 뽑아요. ━━━━━━━━━━━━━━━━ ① 클로드 코드 플러그인으로 설치해요 → 명령어 두 줄이면 끝나요 ② 프로젝트 폴더에 원본 영상을 넣고 말해요 → \"이 영상에 자막이랑 강조 그래픽 넣어줘\" ③ 마음"
@@ -108,41 +118,41 @@
      "timestamp": "2026-11-16T02:05:19+0000",
      "url": "https://www.instagram.com/p/DfyPeBhgsGO/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 110,
-     "comments": 226,
+     "likes": 116,
+     "comments": 258,
      "multiple": 1.6,
      "multiple_basis": "likes+comments",
      "caption_start": "클로드 코드로 만든 앱, 왜 다 비슷하게 촌스러울까요. 클로드 코드는 기능은 잘 만드는데 화면 디자인은 약한 편입니다. 그래서 다들 어디서 본 듯한 화면이 나오죠. 구글이 이걸 메꿔줄 무료 도구를 내놨습니다. 구글 Stitch입니다. → 만들고 싶은 앱을 말로 설명하고 참고 사진을 넣으면 화면을 통째로 그려주고 → 색·글꼴·버튼을 맞춘 디자인 규칙까지 같이 만들어주고 → API 키 하나로 클로드 코드에 연결하면 클로드가 그 디자인 그대로 앱을 짭니다 구글이 낸 Stitch 전용 스킬 모음(goog"
-    },
-    {
-     "timestamp": "2026-11-15T09:02:34+0000",
-     "url": "https://www.instagram.com/reel/DfwaXAdlT4L/",
-     "type": "VIDEO",
-     "likes": 14,
-     "comments": 6,
-     "multiple": 0.1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "#광고 AI 영상, 다시 뽑지 말고 고치세요 🛠️ 색이 틀린 구간만 캡컷 PC(CapCut PC) AI 편집으로 바꾸고, 짧게 끝난 컷은 늘리고, 블프 스티커까지 붙이면 광고 한 편 끝. 크레딧은 아끼고 결과물은 그대로. 나중에 따라 해 보시려면 저장해 두세요. #CapCutPC #CapCutDidThat #capcutmarketing #SmallBusinessMarketing #BlackFridayMarketing #AIMarketing #ContentCreation"
     }
    ]
   },
   {
    "username": "moodmode.ai",
-   "followers": 160261,
+   "followers": 160305,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 379,
-    "median_comments": 23
+    "median_engagement": 403,
+    "median_comments": 20
    },
    "posts": [
+    {
+     "timestamp": "2026-11-17T09:27:08+0000",
+     "url": "https://www.instagram.com/reel/Df1m0dER2vs/",
+     "type": "VIDEO",
+     "likes": null,
+     "comments": 5,
+     "multiple": 0.3,
+     "multiple_basis": "comments",
+     "caption_start": "AI 그림이 비슷해 보일 땐, 스타일을 바꿔보세요. #광고 이번에는 Higgsfield에서 오리지널 캐릭터를 이미지로 만들고, 그 이미지를 시작 프레임으로 넣어 애니메이션까지 제작해봤습니다. 영상에서 소개한 8가지 스타일은 ① 표현주의 일러스트 ② SF 판타지 ③ 셀 애니메이션 ④ 사이키델릭 펑크 아트 ⑤ 팝아트 애니메이션 ⑥ 레트로 SF ⑦ 코믹 아트 애니메이션 ⑧ 스타일라이즈드 디지털 페인팅입니다. 캐릭터·배경·스타일을 적어 이미지를 생성한 뒤, 시작 프레임과 원하는 동작을 넣으면 움직이는 장"
+    },
     {
      "timestamp": "2026-11-17T03:32:45+0000",
      "url": "https://www.instagram.com/reel/Df0-MxPRxcE/",
      "type": "VIDEO",
-     "likes": 46,
-     "comments": 2,
-     "multiple": 0.1,
+     "likes": 191,
+     "comments": 8,
+     "multiple": 0.5,
      "multiple_basis": "likes+comments",
      "caption_start": "공룡과 사람이 뒤바뀐 쥬라기공원.. 이번엔 공룡들이 지프를 타고, 나무만 한 인간을 올려다봅니다. 선글라스를 벗고 입을 못 다무는 장면까지 원작 그대로 따라 해서 더 웃겨요. AI로 만든 패러디 Human Era Park예요. 쥬라기 공원 장면을 하나하나 따라가면서 공룡과 사람 역할만 바꿨어요. 여러분이 공룡이라면 인간 보고 무슨 말부터 할 것 같나요? 댓글로 남겨주세요 👀 Original by jarvis_wang_2077 Edited by moodmode.ai"
     },
@@ -150,9 +160,9 @@
      "timestamp": "2026-11-17T03:11:56+0000",
      "url": "https://www.instagram.com/p/Df076VzkcdO/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 51,
-     "comments": 79,
-     "multiple": 0.3,
+     "likes": 113,
+     "comments": 216,
+     "multiple": 0.8,
      "multiple_basis": "likes+comments",
      "caption_start": "GPT에서 가장 많이 쓰는 실전 프롬프트 10가지! 사진 한 장 올리고 한국어로 말만 하면 ChatGPT가 보정해 줘요. 해외에서 조회 195만을 넘긴 사진 보정 프롬프트를 그대로 옮기지 않고, 직접 만든 가상 인물 사진 12장에 하나씩 돌려 봤어요. 10개만 남겼습니다. 배경 흐림은 두 번 다 안경이 사라졌고, 흔들린 사진 살리기는 얼굴이 달라져서 뺐어요. 돌려 보니 차이를 만든 건 마지막 한 줄이었어요. 바꿀 것만 말하지 말고 얼굴 생김새, 안경, 옷처럼 그대로 둘 것까지 적어야 다른 사람이 "
     },
@@ -162,7 +172,7 @@
      "type": "VIDEO",
      "likes": null,
      "comments": 5,
-     "multiple": 0.2,
+     "multiple": 0.3,
      "multiple_basis": "comments",
      "caption_start": "이 장면, 촬영 하나 없이 만들었어요. #광고 땀 한 방울, 피부 결까지 보이는 아웃도어 브랜드 필름을 새롭게 개편된 드리미나 캔버스에서 만들었어요. 캔버스에서 컨셉을 먼저 기획하고, 장면을 세 개로 나눈 뒤 영상 모델은 Seedance 2.5, 해상도는 4K로 맞췄어요. 컷이 나오면 순서대로 이어 붙이기만 하면 끝이에요. 이번에 4K를 고른 이유는 진짜 같은 생동감 때문이에요. 흙이 튀는 발걸음, 얼굴의 땀방울 같은 디테일이 실제 촬영처럼 살아나요. 지금 신규 회원은 기간 한정으로 월 멤버십을 "
     },
@@ -170,8 +180,8 @@
      "timestamp": "2026-11-16T06:37:05+0000",
      "url": "https://www.instagram.com/p/Dfyul9UEQPm/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 227,
-     "comments": 10,
+     "likes": 239,
+     "comments": 11,
      "multiple": 0.6,
      "multiple_basis": "likes+comments",
      "caption_start": "세무냥이가 쏘아올린 대 AI커닝 사건.. 현재까지 총정리 AI 안경으로 시험지를 비추면 렌즈에 정답이 뜨는 영상이 퍼지면서, 에펨·디시·더쿠·블라인드·X에 파묘 글이 쏟아지고 있어요. 리트 첫 만점자는 수능 국어 생중계를 약속했다가 디시 글을 모두 지웠고, 오후엔 인스타에 생중계를 다시 공지했어요. 24수능을 AI로 봐서 의대에 갔다는 자백 글, AI 안경을 끼고 수능 수학 2등급이 나온 방송, 학원 기록이 없는 관세사 수석, 커트라인이 뛴 경찰대 편입, 공기업 NCS, 퀵으로만 판다는 AI 렌즈"
@@ -180,8 +190,8 @@
      "timestamp": "2026-11-16T03:29:43+0000",
      "url": "https://www.instagram.com/reel/DfyZFDKR1lj/",
      "type": "VIDEO",
-     "likes": 148,
-     "comments": 8,
+     "likes": 160,
+     "comments": 9,
      "multiple": 0.4,
      "multiple_basis": "likes+comments",
      "caption_start": "런던 여행이 이럴 줄은.. 빅벤 위의 닌자부터 타워브리지를 덮는 불길, 하늘의 붉은 달까지. theartofrd가 런던을 배경으로 만든 AI 팬 영상이에요. 원작자는 trymelius로 제작했다고 밝혔습니다. 실제 런던에서 벌어진 장면은 아니에요. 이 세계관을 옮겨 보고 싶은 도시는 어디인가요? 댓글로 남겨 주세요. Original by theartofrd Created by • moodmode.ai"
@@ -192,49 +202,49 @@
      "type": "VIDEO",
      "likes": null,
      "comments": 3,
-     "multiple": 0.1,
+     "multiple": 0.2,
      "multiple_basis": "comments",
      "caption_start": "이제 편집은 배울 필요가 없어요. #광고 새로 개편된 드리미나 웹에서 영상의 움직임은 살리고, 원하는 구간의 인물과 효과를 바꿔보세요. 금빛은 예시일 뿐, 원하는 효과를 설명해 만들 수 있어요. CapCut Pro 이상 회원이라면 같은 계정으로 드리미나 웹에 로그인해 보세요. 아래 세 혜택을 모두 받을 수 있어요. • 드리미나 베이직 멤버십 할인 • 무료 크레딧 • 시댄스 2.0 720p 무료 생성 10회 무료 생성 10회는 영상 길이 제한도 없어요. 월 $0.29 혜택은 기간 한정이며, 제 전용"
-    },
-    {
-     "timestamp": "2026-11-15T05:02:57+0000",
-     "url": "https://www.instagram.com/p/Dfv_BshkZRQ/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 118,
-     "comments": 294,
-     "multiple": 1.1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "무엇이든지 똑같이 만들어버리는 AI가 나왔어요ㄷㄷ 네이버 주소를 넣어 첫 화면을 다시 만들어봤어요. AI가 원본과 비교하고 간격과 글자도 고쳤지만, 이번 자체 점수는 약 66%였어요. 계산기 앱도 주고 버튼을 보라색과 민트색으로 바꿔 달라고 했더니, 브라우저에서 7×8=56까지 직접 확인했어요. 따라 만든 결과는 개인용이나 학습용으로만 쓰고, 다른 회사 서비스를 그대로 베껴 공개하거나 팔면 안 돼요. 아직 초기 시험 버전이라 결과를 직접 확인하며 써야 해요. 설치 요청문과 실제 실험 화면은 가이드"
     }
    ]
   },
   {
    "username": "trenddalkak.ai",
-   "followers": 66771,
+   "followers": 66785,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 315,
-    "median_comments": 92
+    "median_engagement": 318,
+    "median_comments": 93
    },
    "posts": []
   },
   {
    "username": "prompt_what",
-   "followers": 251156,
+   "followers": 251338,
    "ok": true,
    "baseline": {
     "posts": 25,
     "median_engagement": 92,
-    "median_comments": 37
+    "median_comments": 38
    },
    "posts": [
+    {
+     "timestamp": "2026-11-17T05:41:57+0000",
+     "url": "https://www.instagram.com/reel/Df1NAKGyWMq/",
+     "type": "VIDEO",
+     "likes": 70,
+     "comments": 158,
+     "multiple": 2.5,
+     "multiple_basis": "likes+comments",
+     "caption_start": "얼굴 절대 안바뀌는 챗지피티 세팅법 🔒 옷을 바꾸고 장소를 바꾸고 같은 요청을 몇 번이나 보내도 셀카 속 이목구비는 처음 그대로 남습니다. 사용자 지정 지침에 프롬프트 하나만 저장해 두면 새 채팅을 열 때마다 긴 얼굴 유지 문장을 붙여 넣을 필요가 없어요. 지침 칸에 그대로 붙여 넣는 얼굴 고정 프롬프트는 댓글 남겨주시면 DM으로 보내드릴게요! The ChatGPT setting that keeps your face from changing 🔒 Change the outfit, change t"
+    },
     {
      "timestamp": "2026-11-16T08:48:34+0000",
      "url": "https://www.instagram.com/reel/Dfy9iNZShyk/",
      "type": "VIDEO",
-     "likes": 27,
-     "comments": 6,
+     "likes": 32,
+     "comments": 7,
      "multiple": 0.4,
      "multiple_basis": "likes+comments",
      "caption_start": "#광고 매일 1시간 걸리던 소재 찾기가 10분으로 줄었습니다 ⏰ AI 소식 캐러셀을 매일 올리는데 소재 리서치에만 아침마다 1시간씩 쓰고 있었거든요. Dola에 ‘매일 아침 7시 AI 소식 5개 정리’ 예약 작업을 걸어 두니 일어나면 브리핑이 먼저 와 있고, 프로 모드의 슬라이드 생성 스킬로 6장 구조를 부탁하면 뼈대까지 잡힙니다. 어려운 장은 쉬운 비유로 다시 써 달라고 한 번 더 말하고 말투만 제가 다듬어서 올린 게 이번 캐러셀이에요. 제가 넣은 예약 문장과 Dola 링크는 아무 댓글 남겨주시"
@@ -243,9 +253,9 @@
      "timestamp": "2026-11-16T01:39:30+0000",
      "url": "https://www.instagram.com/reel/DfyMb-LyJSQ/",
      "type": "VIDEO",
-     "likes": 79,
-     "comments": 115,
-     "multiple": 2.1,
+     "likes": 83,
+     "comments": 123,
+     "multiple": 2.2,
      "multiple_basis": "likes+comments",
      "caption_start": "효과 하나에 키프레임 찍던 분들 위한 클로드 편집 코드 9개입니다 🎬 말하는 영상 한 클립을 클로드 코드에 붙이고 명령어 한 줄씩만 바꿔 보냈더니 글자가 머리 뒤로 깔리고 사진 카드가 몸 둘레를 돌아요. 멈춘 화면을 스티커로 오려 이름표를 달거나 흑백 포스터, 숫자 카드, 유리 그래프, 로고 티어표까지 같은 클립 하나에서 나왔고요. 효과마다 그대로 붙여 넣을 프롬프트를 한 페이지에 모아 뒀으니 댓글에 ‘클로드’ 남겨주시면 코드 9개 보내드릴게요! 9 Claude editing codes for "
     },
@@ -263,49 +273,39 @@
      "timestamp": "2026-11-15T12:21:28+0000",
      "url": "https://www.instagram.com/p/DfwxNfglGLB/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 513,
-     "comments": 34,
-     "multiple": 5.9,
+     "likes": 539,
+     "comments": 35,
+     "multiple": 6.2,
      "multiple_basis": "likes+comments",
      "caption_start": "AI 기기 하나에 국가시험이 뚫렸습니다 🚨 세무사 시험 1등이 AI 기기로 부정행위를 했다고 밝혀 공단은 고소와 합격 취소에 나섰고, 감독위원 4명 누구도 눈치채지 못했어요. 같은 주 엔비디아에선 33년간 회사를 이끈 젠슨 황 CEO가 물러났고, 이사회는 그 전에 독립 조사를 시작했다고 밝혔습니다. 계획부터 세우는 어도비 파이어플라이, 영상 속 사람만 골라 고치는 힉스필드 Miracle, 혼자 운영체제를 만든 클로드 Fable 5.2가 나왔고, 클로드는 회의에 들어오고 챗GPT는 결제까지 대신해"
-    },
-    {
-     "timestamp": "2026-11-15T10:43:55+0000",
-     "url": "https://www.instagram.com/reel/Dfwl65KyzNq/",
-     "type": "VIDEO",
-     "likes": 453,
-     "comments": 106,
-     "multiple": 6.1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "AI 영상 제작자라면 꼭 알아야 할 카메라 무빙 20가지 🎥 인물과 장소는 영상 내내 그대로지만 카메라 무빙이 바뀌니 두 사람도 샷마다 전혀 다른 분위기로 연출됩니다. 내 영상에 붙여 넣는 카메라 프롬프트 20종은 댓글 남겨주시면 DM으로 보내드릴게요! 20 camera moves every AI video creator should know 🎥 The people and the place stay the same throughout the video, but as the camera move"
-    },
-    {
-     "timestamp": "2026-11-15T09:28:28+0000",
-     "url": "https://www.instagram.com/p/DfwdacSlCih/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 479,
-     "comments": 510,
-     "multiple": 10.8,
-     "multiple_basis": "likes+comments",
-     "caption_start": "10만 달러를 들인 AI 영화의 제작 순서가 통째로 풀렸습니다 🎬 PJ Ace가 45일 걸려 만든 Nexus Ep.8의 과정을 X에 공개했는데 Claude로 인물·소품·탈것 목록부터 만들고 GPT 이미지 2.5로 넓게, 씨드림 5.5로 깊게 다듬는 방식이에요 장소 이미지는 21:9 비율로 따로 만들어 두고 대본은 30초씩 끊어 덩어리마다 프롬프트 하나로 만들었고요. 실제 영화에 사용된 프롬프트 원문 두 개와 재료 이미지들까지 전부 모은 정리본은 댓글에 “영화” 남겨주시면 보내드릴게요! The f"
     }
    ]
   },
   {
    "username": "ai_freaks.kr",
-   "followers": 133170,
+   "followers": 133220,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 332,
-    "median_comments": 26
+    "median_engagement": 359,
+    "median_comments": 27
    },
    "posts": [
+    {
+     "timestamp": "2026-11-17T08:32:29+0000",
+     "url": "https://www.instagram.com/p/Df1gmH6mntP/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 559,
+     "comments": 17,
+     "multiple": 1.6,
+     "multiple_basis": "likes+comments",
+     "caption_start": "“AI와 함께 만들어, 이틀 만에 4.7억” 🎰 1인 개발 게임 ‘슬롯바운드‘가 스팀에서 대박이 났어요. 출시 48시간 만에 매출 4억 7천만 원, 3일 만에 10만 장 판매.. 놀라운 건 개발자의 이력인데요. 게임 개발 경험 없이 시작해, 데모를 낼 때도 ‘아직 코딩을 못 한다’고 밝혔을 정도예요. 커서·코파일럿으로 코드를, 픽셀랩·나노바나나로 그림을 뽑아 혼자서도 출시까지 만들어낸건데요. 진짜 노하우는 툴보다 작업 방식에 있어요. 게임을 실행해 오류를 확인하고, 화면을 캡처해 AI에게 넘기고"
+    },
     {
      "timestamp": "2026-11-16T08:44:42+0000",
      "url": "https://www.instagram.com/p/Dfy9Ms-Gsw4/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 208,
+     "likes": 227,
      "comments": 6,
      "multiple": 0.6,
      "multiple_basis": "likes+comments",
@@ -315,31 +315,31 @@
   },
   {
    "username": "ai.brief.kr",
-   "followers": 31775,
+   "followers": 31777,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 72,
+    "median_engagement": 75,
     "median_comments": 1
    },
    "posts": []
   },
   {
    "username": "ai.ainow",
-   "followers": 79506,
+   "followers": 79561,
    "ok": true,
    "baseline": {
     "posts": 25,
     "median_engagement": 394,
-    "median_comments": 226
+    "median_comments": 227
    },
    "posts": [
     {
      "timestamp": "2026-11-16T01:47:19+0000",
      "url": "https://www.instagram.com/p/DfyNbpOnUv9/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 41,
-     "comments": 110,
+     "likes": 45,
+     "comments": 114,
      "multiple": 0.4,
      "multiple_basis": "likes+comments",
      "caption_start": "⚠️AI한테 같은 걸 시켜도 결과가 매번 다르다면, 단어 세 개부터 알아 두세요. 1. 컨텍스트 윈도우 → AI가 한 번에 보는 양 대화가 길어져 헷갈리기 시작하면 새 창이 답이에요. 2. RAG → 내 자료부터 찾아보고 답하기 근거 없이 지어낸 답이 줄어듭니다. 3. MCP → AI에 앱을 꽂는 공통 규격 노션·캘린더 자료를 복사 없이 바로 써요. 단어를 알면 AI에게 무엇을 고쳐 달라고 할지 보입니다. 💬 23개 전체 단어장이 필요하시면 아무 댓글 남겨 주세요. #ai #chatgpt #cl"
@@ -348,18 +348,29 @@
   },
   {
    "username": "mktg.with.ai",
-   "followers": 11731,
+   "followers": 11734,
    "ok": true,
    "baseline": {
     "posts": 25,
     "median_engagement": 20,
     "median_comments": 1
    },
-   "posts": []
+   "posts": [
+    {
+     "timestamp": "2026-11-17T09:04:18+0000",
+     "url": "https://www.instagram.com/p/Df1kIjRkVmB/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 0,
+     "comments": 0,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "올린 지 일주일 지나면 조회가 멈추는 숏츠, 계속 새로 만들고 계신가요? 🎬 유튜브가 공식 블로그에서 숏폼 연재 드라마(마이크로드라마) 데이터를 공개했어요. 올해 상반기에만 65억 회 재생됐고, 조회의 40%는 공개 30일 이후에 나왔대요. 늦게 들어온 사람이 1화부터 찾아 보기 때문이에요 📈 숏츠를 시즌·에피소드로 묶는 숏츠 시리즈가 나왔고, 다음 화를 채널 멤버십으로 여는 화면도 곧 개편된다고 해요. 미국의 한 가구 브랜드는 짧은 연재 드라마로 조회 1억 5,200만 회, 약 120억원(9"
+    }
+   ]
   },
   {
    "username": "ddalkkak.mag",
-   "followers": 716,
+   "followers": 717,
    "ok": true,
    "baseline": {
     "posts": 25,
