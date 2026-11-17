@@ -2,6 +2,17 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-17
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 선정: 중국 기업들이 미국 AI 모델 출력으로 자체 모델을 훈련하는 "증류"를 산업화했다는 Reuters 보도 (GLOBAL AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 아시아 3, 신선도 보너스 없음). 소스는 AI타임스(Reuters 인용) 단일 매체, Reuters 원문은 읽지 못해 모든 문장을 "Reuters reported, as relayed by AI Times Korea"로 귀속. 첫 게시 시각은 AI타임스 2026-11-17 08:53 UTC, ready 시점(약 19:30 Vienna = 18:30 UTC) 기준 약 9.5시간 경과
+2. 검수: fact·hook(7/10)·brand 모두 1차 통과. 참고: 브랜드 검수자가 커버 "TRICK"이 국가에 대해 다소 강한 단어라고 제안(선택, "TECHNIQUE"). 문서 수 "300여건"은 "about 300"으로 표기, 숫자 훅 후보 "READ 300"은 약간 느슨(선택안이 아님)
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6, 아침 2 + 저녁 2, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+4. 탈락 사유: Anthropic IPO(TNW)는 아침 글과 같은 선두 매체 + 미확정 전망 + 10-27·11-03 중복. 엔비디아 실적은 21:20Z 발표라 런 시점에 미공개. 예비: `posts/_backlog/2026-11-17-evening-runners-up.md` (OpenAI 캘리포니아 소송 1순위)
+자세한 기록
+- 후보 22개 (신규 10 + 넘어온 12), 선정 id `2026-11-17-china-distillation-reuters`
+- 넘어온 ready 글 없음 (아침 Qwen4-Max published)
+
 ## [아침 보고] 2026-11-17
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 7 · 팔로워 2 · 링크 클릭 0 · 최고 도달: metrics 파일 기준 (아직 정산 중, Meta 최대 48h)
