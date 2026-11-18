@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-18-melon-ai-ballad",
+  "date": "2026-11-18",
+  "category": "INDUSTRY",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · INDUSTRY",
+    "headline": [
+      "**3 DAYS** AT NO. 1",
+      "ON KOREA'S MELON"
+    ],
+    "hook_options": [
+      [
+        "**3 DAYS** AT NO. 1",
+        "ON KOREA'S MELON"
+      ],
+      [
+        "A NO. 1 AI SONG",
+        "WITH **NO** PAYOUT?"
+      ],
+      [
+        "AI BALLAD HITS",
+        "**NO. 1** IN KOREA"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the article describes a chart result and a royalty gap for two creators, and states no effect on what ordinary readers pay, use or risk. The 3-days-at-No. 1 hook is the strongest the slides fully support: it is the article's verified headline fact (slide 1 states it) and names the platform and country. The payout hook carries the sharper angle but the article only says royalties are 'reportedly' uncollected, so a question mark is the most it can bear. The third option is accurate but has no hard number. No rivalry, myth-flip or quote hook: naming the K-pop acts is barred by the brief, no common belief is flipped, and the article has no quote to use.",
+    "image_prompt": "Cinematic wide shot of an empty neon-lit recording studio at night, a large glowing waveform made of golden light rising from a dark mixing console like a skyline, floating translucent audio ribbons curling toward a high window with a soft blue city glow beyond. Vintage studio headphones resting on the console, abstract sound-wave rings radiating outward. Warm gold highlights against deep indigo shadow, shallow depth of field, light haze. Main subject in the upper half, lower third fading into deep black. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The chart",
+      "title": "An AI ballad hit No. 1",
+      "body": [
+        "\"The Adult I Dreamed Of\" hit **No. 1** on Melon's Top 100 for three straight days. Melon is one of Korea's major streaming platforms. Korea JoongAng Daily calls it the first song composed and sung entirely by AI to top it."
+      ]
+    },
+    {
+      "kicker": "Who made it",
+      "title": "Humans and AI shared the work",
+      "body": [
+        "Composers Lee Yong-seok and Choi Seong-hyeok, working as \"Meomuru\", wrote the lyrics and shaped the direction. AI created the arrangement, melody and vocals. The outlet notes other outlets call it **AI-assisted**."
+      ]
+    },
+    {
+      "kicker": "The climb",
+      "title": "From Shorts to the top",
+      "body": [
+        "It first topped YouTube's daily trending music videos on **Sept. 2**, hit No. 29 on Melon by Oct. 2 and the top three on Oct. 15. It grew as background music in Instagram Reels and YouTube Shorts."
+      ]
+    },
+    {
+      "kicker": "The competition",
+      "title": "It beat K-pop acts",
+      "body": [
+        "On the chart, it held No. 1 ahead of A2O Lite at No. 2, Rescene at No. 3 and ILLIT at No. 4."
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "No royalties, reportedly",
+      "body": [
+        "The duo has **reportedly** been unable to collect royalties. The track is not registered with the Korea Music Copyright Association, and under current rules all AI-generated songs are ineligible. Criteria for human input, announced in August, were later **withdrawn**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The ballad \"The Adult I Dreamed Of\" ranked No. 1 on Melon's Top 100 for three consecutive days as of Sunday, becoming the first song composed and sung entirely by AI to top the chart, according to Korea JoongAng Daily (other outlets call it AI-assisted)."
+    },
+    {
+      "source": 0,
+      "text": "Melon is one of Korea's major music streaming platforms."
+    },
+    {
+      "source": 0,
+      "text": "The song is by AI musician Meomuru, behind which are composers and producers Lee Yong-seok and Choi Seong-hyeok, who wrote the lyrics and shaped the direction, then used AI to create the arrangement, melody and vocals."
+    },
+    {
+      "source": 0,
+      "text": "It held No. 1 against A2O Lite's \"Neon\" (2nd), Rescene's \"With\" (3rd) and ILLIT's \"You're Under Arrest\" (4th)."
+    },
+    {
+      "source": 0,
+      "text": "It first topped YouTube's daily trending music video chart on Sept. 2, reached No. 29 on Melon by Oct. 2 and the top three on Oct. 15."
+    },
+    {
+      "source": 0,
+      "text": "Its popularity grew as people used it as background music for Instagram Reels and YouTube Shorts."
+    },
+    {
+      "source": 0,
+      "text": "The duo has reportedly been unable to collect royalties because the track is not registered with the Korea Music Copyright Association; under current rules all AI-generated songs are ineligible for copyright registration."
+    },
+    {
+      "source": 0,
+      "text": "In August the association announced criteria recognizing human contributions to AI-assisted music but later withdrew them over insufficient public consultation."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Korea JoongAng Daily",
+      "title": "AI-generated ballad conquers Melon chart",
+      "date": "Nov 15, 2026",
+      "url": "https://www.koreajoongangdaily.com/entertainment/aigenerated-ballad-conquers-melon-chart/12973647"
+    }
+  ],
+  "caption": "An AI-made ballad just spent three straight days at No. 1 on Korea's Melon chart, but its creators reportedly can't collect royalties.\n\nKorea JoongAng Daily calls \"The Adult I Dreamed Of\" the first song composed and sung entirely by AI to top Melon, one of Korea's major streaming platforms. Humans wrote the lyrics and shaped the direction.\n\n→ It grew as background music in Instagram Reels and YouTube Shorts\n→ It is not registered with the Korea Music Copyright Association, which rules out AI-generated songs\n→ The association withdrew its August criteria on human input in AI-assisted music\n\nShould a hit song made with AI be able to earn royalties?\n\nSource: Korea JoongAng Daily, \"AI-generated ballad conquers Melon chart\", Nov 15, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#KoreaAI",
+    "#Melon",
+    "#AIMusic"
+  ],
+  "threads_caption": "An AI-made ballad spent three straight days at No. 1 on Korea's Melon chart, but its creators reportedly can't collect royalties.\n\nThe track isn't registered with the Korea Music Copyright Association, which rules out AI-generated songs.\n\nSource: Korea JoongAng Daily, \"AI-generated ballad conquers Melon chart\". #KoreaAI"
+}
