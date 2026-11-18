@@ -1,0 +1,20 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 2 body and facts[0]",
+      "problem": "\"The outlet notes other outlets call it AI-assisted\" (and the parenthetical in facts[0]) is not in the article. The article never says other outlets use that term; it uses \"AI-assisted\" only for the copyright association's criteria on music.",
+      "fix": "Delete the sentence from slide 2 and the parenthetical from facts[0]. Optionally use the article's own line: \"Lee and Choi wrote the lyrics and shaped the song's overall direction, then used AI to create the arrangement, melody and vocals.\""
+    },
+    {
+      "where": "slide 2 body, facts[2]",
+      "problem": "Slide says the composers worked \"as Meomuru\". The article calls Meomuru an AI musician, and says the duo behind it is called Glorywave. Slightly loose, and the group name is dropped.",
+      "fix": "Write: Meomuru is the AI musician behind the song. Behind it is Glorywave, composers Lee Yong-seok and Choi Seong-hyeok."
+    },
+    {
+      "where": "slide 4 title",
+      "problem": "\"It beat K-pop acts\": the article calls them \"girl groups with devoted followings\" and never says K-pop.",
+      "fix": "Use \"It held No. 1 against girl groups\"."
+    }
+  ]
+}
