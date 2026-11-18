@@ -1,0 +1,134 @@
+{
+  "id": "2026-11-18-nvidia-q3-china-exit",
+  "date": "2026-11-18",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "US AI · INDUSTRY",
+    "headline": [
+      "NVIDIA GUIDES",
+      "**$130B**, NO CHINA"
+    ],
+    "hook_options": [
+      [
+        "NVIDIA GUIDES",
+        "**$130B**, NO CHINA"
+      ],
+      [
+        "NVIDIA'S **H200**",
+        "EXITS CHINA"
+      ],
+      [
+        "NVIDIA'S **$115.8B**",
+        "CHINA LEFT OUT"
+      ],
+      [
+        "NVIDIA'S **$44B**",
+        "CHINA RULE RISK"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the articles describe Nvidia's results, its guidance and export rules, and state no effect on what ordinary readers pay, use or risk. \"NVIDIA GUIDES $130B, NO CHINA\" is the strongest the slides fully support: it names the company, carries a hard number, and \"guides\" keeps the scope to the outlook, which slides 3-4 spell out as no China Data Center compute revenue assumed. The H200 hook is accurate but needs the one-line explainer to land. The $115.8B hook leaves the guidance scope vague. The $44B hook is a Jefferies forecast, so the cover would present an attributed estimate without attribution.",
+    "image_prompt": "Cinematic wide shot of a single vast glowing silicon chip floating over a dark circuit-board plain at night, split down the middle by a luminous gold fault line: the left half blazing bright with golden light trails, the right half dim and cold blue, a distant row of dark gateway silhouettes fading into haze on the horizon. Abstract data streams arc over the divide. Main subject in the upper half, lower third fading into deep black. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The quarter",
+      "title": "A $115.8B quarter",
+      "body": [
+        "For the quarter ended Oct. 25, Nvidia reported **$115.8B** in revenue, up 103% from a year ago and up 20% from the previous quarter. Data Center revenue was $107.6B, up 110% from a year ago."
+      ]
+    },
+    {
+      "kicker": "The outlook",
+      "title": "No China data center compute in outlook",
+      "body": [
+        "Nvidia expects fourth-quarter revenue of $130.0B, plus or minus 3%. It says it is **not assuming any** Data Center compute revenue from China in that outlook."
+      ]
+    },
+    {
+      "kicker": "The exit",
+      "title": "H200 sales in China end",
+      "body": [
+        "Acting CEO Colette Kress said Nvidia will no longer sell **H200** chips in China, TechCrunch reports. The H200 is an Nvidia AI chip that US rules allowed it to sell there through a loophole in the ban on advanced chips."
+      ]
+    },
+    {
+      "kicker": "The new rules",
+      "title": "US rules widen the squeeze",
+      "body": [
+        "Rules issued Monday bar advanced US chips from foreign data centers that serve Chinese customers remotely. Investment bank Jefferies forecast they might trim **$44B to $62B** from Nvidia's data center revenue next year."
+      ]
+    },
+    {
+      "kicker": "Nvidia's reply",
+      "title": "Kress sees no impact",
+      "body": [
+        "Kress said the backlog of demand for chips like Vera Rubin means the rules would have **no impact** on top-line revenue. That is Nvidia's own claim. Jefferies' range is a forecast, not a result."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "NVIDIA reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago."
+    },
+    {
+      "source": 0,
+      "text": "Data Center third-quarter revenue was $107.6 billion, up 110% from a year ago."
+    },
+    {
+      "source": 0,
+      "text": "NVIDIA's outlook for the fourth quarter of fiscal 2027: revenue is expected to be $130.0 billion, plus or minus 3%. NVIDIA is not assuming any Data Center compute revenue from China in its outlook."
+    },
+    {
+      "source": 0,
+      "text": "Colette Kress is interim CEO and executive vice president and chief financial officer of NVIDIA."
+    },
+    {
+      "source": 1,
+      "text": "Nvidia will no longer sell its H200 chips in China, acting CEO Colette Kress said Tuesday, ending the company's participation in a controversial loophole in the U.S. ban on the sale of advanced chips to the country."
+    },
+    {
+      "source": 1,
+      "text": "New rules, issued Monday, bar advanced U.S. chips from foreign data centers that serve Chinese customers remotely."
+    },
+    {
+      "source": 1,
+      "text": "Investment bank Jefferies forecast that those rules might trim between $44 billion and $62 billion from Nvidia's data center revenue next year."
+    },
+    {
+      "source": 1,
+      "text": "Referencing the new export controls, Kress said that the backlog of demand for advanced chips like Vera Rubin means the rules would have no impact on the company's top-line revenue."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "NVIDIA Newsroom",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "date": "Nov 17, 2026",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+    },
+    {
+      "outlet": "TechCrunch",
+      "title": "Nvidia is abandoning China after Jensen Huang's ouster",
+      "date": "Nov 17, 2026",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+    }
+  ],
+  "caption": "Nvidia just posted a $115.8B quarter and said its outlook for next quarter assumes no China data center compute revenue.\n\nNVIDIA Newsroom reports revenue up 103% from a year ago. TechCrunch reports Nvidia will stop selling its H200 chips in China, as new US rules target remote access to advanced chips.\n\n→ Q4 outlook: $130.0B, plus or minus 3%, assuming no China Data Center compute revenue\n→ Jefferies forecast the new rules might trim $44B to $62B from data center revenue next year\n→ Interim CEO Colette Kress said the demand backlog means no top-line impact (Nvidia's claim)\n\nWho wins when the biggest AI chip company steps back from China?\n\nSource: NVIDIA Newsroom, \"NVIDIA Announces Financial Results for Third Quarter Fiscal 2027\", Nov 17, 2026; TechCrunch, \"Nvidia is abandoning China after Jensen Huang's ouster\", Nov 17, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nvidia",
+    "#AIChips",
+    "#ExportControls"
+  ],
+  "threads_caption": "Nvidia posted a $115.8B quarter, up 103% from a year ago. Its outlook assumes no China data center compute revenue, and it will stop selling H200 chips there.\n\nJefferies forecasts $44B to $62B could come off next year's data center revenue. Nvidia's Kress says no top-line impact.\n\nSource: NVIDIA Newsroom, \"NVIDIA Announces Financial Results for Third Quarter Fiscal 2027\"; TechCrunch, \"Nvidia is abandoning China after Jensen Huang's ouster\". #Nvidia"
+}

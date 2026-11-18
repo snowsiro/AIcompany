@@ -1,0 +1,494 @@
+{
+ "date": "2026-11-18",
+ "run": "evening",
+ "cutoff_utc": "2026-11-18T04:45Z",
+ "morning_used": "2026-11-18-melon-ai-ballad (Korea JoongAng Daily)",
+ "stories": [
+  {
+   "title": "Microsoft Ignite 2026: Code 2 and Cyber 2 Flash models, Agent 365 at 50M agents, GPT-6.2 comes to Foundry",
+   "region": "US",
+   "new": false,
+   "carried_over": false,
+   "first_published_utc": "2026-11-17T18:18Z (Reuters) / 18:36Z (Microsoft blog)",
+   "repeat_check": "No Microsoft Ignite post in last 14 days (not checked beyond posts/ dir names). Published BEFORE the 04:45Z cutoff, so not strictly new: found in my own scan; usable as a US-afternoon story. Reuters version unreadable (not fetched).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Microsoft (Official Microsoft Blog)",
+     "title": "Ignite 2026: Building the frontier ecosystem",
+     "date": "2026-11-17",
+     "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Satya Nadella, Microsoft Chairman and CEO, delivered the opening keynote at Ignite in San Francisco on November 17, 2026.",
+     "article": 0
+    },
+    {
+     "text": "Microsoft introduced Code 2, a new flagship family of agentic coding models, and Code 2 Flash for fast, high-volume work; both are generally available on GitHub Copilot and in Foundry.",
+     "article": 0
+    },
+    {
+     "text": "Cyber 2 Flash is described as Microsoft's most capable security model yet, a flash-sized model that Microsoft says delivers performance ahead of frontier models at a fraction of the cost per task.",
+     "article": 0
+    },
+    {
+     "text": "Agent 365, a control plane for governing enterprise agents, already has over 50 million agents; Microsoft announced Agent 365 Business Analytics to connect AI spend to outcomes.",
+     "article": 0
+    },
+    {
+     "text": "Microsoft-Decision-1.1 is now generally available with multimodal support; more than 4,000 customers have used it.",
+     "article": 0
+    },
+    {
+     "text": "Nadella said Microsoft is bringing GPT 6.2 to Foundry, calling it a model that 'sets a new bar for AI in professional work', and that Meta's latest models are all coming to Foundry as well.",
+     "article": 0
+    },
+    {
+     "text": "Perception, a security system with teams of red, blue and green agents, is now generally available.",
+     "article": 0
+    },
+    {
+     "text": "Microsoft announced MAI Licensed Weights, giving trusted customers access to Microsoft AI model weights through its Frontier Co.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "UK actors' union Equity: deal gives actors consent and pay rights over AI digital replicas",
+   "region": "EUROPE (UK)",
+   "new": true,
+   "carried_over": false,
+   "first_published_utc": "2026-11-18T09:21Z",
+   "repeat_check": "No repeat in posts/. Weak pick: TNW text via script was clipped (first paragraph missing), summarising the Guardian; deal still needs members' vote (not stated in the fetched text); pay figures are 'according to the Guardian'. Original Guardian not read.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "UK actors to get rights over AI digital replicas",
+     "date": "2026-11-18",
+     "url": "https://thenextweb.com/news/uk-actors-to-get-pay-and-consent-rights-over-ai-replicas-under-equity-deal"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Producers would only get consent for one specific project, not for any use of an actor's digital replica.",
+     "article": 0
+    },
+    {
+     "text": "Actors must also approve digital changes to scenes with agreed nudity or simulated sex.",
+     "article": 0
+    },
+    {
+     "text": "Producers could not use a replica during a strike where consent is needed, and must limit who can see replicas and keep them safe.",
+     "article": 0
+    },
+    {
+     "text": "Equity said the deal does not clearly stop actors' work being used to train AI.",
+     "article": 0
+    },
+    {
+     "text": "The three-year deal also raises pay rates by 24% for major films and 9% for TV, according to the Guardian; Equity recommended the offer to members on Monday.",
+     "article": 0
+    },
+    {
+     "text": "It follows a December ballot in which 99% of voting members backed refusing on-set body scans until stronger AI protections were agreed; in the US, SAG-AFTRA ratified its own deal with AI rules in June.",
+     "article": 0
+    },
+    {
+     "text": "'We've achieved the best AI provisions in the business,' said Paul W Fleming, Equity's general secretary.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nvidia Q3: $115.8B revenue, no China data center revenue assumed, H200 China sales end, first call without Huang",
+   "region": "US/GLOBAL (Asia chip angle)",
+   "repeat_check": "Nvidia posted often (11-07 naver, 11-09 rebellions); earnings and China exit not covered in last 14 days. Huang scandal items carry brand-safety risk (affairs, SEC): lead on numbers and China, omit personal allegations. Newer Reuters piece 'Nvidia stops shipping US-approved AI chips to China' (2026-11-18 09:17Z) is unreadable (403) and a search did not surface it; only a headline, no facts used. Der Standard 11:00Z item on Nvidia/Alice Huang/Alibaba and export rules also exists (not read; brand-safety risk).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "NVIDIA Newsroom",
+     "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+     "date": "2026-11-17",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Nvidia is abandoning China after Jensen Huang's ouster",
+     "date": "2026-11-17",
+     "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Nvidia's startup stakes ballooned to $65B, but Huang's exit puts future deals in doubt",
+     "date": "2026-11-18",
+     "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Nvidia reported third-quarter revenue (quarter ended October 25, 2026) of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago.",
+     "article": 0
+    },
+    {
+     "text": "Data Center revenue was $107.6 billion, up 110% from a year ago.",
+     "article": 0
+    },
+    {
+     "text": "Nvidia's outlook for the fourth quarter is revenue of $130.0 billion, plus or minus 3%, and it is not assuming any Data Center compute revenue from China.",
+     "article": 0
+    },
+    {
+     "text": "Nvidia said it has shipped Vera Rubin NVL72, the fastest product ramp in the company's history.",
+     "article": 0
+    },
+    {
+     "text": "Colette Kress is interim CEO and executive vice president and chief financial officer of Nvidia.",
+     "article": 0
+    },
+    {
+     "text": "Nvidia will no longer sell its H200 chips in China, acting CEO Colette Kress said Tuesday, ending the company's participation in a controversial loophole in the U.S. ban on the sale of advanced chips to the country.",
+     "article": 1
+    },
+    {
+     "text": "Jefferies forecast that the new U.S. rules, which bar advanced chips from foreign data centers serving Chinese customers remotely, might trim between $44 billion and $62 billion from Nvidia's data center revenue next year; Kress said the backlog of demand means the rules would have no impact on top-line revenue.",
+     "article": 1
+    },
+    {
+     "text": "Nvidia's equity stakes in private companies are now worth $65.5 billion, up from $22 billion reported in January; it invested $16 billion into equities in the past quarter.",
+     "article": 2
+    }
+   ],
+   "new": false,
+   "carried_over": true,
+   "first_published_utc": "2026-11-17 (results ~21:20Z; TechCrunch pieces 11-17)"
+  },
+  {
+   "title": "OpenAI launches GPT-6.2 Astra and Sol: #2 on Artificial Analysis index, API price cut 20%",
+   "region": "US",
+   "repeat_check": "No GPT-6.2 post in 14 days (11-06 gpt6-cyber was a different story). Original OpenAI page blocked (403); source is AI Times (Korean) quoting OpenAI blog and Artificial Analysis. Better as evening-slot style US story. Second source only CONFIRMS the model exists via Microsoft; all benchmark and price facts rest on AI Times alone. openai.com page 403; web search found no other outlet or official page for GPT-6.2 (only pre-launch sightings), so Artificial Analysis numbers are single-sourced.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times",
+     "title": "오픈AI, 세계 2위 성능 'GPT-6.2 아스트라' 출시...API 20% 인하",
+     "date": "2026-11-18",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217513"
+    },
+    {
+     "outlet": "Microsoft (Official Microsoft Blog)",
+     "title": "Ignite 2026: Building the frontier ecosystem",
+     "date": "2026-11-17",
+     "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol on November 17 (US time), about 50 days after cancelling the GPT-6.1 Astra release over safety problems.",
+     "article": 0
+    },
+    {
+     "text": "On Artificial Analysis's Intelligence Index, GPT-6.2 Astra scored 62, second behind Anthropic's Claude Fable 5.2 (65), ahead of Google's Gemini 4 Carbon (60) and Claude Opus 5.5 (59).",
+     "article": 0
+    },
+    {
+     "text": "GPT-6.2 Sol scored 57 and reached a similar overall level to GPT-6 Astra at about 15% of the cost per task.",
+     "article": 0
+    },
+    {
+     "text": "GPT-6.2 Astra API price is $8 per million input tokens and $40 per million output tokens, 20% lower than before; cached input fell from $1.00 to $0.40.",
+     "article": 0
+    },
+    {
+     "text": "GPT-6.2 Sol is priced at $2 input and $10 output per million tokens, unchanged.",
+     "article": 0
+    },
+    {
+     "text": "OpenAI said GPT-6.2 Astra is the first publicly released model to reach the High level in its AI Self-improvement risk category, and both models are rated Critical in cybersecurity capability.",
+     "article": 0
+    },
+    {
+     "text": "On Artificial Analysis's coding agent index, Astra stayed level with the previous version and Sol fell 3 points.",
+     "article": 0
+    },
+    {
+     "text": "The models are available in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu users, and via API; not yet in regular ChatGPT chat.",
+     "article": 0
+    },
+    {
+     "text": "Satya Nadella said Microsoft is bringing GPT 6.2 to Foundry, calling it 'a great model that sets a new bar for AI in professional work'.",
+     "article": 1
+    }
+   ],
+   "new": false,
+   "carried_over": true,
+   "first_published_utc": "2026-11-17 (OpenAI release Nov 17 US time; AI Times 2026-11-17T21:48Z)"
+  },
+  {
+   "title": "Moonshot AI (Kimi) shifts focus from coding to science: biology and chemistry",
+   "region": "CHINA/ASIA",
+   "repeat_check": "No Moonshot post in 14 days. Two sources (heise, AI Times); both cite SCMP, which was not read directly.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Moonshot AI wechselt Entwicklungsfokus von Programmierung zu Wissenschaft",
+     "date": "2026-11-17",
+     "url": "https://www.heise.de/news/Moonshot-AI-wechselt-Entwicklungsfokus-von-Programmierung-zu-Wissenschaft-11528033.html"
+    },
+    {
+     "outlet": "AI Times",
+     "title": "[11월17일] 미국 이어 중국도 'AI 과학적 발견' 경쟁…문샷, 생물학·화학 연구에 집중",
+     "date": "2026-11-18",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217482"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Moonshot AI, the company behind the Kimi models, wants to push into scientific applications of AI; the head of its international business said so in a keynote at Web Summit in Lisbon (heise, quoting SCMP).",
+     "article": 0
+    },
+    {
+     "text": "He said coding has reached a plateau, and that science raises the intelligence level further.",
+     "article": 0
+    },
+    {
+     "text": "\"We focus strongly on biology and chemistry,\" he said, while OpenAI is focused on mathematics.",
+     "article": 0
+    },
+    {
+     "text": "DP Technology, a Beijing AI-for-science startup, said it will use Kimi K3.1 Pro for biological research tasks.",
+     "article": 0
+    },
+    {
+     "text": "In a demo, DP Technology's BioMaster agent with Kimi analysed gene expression data from 3,696 mouse pancreatic cells and identified 100 candidate genes in about 90 minutes, more than twice as fast as a human.",
+     "article": 0
+    },
+    {
+     "text": "Moonshot's TCSExam study, published on the 5th by founder Yang Zhilin and Turing Award winner Andrew Yao, tested models on 100 research tasks; US frontier models led overall and no model solved a long-standing open problem independently.",
+     "article": 1
+    },
+    {
+     "text": "AI Times notes the Kimi result automates data analysis and candidate search and is not proof of a new scientific discovery.",
+     "article": 1
+    }
+   ],
+   "new": false,
+   "carried_over": true,
+   "first_published_utc": "2026-11-15/17 (see article dates)"
+  },
+  {
+   "title": "Tencent Hy4 Flash: up to 95% lower cost per task, API $0.07 per million input tokens",
+   "region": "CHINA/ASIA",
+   "repeat_check": "PARTIAL REPEAT: 2026-11-05-tencent-hy4 covered the larger Hy4. Different model, but same company within 14 days; second Chinese model after Qwen4-Max (11-17).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI Times",
+     "title": "텐센트 Hy4 플래시 출시",
+     "date": "2026-11-17",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217484"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Tencent released Hy4 Flash on November 16 (local time), a low-cost model for everyday work such as documents, presentations and research.",
+     "article": 0
+    },
+    {
+     "text": "In Tencent's own evaluation it cuts cost per task by up to 95% versus earlier models while user satisfaction came close to Anthropic's Claude Haiku 5.5.",
+     "article": 0
+    },
+    {
+     "text": "It is a mixture-of-experts model with 224 billion total parameters and 12 billion active per token, supports images and up to 1 million tokens of context.",
+     "article": 0
+    },
+    {
+     "text": "API price is $0.07 per million input tokens and $0.281 per million output tokens; cached input is $0.003.",
+     "article": 0
+    },
+    {
+     "text": "On Tencent's WorkIndex, cost per task is one thirteenth of Hy4 Preview, one twentieth of Hy4 and one eighth of DeepSeek-V4.1-Flash.",
+     "article": 0
+    },
+    {
+     "text": "In a blind test with 85 Tencent employees across 259 tasks using the WorkBuddy agent, it had the lowest cost per task and shortest completion time among compared models.",
+     "article": 0
+    },
+    {
+     "text": "Tencent plans to release the model weights later; results are Tencent's own evaluations.",
+     "article": 0
+    }
+   ],
+   "new": false,
+   "carried_over": true,
+   "first_published_utc": "2026-11-15/17 (see article dates)"
+  },
+  {
+   "title": "Nokia, Nscale, Skeleton, Telia and Verda bid for a Nordic-Baltic EU AI gigafactory",
+   "region": "EUROPE",
+   "repeat_check": "Carried from 11-17 runners-up. Related: 2026-11-10-telekom-munich-ai-factory (different bid). Explain Nscale, Skeleton, Verda for global readers.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Five firms team up to bid for a Nordic-Baltic AI gigafactory",
+     "date": "2026-11-16",
+     "url": "https://thenextweb.com/news/ai-gigafactory-northern-nokia-nscale-telia-verda-skeleton"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Nokia, Nscale, Skeleton, Telia and Verda formed a group, AI Gigafactory Northern, to bid for one of the EU's planned AI gigafactories, spread across several Nordic and Baltic sites.",
+     "article": 0
+    },
+    {
+     "text": "Sites named so far are Oulu in Finland, Iru in Estonia and Valmiera in Latvia; a fourth site in Sweden has no location yet.",
+     "article": 0
+    },
+    {
+     "text": "The bid goes to a tender run by the European High-Performance Computing Joint Undertaking, which also runs Europe's shared supercomputers such as Finland's LUMI.",
+     "article": 0
+    },
+    {
+     "text": "Each gigafactory must hold three to four times as many top AI processors as Europe's most powerful AI factories.",
+     "article": 0
+    },
+    {
+     "text": "The second lot's deadline is 3 December; on 5 November the first lot's deadline moved to 4 February 2027.",
+     "article": 0
+    },
+    {
+     "text": "The release ties the plan to InvestAI, through which the EU aims to raise EUR30bn for AI: EUR20bn private and EUR10bn public money.",
+     "article": 0
+    },
+    {
+     "text": "Nokia supplies the network; Nscale and Finland's Verda bring platforms for training and running models; Telia adds connectivity and cloud; Estonia's Skeleton Technologies makes power systems.",
+     "article": 0
+    },
+    {
+     "text": "VTT Technical Research Centre of Finland and Sweden's KTH Royal Institute of Technology back the group.",
+     "article": 0
+    }
+   ],
+   "new": false,
+   "carried_over": true,
+   "first_published_utc": "2026-11-15/17 (see article dates)"
+  },
+  {
+   "title": "South Korea CSAT (college entrance exam) braces for AI cheating after tax-exam top scorer admits camera plus AI",
+   "region": "KOREA",
+   "repeat_check": "REPEAT RISK: 2026-11-16-korea-tax-exam-ai-cheating is blocked (not published). Today's news (10-year ban, unannounced disaster alerts, Yonhap 2026-11-18) could not be read: Yonhap returned 403. Facts below are from a JoongAng editorial dated 11-15, so the new measures are unverified; need another readable outlet for the 11-18 measures.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Korea JoongAng Daily",
+     "title": "AI cheating scandal sparks fears before college exam",
+     "date": "2026-11-15",
+     "url": "https://www.koreajoongangdaily.com/opinion/tinycamera-cheating-incident-raises-concerns-ahead-of-csat/12973637"
+    }
+   ],
+   "facts": [
+    {
+     "text": "A candidate identified only as H, who topped Korea's certified tax accountant examination in April, confessed to cheating with a miniature camera and generative AI.",
+     "article": 0
+    },
+    {
+     "text": "The college entrance exam (CSAT) is on Thursday; about 550,000 students will take it simultaneously at 1,312 testing centers.",
+     "article": 0
+    },
+    {
+     "text": "Late last month the Ministry of Education banned all electronic devices, including AI glasses, smartphones and smartwatches, from exam rooms.",
+     "article": 0
+    },
+    {
+     "text": "Offenders would have scores invalidated, lose eligibility the following year and potentially face criminal obstruction charges.",
+     "article": 0
+    },
+    {
+     "text": "The editorial says miniature cameras are almost impossible to identify by visual inspection and notes China uses checkpoints, metal detectors and wireless-signal blocking.",
+     "article": 0
+    }
+   ],
+   "new": false,
+   "carried_over": true,
+   "first_published_utc": "2026-11-15/17 (see article dates)"
+  },
+  {
+   "title": "Anthropic IPO filing: Amazon to own 14.7%, Google 13.7%, tech firms buy $26B of non-voting stock",
+   "region": "US",
+   "repeat_check": "REPEAT RISK: Anthropic IPO posted 10-27 and 11-03; 11-17 morning also IPO-related. Use only if no better pick; no pricing confirmed yet.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+     "date": "2026-11-17",
+     "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Anthropic disclosed that Amazon's total stake will come in at 14.7% after the IPO.",
+     "article": 0
+    },
+    {
+     "text": "If Amazon converted all its promissory notes now it would own 23.8%; conversion prices are about $2.09 or $5.05 per share.",
+     "article": 0
+    },
+    {
+     "text": "Google will own just under 14% (13.7%), in non-voting shares.",
+     "article": 0
+    },
+    {
+     "text": "AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners agreed to buy $26 billion worth of non-voting stock; Google and Nvidia each $10 billion.",
+     "article": 0
+    },
+    {
+     "text": "Anthropic is committed to spend more than $100 billion on AWS over the next decade.",
+     "article": 0
+    }
+   ],
+   "new": false,
+   "carried_over": true,
+   "first_published_utc": "2026-11-15/17 (see article dates)"
+  },
+  {
+   "title": "Google makes Gemini Tasks (formerly Spark) free; it can call businesses, book appointments, pay via Google Pay",
+   "region": "US/GLOBAL (free in Korea per ZDNet Korea headline, not read)",
+   "repeat_check": "Gemini 4 Hydrogen posted 11-13; related Google item, avoid pairing.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+     "date": "2026-11-17",
+     "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Tasks is a toggle in Gemini that turns the chatbot into a more active helper.",
+     "article": 0
+    },
+    {
+     "text": "Google says it can call businesses and book appointments for users, complete purchases via Google Pay, and sign into websites securely if prompted.",
+     "article": 0
+    },
+    {
+     "text": "It launched to select testers in May as Gemini Spark, then went to US Google AI Ultra subscribers.",
+     "article": 0
+    },
+    {
+     "text": "Google is now making it free to hundreds of millions of people using the new Gemini 4 Hydrogen model.",
+     "article": 0
+    }
+   ],
+   "new": false,
+   "carried_over": true,
+   "first_published_utc": "2026-11-15/17 (see article dates)"
+  }
+ ]
+}

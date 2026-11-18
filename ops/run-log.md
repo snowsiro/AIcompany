@@ -2,6 +2,17 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-18
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 선정: 엔비디아 3분기 실적 + 4분기 가이던스에 중국 데이터센터 컴퓨트 매출 미반영 + H200 중국 판매 중단 (US AI · INDUSTRY, 점수 약 8 = 글로벌 3 + 숫자 2 + 아시아 3, 신선도 보너스 없음). 소스 NVIDIA Newsroom(선두)·TechCrunch(11-17). 첫 게시 시각은 NVIDIA 보도자료 2026-11-17 약 21:20 UTC, ready 시점(약 19:35 Vienna = 18:35 UTC) 기준 약 21시간 경과 (05:45 이후 신규 기사가 아니라 아침 후보에서 넘어온 이야기). 젠슨 황 관련 개인 의혹은 제외
+2. 검수: 1차 fact 불합격("record" 기사에 없음, "ZERO CHINA"이 가이던스 범위를 넘음) → writer 수정(커버 "NVIDIA GUIDES $130B, NO CHINA") 후 2차 fact·hook(7/10)·brand 모두 통과. 1차 판정은 `ops/reviews/2026-11-18-nvidia-round1/`. 참고: 커버의 "NO CHINA"는 슬라이드 3에서 "중국 데이터센터 컴퓨트 매출 미반영"으로 범위 명시. 카테고리 CHIPS는 lint 허용 목록에 없어 INDUSTRY 사용. 슬라이드의 "Acting CEO"는 TechCrunch, 캡션의 "Interim CEO"는 NVIDIA 표현
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6, 아침 2 + 저녁 2, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+4. 편집장이 신규 기사 Equity(영국 배우 노조 AI 복제 합의, TNW)를 본문 잘림·가디언 원문 미확인으로 건너뜀 (규칙의 "신규 6점 이상"에서 벗어난 판단). MS Ignite는 점수 약 5. 예비: `posts/_backlog/2026-11-18-evening-runners-up.md`. 실패한 소스: Euractiv·Meta AI·JoongAng 피드, Sifted·Reuters·openai.com 403
+자세한 기록
+- 후보 10개 (신규 1 + 넘어온 9), 선정 id `2026-11-18-nvidia-q3-china-exit`
+- 넘어온 ready 글 없음 (아침 멜론 published)
+
 ## [아침 보고] 2026-11-18
 처리 1건 (ready 1) · 실패 0건
 성과: 어제 도달 3 · 팔로워 2 · 링크 클릭 0 · 최고 도달: metrics 파일 기준 (Meta 정산 최대 48h)
