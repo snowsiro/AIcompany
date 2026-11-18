@@ -7,21 +7,21 @@
   "cover": {
     "tag": "US AI · INDUSTRY",
     "headline": [
-      "NVIDIA: **$115.8B**",
-      "AND ZERO CHINA"
+      "NVIDIA GUIDES",
+      "**$130B**, NO CHINA"
     ],
     "hook_options": [
       [
-        "NVIDIA: **$115.8B**",
-        "AND ZERO CHINA"
+        "NVIDIA GUIDES",
+        "**$130B**, NO CHINA"
       ],
       [
         "NVIDIA'S **H200**",
         "EXITS CHINA"
       ],
       [
-        "RECORD QUARTER,",
-        "**ZERO** CHINA"
+        "NVIDIA'S **$115.8B**",
+        "CHINA LEFT OUT"
       ],
       [
         "NVIDIA'S **$44B**",
@@ -31,24 +31,24 @@
     "hook_types": [
       "number",
       "claim",
-      "myth-flip",
+      "claim",
       "number"
     ],
     "hook_type": "number",
-    "hook_pick_reason": "No reader-impact hook: the articles describe Nvidia's results, its guidance and export rules, and state no effect on what ordinary readers pay, use or risk. \"NVIDIA: $115.8B AND ZERO CHINA\" is the strongest the slides fully support: it pairs the record revenue (slide 2) with the China guidance (slides 3-4) in one line and names the company. The H200 hook is accurate but needs the one-line explainer to land. The record-quarter hook has no number or name up front. The $44B hook is a Jefferies forecast, so the cover would present an attributed estimate without attribution.",
+    "hook_pick_reason": "No reader-impact hook: the articles describe Nvidia's results, its guidance and export rules, and state no effect on what ordinary readers pay, use or risk. \"NVIDIA GUIDES $130B, NO CHINA\" is the strongest the slides fully support: it names the company, carries a hard number, and \"guides\" keeps the scope to the outlook, which slides 3-4 spell out as no China Data Center compute revenue assumed. The H200 hook is accurate but needs the one-line explainer to land. The $115.8B hook leaves the guidance scope vague. The $44B hook is a Jefferies forecast, so the cover would present an attributed estimate without attribution.",
     "image_prompt": "Cinematic wide shot of a single vast glowing silicon chip floating over a dark circuit-board plain at night, split down the middle by a luminous gold fault line: the left half blazing bright with golden light trails, the right half dim and cold blue, a distant row of dark gateway silhouettes fading into haze on the horizon. Abstract data streams arc over the divide. Main subject in the upper half, lower third fading into deep black. No text, no letters, no logos, no people."
   },
   "slides": [
     {
       "kicker": "The quarter",
-      "title": "A record $115.8B quarter",
+      "title": "A $115.8B quarter",
       "body": [
         "For the quarter ended Oct. 25, Nvidia reported **$115.8B** in revenue, up 103% from a year ago and up 20% from the previous quarter. Data Center revenue was $107.6B, up 110% from a year ago."
       ]
     },
     {
       "kicker": "The outlook",
-      "title": "Next quarter: no China",
+      "title": "No China data center compute in outlook",
       "body": [
         "Nvidia expects fourth-quarter revenue of $130.0B, plus or minus 3%. It says it is **not assuming any** Data Center compute revenue from China in that outlook."
       ]
@@ -123,12 +123,12 @@
       "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
     }
   ],
-  "caption": "Nvidia just posted a record $115.8B quarter and said it is guiding next quarter with no China data center compute revenue.\n\nNVIDIA Newsroom reports revenue up 103% from a year ago. TechCrunch reports Nvidia will stop selling its H200 chips in China, as new US rules target remote access to advanced chips.\n\n→ Q4 outlook: $130.0B, plus or minus 3%, assuming no China Data Center compute revenue\n→ Jefferies forecast the new rules might trim $44B to $62B from data center revenue next year\n→ Interim CEO Colette Kress said the demand backlog means no top-line impact (Nvidia's claim)\n\nWho wins when the biggest AI chip company steps back from China?\n\nSource: NVIDIA Newsroom, \"NVIDIA Announces Financial Results for Third Quarter Fiscal 2027\", Nov 17, 2026; TechCrunch, \"Nvidia is abandoning China after Jensen Huang's ouster\", Nov 17, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "Nvidia just posted a $115.8B quarter and said its outlook for next quarter assumes no China data center compute revenue.\n\nNVIDIA Newsroom reports revenue up 103% from a year ago. TechCrunch reports Nvidia will stop selling its H200 chips in China, as new US rules target remote access to advanced chips.\n\n→ Q4 outlook: $130.0B, plus or minus 3%, assuming no China Data Center compute revenue\n→ Jefferies forecast the new rules might trim $44B to $62B from data center revenue next year\n→ Interim CEO Colette Kress said the demand backlog means no top-line impact (Nvidia's claim)\n\nWho wins when the biggest AI chip company steps back from China?\n\nSource: NVIDIA Newsroom, \"NVIDIA Announces Financial Results for Third Quarter Fiscal 2027\", Nov 17, 2026; TechCrunch, \"Nvidia is abandoning China after Jensen Huang's ouster\", Nov 17, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#Nvidia",
     "#AIChips",
     "#ExportControls"
   ],
-  "threads_caption": "Nvidia posted a record $115.8B quarter, up 103% from a year ago, but is guiding next quarter with no China data center compute revenue and will stop selling H200 chips there.\n\nJefferies forecasts $44B to $62B could come off next year's data center revenue. Nvidia's Kress says no top-line impact.\n\nSource: NVIDIA Newsroom, \"NVIDIA Announces Financial Results for Third Quarter Fiscal 2027\"; TechCrunch, \"Nvidia is abandoning China after Jensen Huang's ouster\". #Nvidia"
+  "threads_caption": "Nvidia posted a $115.8B quarter, up 103% from a year ago. Its outlook assumes no China data center compute revenue, and it will stop selling H200 chips there.\n\nJefferies forecasts $44B to $62B could come off next year's data center revenue. Nvidia's Kress says no top-line impact.\n\nSource: NVIDIA Newsroom, \"NVIDIA Announces Financial Results for Third Quarter Fiscal 2027\"; TechCrunch, \"Nvidia is abandoning China after Jensen Huang's ouster\". #Nvidia"
 }
