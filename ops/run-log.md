@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-18
+처리 1건 (ready 1) · 실패 0건
+성과: 어제 도달 3 · 팔로워 2 · 링크 클릭 0 · 최고 도달: metrics 파일 기준 (Meta 정산 최대 48h)
+결정할 일
+1. 없음. 아침 스캔은 05:07에 안 돌아 morning-scan을 수동 실행, 약 2~3분 뒤 main에 올라옴. IG 토큰이 없어 참고 계정은 스캔 파일 reference.json 기준 (3x+ 글은 튜토리얼·툴 주제뿐, 뉴스 일치 없음)
+2. ready: `2026-11-18-melon-ai-ballad` (KOREA AI · INDUSTRY, 멜론 Top 100 3일 연속 1위 AI 발라드, 소스 Korea JoongAng Daily 단일 매체, 저작권협회 미등록·수익 미수령은 "reportedly"). 카테고리 MUSIC은 lint 허용 목록에 없어 INDUSTRY 사용. 1차 fact 불합격(기사에 없는 "타 매체가 AI-assisted라 부름", Meomuru/Glorywave 표기, "K-pop") + hook 불합격(6/10, AI 단어가 커버에 없음) → writer 수정(커버 "AI BALLAD HITS NO. 1 IN KOREA") 후 2차 fact·hook(7/10)·brand 모두 통과. 참고: "released under Meomuru"는 기사 "created by AI musician Meomuru"의 의역, "No. 1 in Korea"는 멜론 차트 한정(슬라이드 2에서 명시)
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 월 합계는 이전 보고에 더해 계산 필요. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+4. 예비(저녁 런용): 엔비디아 Q3 (젠슨 황 개인 의혹은 제외), OpenAI GPT-6.2 (AI타임스 단일 소스), Moonshot Kimi 과학, 북유럽-발트 EU AI 기가팩토리 입찰. `posts/_backlog/2026-11-18-morning-runners-up.md`. 실패한 소스: Yonhap·OpenAI·Sifted·Politico 403, Euractiv, Meta AI, JoongAng 피드
+5. 리뷰 1차 판정 파일은 `ops/reviews/2026-11-18-melon-round1/`에 보관
+자세한 기록
+- 후보 9개, 선정 점수 약 8 (글로벌 3 + 숫자 2 + 한국 3)
+- 넘어온 ready 글 없음 (11-17 글 모두 published)
+- 주간 모음은 일요일만, 오늘은 해당 없음
+
 ## [저녁 보고] 2026-11-17
 처리 1건 (ready 1) · 실패 0건
 결정할 일
