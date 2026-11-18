@@ -7,8 +7,8 @@
   "cover": {
     "tag": "KOREA AI · INDUSTRY",
     "headline": [
-      "**3 DAYS** AT NO. 1",
-      "ON KOREA'S MELON"
+      "AI BALLAD HITS",
+      "**NO. 1** IN KOREA"
     ],
     "hook_options": [
       [
@@ -29,8 +29,8 @@
       "claim",
       "claim"
     ],
-    "hook_type": "number",
-    "hook_pick_reason": "No reader-impact hook: the article describes a chart result and a royalty gap for two creators, and states no effect on what ordinary readers pay, use or risk. The 3-days-at-No. 1 hook is the strongest the slides fully support: it is the article's verified headline fact (slide 1 states it) and names the platform and country. The payout hook carries the sharper angle but the article only says royalties are 'reportedly' uncollected, so a question mark is the most it can bear. The third option is accurate but has no hard number. No rivalry, myth-flip or quote hook: naming the K-pop acts is barred by the brief, no common belief is flipped, and the article has no quote to use.",
+    "hook_type": "claim",
+    "hook_pick_reason": "No reader-impact hook: the article describes a chart result and a royalty gap for two creators, and states no effect on what ordinary readers pay, use or risk. \"AI ballad hits No. 1 in Korea\" is the strongest the slides fully support: it puts the newsworthy fact (an AI-made song) in the headline, names the country, and slide 1 states the No. 1 result. The 3-days hook is accurate but reads like generic chart news without the AI angle. The payout hook is the most curious, but its payoff only arrives on slide 5 and rests on 'reportedly'. No rivalry, myth-flip or quote hook: naming the acts is barred by the brief, no common belief is flipped, and the article has no quote to use.",
     "image_prompt": "Cinematic wide shot of an empty neon-lit recording studio at night, a large glowing waveform made of golden light rising from a dark mixing console like a skyline, floating translucent audio ribbons curling toward a high window with a soft blue city glow beyond. Vintage studio headphones resting on the console, abstract sound-wave rings radiating outward. Warm gold highlights against deep indigo shadow, shallow depth of field, light haze. Main subject in the upper half, lower third fading into deep black. No text, no letters, no logos, no people.",
     "image_url": ""
   },
@@ -46,7 +46,7 @@
       "kicker": "Who made it",
       "title": "Humans and AI shared the work",
       "body": [
-        "Composers Lee Yong-seok and Choi Seong-hyeok, working as \"Meomuru\", wrote the lyrics and shaped the direction. AI created the arrangement, melody and vocals. The outlet notes other outlets call it **AI-assisted**."
+        "The duo Glorywave, composers Lee Yong-seok and Choi Seong-hyeok, wrote the lyrics and shaped the direction. AI created the arrangement, melody and vocals. The song is released under the AI musician **Meomuru**."
       ]
     },
     {
@@ -58,7 +58,7 @@
     },
     {
       "kicker": "The competition",
-      "title": "It beat K-pop acts",
+      "title": "It topped girl groups",
       "body": [
         "On the chart, it held No. 1 ahead of A2O Lite at No. 2, Rescene at No. 3 and ILLIT at No. 4."
       ]
@@ -74,7 +74,7 @@
   "facts": [
     {
       "source": 0,
-      "text": "The ballad \"The Adult I Dreamed Of\" ranked No. 1 on Melon's Top 100 for three consecutive days as of Sunday, becoming the first song composed and sung entirely by AI to top the chart, according to Korea JoongAng Daily (other outlets call it AI-assisted)."
+      "text": "The ballad \"The Adult I Dreamed Of\" ranked No. 1 on Melon's Top 100 for three consecutive days as of Sunday, becoming the first song composed and sung entirely by AI to top the chart, according to Korea JoongAng Daily."
     },
     {
       "source": 0,
@@ -82,7 +82,7 @@
     },
     {
       "source": 0,
-      "text": "The song is by AI musician Meomuru, behind which are composers and producers Lee Yong-seok and Choi Seong-hyeok, who wrote the lyrics and shaped the direction, then used AI to create the arrangement, melody and vocals."
+      "text": "The song is by AI musician Meomuru, created by the duo Glorywave, composers and producers Lee Yong-seok and Choi Seong-hyeok, who wrote the lyrics and shaped the direction, then used AI to create the arrangement, melody and vocals."
     },
     {
       "source": 0,
