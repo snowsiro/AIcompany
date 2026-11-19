@@ -2,6 +2,21 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-19
+처리 2건 (ready 1 · blocked 1) · 실패 0건
+성과: 어제 도달 8 · 팔로워 2 · 링크 클릭 0 · 최고 도달 ai-teddy-bbc (44) (Meta 정산 최대 48h)
+결정할 일
+1. 없음. ready: `2026-11-19-nadella-agent-managers` (US AI · INDUSTRY, 나델라가 6만 명에게 퇴직을 제안한 이유, 소스 TechCrunch 단일 매체, 인용은 모두 나델라 귀속, 조건·수락 수 미확인 명시). 점수 5(기준 6 미만): 아시아·유럽·한국에서 쓸 만한 신선한 후보가 없어 편집장이 "차별점 없는 날"로 선정. 1차 fact 불합격(슬라이드 6 인용문 "It's" 변형) → 수정 후 2차 fact·hook(8/10)·brand 모두 통과. 인용문 수정은 writer 대신 내가 직접 한 줄 편집. 카테고리 WORK는 lint 허용 목록에 없어 INDUSTRY 사용
+2. blocked: `2026-11-19-nordic-baltic-ai-gigafactory` (EUROPE AI · INDUSTRY, Nokia·Nscale·Skeleton·Telia·Verda 컨소시엄 AI 기가팩토리 입찰, 소스 heise 단일). 1차 fact 불합격(슬라이드 6 "Munich AI site", 슬라이드 3 "fourth site in Sweden") → 수정 후 2차 fact 불합격(슬라이드 3 제목 "Three countries, one plan": 스웨덴 파트가 있어 4개국). hook(7/10)·brand는 통과. 제목만 "Three sites, one plan"으로 고치면 통과할 가능성이 높음. 파일 보존, 원하면 수정해 저녁이나 다음 날 사용 가능
+3. 커버: Higgsfield cinematic_studio_2_5 2장(nordic 1 + nadella 1), 4크레딧 (오늘 합계 4/6, 저녁 런 여유 2, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 월 합계는 이전 보고에 더해 계산 필요. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium (npm ci 필요했음)
+4. IG 토큰 없음: 참고 계정은 스캔 파일 reference.json 기준. 아침 스캔은 05:07에 안 돌아 morning-scan 수동 실행, 약 2~3분 뒤 main에 올라옴
+5. 예비(저녁 런용): Anthropic IPO 상장 첫날(1순위, 단 10-27·11-03·11-17 중복 판단 필요), Gemini 4 Neon, 한국 수능 AI 부정행위(당일 결과 미확인), Genie 4 유료 개방. GPT-6.2는 heise 단일 소스. `posts/_backlog/2026-11-19-morning-runners-up.md`. 실패한 소스: Euractiv 403, Yonhap·Sifted·openai.com·Ars 접속 실패, Google News 리디렉트 기사(Reuters·Nikkei·SCMP 등) 본문 읽기 불가
+6. 리뷰 1차 판정은 `ops/reviews/2026-11-19-nordic-round1/`, `2026-11-19-nadella-round1/`에 보관 (nordic 2차 판정은 `ops/reviews/2026-11-19-nordic-*.md`)
+자세한 기록
+- 후보 9개, 선정 1: nordic (점수 8) → blocked, 선정 2: nadella (점수 5) → ready
+- 넘어온 ready 글 없음
+- 주간 모음은 일요일만, 오늘은 해당 없음
+
 ## [저녁 보고] 2026-11-18
 처리 1건 (ready 1) · 실패 0건
 결정할 일
