@@ -1,8 +1,0 @@
-{
-  "pass": true,
-  "issues": [
-    "Non-blocking: cover accent covers two words ('9 NATIONS'); DESIGN.md says one accent word on the cover. Color itself is in-palette. Consider '9 **NATIONS** SIGN' if the designer wants strict compliance.",
-    "Non-blocking: the 'AI Times reports' hedge is repeated on several slides; fine for accuracy.",
-    "Checked: cover image (cover.png and slides/01.jpg) has no people, no readable text, no real logos or national symbols. Slide 07 and the caption credit AI Times (Korea) and the FT with the article title. threads_caption credits AI Times and the FT. No affiliate or tracking links or sponsor mentions. Slides 01, 06 and 07 use only ink, paper, muted, accent and line, with Anton and Inter Tight. Tone is neutral. The hook ('9 nations sign AI supply pledge') is supported by slides 2 and 6. No reference-account copying found."
-  ]
-}
