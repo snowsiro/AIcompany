@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-19-nadella-agent-managers",
+  "date": "2026-11-19",
+  "category": "INDUSTRY",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "US AI · INDUSTRY",
+    "headline": [
+      "NADELLA OFFERED",
+      "**60,000** BUYOUTS"
+    ],
+    "hook_options": [
+      [
+        "NADELLA OFFERED",
+        "**60,000** BUYOUTS"
+      ],
+      [
+        "NADELLA'S PLAN:",
+        "**MANAGE** AGENTS"
+      ],
+      [
+        "NADELLA: NOT",
+        "**REPLACING** STAFF"
+      ],
+      [
+        "YOUR JOB NEXT:",
+        "**MANAGE** AI"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "myth-flip",
+      "reader-impact"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "\"NADELLA OFFERED 60,000 BUYOUTS\" is the strongest the slides fully support: it names the person, carries the hard number from the article, and slide 1 opens with exactly that, while later slides give his reason. The reader-impact hook (\"YOUR JOB NEXT: MANAGE AI\") answers what changes for a worker, but it turns Nadella's prediction that managing agents will happen in all jobs into a promise about the reader's own job, so it is the riskiest. \"NADELLA'S PLAN: MANAGE AGENTS\" is accurate but vaguer. \"NADELLA: NOT REPLACING STAFF\" is the CEO's own claim and sits oddly next to a 60,000-person buyout offer, so the cover would need the attribution to carry it.",
+    "image_prompt": "Cinematic wide shot of a vast dark glass office floor at night, hundreds of empty desks in perfect rows receding into haze, while a single luminous gold control console floats above the middle of the room with thin golden light threads running down to small glowing orbs hovering over each desk. Cool blue shadows, gold light accents, a few tall windows with a faint city glow. Main subject in the upper half, lower third fading into deep black. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261119_045725_13df5f6f-4d76-453f-9ec9-37c1b388aae0.png"
+  },
+  "slides": [
+    {
+      "kicker": "The buyout",
+      "title": "60,000 offered buyouts",
+      "body": [
+        "Microsoft CEO Satya Nadella explained Wednesday why he offered buyouts to **60,000 employees** in October, urging them to quit voluntarily instead of another massive layoff. TechCrunch's report gives no terms."
+      ]
+    },
+    {
+      "kicker": "His reason",
+      "title": "He says it was about agency",
+      "body": [
+        "Nadella told Andrew Ross Sorkin at the DealBook Summit, a New York Times event, the buyout was \"to make sure that at least everyone felt like they had **agency** in making choices.\""
+      ]
+    },
+    {
+      "kicker": "Not replacing",
+      "title": "He says AI isn't replacing staff",
+      "body": [
+        "TechCrunch reports Nadella is not saying he is replacing employees with AI, especially software engineers. He is **reorganizing** Microsoft so everyone uses AI and jobs focus on managing it."
+      ]
+    },
+    {
+      "kicker": "The example",
+      "title": "11 developers build Cowork",
+      "body": [
+        "Cowork is the AI agent in Microsoft 365 apps. Its team has just **11 developers**, Nadella said, who \"build a software factory that builds the product. They don't build the product.\""
+      ]
+    },
+    {
+      "kicker": "Every job",
+      "title": "Everyone becomes an agent manager",
+      "body": [
+        "Nadella believes every employee will one day be a **manager of agents**, not a person directly doing the work. \"That level of direction is what, by the way, is going to happen in all jobs,\" he said."
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "He says change will take time",
+      "body": [
+        "Microsoft is a 51-year-old company that didn't grow up AI-first. Nadella said changing it \"is going to take **a bit more time** than anyone expects.\""
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Microsoft CEO Satya Nadella explained Wednesday why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit instead of reducing the workforce via another massive layoff."
+    },
+    {
+      "source": 0,
+      "text": "The buyout was \"to make sure that at least everyone felt like they had agency in making choices,\" he told Andrew Ross Sorkin during the DealBook Summit."
+    },
+    {
+      "source": 0,
+      "text": "He's not saying he's replacing employees with AI, especially software engineers. He's saying he's reorganizing Microsoft into a company where everyone uses AI to do their work, and their jobs become focused on managing that AI."
+    },
+    {
+      "source": 0,
+      "text": "The team that builds Cowork, the AI agent in Microsoft 365 apps, consists of just 11 developers who have mastered using AI to do their jobs. \"They build a software factory that builds the product. They don't build the product.\""
+    },
+    {
+      "source": 0,
+      "text": "He believes that every employee will one day similarly become a manager of agents, rather than a person directly doing the work. \"That level of direction is what, by the way, is going to happen in all jobs.\""
+    },
+    {
+      "source": 0,
+      "text": "Microsoft, as a 51-year-old company, didn't grow up as an AI-first company. \"It's going to take a bit more time than anyone expects.\""
+    },
+    {
+      "source": 0,
+      "text": "Asked last week by Gergely Orosz on The Pragmatic Engineer podcast, Nadella said, \"We have created enormous anxiety in people sort of feeling that they don't have control of their own destiny because the way we have talked about this AI revolution.\""
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "TechCrunch",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "date": "Nov 18, 2026",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+    }
+  ],
+  "caption": "Microsoft CEO Satya Nadella says he is not replacing staff with AI, even as he explains why he offered buyouts to 60,000 employees.\n\nSpeaking at the DealBook Summit, Nadella told interviewer Andrew Ross Sorkin the buyout was about giving people agency. His bigger point: jobs at Microsoft are shifting toward managing AI.\n\n→ Offered to 60,000 employees in October, instead of another massive layoff\n→ The Cowork team has just 11 developers, who \"build a software factory that builds the product\"\n→ Nadella believes every employee will one day manage agents, and says change will take \"a bit more time than anyone expects\"\n\nWould you want to manage AI agents as part of your job?\n\nSource: TechCrunch, \"Microsoft CEO Satya Nadella explains why he asked 60K employees to quit\", Nov 18, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Microsoft",
+    "#SatyaNadella",
+    "#AIAgents"
+  ],
+  "threads_caption": "Microsoft CEO Satya Nadella says he is not replacing staff with AI. His plan: everyone uses AI and jobs shift to managing it, after he offered buyouts to 60,000 employees in October.\n\nHe believes every employee will one day be a manager of agents.\n\nSource: TechCrunch, \"Microsoft CEO Satya Nadella explains why he asked 60K employees to quit\". #Microsoft"
+}
