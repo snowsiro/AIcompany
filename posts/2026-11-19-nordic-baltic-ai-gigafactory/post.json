@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-19-nordic-baltic-ai-gigafactory",
+  "date": "2026-11-19",
+  "category": "INDUSTRY",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · INDUSTRY",
+    "headline": [
+      "5 FIRMS, 3 SITES",
+      "NORDIC AI **BID**"
+    ],
+    "hook_options": [
+      [
+        "5 FIRMS, 3 SITES",
+        "NORDIC AI **BID**"
+      ],
+      [
+        "NOKIA VS TELEKOM",
+        "AI **GIGAFACTORY**"
+      ],
+      [
+        "EUROPE'S AI BET",
+        "GOES **NORTH**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "rivalry",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Names the bid and gives two numbers that slides 2 and 3 back up: five companies in the group and three confirmed sites (Oulu, Iru, Valmiera; Sweden is undecided, slide 3). It promises no approval or funding. The rivalry option puts Nokia against Telekom, but heise says Telekom is only among the most prominent rivals and the group is not led by Nokia alone (slide 6), so it overstates. 'Goes north' is vaguer and has no number. No reader-impact hook: the article states no effect on ordinary readers (what they pay, use or risk); it covers an industry bid for EU funding.",
+    "image_prompt": "Cinematic night scene of a vast snowy Nordic landscape with a modern low data-center campus glowing softly with warm windows, a green aurora curtain rippling across the sky above pine forest, faint steam rising from rooftop cooling units, frozen lake reflecting the aurora. Main subject in the upper half, lower third in deep shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261119_045313_3b3b467f-c235-4df0-81a3-4aceb3f3cfe8.png"
+  },
+  "slides": [
+    {
+      "kicker": "The bid",
+      "title": "Five firms eye EU AI funding",
+      "body": [
+        "Nokia, Nscale, Skeleton, Telia and Verda formed a consortium, **AI Gigafactory Northern**. The group plans to bid for EU funding for large AI computing sites, heise online reports."
+      ]
+    },
+    {
+      "kicker": "The money",
+      "title": "A 30 billion euro target",
+      "body": [
+        "The EU's InvestAI initiative wants to mobilise **over 30 billion euros** for AI gigafactories: at least 20 billion private, up to 10 billion public. That is a target, not money already committed."
+      ]
+    },
+    {
+      "kicker": "The sites",
+      "title": "Three countries, one plan",
+      "body": [
+        "The plan spans **Oulu in Finland, Iru in Estonia and Valmiera in Latvia**. A fourth site in Sweden is not yet decided, heise reports."
+      ]
+    },
+    {
+      "kicker": "Why the north",
+      "title": "Cold climate, spread-out risk",
+      "body": [
+        "Spreading across countries lowers **concentration risk**, adds resilience and allows flexible expansion, per heise. The cool climate cuts cooling needs, and the region offers reliable renewable energy."
+      ]
+    },
+    {
+      "kicker": "Who does what",
+      "title": "Network, cloud and power",
+      "body": [
+        "Nokia supplies the secure network, Nscale (a cloud provider) the training and inference platforms, Skeleton the power systems. Telia and its unit Cygate handle network and data transmission. Research partners are Finland's **VTT** and Sweden's **KTH**."
+      ]
+    },
+    {
+      "kicker": "The race",
+      "title": "Telekom is a rival",
+      "body": [
+        "EuroHPC, the EU body running the tender, funds up to **four medium-sized and three large** AI gigafactories. Deutsche Telekom, with its Munich AI site, is among the most prominent competitors, heise reports."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Five companies (5): Nokia, Nscale, Skeleton, Telia and Verda formed a consortium, AI Gigafactory Northern (AIGF Northern), which plans to bid for EU AI gigafactory funding."
+    },
+    {
+      "source": 0,
+      "text": "The EU's InvestAI wants to mobilise more than 30 billion euros for AI gigafactories, at least 20 billion euros private and up to 10 billion euros public."
+    },
+    {
+      "source": 0,
+      "text": "EuroHPC Joint Undertaking funding covers up to four medium-sized and three large AI gigafactories."
+    },
+    {
+      "source": 0,
+      "text": "Planned sites are Oulu (Finland), Iru (Estonia) and Valmiera (Latvia); the Swedish site is not yet decided."
+    },
+    {
+      "source": 0,
+      "text": "Spreading across countries is meant to lower concentration risk, improve resilience and allow flexible expansion; the cool climate cuts cooling needs and renewable energy is reliable."
+    },
+    {
+      "source": 0,
+      "text": "Nokia provides the secure network, Nscale cloud platforms for training and inference, Skeleton power systems; Telia and its subsidiary Telia Cygate provide network, data transmission and integration."
+    },
+    {
+      "source": 0,
+      "text": "Research partners are VTT Technical Research Centre of Finland and Sweden's KTH."
+    },
+    {
+      "source": 0,
+      "text": "Deutsche Telekom is among the most prominent competitors for the funding."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online",
+      "title": "AI Gigafactory im Norden: Nokia und Partner planen europäische KI-Infrastruktur",
+      "title_en": "AI Gigafactory in the North: Nokia and partners plan European AI infrastructure",
+      "language": "German",
+      "date": "Nov 18, 2026",
+      "url": "https://www.heise.de/news/AI-Gigafactory-im-Norden-Nokia-und-Partner-planen-europaeische-KI-Infrastruktur-11530042.html"
+    }
+  ],
+  "caption": "Nokia, Nscale, Skeleton, Telia and Verda want a Nordic and Baltic AI gigafactory, and they plan to bid for EU funding.\n\nThe group, AI Gigafactory Northern, plans sites in Finland, Estonia and Latvia, plus Sweden (site undecided), heise online reports. Deutsche Telekom is among the most prominent competitors.\n\n→ The EU's InvestAI wants to mobilise over 30 billion euros for AI gigafactories; that is a target, not committed money\n→ Planned sites: Oulu (Finland), Iru (Estonia), Valmiera (Latvia)\n→ Why the north: cool climate, reliable renewable energy, lower concentration risk\n\nShould Europe's AI compute sit in the cold north?\n\nSource: heise online, \"AI Gigafactory in the North: Nokia and partners plan European AI infrastructure\" (in German), Nov 18, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nokia",
+    "#EUAI",
+    "#EuropeAI"
+  ],
+  "threads_caption": "Nokia, Nscale, Skeleton, Telia and Verda plan to bid for EU AI gigafactory funding with sites in Finland, Estonia and Latvia, plus Sweden (undecided).\n\nDeutsche Telekom is among the most prominent rivals, heise reports.\n\nSource: heise online, \"AI Gigafactory in the North: Nokia and partners plan European AI infrastructure\" (in German). #Nokia"
+}
