@@ -1,0 +1,10 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "sources[0] (all slides, cover, caption, threads_caption)",
+      "problem": "Could not open the only source (heise online, https://www.heise.de/news/AI-Gigafactory-im-Norden-Nokia-und-Partner-planen-europaeische-KI-Infrastruktur-11530042.html). `node scripts/article.mjs` failed with 'fetch failed' on two tries; WebFetch refused with robots_disallowed; a direct curl through the agent proxy got 403 on CONNECT. No claim (5 firms, AI Gigafactory Northern, 30 billion euros with at least 20 private and up to 10 public, up to four medium-sized and three large gigafactories, Oulu/Iru/Valmiera, Swedish site undecided, roles of Nokia/Nscale/Skeleton/Telia/Cygate, VTT/KTH, Deutsche Telekom as a prominent competitor, the concentration-risk and climate reasoning, the title and title_en, the date Nov 18, 2026) could be checked against the article text, so all are unconfirmed.",
+      "fix": "Re-run this review from an environment that can reach heise.de, or have the caller paste the article text into the scratchpad so each claim can be checked word for word. Do not mark ready until then. Points to check on that re-run: (1) 'Telia and its unit Cygate' (slide 5) against the fact text 'Telia Cygate'; (2) 'Verda' is named in the consortium but has no role on slide 5, so confirm the article gives none; (3) slide 3 title 'Three sites, one plan' (the round 3 fix) and the slide 6 title 'Telekom is a rival' against the 'among the most prominent competitors' wording; (4) cover 'NORDIC' and caption 'Nordic and Baltic' against the article's own wording; (5) 'Nscale (a cloud provider)' as the who-is-this line."
+    }
+  ]
+}
