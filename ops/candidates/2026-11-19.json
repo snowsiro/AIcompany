@@ -1,0 +1,499 @@
+{
+ "date": "2026-11-19",
+ "run": "morning",
+ "stories": [
+  {
+   "title": "Anthropic prices its IPO at $83 a share: largest IPO ever by proceeds, trading starts today on Nasdaq as ANT",
+   "region": "US/GLOBAL (Asia/Europe markets angle: Yonhap Seoul shares item, heise)",
+   "repeat_check": "RELATED REPEAT: IPO posts exist from 10-27, 11-03 and 11-17 per the 11-18 backlog note (not in posts/ folder names except 11-03-anthropic-compute-margin). This is the new pricing and debut-day event; lead on the pricing/record, not the S-1 numbers. Score -10 only if editor judges it a repeat.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic prices IPO at $83 a share, above projected range",
+     "date": "2026-11-18",
+     "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic IPO prices at $83 a share, above range, at about $1.5tn",
+     "date": "2026-11-18",
+     "url": "https://thenextweb.com/news/anthropic-ipo-prices-83-share-1-5-trillion-record-raise"
+    },
+    {
+     "outlet": "heise online",
+     "title": "Anthropic: Finaler IPO-Preis steht fest",
+     "date": "2026-11-19",
+     "url": "https://www.heise.de/news/Anthropic-Finaler-IPO-Preis-steht-fest-11528229.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Anthropic priced its IPO at $83 per share, above its initial range of $70 to $78.",
+     "article": 0
+    },
+    {
+     "text": "The Claude maker sold 980 million shares, up from the 825 million initially planned, generating $81.3 billion in proceeds and surpassing SpaceX's $75 billion record to become the largest IPO in history by proceeds raised.",
+     "article": 0
+    },
+    {
+     "text": "At the IPO price, Anthropic is valued at roughly $1.5 trillion on a fully diluted basis, up from the $965 billion it reached in May when it raised $65 billion in its last private round, but below the $2 trillion it was reportedly aiming for several months ago.",
+     "article": 0
+    },
+    {
+     "text": "Anthropic will begin trading on Nasdaq on Thursday under the ticker symbol \"ANT\".",
+     "article": 0
+    },
+    {
+     "text": "A group of major tech companies, including AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC Partners, agreed to purchase $26 billion worth of non-voting shares through a private placement alongside the IPO.",
+     "article": 0
+    },
+    {
+     "text": "Amazon owns nearly 15% of Anthropic and Google almost 14%.",
+     "article": 0
+    },
+    {
+     "text": "The Nasdaq 100 has lost 13% since its early October peak, according to the FT, and Nvidia fell for a fifth day on Wednesday, Bloomberg reported.",
+     "article": 1
+    },
+    {
+     "text": "The offering will leave Anthropic with more than $200bn on its balance sheet, the FT reported; the company plans to spend that on compute and infrastructure.",
+     "article": 1
+    },
+    {
+     "text": "Anthropic wrote in its prospectus that buyers should try \"not to think of your purchase in purely transactional terms\", and said profits would be balanced against \"the public good\".",
+     "article": 1
+    },
+    {
+     "text": "Institutional investor demand was about $400 billion after the subscription phase on Tuesday evening, according to CNBC as cited by heise.",
+     "article": 2
+    }
+   ]
+  },
+  {
+   "title": "Korea's college entrance exam (CSAT, Nov 19) runs under AI-cheating lockdown: smart devices handed in, Wi-Fi cut under review, results voided and criminal probes for cheaters",
+   "region": "KOREA",
+   "repeat_check": "RELATED: posts/2026-11-16-korea-tax-exam-ai-cheating (same scandal, earlier angle; blocked per backlog). New angle is exam-day crackdown. Today's Yonhap, Korea Times and Korea Herald items could not be read (403 / Google redirect), so facts come from Korea JoongAng Daily articles dated Nov 16. Verify exam-day outcome (Wi-Fi decision, LEET top scorer story is sensitive: cardiac arrest, avoid) before writing.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Korea JoongAng Daily",
+     "title": "Gov't weighs Wi-Fi outage as part of enhanced screening for AI cheating on CSAT",
+     "date": "2026-11-16",
+     "url": "https://www.koreajoongangdaily.com/korea/govt-weighs-wifi-outage-as-part-of-enhanced-screening-for-ai-cheating-on-csat/12975333"
+    },
+    {
+     "outlet": "Korea JoongAng Daily",
+     "title": "Calls to postpone CSAT grow as AI cheating fears spread",
+     "date": "2026-11-16",
+     "url": "https://www.koreajoongangdaily.com/korea/calls-to-postpone-csat-grow-as-ai-cheating-fears-spread/12974671"
+    },
+    {
+     "outlet": "Korea JoongAng Daily",
+     "title": "Government to form emergency response team to prevent AI-assisted cheating on CSAT",
+     "date": "2026-11-16",
+     "url": "https://www.koreajoongangdaily.com/korea/government-to-form-emergency-response-team-to-prevent-aiassisted-cheating-on-csat/12974472"
+    }
+   ],
+   "facts": [
+    {
+     "text": "The government will check test-takers thoroughly for smart devices during Thursday's College Scholastic Ability Test (CSAT) and is considering cutting off public Wi-Fi at testing sites.",
+     "article": 0
+    },
+    {
+     "text": "Test-takers will have to hand in all smart devices at testing sites, and screenings for devices will continue during the exam.",
+     "article": 0
+    },
+    {
+     "text": "The measures target equipment that existing checks struggle to catch, such as AI glasses, ultrasmall cameras and wireless earphones.",
+     "article": 0
+    },
+    {
+     "text": "Violations uncovered after the test will be met with stern measures, from nullified results to criminal investigations.",
+     "article": 0
+    },
+    {
+     "text": "The Ministry of Science and ICT will actively review a plan to cut off public Wi-Fi at every testing site nationwide while the exam is underway.",
+     "article": 0
+    },
+    {
+     "text": "Prime Minister Han Seong-sook ordered officials to begin proceedings to void the results of the top scorer on this year's certified tax accountant exam and bar the test-taker for five years.",
+     "article": 0
+    },
+    {
+     "text": "A test-taker surnamed Han placed first on the tax accountant exam with 397.5 out of 400 in the first round, which appears to be the highest score on record, and confessed on Sunday to using AI.",
+     "article": 1
+    },
+    {
+     "text": "The Ministry of Education said there is no possibility of postponing the exam; the CSAT has been postponed four times since 1993.",
+     "article": 1
+    },
+    {
+     "text": "Nearly 700 posts were up on the Q. and A. board of the Korea Institute for Curriculum and Evaluation by 9 a.m. Monday, most demanding measures against AI-assisted cheating and a delay.",
+     "article": 1
+    },
+    {
+     "text": "The Education Ministry ran safety inspections at 1,312 testing sites across 85 test districts nationwide.",
+     "article": 2
+    }
+   ]
+  },
+  {
+   "title": "Google launches Gemini 4 Neon: frontier-level coding and agent work at $3 / $15 per million tokens",
+   "region": "US/GLOBAL",
+   "repeat_check": "New. Related: 2026-11-13 Gemini 4 Hydrogen (backlog 11-13-gemini-4-hydrogen), not posted as its own post. Gemini 4 family naming (Carbon, Hydrogen, Argon, Neon) needs a one-line explainer.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Google DeepMind / Google blog",
+     "title": "Introducing Gemini 4 Neon",
+     "date": "2026-11-18",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Google introduced Gemini 4 Neon, which it describes as bringing frontier-level intelligence with fast end-to-end task completion across software engineering, knowledge work and science workflows.",
+     "article": 0
+    },
+    {
+     "text": "Neon ranks #3 overall with a score of 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, just behind larger, slower models.",
+     "article": 0
+    },
+    {
+     "text": "The model is priced at $3 per million input tokens and $15 per million output tokens, with a 1 million-token context window.",
+     "article": 0
+    },
+    {
+     "text": "Cached input costs $0.15 per million tokens, a 95% discount.",
+     "article": 0
+    },
+    {
+     "text": "Neon ranks #2 on the Vals Index at 70.9% and reaches #1 on both the Legal Research Bench and Tax Agent Bench.",
+     "article": 0
+    },
+    {
+     "text": "On SWE-sweep it scores 12.8% on the mini-SWE harness and 39.0% in Google Antigravity.",
+     "article": 0
+    },
+    {
+     "text": "At its default high thinking level it has a 32% lower cost per task than Gemini 4 Carbon, according to Google.",
+     "article": 0
+    },
+    {
+     "text": "It is rolling out in the Gemini API in Google AI Studio and, for Pro and Ultra subscribers, in the Gemini app and Google Antigravity.",
+     "article": 0
+    },
+    {
+     "text": "In Google's tests it refused just 1.98% of tasks on Terminal-Bench 4.0.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google opens Genie 4 world model to AI Ultra subscribers, with a world-building agent and community gallery",
+   "region": "US/GLOBAL (Korean coverage: AI Times)",
+   "repeat_check": "RELATED REPEAT: posts/2026-10-27-google-genie-4 covered the October preview. New: paid rollout, agent, gallery. Mark as partial repeat (-10 unless editor sees a new angle).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Google DeepMind / Google blog",
+     "title": "Genie 4 is now available",
+     "date": "2026-11-18",
+     "url": "https://deepmind.google/blog/genie-4-is-now-available/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "Google opens its Genie 4 world model to AI Ultra subscribers",
+     "date": "2026-11-18",
+     "url": "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "구글 '지니 4' 일반에 제공…대화로 가상세계 만드는 AI 에이전트 도입",
+     "date": "2026-11-19",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217556"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Google is rolling out Genie 4 to eligible Google AI Ultra subscribers in Project Genie, with a new agent that builds worlds from conversation and a community gallery.",
+     "article": 0
+    },
+    {
+     "text": "With Genie 4 you can type a new prompt mid-session to change the weather, drop in a character or redirect the action.",
+     "article": 0
+    },
+    {
+     "text": "For the first time, Genie 4 pairs its visuals with real-time native audio, from ambient soundscapes to character dialogue.",
+     "article": 0
+    },
+    {
+     "text": "Google AI Pro members can join a waitlist.",
+     "article": 1
+    },
+    {
+     "text": "Genie 3 sessions now last up to 3 minutes per generation, up from 60 seconds.",
+     "article": 0
+    },
+    {
+     "text": "Google says both models are still research systems; details can drift in long sessions, and readable text and complex physics remain hard.",
+     "article": 1
+    },
+    {
+     "text": "Everything made in Project Genie carries SynthID, Google's invisible watermark for AI content.",
+     "article": 1
+    },
+    {
+     "text": "Genie 4 generates video at up to 720p and 24 frames per second in real time.",
+     "article": 2
+    },
+    {
+     "text": "Google first announced Genie 4 as a research preview on Oct. 27, about three weeks earlier.",
+     "article": 2
+    }
+   ]
+  },
+  {
+   "title": "Nokia, Nscale, Skeleton, Telia and Verda form AI Gigafactory Northern to bid for EU AI gigafactory funding across Finland, Estonia, Latvia and Sweden",
+   "region": "EUROPE",
+   "repeat_check": "New as post. Related: posts/2026-11-10-telekom-munich-ai-factory (rival bidder Deutsche Telekom). On backlog since 11-18 (runner-up #2). Needs one-line explanations of Nscale, Skeleton, Verda, EuroHPC. Original announcement was Nov 16 (Nokia newsroom, not read); heise is Nov 18.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "AI Gigafactory im Norden: Nokia und Partner planen europäische KI-Infrastruktur",
+     "date": "2026-11-18",
+     "url": "https://www.heise.de/news/AI-Gigafactory-im-Norden-Nokia-und-Partner-planen-europaeische-KI-Infrastruktur-11530042.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Nokia, Nscale, Skeleton, Telia and Verda formed a consortium called AI Gigafactory Northern (AIGF Northern) to build a federated, multi-site AI infrastructure in the Nordic-Baltic region.",
+     "article": 0
+    },
+    {
+     "text": "The group wants to take part in the tender of the EuroHPC Joint Undertaking, which provides funding for up to four medium-sized and three large AI gigafactories.",
+     "article": 0
+    },
+    {
+     "text": "Planned connections are in Oulu in Finland, Iru in Estonia and Valmiera in Latvia; the site for the Swedish part has not been decided.",
+     "article": 0
+    },
+    {
+     "text": "Under InvestAI, the EU wants to mobilise more than 30 billion euros for AI gigafactories, including at least 20 billion euros of private capital and up to 10 billion euros of public funds.",
+     "article": 0
+    },
+    {
+     "text": "The multinational spread is meant to reduce concentration risk, increase resilience and allow flexible expansion; the cool climate lowers cooling needs and renewable energy is reliably available.",
+     "article": 0
+    },
+    {
+     "text": "VTT Technical Research Centre of Finland brings expertise in quantum computing, semiconductors, physical AI and photonics, and Sweden's KTH contributes AI research and talent expertise.",
+     "article": 0
+    },
+    {
+     "text": "Nokia supplies the secure network infrastructure and Nscale scalable cloud platforms for training and inference; Skeleton supplies power systems, and Telia and its subsidiary Telia Cygate bring network, data transmission and integration know-how.",
+     "article": 0
+    },
+    {
+     "text": "Deutsche Telekom is among the most prominent competitors for the EuroHPC funding.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI releases GPT-6.2 Astra and Sol: 20% lower Astra API prices, first OpenAI model rated High for AI self-improvement",
+   "region": "US/GLOBAL (Korea: Digital Times covered; heise Europe)",
+   "repeat_check": "New in posts/ (no GPT-6.2 post; 11-27 gpt-6-1-terra is the older model). Reference accounts: trenddalkak.ai (1.6x), prompt_what (1.8x), ai.trend.kr (0.4x, Nov 18) all covered it, so it is saturated and past its peak. OpenAI's own page returned 403; heise is the only readable original (VentureBeat 'negative reception' story not read). Only 1 source.",
+   "reference_posts": [
+    {
+     "username": "trenddalkak.ai",
+     "url": "https://www.instagram.com/p/Df3mRCelhJZ/"
+    },
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/Df3_JKUI2R0/"
+    },
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/p/Df4WWU9D8xA/"
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "GPT-6.2 Astra: OpenAI warnt vor neuen Risiken durch KI-Selbstverbesserung",
+     "date": "2026-11-18",
+     "url": "https://www.heise.de/news/GPT-6-2-Astra-OpenAI-warnt-vor-neuen-Risiken-durch-KI-Selbstverbesserung-11528955.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenAI released GPT-6.2 Astra, its top model, and GPT-6.2 Sol, a cheaper all-round model for everyday work.",
+     "article": 0
+    },
+    {
+     "text": "In independent tests by Artificial Analysis, GPT-6.2 Astra at maximum reasoning effort scores 62 on the Intelligence Index, second place behind Claude Fable 5.2 and ahead of Gemini 4 Carbon.",
+     "article": 0
+    },
+    {
+     "text": "GPT-6.2 Sol improves by two points to 57, matching the earlier GPT-6 Astra at only about 15 percent of the cost per benchmark task.",
+     "article": 0
+    },
+    {
+     "text": "Astra costs $8 per million input tokens and $40 per million output tokens through the API, each 20 percent less than its predecessor.",
+     "article": 0
+    },
+    {
+     "text": "Sol's price stays at $2 per million input tokens and $10 per million output tokens.",
+     "article": 0
+    },
+    {
+     "text": "According to Artificial Analysis, average cost per benchmark task at maximum effort falls by about 36 percent for Astra and 20 percent for Sol.",
+     "article": 0
+    },
+    {
+     "text": "Under OpenAI's own risk assessment, both models reach 'Critical' for cybersecurity and 'High' for biological and chemical capabilities.",
+     "article": 0
+    },
+    {
+     "text": "OpenAI classes GPT-6.2 Astra as the first of its externally released models at the 'High' risk level for AI self-improvement.",
+     "article": 0
+    },
+    {
+     "text": "OpenAI introduced a system called Control Room that tracks model workloads in its research infrastructure and can quickly stop them if safety concerns arise.",
+     "article": 0
+    },
+    {
+     "text": "Both models are available to ChatGPT Plus, Pro, Business, Enterprise and Edu users, and to developers via the API.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Satya Nadella explains why Microsoft offered buyouts to 60,000 employees: everyone becomes a manager of AI agents",
+   "region": "US/GLOBAL",
+   "repeat_check": "RELATED: backlog 2026-10-27-microsoft-voluntary-exit (the buyout itself). New: Nadella's own explanation at the DealBook Summit (Nov 18). Not in posts/.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+     "date": "2026-11-19",
+     "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Satya Nadella explained Wednesday why he offered buyouts to 60,000 of his employees in October, urging them to quit voluntarily instead of reducing the workforce through another massive layoff.",
+     "article": 0
+    },
+    {
+     "text": "He said he is not replacing employees with AI, especially software engineers, but reorganizing Microsoft so that everyone uses AI and their jobs focus on managing that AI.",
+     "article": 0
+    },
+    {
+     "text": "He told Andrew Ross Sorkin at the DealBook Summit that the buyout was 'to make sure that at least everyone felt like they had agency in making choices.'",
+     "article": 0
+    },
+    {
+     "text": "The team that builds Cowork, the AI agent in Microsoft 365 apps, has just 11 developers, who 'build a software factory that builds the product.'",
+     "article": 0
+    },
+    {
+     "text": "Nadella believes every employee will one day become a manager of agents rather than a person directly doing the work.",
+     "article": 0
+    },
+    {
+     "text": "He said transforming a 51-year-old incumbent 'is going to take a bit more time than anyone expects.'",
+     "article": 0
+    },
+    {
+     "text": "On The Pragmatic Engineer podcast he said talk about the singularity and predictions that AI will take all jobs has created 'enormous anxiety' in people.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nvidia delays its quarterly SEC filing (10-Q) amid Huang investigation; SEC reportedly probing Nvidia disclosures",
+   "region": "US/GLOBAL (China chips angle)",
+   "repeat_check": "RELATED REPEAT: posts/2026-11-18-nvidia-q3-china-exit. BRAND-SAFETY RISK: Huang scandal (affair, alleged spy). Use only on a slow day, and keep personal allegations out. Lower priority.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+     "date": "2026-11-18",
+     "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "On Tuesday's quarterly call, interim CEO Colette Kress said Nvidia would not immediately file its quarterly 10-Q with the SEC and plans to file 'in the coming weeks', without giving a reason.",
+     "article": 0
+    },
+    {
+     "text": "Nvidia has typically filed the 10-Q the same day it reports results.",
+     "article": 0
+    },
+    {
+     "text": "UBS analyst Timothy Arcuri wrote that management said the delay was related to the ongoing investigation and whether additional risk factors would need to be added to the filing.",
+     "article": 0
+    },
+    {
+     "text": "UBS lowered its price target to $220 from $240; the stock is trading around $150.",
+     "article": 0
+    },
+    {
+     "text": "The Wall Street Journal reported on the same day that the SEC is investigating whether Nvidia's disclosures misled investors.",
+     "article": 0
+    },
+    {
+     "text": "Nvidia is facing multiple federal investigations over allegations that its partners were selling restricted Nvidia AI chips to China, including a Department of Justice probe of Megaspeed.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Cisco adds Anthropic's Claude Mythos 5 to AI Defense for adaptive red-teaming of AI agents",
+   "region": "EUROPE source (heise) / US",
+   "repeat_check": "New, low priority (enterprise security, one source, short article).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Anthropic und Cisco integrieren Claude Mythos 5 in AI Defense",
+     "date": "2026-11-18",
+     "url": "https://www.heise.de/news/Anthropic-und-Cisco-integrieren-Claude-Mythos-5-in-AI-Defense-11529932.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Anthropic and Cisco are cooperating on securing AI agents; Cisco is integrating Claude Mythos 5 into its AI security platform AI Defense for adaptive red-teaming.",
+     "article": 0
+    },
+    {
+     "text": "Anthropic made Claude Mythos 5 available to only a few companies because of its potential danger.",
+     "article": 0
+    },
+    {
+     "text": "The Mythos models are said to be especially effective at finding and exploiting security vulnerabilities.",
+     "article": 0
+    },
+    {
+     "text": "The predecessor, Claude Mythos Preview, was initially available only to selected companies under Project Glasswing to close zero-day vulnerabilities proactively.",
+     "article": 0
+    },
+    {
+     "text": "Guardrails are meant to prevent misuse, and users get controlled access to Mythos without fully open API access.",
+     "article": 0
+    },
+    {
+     "text": "Cisco says the specific risks of current AI applications cannot be tested comprehensively with conventional red-teaming methods.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}
