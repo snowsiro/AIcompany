@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-19
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 선정: Anthropic Nasdaq 상장 첫날 거래 (GLOBAL AI · INDUSTRY, 점수 7 = 글로벌 3 + 숫자 2 + 저녁 신선도 2). 소스 CBC(선두)·StockTitan·Fox Business. 첫 게시 시각 CBC 2026-11-19 17:37 UTC(StockTitan 실시간 페이지는 약 18:12 UTC 갱신), ready 시점 약 20:00 Vienna(19:00 UTC) 기준 약 1~1.5시간 경과. 가격은 모두 "as of 1 pm ET"로 표기, 종가 없음(미국 장 마감 22:00 Vienna 이후). 투자 조언 문구 없음
+2. 검수: 1차에서 fact·hook(7/10)·brand 모두 통과. 반영한 사소한 수정: 슬라이드 1의 "$26B 사모 배정" 동사를 StockTitan(11/20 클로징 예정)과 맞게 완화, hook_pick_reason의 슬라이드 번호 정정. 참고: hook-judge가 커버에 "Anthropic" 이름이 없다고 지적(비차단). StockTitan 메타 날짜는 11-17이나 내용은 11-19 실시간 로그
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 6/6: 아침 4 + 저녁 2, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+4. 신규 기사는 사실상 Anthropic 건뿐 (피드는 Reuters 3건뿐, 원문 읽기 불가). 예비: Gemini 4 Neon, Korea CSAT(미검증), Genie 4, GPT-6.2(heise 단일), Cisco·Mythos 5. 실패한 소스: theverge.com 403, TechCrunch 카테고리 페이지, Benzinga 403, Yahoo, CNN 라이브
+자세한 기록
+- 후보 신규 1 + 넘어온 5, 선정 id `2026-11-19-anthropic-ant-debut`
+- 넘어온 ready 글 없음 (아침 nadella published)
+- 머지: PR의 render 체크 후 재확인해 머지 (다음 보고에 결과 기록)
+
 ## [아침 보고] 2026-11-19
 처리 2건 (ready 1 · blocked 1) · 실패 0건
 성과: 어제 도달 8 · 팔로워 2 · 링크 클릭 0 · 최고 도달 ai-teddy-bbc (44) (Meta 정산 최대 48h)

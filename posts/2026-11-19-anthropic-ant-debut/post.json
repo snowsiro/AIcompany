@@ -1,0 +1,156 @@
+{
+  "id": "2026-11-19-anthropic-ant-debut",
+  "date": "2026-11-19",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "GLOBAL AI · INDUSTRY",
+    "headline": [
+      "ANT OPENS **34%**",
+      "ABOVE IPO PRICE"
+    ],
+    "hook_options": [
+      [
+        "ANT OPENS **34%**",
+        "ABOVE IPO PRICE"
+      ],
+      [
+        "ANTHROPIC OPENS",
+        "AT **$111.50**"
+      ],
+      [
+        "ANT **FADES** 13.3%",
+        "FROM ITS OPEN"
+      ],
+      [
+        "THE **LARGEST** IPO",
+        "HITS NASDAQ"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the articles cover Anthropic's trading debut and its effect on shareholders, and state no effect on what ordinary readers pay, use or risk. \"ANT OPENS 34% ABOVE IPO PRICE\" is the strongest the slides fully support: it names the ticker and carries a hard number, and slide 3 shows the first trade (according to Bloomberg via CBC) at 34% above the $83 IPO price. The $111.50 hook is accurate but less vivid without the IPO comparison. The FADES hook is supported by slide 4 (13.3% below the first trade as of 1 pm ET) but reads as a final verdict on an intraday snapshot. The LARGEST IPO hook rests on a CBC claim and is not specific to the debut day.",
+    "image_prompt": "Cinematic wide shot of a colossal glowing golden ascending staircase of light made of luminous bars rising out of a dark trading hall at night, the top steps blazing bright then dipping into a cooler blue valley, abstract ticker light streams arcing overhead, a vast empty marble floor reflecting gold. Main subject in the upper half, lower third fading into deep black. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The pricing",
+      "title": "Priced above its range",
+      "body": [
+        "Anthropic, maker of the Claude chatbot, priced its IPO at **$83** a share on Wednesday, above the initial $70 to $78 range. It offered 980 million shares for about $81.3B, with a $26B private placement alongside it."
+      ]
+    },
+    {
+      "kicker": "The open",
+      "title": "First trade at $111.50",
+      "body": [
+        "ANT's first trade came at 11:48 a.m. ET on Thursday, **$111.50** according to Bloomberg, 34% above the IPO price. It came 2 hours 18 minutes after the 9:30 a.m. open, out of Nasdaq's opening auction."
+      ]
+    },
+    {
+      "kicker": "The swing",
+      "title": "A high and a low within 30 minutes",
+      "body": [
+        "A minute after the first trade, ANT hit the day's high of **$114.99** at 11:49 a.m. ET. By 12:19 p.m. ET it had fallen to the low of **$95.05**. Both are intraday figures, not a close."
+      ]
+    },
+    {
+      "kicker": "The 1 pm snapshot",
+      "title": "Down from the open, up from the IPO",
+      "body": [
+        "As of 1 pm ET, ANT traded at **$96.66**: 16.5% above the IPO price but 13.3% below the first trade. About 536 million shares had changed hands. This is a snapshot, and the price kept moving."
+      ]
+    },
+    {
+      "kicker": "The record",
+      "title": "The largest IPO on record",
+      "body": [
+        "CBC reports Anthropic raised **$81B**, a record, ahead of SpaceX's roughly $75B in June. As of 12:50 p.m. ET, ANT was up 19% while the Nasdaq was slightly down and Nvidia, Micron and CoreWeave slipped."
+      ]
+    },
+    {
+      "kicker": "The unlock",
+      "title": "Some insiders could sell on day one",
+      "body": [
+        "Anthropic's filing says as many as **315 million** shares held by non-founder executives, directors and current and former employees could become eligible for sale on day one, generally up to 10% of their locked-up holdings."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Shares of Anthropic debuted on the Nasdaq slightly before noon Eastern time on Thursday at $111.50 per share, according to Bloomberg, 34 per cent above the $83 US IPO price."
+    },
+    {
+      "source": 0,
+      "text": "Shares were up 19 per cent, as of 12:50 p.m. ET."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic holds the record for the largest-ever IPO, raising $81 billion US, well ahead of SpaceX, which raised about $75 billion US in June."
+    },
+    {
+      "source": 0,
+      "text": "The tech-heavy Nasdaq index was down slightly while AI-related stocks like Nvidia, Micron Technology and CoreWeave were slipping lower."
+    },
+    {
+      "source": 0,
+      "text": "Anthropic is the AI giant behind the popular Claude chatbot."
+    },
+    {
+      "source": 1,
+      "text": "ANT started trading at 11:48 a.m. ET on Thursday, November 19, at $111.50 a share, 2 hours 18 minutes after the 9:30 a.m. open; the first trade came out of Nasdaq's opening auction, the IPO Cross."
+    },
+    {
+      "source": 1,
+      "text": "ANT reached the day's high of $114.99 at 11:49 a.m. ET, then fell to the day's low of $95.05 at 12:19 p.m. ET."
+    },
+    {
+      "source": 1,
+      "text": "At 1:00 p.m. ET ANT traded at $96.66, 16.5% above the $83 IPO price and 13.3% below the $111.50 first trade; about 536 million shares had traded by 1:00 p.m. ET."
+    },
+    {
+      "source": 2,
+      "text": "Anthropic priced its IPO at $83 per share on Wednesday, above the initial range of $70 to $78, and is offering 980 million shares for about $81.3 billion. The company also raised $26 billion through a private placement."
+    },
+    {
+      "source": 2,
+      "text": "The company's SEC filing indicated that as many as 315 million shares held by non-founder executives, directors, and current and former employees and consultants could become eligible for sale on the stock's first trading day. These shareholders are generally allowed to sell up to 10% of their locked-up holdings immediately."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "CBC News",
+      "title": "Anthropic stock soars by double-digits in Nasdaq debut",
+      "date": "Nov 19, 2026",
+      "url": "https://www.cbc.ca/news/business/anthropic-first-day-trading-9.7428367"
+    },
+    {
+      "outlet": "StockTitan",
+      "title": "Anthropic's First Day of Trading, Live: Every Step of ANT's Debut",
+      "date": "Nov 19, 2026",
+      "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
+    },
+    {
+      "outlet": "Fox Business",
+      "title": "Anthropic begins trading on Nasdaq in record-breaking IPO",
+      "date": "Nov 19, 2026",
+      "url": "https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo"
+    }
+  ],
+  "caption": "Anthropic's stock opened at $111.50 on Nasdaq as ANT, 34% above its $83 IPO price, according to CBC News citing Bloomberg.\n\nThe Claude maker's debut is the largest IPO on record, CBC reports. The figures below are intraday snapshots, not a close.\n\n→ First trade at 11:48 a.m. ET, high of $114.99, low of $95.05 at 12:19 p.m. ET\n→ As of 1 pm ET: $96.66, 16.5% above the IPO price and 13.3% below the first trade\n→ Up to 315M insider shares could become eligible for sale on day one\n\nWhat does the first day tell you about how markets price an AI lab?\n\nSource: CBC News, \"Anthropic stock soars by double-digits in Nasdaq debut\", Nov 19, 2026; StockTitan, \"Anthropic's First Day of Trading, Live: Every Step of ANT's Debut\", Nov 19, 2026; Fox Business, \"Anthropic begins trading on Nasdaq in record-breaking IPO\", Nov 19, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Anthropic",
+    "#AnthropicIPO",
+    "#Nasdaq"
+  ],
+  "threads_caption": "Anthropic's stock opened at $111.50 as ANT, 34% above its $83 IPO price (CBC, citing Bloomberg). As of 1 pm ET it traded at $96.66, 13.3% below that first trade.\n\nThese are intraday snapshots, not a close.\n\nSource: CBC News, \"Anthropic stock soars by double-digits in Nasdaq debut\"; StockTitan, \"Anthropic's First Day of Trading, Live: Every Step of ANT's Debut\". #Anthropic",
+  "published_id": null
+}
