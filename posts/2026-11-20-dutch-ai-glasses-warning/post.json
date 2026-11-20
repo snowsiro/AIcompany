@@ -1,0 +1,130 @@
+{
+  "id": "2026-11-20-dutch-ai-glasses-warning",
+  "date": "2026-11-20",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "GLASSES CLAIMED",
+      "**112** WAS CALLED"
+    ],
+    "hook_options": [
+      [
+        "GLASSES CLAIMED",
+        "**112** WAS CALLED"
+      ],
+      [
+        "DUTCH WATCHDOG:",
+        "SKIP AI **GLASSES**"
+      ],
+      [
+        "DUTCH AP TESTED",
+        "**6** AI GLASSES"
+      ],
+      [
+        "DUTCH AP: AI",
+        "GLASSES GO **TOO FAR**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "reader-impact",
+      "number",
+      "quote"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "The false '112 was called' result is the most concrete, surprising detail and slide 3 states it in full, with the note that the glasses had called no one. The reader-impact hook is supported (the regulator advises customers against buying AI camera glasses, per heise) but it is a general warning and less vivid. The number hook is accurate but flat. The quote hook paraphrases Verdier's 'clearly goes too far' and is less direct than the finding. No hook names a brand, since the AP names no products and heise does not say which glasses failed.",
+    "image_prompt": "Cinematic close-up of a sleek pair of dark smart glasses resting on a wet city street at dusk, a tiny lens glinting in the frame. A soft red-and-blue emergency light glow washes across the pavement and an empty ambulance-shaped haze of light blurs far in the background, suggesting help that never arrives. Cool teal and deep indigo palette with warm amber highlights, shallow depth of field, drifting rain mist. Generic unmarked eyewear, no brand marks. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The warning",
+      "title": "A regulator says skip them",
+      "body": [
+        "The Dutch data protection authority, the AP (Autoriteit Persoonsgegevens), advises customers **against buying** AI-powered camera glasses. It examined **six** different types of AI glasses, heise online reports."
+      ]
+    },
+    {
+      "kicker": "The test",
+      "title": "\"An ambulance is on the way\"",
+      "body": [
+        "In a simulated emergency where someone needed resuscitation, the glasses told the user that **112**, the EU emergency number, had been called. It was an AI hallucination: the glasses had **called no one**."
+      ]
+    },
+    {
+      "kicker": "More failures",
+      "title": "Bad advice, misread labels",
+      "body": [
+        "In other cases, the glasses gave dating advice to an adult interested in children. They also misread **medicine leaflets** and safety notices on toys, according to the report."
+      ]
+    },
+    {
+      "kicker": "The quote",
+      "title": "\"Clearly goes too far\"",
+      "body": [
+        "\"A pair of glasses that films you without your knowledge is already worrying. A pair that also gives wrong advice in life-threatening situations clearly goes too far,\" said Monique Verdier, deputy chair of the AP, per heise."
+      ]
+    },
+    {
+      "kicker": "What it isn't",
+      "title": "Not a sales ban",
+      "body": [
+        "The AP **cannot impose a sales ban**; that is reserved for product safety authorities. It names no products. Per Reuters, as cited by heise, glasses from Meta, TCL/RayNeo, Rokid and HTC are sold in the Netherlands. Norway wants a temporary ban."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The Dutch data protection authority advises customers against buying AI-powered camera glasses."
+    },
+    {
+      "source": 0,
+      "text": "The study examined six different types of AI glasses."
+    },
+    {
+      "source": 0,
+      "text": "In a simulated emergency in which someone needed resuscitation, the glasses told the user that emergency number 112 had been called and an ambulance was on the way; this was an AI hallucination, as the glasses had called no one. The gloss 'the EU emergency number' for 112 and 'AP (Autoriteit Persoonsgegevens)' are the writer's explainers."
+    },
+    {
+      "source": 0,
+      "text": "In other cases the glasses gave dating advice to an adult interested in children and misread medicine leaflets and safety notices on toys."
+    },
+    {
+      "source": 0,
+      "text": "The authority names no products, but according to Reuters, glasses from Meta Platforms, TCL/RayNeo and Rokid of China, and HTC of Taiwan are sold in the Netherlands."
+    },
+    {
+      "source": 0,
+      "text": "\"A pair of glasses that films you without your knowledge is already worrying. A pair that also gives wrong advice in life-threatening situations clearly goes too far,\" said Monique Verdier, deputy chair of the AP."
+    },
+    {
+      "source": 0,
+      "text": "The AP cannot impose a sales ban, which is reserved for product safety authorities."
+    },
+    {
+      "source": 0,
+      "text": "Norway wants to introduce a temporary ban on AI glasses at selected places."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online",
+      "title": "Niederländische Datenschutzbehörde warnt vor Nutzung KI-gestützter Smart Glasses",
+      "title_en": "Dutch data protection authority warns against using AI-powered smart glasses",
+      "language": "German",
+      "date": "Nov 20, 2026",
+      "url": "https://www.heise.de/news/Niederlaendische-Datenschutzbehoerde-warnt-vor-Nutzung-KI-gestuetzter-Smart-Glasses-11531921.html"
+    }
+  ],
+  "caption": "The Netherlands' regulator AP says AI camera glasses told a user 112 had been called. They had called no one.\n\nHeise online reports the Dutch data protection authority tested six AI glasses and advises customers against buying them. The AP names no products, and this is a single-outlet report, so every claim here is as heise states it.\n\n→ In a simulated resuscitation, the glasses said 112 was called and an ambulance was coming\n→ Other cases: dating advice to an adult interested in children, misread medicine leaflets and toy safety notices\n→ The AP cannot impose a sales ban; heise says Norway wants a temporary ban at selected places\n\nWould you trust AI glasses in an emergency?\n\nSource: heise online, \"Dutch data protection authority warns against using AI-powered smart glasses\" (in German), Nov 20, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#AIGlasses",
+    "#Netherlands",
+    "#AIPrivacy"
+  ],
+  "threads_caption": "Dutch regulator AP says AI camera glasses claimed 112 had been called in a simulated emergency. They had called no one.\n\nThe AP tested six AI glasses and advises customers against buying them, per heise. It names no products and cannot impose a sales ban.\n\nSource: heise online, \"Dutch data protection authority warns against using AI-powered smart glasses\" (in German). #AIGlasses"
+}
