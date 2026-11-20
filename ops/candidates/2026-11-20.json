@@ -1,0 +1,384 @@
+{
+ "date": "2026-11-20",
+ "run": "morning",
+ "dropped_unreadable": [
+  "Reuters 900k chips to China (Google News only, no original found)",
+  "Nikkei Alibaba own chips",
+  "Korea Herald Suneung cheating 5 caught / Yonhap 98 caught",
+  "Korea exports $1T (milestone article unreadable)",
+  "OpenAI Performance Factory (403)",
+  "Ars Doritos AI gun alert (403)",
+  "Der Standard Austria AI agenda (paywalled)",
+  "LEET scorer death story (sensitive, skipped)"
+ ],
+ "stories": [
+  {
+   "title": "Meta reportedly plans to price its Muse Charm AI keychain device at $300",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "No reference account covers it; AI Times (Korea) ran it 11-20 13:16 KST, so Korean accounts will likely follow. Price is a report from The Information; Meta did not deny.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Meta's new Muse Charm device may cost $300",
+     "date": "2026-11-19",
+     "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Meta plans to charge $300 for Muse Charm, its upcoming Tamagotchi-like AI device that was teased at the company's Connect event earlier this year, The Information has reported.",
+     "article": 0
+    },
+    {
+     "fact": "When reached for comment by TechCrunch, a Meta spokesperson didn't deny the claims, merely providing the following statement: \"We're charmed by the interest in our AI devices, and we'll have more to share soon.\"",
+     "article": 0
+    },
+    {
+     "fact": "Muse Charm will allow users to carry a physical personification of its software around in their pocket (or potentially wear it around their neck), talking to it, asking it questions, and giving it commands.",
+     "article": 0
+    },
+    {
+     "fact": "The wearable launched by Friend, the AI startup whose device lets you text and talk to an AI persona, is currently retailing for $250.",
+     "article": 0
+    },
+    {
+     "fact": "Amazon's all-new Bee Frontier wearable AI device lists for $75 and is currently on a Black Friday, 30% off sale of $52.49.",
+     "article": 0
+    },
+    {
+     "fact": "Even with its $99/year subscription to let it tie into a user's apps (photos, emails, etc.), it's still far less expensive than Muse Charm.",
+     "article": 0
+    },
+    {
+     "fact": "Meta has made a relatively successful push into consumer AI, launching Muse, its agentic helper, along with a variety of cute avatars.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Apple is building its own AI agent that can use a Mac, while making it harder for third-party agents",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Source is Bloomberg via TechCrunch; Apple did not respond. Early stage.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Apple may be developing its own AI agent that runs your Mac",
+     "date": "2026-11-20",
+     "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Apple appears to be working on its own AI agent to conduct computer work on behalf of users, including using apps, accessing websites, and coding.",
+     "article": 0
+    },
+    {
+     "fact": "The news was originally reported by Bloomberg, which spotted a job listing the iPhone maker recently posted for a senior engineering manager to oversee the creation of an \"AI agent that can use a computer.\"",
+     "article": 0
+    },
+    {
+     "fact": "\"Imagine an AI agent that can use a computer the way a capable person does,\" the posting says.",
+     "article": 0
+    },
+    {
+     "fact": "The agents should be able to move \"fluidly between tools\" and \"carry out multi-step tasks across apps, browsers, command lines, code, and APIs.\"",
+     "article": 0
+    },
+    {
+     "fact": "Bloomberg notes that the version of its upcoming macOS 27.3 will deploy warnings discouraging users from granting full access to third-party agents.",
+     "article": 0
+    },
+    {
+     "fact": "Bloomberg says the iPhone maker \"has eyed introducing the service as soon as the end of next year,\" but progress \"remains in the early stages.\"",
+     "article": 0
+    },
+    {
+     "fact": "TechCrunch reached out to Apple for more information but did not receive a response.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google releases Gemini 4 Neon: #3 on Artificial Analysis index at $3/$15 per million tokens",
+   "region": "US",
+   "repeat_check": "new (Gemini 4 Neon not in posts/; related 2026-10-27-google-genie-4 is a different product)",
+   "reference_posts": [],
+   "note": "Company announcement; benchmark claims are Google's own. VentureBeat headline claims Opus 5.5-level coding at 25% lower price, not read.",
+   "articles": [
+    {
+     "outlet": "Google DeepMind / Google blog",
+     "title": "Introducing Gemini 4 Neon",
+     "date": "2026-11-18",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Neon ranks ahead of comparable models and #3 overall with a score of 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, landing just behind larger, slower models.",
+     "article": 0
+    },
+    {
+     "fact": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window.",
+     "article": 0
+    },
+    {
+     "fact": "Gemini 4 Neon is rolling out today in the Gemini API in Google AI Studio, Gemini for business (via API and model dropdown), for paid Google AI Pro and Ultra subscribers in Google Antigravity, and for Pro and Ultra subscribers in the Gemini app.",
+     "article": 0
+    },
+    {
+     "fact": "On the Vals Index, Neon ranks #2 (70.9%), and reaches #1 on both the Legal Research Bench and Tax Agent Bench.",
+     "article": 0
+    },
+    {
+     "fact": "It debuts #2 globally with a score of 1336 on Arena's new Agent Arena Index across 4,200+ real-world agent sessions.",
+     "article": 0
+    },
+    {
+     "fact": "Neon ranks #1 overall on the Artificial Analysis Coding Agent Index (58.6), with a score of 65.2% on Terminal-Bench 4.1.",
+     "article": 0
+    },
+    {
+     "fact": "Neon records Google's lowest fabrication rate yet in internal Google Antigravity testing.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Gemini can now take over tasks on your Mac (computer use, not available in Europe or UK)",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Pairs well with the Apple agent story as a combined angle.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google's Gemini can now take over tasks on your Mac",
+     "date": "2026-11-19",
+     "url": "https://thenextweb.com/news/google-gemini-mac-computer-use-multi-step-tasks"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google is rolling out computer use in its Gemini app for Mac, letting the assistant carry out multi-step tasks across local files, desktop apps and websites in a separate background window.",
+     "article": 0
+    },
+    {
+     "fact": "It runs in a separate background window with a live preview in the chat, so your screen and cursor stay free.",
+     "article": 0
+    },
+    {
+     "fact": "You choose which apps it can use, can pause it, and must approve key actions.",
+     "article": 0
+    },
+    {
+     "fact": "The feature is for paying subscribers to Google's AI Plus, Pro and Ultra plans, and needs a Mac with Apple Silicon.",
+     "article": 0
+    },
+    {
+     "fact": "As with its Gemini Spark agent, it is not available in Europe or the UK.",
+     "article": 0
+    },
+    {
+     "fact": "Google warns that Gemini can make mistakes, including permanently deleting files or sharing them with others.",
+     "article": 0
+    },
+    {
+     "fact": "Backups of changed files are deleted after 24 hours or when you start a new task.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Dutch privacy regulator advises against buying AI camera glasses after tests found chatbot gave dangerous advice",
+   "region": "Europe",
+   "repeat_check": "new (related Korea AI glasses / Google-Samsung glasses posts are different angles)",
+   "reference_posts": [],
+   "note": "German source (heise), facts are English renderings of the German text. heise cites Reuters and NL Times. AP = Autoriteit Persoonsgegevens.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Niederländische Datenschutzbehörde warnt vor Nutzung KI-gestützter Smart Glasses",
+     "date": "2026-11-20",
+     "url": "https://www.heise.de/news/Niederlaendische-Datenschutzbehoerde-warnt-vor-Nutzung-KI-gestuetzter-Smart-Glasses-11531921.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The Dutch data protection authority advises customers against buying AI-powered camera glasses.",
+     "article": 0
+    },
+    {
+     "fact": "The study examined six different types of AI glasses.",
+     "article": 0
+    },
+    {
+     "fact": "In a simulated emergency in which someone needed resuscitation, the glasses told the user that emergency number 112 had been called and an ambulance was on the way; this was an AI hallucination, as the glasses had called no one.",
+     "article": 0
+    },
+    {
+     "fact": "In other cases the glasses gave dating advice to an adult interested in children and misread medicine leaflets and safety notices on toys.",
+     "article": 0
+    },
+    {
+     "fact": "The authority names no products, but according to Reuters, glasses from Meta Platforms, TCL/RayNeo and Rokid of China, and HTC of Taiwan are sold in the Netherlands.",
+     "article": 0
+    },
+    {
+     "fact": "\"A pair of glasses that films you without your knowledge is already worrying. A pair that also gives wrong advice in life-threatening situations clearly goes too far,\" said Monique Verdier, deputy chair of the AP.",
+     "article": 0
+    },
+    {
+     "fact": "The AP cannot impose a sales ban, which is reserved for product safety authorities.",
+     "article": 0
+    },
+    {
+     "fact": "Norway wants to introduce a temporary ban on AI glasses at selected places.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Microsoft puts Word, Excel and PowerPoint inside Copilot at Ignite; Nadella calls it 'the new operating system for work'",
+   "region": "US",
+   "repeat_check": "RELATED: 2026-11-19-nadella-agent-managers covered Nadella/60K employees; this is the Ignite product launch angle. Editor to judge.",
+   "reference_posts": [],
+   "note": "",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Microsoft launches Office in Copilot, with Word, Excel and PowerPoint",
+     "date": "2026-11-19",
+     "url": "https://thenextweb.com/news/microsoft-office-in-copilot-nadella-ignite-agi-pilled"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Microsoft has built Word, Excel and PowerPoint into Copilot.",
+     "article": 0
+    },
+    {
+     "fact": "Chief executive Satya Nadella called Copilot \"the new operating system for work\" at Ignite in San Francisco.",
+     "article": 0
+    },
+    {
+     "fact": "Office in Copilot is now generally available, according to Microsoft's Ignite news page.",
+     "article": 0
+    },
+    {
+     "fact": "Copilot Workspaces are shared spaces for teams, their agents and Copilot.",
+     "article": 0
+    },
+    {
+     "fact": "Agent 365 already manages 50 million agents.",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft also launched the AI Transparency Initiative with 40 organisations.",
+     "article": 0
+    },
+    {
+     "fact": "Nadella opened the keynote with last week's Microsoft 365 outage, which took down Outlook and Teams around the world.",
+     "article": 0
+    },
+    {
+     "fact": "Nadella told reporters that AI code and AI deployments did not cause the outage.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google rolls out Genie 4 world model to AI Ultra subscribers with real-time editing and native audio",
+   "region": "US",
+   "repeat_check": "RELATED REPEAT: posts/2026-10-27-google-genie-4 exists (within ~24 days, outside 14 days). This is the subscriber rollout; editor to judge.",
+   "reference_posts": [],
+   "note": "",
+   "articles": [
+    {
+     "outlet": "Google DeepMind / Google blog",
+     "title": "Genie 4 is now available",
+     "date": "2026-11-18",
+     "url": "https://deepmind.google/blog/genie-4-is-now-available/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "We are rolling out Genie 4 to eligible Google AI Ultra subscribers, offering more responsive, social, and interactive world generation.",
+     "article": 0
+    },
+    {
+     "fact": "You can now use natural language to edit environments in real time, add native audio, and share your creations in our new community gallery.",
+     "article": 0
+    },
+    {
+     "fact": "Google AI Pro members can join a waitlist.",
+     "article": 0
+    },
+    {
+     "fact": "The new Project Genie agent helps you build custom worlds through simple natural language conversations.",
+     "article": 0
+    },
+    {
+     "fact": "With Genie 4 you can change weather, add characters, and hear adaptive audio in real time just by typing prompts.",
+     "article": 0
+    },
+    {
+     "fact": "Genie 4 is described as Google's most realistic and interactive world model yet.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Anthropic's 7 founders cashed out nearly $2B in the IPO; Google and Amazon hold 28%; $1T of compute commitments",
+   "region": "US",
+   "repeat_check": "RELATED REPEAT: posts/2026-11-19-anthropic-ant-debut covered pricing/debut; this is a follow-up with new numbers (founders, stakes, commitments). Editor to judge; likely skip.",
+   "reference_posts": [],
+   "note": "",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic's 7 founders cashed out nearly $2B in record-breaking IPO",
+     "date": "2026-11-20",
+     "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders.",
+     "article": 0
+    },
+    {
+     "fact": "At the upgraded IPO price of $83 per share, each founder pocketed about $280 million before underwriting fees and taxes.",
+     "article": 0
+    },
+    {
+     "fact": "Each of the founders has pledged to dedicate 80% of their personal equity in the company to philanthropy.",
+     "article": 0
+    },
+    {
+     "fact": "The company points out that these commitments are \"voluntary, revocable expressions of each co-founder's philanthropic intent and do not constitute legally binding obligations.\"",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia bought $10 billion of the special non-voting Class N shares, Google bought $10 billion, and AMD, Broadcom, Micron, Microsoft, and TSMC divvied up the rest.",
+     "article": 0
+    },
+    {
+     "fact": "Google wound up owning 13.4% of the company; Amazon has 14.6%; together 28%.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic needs about $70.7 billion just to cover its compute and infrastructure spending commitments in the next 12 months, and $451.6 billion before the end of 2030.",
+     "article": 0
+    },
+    {
+     "fact": "When Facebook had its record-breaking IPO in 2012, it raised $16 billion on IPO day.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}

@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-20
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11-19) 도달 10 · 팔로워 2 · 링크 클릭 0 · 최고 도달 (metrics 파일 참고, 어제 글은 아직 집계 중)
+결정할 일
+1. 없음. 인스타 토큰이 없어 참고 계정 데이터는 이 세션에서 못 썼음 (morning-scan의 reference.json은 읽음: 튜토리얼성 글뿐, 3x 이상 뉴스 신호 없음). 오늘 후보에 한국 기사 없음: 한국 매체(Korea Herald, Yonhap 등) 읽기 차단. 아침 스캔이 main에 없어 morning-scan을 직접 실행했고 약 1분 내 도착
+2. 선정: 네덜란드 개인정보 감독기관(AP)의 AI 카메라 안경 구매 자제 권고 (EUROPE AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 유럽 3). 소스는 heise online 단일(독일어, Reuters·NL Times는 "heise 인용"으로만 표기), 캡션에 단일 매체 보도라고 명시. 안경 브랜드를 실패 사례로 지목하지 않음
+3. 검수: 1차에서 fact·hook(7/10)·brand 모두 통과. 비차단 참고: 슬라이드 6의 브랜드 나열(Reuters 인용)을 실패 모델로 오해할 수 있음, hook-judge는 커버에 "AI" 단어가 없다고 지적, 슬라이드 2 제목의 따옴표는 heise가 간접화법으로 보도. hook_pick_reason의 슬라이드 번호는 정정
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+5. 예비(`posts/_backlog/2026-11-20-morning-runners-up.md`): Gemini 4 Neon, Apple Mac 에이전트 + Gemini Mac 컴퓨터 사용, Meta Muse Charm $300, Microsoft Office in Copilot, Anthropic 창업자 현금화, Genie 4. 읽기 불가로 탈락: Reuters 중국 AI 칩 90만 개, Nikkei 알리바바, 수능 AI 안경 부정행위 기사들, OpenAI Performance Factory, Ars Doritos 건
+자세한 기록
+- 05:46 시작, 스캔 누락 확인 후 morning-scan 실행, 후보 8개 수집
+- 선정 id `2026-11-20-dutch-ai-glasses-warning`, 넘어온 ready 글 없음 (어제 글 모두 published 또는 blocked)
+
 ## [저녁 보고] 2026-11-19
 처리 1건 (ready 1) · 실패 0건
 결정할 일
