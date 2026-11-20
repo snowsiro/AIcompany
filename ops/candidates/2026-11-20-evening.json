@@ -1,0 +1,677 @@
+{
+ "date": "2026-11-20",
+ "run": "evening",
+ "cutoff_utc": "2026-11-20T04:45:00Z",
+ "dropped_unreadable": [
+  "Yonhap: Lee overhaul of state exam system (403)",
+  "Yonhap: Seoul shares plunge >5% as Anthropic debut fails to ease AI concerns (403)",
+  "Reuters EXCLUSIVE: Signal restricts screenshots to block AI agents (Google News redirect only, no original or other outlet found)",
+  "Reuters: Asia worst week / US AI chip curbs hit China tech stocks (Google News redirect, unreadable)",
+  "Korea Times: AI tool aces all English, math CSAT questions (Google News redirect, unreadable)",
+  "AI Times: Meta/Apple/others from morning lists not rechecked"
+ ],
+ "notes": [
+  "Anthropic IPO stories (TNW 17% above IPO price, heise Taiwan Taiex worst week since 1991) skipped: repeat of posts/2026-11-19-anthropic-ant-debut.",
+  "heise Taiwan/AMD article readable (Hunterbrook report AMD -7.7%, Taiex down 17% this week) if the editor wants a market-selloff angle; not written up as a story.",
+  "Korean CSAT cheating covered by posts/2026-11-16-korea-tax-exam-ai-cheating (related); Lee overhaul unreadable anyway.",
+  "No US afternoon announcement found in feeds after 12:00Z; search for same-day US launches returned nothing new."
+ ],
+ "stories": [
+  {
+   "title": "California's attorney general subpoenas Nvidia over whether chips or secrets reached China, and whether it misled investors",
+   "region": "US",
+   "first_published_utc": "2026-11-20T10:42:27Z",
+   "repeat_check": "RELATED: posts/2026-11-18-nvidia-q3-china-exit (same company, Nvidia China). New angle: state subpoena and Huang resignation. Editor to judge; evening must differ from morning company only (morning was Dutch regulator), so allowed.",
+   "reference_posts": [],
+   "note": "Heise (German) also ran it 09:20Z. Reuters is the original for the Huang/Alice Huang details; TNW cites it. 'Alice Huang' and Huang are not related per TNW.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Bonta on Nvidia: \"Companies cannot mislead their investors\"",
+     "date": "2026-11-20",
+     "url": "https://thenextweb.com/news/california-bonta-subpoena-nvidia-china-chips-investors"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "California Attorney General Rob Bonta has served Nvidia with an investigative subpoena.",
+     "article": 0
+    },
+    {
+     "fact": "His office wants to know whether the company's advanced chips or confidential information may have gone to China. It is also asking whether Nvidia misled investors and the public, the California Department of Justice said in a statement on Thursday.",
+     "article": 0
+    },
+    {
+     "fact": "\"Companies cannot mislead their investors,\" Bonta said.",
+     "article": 0
+    },
+    {
+     "fact": "The department said the subpoena relates to former chief executive Jensen Huang's affair with an alleged Chinese spy.",
+     "article": 0
+    },
+    {
+     "fact": "Huang resigned as chief executive last week after revelations of extramarital affairs, Reuters reported.",
+     "article": 0
+    },
+    {
+     "fact": "US intelligence agencies are trying to establish her ties to China's Ministry of State Security, according to Reuters. China rejects the espionage allegations.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia's board has ruled out his return and set up a national security committee. Huang has agreed to appear before House committees on 1 December.",
+     "article": 0
+    },
+    {
+     "fact": "Also on Thursday, the House Foreign Affairs Committee said the Trump administration had approved nearly 900,000 advanced Nvidia and AMD AI chips for Chinese companies, Reuters reported. The approvals ran from December 2025 to May.",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia told Reuters the approvals had strict conditions and limited volumes. It said it had stopped shipping H200 chips to China.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI adds up to 40% API discount if developers let GPT-6.2 jobs finish in 2 or 8 hours",
+   "region": "US",
+   "first_published_utc": "2026-11-20T08:17:56Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Read via AI Times (Korea), which embeds OpenAI Developers' 11-18 post. Event is 11-18, outlet article is today. Facts are English renderings of Korean text. OpenAI primary page not read.",
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "오픈AI, 'GPT-6.2' 응답 늦게 받으면 API 요금 최대 40% 할인",
+     "date": "2026-11-20",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217632"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI introduced a new billing option that varies API prices by response time.",
+     "article": 0
+    },
+    {
+     "fact": "Setting the target completion time of an API request to 2 hours or 8 hours earns a discount: 30% cheaper than standard for 2 hours, 40% cheaper for 8 hours.",
+     "article": 0
+    },
+    {
+     "fact": "The option is a 'Completion Window' added to the background mode of the Responses API.",
+     "article": 0
+    },
+    {
+     "fact": "It applies to four models, GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra and GPT-6 Luna, and is in public beta.",
+     "article": 0
+    },
+    {
+     "fact": "The discount also applies to multi-step agent tasks, if follow-up requests meet the discount conditions.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI's own post: \"For single- or multi-turn workflows that can wait, save up to 40% per token than Standard on GPT-6.2 Astra or GPT-6.2 Sol.\"",
+     "article": 0
+    },
+    {
+     "fact": "The change is linked to OpenAI replacing 'Flex' processing with a time-based discount option; Flex is not offered on GPT-6.2 Astra and Sol.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Moonshot AI cancels $150M Nvidia chip rental in Indonesia after new US rule on remote chip access",
+   "region": "Asia",
+   "first_published_utc": "2026-11-20T05:07:02Z",
+   "repeat_check": "RELATED: posts/2026-11-16-us-remote-access-chip-rule covered the rule; this is the first named casualty. Editor to judge.",
+   "reference_posts": [],
+   "note": "Read via AI Times (Korea) citing The Information. Facts are English renderings of Korean text. Moonshot AI is a Chinese AI startup (Kimi).",
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "문샷 AI, 미국 수출 규제에 2000억 규모 엔비디아 칩 임대 계약 취소",
+     "date": "2026-11-20",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217613"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Moonshot AI cancelled a $150 million (about 200 billion won) deal to rent Nvidia's latest AI chips through an Indonesian data center.",
+     "article": 0
+    },
+    {
+     "fact": "The Information reported on the 19th (US time), citing multiple sources, that Moonshot withdrew from the Blackwell Ultra B300 rental deal with a Southeast Asian neocloud company.",
+     "article": 0
+    },
+    {
+     "fact": "Moonshot had reportedly accepted paying 50% of the contract up front; the usual prepayment ratio is about 15%.",
+     "article": 0
+    },
+    {
+     "fact": "The trigger is a new US Commerce Department rule announced on the 16th and in force from the 19th.",
+     "article": 0
+    },
+    {
+     "fact": "The rule requires overseas data centers serving Chinese customers above a certain size to get US government permission.",
+     "article": 0
+    },
+    {
+     "fact": "Data centers already serving Chinese firms above that size must get a US licence within 90 days; the threshold is compute equal to about 300 of the latest AI chips.",
+     "article": 0
+    },
+    {
+     "fact": "Moonshot has also paused negotiations on other new GPU rental deals while it reviews the rule's impact.",
+     "article": 0
+    },
+    {
+     "fact": "Moonshot's K3 model, released in July, drew attention for performance comparable to major US models; it was seeking more GPUs for its next model, Kimi K4.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google picks Blue Origin's New Glenn to launch its AI-chip satellites for Project Suncatcher in 2029",
+   "region": "US",
+   "first_published_utc": "2026-11-20T04:44:03Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "BORDERLINE: AI Times published 04:44:03Z, one minute before the 04:45Z cut-off, so strictly excluded; listed for the editor as a fallback only. Blue Origin's own announcement not found by search.",
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "구글, 우주 AI 데이터센터 구축 위해 블루 오리진과 계약...2029년 위성 발사",
+     "date": "2026-11-20",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217615"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google chose Jeff Bezos' space company Blue Origin as launch partner for its Project Suncatcher experiment to build solar-powered AI data centers in space.",
+     "article": 0
+    },
+    {
+     "fact": "Blue Origin said on the 19th (US time) that Google selected its large New Glenn rocket and signed a launch services contract.",
+     "article": 0
+    },
+    {
+     "fact": "The first dedicated launch is planned for the first quarter of 2029, carrying several compute satellites with Google's TPU chips.",
+     "article": 0
+    },
+    {
+     "fact": "Each satellite will have compute power equal to one standard data center server rack.",
+     "article": 0
+    },
+    {
+     "fact": "The satellites would sit in a sun-synchronous orbit with near-constant sunlight.",
+     "article": 0
+    },
+    {
+     "fact": "Google launched a first test satellite built with Planet Labs on a SpaceX Falcon 9 in October; it is operating normally.",
+     "article": 0
+    },
+    {
+     "fact": "Next year Google plans an experiment linking two satellites; the first test satellite already ran the Gemma 4 model.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX and startup Starcloud are also pursuing space data centers; launch cost, satellite output, radiation shielding and cooling remain open challenges.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Google built a fake internet, 'Mirror Dimension', to test AI agents against prompt-injection attacks",
+   "region": "Europe/US",
+   "first_published_utc": "2026-11-20T09:10:00Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "heise only (German, cites Wired). Morning post was heise; avoid heise-only lead. Google's own post not read.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Google baut ein künstliches Internet für seine KI-Agenten",
+     "date": "2026-11-20",
+     "url": "https://www.heise.de/news/Google-baut-ein-kuenstliches-Internet-fuer-seine-KI-Agenten-11532191.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google has created an artificial internet with thousands of websites to expose AI agents to realistic attacks and improve their security.",
+     "article": 0
+    },
+    {
+     "fact": "The 'Mirror Dimension' is a test environment sealed off from the real internet, with thousands of artificial websites.",
+     "article": 0
+    },
+    {
+     "fact": "Prompt-injection attacks hide instructions on websites to divert agents from their real task, for example to leak confidential user data.",
+     "article": 0
+    },
+    {
+     "fact": "AI models sometimes notice they are being tested and change behaviour, so the fake sites must look real.",
+     "article": 0
+    },
+    {
+     "fact": "Agents visit real addresses such as youtube.com; Chrome runs in an isolated environment that redirects all traffic to a local proxy serving artificial versions.",
+     "article": 0
+    },
+    {
+     "fact": "AI agents build the websites: a research agent finds requirements, a development agent codes the sites, other agents review them.",
+     "article": 0
+    },
+    {
+     "fact": "According to Google, the automated test pipeline generates more than 1,000 attack test candidates per security engineer per day, over 30 times as many as manual work.",
+     "article": 0
+    },
+    {
+     "fact": "According to Wired, the test environment is to be opened to other teams in the company.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Deutsche Telekom reportedly invests 100 million euros in Mistral AI",
+   "region": "Europe",
+   "first_published_utc": "2026-11-20T06:29:00Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "THIN: only 3 facts, from Der Standard relaying Der Spiegel. Add Reuters or Spiegel if found; not enough for a post alone.",
+   "articles": [
+    {
+     "outlet": "Der Standard",
+     "title": "Berichte: Deutsche Telekom steigt bei KI-Startup Mistral ein",
+     "date": "2026-11-20",
+     "url": "https://www.derstandard.at/story/3000000350171/deutsche-telekom-steigt-bei-ki-startup-mistral-ein-bericht"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "According to a media report, Deutsche Telekom is taking a 100 million euro stake in Paris start-up Mistral AI.",
+     "article": 0
+    },
+    {
+     "fact": "Telekom's investment arm T. Capital Tech Fund put the sum into Mistral's latest funding round, Der Spiegel reported in advance on Thursday.",
+     "article": 0
+    },
+    {
+     "fact": "Deutsche Telekom said the investment is a first step towards a future strategic partnership.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI's Codex-based 'Performance Factory' investigated 1,700 ChatGPT performance issues but shipped only 15 unedited fixes",
+   "region": "US",
+   "first_published_utc": "2026-11-20T07:47:37Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Morning dropped OpenAI page (403); readable now via AI Times. English renderings of Korean text.",
+   "articles": [
+    {
+     "outlet": "AI Times (Korea)",
+     "title": "오픈AI, 코덱스로 챗GPT 성능 문제 자동 진단·수정안 작성",
+     "date": "2026-11-20",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217626"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI revealed an internal automated system built on Codex that finds causes of ChatGPT performance drops and helps fix them.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI described the system, 'Performance Factory', on the 19th (US time).",
+     "article": 0
+    },
+    {
+     "fact": "In about three months it investigated more than 1,700 performance issues and found root causes for more than 600, about 17 automatic investigations per day.",
+     "article": 0
+    },
+    {
+     "fact": "About 400 of the diagnosed cases reached the fix-proposal stage, but only 15 deployed fixes used Codex-written code as written.",
+     "article": 0
+    },
+    {
+     "fact": "Multiple agents split roles: one finds the cause, another verifies, and Codex writes the fix and submits it to GitHub.",
+     "article": 0
+    },
+    {
+     "fact": "Engineers review and deploy the fix; the system then checks whether performance recovered.",
+     "article": 0
+    },
+    {
+     "fact": "One agent blamed an image download error for failed conversations; a reviewing agent found the related service had already recovered and had the investigation redone.",
+     "article": 0
+    },
+    {
+     "fact": "Code changes and deployment are still approved by engineers.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Meta reportedly plans to price its Muse Charm AI keychain device at $300",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "No reference account covers it; AI Times (Korea) ran it 11-20 13:16 KST, so Korean accounts will likely follow. Price is a report from The Information; Meta did not deny.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Meta's new Muse Charm device may cost $300",
+     "date": "2026-11-19",
+     "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Meta plans to charge $300 for Muse Charm, its upcoming Tamagotchi-like AI device that was teased at the company's Connect event earlier this year, The Information has reported.",
+     "article": 0
+    },
+    {
+     "fact": "When reached for comment by TechCrunch, a Meta spokesperson didn't deny the claims, merely providing the following statement: \"We're charmed by the interest in our AI devices, and we'll have more to share soon.\"",
+     "article": 0
+    },
+    {
+     "fact": "Muse Charm will allow users to carry a physical personification of its software around in their pocket (or potentially wear it around their neck), talking to it, asking it questions, and giving it commands.",
+     "article": 0
+    },
+    {
+     "fact": "The wearable launched by Friend, the AI startup whose device lets you text and talk to an AI persona, is currently retailing for $250.",
+     "article": 0
+    },
+    {
+     "fact": "Amazon's all-new Bee Frontier wearable AI device lists for $75 and is currently on a Black Friday, 30% off sale of $52.49.",
+     "article": 0
+    },
+    {
+     "fact": "Even with its $99/year subscription to let it tie into a user's apps (photos, emails, etc.), it's still far less expensive than Muse Charm.",
+     "article": 0
+    },
+    {
+     "fact": "Meta has made a relatively successful push into consumer AI, launching Muse, its agentic helper, along with a variety of cute avatars.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Apple is building its own AI agent that can use a Mac, while making it harder for third-party agents",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Source is Bloomberg via TechCrunch; Apple did not respond. Early stage.",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Apple may be developing its own AI agent that runs your Mac",
+     "date": "2026-11-20",
+     "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Apple appears to be working on its own AI agent to conduct computer work on behalf of users, including using apps, accessing websites, and coding.",
+     "article": 0
+    },
+    {
+     "fact": "The news was originally reported by Bloomberg, which spotted a job listing the iPhone maker recently posted for a senior engineering manager to oversee the creation of an \"AI agent that can use a computer.\"",
+     "article": 0
+    },
+    {
+     "fact": "\"Imagine an AI agent that can use a computer the way a capable person does,\" the posting says.",
+     "article": 0
+    },
+    {
+     "fact": "The agents should be able to move \"fluidly between tools\" and \"carry out multi-step tasks across apps, browsers, command lines, code, and APIs.\"",
+     "article": 0
+    },
+    {
+     "fact": "Bloomberg notes that the version of its upcoming macOS 27.3 will deploy warnings discouraging users from granting full access to third-party agents.",
+     "article": 0
+    },
+    {
+     "fact": "Bloomberg says the iPhone maker \"has eyed introducing the service as soon as the end of next year,\" but progress \"remains in the early stages.\"",
+     "article": 0
+    },
+    {
+     "fact": "TechCrunch reached out to Apple for more information but did not receive a response.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Google releases Gemini 4 Neon: #3 on Artificial Analysis index at $3/$15 per million tokens",
+   "region": "US",
+   "repeat_check": "new (Gemini 4 Neon not in posts/; related 2026-10-27-google-genie-4 is a different product)",
+   "reference_posts": [],
+   "note": "Company announcement; benchmark claims are Google's own. VentureBeat headline claims Opus 5.5-level coding at 25% lower price, not read.",
+   "articles": [
+    {
+     "outlet": "Google DeepMind / Google blog",
+     "title": "Introducing Gemini 4 Neon",
+     "date": "2026-11-18",
+     "url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Neon ranks ahead of comparable models and #3 overall with a score of 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, landing just behind larger, slower models.",
+     "article": 0
+    },
+    {
+     "fact": "The model is priced at $3 per million input tokens ($0.15 per million cached input tokens, a 95% discount) and $15 per million output tokens, with a 1 million-token context window.",
+     "article": 0
+    },
+    {
+     "fact": "Gemini 4 Neon is rolling out today in the Gemini API in Google AI Studio, Gemini for business (via API and model dropdown), for paid Google AI Pro and Ultra subscribers in Google Antigravity, and for Pro and Ultra subscribers in the Gemini app.",
+     "article": 0
+    },
+    {
+     "fact": "On the Vals Index, Neon ranks #2 (70.9%), and reaches #1 on both the Legal Research Bench and Tax Agent Bench.",
+     "article": 0
+    },
+    {
+     "fact": "It debuts #2 globally with a score of 1336 on Arena's new Agent Arena Index across 4,200+ real-world agent sessions.",
+     "article": 0
+    },
+    {
+     "fact": "Neon ranks #1 overall on the Artificial Analysis Coding Agent Index (58.6), with a score of 65.2% on Terminal-Bench 4.1.",
+     "article": 0
+    },
+    {
+     "fact": "Neon records Google's lowest fabrication rate yet in internal Google Antigravity testing.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Gemini can now take over tasks on your Mac (computer use, not available in Europe or UK)",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Pairs well with the Apple agent story as a combined angle.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google's Gemini can now take over tasks on your Mac",
+     "date": "2026-11-19",
+     "url": "https://thenextweb.com/news/google-gemini-mac-computer-use-multi-step-tasks"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Google is rolling out computer use in its Gemini app for Mac, letting the assistant carry out multi-step tasks across local files, desktop apps and websites in a separate background window.",
+     "article": 0
+    },
+    {
+     "fact": "It runs in a separate background window with a live preview in the chat, so your screen and cursor stay free.",
+     "article": 0
+    },
+    {
+     "fact": "You choose which apps it can use, can pause it, and must approve key actions.",
+     "article": 0
+    },
+    {
+     "fact": "The feature is for paying subscribers to Google's AI Plus, Pro and Ultra plans, and needs a Mac with Apple Silicon.",
+     "article": 0
+    },
+    {
+     "fact": "As with its Gemini Spark agent, it is not available in Europe or the UK.",
+     "article": 0
+    },
+    {
+     "fact": "Google warns that Gemini can make mistakes, including permanently deleting files or sharing them with others.",
+     "article": 0
+    },
+    {
+     "fact": "Backups of changed files are deleted after 24 hours or when you start a new task.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Microsoft puts Word, Excel and PowerPoint inside Copilot at Ignite; Nadella calls it 'the new operating system for work'",
+   "region": "US",
+   "repeat_check": "RELATED: 2026-11-19-nadella-agent-managers covered Nadella/60K employees; this is the Ignite product launch angle. Editor to judge.",
+   "reference_posts": [],
+   "note": "",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Microsoft launches Office in Copilot, with Word, Excel and PowerPoint",
+     "date": "2026-11-19",
+     "url": "https://thenextweb.com/news/microsoft-office-in-copilot-nadella-ignite-agi-pilled"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Microsoft has built Word, Excel and PowerPoint into Copilot.",
+     "article": 0
+    },
+    {
+     "fact": "Chief executive Satya Nadella called Copilot \"the new operating system for work\" at Ignite in San Francisco.",
+     "article": 0
+    },
+    {
+     "fact": "Office in Copilot is now generally available, according to Microsoft's Ignite news page.",
+     "article": 0
+    },
+    {
+     "fact": "Copilot Workspaces are shared spaces for teams, their agents and Copilot.",
+     "article": 0
+    },
+    {
+     "fact": "Agent 365 already manages 50 million agents.",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft also launched the AI Transparency Initiative with 40 organisations.",
+     "article": 0
+    },
+    {
+     "fact": "Nadella opened the keynote with last week's Microsoft 365 outage, which took down Outlook and Teams around the world.",
+     "article": 0
+    },
+    {
+     "fact": "Nadella told reporters that AI code and AI deployments did not cause the outage.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Google rolls out Genie 4 world model to AI Ultra subscribers with real-time editing and native audio",
+   "region": "US",
+   "repeat_check": "RELATED REPEAT: posts/2026-10-27-google-genie-4 exists (within ~24 days, outside 14 days). This is the subscriber rollout; editor to judge.",
+   "reference_posts": [],
+   "note": "",
+   "articles": [
+    {
+     "outlet": "Google DeepMind / Google blog",
+     "title": "Genie 4 is now available",
+     "date": "2026-11-18",
+     "url": "https://deepmind.google/blog/genie-4-is-now-available/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "We are rolling out Genie 4 to eligible Google AI Ultra subscribers, offering more responsive, social, and interactive world generation.",
+     "article": 0
+    },
+    {
+     "fact": "You can now use natural language to edit environments in real time, add native audio, and share your creations in our new community gallery.",
+     "article": 0
+    },
+    {
+     "fact": "Google AI Pro members can join a waitlist.",
+     "article": 0
+    },
+    {
+     "fact": "The new Project Genie agent helps you build custom worlds through simple natural language conversations.",
+     "article": 0
+    },
+    {
+     "fact": "With Genie 4 you can change weather, add characters, and hear adaptive audio in real time just by typing prompts.",
+     "article": 0
+    },
+    {
+     "fact": "Genie 4 is described as Google's most realistic and interactive world model yet.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  },
+  {
+   "title": "Anthropic's 7 founders cashed out nearly $2B in the IPO; Google and Amazon hold 28%; $1T of compute commitments",
+   "region": "US",
+   "repeat_check": "RELATED REPEAT: posts/2026-11-19-anthropic-ant-debut covered pricing/debut; this is a follow-up with new numbers (founders, stakes, commitments). Editor to judge; likely skip.",
+   "reference_posts": [],
+   "note": "",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic's 7 founders cashed out nearly $2B in record-breaking IPO",
+     "date": "2026-11-20",
+     "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders.",
+     "article": 0
+    },
+    {
+     "fact": "At the upgraded IPO price of $83 per share, each founder pocketed about $280 million before underwriting fees and taxes.",
+     "article": 0
+    },
+    {
+     "fact": "Each of the founders has pledged to dedicate 80% of their personal equity in the company to philanthropy.",
+     "article": 0
+    },
+    {
+     "fact": "The company points out that these commitments are \"voluntary, revocable expressions of each co-founder's philanthropic intent and do not constitute legally binding obligations.\"",
+     "article": 0
+    },
+    {
+     "fact": "Nvidia bought $10 billion of the special non-voting Class N shares, Google bought $10 billion, and AMD, Broadcom, Micron, Microsoft, and TSMC divvied up the rest.",
+     "article": 0
+    },
+    {
+     "fact": "Google wound up owning 13.4% of the company; Amazon has 14.6%; together 28%.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic needs about $70.7 billion just to cover its compute and infrastructure spending commitments in the next 12 months, and $451.6 billion before the end of 2030.",
+     "article": 0
+    },
+    {
+     "fact": "When Facebook had its record-breaking IPO in 2012, it raised $16 billion on IPO day.",
+     "article": 0
+    }
+   ],
+   "carried_over": true
+  }
+ ]
+}

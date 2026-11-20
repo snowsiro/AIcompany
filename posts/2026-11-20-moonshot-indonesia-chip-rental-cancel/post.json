@@ -1,0 +1,125 @@
+{
+  "id": "2026-11-20-moonshot-indonesia-chip-rental-cancel",
+  "date": "2026-11-20",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · POLICY",
+    "headline": [
+      "MOONSHOT CANCELS",
+      "**$150M** CHIP DEAL"
+    ],
+    "hook_options": [
+      [
+        "MOONSHOT CANCELS",
+        "**$150M** CHIP DEAL"
+      ],
+      [
+        "US CHIP LIMITS",
+        "REACH THE **CLOUD**"
+      ],
+      [
+        "KIMI MAKER QUITS",
+        "A **$150M** RENTAL"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The $150M cancellation is the concrete, named event and slide 2 states it in full, with 'reportedly' carried on every slide. The claim hook (US limits reach the cloud) is the broader angle but is our framing of a single report, so it is less safe. The third hook is accurate but weaker than the first. No reader-impact hook: the article describes a Chinese startup's contract and a US rule on data centers, and states no effect on ordinary readers' prices, tools or risks.",
+    "image_prompt": "Cinematic wide shot of a vast dark data center hall in a tropical setting, rows of glowing server racks fading into the distance, a single rack row with its green lights switching off to red one by one. Humid night air visible through a far glass wall with distant palm silhouettes and a faint city glow. Cool teal and deep indigo palette with warm amber highlights, shallow depth of field, drifting mist. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The report",
+      "title": "Moonshot AI pulls out",
+      "body": [
+        "Moonshot AI, the Chinese startup behind the Kimi models, **reportedly** cancelled a **$150M** (about ₩200B) deal to rent Nvidia's latest AI chips through an Indonesian data center, per The Information, as relayed by Korea's AI Times."
+      ]
+    },
+    {
+      "kicker": "The deal",
+      "title": "Half up front, reportedly",
+      "body": [
+        "The deal was for Nvidia's Blackwell Ultra B300 chips from a Southeast Asian **neocloud**, a company that rents out AI chips in the cloud. Moonshot had reportedly agreed to pay **50%** up front. About 15% is usual."
+      ]
+    },
+    {
+      "kicker": "The trigger",
+      "title": "A new US rule",
+      "body": [
+        "The reported trigger is a US Commerce Department rule announced Nov 16 and in force from Nov 19. Overseas data centers serving Chinese customers above a certain size need **US government permission**."
+      ]
+    },
+    {
+      "kicker": "The deadline",
+      "title": "90 days to get a licence",
+      "body": [
+        "Data centers already serving Chinese firms above that size must get a US licence within **90 days**. The threshold is compute equal to about **300** of the latest AI chips, AI Times writes."
+      ]
+    },
+    {
+      "kicker": "The fallout",
+      "title": "Other talks are paused",
+      "body": [
+        "Moonshot has also reportedly paused talks on other new GPU rental deals while it reviews the rule's impact. It was seeking more GPUs for its next model, Kimi K4. Its K3, out in July, drew notice for performance comparable to major US models."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Moonshot AI cancelled a deal worth $150 million (about 200 billion won) to rent Nvidia's latest AI chips through an Indonesian data center. 'Chinese startup behind the Kimi models' is the writer's explainer."
+    },
+    {
+      "source": 0,
+      "text": "The Information reported on the 19th (US time), citing multiple sources, that Moonshot withdrew from a Blackwell Ultra B300 rental deal with a Southeast Asian neocloud company. 'Neocloud' is glossed as a company that rents out AI chips in the cloud."
+    },
+    {
+      "source": 0,
+      "text": "Moonshot had reportedly accepted paying 50% of the contract up front; the usual prepayment ratio is about 15%."
+    },
+    {
+      "source": 0,
+      "text": "The trigger is a new US Commerce Department rule announced on the 16th and in force from the 19th (month Nov inferred from the article date, Nov 20, 2026)."
+    },
+    {
+      "source": 0,
+      "text": "The rule requires overseas data centers serving Chinese customers above a certain size to get US government permission."
+    },
+    {
+      "source": 0,
+      "text": "Data centers already serving Chinese firms above that size must get a US licence within 90 days; the threshold is compute equal to about 300 of the latest AI chips."
+    },
+    {
+      "source": 0,
+      "text": "Moonshot has also paused negotiations on other new GPU rental deals while it reviews the rule's impact."
+    },
+    {
+      "source": 0,
+      "text": "Moonshot's K3 model, released in July, drew attention for performance comparable to major US models; the company was seeking more GPUs for its next model, Kimi K4."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times (Korea)",
+      "title": "문샷 AI, 미국 수출 규제에 2000억 규모 엔비디아 칩 임대 계약 취소",
+      "title_en": "Moonshot AI cancels Nvidia chip rental deal worth 200 billion won over US export controls",
+      "language": "Korean",
+      "date": "Nov 20, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217613"
+    }
+  ],
+  "caption": "Moonshot AI reportedly cancelled a $150M Nvidia chip rental in Indonesia after a new US rule.\n\nThis is a single-source report: Korea's AI Times cites The Information, and we have not seen comment from Moonshot or Nvidia. Moonshot is the Chinese startup behind the Kimi models. The rule covers overseas data centers that serve Chinese customers, so renting chips in a third country is now caught too.\n\n→ Reportedly a $150M (about ₩200B) rental of Nvidia Blackwell Ultra B300 chips, with 50% to be paid up front\n→ US Commerce Department rule in force from Nov 19: big overseas data centers serving Chinese customers need US permission, and existing ones have 90 days to get a licence\n→ Moonshot has also paused talks on other GPU rentals while it reviews the rule\n\nIs renting chips abroad still a way around export controls?\n\nSource: AI Times (Korea), \"Moonshot AI cancels Nvidia chip rental deal worth 200 billion won over US export controls\" (in Korean), Nov 20, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#MoonshotAI",
+    "#Nvidia",
+    "#AIChips"
+  ],
+  "threads_caption": "Moonshot AI reportedly cancelled a $150M (about ₩200B) Nvidia chip rental in Indonesia after a new US rule on overseas data centers serving Chinese customers.\n\nSingle-source: AI Times cites The Information. Moonshot has also reportedly paused other GPU rental talks.\n\nSource: AI Times (Korea), \"Moonshot AI cancels Nvidia chip rental deal worth 200 billion won over US export controls\" (in Korean). #MoonshotAI"
+}

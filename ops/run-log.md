@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-20
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 선정: Moonshot AI(Kimi 개발사)가 인도네시아 데이터센터 경유 엔비디아 B300 임대($150M, 약 ₩200B)를 취소 (CHINA AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 아시아 3, 신선도 보너스 없음: 오늘 12:15 UTC 이후 신규 기사 없음). 소스 AI타임스(한국어) 단일, The Information 인용으로 전 슬라이드 "reportedly" 표기, 캡션에 단일 소스 명시. 첫 게시 시각 2026-11-20 05:07 UTC(07:07 Vienna), ready 시점(약 20:30 Vienna = 19:30 UTC) 기준 약 14시간 경과. 11-16 원격접속 규칙 글과 연관되나 새 사건이라 반복 감점 안 함
+2. 검수: 1차에서 fact(문제 없음)·hook(7/10)·brand 모두 통과. 비차단 참고: 커버에 "reportedly" 없음(슬라이드 2·캡션에 있음), 커버 이미지가 프롬프트의 열대 설정과 달리 일반 데이터센터처럼 보임(생성기 산출물). 날짜 "Nov 16/19"의 월은 기사 날짜로 추정
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6: 아침 2 + 저녁 2, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium
+4. 예비: `posts/_backlog/2026-11-20-evening-runners-up.md` (Deutsche Telekom·Mistral €100M은 소스 1개로 얇음). 읽기 불가: Yonhap(403, 이대통령 시험제도 개편·서울증시 급락), Reuters Google News 링크(Signal 스크린샷 제한 등), Korea Times CSAT
+자세한 기록
+- 후보 신규 6 + 넘어온 8, 선정 id `2026-11-20-moonshot-indonesia-chip-rental-cancel`
+- 넘어온 ready 글 없음 (아침 dutch-ai-glasses published)
+- 머지: PR의 render 체크 후 재확인해 머지 (결과는 다음 보고에)
+
 ## [아침 보고] 2026-11-20
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11-19) 도달 10 · 팔로워 2 · 링크 클릭 0 · 최고 도달 (metrics 파일 참고, 어제 글은 아직 집계 중)
