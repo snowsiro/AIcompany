@@ -1,0 +1,815 @@
+{
+ "date": "2026-11-21",
+ "run": "evening",
+ "cutoff_utc": "2026-11-21T04:45:00Z",
+ "dropped_unreadable": [
+  "Yonhap: Lee visits SK Ulsan AI data center, 71% complete (403; also Google News redirects from Electronic Times, no original found)",
+  "Korea Herald: Samsung, SK hynix tumble as analysts split on chip outlook (Google News redirect only)",
+  "Korea Herald: Anthropic IPO success boosts hopes for OpenAI listing (Google News redirect only)",
+  "Nikkei Asia: Japan stamp maker authenticates videos on X (Google News redirect only, no original found)",
+  "Verge podcast: Can Anthropic afford to put safety first? (podcast, no article text)",
+  "AI Times 11-21 items (Trump second chance for Huang, SEC probe Nvidia -14%, Trump tax on overseas data centres, Musk space data-centre financing, METR 16h to 40h, Gemini GIFs): KST stamps, not rechecked in full; most fall before the 04:45Z cut-off or are single Korean sources",
+  "TechCrunch, VentureBeat RSS blocked (403/429); Ars Technica and Verge feeds had no AI article dated 11-21 other than the Verge podcast"
+ ],
+ "notes": [
+  "Saturday: US news is thin. Nearly everything after the cutoff is TNW Saturday write-ups of Friday/Wednesday stories (OpenAI report Wednesday; Databricks, Cognition, Cursor, China capex, Etsy are Friday reports). First-published times are of the TNW article.",
+  "Strictly new-after-cutoff and readable: the 11 stories with first_published_utc on 2026-11-21 and not carried_over. Strongest picks: OpenAI research agents (17:49Z, different company from morning Nvidia/AMD), Databricks, Cognition, Etsy.",
+  "Morning pick was Nvidia/AMD chips to China; avoid Nvidia-led stories. China capex story overlaps the China-chips theme.",
+  "Carried over from morning: Riemann proof claim (TechCrunch, first published 2026-11-20 19:32Z, heise also ran it 2026-11-21 08:09Z; hook must say 'claims'), Trump-Xi military AI, Palo Alto Applied Compute, OpenAI distillation, OpenAI completion-window discounts, Deutsche Telekom/Mistral. Morning Cursor carry-over replaced by the TNW House-report story.",
+  "Unverified and not written up: Nvidia -14% on SEC accounting probe (AI Times 10:32 KST, before cutoff; SEC probe already reported 11-18); Trump tax on firms building data centres abroad (AI Times, Nikkei 11-20 20:16Z, before cutoff)."
+ ],
+ "stories": [
+  {
+   "title": "OpenAI says its agents now finish 46% of 2-4 hour research tasks alone; median researcher used about $2,400 of agent time a day",
+   "region": "US",
+   "first_published_utc": "2026-11-21T17:49:20Z",
+   "repeat_check": "new (related only by company: OpenAI; no OpenAI research-agent post in posts/ last 14 days)",
+   "reference_posts": [],
+   "note": "Readable at TNW. Based on OpenAI's own report 'Research acceleration: The jagged frontier' (published Wednesday); numbers are OpenAI self-reported, with its own caveats. OpenAI primary page not read. Good evening candidate: first published 17:49Z, about 1.4h before run start; story itself is a Wednesday report so TNW is the late write-up.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI research agents cost $2,400 a day per researcher, report says",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/openai-research-agents-46-percent-tasks-2400-a-day-jagged-frontier"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI says its coding agents now complete 46% of research tasks that would take a person two to four hours, with no human help. In March the figure was 23%.",
+     "article": 0
+    },
+    {
+     "fact": "For tasks of four to eight hours, success rose from 13% to 35%.",
+     "article": 0
+    },
+    {
+     "fact": "The figures come from Research acceleration: The jagged frontier, a report OpenAI published on Wednesday. It is the company's second on how AI speeds up its own research, after its first in September.",
+     "article": 0
+    },
+    {
+     "fact": "At API list prices, the median OpenAI researcher used about $2,400 of agent time a day in October. That is up 62% from $1,500 in September. At the 90th percentile, daily use reached about $23,000.",
+     "article": 0
+    },
+    {
+     "fact": "Agent use per researcher rose elevenfold, from 0.5 to 5.7 'agent workdays' a day. OpenAI counts every eight hours of agent running time as one workday.",
+     "article": 0
+    },
+    {
+     "fact": "Agents succeeded alone 79% of the time when monitoring training runs, and 72% when answering technical questions. They managed 25% when writing code for inference and serving systems.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI flags a caveat: as agents improved, researchers may have changed which tasks they handed over, so success rates track those choices as well as the models.",
+     "article": 0
+    },
+    {
+     "fact": "In a survey of 101 research staff, the median answer on what each would give up to keep frontier coding agents for three months was 40% of team headcount, or 30% of team compute.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI says labs should be required to track and publicly report signs of recursive self-improvement. It adds that the reporting does not mean it intends to pursue full self-improvement.",
+     "article": 0
+    },
+    {
+     "fact": "Researchers said agents still have poor taste in research ideas, code, data and writing, and need close oversight.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Databricks in early talks to raise at about $225bn valuation, nearly 20% above August",
+   "region": "US",
+   "first_published_utc": "2026-11-21T17:01:05Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "WSJ is the original (paywalled, not read); TNW states it has not independently verified. Single readable source.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Databricks valuation talks hit $225bn, nearly 20% above August",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/databricks-valuation-225bn-funding-talks-ghodsi-ipo"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Databricks is in early talks to raise several billion dollars at a valuation of about $225bn, The Wall Street Journal reported on Friday, citing people familiar with the matter.",
+     "article": 0
+    },
+    {
+     "fact": "That would be nearly 20% above the $190bn valuation the data company reached in August.",
+     "article": 0
+    },
+    {
+     "fact": "The talks are ongoing and the terms could still change, according to the Journal. TNW has not independently verified the report.",
+     "article": 0
+    },
+    {
+     "fact": "Databricks closed a $5bn round at $190bn in August. It said then that it had passed a $7bn revenue run rate.",
+     "article": 0
+    },
+    {
+     "fact": "Chief executive Ali Ghodsi told the All-In podcast the business is growing 70% to 80% a year, and that he wants growth of 100%.",
+     "article": 0
+    },
+    {
+     "fact": "Ghodsi said 'We will go public', but that right now 'there's just too much up and down' in the AI transition.",
+     "article": 0
+    },
+    {
+     "fact": "The Journal says investors think a strong showing by Anthropic, whose stock ended its first week worth $1.6tn, could unleash a wave of AI listings.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Cognition, maker of AI coding agent Devin, in talks to raise at $75bn valuation, two months after last round",
+   "region": "US",
+   "first_published_utc": "2026-11-21T16:46:49Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Bloomberg original not read; TNW says not independently verified.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Cognition funding talks value the Devin maker at $75bn",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/cognition-funding-75bn-valuation-bloomberg-devin"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Cognition, the startup behind the AI coding agent Devin, is in talks to raise money at a $75bn valuation, two months after its last round, Bloomberg reported on Friday citing people familiar with the matter.",
+     "article": 0
+    },
+    {
+     "fact": "The company is weighing a raise of $2bn or more, according to Bloomberg.",
+     "article": 0
+    },
+    {
+     "fact": "It would be Cognition's third round this year. It has already raised more than $3bn in 2026, including over $2bn at a $48bn valuation in September, after a $26bn round in May.",
+     "article": 0
+    },
+    {
+     "fact": "Most of the interest has come from current backers; Avenir, Accel, Lightspeed Venture Partners, Lux Capital and Bessemer Venture Partners are in talks to take part, some of the people said.",
+     "article": 0
+    },
+    {
+     "fact": "In September Cognition said it was on track for $1bn in annualised revenue, roughly double its run rate four months earlier.",
+     "article": 0
+    },
+    {
+     "fact": "Devin competes with Cursor, which SpaceX bought for $60bn. Days after that deal closed, SpaceX reportedly approached Cognition about a takeover too.",
+     "article": 0
+    },
+    {
+     "fact": "Critic Ed Zitron asked on X: 'Why does this company need $5bn in the space of a year'.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "House report: Cursor, Airbnb and DoorDash run Chinese AI models; Cursor will explore dropping them, while India's Sarvam starts selling them",
+   "region": "US/India",
+   "first_published_utc": "2026-11-21T16:21:28Z",
+   "repeat_check": "RELATED: posts/2026-11-17-china-distillation-reuters (Chinese models/distillation), 2026-10-26 Cursor post per morning note. Editor to judge. Supersedes the morning-carried AI Times Cursor item.",
+   "reference_posts": [],
+   "note": "House report released Friday (CNBC first, AI Times ran it 2026-11-21 02:01Z i.e. before cutoff); TNW write-up is first readable one after cutoff and adds the Sarvam angle. Cursor plan is exploratory only.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Cursor, Airbnb and DoorDash run Chinese AI models, House report finds",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/cursor-chinese-ai-models-house-report-sarvam-deepseek"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Cursor plans to explore dropping Chinese open-weight AI models because of 'geopolitical risk', a House investigation says. The SpaceX-owned coding platform built its flagship model, Composer 2, on Moonshot AI's Kimi K2.5.",
+     "article": 0
+    },
+    {
+     "fact": "The House Homeland Security Committee and the Select Committee on China released the joint report on Friday. The report describes an exploratory plan, with no decision or timetable.",
+     "article": 0
+    },
+    {
+     "fact": "Airbnb runs customised versions of Alibaba's Qwen on US servers. One powers an assistant handling about 80,000 guest and host conversations a day.",
+     "article": 0
+    },
+    {
+     "fact": "DoorDash reported 25 Chinese model families in real use. Swapping out one model built into a larger system could take up to six months.",
+     "article": 0
+    },
+    {
+     "fact": "SpaceX completed its purchase of Cursor in August, at an implied $60bn equity value, according to CNBC.",
+     "article": 0
+    },
+    {
+     "fact": "The committees want to extend the federal DeepSeek ban to other Chinese developers and call for a model provenance standard and a national American open-weight initiative.",
+     "article": 0
+    },
+    {
+     "fact": "They warn that forcing companies off Chinese models before trusted alternatives exist would raise costs and hand the market to a few closed providers.",
+     "article": 0
+    },
+    {
+     "fact": "In India, Sarvam, backed by the government's IndiaAI Mission, has begun selling access to DeepSeek and other Chinese models through its Token Factory service, Bloomberg reported. It already serves more than 450bn tokens a day on DeepSeek V4.1 Flash.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "China's biggest tech firms will double AI capex to $139bn this year while their AI labs cover under 8% of it",
+   "region": "Asia",
+   "first_published_utc": "2026-11-21T16:05:45Z",
+   "repeat_check": "RELATED: 2026-11-16-us-remote-access-chip-rule and 2026-11-18-nvidia-q3-china-exit (China chips); angle (money, not chips) is new",
+   "reference_posts": [],
+   "note": "NYT original (Friday) not read; TNW relays NYT and a Rhodium Group report from September. Figures are Rhodium estimates.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "China's AI financing gap: $139bn of spending, labs earning under 8%",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/china-ai-financing-139bn-capex-rhodium-deepseek"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The New York Times reported on Friday that China's biggest tech firms will double their AI spending this year while their AI labs bring in a fraction of it.",
+     "article": 0
+    },
+    {
+     "fact": "Rhodium Group surveyed 13 listed Chinese firms and expects their AI infrastructure capex to rise 103% this year, to 932bn yuan ($139bn), and more than 1.2tn yuan ($193bn) in 2027.",
+     "article": 0
+    },
+    {
+     "fact": "Revenue from their AI labs covers less than 8% of this year's spend, according to Rhodium.",
+     "article": 0
+    },
+    {
+     "fact": "Rhodium puts China's AI build-out at only 15% to 20% of the US level. The annual recurring revenue of all of China's AI models was about $10.7bn, roughly a tenth of what OpenAI and Anthropic report between them.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba, Baidu and Tencent, which back several of China's top labs, now have negative cash flows, the Times reported.",
+     "article": 0
+    },
+    {
+     "fact": "China's STAR 50 index has fallen 43% since late July, the Times reported.",
+     "article": 0
+    },
+    {
+     "fact": "By November, about 20 rival providers charged less than Z.ai for its own GLM-5.3 Flash model, the Times reported, citing OpenRouter data.",
+     "article": 0
+    },
+    {
+     "fact": "DeepSeek chief executive Liang Wenfeng said Huawei's chips are about two years behind Nvidia's, and DeepSeek would need four Huawei 950 chips to match one Nvidia GB300, per a leaked transcript cited by the Times.",
+     "article": 0
+    },
+    {
+     "fact": "'We simply can't afford to train the largest models available right now,' Liang said, per the Times.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "SK Hynix to become Kioxia's largest shareholder (about 14.1%) by converting 2018 bonds",
+   "region": "Asia",
+   "first_published_utc": "2026-11-21T17:36:28Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Memory-chip story, AI link is NAND for AI servers only. Filing Friday; Bloomberg first. Korean/Japanese angle.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "SK Hynix Kioxia deal makes the Korean firm its rival's top shareholder",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/sk-hynix-kioxia-largest-shareholder-bond-conversion-14-1"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "SK Hynix will become the largest shareholder in Kioxia, its Japanese rival in flash memory, by converting bonds it has held since 2018 into shares. It will hold an indirect stake of about 14.1%, it said in a filing on Friday.",
+     "article": 0
+    },
+    {
+     "fact": "That puts SK Hynix ahead of Toshiba, Kioxia's former parent, which held 10.46% in early November.",
+     "article": 0
+    },
+    {
+     "fact": "SK Hynix will convert 129bn yen ($810m) of its bonds into 129,000 shares. The steps close in December.",
+     "article": 0
+    },
+    {
+     "fact": "Both companies make NAND, the chips used for storage in phones and AI servers. SK Hynix held 19% of the global NAND market in the second quarter and Kioxia 14%, per Counterpoint cited by Bloomberg; market leader Samsung has 28%.",
+     "article": 0
+    },
+    {
+     "fact": "The 2018 deal caps SK Hynix at 15% of Kioxia's voting shares until 2028, unless Kioxia agrees otherwise.",
+     "article": 0
+    },
+    {
+     "fact": "An SK Hynix official: 'We currently have no plans to further buy or sell shares in Kioxia.'",
+     "article": 0
+    },
+    {
+     "fact": "Bloomberg Intelligence's Masahiro Wakasugi said the move is 'unlikely to materially change near-term NAND competition'.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Samsung names new memory and mobile chiefs in a week it reportedly paused some chip shipments to China",
+   "region": "Asia",
+   "first_published_utc": "2026-11-21T17:15:41Z",
+   "repeat_check": "new (2026-11-13-google-samsung-gemini-glasses is unrelated)",
+   "reference_posts": [],
+   "note": "Leadership shuffle is thin for AI; China-shipment pause is FT-reported and TNW says unverified.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Samsung leadership shake-up names new memory and mobile chiefs",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/samsung-leadership-hwang-memory-choi-mobile-china-shipments"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Samsung Electronics has named new heads for its memory chip and smartphone businesses. Sang Joon Hwang will run the memory business, and Won-Joon Choi takes over Mobile eXperience.",
+     "article": 0
+    },
+    {
+     "fact": "Hwang previously led memory development, including DRAM and the high-bandwidth memory (HBM) used in AI chips. Samsung reportedly plans to make HBM parts for AMD and Nvidia at a second Texas fab.",
+     "article": 0
+    },
+    {
+     "fact": "Earlier this week the Financial Times reported that Samsung and TSMC had suspended some shipments to Chinese customers while applying for US Commerce Department licences under new rules. TNW has not independently verified the report.",
+     "article": 0
+    },
+    {
+     "fact": "The rules close a route that let Chinese designers order advanced chips through third-party packaging and testing firms, and remove an exemption for chips not meant for AI, according to the FT.",
+     "article": 0
+    },
+    {
+     "fact": "Samsung's Chinese customers include ByteDance and Baidu's chip unit Kunlun, the FT reported.",
+     "article": 0
+    },
+    {
+     "fact": "Shares in Japan's Datasection have fallen 47% since Monday, and it warned annual revenue could be up to 89% below its forecast, The Telegraph reported.",
+     "article": 0
+    },
+    {
+     "fact": "Samsung did not link its leadership changes to the export rules.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Etsy to rewrite new terms after sellers close shops over a clause letting it use their work to train AI",
+   "region": "US",
+   "first_published_utc": "2026-11-21T17:25:14Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "NYT original (Friday) not read; TNW relays it. Terms take effect 16 December.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Etsy AI terms prompt sellers to close shops as Etsy promises a rewrite",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/etsy-ai-terms-sellers-close-shops-revise-policy"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Etsy says it will revise its new terms of use. Longtime sellers had begun closing their shops over a clause that lets it use their work to train AI, The New York Times reported on Friday.",
+     "article": 0
+    },
+    {
+     "fact": "The new terms take effect on 16 December. They let Etsy and its 'third party partners and vendors' use sellers' content to 'develop, train, test and improve artificial intelligence and machine learning technologies.' The previous version had no clause about AI.",
+     "article": 0
+    },
+    {
+     "fact": "Illustrator Aaron Millard said on Instagram he was deleting the shop he had run for nearly a decade, writing that sellers had no way to opt out.",
+     "article": 0
+    },
+    {
+     "fact": "Etsy vice president James Ossman wrote that Etsy will not 'use your content to train A.I. models designed to copy your original work or replace your creativity.'",
+     "article": 0
+    },
+    {
+     "fact": "Etsy would send sellers the revised terms soon, he told the Times. Sellers' creative work belongs to them, he added.",
+     "article": 0
+    },
+    {
+     "fact": "In 2022, more than 20,000 Etsy sellers went on strike over a fee rise. In October, Etsy tightened its rules on low-quality AI content after users complained.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Nadella at DealBook: AI-found bugs mean more outages are coming; patches go straight to production",
+   "region": "US",
+   "first_published_utc": "2026-11-21T18:12:24Z",
+   "repeat_check": "RELATED: posts/2026-11-19-nadella-agent-managers (same person, different topic). Editor to judge; also Microsoft not used by morning post.",
+   "reference_posts": [],
+   "note": "Event was Wednesday at NYT DealBook; TNW write-up is Saturday. Banks and NSA blame claim is 'reportedly' in TNW.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Satya Nadella at DealBook: AI-found bugs mean more outages are coming",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/satya-nadella-dealbook-ai-bugs-outages-alignment-world-of-hurt"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Satya Nadella expects more outages like the one that took down Outlook last week, because AI now finds software flaws faster than companies can safely fix them. He spoke to Andrew Ross Sorkin at The New York Times' DealBook Summit on Wednesday.",
+     "article": 0
+    },
+    {
+     "fact": "He apologised for Microsoft's own outage, which he said had no direct link to that problem: 'This was a latent bug that was there.'",
+     "article": 0
+    },
+    {
+     "fact": "A fix for a critical bank system used to get a week of testing. Now attackers exploit flaws as soon as they surface, so fixes go straight into production, he said.",
+     "article": 0
+    },
+    {
+     "fact": "'The patch needs to go instantly from being available to being patched in production, because it's being exploited in the wild. So that's going to create its instability,' he said.",
+     "article": 0
+    },
+    {
+     "fact": "Banks and the NSA have reportedly blamed this week's US outages on rushed patches for AI-found flaws.",
+     "article": 0
+    },
+    {
+     "fact": "Nadella said the 'floor of cyberattacks has fallen': with AI models anyone can run what amounts to a persistent, nation-state-level attacker.",
+     "article": 0
+    },
+    {
+     "fact": "On alignment, he said: 'if it doesn't happen, we are in a world of hurt.' He would ban models that reason in 'neuralese' and wants tamper-proof reasoning logs that other models can inspect.",
+     "article": 0
+    },
+    {
+     "fact": "He said whoever deploys an AI system is liable for what it does, and expects insurers to price that risk and ask for the logs.",
+     "article": 0
+    },
+    {
+     "fact": "Microsoft's deal with OpenAI gives it royalty-free access to a frontier model until 2032, Nadella said.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Germany, France, Italy, Poland and Sweden plan an international AI-in-defence centre in Rennes, to start summer 2027",
+   "region": "Europe",
+   "first_published_utc": "2026-11-21T14:48:00Z",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "heise (German) via dpa, based on French defence ministry statement; in German. 15:48 CET = 14:48Z.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Fünf EU-Staaten wollen Zentrum für KI in der Verteidigung gründen",
+     "date": "2026-11-21",
+     "url": "https://www.heise.de/news/Fuenf-EU-Staaten-wollen-Zentrum-fuer-KI-in-der-Verteidigung-gruenden-11533498.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Germany, France, Italy, Poland and Sweden want to jointly found an international centre for artificial intelligence in defence.",
+     "article": 0
+    },
+    {
+     "fact": "The five partners declared their intent to join at a founding conference in Rennes, western France, the French defence ministry said on Friday evening.",
+     "article": 0
+    },
+    {
+     "fact": "The initiative is to be open to like-minded states. It was originally planned as a NATO centre of excellence; France is now pushing it itself, with NATO accreditation to follow later.",
+     "article": 0
+    },
+    {
+     "fact": "The International Centre for Artificial Intelligence in Defence (ICAID) is to be based in Rennes and start work in summer 2027.",
+     "article": 0
+    },
+    {
+     "fact": "Representatives of 22 countries attended the conference on Thursday and Friday.",
+     "article": 0
+    },
+    {
+     "fact": "A second meeting in March 2027 is to formalise pledges. At least 34 civilian and military jobs are planned at first, 17 for French nationals.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "UN talks on killer robots end without mandate for a binding ban",
+   "region": "Europe/Global",
+   "first_published_utc": "2026-11-21T16:28:00Z",
+   "repeat_check": "new (related topic only: 2026-11-16-pax-silica-declaration is not about weapons). Morning runner-up Trump-Xi human control in military AI is a neighbouring story.",
+   "reference_posts": [],
+   "note": "heise (German), Stefan Krempl. 17:28 CET = 16:28Z. Conference ended overnight to Saturday.",
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Killer-Roboter: UN-Konferenz endet ohne Mandat für verbindliches Verbot",
+     "date": "2026-11-21",
+     "url": "https://www.heise.de/news/Killer-Roboter-UN-Konferenz-endet-ohne-Mandat-fuer-verbindliches-Verbot-11533596.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The seventh review conference of the UN Convention on Certain Conventional Weapons ended in Geneva overnight into Saturday with a minimal consensus.",
+     "article": 0
+    },
+    {
+     "fact": "The 128 member states agreed only a diluted mandate: talks continue to draft new rules within two years, with no guarantee of a legally binding treaty.",
+     "article": 0
+    },
+    {
+     "fact": "98 states and numerous NGOs had called for rapid binding limits. Recently 163 countries backed a resolution favouring binding legal rules on autonomous systems in conflict.",
+     "article": 0
+    },
+    {
+     "fact": "Decisions must be taken by consensus, so the resistance of a few states was enough to block more ambitious steps. Russia effectively vetoed binding rules; the US, UK, Israel and Belarus also voiced reservations.",
+     "article": 0
+    },
+    {
+     "fact": "Thomas Küchenmeister of Stop Killer Robots Germany called the mandate 'wachsweich' (soft as wax) after 13 years of debate.",
+     "article": 0
+    },
+    {
+     "fact": "Human Rights Watch's Verity Coyle said the result creates legal uncertainty at a time when clarity is urgently needed.",
+     "article": 0
+    },
+    {
+     "fact": "Council of Europe human rights commissioner Michael O'Flaherty warned in mid-November that algorithmic profiling is turning military target selection into an automated 'target factory'.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Claude-assisted proof of the Riemann hypothesis claimed by an Anthropic mathematician; a separate all-human proof also posted",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Huge global story (Verge, TechCrunch, SCMP, etnews all ran it) but unverified: the proof is in Lean and compiles per independent checkers, human review pending. Hook must say 'claims'. Anthropic is the same company as 11-19 ant-debut post (different topic).",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+     "date": "2026-11-20",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Levent Alpöge, a mathematician at Anthropic, appears to have solved the Riemann hypothesis, one of the Millennium Prize problems, which dates back to 1859.",
+     "article": 0
+    },
+    {
+     "fact": "He announced a Lean-compilable solution in an essay and wrote that he messaged Anthropic CEO Dario Amodei the previous Sunday night to ask how to announce it.",
+     "article": 0
+    },
+    {
+     "fact": "The hypothesis conjectures that there is a hidden structure underlying the appearance of prime numbers.",
+     "article": 0
+    },
+    {
+     "fact": "Lean is an open-source coding language used to express mathematical ideas as code, allowing proofs to be formally verified.",
+     "article": 0
+    },
+    {
+     "fact": "Several participants in a Zulip chat of mathematicians, including MIT mathematician Andrew Sutherland, said they successfully confirmed that Alpöge's solution compiles.",
+     "article": 0
+    },
+    {
+     "fact": "TechCrunch wrote that it will be a while before the mathematics community has a handle on the proof, and that Alpöge committed to pursue a human-understandable explanation.",
+     "article": 0
+    },
+    {
+     "fact": "Alpöge described his work with Claude as a 'stream-of-consciousness jaunt' and said the model 'flew, and danced, and sparkled near that finish line.'",
+     "article": 0
+    },
+    {
+     "fact": "Separately, Stanford postdoc Alessandro Masullo's proof of the General Riemann hypothesis was posted by Stanford's Ravi Vakil, who noted it is 'all human, with no AI'; without Lean, it is too early to say whether it checks out.",
+     "article": 0
+    },
+    {
+     "fact": "Alpöge and NYU mathematician Tristan Buckmaster also released a proof related to the Navier-Stokes equations.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "Trump and Xi agree humans must stay involved in military AI decisions, Bessent says",
+   "region": "US/China",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Source is Treasury Secretary Bessent on CNBC via AI Times; Reuters headline in feed (Google News only, original not located). Details of deal not published. Compare with Nov 2024 Biden-Xi nuclear pledge.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "트럼프·시진핑, 군사 AI에 인간 통제 합의…주요 군사작전까지 적용",
+     "date": "2026-11-21",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217640"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "US Treasury Secretary Scott Bessent said on CNBC on Nov 20 (US time) that Trump and Xi agreed humans must always be involved in any military decision made by AI.",
+     "article": 0
+    },
+    {
+     "fact": "Bessent said the two leaders agreed AI should not be allowed to act autonomously in major military operations.",
+     "article": 0
+    },
+    {
+     "fact": "He said the agreement is separate from the two countries' AI technology competition.",
+     "article": 0
+    },
+    {
+     "fact": "In November 2024 in Lima, Peru, Biden and Xi agreed to keep human control over decisions to use nuclear weapons; the new agreement covers major military operations more broadly.",
+     "article": 0
+    },
+    {
+     "fact": "Trump said on Fox News that he discussed AI safety rules with Xi and that both want reasonable AI regulation.",
+     "article": 0
+    },
+    {
+     "fact": "The specifics of the deal, how much human involvement is required, and how compliance would be checked have not been made public.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "Palo Alto Networks buys Applied Compute for $4.5B in stock to push into open-weight AI",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Readable original (TNW). Business story, global relevance moderate; has hard numbers.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Palo Alto Networks buys AI startup Applied Compute for $4.5bn in stock",
+     "date": "2026-11-20",
+     "url": "https://thenextweb.com/news/palo-alto-networks-applied-compute-4-5bn-open-weight-ai"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Palo Alto Networks agreed to buy Applied Compute in an all-stock deal valued at $4.5bn.",
+     "article": 0
+    },
+    {
+     "fact": "Applied Compute helps companies train and run their own versions of open-weight AI models; it was founded last year by three former OpenAI researchers.",
+     "article": 0
+    },
+    {
+     "fact": "Earlier this month it raised $350m at a $3.25bn valuation and said it had reached $100m in run-rate revenue.",
+     "article": 0
+    },
+    {
+     "fact": "On the earnings call, CEO Nikesh Arora said open-weight models now carry more than 60% of token traffic, up from under 5% a year ago.",
+     "article": 0
+    },
+    {
+     "fact": "Palo Alto expects the deal to add more than $1bn in annual recurring revenue by fiscal 2029 and plans more than 100 megawatts of inference capacity.",
+     "article": 0
+    },
+    {
+     "fact": "Revenue for the quarter to 31 October rose 39% to $3.44bn.",
+     "article": 0
+    },
+    {
+     "fact": "The deal needs regulatory clearance and should close in Palo Alto's fiscal third quarter of 2027.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "OpenAI details how it fights adversarial distillation; attack success on protected reasoning fell from 54.0% to 0.2%",
+   "region": "US",
+   "repeat_check": "RELATED to 2026-11-17-china-distillation-reuters (4 days ago, not over 14 days). Different news (OpenAI safeguards, metrics) but same topic: editor decides on -10.",
+   "reference_posts": [],
+   "note": "Company post, benchmark numbers are OpenAI's own internal tests. Names Moonshot AI and DeepSeek.",
+   "articles": [
+    {
+     "outlet": "OpenAI",
+     "title": "Combatting adversarial distillation",
+     "date": "2026-11-20",
+     "url": "https://openai.com/index/combatting-adversarial-distillation/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Adversarial distillation means using a frontier model's outputs without authorization to train another model with similar capabilities, then deploying it without comparable protections.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI emphasises preventing extraction of protected reasoning, the intermediate chain-of-thought steps a model generates internally.",
+     "article": 0
+    },
+    {
+     "fact": "In an internal adaptive evaluation, average attack success rate fell from 54.0% against GPT-6 Astra with original safeguards to 0.2% against GPT-6.2 Astra with updated safeguards (extracting reasoning from an earlier request).",
+     "article": 0
+    },
+    {
+     "fact": "For extraction from the current request, success rate fell from 22.9% to 0.9%.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI says weekly enforcement actions against distillation campaigns have ranged from thousands to tens of thousands of accounts, with the rate rising significantly this past summer.",
+     "article": 0
+    },
+    {
+     "fact": "In February OpenAI briefed Congress on activity indicating DeepSeek was attempting to distill US frontier models; in September it attributed a core part of a campaign to individuals associated with Moonshot AI, developer of Kimi.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI says it supports the Chip Security Act, the AI OVERWATCH Act and the MATCH Act.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "OpenAI adds 30% and 40% API discounts for GPT-6.2 jobs that can wait 2 or 8 hours",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "AI Times quotes OpenAI Developers post (Nov 18); OpenAI's own page not read. Developer-niche. Was runner-up 11-20 evening.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "오픈AI, 'GPT-6.2' 응답 늦게 받으면 API 요금 최대 40% 할인",
+     "date": "2026-11-20",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217632"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI introduced a 'completion window' option on Nov 18 (US time): set a 2-hour target for 30% off standard rates or an 8-hour target for 40% off.",
+     "article": 0
+    },
+    {
+     "fact": "It is an option in the Responses API background mode, in public beta, for GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra and GPT-6 Luna.",
+     "article": 0
+    },
+    {
+     "fact": "Discounts also apply to follow-up requests in multi-step agent work if the conditions are met.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI said it will not offer 'Flex' processing for new models, starting with GPT-6.2 Astra and Sol.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI wrote: 'Not every workflow requires an immediate response.'",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  },
+  {
+   "title": "Deutsche Telekom reportedly invests EUR 100M in Paris AI startup Mistral AI",
+   "region": "Europe",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "THIN: only 3 facts, Der Standard relaying Der Spiegel (paywall/consent page, article text partial). Needs second source before use. Europe angle.",
+   "articles": [
+    {
+     "outlet": "Der Standard",
+     "title": "Berichte: Deutsche Telekom steigt bei KI-Startup Mistral ein",
+     "date": "2026-11-20",
+     "url": "https://www.derstandard.at/story/3000000350171/deutsche-telekom-steigt-bei-ki-startup-mistral-ein-bericht"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "According to Der Spiegel, Deutsche Telekom is investing EUR 100 million in Paris-based AI startup Mistral AI.",
+     "article": 0
+    },
+    {
+     "fact": "The money came from Telekom's investment arm, T.Capital Tech Fund, in Mistral's most recent funding round.",
+     "article": 0
+    },
+    {
+     "fact": "Deutsche Telekom said the investment is a first step toward a future strategic partnership.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null
+  }
+ ]
+}
