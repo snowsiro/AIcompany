@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-21
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11-20) 도달 22 · 팔로워 2 · 링크 클릭 0 · 최고 도달 metrics 파일 참고 (Meta 집계 최대 48시간 지연)
+결정할 일
+1. 없음. 인스타 토큰이 없어 참고 계정은 morning-scan의 reference.json만 읽음 (3x 이상 뉴스 신호 없음). 한국 국내 기사는 읽기 차단(Yonhap 403 등)으로 후보 없음. 아침 스캔이 main에 없어 morning-scan을 직접 실행, 약 1~2분 내 도착
+2. 선정: 미국이 중국 기업에 엔비디아·AMD 칩 약 87만9천 개 수출 허가 (CHINA AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 아시아 3). 소스는 AI타임스(한국어) 단일, Bloomberg·Reuters는 "AI Times 인용"으로만 표기, 캡션에 단일 매체 보도라고 명시. 허가 ≠ 선적 임을 슬라이드·캡션에 명시. 후보 원문의 "엔비디아 전 CEO" 표기는 번역 오류로 보아 젠슨 황 직함과 12/1 브리핑은 뺌
+3. 검수: 1차에서 fact(문제 없음)·hook(7/10)·brand 모두 통과. 비차단 참고: hook 옵션 3의 hook_types 라벨 myth-flip은 부정확(caveat형), 옵션 1·3의 "got"은 수령 암시로 약함, 슬라이드 7 "Nvidia said it later halted H200 shipments"는 원문 한 절 근거
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium (npm ci 필요)
+5. 예비(`posts/_backlog/2026-11-21-morning-runners-up.md`): Riemann 가설 Claude 보조 증명 주장(저녁 1순위, "claims" 표기), Trump-Xi 군사 AI 인간 통제, Cursor 중국 모델 단계적 퇴출 검토, Palo Alto Applied Compute $4.5B, OpenAI 증류 방어, GPT-6.2 배치 할인, Deutsche Telekom·Mistral €100M(소스 부족). 읽기 불가: Yonhap, Verge, Sifted, Politico Europe, Ars (403), Reuters·Nikkei·SCMP·Korea Times·Herald 원문
+자세한 기록
+- 05:46 시작, 스캔 누락 확인 후 morning-scan 실행, 후보 7개 수집
+- 선정 id `2026-11-21-us-chip-licences-china-military`, 넘어온 ready 글 없음, 토요일이라 주간 모음 없음 (일요일만)
+
 ## [저녁 보고] 2026-11-20
 처리 1건 (ready 1) · 실패 0건
 결정할 일

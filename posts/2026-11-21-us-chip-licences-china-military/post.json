@@ -1,0 +1,142 @@
+{
+  "id": "2026-11-21-us-chip-licences-china-military",
+  "date": "2026-11-21",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · POLICY",
+    "headline": [
+      "US OKAYED **879K**",
+      "CHIPS FOR CHINA"
+    ],
+    "hook_options": [
+      [
+        "US OKAYED **879K**",
+        "CHIPS FOR CHINA"
+      ],
+      [
+        "PENTAGON-LINKED",
+        "FIRMS GOT **272K**"
+      ],
+      [
+        "879K APPROVED.",
+        "SHIPPED? **UNKNOWN**"
+      ],
+      [
+        "TENCENT GOT **150K**",
+        "ALIBABA GOT 75K"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "myth-flip",
+      "rivalry"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The 879K figure is the headline number of the committee data and slides 2-3 walk it in full, with 'approved' (not 'shipped') carried on every slide. The 272K hook is sharper but leans on the Pentagon's designation, which needs more explaining; the myth-flip is a caveat, not the story; the rivalry hook drops the 'approved' framing. No reader-impact hook: the article covers US licensing of chip exports to Chinese firms and states no effect on ordinary readers' prices, tools or risks.",
+    "image_prompt": "Cinematic wide shot of a vast dark customs and logistics hall at night, rows of sealed crates holding glowing circuit boards on conveyor lines, a few crates marked by amber light while most sit in cool blue shadow, a distant gate with a half-open steel door. Deep indigo and teal palette with warm amber highlights, shallow depth of field, drifting haze. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261121_045239_ff30ffb8-fe4a-4ca4-9f2e-7e7f5f8806d5.png"
+  },
+  "slides": [
+    {
+      "kicker": "The disclosure",
+      "title": "879,000 chips approved",
+      "body": [
+        "The US House Foreign Affairs Committee said the Trump administration **approved about 879,000** Nvidia and AMD AI chips for Chinese firms between December 2025 and May 2026, AI Times reported. The committee chair called it the most detailed disclosure of its kind."
+      ]
+    },
+    {
+      "kicker": "The funnel",
+      "title": "3.4M asked, 879K approved",
+      "body": [
+        "Companies had applied to export **more than 3.4 million** chips in that period. Approvals were far fewer. The licences mainly cover older chips such as Nvidia's H200 and AMD's MI325X."
+      ]
+    },
+    {
+      "kicker": "The four firms",
+      "title": "272,000 to four firms",
+      "body": [
+        "Tencent (social media and gaming giant) got **150,000**, Alibaba (e-commerce and cloud) 75,000, Baidu (search engine) 43,000 and BYD (electric-car maker) 4,000. Together **272,000**, over 30% of the total."
+      ]
+    },
+    {
+      "kicker": "The Pentagon list",
+      "title": "Linked to China's military",
+      "body": [
+        "The Pentagon keeps a list of companies it designates as Chinese military-linked. Tencent was on it from January 2025. Alibaba, Baidu and BYD were briefly listed in February 2026, then removed, and **re-listed in June**, so not listed in May."
+      ]
+    },
+    {
+      "kicker": "Who got what",
+      "title": "Alibaba asked for far more",
+      "body": [
+        "Alibaba applied for about **950,000** chips and got 75,000. Tencent, Baidu and BYD reportedly **received everything** they applied for."
+      ]
+    },
+    {
+      "kicker": "The caveats",
+      "title": "A licence is not a shipment",
+      "body": [
+        "The data does not show how many chips reached China. Commerce says approvals followed a January rule, case by case. Nvidia said it later **halted H200 shipments** to China. Commerce's Jeffrey Kessler is asked to testify **Dec 3**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The US House Foreign Affairs Committee said on Nov 19 (US time) that the Trump administration approved about 879,000 Nvidia and AMD AI chips for Chinese companies between December 2025 and May 2026."
+    },
+    {
+      "source": 0,
+      "text": "Companies had applied to export more than 3.4 million chips in that period; actual approvals were far fewer."
+    },
+    {
+      "source": 0,
+      "text": "Tencent was approved for 150,000 chips, Alibaba 75,000, Baidu 43,000 and BYD 4,000: 272,000 in total, over 30% of all approved volume, going to firms the Pentagon designated as Chinese military-linked. The company descriptions (social media and gaming, e-commerce and cloud, search, electric cars) are the writer's explainers."
+    },
+    {
+      "source": 0,
+      "text": "Alibaba applied for about 950,000 chips but got 75,000; Tencent, Baidu and BYD received everything they applied for."
+    },
+    {
+      "source": 0,
+      "text": "Alibaba, Baidu and BYD were briefly on the Pentagon list in February 2026, were removed, and were re-listed in a revised June list, so they were not officially listed in May when the licences were issued; Tencent was listed from January 2025."
+    },
+    {
+      "source": 0,
+      "text": "The approvals mainly cover older chips such as Nvidia's H200 and AMD's MI325X."
+    },
+    {
+      "source": 0,
+      "text": "Commerce said approvals followed a rule announced in January and were granted case by case under strict national security requirements. Nvidia said it later halted H200 shipments to China."
+    },
+    {
+      "source": 0,
+      "text": "An export licence does not mean a shipment: the data does not show how many approved chips reached China."
+    },
+    {
+      "source": 0,
+      "text": "House Foreign Affairs chair Brian Mast called it the most detailed disclosure in the history of the Export Control Reform Act; the committee asked Commerce Under Secretary Jeffrey Kessler to testify on Dec 3."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times (Korea)",
+      "title": "미 상무부, 중국군 연계 기업에 AI 칩 수출 허가...하원 자료 공개로 파장",
+      "title_en": "US Commerce Department licenses AI chip exports to firms linked to China's military... House data release causes stir",
+      "language": "Korean",
+      "date": "Nov 20, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217634"
+    }
+  ],
+  "caption": "The US approved about 879,000 Nvidia and AMD AI chips for Chinese firms, a House committee says.\n\nThis is a single-outlet report: Korea's AI Times relays the House Foreign Affairs Committee data, citing Bloomberg and Reuters. Approved licences are not shipments, and the data does not show what reached China.\n\n→ About 879,000 chips approved from Dec 2025 to May 2026, out of more than 3.4 million requested\n→ 272,000 (over 30%) went to Tencent, Alibaba, Baidu and BYD, firms the Pentagon designates as Chinese military-linked\n→ Alibaba asked for about 950,000 and got 75,000; the other three reportedly got all they requested\n\nShould approved chips be tracked until they actually ship?\n\nSource: AI Times (Korea), \"US Commerce Department licenses AI chip exports to firms linked to China's military... House data release causes stir\" (in Korean), Nov 20, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nvidia",
+    "#AIChips",
+    "#ExportControls"
+  ],
+  "threads_caption": "The US approved about 879,000 Nvidia and AMD AI chips for Chinese firms, a House committee says. 272,000 went to Tencent, Alibaba, Baidu and BYD, which the Pentagon links to China's military.\n\nSingle-outlet report. Licences are not shipments.\n\nSource: AI Times (Korea), \"US Commerce Department licenses AI chip exports to firms linked to China's military... House data release causes stir\" (in Korean). #Nvidia"
+}
