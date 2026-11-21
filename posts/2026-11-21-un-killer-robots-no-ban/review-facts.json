@@ -1,0 +1,15 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 6 (body and title)",
+      "problem": "Article says algorithmic profiling 'zunehmend' (increasingly) turns military target selection into an automated 'Zielfabrik'. Slide drops 'increasingly' and says profiling 'turns targeting into' a target factory. Title 'Targets picked by software' is also stronger than the article: it speaks of AI-supported target proposals that soldiers must check in seconds. Also the article says AI in the 'Zielerfassungsprozess' (target acquisition/identification), not 'target selection'.",
+      "fix": "Body: 'Campaigners say AI systems in target identification are already used on battlefields. Council of Europe rights commissioner Michael O'Flaherty warned in mid-November that profiling increasingly turns target selection into an automated \"target factory\" (our translation).' Title: 'AI in the targeting loop' or similar."
+    },
+    {
+      "where": "caption and facts[3]",
+      "problem": "Caption says the 128 members, the 98 states and the 163 countries 'are different groups'. The article does not say this; the 98 states could well be among the 128 parties. Unsupported inference.",
+      "fix": "Say 'are separate figures in the report' or drop the claim; remove the 'separate group' sentence from facts[3]."
+    }
+  ]
+}
