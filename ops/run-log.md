@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-21
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음. 선정: UN 특정재래식무기금지협약(CCW) 제네바 회의가 살상 로봇(자율무기) 구속력 있는 금지 권한 없이 종료, 완화된 협상 권한만 합의 (GLOBAL AI · POLICY, 점수 10 = 글로벌 3 + 숫자 2 + 유럽 3 + 저녁 신선도 2). 소스 heise online 단일(독일어), 캡션에 단일 매체 보도 명시, 인용은 "our translation" 표기. 첫 게시 시각 2026-11-21 16:28 UTC(17:28 Vienna), ready 시점 약 1시간 경과. 태그는 GLOBAL로 정했으나 EUROPE도 가능
+2. 검수: 1차 fact 불합격(슬라이드 6 "target selection"·"increasingly" 누락, 캡션의 "different groups" 근거 없음) → writer 수정 후 2차 fact·brand 통과. hook 7/10(1차, 문구 불변). 비차단 참고: 커버가 "States"만으로는 미국 주로 오독될 수 있음, 커버 이미지 색감이 프롬프트와 다소 다름(생성기 산출물), 2차 hook은 재검수 안 함(커버 문구 변화 없음)
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6: 아침 2 + 저녁 2, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+4. 예비: `posts/_backlog/2026-11-21-evening-runners-up.md` (OpenAI 연구 에이전트 46% 과제 완료, 점수 7, Anthropic 리만 가설 주장은 "claims" 표기 필요). 읽기 불가: Yonhap 403, Korea Herald·Nikkei 리다이렉트, TechCrunch·VentureBeat 피드 차단
+자세한 기록
+- 후보 신규 11 + 넘어온 6, 선정 id `2026-11-21-un-killer-robots-no-ban`
+- 넘어온 ready 글 없음 (아침 글 published)
+- 머지: PR의 render 체크 후 원문 재확인해 머지 (결과는 다음 보고에)
+
 ## [아침 보고] 2026-11-21
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11-20) 도달 22 · 팔로워 2 · 링크 클릭 0 · 최고 도달 metrics 파일 참고 (Meta 집계 최대 48시간 지연)
