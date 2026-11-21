@@ -1,15 +1,15 @@
-PASS
+# Brand-safety review, round 2: 2026-11-21-un-killer-robots-no-ban
 
-Checked: post.json, cover.png, slides 01, 05, 07, 08 (viewed), DESIGN.md, CLAUDE.md rules. Slides 02-04 and 06 not viewed directly; their text matches post.json.
+Verdict: PASS
 
-Checks
-- Cover image: empty hearing room with a lone robotic arm, chairs and microphones. No person, no recognizable logo (the UN emblem is absent), no readable text. Pass.
-- Reference accounts: no copied wording, layout or image found. Pass.
-- Outlet credit: caption and threads_caption both credit heise online (Germany) with the article title, marked "in German". The last slide has the source line. Pass.
-- Affiliate, referral, tracking or sponsored-tool mention: none in slides, caption or threads_caption. No links. Pass.
-- Colors and fonts: ink background, paper text, muted secondary text, single accent yellow, Anton cover title, Inter Tight elsewhere. Matches DESIGN.md. Pass.
-- Tone and hook: "98 STATES WANTED RULES. GOT TALKS" is backed by slides 2-4. The caption states this is a single-outlet story and that the 128, 98 and 163 are different groups. Quotes are attributed and marked as our translation. Naming Russia, the US, UK, Israel and Belarus is reporting of their stated positions, not mockery. Pass.
+Checked: cover.png, slides 01-08, caption, threads_caption, post.json against DESIGN.md.
 
-Non-blocking notes
-1. The cover is warm brown and photographic. It does not match the image_prompt (blue palette, lake, amber glow). The designer should confirm it came from the image generator.
-2. Slide 5 says Russia "effectively vetoed" binding rules, which is the source's wording. The fact-checker should confirm it.
+- Cover image: AI-generated empty hall with a robotic arm. No people, no recognizable logo, no readable text.
+- Reference copying: none found. Wording and layout are original, built on the heise online article.
+- Outlet credit: caption and threads_caption both name heise online and the article title. Slide 8 repeats it.
+- Affiliate/sponsor: no links, referral or tracking, no "tool we use" mention in slides, caption or threads_caption.
+- Design: only ink, paper, muted, accent and line colors; Anton on the cover, Inter Tight elsewhere. At most 2 accent spans per slide. Slide 6 and 7 fit without overflow.
+- Tone: no mockery of a person, company or country. Claims about Russia, the US, UK, Israel and Belarus are attributed to the source and stated flatly. Küchenmeister's quote is labeled as our translation.
+- Hook: "98 STATES WANTED RULES. GOT TALKS" is supported by slides 2-4. The caption notes that the 128, 98 and 163 figures are separate and that the story rests on a single outlet.
+
+Issues: none.

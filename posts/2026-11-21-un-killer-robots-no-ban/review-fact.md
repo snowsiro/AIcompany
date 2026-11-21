@@ -1,13 +1,17 @@
-FAIL
+# Fact review, round 2: 2026-11-21-un-killer-robots-no-ban
 
-Source opened with node scripts/article.mjs (heise online, 2026-11-21, Stefan Krempl). Checked cover, slides 1-6, caption, threads_caption.
+Verdict: PASS
 
-- Title matches the published title; title_en is a faithful translation. Date Nov 21, 2026 matches.
-- Match: seventh review conference, Geneva, overnight into Saturday, 128 Vertragsstaaten, diluted mandate, two years, 98 states, 163 countries, consensus, Russia effective veto, US/UK/Israel/Belarus reservations, 13 years, Küchenmeister "wachsweiche Mandat", HRW (Coyle) legal uncertainty, van Rooijen, O'Flaherty mid-November.
-- "It is not a treaty deadline" (slide 2) and the CCW gloss are the writer's clarifications; acceptable.
+Source opened with scripts/article.mjs: heise online, "Killer-Roboter: UN-Konferenz endet ohne Mandat für verbindliches Verbot" (Nov 21, 2026). Title and title_en are faithful.
 
-Issues
-1. Slide 6: drops "zunehmend" (increasingly) from O'Flaherty's warning, and "Targets picked by software" overstates (article: AI-supported target proposals). The article says "Zielerfassungsprozess" (target acquisition), not target selection for the van Rooijen claim. Fix: restore "increasingly", soften title, use "target identification".
-2. Caption: "are different groups" for 128 / 98 / 163 is not in the article (98 may overlap with the 128). Fix: "separate figures" or drop. Also remove the same sentence from facts[3].
+Checked against the article text:
+- Slide 1: 128 Vertragsstaaten, "verwässertes Mandat", overnight into Saturday. Matches.
+- Slide 2: two years to draft new rules; binding outcome stays open given the history of the talks. Matches. "Not a treaty deadline" is our clarification and does not contradict the article.
+- Slide 3: 98 states and many NGOs, before and during the week-long conference; 163 countries on a separate resolution. Matches.
+- Slide 4: consensus rule; Russia's opposition "faktisch einem Veto"; US, UK, Israel and Belarus voiced reservations. Matches. The CCW gloss is plain background.
+- Slide 5 (revised): Küchenmeister, spokesperson for Stop Killer Robots in Germany, said "wachsweiche Mandat", after 13 years of debate. HRW (Coyle) said legal uncertainty when clarity is urgently needed. Matches.
+- Slide 6 (revised): van Rooijen said autonomous tech, including AI in target identification, is already used on battlefields. O'Flaherty, mid-November, said algorithmic profiling increasingly turns target selection into a "Zielfabrik". Matches. The Council of Europe gloss is correct.
+- Caption and threads_caption: the figures 128, 98 and 163 are kept separate. Russia, the US, UK, Israel and Belarus are described accurately. The source line matches.
+- Cover and hook options: 98 states, 13 years and "soft as wax" are all supported.
 
-Verdict: FAIL, fixes are small.
+No issues found.
