@@ -1,0 +1,365 @@
+{
+ "date": "2026-11-21",
+ "run": "morning",
+ "ig_data": "reference.json present (scan folder) but no post at 3x+ on a news topic; no live IG token used",
+ "dropped_unreadable": [
+  "Reuters Signal screenshot block / Trump-Xi (Google News only; Verge 403 x3)",
+  "Yonhap Lee exam overhaul and Seoul shares plunge 5% (403 x3)",
+  "Korea Times / ZDNet Korea CSAT AI-ace stories (no original URL found)",
+  "Nikkei Asia SE Asia Nvidia server halt, SCMP chip list (Google News redirects only)",
+  "Ars Technica Meta net-zero and Google homepage (403)",
+  "Sifted UK minister sovereign model, Sifted angels in Anthropic (403 x3)",
+  "Politico Europe web volunteers (403 x3)",
+  "Anthropic IPO aftermath selloff (topic posted 11-19, no readable original)"
+ ],
+ "stories": [
+  {
+   "title": "US approved about 879,000 Nvidia and AMD AI chips for China, over 30% to firms the Pentagon links to China's military",
+   "region": "Asia/US",
+   "repeat_check": "new (related, not repeat: 2026-11-16-us-remote-access-chip-rule, 2026-11-18-nvidia-q3-china-exit)",
+   "reference_posts": [],
+   "note": "No reference account covers it (IG token not used this session; reference.json had no post at 3x+). Feeds also show SCMP 'US Congress releases list of Chinese firms seeking Nvidia chips' and Nikkei 'Nvidia server suppliers halt SE Asia shipments'; neither original readable. Single readable source is a Korean outlet citing Bloomberg and Reuters; AI Times text is Korean, facts are translated. Hearing dates (Dec 1 and 3) pending.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "미 상무부, 중국군 연계 기업에 AI 칩 수출 허가...하원 자료 공개로 파장",
+     "date": "2026-11-20",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217634"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The US House Foreign Affairs Committee said on Nov 19 (US time) that the Trump administration approved about 879,000 Nvidia and AMD AI chips for Chinese companies between December 2025 and May 2026.",
+     "article": 0
+    },
+    {
+     "fact": "Companies had applied to export more than 3.4 million chips in that period; actual approvals were far fewer.",
+     "article": 0
+    },
+    {
+     "fact": "Tencent was approved for 150,000 chips, Alibaba 75,000, Baidu 43,000 and BYD 4,000: 272,000 in total, over 30% of all approved volume, going to firms the Pentagon designated as Chinese military-linked.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba applied for about 950,000 chips but got 75,000; Tencent, Baidu and BYD received everything they applied for.",
+     "article": 0
+    },
+    {
+     "fact": "Alibaba, Baidu and BYD were briefly on the Pentagon list in February 2026, were removed, and were re-listed in a revised June list, so they were not officially listed in May when the licences were issued; Tencent was listed from January 2025.",
+     "article": 0
+    },
+    {
+     "fact": "The approvals mainly cover older chips such as Nvidia's H200 and AMD's MI325X.",
+     "article": 0
+    },
+    {
+     "fact": "Commerce said approvals followed a rule announced in January and were granted case by case under strict national security requirements. Nvidia said it later halted H200 shipments to China.",
+     "article": 0
+    },
+    {
+     "fact": "An export licence does not mean a shipment: the data does not show how many approved chips reached China.",
+     "article": 0
+    },
+    {
+     "fact": "House Foreign Affairs chair Brian Mast called it the most detailed disclosure in the history of the Export Control Reform Act; the committee asked Commerce Under Secretary Jeffrey Kessler to testify on Dec 3, and former Nvidia CEO Jensen Huang is due for a closed briefing on Dec 1.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Claude-assisted proof of the Riemann hypothesis claimed by an Anthropic mathematician; a separate all-human proof also posted",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Huge global story (Verge, TechCrunch, SCMP, etnews all ran it) but unverified: the proof is in Lean and compiles per independent checkers, human review pending. Hook must say 'claims'. Anthropic is the same company as 11-19 ant-debut post (different topic).",
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+     "date": "2026-11-20",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Levent Alpöge, a mathematician at Anthropic, appears to have solved the Riemann hypothesis, one of the Millennium Prize problems, which dates back to 1859.",
+     "article": 0
+    },
+    {
+     "fact": "He announced a Lean-compilable solution in an essay and wrote that he messaged Anthropic CEO Dario Amodei the previous Sunday night to ask how to announce it.",
+     "article": 0
+    },
+    {
+     "fact": "The hypothesis conjectures that there is a hidden structure underlying the appearance of prime numbers.",
+     "article": 0
+    },
+    {
+     "fact": "Lean is an open-source coding language used to express mathematical ideas as code, allowing proofs to be formally verified.",
+     "article": 0
+    },
+    {
+     "fact": "Several participants in a Zulip chat of mathematicians, including MIT mathematician Andrew Sutherland, said they successfully confirmed that Alpöge's solution compiles.",
+     "article": 0
+    },
+    {
+     "fact": "TechCrunch wrote that it will be a while before the mathematics community has a handle on the proof, and that Alpöge committed to pursue a human-understandable explanation.",
+     "article": 0
+    },
+    {
+     "fact": "Alpöge described his work with Claude as a 'stream-of-consciousness jaunt' and said the model 'flew, and danced, and sparkled near that finish line.'",
+     "article": 0
+    },
+    {
+     "fact": "Separately, Stanford postdoc Alessandro Masullo's proof of the General Riemann hypothesis was posted by Stanford's Ravi Vakil, who noted it is 'all human, with no AI'; without Lean, it is too early to say whether it checks out.",
+     "article": 0
+    },
+    {
+     "fact": "Alpöge and NYU mathematician Tristan Buckmaster also released a proof related to the Navier-Stokes equations.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Trump and Xi agree humans must stay involved in military AI decisions, Bessent says",
+   "region": "US/China",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Source is Treasury Secretary Bessent on CNBC via AI Times; Reuters headline in feed (Google News only, original not located). Details of deal not published. Compare with Nov 2024 Biden-Xi nuclear pledge.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "트럼프·시진핑, 군사 AI에 인간 통제 합의…주요 군사작전까지 적용",
+     "date": "2026-11-21",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217640"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "US Treasury Secretary Scott Bessent said on CNBC on Nov 20 (US time) that Trump and Xi agreed humans must always be involved in any military decision made by AI.",
+     "article": 0
+    },
+    {
+     "fact": "Bessent said the two leaders agreed AI should not be allowed to act autonomously in major military operations.",
+     "article": 0
+    },
+    {
+     "fact": "He said the agreement is separate from the two countries' AI technology competition.",
+     "article": 0
+    },
+    {
+     "fact": "In November 2024 in Lima, Peru, Biden and Xi agreed to keep human control over decisions to use nuclear weapons; the new agreement covers major military operations more broadly.",
+     "article": 0
+    },
+    {
+     "fact": "Trump said on Fox News that he discussed AI safety rules with Xi and that both want reasonable AI regulation.",
+     "article": 0
+    },
+    {
+     "fact": "The specifics of the deal, how much human involvement is required, and how compliance would be checked have not been made public.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Cursor, owned by SpaceX, weighs phasing out Chinese AI models after a US House report",
+   "region": "US/China",
+   "repeat_check": "new (related: 2026-10-26-korea-chinese-ai-models, 2026-11-17-china-distillation-reuters)",
+   "reference_posts": [],
+   "note": "AI Times citing CNBC; CNBC original not located. Uses names readers need explained (Cursor, Moonshot AI).",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "스페이스X, '커서'의 중국 AI 모델 퇴출 검토",
+     "date": "2026-11-21",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217643"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Cursor, the AI coding platform owned by SpaceX, told a US House committee it is considering phasing out Chinese-developed open-weight models, citing geopolitical risk, CNBC reported on Nov 20.",
+     "article": 0
+    },
+    {
+     "fact": "The disclosure appears in a joint report by the House Homeland Security Committee and the Select Committee on China after months of investigation.",
+     "article": 0
+    },
+    {
+     "fact": "Cursor built its own coding model Composer 2 on Moonshot AI's Kimi K2.5.",
+     "article": 0
+    },
+    {
+     "fact": "The report says Chinese models are spreading because competitive US open-weight models are lacking in price and performance.",
+     "article": 0
+    },
+    {
+     "fact": "Airbnb uses Alibaba's AI model for customer support, and DoorDash uses Chinese models including Moonshot's Kimi.",
+     "article": 0
+    },
+    {
+     "fact": "Congress proposed a 'National Open-Weight Initiative' of public compute plus shared evaluation infrastructure, and recommended banning Chinese AI models in federal systems and contracts.",
+     "article": 0
+    },
+    {
+     "fact": "The Trump administration is reportedly weighing a rule forcing US firms to disclose use of Chinese AI models instead of new export controls.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Palo Alto Networks buys Applied Compute for $4.5B in stock to push into open-weight AI",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "Readable original (TNW). Business story, global relevance moderate; has hard numbers.",
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Palo Alto Networks buys AI startup Applied Compute for $4.5bn in stock",
+     "date": "2026-11-20",
+     "url": "https://thenextweb.com/news/palo-alto-networks-applied-compute-4-5bn-open-weight-ai"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Palo Alto Networks agreed to buy Applied Compute in an all-stock deal valued at $4.5bn.",
+     "article": 0
+    },
+    {
+     "fact": "Applied Compute helps companies train and run their own versions of open-weight AI models; it was founded last year by three former OpenAI researchers.",
+     "article": 0
+    },
+    {
+     "fact": "Earlier this month it raised $350m at a $3.25bn valuation and said it had reached $100m in run-rate revenue.",
+     "article": 0
+    },
+    {
+     "fact": "On the earnings call, CEO Nikesh Arora said open-weight models now carry more than 60% of token traffic, up from under 5% a year ago.",
+     "article": 0
+    },
+    {
+     "fact": "Palo Alto expects the deal to add more than $1bn in annual recurring revenue by fiscal 2029 and plans more than 100 megawatts of inference capacity.",
+     "article": 0
+    },
+    {
+     "fact": "Revenue for the quarter to 31 October rose 39% to $3.44bn.",
+     "article": 0
+    },
+    {
+     "fact": "The deal needs regulatory clearance and should close in Palo Alto's fiscal third quarter of 2027.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI details how it fights adversarial distillation; attack success on protected reasoning fell from 54.0% to 0.2%",
+   "region": "US",
+   "repeat_check": "RELATED to 2026-11-17-china-distillation-reuters (4 days ago, not over 14 days). Different news (OpenAI safeguards, metrics) but same topic: editor decides on -10.",
+   "reference_posts": [],
+   "note": "Company post, benchmark numbers are OpenAI's own internal tests. Names Moonshot AI and DeepSeek.",
+   "articles": [
+    {
+     "outlet": "OpenAI",
+     "title": "Combatting adversarial distillation",
+     "date": "2026-11-20",
+     "url": "https://openai.com/index/combatting-adversarial-distillation/"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Adversarial distillation means using a frontier model's outputs without authorization to train another model with similar capabilities, then deploying it without comparable protections.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI emphasises preventing extraction of protected reasoning, the intermediate chain-of-thought steps a model generates internally.",
+     "article": 0
+    },
+    {
+     "fact": "In an internal adaptive evaluation, average attack success rate fell from 54.0% against GPT-6 Astra with original safeguards to 0.2% against GPT-6.2 Astra with updated safeguards (extracting reasoning from an earlier request).",
+     "article": 0
+    },
+    {
+     "fact": "For extraction from the current request, success rate fell from 22.9% to 0.9%.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI says weekly enforcement actions against distillation campaigns have ranged from thousands to tens of thousands of accounts, with the rate rising significantly this past summer.",
+     "article": 0
+    },
+    {
+     "fact": "In February OpenAI briefed Congress on activity indicating DeepSeek was attempting to distill US frontier models; in September it attributed a core part of a campaign to individuals associated with Moonshot AI, developer of Kimi.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI says it supports the Chip Security Act, the AI OVERWATCH Act and the MATCH Act.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI adds 30% and 40% API discounts for GPT-6.2 jobs that can wait 2 or 8 hours",
+   "region": "US",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "AI Times quotes OpenAI Developers post (Nov 18); OpenAI's own page not read. Developer-niche. Was runner-up 11-20 evening.",
+   "articles": [
+    {
+     "outlet": "AI Times (AI타임스)",
+     "title": "오픈AI, 'GPT-6.2' 응답 늦게 받으면 API 요금 최대 40% 할인",
+     "date": "2026-11-20",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217632"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "OpenAI introduced a 'completion window' option on Nov 18 (US time): set a 2-hour target for 30% off standard rates or an 8-hour target for 40% off.",
+     "article": 0
+    },
+    {
+     "fact": "It is an option in the Responses API background mode, in public beta, for GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra and GPT-6 Luna.",
+     "article": 0
+    },
+    {
+     "fact": "Discounts also apply to follow-up requests in multi-step agent work if the conditions are met.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI said it will not offer 'Flex' processing for new models, starting with GPT-6.2 Astra and Sol.",
+     "article": 0
+    },
+    {
+     "fact": "OpenAI wrote: 'Not every workflow requires an immediate response.'",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Deutsche Telekom reportedly invests EUR 100M in Paris AI startup Mistral AI",
+   "region": "Europe",
+   "repeat_check": "new",
+   "reference_posts": [],
+   "note": "THIN: only 3 facts, Der Standard relaying Der Spiegel (paywall/consent page, article text partial). Needs second source before use. Europe angle.",
+   "articles": [
+    {
+     "outlet": "Der Standard",
+     "title": "Berichte: Deutsche Telekom steigt bei KI-Startup Mistral ein",
+     "date": "2026-11-20",
+     "url": "https://www.derstandard.at/story/3000000350171/deutsche-telekom-steigt-bei-ki-startup-mistral-ein-bericht"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "According to Der Spiegel, Deutsche Telekom is investing EUR 100 million in Paris-based AI startup Mistral AI.",
+     "article": 0
+    },
+    {
+     "fact": "The money came from Telekom's investment arm, T.Capital Tech Fund, in Mistral's most recent funding round.",
+     "article": 0
+    },
+    {
+     "fact": "Deutsche Telekom said the investment is a first step toward a future strategic partnership.",
+     "article": 0
+    }
+   ]
+  }
+ ]
+}
