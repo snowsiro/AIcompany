@@ -1,23 +1,43 @@
 {
- "fetched_at": "2026-11-21T04:47:40.657Z",
+ "fetched_at": "2026-11-21T10:53:54.036Z",
  "hours": 48,
  "accounts": [
   {
    "username": "ai.trend.kr",
-   "followers": 280448,
+   "followers": 280652,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 421,
-    "median_comments": 139
+    "median_engagement": 441,
+    "median_comments": 138
    },
    "posts": [
+    {
+     "timestamp": "2026-11-21T08:00:09+0000",
+     "url": "https://www.instagram.com/reel/Df_wIc5uLm-/",
+     "type": "VIDEO",
+     "likes": null,
+     "comments": 59,
+     "multiple": 0.4,
+     "multiple_basis": "comments",
+     "caption_start": "내 컴퓨터 화면에도 눈이 쌓이기 시작했어요 ❄️ 해외에서 화제가 된 비슷한 앱은 돈을 내야 쓸 수 있더라고요. 그래서 저희 에디터가 직접 하나 만들었어요. 이름은 ’소복소복‘, 누구나 무료로 쓸 수 있게 공개했습니다. 열어 둔 창 위에도, 화면 아래 Dock(윈도우는 작업 표시줄)에도 눈이 소복이 쌓여요. 눈을 뭉쳐 굴리면 점점 커지고, 세 덩이를 올리면 눈사람이 됩니다. 눈사람 둘을 나란히 세워 두면 자기들끼리 수다도 떨어요. 맥에서도, 윈도우에서도 쓸 수 있습니다. 내 화면에도 눈 내리게 하고"
+    },
+    {
+     "timestamp": "2026-11-21T06:07:35+0000",
+     "url": "https://www.instagram.com/reel/Df_jFaHP1sN/",
+     "type": "VIDEO",
+     "likes": null,
+     "comments": 3,
+     "multiple": 0,
+     "multiple_basis": "comments",
+     "caption_start": "AI 영상에서 제일 비싼 건 올리지 않은 버전이에요🎬 같은 우주선 장면을 1만 원 홈비디오 감성부터 200만 원 블록버스터 스케일까지 예산별로 만들어 봤습니다. 결과물은 딸깍 한 번 같아도, 실제로는 원하는 장면이 나올 때까지 몇 번씩 다시 돌리거든요. 모델 가격 차이도 큽니다. 같은 10초 영상이 클링 3.0은 1,200원 정도, 최신 시댄스 모델은 11,000원이 넘어요. 다섯 번만 다시 돌려도 3만 원 가까이 나가죠. 그래서 지금 Higgsfield 블랙프라이데이 최대 63% 할인은 챙겨두"
+    },
     {
      "timestamp": "2026-11-21T01:00:01+0000",
      "url": "https://www.instagram.com/p/Df_AD8pj11B/",
      "type": "CAROUSEL_ALBUM",
      "likes": null,
-     "comments": 4,
+     "comments": 5,
      "multiple": 0,
      "multiple_basis": "comments",
      "caption_start": "엔비디아가 말하는 AI의 다음 단계는? 🤖 11월 9일 엔비디아 AI Day Seoul에 다녀왔습니다. 삼성전자, SK하이닉스, LG전자, 네이버클라우드 등 20개 파트너와 2,000명이 넘는 참석자가 모였습니다. 로보틱스 부사장 디푸 탈라는 피지컬 AI를 50조 달러 시장으로 소개하며 앞으로 10년을 로봇의 황금기로 꼽았고, 조나단 코헨 부사장은 대화만 하던 AI가 직접 일을 처리하는 에이전트로 넘어가고 있다고 설명했습니다. 오후에는 로봇 훈련용 가상 세계를 만드는 법부터 AI 공장 이야기까지"
@@ -26,9 +46,9 @@
      "timestamp": "2026-11-20T11:00:01+0000",
      "url": "https://www.instagram.com/p/Df9f4H5j-yr/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 158,
-     "comments": 195,
-     "multiple": 0.8,
+     "likes": 173,
+     "comments": 218,
+     "multiple": 0.9,
      "multiple_basis": "likes+comments",
      "caption_start": "외주 맡기던 모션 효과, Claude 한마디면 끝 ✨ 제목이 떠오르고 마우스를 따라 움직이는 웹사이트, 보통은 외주를 맡기거나 코드를 직접 짜야 했죠. Claude에 무료 스킬 하나를 올리고 만들고 싶은 페이지를 말로 요청하면, 영상 배경과 모션이 들어간 페이지를 파일 하나로 받을 수 있어요. 에디터가 세럼, 블러셔, 필름 스튜디오, 화보 아카이브, 보습 크림 페이지를 하나씩 요청해 봤어요. 제목이 떠오르는 첫 화면, 마우스를 따라 움직이는 제품, 화면 가득 바뀌는 작업물, 흩어졌다 모이는 사진,"
     },
@@ -36,8 +56,8 @@
      "timestamp": "2026-11-20T07:32:06+0000",
      "url": "https://www.instagram.com/p/Df9IEg_D1f9/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 162,
-     "comments": 241,
+     "likes": 182,
+     "comments": 273,
      "multiple": 1,
      "multiple_basis": "likes+comments",
      "caption_start": "요즘 피드에 뜨는 그 엽서, 이렇게 만들어요 📮 사진 한 장을 ChatGPT에 올리고 프롬프트만 붙여 넣으면, 크림색 종이 위에 도형으로 다시 그린 디지털 엽서가 나와요. 모서리에는 작은 영문 글자와 좌표, 색 견본까지 들어가 진짜 포스터 엽서 같죠. 에디터가 가을 숲길, 골목 고양이, 길가의 스쿠터, 눈 덮인 설산 사진으로 해 봤어요. 평범한 사진도 색 몇 가지와 원, 삼각형만 남기니 한 장의 그림처럼 바뀌었어요. 여행 사진도, 동네 산책 사진도 모두 돼요. 올해 연말 카드로 보내기에도 좋아요"
@@ -46,7 +66,7 @@
      "timestamp": "2026-11-20T00:59:03+0000",
      "url": "https://www.instagram.com/reel/Df8a-i8ooX_/",
      "type": "VIDEO",
-     "likes": 136,
+     "likes": 141,
      "comments": 10,
      "multiple": 0.3,
      "multiple_basis": "likes+comments",
@@ -56,34 +76,34 @@
      "timestamp": "2026-11-19T11:36:37+0000",
      "url": "https://www.instagram.com/p/Df6_QhcDyaC/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 273,
+     "likes": 275,
      "comments": 6,
-     "multiple": 0.7,
+     "multiple": 0.6,
      "multiple_basis": "likes+comments",
      "caption_start": "매일 쓰던 클로드, 이제 주식으로도 살 수 있어요. 📈 클로드를 만든 앤트로픽이 미국 나스닥에 주식을 올리면서, 처음 파는 주식 값을 한 주 83달러로 정했습니다. 원래 예상했던 70~78달러보다 높은데, 준비한 주식보다 약 7배 많은 주문이 몰렸기 때문이죠. 회사 몸값은 약 1.5조 달러, 우리 돈으로 2,000조 원이 넘어요. 이번에 주식을 팔아 모은 돈은 813억 달러로, 회사가 처음 주식시장에 오르며 모은 돈 중 역대 최대예요. 올해 6월 스페이스X가 세운 기록까지 넘어섰습니다. 주식 이"
-    },
-    {
-     "timestamp": "2026-11-19T09:01:18+0000",
-     "url": "https://www.instagram.com/p/Df6te5Jj8Ys/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 195,
-     "comments": 266,
-     "multiple": 1.1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "AI 만드는 회사가 직접 가르치는 무료 강의와 수료증 받는 법 🎓 무료 AI 강의는 많지만 순서 없이 들으면 중간에 멈추기 쉬워요. 그래서 개념, 일에 쓰기, 맡기기, 고수 되기 4단계로 나누고 단계마다 오늘 바로 시작할 강의를 골랐어요. 구글 생성형 AI 소개는 45분이면 끝나고, 앤트로픽 Claude Academy에는 한국어 과정 페이지가 있어요. 오픈AI 아카데미는 70분 과정에 평가를 통과하면 배지를 주고, 허깅페이스 에이전트 강의는 수료증이 무료예요. 순서표의 네 강의를 다 들어도 약 "
     }
    ]
   },
   {
    "username": "sdk.kim.builds",
-   "followers": 67159,
+   "followers": 67241,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 241,
-    "median_comments": 123
+    "median_engagement": 245,
+    "median_comments": 127
    },
    "posts": [
+    {
+     "timestamp": "2026-11-21T09:02:57+0000",
+     "url": "https://www.instagram.com/reel/Df_3JE9iFWY/",
+     "type": "VIDEO",
+     "likes": 5,
+     "comments": 2,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "#광고 드리미나는 캔버스부터 시작해요. AI 영상 만드는 방식이 바뀌었어요. 드리미나 블랙프라이데이: 스탠다드 분기 멤버십이면 시댄스 2.5, 시댄스 2.0을 30일, GPT 이미지 2.5를 60일 동안 무제한으로 쓸 수 있어요. 가입은 무료 👉 댓글에 \"Dreamina\" 남기시면 링크 DM으로 보내드릴게요. 캔버스 하나에서 스토리보드, 이미지·영상·오디오 생성, 캐릭터·제품 일관성 유지, 타임라인 러프컷까지 다 돼요. 광고, 단편, 캠페인 소스 만들고 프리미어 프로나 파이널 컷으로 넘겨서 마무"
+    },
     {
      "timestamp": "2026-11-20T12:05:08+0000",
      "url": "https://www.instagram.com/reel/Df9nB_SFR0G/",
@@ -98,9 +118,9 @@
      "timestamp": "2026-11-20T08:03:15+0000",
      "url": "https://www.instagram.com/reel/Df9LlUoFAWQ/",
      "type": "VIDEO",
-     "likes": 179,
-     "comments": 295,
-     "multiple": 2,
+     "likes": 224,
+     "comments": 364,
+     "multiple": 2.4,
      "multiple_basis": "likes+comments",
      "caption_start": "클로드가 만든 화면, 왜 딱 봐도 티가 날까요? 버튼 하나 고치려고 프롬프트를 열 번 써도 클로드는 그 버튼을 한 번도 못 봐요. 코드만 쓰고, 만든 화면을 열어 보지 않거든요. 그래서 몇 번을 고쳐도 보라색 그라데이션이 그대로 나와요. ━━━━━━━━━━━━━━━━ 무료로 깔 수 있는 3가지 ① 디자인 스킬 + Impeccable → AI한테 디자인 기준점을 잡아줘요 ② Taste Skill → 보라색 그라데이션 같은 AI 티를 걸러줘요 ③ Figma MCP + Playwright → 디자인 파"
     },
@@ -108,41 +128,41 @@
      "timestamp": "2026-11-20T02:03:16+0000",
      "url": "https://www.instagram.com/p/Df8iauSikJU/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 111,
-     "comments": 260,
-     "multiple": 1.5,
+     "likes": 118,
+     "comments": 283,
+     "multiple": 1.6,
      "multiple_basis": "likes+comments",
      "caption_start": "보고서에 넣을 도식, 이제 클로드한테 말로 시키세요. 무료 스킬 하나면 됩니다. 구조도 하나 넣으려고 도형 끌고 화살표 맞추다 보면 오후가 갑니다. 다 그려도 어딘가 어설프고요. diagram-design은 클로드 코드·커서·코덱스에 깔아 쓰는 무료 도식 스킬입니다(MIT, 깃허브 별 6만 8천여 개). → 구조도, 흐름도, 4분면, 타임라인 등 51가지 → 어떤 도식이 맞는지 클로드가 골라서 그림 → 파일 하나로 나오고 PNG·SVG로 내보내기 저희는 \"동네 카페 예약 앱 구조 그려줘, 라벨은 "
-    },
-    {
-     "timestamp": "2026-11-19T09:03:19+0000",
-     "url": "https://www.instagram.com/reel/Df6tpsKDaOk/",
-     "type": "VIDEO",
-     "likes": 35,
-     "comments": 29,
-     "multiple": 0.3,
-     "multiple_basis": "likes+comments",
-     "caption_start": "#광고 AI한테 같은 설명, 오늘만 몇 번째 하셨어요? 바이브코딩은 \"이거 만들어줘\" 하면 원하는 게 잘 안 나와요. 진짜 중요한 건 AI도 나도 이해할 수 있는 명확한 기획이에요. ━━━━━━━━━━━━━━━━ ① 매니패스트에 아이디어 한 줄만 써요 → 몇 가지 질문에 답하면 제품 요구사항 문서랑 기능 명세서가 나와요 → 예외랑 권한도 미리 확인하고, AI가 놓친 건 따로 물어봐서 챙겨요 ② 버튼 하나로 유저플로우를 그려요 → 와이어프레임까지 그 흐름대로 나와요 ③ MCP로 클로드 코드에 연결해"
     }
    ]
   },
   {
    "username": "moodmode.ai",
-   "followers": 161446,
+   "followers": 161482,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 408,
-    "median_comments": 11
+    "median_engagement": 412,
+    "median_comments": 13
    },
    "posts": [
+    {
+     "timestamp": "2026-11-21T07:27:38+0000",
+     "url": "https://www.instagram.com/p/Df_sWlUEbUn/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": null,
+     "comments": 101,
+     "multiple": 7.8,
+     "multiple_basis": "comments",
+     "caption_start": "AI를 활용할 때 이걸 꼭 알아야합니다. 와튼스쿨 교수 이선 몰릭이 짚은 문제는 AI를 쓰는 횟수가 아니에요. 방향을 정하고 결과를 고르는 일까지 넘기는 습관이에요. AI에 묻기 전 내 생각부터 적기. 완성되기 전에 중간 결과 확인하기. 여러 답을 받아 직접 고르고 조합하기. 작은 일부터 맡기며 믿을 범위 정하기. 인터뷰에서 고른 이 네 가지를 내 업무에 적용할 수 있도록 점검표 PDF와 AI 스킬로 정리했어요. 스킬을 넣으면 AI가 내 생각을 먼저 묻고, 중간 결과와 대안을 보여주며 선택을 기다"
+    },
     {
      "timestamp": "2026-11-21T03:14:51+0000",
      "url": "https://www.instagram.com/reel/Df_PV6CRoG_/",
      "type": "VIDEO",
-     "likes": 41,
-     "comments": 1,
-     "multiple": 0.1,
+     "likes": 81,
+     "comments": 4,
+     "multiple": 0.2,
      "multiple_basis": "likes+comments",
      "caption_start": "우리 아이가 AI보다 똑똑해지기 어렵다..? 2025년 클레오 에이브럼과의 인터뷰에서 샘 올트먼은 오늘 태어난 아이가 평생 AI보다 똑똑해지지 못할 것이라고 전망했어요. 아이가 세상을 이해할 무렵에는 빠른 발전과 새로운 과학 발견을 당연하게 받아들일 거라고 말합니다. 그가 바꿔 놓은 질문은 아이가 기계보다 얼마나 똑똑한가보다, 더 똑똑한 기계와 함께 어떤 세상을 살아갈 것인가였습니다. 미래에 대한 개인의 전망이며, 확정된 결과를 뜻하지 않습니다. Edited by moodmode.ai"
     },
@@ -151,8 +171,8 @@
      "url": "https://www.instagram.com/p/Df9bKGHEZ11/",
      "type": "CAROUSEL_ALBUM",
      "likes": null,
-     "comments": 21,
-     "multiple": 1.9,
+     "comments": 22,
+     "multiple": 1.7,
      "multiple_basis": "comments",
      "caption_start": "수 백만원 태우고 정리한 AI 영상 노하우 가져가세요. #광고 생성 버튼은 4,598번 눌렀는데 실제로 올린 영상은 100개도 안 돼요. 제일 비싼 건 결과물이 아니라 시행착오였어요. 그 한 번 값도 계속 올라서, 힉스필드에서 같은 10초 1080p 기준으로 클링 3.0은 20크레딧, 시댄스 2.5는 160크레딧이에요. 반년 만에 8배예요. 방법은 두 가지예요. 제대로 배워서 시행착오를 줄이거나, 시작 비용 자체를 줄이거나. higgsfield.ai 가 지금 블랙프라이데이로 최대 64% 할인 중이"
     },
@@ -160,8 +180,8 @@
      "timestamp": "2026-11-20T03:33:50+0000",
      "url": "https://www.instagram.com/p/Df8szXYEcvE/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 255,
-     "comments": 13,
+     "likes": 272,
+     "comments": 15,
      "multiple": 0.7,
      "multiple_basis": "likes+comments",
      "caption_start": "한 주 사이, AI 업계 얼굴부터 수능 풍경까지 바뀌었어요.. 엔비디아를 33년 이끈 젠슨 황이 CEO에서 물러났어요. 복귀를 바라는 청원도 나왔지만, 이사회는 복귀에 선을 그었습니다. 클로드를 만든 앤트로픽은 19일 나스닥에 상장했어요. 역대 최대 규모의 공모를 마치고, 첫날 주가는 공모가보다 약 17% 올랐어요. 국내에서는 수능 스마트기기 부정행위로 98명이 적발됐어요. 스마트안경까지 시험장에 등장하면서 정부도 점검을 강화했습니다. 아무 댓글이나 남겨 주시면 이번 주 AI 뉴스 10개 원문과 "
@@ -170,27 +190,17 @@
      "timestamp": "2026-11-19T12:11:30+0000",
      "url": "https://www.instagram.com/p/Df7DP74kY3H/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 80,
+     "likes": 81,
      "comments": 3,
      "multiple": 0.2,
      "multiple_basis": "likes+comments",
      "caption_start": "은행 AI, 이제 어떤 걸 맡기느냐가 중요해졌어요.. #광고 싱가포르 DBS는 올해 AI 에이전트가 기업 대출 심사자료의 초안을 만들고 직원이 검토하는 방식을 도입했다고 발표했어요. 아시아 금융권에서 AI를 실제 업무에 적용하는 사례예요. 이를 근거로 아시아 전체가 세계 1위라고 단정할 수는 없지만, 업무를 맡기는 AI로 옮겨가는 움직임은 볼 수 있어요. 한국도 지난 1년간 AI 실험을 뒷받침할 환경을 넓혔어요. 2025년 12월 금융회사·핀테크 기업의 개발과 검증을 돕는 금융권 AI 플랫폼이 열"
-    },
-    {
-     "timestamp": "2026-11-19T09:20:20+0000",
-     "url": "https://www.instagram.com/reel/Df6u8o9O6Le/",
-     "type": "VIDEO",
-     "likes": null,
-     "comments": 7,
-     "multiple": 0.6,
-     "multiple_basis": "comments",
-     "caption_start": "제품 사진 한 장, 블랙프라이데이 광고는 여러 버전으로 드리미나 마케팅 스튜디오로 만든 라떼 광고인데요. 포스터를 넣고 원하는 비율을 고르면 피드부터 스토리까지 한 번에 준비할 수 있어요. 이미지 현지화로 영어 광고도 만들 수 있고요. 블랙프라이데이가 다가옵니다. 드리미나 마케팅 스튜디오에서 첫 광고 소재를 만들고, 여러 크기와 언어로 바꿔 마케팅 영상과 포스터를 빠르게 준비해 보세요. 신규 회원 월간 멤버십은 한정 기간 $0.29, 98% 할인이에요. 댓글로 Dreamina 남겨주시면 링크 바로"
     }
    ]
   },
   {
    "username": "trenddalkak.ai",
-   "followers": 66941,
+   "followers": 66947,
    "ok": true,
    "baseline": {
     "posts": 25,
@@ -202,9 +212,9 @@
      "timestamp": "2026-11-20T10:35:02+0000",
      "url": "https://www.instagram.com/p/Df9dAWalAls/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 47,
-     "comments": 89,
-     "multiple": 0.5,
+     "likes": 54,
+     "comments": 104,
+     "multiple": 0.6,
      "multiple_basis": "likes+comments",
      "caption_start": "취업용 AI 툴은 쏟아지는데 막상 쓰려고 하면 한국 공고랑 안 맞는 경우 많죠 🥲 한국 공고에도 되는지부터 따져서 4종 골라왔어요 찾기 → 점수 → 서류 → 이력서, 이 순서대로 정리했습니다 firecrawl 웹 스크래퍼가 취업 툴을 냈어요 원래는 웹 데이터 API로 유명한 곳인데, 이번엔 이력서를 붙여넣으면 700만 개+ 공고(자체 집계) 중에서 맞는 걸 골라줘요. 공고마다 왜 골랐는지 이유도 같이 알려주고요. 팀 리더·임원 프로필과 업무용 이메일까지 찾아주는데, 검색은 크레딧을 써요. 다만 "
     },
@@ -212,7 +222,7 @@
      "timestamp": "2026-11-20T03:37:31+0000",
      "url": "https://www.instagram.com/p/Df8tOTaFNpc/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 115,
+     "likes": 116,
      "comments": 5,
      "multiple": 0.4,
      "multiple_basis": "likes+comments",
@@ -222,9 +232,9 @@
      "timestamp": "2026-11-19T11:07:23+0000",
      "url": "https://www.instagram.com/p/Df676ZGFFow/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 170,
-     "comments": 41,
-     "multiple": 0.7,
+     "likes": 179,
+     "comments": 43,
+     "multiple": 0.8,
      "multiple_basis": "likes+comments",
      "caption_start": "지금 앱스토어 1등은 오이입니다 AI 비서 피클? 🥒 답만 해주는 AI는 이제 익숙하잖아요 근데 전화까지 대신 걸어주는 비서가 유행입니다. 🥒 피클이 대체 뭔데? 올해 10월 클로즈드 베타로 시작한 한국 맞춤형 AI 비서예요. 지금 iOS 앱스토어 1위입니다. 기본은 무료인데 하루 사용량 한도가 있고, 매일 새벽 4시에 초기화돼요. 11/21까지는 한도가 2배라고 하네요. ARS 대기, 새로고침 노동 이런 거 맡기면 끝이에요. AI가 직접 전화해서 입석·예약대기를 문의하고, 앱에서 결제·예약까"
     }
@@ -232,20 +242,50 @@
   },
   {
    "username": "prompt_what",
-   "followers": 253873,
+   "followers": 254029,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 527,
-    "median_comments": 114
+    "median_engagement": 492,
+    "median_comments": 38
    },
    "posts": [
+    {
+     "timestamp": "2026-11-21T10:04:16+0000",
+     "url": "https://www.instagram.com/p/Df_-R34Izxw/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 83,
+     "comments": 1,
+     "multiple": 0.2,
+     "multiple_basis": "likes+comments",
+     "caption_start": "167년 동안 아무도 못 푼 리만 가설, Claude와 함께 찾은 증명이 공개됐습니다 🧮 앤트로픽 수학자 레벤트 알푀게가 11월 20일 4쪽짜리 글을 올렸는데 첫 아이디어부터 마지막 줄까지 41일이 걸렸고, 꽉 막힌 고리를 잇는 결정적인 한 수는 Claude가 제안했다고 합니다. 사람이 읽게 풀어 쓰면 25만 쪽이 넘어 컴퓨터가 검사하는 Lean 코드로만 공개했고 MIT 수학자가 따로 돌려 보니 파일 175,187개가 전부 오류 없이 통과했어요. 코드가 증명한 문장이 진짜 리만 가설과 같은지 보"
+    },
+    {
+     "timestamp": "2026-11-21T09:19:50+0000",
+     "url": "https://www.instagram.com/reel/Df_5F6gytTL/",
+     "type": "VIDEO",
+     "likes": 41,
+     "comments": 14,
+     "multiple": 0.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "AI 영상 제작자라면 필수인 카메라 렌즈 20가지 📷 어안으로 담으면 장난스럽고 망원으로 당기면 영화가 되는데 프롬프트에 렌즈 이름 한 줄만 바꿔도 이 차이가 그대로 나옵니다. 렌즈마다 붙여 넣는 프롬프트 20종과 실제 장면 예시까지 댓글 남겨주시면 DM으로 전부 보내드릴게요! 20 camera lenses every AI video creator should know 📷 Shoot it with a fisheye and it turns playful, pull it in with a tele"
+    },
+    {
+     "timestamp": "2026-11-21T05:53:00+0000",
+     "url": "https://www.instagram.com/reel/Df_hcBLRTmX/",
+     "type": "VIDEO",
+     "likes": 10,
+     "comments": 0,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "AI 영상 제작자라면 필수인 카메라 렌즈 20가지 📷 어안으로 담으면 장난스럽고 망원으로 당기면 영화가 되는데 프롬프트에 렌즈 이름 한 줄만 바꿔도 이 차이가 그대로 나옵니다. 렌즈마다 붙여 넣는 프롬프트 20종과 실제 장면 예시까지 댓글 남겨주시면 DM으로 전부 보내드릴게요! 20 camera lenses every AI video creator should know 📷 Shoot it with a fisheye and it turns playful, pull it in with a tele"
+    },
     {
      "timestamp": "2026-11-21T03:25:11+0000",
      "url": "https://www.instagram.com/reel/Df_QfYnS-hP/",
      "type": "VIDEO",
-     "likes": 2,
-     "comments": 0,
+     "likes": 16,
+     "comments": 1,
      "multiple": 0,
      "multiple_basis": "likes+comments",
      "caption_start": "AI 영상 제작자라면 필수인 카메라 렌즈 20가지 📷 어안으로 담으면 장난스럽고 망원으로 당기면 영화가 되는데 프롬프트에 렌즈 이름 한 줄만 바꿔도 이 차이가 그대로 나옵니다. 렌즈마다 붙여 넣는 프롬프트 20종과 실제 장면 예시까지 댓글 남겨주시면 DM으로 전부 보내드릴게요! 20 camera lenses every AI video creator should know 📷 Shoot it with a fisheye and it turns playful, pull it in with a tele"
@@ -254,8 +294,8 @@
      "timestamp": "2026-11-20T10:08:36+0000",
      "url": "https://www.instagram.com/p/Df9Z-tHo1S_/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 69,
-     "comments": 23,
+     "likes": 75,
+     "comments": 25,
      "multiple": 0.2,
      "multiple_basis": "likes+comments",
      "caption_start": "이미지 AI Ideogram이 모공까지 처음부터 4K로 그리는 4.6을 공개했습니다 📸 작게 그린 뒤 키우는 과정 없이 처음부터 4K로 그려 내서 피부 모공과 옷감 결이 그대로 살아 있고 AI 특유의 매끈한 피부 표현도 줄였다고 합니다. 생성과 편집을 한 모델에서 모두 처리하는데 옷 색만 바꿔도 얼굴과 배경이 틀어지는 일이 크게 줄었어요. Edit: prompt_what Source: ideogram.ai"
@@ -274,41 +314,21 @@
      "timestamp": "2026-11-19T23:38:43+0000",
      "url": "https://www.instagram.com/p/Df8R5Qdk7p5/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 275,
-     "comments": 350,
-     "multiple": 1.2,
+     "likes": 293,
+     "comments": 372,
+     "multiple": 1.4,
      "multiple_basis": "likes+comments",
      "caption_start": "1% 천재들의 공부법이 AI 과외 스킬로 풀렸습니다 🎓 제인 스트리트가 사내에서 매일 사용하던 스킬 socratic-tutor는 주제를 단원 4~10개로 나누고 질문 3~5개로 실력부터 진단한 뒤 한 번에 질문 하나씩 던지며 가르쳐요. 틀리면 답을 알려 주는 대신 더 좁은 질문으로 되묻고 따로 두 번 넘게 확인해야 0~5단계 실력 지도의 레벨을 올려 줍니다. 클로드 코드와 챗GPT 설치 순서부터 바로 복사해 사용할 시작 문장과 명령어까지 전부 받아가세요! The study method of th"
-    },
-    {
-     "timestamp": "2026-11-19T09:17:42+0000",
-     "url": "https://www.instagram.com/reel/Df6vRPPSnQ8/",
-     "type": "VIDEO",
-     "likes": 335,
-     "comments": 236,
-     "multiple": 1.1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "AI 영상 제작자라면 꼭 알아야 할 카메라 무빙 20가지 🎥 인물과 장소는 영상 내내 그대로지만 카메라 무빙이 바뀌니 두 사람도 샷마다 전혀 다른 분위기로 연출됩니다. 내 영상에 붙여 넣는 카메라 프롬프트 20종은 댓글 남겨주시면 보내드릴게요! 20 camera moves every AI video creator should know 🎥 The people and the place stay the same throughout the video, but as the camera move chan"
-    },
-    {
-     "timestamp": "2026-11-19T05:43:41+0000",
-     "url": "https://www.instagram.com/p/Df6W3iYkRf9/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 445,
-     "comments": 416,
-     "multiple": 1.6,
-     "multiple_basis": "likes+comments",
-     "caption_start": "교과서로 외우던 시스템 설계, 이제 그림을 직접 움직이며 배웁니다 🧭 딜룸 산자야가 공개한 Designed to Scale은 레슨 40개마다 주소창에서 엔터를 누른 순간부터 사용자 20만 명이 몰리는 순간까지 서버와 데이터가 움직이는 모습을 한 단계씩 눌러 보며 따라가는데, 시스템 설계를 알면 AI에게 맡겨 만드는 앱도 더 나아진다는 이유로 만든 사이트이고 엑스에 올린 소개 글은 이틀 만에 조회수 40만을 넘겼어요. 9개 단원 지도부터 바이브 코딩 전에 먼저 볼 레슨 순서까지 댓글에 ‘설계’ 남"
     }
    ]
   },
   {
    "username": "ai_freaks.kr",
-   "followers": 133659,
+   "followers": 133671,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 347,
+    "median_engagement": 391,
     "median_comments": 46
    },
    "posts": [
@@ -316,9 +336,9 @@
      "timestamp": "2026-11-21T02:58:29+0000",
      "url": "https://www.instagram.com/p/Df_NjXEGkCY/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 131,
-     "comments": 11,
-     "multiple": 0.4,
+     "likes": 364,
+     "comments": 27,
+     "multiple": 1,
      "multiple_basis": "likes+comments",
      "caption_start": "“애플이 직접 고른 올해의 앱, 뭐가 있을까?” 🏆 애플 앱스토어 에디터들의 2026 어워드 최종 후보가 공개됐어요. 그 중 아이폰·맥·아이패드 올해의 앱 후보 9개를 에디터가 정리해봤는데요, 수상작은 앞으로 몇 주 안에 발표될 예정이래요! 발표 전에 미리 써보고 내가 고른 앱이 상을 받는지 지켜보는 것도 재밌겠죠? 👀 무엇을 하는 앱인지, 카드뉴스를 넘기며 한눈에 확인해보세요. 💌 댓글 남겨주시면 ’올해의 앱 후보 정리본‘ 전송! 👉🏻 AI 소식 놓치지 않으려면? ai_freaks.kr"
     },
@@ -327,43 +347,33 @@
      "url": "https://www.instagram.com/reel/Df9tX41sOUa/",
      "type": "VIDEO",
      "likes": null,
-     "comments": 65,
-     "multiple": 1.4,
+     "comments": 67,
+     "multiple": 1.5,
      "multiple_basis": "comments",
      "caption_start": "“힉스필드 63프로 할인 블프 떴다” 💸 요즘 영상 모델이 좋아진 만큼 생성 비용도 올라서, 돌릴 때마다 비용이 쌓여 부담스럽죠? 그런 분들께 반가울 소식이 있어요. 힉스필드가 블랙프라이데이를 맞아 요금제를 최대 63% 할인 중이거든요. 울트라 연간 요금제는 GTA6 기프트카드도 함께 준다고 해요. 시댄스 2.5같은 고퀄리티 영상 모델부터 미니맥스 H3 같이 가성비 좋은 모델까지 모두 써볼 수 있는 좋은 기회예요. 5가지 영상 뽑을 때 사용한 프롬프트도 정리해두었으니 참고해보세요! (*각 영상 "
-    },
-    {
-     "timestamp": "2026-11-19T09:32:50+0000",
-     "url": "https://www.instagram.com/p/Df6xF0Hmp0I/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 350,
-     "comments": 144,
-     "multiple": 1.4,
-     "multiple_basis": "likes+comments",
-     "caption_start": "“개발자들의 방구석 겨울나기” ❄️ 쌀쌀해진 날씨에 슬슬 크리스마스가 기다려지는 요즘, 겨울 분위기 낭낭한 개발자들의 서비스를 모아봤어요. 트리도, 눈사람도, 스키까지 온라인으로 즐길 수 있대요. 여러분은 어떤 서비스를 가장 써보고 싶나요? 카드뉴스를 넘겨 자세한 내용을 확인해보세요. 💌 댓글 남겨주시면, 소개한 서비스 링크를 모아서 보내드릴게요. 👉🏻 AI 소식 놓치지 않으려면? ai_freaks.kr “개발자들의 방구석 겨울나기” ❄️ ① 나만의 개발자 트리 코딩을 몰라도 문구와 사진을 "
-    },
-    {
-     "timestamp": "2026-11-19T04:49:31+0000",
-     "url": "https://www.instagram.com/p/Df6Qqx8GqfN/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 112,
-     "comments": 133,
-     "multiple": 0.7,
-     "multiple_basis": "likes+comments",
-     "caption_start": "“정부가 쏘는 AI 프롬프트 이벤트” 🎁 정부가 운영하는 ‘모두의 AI 실험실‘에서 12월 6일까지 프롬프트 이벤트를 열었어요. 바이브 코딩 예제를 보고 프롬프트를 입력한 뒤, 결과를 게시판에 올리면 응모 끝이에요. 갤럭시 Z 폴드8, LG 스탠바이미 2, 갤럭시 워치9에 투썸 기프티콘 1만원은 무려 100명! 작품을 여러 개 올리면 작품마다 따로 응모된다는 사실! (*동일 이벤트 내 중복 당첨 시 경품 1개 선택) 여기서 끝이 아니에요. 좋아요를 많이 받은 순으로 10명에겐 배민 5만원 상품권"
     }
    ]
   },
   {
    "username": "ai.brief.kr",
-   "followers": 31786,
+   "followers": 31785,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 65,
+    "median_engagement": 59,
     "median_comments": 1
    },
    "posts": [
+    {
+     "timestamp": "2026-11-21T10:00:01+0000",
+     "url": "https://www.instagram.com/p/Df_90MrAaOl/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 6,
+     "comments": 0,
+     "multiple": 0.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "점수는 1등, 비용은 13분의 1. 그런데 먼저 써 본 사람들은 왜 최악이라고 했을까요? 🤯 상위 1%를 위한 가장 빠른 AI 테크 브리핑입니다. GPT-6.2 아스트라가 공개되자마자 ”슬라이드를 똑같이 만든다“, ”3D 게임까지 만든다“는 소식이 쏟아졌죠. 그런데 같은 모델에 일주일 동안 일을 맡겼더니 개선이 0이었다는 후기도 나왔어요. 같은 모델인데 왜 평가가 이렇게 갈렸는지, 내 업무에는 어떻게 적용할지 정리했어요. 👉 넘겨서 확인해 보세요. 📍 GPT-6.2 써 보신 분들 1등이 맞나"
+    },
     {
      "timestamp": "2026-11-20T10:00:02+0000",
      "url": "https://www.instagram.com/p/Df9ZCoXAXa8/",
@@ -378,29 +388,18 @@
   },
   {
    "username": "ai.ainow",
-   "followers": 79983,
+   "followers": 79990,
    "ok": true,
    "baseline": {
     "posts": 25,
     "median_engagement": 393,
     "median_comments": 218
    },
-   "posts": [
-    {
-     "timestamp": "2026-11-19T08:35:00+0000",
-     "url": "https://www.instagram.com/p/Df6qeQPnSKJ/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 97,
-     "comments": 162,
-     "multiple": 0.7,
-     "multiple_basis": "likes+comments",
-     "caption_start": "🔥GPT 아스트라로 해외에선 이런 것까지 만들고 있습니다. 1. 공간 · 인테리어 → 사진 9장으로 3D 스튜디오 집 한 채를 걸어 다니는 투어로도 옮겨요. 2. 해부학 · 발목 · 허리 → 눌러 보는 몸속 3D 판독 보고서를 눈으로 이해하는 데 씁니다. 3. 기차 · 분해도 · 게임 → 도면이 3D 부품으로 3,295개 부품 기차부터 브라우저 게임까지 나왔어요. 모두 공개된 글·데모 기준이고, 💬 따라 해 볼 재구성 프롬프트 8개가 필요하시면 아무 댓글 남겨 주세요. #ai #chatgpt "
-    }
-   ]
+   "posts": []
   },
   {
    "username": "mktg.with.ai",
-   "followers": 11835,
+   "followers": 11845,
    "ok": true,
    "baseline": {
     "posts": 25,
@@ -409,24 +408,24 @@
    },
    "posts": [
     {
+     "timestamp": "2026-11-21T09:04:54+0000",
+     "url": "https://www.instagram.com/p/Df_3dprlZD1/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 1,
+     "comments": 0,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "훅 모음집을 저장만 해 두고 정작 첫 문장에서 매번 막히고 있다면 이 공식부터 써 보세요 ✍️ 팔로워 200만이라고 밝힌 숏폼 전략가 켈러웨이는 훅을 세 문장으로 조립해요. 주제와 얻는 것을 밝히는 문장, \"그런데\"로 멈춰 세우는 문장, 기대를 반대로 꺾는 문장이에요. 800만 조회가 나온 스피어 영상도 이 순서 그대로였어요. 더 중요한 건 순서예요. 말을 쓰기 전에 첫 3초에 보여줄 화면부터 고르고, 그 화면과 같은 얘기를 하도록 문장을 맞춥니다 🎬 화면 글자와 말이 어긋나면 그 순간 넘겨 버"
+    },
+    {
      "timestamp": "2026-11-20T09:05:08+0000",
      "url": "https://www.instagram.com/p/Df9Ss8DnLmY/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 65,
+     "likes": 78,
      "comments": 2,
-     "multiple": 2.9,
+     "multiple": 3.5,
      "multiple_basis": "likes+comments",
      "caption_start": "매주 올려야 한다는 말에 지쳤다면 이 채널을 보세요 🥚 21살 유튜버 지런 브라우어의 채널 Dr Plants에는 영상이 12개뿐이에요. 구독자는 597만 명이고요. 1년에 3개만, 완성되면 아무 날이나 올린다고 해요 😳 다만 본인도 조회수가 목표일 때 얘기라고 선을 그어요. 판매와 신뢰가 목표라면 꾸준함이 필요하다고요. 아이디어를 고르는 기준, 공개 전 낯선 사람에게 하는 테스트, 소리만으로 점검하는 법을 카드에 정리했어요 📝 인터뷰에서 본인이 한 말을 기준으로 정리했어요 🙂 다음 콘텐츠 "
-    },
-    {
-     "timestamp": "2026-11-19T09:06:12+0000",
-     "url": "https://www.instagram.com/p/Df6uAHDEZk8/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 8,
-     "comments": 2,
-     "multiple": 0.4,
-     "multiple_basis": "likes+comments",
-     "caption_start": "편집 툴을 안 켜고 15초 영상을 만들 수 있을까요? 🎞️ 마케팅 미디어 소마코가 직접 해보고 프롬프트를 전부 공개했어요. 클로드는 영상을 그리지 않고 장면을 그리는 코드를 짜요. 그래서 문구가 적은 그대로 나오고, \"이 장면만 바꿔줘\"라는 요청이 통한다는 게 핵심이에요 ✨ 첫 결과는 글자 슬라이드 같았지만, 다섯 번 고쳐 말하니 브랜드 영상이 됐어요. 빈칸만 채우면 되는 프롬프트와 참고 영상 쓰는 법, 올리기 전 확인할 것까지 카드에 담았어요 📝 국내 마케터가 직접 해본 기록이라 문구 쓰는 "
     }
    ]
   },
