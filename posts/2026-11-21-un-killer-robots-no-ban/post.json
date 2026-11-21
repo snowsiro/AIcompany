@@ -35,7 +35,7 @@
       "claim"
     ],
     "hook_type": "number",
-    "hook_pick_reason": "The number hook states the concrete gap: 98 states called for rapid binding limits and the conference agreed only a mandate to keep talking. Slide 3 states the 98 and slides 2 and 4 carry the outcome and the reason. The quote hook is vivid but rests on one campaigner's phrase (translated). The claim and myth-flip hooks are our framing of the consensus rule and are less specific. No reader-impact hook: the article is about a UN negotiation over autonomous weapons and states no effect on ordinary readers' prices, tools or personal risks.",
+    "hook_pick_reason": "The number hook states the concrete gap: 98 states called for rapid binding limits and the conference agreed only a mandate to keep talking. Slide 4 states the 98, slide 2 carries the outcome and slide 5 the consensus reason. The quote hook is vivid but rests on one campaigner's phrase (translated). The two claim hooks are our framing of the consensus rule and are less specific. No reader-impact hook: the article is about a UN negotiation over autonomous weapons and states no effect on ordinary readers' prices, tools or personal risks.",
     "image_prompt": "Cinematic wide shot of an empty UN-style negotiating hall at night, a vast horseshoe table with rows of empty chairs and dark microphones, tall windows letting in cold blue dawn light over a lake. In the middle of the table the silhouette of a single robotic arm rests, motionless, casting a long shadow. Cool steel blue and deep indigo palette with a thin warm amber glow on the table edge, drifting dust in the light, shallow depth of field. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people."
   },
   "slides": [
@@ -76,9 +76,9 @@
     },
     {
       "kicker": "The AI link",
-      "title": "Targets picked by software",
+      "title": "AI in the targeting loop",
       "body": [
-        "Campaigners say AI systems in target selection are already used on battlefields. Council of Europe rights commissioner Michael O'Flaherty warned in mid-November that profiling turns targeting into an automated **\"target factory\"** (our translation)."
+        "Campaigners say autonomous technologies, including AI systems in target identification, are already used on battlefields. Council of Europe (Europe's human-rights body, not the EU) commissioner Michael O'Flaherty warned in mid-November that profiling is **increasingly** turning targeting into an automated **\"target factory\"** (our translation)."
       ]
     }
   ],
@@ -97,7 +97,7 @@
     },
     {
       "source": 0,
-      "text": "Recently 163 countries supported a resolution favouring binding legal rules for the use of autonomous systems in conflict. This is a separate group from the 98 states and the 128 conference members."
+      "text": "Recently 163 countries supported a resolution favouring binding legal rules for the use of autonomous systems in conflict."
     },
     {
       "source": 0,
@@ -130,7 +130,7 @@
       "url": "https://www.heise.de/news/Killer-Roboter-UN-Konferenz-endet-ohne-Mandat-fuer-verbindliches-Verbot-11533596.html"
     }
   ],
-  "caption": "A UN conference in Geneva just ended without a mandate for a binding ban on autonomous weapons, or killer robots.\n\nThis is a single-outlet story: it rests on one report from Germany's heise online. The 128 conference members, the 98 states calling for binding limits and the 163 countries behind a separate resolution are different groups. Talks go on, but a binding treaty is not guaranteed.\n\n→ The 128 states agreed only a diluted mandate: keep talking and draft new rules within two years\n→ Decisions need consensus, so Russia effectively vetoed binding rules; the US, UK, Israel and Belarus voiced reservations\n→ Campaigners call it \"soft as wax\" (translated) after 13 years of debate\n\nShould a few states be able to stop rules most want?\n\nSource: heise online (Germany), \"Killer robots: UN conference ends without mandate for a binding ban\" (in German), Nov 21, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "A UN conference in Geneva just ended without a mandate for a binding ban on autonomous weapons, or killer robots.\n\nThis is a single-outlet story: it rests on one report from Germany's heise online. The 128 conference members, the 98 states calling for binding limits and the 163 countries behind a separate resolution are separate figures, not one tally. Talks go on, but a binding treaty is not guaranteed.\n\n→ The 128 states agreed only a diluted mandate: keep talking and draft new rules within two years\n→ Decisions need consensus, so Russia effectively vetoed binding rules; the US, UK, Israel and Belarus voiced reservations\n→ Campaigners call it \"soft as wax\" (translated) after 13 years of debate\n\nShould a few states be able to stop rules most want?\n\nSource: heise online (Germany), \"Killer robots: UN conference ends without mandate for a binding ban\" (in German), Nov 21, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#KillerRobots",
