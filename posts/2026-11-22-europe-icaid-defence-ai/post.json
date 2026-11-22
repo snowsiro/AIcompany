@@ -1,0 +1,126 @@
+{
+  "id": "2026-11-22-europe-icaid-defence-ai",
+  "date": "2026-11-22",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "5 EU STATES PLAN",
+      "MILITARY AI **HUB**"
+    ],
+    "hook_options": [
+      [
+        "5 EU STATES PLAN",
+        "MILITARY AI **HUB**"
+      ],
+      [
+        "22 COUNTRIES MET",
+        "ON MILITARY **AI**"
+      ],
+      [
+        "EUROPE PLANS ITS",
+        "OWN MILITARY **AI**"
+      ],
+      [
+        "FRANCE LEADS A",
+        "MILITARY AI **HUB**"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "claim",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "The number hook leads with the hard fact (five EU states) and what they plan (a military-AI hub). Slide 2 names the five, slides 3 and 4 carry the aim and the summer 2027 start. It says 'plan', as the pledges are not yet formal. The 22-country hook is solid but the article does not say whether they were members or observers. 'Europe plans its own' is broader than five EU states and the article does not compare with NATO, so no rivalry hook was written. 'France leads' rests on one line (France is pushing it itself). No reader-impact hook: the article is about a defence-cooperation plan and states no effect on ordinary readers' prices, tools or personal risks.",
+    "image_prompt": "Cinematic aerial dusk view of a historic Breton city skyline with slate rooftops and a river, a sleek modern glass-and-steel institute building glowing softly in the foreground, faint luminous network lines rising from the building and arcing across the sky toward five distant points of light. Deep navy and teal palette with a warm amber glow in the windows, light mist, shallow depth of field. Main subject in the upper half, lower third fading into deep black shadow. No flags, no weapons. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The plan",
+      "title": "Five EU states plan a joint centre",
+      "body": [
+        "Germany, France, Italy, Poland and Sweden **want to** found the International Centre for Artificial Intelligence in Defence (**ICAID**), heise online reports. The planned seat is Rennes, a city in western France."
+      ]
+    },
+    {
+      "kicker": "The aim",
+      "title": "Speeding up AI in operations",
+      "body": [
+        "The stated aim is to **speed up** the use of AI to support military operations, per heise. The article gives no budget and does not say what the centre will build."
+      ]
+    },
+    {
+      "kicker": "The timeline",
+      "title": "Start planned for summer 2027",
+      "body": [
+        "The centre is due to start work in **summer 2027**. A second meeting in **March 2027** is meant to formalise the countries' pledges, so those commitments are not yet formal."
+      ]
+    },
+    {
+      "kicker": "The conference",
+      "title": "22 countries sent representatives",
+      "body": [
+        "Representatives of **22 countries** attended the Thursday and Friday conference, heise writes. The article does not say whether they took part as members or observers, or which countries."
+      ]
+    },
+    {
+      "kicker": "The NATO link",
+      "title": "France drives it, NATO comes later",
+      "body": [
+        "The project began as a NATO centre-of-excellence plan. France now pushes it itself, and NATO accreditation is to **follow later**. At first, **at least 34** civilian and military jobs are planned, 17 for French nationals, per France's defence ministry."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Five countries (5): Germany, France, Italy, Poland and Sweden want to jointly found an international centre for artificial intelligence in defence. (Our translation of the German.)"
+    },
+    {
+      "source": 0,
+      "text": "The aim of the planned organisation, based in Rennes, is to accelerate the use of artificial intelligence to support military operations. 'A city in western France' is the writer's gloss. The article gives no budget and no description of what the centre will build."
+    },
+    {
+      "source": 0,
+      "text": "The centre, called the International Centre for Artificial Intelligence in Defence (ICAID), is due to start work in summer 2027."
+    },
+    {
+      "source": 0,
+      "text": "At a second meeting in March 2027, the participating countries are to formalise their pledges."
+    },
+    {
+      "source": 0,
+      "text": "Representatives of a total of 22 countries took part in the conference on Thursday and Friday. The article does not say whether as members or observers."
+    },
+    {
+      "source": 0,
+      "text": "The project was originally planned as a NATO centre of excellence. France is now driving it itself; NATO accreditation is to follow later."
+    },
+    {
+      "source": 0,
+      "text": "According to the French defence ministry, at least 34 civilian and military jobs are to be created at first, 17 of them filled by French nationals."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online (Germany)",
+      "title": "Fünf EU-Staaten wollen Zentrum für KI in der Verteidigung gründen",
+      "title_en": "Five EU states want to found centre for AI in defence",
+      "language": "German",
+      "date": "Nov 21, 2026",
+      "url": "https://www.heise.de/news/Fuenf-EU-Staaten-wollen-Zentrum-fuer-KI-in-der-Verteidigung-gruenden-11533498.html"
+    }
+  ],
+  "caption": "Five EU countries plan a joint military-AI centre, ICAID, in Rennes, France.\n\nThis is a single-outlet story: it rests on one report from Germany's heise online, translated by us. Germany, France, Italy, Poland and Sweden want to set up the International Centre for Artificial Intelligence in Defence. The pledges are not formal yet, and the article gives no budget or details on what the centre will build.\n\n→ The stated aim: speed up the use of AI to support military operations; start planned for summer 2027\n→ A second meeting in March 2027 is meant to formalise the pledges; 22 countries sent representatives to this week's conference\n→ First planned as a NATO centre of excellence; France now drives it, with NATO accreditation to follow later\n\nShould Europe build shared military-AI bodies outside NATO's own centres?\n\nSource: heise online (Germany), \"Five EU states want to found centre for AI in defence\" (in German), Nov 21, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#ICAID",
+    "#EuropeAI",
+    "#DefenceAI"
+  ],
+  "threads_caption": "Five EU countries plan a joint military-AI centre, ICAID, in Rennes, France. Start planned for summer 2027.\n\nSingle-outlet story: pledges are to be formalised in March 2027, and no budget is given.\n\nSource: heise online, \"Five EU states want to found centre for AI in defence\" (in German). #ICAID"
+}
