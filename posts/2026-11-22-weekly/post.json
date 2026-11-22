@@ -3,7 +3,7 @@
   "date": "2026-11-22",
   "kind": "weekly",
   "category": "WEEKLY",
-  "status": "ready",
+  "status": "published",
   "cover": {
     "tag": "GLOBAL AI · WEEKLY",
     "headline": [
@@ -238,5 +238,9 @@
     "#Anthropic",
     "#MoonshotAI"
   ],
-  "threads_caption": "This week in AI: 7 stories from around the world. Sources: AI Times, CBC News, StockTitan, Fox Business, Korea JoongAng Daily, TechCrunch, The Next Web, heise online. Details on each card."
+  "threads_caption": "This week in AI: 7 stories from around the world. Sources: AI Times, CBC News, StockTitan, Fox Business, Korea JoongAng Daily, TechCrunch, The Next Web, heise online. Details on each card.",
+  "published_id": "18130361092894306",
+  "permalink": "https://www.instagram.com/p/DgCbqcREn7x/",
+  "threads_id": "18057153155598509",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DgCbv9PG0rH"
 }
