@@ -137,7 +137,10 @@ const post = {
   sources: built.sources,
   caption: built.caption,
   hashtags: built.hashtags,
-  threads_caption: `This week in AI: ${picked.length} stories from around the world. Sources on each card.`,
+  threads_caption: (() => {
+    const outlets = [...new Set(built.sources.map(x => x.outlet.replace(/\s*\(.*\)$/, "")))];
+    return `This week in AI: ${picked.length} stories from around the world. Sources: ${outlets.join(", ")}. Details on each card.`;
+  })(),
 };
 
 mkdirSync(dir, { recursive: true });

@@ -1,0 +1,242 @@
+{
+  "id": "2026-11-22-weekly",
+  "date": "2026-11-22",
+  "kind": "weekly",
+  "category": "WEEKLY",
+  "status": "ready",
+  "cover": {
+    "tag": "GLOBAL AI · WEEKLY",
+    "headline": [
+      "US OKAYED **879K**",
+      "CHIPS FOR CHINA"
+    ],
+    "hook_options": [
+      [
+        "US OKAYED **879K**",
+        "CHIPS FOR CHINA"
+      ],
+      [
+        "**272K** CHIPS TO",
+        "MILITARY-LINKED"
+      ],
+      [
+        "US **LICENSED** AI",
+        "CHIPS TO CHINA"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "Option 1 leads with the week-lead fact, 879K Nvidia and AMD chips approved for Chinese firms, which slide 1 states in full; it is a clean number plus a clear stake. Option 2 is punchier but needs the Pentagon-list caveat (only Tencent was listed in May) that no slide carries. Option 3 is the weakest: no number. No reader-impact hook: the articles describe export-licence policy and name no effect on what ordinary readers pay, use or can do.",
+    "image_prompt": "Cinematic wide shot of a vast dark customs and logistics hall at night, rows of sealed crates holding glowing circuit boards on conveyor lines, a few crates marked by amber light while most sit in cool blue shadow, a distant gate with a half-open steel door. Deep indigo and teal palette with warm amber highlights, shallow depth of field, drifting haze. Main subject in the upper half, lower third fading into deep black shadow. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261121_045239_ff30ffb8-fe4a-4ca4-9f2e-7e7f5f8806d5.png"
+  },
+  "slides": [
+    {
+      "kicker": "Story 1",
+      "from": "2026-11-21-us-chip-licences-china-military",
+      "tag": "CHINA AI · POLICY",
+      "title": "US OKAYED **879K** CHIPS FOR CHINA",
+      "body": [
+        "The US approved about 879,000 Nvidia and AMD AI chips for Chinese firms, a House committee says."
+      ],
+      "sources": [
+        0
+      ]
+    },
+    {
+      "kicker": "Story 2",
+      "from": "2026-11-16-korea-tax-exam-ai-cheating",
+      "tag": "KOREA AI · POLICY",
+      "title": "TOP SCORER: I **CHEATED** WITH AI",
+      "body": [
+        "Korea's tax accountant exam top scorer said he cheated with a micro camera and generative AI."
+      ],
+      "sources": [
+        1
+      ]
+    },
+    {
+      "kicker": "Story 3",
+      "from": "2026-11-19-anthropic-ant-debut",
+      "tag": "GLOBAL AI · INDUSTRY",
+      "title": "ANT OPENS **34%** ABOVE IPO PRICE",
+      "body": [
+        "Anthropic's stock opened at $111.50 on Nasdaq as ANT, 34% above its $83 IPO price, according to CBC News citing Bloomberg."
+      ],
+      "sources": [
+        2,
+        3
+      ]
+    },
+    {
+      "kicker": "Story 4",
+      "from": "2026-11-20-moonshot-indonesia-chip-rental-cancel",
+      "tag": "CHINA AI · POLICY",
+      "title": "MOONSHOT CANCELS **$150M** CHIP DEAL",
+      "body": [
+        "Moonshot AI reportedly cancelled a $150M Nvidia chip rental in Indonesia after a new US rule."
+      ],
+      "sources": [
+        5
+      ]
+    },
+    {
+      "kicker": "Story 5",
+      "from": "2026-11-18-melon-ai-ballad",
+      "tag": "KOREA AI · INDUSTRY",
+      "title": "AI BALLAD HITS **NO. 1** IN KOREA",
+      "body": [
+        "An AI-made ballad just spent three straight days at No. 1 on Korea's Melon chart, but its creators reportedly can't collect royalties."
+      ],
+      "sources": [
+        6
+      ]
+    },
+    {
+      "kicker": "Story 6",
+      "from": "2026-11-16-us-remote-access-chip-rule",
+      "tag": "GLOBAL AI · POLICY",
+      "title": "US TARGETS CHIP **RENTING** ABROAD",
+      "body": [
+        "The US just moved to stop China-based firms from renting AI chips through overseas data centers."
+      ],
+      "sources": [
+        7,
+        8
+      ]
+    },
+    {
+      "kicker": "Story 7",
+      "from": "2026-11-21-un-killer-robots-no-ban",
+      "tag": "GLOBAL AI · POLICY",
+      "title": "98 STATES WANTED RULES. GOT **TALKS**",
+      "body": [
+        "A UN conference in Geneva just ended without a mandate for a binding ban on autonomous weapons, or killer robots."
+      ],
+      "sources": [
+        9
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The US House Foreign Affairs Committee said on Nov 19 (US time) that the Trump administration approved about 879,000 Nvidia and AMD AI chips for Chinese companies between December 2025 and May 2026."
+    },
+    {
+      "source": 0,
+      "text": "Companies had applied to export more than 3.4 million chips in that period; actual approvals were far fewer."
+    },
+    {
+      "source": 0,
+      "text": "Tencent was approved for 150,000 chips, Alibaba 75,000, Baidu 43,000 and BYD 4,000: 272,000 in total, over 30% of all approved volume, going to firms the Pentagon designated as Chinese military-linked. The company descriptions (social media and gaming, e-commerce and cloud, search, electric cars) are the writer's explainers."
+    },
+    {
+      "source": 0,
+      "text": "Alibaba applied for about 950,000 chips but got 75,000; Tencent, Baidu and BYD received everything they applied for."
+    },
+    {
+      "source": 0,
+      "text": "Alibaba, Baidu and BYD were briefly on the Pentagon list in February 2026, were removed, and were re-listed in a revised June list, so they were not officially listed in May when the licences were issued; Tencent was listed from January 2025."
+    },
+    {
+      "source": 0,
+      "text": "The approvals mainly cover older chips such as Nvidia's H200 and AMD's MI325X."
+    },
+    {
+      "source": 0,
+      "text": "Commerce said approvals followed a rule announced in January and were granted case by case under strict national security requirements. Nvidia said it later halted H200 shipments to China."
+    },
+    {
+      "source": 0,
+      "text": "An export licence does not mean a shipment: the data does not show how many approved chips reached China."
+    },
+    {
+      "source": 0,
+      "text": "House Foreign Affairs chair Brian Mast called it the most detailed disclosure in the history of the Export Control Reform Act; the committee asked Commerce Under Secretary Jeffrey Kessler to testify on Dec 3."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times (Korea)",
+      "title": "미 상무부, 중국군 연계 기업에 AI 칩 수출 허가...하원 자료 공개로 파장",
+      "title_en": "US Commerce Department licenses AI chip exports to firms linked to China's military... House data release causes stir",
+      "language": "Korean",
+      "date": "Nov 20, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217634"
+    },
+    {
+      "outlet": "AI Times",
+      "title": "세무사 시험 수석 합격자 \"생성 AI로 부정행위\" 자백",
+      "title_en": "Top passer of tax accountant exam confesses to cheating with generative AI",
+      "language": "Korean",
+      "date": "Nov 15, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217426"
+    },
+    {
+      "outlet": "CBC News",
+      "title": "Anthropic stock soars by double-digits in Nasdaq debut",
+      "date": "Nov 19, 2026",
+      "url": "https://www.cbc.ca/news/business/anthropic-first-day-trading-9.7428367"
+    },
+    {
+      "outlet": "StockTitan",
+      "title": "Anthropic's First Day of Trading, Live: Every Step of ANT's Debut",
+      "date": "Nov 19, 2026",
+      "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
+    },
+    {
+      "outlet": "Fox Business",
+      "title": "Anthropic begins trading on Nasdaq in record-breaking IPO",
+      "date": "Nov 19, 2026",
+      "url": "https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo"
+    },
+    {
+      "outlet": "AI Times (Korea)",
+      "title": "문샷 AI, 미국 수출 규제에 2000억 규모 엔비디아 칩 임대 계약 취소",
+      "title_en": "Moonshot AI cancels Nvidia chip rental deal worth 200 billion won over US export controls",
+      "language": "Korean",
+      "date": "Nov 20, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217613"
+    },
+    {
+      "outlet": "Korea JoongAng Daily",
+      "title": "AI-generated ballad conquers Melon chart",
+      "date": "Nov 15, 2026",
+      "url": "https://www.koreajoongangdaily.com/entertainment/aigenerated-ballad-conquers-melon-chart/12973647"
+    },
+    {
+      "outlet": "TechCrunch",
+      "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+      "date": "Nov 16, 2026",
+      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+    },
+    {
+      "outlet": "The Next Web",
+      "title": "US curbs China's remote access to AI chips in overseas data centres",
+      "date": "Nov 16, 2026",
+      "url": "https://thenextweb.com/news/us-remote-access-ai-chips-rule-china-singapore-malaysia"
+    },
+    {
+      "outlet": "heise online (Germany)",
+      "title": "Killer-Roboter: UN-Konferenz endet ohne Mandat für verbindliches Verbot",
+      "title_en": "Killer robots: UN conference ends without mandate for a binding ban",
+      "language": "German",
+      "date": "Nov 21, 2026",
+      "url": "https://www.heise.de/news/Killer-Roboter-UN-Konferenz-endet-ohne-Mandat-fuer-verbindliches-Verbot-11533596.html"
+    }
+  ],
+  "caption": "This week in AI: The US approved about 879,000 Nvidia and AMD AI chips for Chinese firms, a House committee says.\n\n→ Korea's tax accountant exam top scorer said he cheated with a micro camera and generative AI.\n→ Anthropic's stock opened at $111.50 on Nasdaq as ANT, 34% above its $83 IPO price, according to CBC News citing Bloomberg.\n→ Moonshot AI reportedly cancelled a $150M Nvidia chip rental in Indonesia after a new US rule.\n→ An AI-made ballad just spent three straight days at No. 1 on Korea's Melon chart, but its creators reportedly can't collect royalties.\n→ The US just moved to stop China-based firms from renting AI chips through overseas data centers.\n→ A UN conference in Geneva just ended without a mandate for a binding ban on autonomous weapons, or killer robots.\n\nSources:\n1. AI Times (Korea), \"US Commerce Department licenses AI chip exports to firms linked to China's military... House data release causes stir\" (in Korean)\n2. AI Times, \"Top passer of tax accountant exam confesses to cheating with generative AI\" (in Korean)\n3. CBC News, \"Anthropic stock soars by double-digits in Nasdaq debut\"; StockTitan, \"Anthropic's First Day of Trading, Live: Every Step of ANT's Debut\"; Fox Business, \"Anthropic begins trading on Nasdaq in record-breaking IPO\"\n4. AI Times (Korea), \"Moonshot AI cancels Nvidia chip rental deal worth 200 billion won over US export controls\" (in Korean)\n5. Korea JoongAng Daily, \"AI-generated ballad conquers Melon chart\"\n6. TechCrunch, \"US tightens AI chip export controls to deter Chinese companies from accessing compute remotely\"; The Next Web, \"US curbs China's remote access to AI chips in overseas data centres\"\n7. heise online (Germany), \"Killer robots: UN conference ends without mandate for a binding ban\" (in German)\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nvidia",
+    "#Korea",
+    "#Anthropic",
+    "#MoonshotAI"
+  ],
+  "threads_caption": "This week in AI: 7 stories from around the world. Sources: AI Times, CBC News, StockTitan, Fox Business, Korea JoongAng Daily, TechCrunch, The Next Web, heise online. Details on each card."
+}

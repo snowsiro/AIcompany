@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-22
+처리 2건 (단일 글 ready 1 · 주간 모음 1) · 실패 0건
+성과: 어제(11-21) 도달 33 · 팔로워 2 · 링크 클릭 0 · 최고 도달 us-chip-licences-china-military (28)
+결정할 일
+1. 없음. 인스타 토큰이 없어 참고 계정은 morning-scan의 reference.json만 읽음 (뉴스 주제로 3x 이상 신호 없음). 아침 스캔이 main에 없어 morning-scan을 직접 실행, 약 2분 내 도착
+2. 선정: 유럽 5개국(독일·프랑스·이탈리아·폴란드·스웨덴)이 렌(Rennes)에 국방 AI 국제센터(ICAID) 설립 추진 (EUROPE AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 유럽 3). 소스 heise online 단일(독일어), 캡션에 단일 매체 보도 명시. 제2 출처는 도구 제한으로 못 찾음. 미국·글로벌 후보(OpenAI 에이전트 46%, Signal 스크린샷 제한, Meta 넷제로 재검토)는 저녁 런용 예비
+3. 검수(단일 글): fact 통과(비차단: "declared their intent" 생략), hook 7/10, brand 통과. 태그를 brief의 DEFENCE 대신 린트 허용 카테고리인 POLICY로 씀
+4. 주간 모음 "This week in AI": 7개 글, 리드 us-chip-licences-china-military. 커버 "US OKAYED 879K CHIPS FOR CHINA" fact·hook 8/10 통과. 1차 brand 불합격(threads_caption에 매체 미표기) → scripts/weekly.mjs가 threads_caption에 매체명을 넣도록 수정, brand 재검수 통과. 게시는 오늘 09:57, 놓치면 게시 안 함
+5. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6, 재생성 없음). 사람·글자·로고 없음. 주간 모음은 새 이미지 없음
+6. 읽기 불가: Yonhap English·Verge·Ars (403), Axios, Reuters·Nikkei 원문, Sifted·Politico Europe·Tech.eu 피드 비어 있음. 한국 후보는 CSAT 후속(11-16 글과 중복)뿐
+자세한 기록
+- 05:45 시작, 후보 10개 수집, 선정 id `2026-11-22-europe-icaid-defence-ai`, 넘어온 ready 글 없음
+- 예비: `posts/_backlog/2026-11-22-runner-ups.md`
+
 ## [저녁 보고] 2026-11-21
 처리 1건 (ready 1) · 실패 0건
 결정할 일
