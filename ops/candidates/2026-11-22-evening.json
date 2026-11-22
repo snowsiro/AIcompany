@@ -1,0 +1,556 @@
+{
+ "date": "2026-11-22",
+ "run": "evening",
+ "cutoff_utc": "2026-11-22T04:45:00Z",
+ "dropped_unreadable": [
+  "Yonhap English minister-resignation items (403); Korea Herald read via direct URL instead",
+  "Google News redirect-only: Korea Times 'AI spending binge puts Samsung, SK at risk of memory price collapse' (06:37Z), Korea Times 'Half of Korean workers fear workplace photos could be used in AI sex crimes' (07:03Z), ZDNet Korea token-price piece (06:34Z), Nikkei Asia (09:17Z, headline-less), SCMP, etnews: no original found",
+  "Sunday: no readable US/global AI article first published after the cutoff in TechCrunch, Verge, TNW, VentureBeat, Reuters, company newsrooms (all newest items are Saturday US time)",
+  "Failed feeds: Euractiv, Meta AI, DeepL, Korea JoongAng Daily (ok=false). Ars Technica, MIT TR, Sifted, Politico Europe, OpenAI, DeepMind, Google, Microsoft, Nvidia feeds returned 0 items",
+  "AI타임스 items 12-22 KST before 13:45 KST (e.g. GPT-Live 1.1, ChatGPT dots, ChatGPT/Claude mobile app revamp, Oracle financing) fall before the 04:45Z cutoff; not pursued"
+ ],
+ "notes": [
+  "Sunday: very thin after the cutoff. Only genuinely new readable story is the Korean education-minister resignation (repeat-adjacent to 11-16 post). Others are carried over. Morning post used ICAID (heise); excluded here.",
+  "Suggested order: 1) Korea minister resignation (new, Asia angle, hard numbers: 111 caught, 551,864 candidates, 10-year ban; needs fresh angle vs 11-16). 2) OpenAI agents 46% (carried; different company/outlet than morning; strongest numbers). 3) Signal screenshots (carried; reader impact). 4) Meta net-zero (carried, Trellis).",
+  "Das morning candidates used for carry: all except ICAID."
+ ],
+ "stories": [
+  {
+   "title": "South Korea's education minister resigns after AI-cheating fears overshadow the national college entrance exam (CSAT)",
+   "region": "Korea/Asia",
+   "first_published_utc": "2026-11-22T04:59:33Z",
+   "repeat_check": "REPEAT-ADJACENT: posts/2026-11-16-korea-tax-exam-ai-cheating covered the tax-exam AI-cheating case 6 days ago (within 14 days). New development: the resignation and the post-exam aftermath. Needs an accountability angle, not a retelling.",
+   "repeat_of_last_14_days": true,
+   "reference_posts": [],
+   "note": "Not seen in morning candidates (Yonhap minister-resignation was unreadable then). Korea Herald article is readable and first published 13:59 KST (04:59Z), 14 minutes after the cutoff. Der Standard (07:36Z) and Express Tribune (10:11Z) corroborate. Yonhap 403, Korea Herald via Google News unreadable but direct URL found by search.",
+   "articles": [
+    {
+     "outlet": "The Korea Herald",
+     "title": "Education minister steps down amid Suneung-related controversies",
+     "date": "2026-11-22",
+     "published_utc": "2026-11-22T04:59:33Z",
+     "url": "https://www.koreaherald.com/article/10945089"
+    },
+    {
+     "outlet": "The Express Tribune",
+     "title": "South Korean education minister offers to resign amid AI-assisted cheating controversy",
+     "date": "2026-11-22",
+     "published_utc": "2026-11-22T10:11:41Z",
+     "url": "https://tribune.com.pk/story/2641688/south-korean-education-minister-offers-to-resign-amid-ai-assisted-cheating-controversy"
+    },
+    {
+     "outlet": "Der Standard",
+     "title": "KI-Betrug bei Prüfungen: Südkoreas Bildungsminister zurückgetreten",
+     "date": "2026-11-22",
+     "published_utc": "2026-11-22T07:36:30Z",
+     "url": "https://www.derstandard.at/story/3000000350392/ki-betrug-bei-pruefungen-suedkoreas-bildungsminister-zurueckgetreten"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Education Minister Choi Kyo-jin offered his resignation on Sunday, saying he will take responsibility for the confusion sparked by last-minute changes to prevent artificial intelligence-related cheating on the annual College Scholastic Ability Test, or Suneung.",
+     "article": 0
+    },
+    {
+     "text": "The government implemented several anti-cheating measures to prevent AI-powered cheating on the state-issued college entrance exam, including unscheduled emergency alerts sent to detect hidden smartphones.",
+     "article": 0
+    },
+    {
+     "text": "President Lee Jae Myung accepted Choi's resignation an hour after he presented it, according to Cheong Wa Dae.",
+     "article": 0
+    },
+    {
+     "text": "This year's Senueng was marred by fears related to cheating with AI-powered technology, after the top scorer in the national tax accountant certification examination admitted to AI-assisted cheating just before the college entrance exam.",
+     "article": 0
+    },
+    {
+     "text": "The education authorities stepped up security measures against smart devices, leading to 111 test-takers being caught possessing or using smart devices during the exam. This included the use of smart glasses in one case and a miniature camera and wireless earphones in another.",
+     "article": 0
+    },
+    {
+     "text": "The Education Ministry's examination misconduct committee has been reviewing the cheating cases, and will decide on penalties before the scores are released on Dec. 11.",
+     "article": 0
+    },
+    {
+     "text": "The government and the ruling Democratic Party of Korea have suggested extending the ban for AI-assisted cheating to 10 years, potentially applying it retroactively to this year's exam.",
+     "article": 0
+    },
+    {
+     "text": "The authorities are also mulling a review of past college entrance exams for possible AI-assisted cheating, based on credible tips. Exam papers are mandated to be stored at test locations for at least a year.",
+     "article": 0
+    },
+    {
+     "text": "A total of 551,864 candidates registered for this year's test, which was held at 1,312 examination centres nationwide.",
+     "article": 1
+    },
+    {
+     "text": "It also intends to offer rewards of up to 100 million won ($75,000) for reports of cheating.",
+     "article": 1
+    }
+   ]
+  },
+  {
+   "title": "Meta says it is re-evaluating its 2030 net-zero goal as AI data centers push emissions up 45%",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Trellis (GreenBiz)",
+     "title": "Meta reconsiders its 2030 net-zero goal",
+     "date": "2026-11-19",
+     "url": "https://trellis.net/article/meta-2026-sustainability-report/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Meta acknowledges that it’s time to consider whether timelines for its long-term and short-term reduction targets should be updated.",
+     "article": 0
+    },
+    {
+     "text": "The company’s net carbon footprint — which includes the impact of contractual instruments — jumped 45 percent last year, reaching 11.9 million metric tons of carbon dioxide equivalent (mtCO2e).",
+     "article": 0
+    },
+    {
+     "text": "Meta’s location-based emissions inventory was almost twice that amount: 21.7 million mtCO2e.",
+     "article": 0
+    },
+    {
+     "text": "“We are re-evaluating our timelines, sequencing and interim milestones — including the 2030 timeframe for our net-zero emissions goal and our near-term intensity targets — so our approach reflects current operating realities while keeping progress transparent year over year.”",
+     "article": 0
+    },
+    {
+     "text": "Peterson and Swedeen did not provide a timeline for disclosing decisions related to that evaluation",
+     "article": 0
+    },
+    {
+     "text": "That mirrors a 35 percent increase in power consumption, driven by new data centers.",
+     "article": 0
+    },
+    {
+     "text": "Microsoft’s footprint jumped 25 percent; Amazon posted a 16 percent increase (including its e-commerce network); and Google disclosed an 18 percent year-over-year bump.",
+     "article": 0
+    },
+    {
+     "text": "Meta is the first of the foursome to publicly state it will reconsider its timelines.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-19)"
+  },
+  {
+   "title": "Anthropic mathematician says Claude helped him prove the Riemann hypothesis; experts are checking",
+   "region": "global (Anthropic story; Europe angle via heise)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Not a repeat story, but Anthropic was the 2026-11-19 pick (anthropic-ant-debut). Same company as that post; Anthropic stock fell after the IPO per etnews headline (not fetched).",
+   "reference_posts": [
+    {
+     "username": "prompt_what",
+     "url": "https://www.instagram.com/p/Df_-R34Izxw/",
+     "multiple": 0.7
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+     "date": "2026-11-20",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    },
+    {
+     "outlet": "heise online (German)",
+     "title": "Riemannsche Vermutung: Anthropic-Mathematiker will KI-Beweis gefunden haben",
+     "date": "2026-11-21",
+     "url": "https://www.heise.de/news/Riemannsche-Vermutung-Anthropic-Mathematiker-will-KI-Beweis-gefunden-haben-11533452.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "The mathematician saw his employer, Anthropic, become the first publicly traded frontier AI lab. He also appears to have solved one of the most important problems in mathematics.",
+     "article": 0
+    },
+    {
+     "text": "The hypothesis conjectures that there is a hidden structure underlying the appearance of prime numbers.",
+     "article": 0
+    },
+    {
+     "text": "“The precise timing is horrible,” he wrote in an essay announcing his findings",
+     "article": 0
+    },
+    {
+     "text": "which dates back to 1859 and is among the Millennium Prize math problems.",
+     "article": 0
+    },
+    {
+     "text": "Levent Alpöge, hauptberuflich beim KI-Unternehmen Anthropic tätig, hat einen möglichen Beweis der Riemannschen Vermutung angekündigt.",
+     "article": 1
+    },
+    {
+     "text": "Erste unabhängige Prüfungen zeigen, dass der Lean-Code fehlerfrei kompiliert und von zwei unabhängig entwickelten Lean-Kerneln akzeptiert wird.",
+     "article": 1
+    },
+    {
+     "text": "Eine allgemein anerkannte Lösung liegt damit noch nicht vor.",
+     "article": 1
+    },
+    {
+     "text": "Für eine anerkannte Lösung ist ein Preisgeld von einer Million US-Dollar ausgelobt.",
+     "article": 1
+    },
+    {
+     "text": "Mathematiker haben inzwischen mindestens zehn Billionen nichttrivialer Nullstellen berechnet, und alle liegen auf der ½-Linie.",
+     "article": 1
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-20)"
+  },
+  {
+   "title": "OpenAI says its agents now finish 46% of 2-4 hour research tasks on their own",
+   "region": "global (US)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "OpenAI not in last-14-day picks except GPT-6 cyber (2026-11-06); different topic.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI research agents cost $2,400 a day per researcher, report says",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/openai-research-agents-46-percent-tasks-2400-a-day-jagged-frontier"
+    },
+    {
+     "outlet": "AI타임스",
+     "title": "오픈AI \"AI가 연구 작업 절반 스스로 완료\"…7개월 만에 성공률 2배",
+     "date": "2026-11-22",
+     "published_utc": "2026-11-22T08:25:00Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217657"
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenAI says its coding agents now complete 46% of research tasks that would take a person two to four hours, with no human help. In March the figure was 23%.",
+     "article": 0
+    },
+    {
+     "text": "For tasks of four to eight hours, success rose from 13% to 35%.",
+     "article": 0
+    },
+    {
+     "text": "At API list prices, the median OpenAI researcher used about $2,400 of agent time a day in October. That is up 62% from $1,500 in September.",
+     "article": 0
+    },
+    {
+     "text": "Measured in time, agent use per researcher rose elevenfold, from 0.5 to 5.7 “agent workdays” a day.",
+     "article": 0
+    },
+    {
+     "text": "Agents succeeded alone 79% of the time when monitoring training runs, and 72% when answering technical questions. They managed 25% when writing code for inference and serving systems",
+     "article": 0
+    },
+    {
+     "text": "OpenAI says labs should be required to track and publicly report signs of recursive self-improvement",
+     "article": 0
+    },
+    {
+     "text": "In interviews, researchers said agents still have poor taste in research ideas, code, data and writing, and need close oversight.",
+     "article": 0
+    },
+    {
+     "text": "OpenAI flags a caveat in its own numbers. As agents improved, researchers may have changed which tasks they handed over",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-21)",
+   "note": "Korean secondhand write-up (AI타임스, 08:25Z today) readable and adds: 4-8h tasks 13% to 35%; monitoring training anomalies 79%, launching training runs 35%; 0.5 to 5.7 agent-days per researcher; report only covers OpenAI internal research use. Not yet used in a post (also a 11-21 evening candidate)."
+  },
+  {
+   "title": "Signal limits screenshots on Android and iOS to keep OS-level AI agents from reading chats",
+   "region": "global (privacy)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+     "date": "2026-11-21",
+     "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Signal announced Friday that it’s limiting users’ ability to take screenshots within the secure messaging app",
+     "article": 0
+    },
+    {
+     "text": "President Meredith Whittaker described as the “existential threat” of operating systems that integrate agentic AI.",
+     "article": 0
+    },
+    {
+     "text": "Windows, Android, and macOS/iOS “are undermining Signal’s ability to independently guarantee privacy.”",
+     "article": 0
+    },
+    {
+     "text": "Signal already sought to limit these risks by blocking screenshots of its Windows app by default. Now it’s adding similar restrictions in Android and iOS.",
+     "article": 0
+    },
+    {
+     "text": "users can disable this setting if they wish, which Whittaker said would “break our privacy guarantees.”",
+     "article": 0
+    },
+    {
+     "text": "She also admitted this is an “incomplete” solution",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-21)"
+  },
+  {
+   "title": "Korea after the CSAT: AI-cheating fears, a minister under fire, and calls to check past exams",
+   "region": "Korea",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "FOLLOW-UP to posts/2026-11-16-korea-tax-exam-ai-cheating (same cheating scandal, 6 days old). Needs a new angle (post-exam accountability). The latest hook (education minister offers to resign, Yonhap 2026-11-22) could NOT be read (Yonhap 403), so it is not in the facts.",
+   "reference_posts": [
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/p/DgAEt3jj6_b/",
+     "multiple": 0.6
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "Korea JoongAng Daily",
+     "title": "Education minister must answer for chaotic college entrance exam",
+     "date": "2026-11-19",
+     "url": "https://www.koreajoongangdaily.com/opinion/education-minister-must-answer-for-chaotic-college-entrance-exam/12982032"
+    },
+    {
+     "outlet": "Korea JoongAng Daily",
+     "title": "Gov't rules out postponing college entrance exam amid cheating fears",
+     "date": "2026-11-17",
+     "url": "https://www.koreajoongangdaily.com/korea/govt-rules-out-postponing-college-entrance-exam-amid-cheating-fears/12977091"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Some 550,000 applicants had to take the exam while emergency disaster alerts sounded three times throughout the day.",
+     "article": 0
+    },
+    {
+     "text": "“Perhaps because of my age, I don't think I could,” he replied, provoking public outrage.",
+     "article": 0
+    },
+    {
+     "text": "The Anti-Corruption and Civil Rights Commission had already received 44 petitions through its online complaint portal calling for measures against AI-assisted cheating.",
+     "article": 0
+    },
+    {
+     "text": "Cheating involving AI had surfaced in a national examination in May, while another case was detected during a university essay examination last month.",
+     "article": 0
+    },
+    {
+     "text": "authorities should also examine how extensively AI has been used for cheating in previous CSAT examinations since generative AI became widely available.",
+     "article": 0
+    },
+    {
+     "text": "The Education Ministry has vowed “zero tolerance” against those who cheat on the upcoming college entrance exam, with plans to dispatch specialized personnel to detect smart glasses at 1,312 test sites nationwide.",
+     "article": 1
+    },
+    {
+     "text": "The CSAT has previously been postponed four times, including in 2017 when an earthquake hit Pohang, North Gyeongsang.",
+     "article": 1
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-19)"
+  },
+  {
+   "title": "SpaceX's Cursor weighs phasing out Chinese AI models after a US House report",
+   "region": "US/China",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Adjacent to chip-curb stories (11-16, 11-20, 11-21) but a separate topic. Original is CNBC (not located); cites AI Times (Korean) reporting CNBC.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "스페이스X, '커서'의 중국 AI 모델 퇴출 검토",
+     "date": "2026-11-21",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217643"
+    }
+   ],
+   "facts": [
+    {
+     "text": "스페이스X의 AI 코딩 플랫폼 커서(Cursor)가 중국산 AI 모델의 사용을 단계적으로 중단하는 방안을 검토하고 있다.",
+     "article": 0
+    },
+    {
+     "text": "커서는 자체 코딩 모델 '컴포저 2(Composer 2)'를 개발하면서 중국 문샷 AI의 '키미 K2.5'를 기반으로 활용한 바 있다.",
+     "article": 0
+    },
+    {
+     "text": "이번 조사에는 에어비앤비와 도어대시도 참여했다.",
+     "article": 0
+    },
+    {
+     "text": "에어비앤비는 고객 지원 업무에 알리바바의 AI 모델을 활용하고 있으며",
+     "article": 0
+    },
+    {
+     "text": "미국 의회는 대응책으로 공공 컴퓨팅 자원과 공동 평가 인프라를 결합한 '미국 국가 오픈웨이트 이니셔티브' 구축을 제안했다.",
+     "article": 0
+    },
+    {
+     "text": "연방기관 정보시스템과 정부 계약 수행 과정에서 중국산 AI 모델 사용을 금지하는 방안도 권고했다.",
+     "article": 0
+    },
+    {
+     "text": "트럼프 행정부는 미국 기업들이 중국산 AI 모델을 사용하는 사실을 공개하도록 의무화하는 방안도 검토 중이다.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-21)"
+  },
+  {
+   "title": "Lenders balk at GPUs going to orbit as SpaceX closes a record $44B GPU bond",
+   "region": "US (SpaceX/Nvidia)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "SpaceX topic last in 2026-10-21-spacex-ai-revenue. Original is FT (paywalled); cites AI Times reporting FT.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "머스크의 우주 데이터센터, 첫 금융 장벽…채권단 \"GPU 반입 제한\"",
+     "date": "2026-11-21",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217650"
+    }
+   ],
+   "facts": [
+    {
+     "text": "스페이스X에 수백억달러 규모의 GPU 구매 자금을 제공하는 채권단이 담보 회수가 어렵다는 이유로 반도체의 우주 반입을 제한하려 한 것으로 알려져",
+     "article": 0
+    },
+    {
+     "text": "이번 제한 요구가 최종 계약에 반영됐는지는 확인되지 않았다.",
+     "article": 0
+    },
+    {
+     "text": "스페이스X도 해당 GPU를 지상 데이터센터에 사용할 계획이라고 밝혀, 실제 우주 발사가 예정된 것은 아니다.",
+     "article": 0
+    },
+    {
+     "text": "아폴로 글로벌 매니지먼트와 골드만삭스는 이날 공동 발표를 통해 약 440억달러 규모의 GPU 관련 채권 발행 조건을 확정했다고 밝혔다.",
+     "article": 0
+    },
+    {
+     "text": "스페이스X가 지난 10월 발표한 약 400억달러 규모의 GPU 금융리스 약정과 관련된 것이다.",
+     "article": 0
+    },
+    {
+     "text": "자금은 엔비디아의 차세대 '베라 루빈' GPU와 관련 장비를 확보해 미국 내 지상 데이터센터를 구축하는 데 사용될 예정이다.",
+     "article": 0
+    },
+    {
+     "text": "머스크는 올해 초부터 2~3년 안에 우주가 데이터센터를 가장 저렴하게 운영할 수 있는 장소가 될 것이라고 주장해 왔다.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-21)"
+  },
+  {
+   "title": "METR updates its AI time-horizon chart: models still lag on judgment-heavy tasks",
+   "region": "global (research)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "MIT Technology Review",
+     "title": "The most misunderstood graph in AI just got a major update",
+     "date": "2026-11-20",
+     "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "METR’s latest report finds that AI models are still improving at a rapid clip, but they show some weaknesses in tasks that require judgment.",
+     "article": 0
+    },
+    {
+     "text": "every four months, the length of the tasks that frontier models could successfully complete doubled.",
+     "article": 0
+    },
+    {
+     "text": "Not one of the AI-designed evaluations was good enough for METR employees to consider it useful for their research.",
+     "article": 0
+    },
+    {
+     "text": "Some of the newest models, such as Opus 5.5, tend to achieve what METR calls “borderline above the bar” performance on the evaluation design tasks",
+     "article": 0
+    },
+    {
+     "text": "Just a year ago, every model was scoring in the “clearly below the bar” category.",
+     "article": 0
+    },
+    {
+     "text": "METR’s time horizon plots score task difficulty by evaluating how long it would take a human to complete the task",
+     "article": 0
+    },
+    {
+     "text": "the completion times are mostly estimates, because paying people for tasks that might take hundreds of hours",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-20)"
+  },
+  {
+   "title": "Nadella at DealBook: AI-found bugs will make outages more likely",
+   "region": "global (US)",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "Same CEO/company as posts/2026-11-19-nadella-agent-managers (buyouts story), different event (DealBook interview 2026-11-19). Treat as same-company risk; score -5 if paired.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Satya Nadella says AI-found bugs will make outages more likely",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/satya-nadella-dealbook-ai-bugs-outages-alignment-world-of-hurt"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Satya Nadella expects more outages like the one that took down Outlook last week, because AI now finds software flaws faster than companies can safely fix them.",
+     "article": 0
+    },
+    {
+     "text": "A fix for a critical bank system used to get a week of testing. Now attackers exploit flaws as soon as they surface, so fixes go straight into production.",
+     "article": 0
+    },
+    {
+     "text": "Nadella also said the “floor of cyberattacks has fallen”.",
+     "article": 0
+    },
+    {
+     "text": "He would ban models that reason in neuralese, an internal shorthand people cannot read.",
+     "article": 0
+    },
+    {
+     "text": "Microsoft’s deal with OpenAI gives it royalty-free access to a frontier model until 2032, Nadella said.",
+     "article": 0
+    },
+    {
+     "text": "“If you don’t accept the agent, somebody else will. If Amazon doesn’t, Shopify will,” Nadella said.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-22T04:45Z (morning candidate; article date 2026-11-21)"
+  }
+ ]
+}
