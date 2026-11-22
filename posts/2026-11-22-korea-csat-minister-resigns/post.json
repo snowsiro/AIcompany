@@ -1,0 +1,144 @@
+{
+  "id": "2026-11-22-korea-csat-minister-resigns",
+  "date": "2026-11-22",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · POLICY",
+    "headline": [
+      "**111** CAUGHT.",
+      "A MINISTER QUITS"
+    ],
+    "hook_options": [
+      [
+        "**111** CAUGHT.",
+        "A MINISTER QUITS"
+      ],
+      [
+        "KOREA'S EXAM",
+        "MINISTER **QUITS**"
+      ],
+      [
+        "A **10-YEAR** BAN",
+        "FOR AI CHEATING?"
+      ],
+      [
+        "**551,864** TAKERS.",
+        "ONE AI SCARE."
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "number",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the articles describe an exam, a resignation and proposed penalties for Korean test-takers, and state no effect on ordinary readers elsewhere (their costs, tools or rights); the high-stakes-exam question stays as body framing only. The headline pairs the one hard count (111 people caught with smart devices) with the resignation, both stated in the Korea Herald, and slides 2-5 cover each. It avoids saying AI cheating caused the resignation, since the articles say only that he took responsibility for the confusion from last-minute changes. 'Korea's exam minister quits' is accurate but has no number. The '10-year ban' option is only a suggestion, so it needs the question mark and is weaker. The '551,864 takers' option is vague about the stakes.",
+    "image_prompt": "Cinematic still of a vast empty exam hall at dawn, endless rows of identical wooden desks with blank papers, a single smartphone on one desk emitting a glowing yellow alert pulse that ripples outward across the room as concentric rings of light, cool blue window light, long shadows, shallow depth of field. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The resignation",
+      "title": "Korea's education minister steps down",
+      "body": [
+        "Education Minister Choi Kyo-jin **offered to resign** on Sunday, taking responsibility for confusion caused by last-minute changes meant to stop AI cheating on the national exam. President Lee Jae Myung accepted an hour later, Cheong Wa Dae, the presidential office, said."
+      ]
+    },
+    {
+      "kicker": "The exam",
+      "title": "The test that decides university places",
+      "body": [
+        "The College Scholastic Ability Test, known as Suneung or CSAT, is South Korea's annual college entrance exam. This year **551,864 candidates** registered, sitting it at 1,312 centres nationwide."
+      ]
+    },
+    {
+      "kicker": "The crackdown",
+      "title": "111 caught with smart devices",
+      "body": [
+        "Authorities stepped up security, including unscheduled emergency alerts sent to detect hidden smartphones. **111 test-takers** were caught possessing or using smart devices. Cases included smart glasses, and a miniature camera with wireless earphones."
+      ]
+    },
+    {
+      "kicker": "The backdrop",
+      "title": "Fears were already high",
+      "body": [
+        "Worry had grown after the top scorer in Korea's national tax accountant exam admitted to AI-assisted cheating just before the CSAT. The ministry's misconduct committee will decide penalties **before scores come out on Dec. 11**."
+      ]
+    },
+    {
+      "kicker": "What's proposed",
+      "title": "Tougher penalties are on the table",
+      "body": [
+        "The government and the ruling Democratic Party of Korea suggested a **10-year ban** for AI-assisted cheating, possibly retroactive. Authorities are mulling a review of past exams and intend to offer rewards of up to 100 million won ($75,000) for reports."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Education Minister Choi Kyo-jin offered his resignation on Sunday, saying he will take responsibility for the confusion sparked by last-minute changes to prevent artificial intelligence-related cheating on the annual College Scholastic Ability Test, or Suneung."
+    },
+    {
+      "source": 0,
+      "text": "President Lee Jae Myung accepted Choi's resignation an hour after he presented it, according to Cheong Wa Dae."
+    },
+    {
+      "source": 0,
+      "text": "The government implemented several anti-cheating measures to prevent AI-powered cheating on the state-issued college entrance exam, including unscheduled emergency alerts sent to detect hidden smartphones."
+    },
+    {
+      "source": 0,
+      "text": "The education authorities stepped up security measures against smart devices, leading to 111 test-takers being caught possessing or using smart devices during the exam. This included the use of smart glasses in one case and a miniature camera and wireless earphones in another."
+    },
+    {
+      "source": 0,
+      "text": "This year's exam was marred by fears related to cheating with AI-powered technology, after the top scorer in the national tax accountant certification examination admitted to AI-assisted cheating just before the college entrance exam."
+    },
+    {
+      "source": 0,
+      "text": "The Education Ministry's examination misconduct committee has been reviewing the cheating cases, and will decide on penalties before the scores are released on Dec. 11."
+    },
+    {
+      "source": 0,
+      "text": "The government and the ruling Democratic Party of Korea have suggested extending the ban for AI-assisted cheating to 10 years, potentially applying it retroactively to this year's exam."
+    },
+    {
+      "source": 0,
+      "text": "The authorities are also mulling a review of past college entrance exams for possible AI-assisted cheating, based on credible tips. Exam papers are mandated to be stored at test locations for at least a year."
+    },
+    {
+      "source": 1,
+      "text": "A total of 551,864 candidates registered for this year's test, which was held at 1,312 examination centres nationwide."
+    },
+    {
+      "source": 1,
+      "text": "It also intends to offer rewards of up to 100 million won ($75,000) for reports of cheating."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Korea Herald",
+      "title": "Education minister steps down amid Suneung-related controversies",
+      "date": "Nov 22, 2026",
+      "url": "https://www.koreaherald.com/article/10945089"
+    },
+    {
+      "outlet": "The Express Tribune",
+      "title": "South Korean education minister offers to resign amid AI-assisted cheating controversy",
+      "date": "Nov 22, 2026",
+      "url": "https://tribune.com.pk/story/2641688/south-korean-education-minister-offers-to-resign-amid-ai-assisted-cheating-controversy"
+    }
+  ],
+  "caption": "South Korea's education minister offered to resign after AI-cheating fears overshadowed the national college entrance exam, and the president accepted.\n\nHe took responsibility for confusion caused by last-minute changes meant to stop AI cheating. The Korea Herald reports the president accepted an hour after it was presented.\n\n→ 111 test-takers were caught with or using smart devices on the exam, including smart glasses in one case and a miniature camera with wireless earphones in another\n→ The government and the ruling Democratic Party of Korea suggested a 10-year ban for AI-assisted cheating, possibly retroactive to this year; these are proposals, not law\n→ Authorities intend to offer rewards of up to 100 million won ($75,000) for cheating reports, and the misconduct committee will decide penalties before scores come out on Dec. 11\n\nHow should schools and governments protect exams in the age of AI?\n\nSource: The Korea Herald, \"Education minister steps down amid Suneung-related controversies\", Nov 22, 2026; The Express Tribune, \"South Korean education minister offers to resign amid AI-assisted cheating controversy\", Nov 22, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Suneung",
+    "#KoreaAI",
+    "#AICheating",
+    "#Education"
+  ],
+  "threads_caption": "South Korea's education minister offered to resign after AI-cheating fears overshadowed the national college entrance exam (Suneung). The president accepted an hour later. 111 test-takers were caught with smart devices. A 10-year ban for AI cheating has been suggested, not passed.\n\nSource: The Korea Herald, \"Education minister steps down amid Suneung-related controversies\". #Suneung"
+}

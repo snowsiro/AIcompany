@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "issues": [
+    {
+      "where": "hook_options[3] (unused)",
+      "problem": "'551,864 TAKERS' - the Express Tribune says 551,864 candidates registered, not that they all sat the exam. Option is not the chosen cover.",
+      "fix": "None needed unless this hook is picked; then use 'REGISTERED' or 'CANDIDATES'."
+    },
+    {
+      "where": "caption / threads_caption",
+      "problem": "'these are proposals, not law' / 'suggested, not passed' is an inference. Korea Herald says the government and party 'have suggested'; Express Tribune says the government 'plans to ban ... up to 10 years'. Neither says explicitly that it is not yet law. Reasonable reading, not a mismatch.",
+      "fix": "Optional: 'these are suggestions so far' to stay closer to the wording."
+    },
+    {
+      "where": "slide 5",
+      "problem": "Herald says the suggestion is to 'extend the ban ... to 10 years', applying 'retroactively to this year's exam'. Slide says 'a 10-year ban ... possibly retroactive'. Meaning holds. Sources differ slightly (Tribune: ban on retaking 'up to 10 years').",
+      "fix": "Optional: 'extending the ban to 10 years'. Not required."
+    }
+  ]
+}
