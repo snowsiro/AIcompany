@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-22
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 14일 중복 판단 확인 부탁: 선정 글은 한국 교육부 장관이 CSAT(수능) AI 부정행위 우려 속에 사임 (KOREA AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 아시아 3, 신선도 보너스 없음). 11-16 시험 AI 부정행위 글과 같은 주제권이라 엄격히 보면 -10으로 -2점이 되고, 그러면 OpenAI 에이전트 46% 글(점수 5, 6점 미달)이 대안. 편집장은 "다른 사건(사임)"으로 보고 감점하지 않았음. 일요일이라 미국·글로벌 신규 기사 거의 없음(저녁 후보는 신규 1 + 넘어온 9)
+2. 소스: Korea Herald(1번) + Express Tribune. 첫 게시 시각 2026-11-22 04:59 UTC(05:59 Vienna), ready 시점(약 19:40 Vienna) 기준 약 13.5시간 경과. 제안(10년 응시 금지, 과거 시험 검토, ₩100M 포상)은 "제안/검토/의향"으로만 표기, 인과(AI 부정행위 때문에 사임) 주장 없음
+3. 검수: fact 통과(비차단: 캡션 "proposals, not law"는 추론이라 "suggestions so far"가 더 안전, 미사용 훅 "551,864 TAKERS"는 registered라 과장), hook 7/10 통과, brand 통과. 태그는 brief의 SOCIETY 대신 린트 허용 카테고리 POLICY
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6: 아침 2 + 저녁 2, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+5. 예비: OpenAI 에이전트 46%(The Next Web + AI타임스), Meta 넷제로(Trellis), Signal 스크린샷. 읽기 불가: Yonhap(403), Euractiv·Meta AI·DeepL·JoongAng 피드 실패, Ars·MIT TR·Sifted·Politico Europe·기업 뉴스룸 피드 비어 있음
+자세한 기록
+- 후보 신규 1 + 넘어온 9, 선정 id `2026-11-22-korea-csat-minister-resigns`, 넘어온 ready 글 없음 (아침 글 published)
+- 머지: PR의 render 체크 후 원문 재확인해 머지 (결과는 다음 보고에)
+
 ## [아침 보고] 2026-11-22
 처리 2건 (단일 글 ready 1 · 주간 모음 1) · 실패 0건
 성과: 어제(11-21) 도달 33 · 팔로워 2 · 링크 클릭 0 · 최고 도달 us-chip-licences-china-military (28)
