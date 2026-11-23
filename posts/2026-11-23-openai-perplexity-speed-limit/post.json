@@ -2,7 +2,7 @@
   "id": "2026-11-23-openai-perplexity-speed-limit",
   "date": "2026-11-23",
   "category": "POLICY",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "cover": {
     "tag": "GLOBAL AI · POLICY",
@@ -135,5 +135,9 @@
     "#AISafety",
     "#AIPolicy"
   ],
-  "threads_caption": "OpenAI's chief scientist proposed a shared speed limit for AI labs, based on perplexity (how well a model predicts the next token) and other measures. Labs would commit not to cross agreed limits until AI can be better understood and monitored. No cap is set yet.\n\nSource: OpenAI, \"Perplexity and Intelligence\". #OpenAI"
+  "threads_caption": "OpenAI's chief scientist proposed a shared speed limit for AI labs, based on perplexity (how well a model predicts the next token) and other measures. Labs would commit not to cross agreed limits until AI can be better understood and monitored. No cap is set yet.\n\nSource: OpenAI, \"Perplexity and Intelligence\". #OpenAI",
+  "published_id": "18080554667725250",
+  "permalink": "https://www.instagram.com/p/DgGL9_6klc5/",
+  "threads_id": "18122586946999178",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DgGMCeigTMg"
 }
