@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-23
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11-22) 도달 47 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)
+결정할 일
+1. 커버 이미지는 Higgsfield로 생성함. 인스타 토큰이 없어 참고 계정은 morning-scan의 reference.json만 읽음 (뉴스 주제로 3x 이상 신호 없음). 아침 스캔이 main에 없어 morning-scan을 직접 실행, 약 2분 내 도착
+2. 선정: 나스닥 100이 엔비디아 악재와 SEC 조사 보도 속에 약세장 진입, 대만 Taiex 주간 -17.5% (GLOBAL AI · ECONOMY, 점수 8 = 글로벌 3 + 숫자 2 + 유럽 출처·아시아 각도 3). 소스 heise online 단일(독일어), 캡션에 단일 매체 보도 명시. 조사는 "내용 비공개, 조사만으로 위법 아님"으로 표기, "약세장"은 Bloomberg·FT 표기로 귀속. 독자 영향 훅은 기사에 근거가 없어 만들지 않음
+3. 검수: fact 1차 불합격(캡션 "Asia hard too"는 Taiex만 근거 → "Taiwan's market fell even harder"로 수정) 후 2차 통과, hook 8/10 통과, brand 통과
+4. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6, 재생성 없음). 사람·글자·로고 없음
+5. 예비: `posts/_backlog/2026-11-23-runner-ups.md` (OpenAI 속도 제한 제안 — 저녁 1순위, Signal 스크린샷 제한, Anthropic 리만 가설 주장 등). 읽기 불가: Euractiv·Meta AI·Mistral·JoongAng 피드 실패, Ars·MIT TR·Sifted·Politico Europe·Tech.eu 빈 피드, Google News 리다이렉트(Reuters·SCMP·Korea Times·Yonhap), Verge 403
+6. 렌더는 기본 Chromium 경로가 없어 CHROMIUM_PATH=/opt/pw-browsers/chromium 로 실행
+자세한 기록
+- 후보 10개 수집, 선정 id `2026-11-23-nasdaq-bear-market`, 넘어온 ready 글 없음
+- 월요일이라 주간 모음 없음
+
 ## [저녁 보고] 2026-11-22
 처리 1건 (ready 1) · 실패 0건
 결정할 일

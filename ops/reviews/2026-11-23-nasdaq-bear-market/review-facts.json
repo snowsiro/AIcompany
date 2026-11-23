@@ -1,0 +1,11 @@
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "caption, paragraph 2",
+      "problem": "\"heise online reports the selloff hit Asia hard too\" generalizes. The article gives only Taiwan's Taiex (-17.5%) and says worries about the AI business weigh on Taiwan's markets. It reports nothing about Asia as a whole.",
+      "fix": "Write \"heise online reports Taiwan's market fell even harder, and Bloomberg and the Financial Times now call the Nasdaq 100 a bear market.\""
+    }
+  ],
+  "notes": "Opened the heise article with scripts/article.mjs. Cover, all 5 slides, facts, threads_caption, title, title_en (faithful), date and outlet all match the article. Only the caption wording above is overstated."
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-23-nasdaq-bear-market",
+  "date": "2026-11-23",
+  "category": "ECONOMY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "GLOBAL AI · ECONOMY",
+    "headline": [
+      "NASDAQ **-10.4%**",
+      "IN ONE WEEK"
+    ],
+    "hook_options": [
+      [
+        "NASDAQ **-10.4%**",
+        "IN ONE WEEK"
+      ],
+      [
+        "NVIDIA **-14%**",
+        "IN ONE DAY"
+      ],
+      [
+        "TAIWAN'S MARKET",
+        "FELL **17.5%**"
+      ],
+      [
+        "NASDAQ 100 IS IN",
+        "A **BEAR** MARKET"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: heise online reports index moves and the open question about AI spending, but states no effect on ordinary readers' pensions, funds, prices or jobs, so a 'your pension' hook would promise something the slides cannot support. The headline pairs the Nasdaq 100's 10.4% weekly loss, a hard number from heise, with a clear time frame, and slides 2-5 cover the week, the bear-market label, Nvidia, and Taiwan. 'Nvidia -14%' is narrower and risks implying wrongdoing. The Taiex option is strong for the Asia angle but names a less familiar index. The bear-market claim is accurate only when attributed to Bloomberg and the FT, which the cover cannot do.",
+    "image_prompt": "Cinematic abstract scene of a glowing yellow line chart carved into a dark glass landscape, the line plunging down a steep cliff of faceted semiconductor-like crystals, shards of light scattering at the drop, cold blue haze, grid reflections on a polished black floor, shallow depth of field. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261123_045353_dace36cf-961a-4b04-9c68-802dafa886cd.png"
+  },
+  "slides": [
+    {
+      "kicker": "The week",
+      "title": "US tech stocks had a brutal week",
+      "body": [
+        "The Nasdaq 100, the tech-heavy US index, lost **10.4%** this week. The broader S&P 500 fell 8.6%. Friday alone was sharp: the Nasdaq 100 closed down 5.61% and the S&P 500 down 3.70%."
+      ]
+    },
+    {
+      "kicker": "The label",
+      "title": "Bloomberg and FT say bear market",
+      "body": [
+        "Bloomberg and the Financial Times now call the Nasdaq 100 a bear market. Their evidence is a **20% drop** from its most recent high in October."
+      ]
+    },
+    {
+      "kicker": "The Nvidia hit",
+      "title": "Nvidia shares are down 39% this month",
+      "body": [
+        "Nvidia closed Friday **14% lower** after Reuters reported that US market regulators are investigating the chipmaker. What is being investigated was not disclosed, and Nvidia declined to comment. An investigation alone does not indicate misconduct."
+      ]
+    },
+    {
+      "kicker": "Beyond the US",
+      "title": "Taiwan's market fell even harder",
+      "body": [
+        "The Taiex, the index of companies listed on Taiwan's stock exchange, lost **17.5%** this week. The selloff was not only an American story."
+      ]
+    },
+    {
+      "kicker": "The big question",
+      "title": "From AI euphoria to doubt",
+      "body": [
+        "Instead of big AI euphoria, the question now is whether AI makers **spend and borrow too much** to ever turn a profit, heise online reports."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The tech-heavy stock index Nasdaq 100 lost 10.4 percent of its points over the course of the week; the broader S&P 500 fared little better with a weekly loss of 8.6 percent."
+    },
+    {
+      "source": 0,
+      "text": "The Nasdaq 100 closed the day (Friday, 20 November) down 5.61 percent; the S&P 500 went into the weekend with a daily loss of 3.70 percent."
+    },
+    {
+      "source": 0,
+      "text": "This made the Nvidia share price drop by 39 percent this month."
+    },
+    {
+      "source": 0,
+      "text": "As the news agency Reuters reported on Friday, US market regulators are investigating Nvidia. After this became known, the share closed Friday down 14 percent."
+    },
+    {
+      "source": 0,
+      "text": "Taiex, the index of companies traded on the Taiwanese stock exchange, lost 17.5 percent this week."
+    },
+    {
+      "source": 0,
+      "text": "Bloomberg and the Financial Times now speak of a bear market for the Nasdaq 100, citing as evidence the 20 percent price loss since the most recent high in October."
+    },
+    {
+      "source": 0,
+      "text": "An investigation alone is not yet an indicator of misconduct. What exactly is investigated was not disclosed; Nvidia declined to comment."
+    },
+    {
+      "source": 0,
+      "text": "Instead of the big AI euphoria, the question is now whether AI makers spend and borrow too much money to end up profitable."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online",
+      "title": "Nvidia gerät weiter unter Druck – und US-Tech-Aktien in den Bärenmarkt",
+      "title_en": "Nvidia comes under further pressure – and US tech stocks into a bear market",
+      "language": "German",
+      "date": "Nov 22, 2026",
+      "url": "https://www.heise.de/news/Nvidia-geraet-weiter-unter-Druck-und-US-Tech-Aktien-in-den-Baerenmarkt-11533802.html"
+    }
+  ],
+  "caption": "The Nasdaq 100 lost 10.4% in one week as Nvidia and AI stocks sank.\n\nheise online reports Taiwan's market fell even harder, and Bloomberg and the Financial Times now call the Nasdaq 100 a bear market.\n\n→ The Nasdaq 100 fell 10.4% this week and the S&P 500 fell 8.6%; Friday alone cost 5.61% and 3.70%\n→ Nvidia shares are down 39% this month, 14% on Friday after Reuters reported a US regulator probe; what is investigated is undisclosed, and an investigation alone does not indicate misconduct\n→ Taiwan's Taiex lost 17.5% this week, and the question now is whether AI makers spend and borrow too much to be profitable\n\nIs this a healthy reset or the start of something bigger for AI?\n\nSource: heise online, \"Nvidia comes under further pressure – and US tech stocks into a bear market\" (in German), Nov 22, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nasdaq",
+    "#Nvidia",
+    "#BearMarket",
+    "#AIStocks"
+  ],
+  "threads_caption": "The Nasdaq 100 lost 10.4% in one week, and Nvidia is down 39% this month. Bloomberg and the FT call it a bear market. Taiwan's Taiex fell 17.5%. The question now: do AI makers spend and borrow too much to ever profit?\n\nSource: heise online, \"Nvidia comes under further pressure – and US tech stocks into a bear market\" (in German). #Nvidia"
+}
