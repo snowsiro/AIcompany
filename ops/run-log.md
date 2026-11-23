@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-23
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 없음 (확인 사항: 이번 저녁은 신규 후보 중 6점 이상이 없어(전부 TNW 단일 출처, 신선도 보너스 구간 밖) 넘어온 글 중 최선을 선정함)
+2. 선정: OpenAI 수석과학자 야쿱 파초키가 퍼플렉시티 기반 업계 공동 "속도 제한" 제안 (GLOBAL AI · POLICY, 점수 5 = 글로벌 3 + 숫자 2, 넘어온 글 중 1순위). 소스 OpenAI "Perplexity and Intelligence" + TechCrunch. 첫 게시 2026-11-22(일), 아침 후보에서 넘어옴, 신규 아님. 구체적 상한 수치 없음("no cap yet"), 알트먼·머스크는 "seemingly endorsed"로만 표기, 독자 영향 훅은 기사에 근거가 없어 만들지 않음
+3. 검수: fact 통과(캡션 "tied to perplexity"를 원문 "based on perplexity and other measures"로 수정, 렌더 재통과), hook 7/10 통과, brand 통과. 1차에 전원 통과
+4. 커버: Higgsfield cinematic_studio_2_5 2장, 4크레딧 (오늘 합계 6/6: 아침 2 + 저녁 4). 첫 장에 "90%" 글자가 보여 재생성, 두 번째 장은 사람·글자·로고 없음. 일일 한도 소진
+5. 예비: `posts/_backlog/2026-11-23-evening-runners-up.md` (Google Nest→Gemini 점수 8이나 heise 단일로 아침과 같은 매체, Meta 왕 초지능 에세이, Dragos/OpenRouter 등). 읽기 불가: Yonhap 403, Reuters 구글뉴스 리다이렉트, Euractiv·Meta AI·Mistral·JoongAng 피드 실패, TechCrunch·MIT TR·VentureBeat·기업 뉴스룸 피드 빈 응답
+6. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 로 실행(npm ci 필요)
+자세한 기록
+- 후보 신규 7 + 넘어온 9, 선정 id `2026-11-23-openai-perplexity-speed-limit`, 넘어온 ready 글 없음 (아침 글 published)
+- 이 글의 원 게시: OpenAI 2026-11-22, ready 시점(약 19:30 Vienna)에는 약 1일 경과
+- 머지: PR의 render 체크 후 원문 재확인해 머지 (결과는 다음 보고에)
+
 ## [아침 보고] 2026-11-23
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11-22) 도달 47 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)
