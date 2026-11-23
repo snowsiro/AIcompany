@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "issues": [
+    {
+      "where": "caption / threads_caption (optional, non-blocking)",
+      "problem": "Caption says limits are 'tied to perplexity' and threads_caption says 'measured by perplexity'. The OpenAI post says limits would be 'based on perplexity and other measurements' and 'measured by some key metric'. Slightly narrower than the source.",
+      "fix": "Optionally write 'based on perplexity and other measurements'."
+    }
+  ]
+}

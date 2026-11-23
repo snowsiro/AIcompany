@@ -1,0 +1,786 @@
+{
+ "date": "2026-11-23",
+ "run": "evening",
+ "cutoff_utc": "2026-11-23T04:45:00Z",
+ "dropped_unreadable": [
+  "Reuters (exclusive: US banks tighten AI-agent controls, 10:30Z; also Anthropic IPO bank restriction original): Google News redirect only, no readable original (search found only the October Reuters bank-agent story)",
+  "Yonhap English 'Seoul shares plunge over 3 pct on AI jitters' (403); no readable original, topic overlaps the morning Nasdaq post",
+  "AMD-Taalas $2.9B (Tech.eu 05:43Z): deal announced 6 Aug, not new",
+  "Der Standard 'Trump wants Huang back at Nvidia' (paywall/consent page, one line); TNW coverage is dated 16 Nov so not new",
+  "Reuters market pieces (STOXX, futures, Morning Bid): market stories, same as morning topic",
+  "Failed feeds: Euractiv, Meta AI, Mistral AI, Korea JoongAng Daily (ok=false). TechCrunch, MIT TR, VentureBeat, OpenAI, Google, DeepMind, Microsoft, Nvidia feeds returned 0 items after cutoff",
+  "Apple FastFrames (AI타임스, 08:10Z) read but research paper only; not pursued",
+  "Not in morning candidates and not pursued: Verge Meta Muse/Walmart (05:00Z, not fetched), Firmus bond, NGA governors, NYT China nuclear (TNW, not fetched)"
+ ],
+ "notes": [
+  "Morning post used Nasdaq bear market (heise); excluded here. Carried over all other morning candidates, marked carried_over.",
+  "Suggested order: 1) Alexandr Wang (Meta) superintelligence essay, TNW 11:34Z: new company vs morning and the evening cut, strong hook, adds that the Riemann proof was certified Saturday by Lean/Mathlib (updates the carried Anthropic Riemann story, which should say 'certified by machine, not yet human-readable'). 2) OpenRouter/Dragos prompt-theft (TNW 11:00Z): concrete numbers, reader impact. 3) TikTok likeness detection global (TNW 11:04Z). 4) Carried: OpenAI Pachocki perplexity limit (OpenAI primary source), Signal screenshots, Z.ai GLM-5.4 (new, 11:28Z but benchmark-free).",
+  "Same-day freshness: items at 11:00-11:35Z are within 6 hours of run start (17:15Z) only if run starts after 17:00Z; all evening items are within 6h-ish window, check by EIC.",
+  "Single-source caveat: all new stories except the AI타임스 ones rely on TNW as the readable original."
+ ],
+ "stories": [
+  {
+   "title": "Meta's chief AI officer Alexandr Wang says superintelligence is arriving and humans may lose control, citing the Claude-built Riemann proof",
+   "region": "global (US)",
+   "first_published_utc": "2026-11-23T11:34:20Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Meta not posted in last 14 days. Related to carried Riemann story (Anthropic) and OpenAI Pachocki limits.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Meta AI chief Alexandr Wang: superintelligence is arriving",
+     "date": "2026-11-23",
+     "published_utc": "2026-11-23T11:34:20Z",
+     "url": "https://thenextweb.com/news/metas-ai-chief-says-superintelligence-is-arriving-and-control-is-at-risk"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Alexandr Wang, the company’s chief AI officer and head of its Superintelligence Labs, made the case in an essay on X on Sunday.",
+     "article": 0
+    },
+    {
+     "text": "A proof of the Riemann Hypothesis, built with Anthropic’s Claude by mathematician Levent Alpöge, was certified on Saturday by the Lean and Mathlib proof-checking communities.",
+     "article": 0
+    },
+    {
+     "text": "The problem had resisted mathematicians since 1859.",
+     "article": 0
+    },
+    {
+     "text": "The gaps left, he wrote, are practical ones: specific knowledge, integration work, and experimentation.",
+     "article": 0
+    },
+    {
+     "text": "Once those close, he expects AI to overtake top humans in nearly every field, AI research included.",
+     "article": 0
+    },
+    {
+     "text": "Wang finds it hard to imagine humans staying in charge of AI that improves itself without limit, or of a system 1,000 times smarter than they are.",
+     "article": 0
+    },
+    {
+     "text": "The essay drew more than 8 million views in its first half day.",
+     "article": 0
+    },
+    {
+     "text": "The 17-million-line Lean library checks out by machine, but a human-readable version of the maths does not yet exist.",
+     "article": 0
+    },
+    {
+     "text": "US senator Bernie Sanders would go further, with a bill to ban superintelligence outright.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Dragos planted 2 million bait prompts and caught attackers stealing from three AI hosting providers; OpenRouter drops all three",
+   "region": "global (security)",
+   "first_published_utc": "2026-11-23T11:00:12Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Dragos planted 2m secrets in AI prompts and caught 3 hacked providers",
+     "date": "2026-11-23",
+     "published_utc": "2026-11-23T11:00:12Z",
+     "url": "https://thenextweb.com/news/openrouter-drops-providers-dragos-ai-prompt-theft-canaries"
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenRouter has removed three inference providers from its platform and stripped 125 endpoints of their Zero Data Retention (ZDR) status.",
+     "article": 0
+    },
+    {
+     "text": "From July to November, its team sent nearly two million prompts to widely used AI services. Each one carried unique web links and working credentials, including AWS keys tied to empty accounts.",
+     "article": 0
+    },
+    {
+     "text": "The team found attackers stealing data from three different hosting providers. The earliest breach dates back to mid-July, and none of the three knew until Dragos told them.",
+     "article": 0
+    },
+    {
+     "text": "The findings showed no breach of OpenRouter itself, the company said.",
+     "article": 0
+    },
+    {
+     "text": "The bait keys ended up in tens of thousands of AWS API calls.",
+     "article": 0
+    },
+    {
+     "text": "A Chinese AI lab, which Dragos did not name, fetched the secret links from more than half of the prompts sent to its models from July to October.",
+     "article": 0
+    },
+    {
+     "text": "That included about two-thirds of the requests marked as ZDR or “no data collection”.",
+     "article": 0
+    },
+    {
+     "text": "“Zero Data Retention is supposed to mean something,” Moore wrote.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Anthropic made IPO banks sign a 6-month ban on working for OpenAI and other rivals, Reuters reports",
+   "region": "global (US)",
+   "first_published_utc": "2026-11-23T06:35:32Z",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "Same company as posts/2026-11-19-anthropic-ant-debut (IPO debut) and the 11-22 Riemann carry. Original is Reuters (22 Nov, not located/readable); fact source is AI타임스 (Korean) citing Reuters; name Reuters in attribution only as reported by AI타임스.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽, IPO 은행에 오픈AI 업무 제한...월가 불만",
+     "date": "2026-11-23",
+     "published_utc": "2026-11-23T06:35:32Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217689"
+    }
+   ],
+   "facts": [
+    {
+     "text": "앤트로픽이 기업공개(IPO)에 참여한 투자은행 담당자들에게 오픈AI 등 경쟁사와의 업무를 6개월간 제한하도록 요구한 것으로 알려졌다.",
+     "article": 0
+    },
+    {
+     "text": "로이터는 22일(현지시간) 앤트로픽의 IPO에 참여한 관계자들을 인용, 앤트로픽이 일부 은행의 핵심 거래 담당자들에게 상장 이후 6개월 동안 오픈AI와 커서, 딥시크, 허깅페이스 등 경쟁사 업무를 맡지 못하도록 하는 법적 문서에 서명할 것을 요구했다고 보도했다.",
+     "article": 0
+    },
+    {
+     "text": "IPO 주관사단에 참여한 22개 은행 가운데 일부에는 거래 담당 인원을 고위직 4명으로 제한하도록 지시한 것으로 전해졌다.",
+     "article": 0
+    },
+    {
+     "text": "문서 열람자와 페이지별 접근 기록을 추적할 수 있고, 은행 담당자 개인의 이름을 워터마크로 표시하는 방식이다.",
+     "article": 0
+    },
+    {
+     "text": "앤트로픽의 상장으로 은행들이 받은 수수료는 5억달러(약 6700억원)를 웃돈다.",
+     "article": 0
+    },
+    {
+     "text": "앞서 지난 6월 스페이스X IPO에서도 은행들은 약 5억달러의 수수료를 챙겼지만",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Z.ai launches GLM-5.4, a looped 750B-parameter coding model it says matches 2-3 trillion-parameter models",
+   "region": "China",
+   "first_published_utc": "2026-11-23T11:28:59Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "China open-weight model stories: 11-05 Tencent HY4, 11-17 Alibaba Qwen4 Max; different company.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "China’s Z.ai launches GLM-5.4, a looped 750B model for coding",
+     "date": "2026-11-23",
+     "published_utc": "2026-11-23T11:28:59Z",
+     "url": "https://thenextweb.com/news/zai-glm-5-4-loop-transformer-coding-model"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Z.ai has released GLM-5.4, its first flagship model built on a Loop Transformer. The design runs some of the model’s layers more than once.",
+     "article": 0
+    },
+    {
+     "text": "It said the model matches the intelligence of models with 2 to 3 trillion parameters.",
+     "article": 0
+    },
+    {
+     "text": "GLM-5.4 runs 28 layers of the GLM-5 base model twice. That gives a deeper network with no extra parameters.",
+     "article": 0
+    },
+    {
+     "text": "Z.ai did not publish benchmark scores for GLM-5.4 itself.",
+     "article": 0
+    },
+    {
+     "text": "Z.ai plans to release the open weights after safety hardening.",
+     "article": 0
+    },
+    {
+     "text": "The company named one limitation: the model tends to get caught in overly long “marathon thinking” loops.",
+     "article": 0
+    },
+    {
+     "text": "Z.ai said a significantly larger model is coming soon.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "TikTok takes its deepfake Likeness Detection tool global and opens a public AI-content checker",
+   "region": "global (consumer/safety)",
+   "first_published_utc": "2026-11-23T11:04:51Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "TikTok takes its deepfake detection tool global and adds an AI checker",
+     "date": "2026-11-23",
+     "published_utc": "2026-11-23T11:04:51Z",
+     "url": "https://thenextweb.com/news/tiktok-ai-checker-likeness-detection-global"
+    }
+   ],
+   "facts": [
+    {
+     "text": "TikTok is rolling out its Likeness Detection tool to creators worldwide, giving them a way to find AI-generated videos that use their face without consent.",
+     "article": 0
+    },
+    {
+     "text": "The checker sits in TikTok’s Transparency Centre and works without a TikTok account.",
+     "article": 0
+    },
+    {
+     "text": "TikTok stamps its AI content with C2PA Content Credentials, but those can be stripped when a clip is downloaded or edited.",
+     "article": 0
+    },
+    {
+     "text": "So the checker also hunts for VeraDura, TikTok’s own invisible watermark, which it says is far harder to remove.",
+     "article": 0
+    },
+    {
+     "text": "Likeness Detection has been in testing with US creators since July.",
+     "article": 0
+    },
+    {
+     "text": "The company says its systems have labelled over 5 billion AI-generated videos so far.",
+     "article": 0
+    },
+    {
+     "text": "A reworked Manage Topics setting lets people choose how much AI-generated content turns up in their For You feed.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Musk warns AI industry faces a funding gap of hundreds of billions of dollars in 2027 as data centers run late",
+   "region": "global (US)",
+   "first_published_utc": "2026-11-23T07:34:25Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Fits the AI-selloff theme of the morning Nasdaq bear-market post; Musk opinion on X, weak as a news pick.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "머스크, AI 업계 자금난 재차 경고...\"2027년 수천억달러 추가 필요\"",
+     "date": "2026-11-23",
+     "published_utc": "2026-11-23T07:34:25Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217699"
+    }
+   ],
+   "facts": [
+    {
+     "text": "일론 머스크 CEO가 AI 데이터센터의 가동 지연으로 내년 업계 전체에 수천억달러의 자금 부족이 발생할 수 있다고 경고했다.",
+     "article": 0
+    },
+    {
+     "text": "머스크는 지난 21일(현지시간) 반도체 기업들의 예상 수익 대비 낮은 주가 수준을 보여주는 X 게시물에 댓글을 달고 \"내년에는 현금 부족 문제가 엄청나게 심각해질 것\"이라고 밝혔다.",
+     "article": 0
+    },
+    {
+     "text": "데이터센터 가동이 몇 달씩 지연되면 그동안 부족한 현금을 메우는 데만 \"수천억달러의 추가 자금이 필요하다\"라며",
+     "article": 0
+    },
+    {
+     "text": "머스크는 지난달 25일에도 AI 데이터센터 기업들의 자금 조달 위기를 경고했다.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI's chief research officer Mark Chen says AGI is about 80% done and recursive self-improvement 25-50%",
+   "region": "global (US)",
+   "first_published_utc": "2026-11-23T08:35:00Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "OpenAI topics pending: Pachocki perplexity limit and 46% agents (both carried). Same theme cluster; pair risk.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "오픈AI 연구책임자 \"AGI 달성까지 80% 진전…RSI는 25~50% 수준\"",
+     "date": "2026-11-23",
+     "published_utc": "2026-11-23T08:35:00Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217703"
+    }
+   ],
+   "facts": [
+    {
+     "text": "오픈AI의 최고연구책임자(CRO)인 마크 첸이 AGI 달성까지 약 80% 진전했다고 평가했다.",
+     "article": 0
+    },
+    {
+     "text": "이는 공식적인 성능 평가가 아니라 현재 AI의 능력에 대한 개인적인 판단이다.",
+     "article": 0
+    },
+    {
+     "text": "첸 CRO는 지난 17일(현지시간) 앤드리슨 호로위츠가 공개한 팟캐스트 '워킹 시어리(Working Theory)'에서",
+     "article": 0
+    },
+    {
+     "text": "RSI는 25~50% 정도 진행됐다고 설명했다.",
+     "article": 0
+    },
+    {
+     "text": "\"우리는 현재 AI 연구 인턴을 만들어냈다고 생각한다\"",
+     "article": 0
+    },
+    {
+     "text": "새로운 연구 아이디어를 찾아내고 중요한 연구 방향을 결정하는 능력은 여전히 부족하다.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "OpenAI's chief scientist proposes an industry speed limit on AI measured by perplexity",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "OpenAI",
+     "title": "Perplexity and Intelligence",
+     "date": "2026-11-22",
+     "url": "https://openai.com/index/perplexity-and-intelligence/"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI's chief scientist has thoughts on how to limit AI development",
+     "date": "2026-11-22",
+     "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "In this post, I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
+     "article": 0
+    },
+    {
+     "text": "Perplexity measures how well a model predicts the next token on average; lower perplexity means better predictions.",
+     "article": 0
+    },
+    {
+     "text": "GPT‑4, at ~0.91, was proficient at utilizing chain-of-thought reasoning productively",
+     "article": 0
+    },
+    {
+     "text": "Now, as we have reached losses below 0.8, we have seen the emergence of transformative capabilities in fields like cybersecurity and mathematics.",
+     "article": 0
+    },
+    {
+     "text": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone",
+     "article": 0
+    },
+    {
+     "text": "Publishing our internal perplexity measurements took some consideration; it gives competitors a clearer picture of where we stand",
+     "article": 0
+    },
+    {
+     "text": "Pachocki’s post — described by Altman as “the most important thing OpenAI has published in a while”",
+     "article": 1
+    },
+    {
+     "text": "Anthropic CEO Dario Amodei then published a plan to “pace the frontier,” seemingly endorsed by OpenAI CEO Sam Altman and SpaceX CEO Elon Musk.",
+     "article": 1
+    },
+    {
+     "text": "Perplexity as a shared metric has challenges: Difficulty of comparison across labs.",
+     "article": 0
+    }
+   ],
+   "notes": "Original company post read in full. Also in Reuters (Technology) and AI타임스, ZDNet Korea feeds. Pairs with Hendrycks pause story; pick only one. Strong evening-agnostic global story, morning slot fine.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-22)"
+  },
+  {
+   "title": "Signal limits screenshots on Android and iOS to stop OS-level AI agents from reading chats",
+   "region": "global (US nonprofit app)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Signal appears in 2026-11-20 dutch-ai-glasses brief only in passing.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+     "date": "2026-11-21",
+     "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Signal announced Friday that it’s limiting users’ ability to take screenshots within the secure messaging app",
+     "article": 0
+    },
+    {
+     "text": "a response to what President Meredith Whittaker described as the “existential threat” of operating systems that integrate agentic AI.",
+     "article": 0
+    },
+    {
+     "text": "by giving AI agents the ability to “scan” the information on users’ screens, Windows, Android, and macOS/iOS “are undermining Signal’s ability to independently guarantee privacy.”",
+     "article": 0
+    },
+    {
+     "text": "your sensitive data is being captured, stored, and made accessible to whatever local database or remote server an OS-level AI agent is using at that moment",
+     "article": 0
+    },
+    {
+     "text": "Signal already sought to limit these risks by blocking screenshots of its Windows app by default. Now it’s adding similar restrictions in Android and iOS.",
+     "article": 0
+    },
+    {
+     "text": "users can disable this setting if they wish, which Whittaker said would “break our privacy guarantees.”",
+     "article": 0
+    },
+    {
+     "text": "She also admitted this is an “incomplete” solution",
+     "article": 0
+    }
+   ],
+   "notes": "Der Standard (Austria) also covers it (page paywalled/consent wall, only intro read). Good reader-impact and Europe-angle story.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-21)"
+  },
+  {
+   "title": "Anthropic mathematician claims Claude helped prove the Riemann hypothesis",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Anthropic IPO covered 2026-11-19 (anthropic-ant-debut); Riemann only mentioned in 11-22 briefs as a side note. Different angle but same company.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic researcher claims Riemann proof with Claude",
+     "date": "2026-11-22",
+     "url": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mmathematician at Anthropic says he has used the company’s Claude AI model to prove the Riemann hypothesis (Levent Alpöge, note on his website on Friday, Bloomberg reported).",
+     "article": 0
+    },
+    {
+     "text": "“I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis,” Alpöge wrote.",
+     "article": 0
+    },
+    {
+     "text": "The hypothesis, first proposed in 1859, concerns how prime numbers are spread out. It is one of the Clay Mathematics Institute’s seven Millennium Prize Problems, each of which carries a $1m prize.",
+     "article": 0
+    },
+    {
+     "text": "The code runs to about 17 million lines, Science reported. (proof released in Lean)",
+     "article": 0
+    },
+    {
+     "text": "Andrew Sutherland, a senior research scientist at MIT, told Bloomberg he had checked the code on his own computer.",
+     "article": 0
+    },
+    {
+     "text": "Kevin Buzzard, a professor at Imperial College London, said nobody yet understands what the proof shows, Al Jazeera reported. The proof has not been formally accepted.",
+     "article": 0
+    },
+    {
+     "text": "The claim came a day after the company’s record stock market debut.",
+     "article": 0
+    },
+    {
+     "text": "In September, OpenAI said its models had produced a solution to the Navier-Stokes problem.",
+     "article": 0
+    }
+   ],
+   "notes": "Secondhand (TNW citing Bloomberg, Science, SciAm, Al Jazeera). Must say 'claims'. Also covered by SCMP (200th birthday event in China, 16:01Z) and TechCrunch headline 'AI claimed a solution ... and a human did, too' - neither read. Carried over from 11-21/11-22 backlog as unverified; now has MIT check.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-22)"
+  },
+  {
+   "title": "Google retires the Nest app in January and the Google Assistant on speakers in August 2027, switching smart homes to Gemini",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Google integriert Nest-Geräte in Home-App und wechselt im Smart Home zu Gemini",
+     "date": "2026-11-23",
+     "url": "https://www.heise.de/news/Google-integriert-Nest-Geraete-in-Home-App-und-wechselt-im-Smart-Home-zu-Gemini-11533916.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Im August 2027 wird der Google Assistant für Lautsprecher und smarte Displays endgültig durch den Sprachassistenten Gemini for Home ersetzt.",
+     "article": 0
+    },
+    {
+     "text": "Bereits im Januar wird die Nest-App eingestellt. Alle bisherigen Nest-Geräte werden dann über Googles Home-App gesteuert.",
+     "article": 0
+    },
+    {
+     "text": "Wer seine Nest-Geräte noch damit bedient, muss bis zum 25. Januar 2027 auf Googles Home-App umsteigen",
+     "article": 0
+    },
+    {
+     "text": "Auf Mobilgeräten wurde der Google Assistant bereits im September endgültig abgeschaltet.",
+     "article": 0
+    },
+    {
+     "text": "Abonnements von Nest Aware wechseln Ende Januar ebenfalls automatisch – zu Google Home Premium.",
+     "article": 0
+    },
+    {
+     "text": "Zu den 20 unterstützten Ländern gehören auch Deutschland, Österreich und die Schweiz.",
+     "article": 0
+    },
+    {
+     "text": "Nutzer sollten lediglich individuelle Videoclips herunterladen, die mit der Nest-App möglicherweise gesichert wurden.",
+     "article": 0
+    }
+   ],
+   "notes": "Consumer-impact story, Europe angle (DACH supported). Single outlet reporting Google's support-blog announcement; Google's own post not read.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-23)"
+  },
+  {
+   "title": "OpenAI says its research agents now finish 46% of 2-4 hour research tasks alone",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Carried from 2026-11-22 runner-ups (#1). Related theme to perplexity story (both OpenAI) - choose one.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI research agents cost $2,400 a day per researcher, report says",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/openai-research-agents-46-percent-tasks-2400-a-day-jagged-frontier"
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenAI says its coding agents now complete 46% of research tasks that would take a person two to four hours, with no human help. In March the figure was 23%.",
+     "article": 0
+    },
+    {
+     "text": "The figures come from Research acceleration: The jagged frontier, a report OpenAI published on Wednesday.",
+     "article": 0
+    },
+    {
+     "text": "the median OpenAI researcher used about $2,400 of agent time a day in October. That is up 62% from $1,500 in September.",
+     "article": 0
+    },
+    {
+     "text": "agent use per researcher rose elevenfold, from 0.5 to 5.7 “agent workdays” a day.",
+     "article": 0
+    },
+    {
+     "text": "Agents succeeded alone 79% of the time when monitoring training runs ... They managed 25% when writing code for inference and serving systems",
+     "article": 0
+    },
+    {
+     "text": "OpenAI flags a caveat in its own numbers. As agents improved, researchers may have changed which tasks they handed over",
+     "article": 0
+    },
+    {
+     "text": "In a survey of 101 research staff ... The median answer was 40% of team headcount, or 30% of team compute.",
+     "article": 0
+    },
+    {
+     "text": "OpenAI says labs should be required to track and publicly report signs of recursive self-improvement",
+     "article": 0
+    }
+   ],
+   "notes": "Secondhand: OpenAI's own report was not read; TNW is the readable source. Cite as TNW reporting OpenAI's report.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-21)"
+  },
+  {
+   "title": "Dan Hendrycks calls for an indefinite pause on frontier AI training at DealBook; Neuralink co-founder says it would need a surveillance state",
+   "region": "global (US)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "DealBook AGI panel: Dan Hendrycks wants frontier AI training paused",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/dealbook-agi-panel-hendrycks-pause-frontier-ai-hodak-surveillance"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Dan Hendrycks used the DealBook Summit to call for an indefinite pause on frontier AI training runs. Max Hodak, on the same panel, said enforcing one would take a surveillance state.",
+     "article": 0
+    },
+    {
+     "text": "Hendrycks runs the Center for AI Safety",
+     "article": 0
+    },
+    {
+     "text": "Hodak co-founded Neuralink and now runs Science Corporation.",
+     "article": 0
+    },
+    {
+     "text": "“So now it’s, we’re going to need a more blunt intervention. That’s how it is,” Hendrycks said.",
+     "article": 0
+    },
+    {
+     "text": "He described an indefinite pause on the biggest training runs, with carve-outs for narrow models such as DeepMind’s AlphaFold and voice models. Labs could still sell inference",
+     "article": 0
+    },
+    {
+     "text": "“You’re setting up like an exhaustive surveillance state on the internet to enforce this,” Hodak said.",
+     "article": 0
+    },
+    {
+     "text": "Staniszewski agreed a pause could work with global alignment, but said whether anyone can get it “is the big question mark”.",
+     "article": 0
+    },
+    {
+     "text": "Hendrycks repeated the charges of the statement his group organised against the company [Anthropic]",
+     "article": 0
+    }
+   ],
+   "notes": "Panel happened Wednesday (18 Nov); TNW report 21 Nov, so a bit stale. Best used as context inside the OpenAI speed-limit story.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-21)"
+  },
+  {
+   "title": "Etsy will rewrite new AI-training terms after sellers close their shops",
+   "region": "global (US marketplace)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Carried from 2026-11-21 runner-ups (#9).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Etsy AI terms prompt sellers to close shops as Etsy promises a rewrite",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/etsy-ai-terms-sellers-close-shops-revise-policy"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Etsy says it will revise its new terms of use. Longtime sellers had begun closing their shops over a clause that lets it use their work to train AI.",
+     "article": 0
+    },
+    {
+     "text": "The new terms take effect on 16 December.",
+     "article": 0
+    },
+    {
+     "text": "Etsy and its “third party partners and vendors” may use sellers’ content to “develop, train, test and improve artificial intelligence and machine learning technologies.”",
+     "article": 0
+    },
+    {
+     "text": "The previous version had no clause about AI, the Times reported.",
+     "article": 0
+    },
+    {
+     "text": "Etsy will not “use your content to train A.I. models designed to copy your original work or replace your creativity,” Ossman wrote.",
+     "article": 0
+    },
+    {
+     "text": "In 2022, more than 20,000 sellers went on strike over a fee rise.",
+     "article": 0
+    },
+    {
+     "text": "Illustrator Aaron Millard said on Instagram he was deleting the shop he had run for nearly a decade. He wrote that sellers had no way to opt out.",
+     "article": 0
+    }
+   ],
+   "notes": "Secondhand (TNW citing New York Times). Revised wording not yet published.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-21)"
+  },
+  {
+   "title": "Korean companies and military tighten controls on AI smart glasses; lawmakers now propose rules against covert filming",
+   "region": "Korea",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "Repeat risk: 2026-11-20-dutch-ai-glasses-warning, 2026-11-16-korea-tax-exam-ai-cheating and 2026-11-22-korea-csat-minister-resigns cover the glasses/cheating theme. Only OK with a new angle (corporate and military security, new bill).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "Fear of wearable devices spreads beyond education sector",
+     "date": "2026-11-17",
+     "url": "https://www.koreatimes.co.kr/business/companies/20261117/fear-of-wearable-devices-spreads-beyond-education-sector"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Samsung Electronics requires camera-covering stickers on smart glasses brought onto its premises, while SK hynix, Hyundai Motor and LG Group have introduced restrictions or screening measures.",
+     "article": 0
+    },
+    {
+     "text": "The Defense Ministry’s directive took effect Nov. 1 and applies to military personnel and outside visitors.",
+     "article": 0
+    },
+    {
+     "text": "Hyundai Motor requires outside visitors to its Seoul headquarters, research centers and factories to declare and obtain approval for AI wearables.",
+     "article": 0
+    },
+    {
+     "text": "At military facilities without X-ray equipment, security personnel can inspect glasses for camera lenses, LEDs, charging contacts, control buttons and unusually thick frames.",
+     "article": 0
+    },
+    {
+     "text": "Unlike smartphones, which can be easily identified and restricted, smart glasses can look almost identical to conventional eyewear while continuously collecting images and audio.",
+     "article": 0
+    }
+   ],
+   "notes": "The 23 Nov Korea Times/AI타임스 bill story (covert-filming smart-glasses bill, indicator/notice duty) was in feeds but only a Google News redirect, not readable; this 17 Nov article is the readable original. Weak freshness.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-17)"
+  },
+  {
+   "title": "Anthropic's early backers Notable Capital, GIC and Baillie Gifford on their bets before the record IPO",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "Repeat risk: 2026-11-19-anthropic-ant-debut covers the IPO.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "On Wednesday, Anthropic raised $81.3 billion in the largest IPO in history, reaching a fully diluted valuation of about $1.5 trillion before its shares began trading the next day, a paper return of roughly 15 times.",
+     "article": 0
+    },
+    {
+     "text": "Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E ... at $61.5 billion",
+     "article": 0
+    },
+    {
+     "text": "GIC invested more than $4.5 billion in Anthropic, amassing a stake equal to about 1% of the company after its IPO",
+     "article": 0
+    },
+    {
+     "text": "Baillie Gifford went on to invest a total of $1.5 billion across three funding rounds",
+     "article": 0
+    },
+    {
+     "text": "found that developers were increasingly favoring Claude over ChatGPT, using Claude 70% of the time",
+     "article": 0
+    }
+   ],
+   "notes": "Same company/topic as 11-19 post; low priority. Reuters exclusive 'Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers' and ZDNet Korea ('don't hire OpenAI for 6 months') exist but were not readable.",
+   "carried_over": true,
+   "first_published_utc": "before 2026-11-23T04:45Z (morning candidate; article date 2026-11-23)"
+  }
+ ]
+}
