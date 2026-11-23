@@ -1,0 +1,490 @@
+{
+ "date": "2026-11-23",
+ "run": "morning",
+ "stories": [
+  {
+   "title": "OpenAI's chief scientist proposes an industry speed limit on AI measured by perplexity",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "OpenAI",
+     "title": "Perplexity and Intelligence",
+     "date": "2026-11-22",
+     "url": "https://openai.com/index/perplexity-and-intelligence/"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "OpenAI's chief scientist has thoughts on how to limit AI development",
+     "date": "2026-11-22",
+     "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "In this post, I argue for establishing perplexity (or, equivalently, cross-entropy loss) as a metric to compare between model developers and inform shared safety standards.",
+     "article": 0
+    },
+    {
+     "text": "Perplexity measures how well a model predicts the next token on average; lower perplexity means better predictions.",
+     "article": 0
+    },
+    {
+     "text": "GPT‑4, at ~0.91, was proficient at utilizing chain-of-thought reasoning productively",
+     "article": 0
+    },
+    {
+     "text": "Now, as we have reached losses below 0.8, we have seen the emergence of transformative capabilities in fields like cybersecurity and mathematics.",
+     "article": 0
+    },
+    {
+     "text": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone",
+     "article": 0
+    },
+    {
+     "text": "Publishing our internal perplexity measurements took some consideration; it gives competitors a clearer picture of where we stand",
+     "article": 0
+    },
+    {
+     "text": "Pachocki’s post — described by Altman as “the most important thing OpenAI has published in a while”",
+     "article": 1
+    },
+    {
+     "text": "Anthropic CEO Dario Amodei then published a plan to “pace the frontier,” seemingly endorsed by OpenAI CEO Sam Altman and SpaceX CEO Elon Musk.",
+     "article": 1
+    },
+    {
+     "text": "Perplexity as a shared metric has challenges: Difficulty of comparison across labs.",
+     "article": 0
+    }
+   ],
+   "notes": "Original company post read in full. Also in Reuters (Technology) and AI타임스, ZDNet Korea feeds. Pairs with Hendrycks pause story; pick only one. Strong evening-agnostic global story, morning slot fine."
+  },
+  {
+   "title": "Nasdaq 100 falls into a bear market as Nvidia scandals and an SEC probe hit AI stocks",
+   "region": "global (US/Taiwan markets)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Nvidia Q3 post 2026-11-18 (nvidia-q3-china-exit) is a different angle; Huang affair appears in 11-16 briefs only in passing.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Nvidia gerät weiter unter Druck – und US-Tech-Aktien in den Bärenmarkt",
+     "date": "2026-11-22",
+     "url": "https://www.heise.de/news/Nvidia-geraet-weiter-unter-Druck-und-US-Tech-Aktien-in-den-Baerenmarkt-11533802.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Der technologielastige Börsenindex Nasdaq 100 verlor im Wochenverlauf 10,4 Prozent seiner Punkte, der breiter aufgestellte S&P 500 kam mit 8,6 Prozent Wochenminus nicht viel besser weg.",
+     "article": 0
+    },
+    {
+     "text": "Der Nasdaq 100 schloss den Tag mit einem Minus von 5,61 Prozent ab, der S&P 500 ging mit 3,70 Prozent Tagesverlust ins Wochenende. (Friday 20 November)",
+     "article": 0
+    },
+    {
+     "text": "Das ... ließ die Nvidia-Aktie diesen Monat um 39 Prozent absacken.",
+     "article": 0
+    },
+    {
+     "text": "Wie die Nachrichtenagentur Reuters am Freitag berichtete, ermitteln die US-Börsenaufseher bei Nvidia. ... Nach dem Bekanntwerden schloss die Aktie am Freitag mit 14 Prozent im Minus.",
+     "article": 0
+    },
+    {
+     "text": "Taiex, der Börsenindex für Unternehmen, die an der taiwanesischen Börse gehandelt werden, verlor diese Woche 17,5 Prozent.",
+     "article": 0
+    },
+    {
+     "text": "Bloomberg und Financial Times sprechen in Bezug auf den Nasdaq 100 inzwischen von einem Bärenmarkt – als Beleg sehen sie den Kursverlust von 20 Prozent seit dem jüngsten Hoch im Oktober.",
+     "article": 0
+    },
+    {
+     "text": "Eine Ermittlung allein ist noch kein Indikator für Fehlverhalten. (what exactly is investigated was not disclosed; Nvidia declined to comment)",
+     "article": 0
+    },
+    {
+     "text": "Statt der großen KI-Euphorie ... steht nun die Frage im Raum, ob KI-Hersteller zu viel Geld ausgeben und leihen, um am Ende noch profitabel zu sein.",
+     "article": 0
+    }
+   ],
+   "notes": "German original, facts are German text (translate on writing). Reuters headlines (US futures bounce as AI rout rattles Asian stocks; KOSPI drops 5%; Seoul shares open 2% lower amid AI fears via Yonhap/Korea Herald) confirm the same story from Asia but Reuters/Yonhap pages were not readable. Careful: investigation is not proof of wrongdoing; Huang affair details are allegations."
+  },
+  {
+   "title": "Signal limits screenshots on Android and iOS to stop OS-level AI agents from reading chats",
+   "region": "global (US nonprofit app)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Signal appears in 2026-11-20 dutch-ai-glasses brief only in passing.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+     "date": "2026-11-21",
+     "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Signal announced Friday that it’s limiting users’ ability to take screenshots within the secure messaging app",
+     "article": 0
+    },
+    {
+     "text": "a response to what President Meredith Whittaker described as the “existential threat” of operating systems that integrate agentic AI.",
+     "article": 0
+    },
+    {
+     "text": "by giving AI agents the ability to “scan” the information on users’ screens, Windows, Android, and macOS/iOS “are undermining Signal’s ability to independently guarantee privacy.”",
+     "article": 0
+    },
+    {
+     "text": "your sensitive data is being captured, stored, and made accessible to whatever local database or remote server an OS-level AI agent is using at that moment",
+     "article": 0
+    },
+    {
+     "text": "Signal already sought to limit these risks by blocking screenshots of its Windows app by default. Now it’s adding similar restrictions in Android and iOS.",
+     "article": 0
+    },
+    {
+     "text": "users can disable this setting if they wish, which Whittaker said would “break our privacy guarantees.”",
+     "article": 0
+    },
+    {
+     "text": "She also admitted this is an “incomplete” solution",
+     "article": 0
+    }
+   ],
+   "notes": "Der Standard (Austria) also covers it (page paywalled/consent wall, only intro read). Good reader-impact and Europe-angle story."
+  },
+  {
+   "title": "Anthropic mathematician claims Claude helped prove the Riemann hypothesis",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Anthropic IPO covered 2026-11-19 (anthropic-ant-debut); Riemann only mentioned in 11-22 briefs as a side note. Different angle but same company.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic researcher claims Riemann proof with Claude",
+     "date": "2026-11-22",
+     "url": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Mmathematician at Anthropic says he has used the company’s Claude AI model to prove the Riemann hypothesis (Levent Alpöge, note on his website on Friday, Bloomberg reported).",
+     "article": 0
+    },
+    {
+     "text": "“I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis,” Alpöge wrote.",
+     "article": 0
+    },
+    {
+     "text": "The hypothesis, first proposed in 1859, concerns how prime numbers are spread out. It is one of the Clay Mathematics Institute’s seven Millennium Prize Problems, each of which carries a $1m prize.",
+     "article": 0
+    },
+    {
+     "text": "The code runs to about 17 million lines, Science reported. (proof released in Lean)",
+     "article": 0
+    },
+    {
+     "text": "Andrew Sutherland, a senior research scientist at MIT, told Bloomberg he had checked the code on his own computer.",
+     "article": 0
+    },
+    {
+     "text": "Kevin Buzzard, a professor at Imperial College London, said nobody yet understands what the proof shows, Al Jazeera reported. The proof has not been formally accepted.",
+     "article": 0
+    },
+    {
+     "text": "The claim came a day after the company’s record stock market debut.",
+     "article": 0
+    },
+    {
+     "text": "In September, OpenAI said its models had produced a solution to the Navier-Stokes problem.",
+     "article": 0
+    }
+   ],
+   "notes": "Secondhand (TNW citing Bloomberg, Science, SciAm, Al Jazeera). Must say 'claims'. Also covered by SCMP (200th birthday event in China, 16:01Z) and TechCrunch headline 'AI claimed a solution ... and a human did, too' - neither read. Carried over from 11-21/11-22 backlog as unverified; now has MIT check."
+  },
+  {
+   "title": "Google retires the Nest app in January and the Google Assistant on speakers in August 2027, switching smart homes to Gemini",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Google integriert Nest-Geräte in Home-App und wechselt im Smart Home zu Gemini",
+     "date": "2026-11-23",
+     "url": "https://www.heise.de/news/Google-integriert-Nest-Geraete-in-Home-App-und-wechselt-im-Smart-Home-zu-Gemini-11533916.html"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Im August 2027 wird der Google Assistant für Lautsprecher und smarte Displays endgültig durch den Sprachassistenten Gemini for Home ersetzt.",
+     "article": 0
+    },
+    {
+     "text": "Bereits im Januar wird die Nest-App eingestellt. Alle bisherigen Nest-Geräte werden dann über Googles Home-App gesteuert.",
+     "article": 0
+    },
+    {
+     "text": "Wer seine Nest-Geräte noch damit bedient, muss bis zum 25. Januar 2027 auf Googles Home-App umsteigen",
+     "article": 0
+    },
+    {
+     "text": "Auf Mobilgeräten wurde der Google Assistant bereits im September endgültig abgeschaltet.",
+     "article": 0
+    },
+    {
+     "text": "Abonnements von Nest Aware wechseln Ende Januar ebenfalls automatisch – zu Google Home Premium.",
+     "article": 0
+    },
+    {
+     "text": "Zu den 20 unterstützten Ländern gehören auch Deutschland, Österreich und die Schweiz.",
+     "article": 0
+    },
+    {
+     "text": "Nutzer sollten lediglich individuelle Videoclips herunterladen, die mit der Nest-App möglicherweise gesichert wurden.",
+     "article": 0
+    }
+   ],
+   "notes": "Consumer-impact story, Europe angle (DACH supported). Single outlet reporting Google's support-blog announcement; Google's own post not read."
+  },
+  {
+   "title": "OpenAI says its research agents now finish 46% of 2-4 hour research tasks alone",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Carried from 2026-11-22 runner-ups (#1). Related theme to perplexity story (both OpenAI) - choose one.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI research agents cost $2,400 a day per researcher, report says",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/openai-research-agents-46-percent-tasks-2400-a-day-jagged-frontier"
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenAI says its coding agents now complete 46% of research tasks that would take a person two to four hours, with no human help. In March the figure was 23%.",
+     "article": 0
+    },
+    {
+     "text": "The figures come from Research acceleration: The jagged frontier, a report OpenAI published on Wednesday.",
+     "article": 0
+    },
+    {
+     "text": "the median OpenAI researcher used about $2,400 of agent time a day in October. That is up 62% from $1,500 in September.",
+     "article": 0
+    },
+    {
+     "text": "agent use per researcher rose elevenfold, from 0.5 to 5.7 “agent workdays” a day.",
+     "article": 0
+    },
+    {
+     "text": "Agents succeeded alone 79% of the time when monitoring training runs ... They managed 25% when writing code for inference and serving systems",
+     "article": 0
+    },
+    {
+     "text": "OpenAI flags a caveat in its own numbers. As agents improved, researchers may have changed which tasks they handed over",
+     "article": 0
+    },
+    {
+     "text": "In a survey of 101 research staff ... The median answer was 40% of team headcount, or 30% of team compute.",
+     "article": 0
+    },
+    {
+     "text": "OpenAI says labs should be required to track and publicly report signs of recursive self-improvement",
+     "article": 0
+    }
+   ],
+   "notes": "Secondhand: OpenAI's own report was not read; TNW is the readable source. Cite as TNW reporting OpenAI's report."
+  },
+  {
+   "title": "Dan Hendrycks calls for an indefinite pause on frontier AI training at DealBook; Neuralink co-founder says it would need a surveillance state",
+   "region": "global (US)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "DealBook AGI panel: Dan Hendrycks wants frontier AI training paused",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/dealbook-agi-panel-hendrycks-pause-frontier-ai-hodak-surveillance"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Dan Hendrycks used the DealBook Summit to call for an indefinite pause on frontier AI training runs. Max Hodak, on the same panel, said enforcing one would take a surveillance state.",
+     "article": 0
+    },
+    {
+     "text": "Hendrycks runs the Center for AI Safety",
+     "article": 0
+    },
+    {
+     "text": "Hodak co-founded Neuralink and now runs Science Corporation.",
+     "article": 0
+    },
+    {
+     "text": "“So now it’s, we’re going to need a more blunt intervention. That’s how it is,” Hendrycks said.",
+     "article": 0
+    },
+    {
+     "text": "He described an indefinite pause on the biggest training runs, with carve-outs for narrow models such as DeepMind’s AlphaFold and voice models. Labs could still sell inference",
+     "article": 0
+    },
+    {
+     "text": "“You’re setting up like an exhaustive surveillance state on the internet to enforce this,” Hodak said.",
+     "article": 0
+    },
+    {
+     "text": "Staniszewski agreed a pause could work with global alignment, but said whether anyone can get it “is the big question mark”.",
+     "article": 0
+    },
+    {
+     "text": "Hendrycks repeated the charges of the statement his group organised against the company [Anthropic]",
+     "article": 0
+    }
+   ],
+   "notes": "Panel happened Wednesday (18 Nov); TNW report 21 Nov, so a bit stale. Best used as context inside the OpenAI speed-limit story."
+  },
+  {
+   "title": "Etsy will rewrite new AI-training terms after sellers close their shops",
+   "region": "global (US marketplace)",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Carried from 2026-11-21 runner-ups (#9).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Etsy AI terms prompt sellers to close shops as Etsy promises a rewrite",
+     "date": "2026-11-21",
+     "url": "https://thenextweb.com/news/etsy-ai-terms-sellers-close-shops-revise-policy"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Etsy says it will revise its new terms of use. Longtime sellers had begun closing their shops over a clause that lets it use their work to train AI.",
+     "article": 0
+    },
+    {
+     "text": "The new terms take effect on 16 December.",
+     "article": 0
+    },
+    {
+     "text": "Etsy and its “third party partners and vendors” may use sellers’ content to “develop, train, test and improve artificial intelligence and machine learning technologies.”",
+     "article": 0
+    },
+    {
+     "text": "The previous version had no clause about AI, the Times reported.",
+     "article": 0
+    },
+    {
+     "text": "Etsy will not “use your content to train A.I. models designed to copy your original work or replace your creativity,” Ossman wrote.",
+     "article": 0
+    },
+    {
+     "text": "In 2022, more than 20,000 sellers went on strike over a fee rise.",
+     "article": 0
+    },
+    {
+     "text": "Illustrator Aaron Millard said on Instagram he was deleting the shop he had run for nearly a decade. He wrote that sellers had no way to opt out.",
+     "article": 0
+    }
+   ],
+   "notes": "Secondhand (TNW citing New York Times). Revised wording not yet published."
+  },
+  {
+   "title": "Korean companies and military tighten controls on AI smart glasses; lawmakers now propose rules against covert filming",
+   "region": "Korea",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "Repeat risk: 2026-11-20-dutch-ai-glasses-warning, 2026-11-16-korea-tax-exam-ai-cheating and 2026-11-22-korea-csat-minister-resigns cover the glasses/cheating theme. Only OK with a new angle (corporate and military security, new bill).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Korea Times",
+     "title": "Fear of wearable devices spreads beyond education sector",
+     "date": "2026-11-17",
+     "url": "https://www.koreatimes.co.kr/business/companies/20261117/fear-of-wearable-devices-spreads-beyond-education-sector"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Samsung Electronics requires camera-covering stickers on smart glasses brought onto its premises, while SK hynix, Hyundai Motor and LG Group have introduced restrictions or screening measures.",
+     "article": 0
+    },
+    {
+     "text": "The Defense Ministry’s directive took effect Nov. 1 and applies to military personnel and outside visitors.",
+     "article": 0
+    },
+    {
+     "text": "Hyundai Motor requires outside visitors to its Seoul headquarters, research centers and factories to declare and obtain approval for AI wearables.",
+     "article": 0
+    },
+    {
+     "text": "At military facilities without X-ray equipment, security personnel can inspect glasses for camera lenses, LEDs, charging contacts, control buttons and unusually thick frames.",
+     "article": 0
+    },
+    {
+     "text": "Unlike smartphones, which can be easily identified and restricted, smart glasses can look almost identical to conventional eyewear while continuously collecting images and audio.",
+     "article": 0
+    }
+   ],
+   "notes": "The 23 Nov Korea Times/AI타임스 bill story (covert-filming smart-glasses bill, indicator/notice duty) was in feeds but only a Google News redirect, not readable; this 17 Nov article is the readable original. Weak freshness."
+  },
+  {
+   "title": "Anthropic's early backers Notable Capital, GIC and Baillie Gifford on their bets before the record IPO",
+   "region": "global (US company)",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "Repeat risk: 2026-11-19-anthropic-ant-debut covers the IPO.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "On Wednesday, Anthropic raised $81.3 billion in the largest IPO in history, reaching a fully diluted valuation of about $1.5 trillion before its shares began trading the next day, a paper return of roughly 15 times.",
+     "article": 0
+    },
+    {
+     "text": "Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E ... at $61.5 billion",
+     "article": 0
+    },
+    {
+     "text": "GIC invested more than $4.5 billion in Anthropic, amassing a stake equal to about 1% of the company after its IPO",
+     "article": 0
+    },
+    {
+     "text": "Baillie Gifford went on to invest a total of $1.5 billion across three funding rounds",
+     "article": 0
+    },
+    {
+     "text": "found that developers were increasingly favoring Claude over ChatGPT, using Claude 70% of the time",
+     "article": 0
+    }
+   ],
+   "notes": "Same company/topic as 11-19 post; low priority. Reuters exclusive 'Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers' and ZDNet Korea ('don't hire OpenAI for 6 months') exist but were not readable."
+  }
+ ],
+ "dropped_unreadable": [
+  "German army tests kamikaze drones and AI targeting in Lithuania (Reuters, page not readable; search shows tests in Ohrdruf, Germany; overlaps 11-21 killer robots and 11-22 ICAID posts; ai.trend.kr 4.1x post on US Army AI drones is the same theme)",
+  "Reuters: Nvidia chips to China, Bessent seeks answers",
+  "Reuters: Alice Huang / Chinese spy agency (NYT)",
+  "Thinking Machines Inkling 2 Mini (VentureBeat, unreadable redirect; search found nothing)",
+  "Tencent Hy4 safety assessments (SCMP, not readable; search says assessments are Tencent's own)",
+  "Binding of Isaac AI music removed (Verge 403)",
+  "Amazon-Decartes AI chip $7.5bn (Digital Times, secondhand Korean, redirect)"
+ ],
+ "reference_summary": "Reference accounts all ok (10/10). Only 3x+ posts: ai.trend.kr AI mole short film reel 13.8x (not news), ai.trend.kr weekly roundup 4.1x (US Army AI drones in Germany, Nvidia Huang petition), moodmode.ai ad 4.5x, prompt_what snow-on-Mac tutorial 7.2x (tool tutorial, not news). No reference post overlaps the stories above directly except the drones theme."
+}
