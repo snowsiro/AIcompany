@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-24
+처리 2건 (ready 1, blocked 1) · 실패 0건
+결정할 일
+1. 커버 이미지 필요: 오늘 크레딧 6/6 소진(아침 4 + 저녁 2)이라 `2026-11-24-nvidia-huang-ceo-reinstated`는 폴백 배경으로 렌더함(`cover.image_url` 비어 있음). 이미지를 넣으려면 사람이 확인 필요
+2. 1순위 `2026-11-24-meta-muse-uk-fca`(EUROPE AI · POLICY, 점수 8, TNW 단일 출처)는 fact-check 2라운드 불합격으로 `blocked`. 1차: 앱 차트 순위("first and second"), "rules"→"expectations", 슬라이드 제목 과장, "timing only" 근거 없음. 2차: 고친 "FCA statement does not name Meta"가 TNW 기사에 없어 미확인(FCA 원문 미열람). 그 문장만 빼거나 FCA 원문을 읽고 확인하면 살릴 수 있음. 커버는 Higgsfield 2크레딧 생성했으나 유리문에 "C" 글자가 보여 폐기(`posts/2026-11-24-meta-muse-uk-fca/rejected/`), 재생성은 한도 초과라 안 함
+3. 대체 게시물: Nvidia 이사회가 젠슨 황을 CEO로 복귀 (US AI · INDUSTRY, 점수 8 = 참고계정 3 + 글로벌 3 + 숫자 2, 신선도 0). 소스 Nvidia Newsroom 단일(원문 기사 본문 확인), 전부 "Nvidia says/the Board said"로 귀속, 외국 정보기관 건은 "reporting that"으로만 표기. 첫 게시 2026-11-23(어제), 신규 아님·넘어온 글. 아침 DeepMind와 다른 회사·매체. 검수: fact 1차 불합격(threads 문구가 원문보다 넓음, 날짜 미확인) 후 2차 통과(날짜는 원 페이지 HTML에서 확인), hook 7/10 통과, brand 통과(캡션 질문을 중립으로 수정)
+4. 오늘 Nvidia·Megaspeed 글이 둘 다 나왔으나 Megaspeed는 아침에 blocked라 게시되지 않음. 최근 14일 내 Nvidia 글 있음(11-18, 11-23)이라 엄격히 보면 중복 각도 감점 대상 — 편집장이 다른 각도로 판단
+5. 신규 기사 거의 없음: 미국 오후 발표가 피드에 안 잡힘(Verge·TechCrunch·기업 뉴스룸 04:45Z 이후 빈 응답). 읽기 불가: Ars·Yonhap 403, Reuters 리다이렉트, TechCrunch 본문, Der Standard 동의창
+6. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 로 실행
+자세한 기록
+- 후보 신규 1 + 넘어온 5, 1순위 meta-muse(blocked, 점수 8) → 재시도 nvidia-huang(ready, 점수 8)
+- Nvidia 글 첫 게시 2026-11-23(Vienna 시각 미상), ready 시점(약 19:30 Vienna)에는 약 1일 경과
+- 머지: PR render 체크 후 원문 재확인해 머지
+
 ## [아침 보고] 2026-11-24
 처리 2건 (ready 1, blocked 1) · 실패 0건
 성과: 어제(11-23) 도달 9 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)
