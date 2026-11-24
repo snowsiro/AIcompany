@@ -2,7 +2,7 @@
   "id": "2026-11-24-deepmind-quantum-agents",
   "date": "2026-11-24",
   "category": "RESEARCH",
-  "status": "ready",
+  "status": "published",
   "korean_refs": [],
   "cover": {
     "tag": "GLOBAL AI · RESEARCH",
@@ -136,5 +136,9 @@
     "#QuantumComputing",
     "#Gemini"
   ],
-  "threads_caption": "Google DeepMind's Gemini 4 agents cut the computing cost of a quantum fusion circuit by 11.8x, and every result was proved in Lean. Catch: running these in scientific simulations would still need more resources than the first error-corrected quantum computers are likely to provide.\n\nSource: Google DeepMind, \"Finding faster quantum algorithms with agents and formal verification\". #DeepMind"
+  "threads_caption": "Google DeepMind's Gemini 4 agents cut the computing cost of a quantum fusion circuit by 11.8x, and every result was proved in Lean. Catch: running these in scientific simulations would still need more resources than the first error-corrected quantum computers are likely to provide.\n\nSource: Google DeepMind, \"Finding faster quantum algorithms with agents and formal verification\". #DeepMind",
+  "published_id": "18346404667258727",
+  "permalink": "https://www.instagram.com/p/DgIApXhl2xL/",
+  "threads_id": "18123649501755462",
+  "threads_permalink": "https://www.threads.com/@ai.news.company/post/DgIAup-EW9g"
 }
