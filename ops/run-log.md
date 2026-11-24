@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-24
+처리 2건 (ready 1, blocked 1) · 실패 0건
+성과: 어제(11-23) 도달 9 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)
+결정할 일
+1. 차별점 없는 날: Asia/Europe 1순위(`2026-11-24-megaspeed-embargo`, ASIA AI · POLICY, 점수 8)가 fact-check 3라운드 모두 불합격해 `blocked`. 1차: 슬라이드 6의 "Embargo vs Entity List" 대비가 근거 없음. 2차: TechCrunch 본문을 읽을 수 없어(article.mjs가 내비게이션만 반환) TechCrunch 단독 주장 미확인. 3차: TechCrunch 제거 후 Nvidia 날짜(23 Nov)가 article 텍스트에 없다는 지적과 heise "certain US technology" 생략(원 페이지 HTML에는 "November 23, 2026" 있음, 2차 검수자가 확인). 파일 보존, 고치면 살릴 수 있는 글이라 필요하면 날짜 삭제·"certain" 복원만 하면 됨. 게시하려면 사람이 확인 필요
+2. 대체 게시물: `2026-11-24-deepmind-quantum-agents` (GLOBAL AI · RESEARCH, 점수 5 = 글로벌 3 + 숫자 2, 소스 Google DeepMind 블로그 단일). 검수: fact 1차 불합격(슬라이드 6 "not yet usable" 과장, "likely" 누락) 후 2차 통과, hook 7/10 통과, brand 통과. 독자 영향 훅은 기사에 근거 없어 만들지 않음
+3. 커버: Higgsfield cinematic_studio_2_5 2장, 4크레딧 (오늘 합계 4/6: 메가스피드 2 + 딥마인드 2, 재생성 없음). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성. 메가스피드 글 커버는 blocked 글에 남아 있음
+4. 인스타 토큰 없음: 참고 계정은 morning-scan의 reference.json만 읽음. 3x 이상 신호는 Nvidia CEO 복귀(ai.trend.kr 4.7x)뿐이며 Nvidia라 아침 후보 아님
+5. 예비: `posts/_backlog/2026-11-24-runner-ups.md` (Nvidia CEO 복귀 11점, Sierra $30B 약 8점 — 저녁 1순위지만 TechCrunch 단독이라 본문을 읽을 수 없으면 fact-check 실패 가능, Amazon-Decart, GPT-6.2 Sol 등). 읽기 불가: Ars·Sifted·Yonhap·Verge 403, TechCrunch 본문(article.mjs), Euractiv·Meta AI 피드 실패
+6. 아침 스캔이 main에 없어 morning-scan을 직접 실행, 약 2분 내 도착. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 로 실행
+자세한 기록
+- 후보 7개 수집, 1순위 megaspeed(blocked) → 2순위 deepmind(ready), 넘어온 ready 글 없음
+- 화요일이라 주간 모음 없음
+
 ## [저녁 보고] 2026-11-23
 처리 1건 (ready 1) · 실패 0건
 결정할 일

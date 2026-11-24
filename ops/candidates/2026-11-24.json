@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-24",
+ "run": "morning",
+ "stories": [
+  {
+   "title": "Nvidia reinstates Jensen Huang as CEO 11 days after he left",
+   "repeat_of": null,
+   "note": "Biggest story of the day; ai.trend.kr 4.7x (ai.trend.kr also ran 4.7x on 11-22 Huang petition). Korea angle: SK hynix US shares +20% (Yonhap, 403 to fetch, not usable). Nvidia-related posts in last 14 days: 2026-11-18-nvidia-q3-china-exit, 2026-11-23-nasdaq-bear-market (different angle).",
+   "reference_posts": [
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/reel/DgGQ1dtTjSG/",
+     "multiple": 4.7
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "Nvidia Newsroom",
+     "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+     "date": "2026-11-23",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The NVIDIA Board of Directors voted unanimously to reinstate Mr. Huang as President and Chief Executive Officer and as a member of the Board, effective immediately."
+    },
+    {
+     "article": 0,
+     "fact": "In the process of reaching its decision, the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk."
+    },
+    {
+     "article": 0,
+     "fact": "Harvey Jones will remain as Board chair; the Board is grateful to Colette Kress for her service as interim CEO, in addition to her continuing responsibilities as NVIDIA’s Chief Financial Officer."
+    },
+    {
+     "article": 0,
+     "fact": "The Board formed a committee comprised solely of independent directors to investigate reporting that Mr. Huang has been the target of a foreign intelligence effort; the investigation will proceed to conclusion and Mr. Huang is committed to cooperating."
+    },
+    {
+     "article": 0,
+     "fact": "The Board also formed a National Security and Export Control Committee of independent directors, and NVIDIA is commencing a search to fill a new position, Chief Compliance Officer."
+    },
+    {
+     "article": 1,
+     "fact": "After lobbying from President Trump, Jensen Huang was reinstated as Nvidia CEO on Monday after a short period in which he was ousted by the company’s board."
+    },
+    {
+     "article": 1,
+     "fact": "Megaspeed, which Alice Huang led for over two years, will be added to the Commerce Department’s Entity List, Semafor reported; U.S. companies could not sell to it without a special license."
+    },
+    {
+     "article": 1,
+     "fact": "Megaspeed is a Singapore-based cloud and AI infrastructure provider and was one of Nvidia’s biggest chip customers; the Commerce Department launched a criminal probe last week; the company denies wrongdoing."
+    }
+   ]
+  },
+  {
+   "title": "US trade embargo on Megaspeed network and Alibaba unit Apex (Nvidia chip smuggling to China)",
+   "repeat_of": null,
+   "note": "Same cluster as Huang return; use as follow-up or Europe angle (heise). Embargo detail from heise only; TechCrunch says Entity List per Semafor.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Nvidia-Affaere: USA verhaengen Handelsverbot ueber Megaspeed",
+     "date": "2026-11-24",
+     "url": "https://www.heise.de/news/Nvidia-Affaere-USA-verhaengen-Handelsverbot-ueber-Megaspeed-11535434.html"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Megaspeed ... appears headed for a US blacklist",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "From Wednesday a complete US trade embargo applies to seven companies in Singapore, Thailand and Malaysia (German: Ab Mittwoch greift ein komplettes US-Handelsembargo gegen sieben Unternehmen)."
+    },
+    {
+     "article": 0,
+     "fact": "Six of the companies form the Megaspeed network; the seventh is Apex Enterprise Solutions, a subsidiary of China’s Alibaba group, said to have provided the billions of dollars Megaspeed used to buy Nvidia chips from June 2024."
+    },
+    {
+     "article": 0,
+     "fact": "Nvidia stopped selling export-restricted chips to Megaspeed in June 2025; Alice Huang left the company in late August 2025 according to the company."
+    },
+    {
+     "article": 0,
+     "fact": "The US Justice Department is probing whether Megaspeed also helped smuggle AI chips to China; Megaspeed says it started an internal investigation."
+    },
+    {
+     "article": 1,
+     "fact": "Authorities in both the U.S. and Singapore are probing whether the company defied export restrictions and illegally smuggled Nvidia chips to China. The company has denied wrongdoing."
+    }
+   ]
+  },
+  {
+   "title": "Amazon buys Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "repeat_of": null,
+   "note": "US/Israel. Price per Bloomberg via TechCrunch. Amazon blog post not fetched. Reference accounts 0.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Amazon has agreed to acquire a good chunk of Israeli startup Decart, paying $7.5 billion according to Bloomberg."
+    },
+    {
+     "article": 0,
+     "fact": "Decart builds interactive real-time world models, most recently Oasis 3, and AI video-generation tools."
+    },
+    {
+     "article": 0,
+     "fact": "Decart Optimization Stack (DOS) is software that helps AI models run efficiently on Nvidia, Amazon, and Google’s hardware."
+    },
+    {
+     "article": 0,
+     "fact": "Amazon will acquire the technology behind DOS, plus Decart’s founding team and its team of AI researchers and engineers, Amazon said in a blog post."
+    },
+    {
+     "article": 0,
+     "fact": "Amazon has so far used its Trainium chips at its own data centers and is preparing to start selling them to customers as a competitor to Nvidia."
+    },
+    {
+     "article": 0,
+     "fact": "Peter DeSantis, Amazon SVP: “Every leap forward in AI starts with getting more out of every chip.”"
+    }
+   ]
+  },
+  {
+   "title": "Anthropic launches Claude Ship: AI agents that review, fix and approve code changes",
+   "repeat_of": null,
+   "note": "Anthropic was in 11-19 post (anthropic-ant-debut), 5 days ago; different topic. Verge also covered (403 not fetched). Anthropic blog not fetched.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "On Monday, the newly public AI company announced Claude Ship, a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes."
+    },
+    {
+     "article": 0,
+     "fact": "It includes an agent that can approve code changes automatically based on policies set by a development team."
+    },
+    {
+     "article": 0,
+     "fact": "Claude Ship consists of Code Review, already generally available, and two new beta agents: PR Steward and Claude Approvals."
+    },
+    {
+     "article": 0,
+     "fact": "PR Steward addresses failing CI checks, merge conflicts, and Code Review feedback, and comments after every push on what it changed and how to roll it back."
+    },
+    {
+     "article": 0,
+     "fact": "Claude Approvals applies an approval policy that the team writes as a file in the repository, in natural language."
+    },
+    {
+     "article": 0,
+     "fact": "Anthropic suggests running the approval functionality in observe-only mode first; teams can start with one repository and set monthly spending limits."
+    },
+    {
+     "article": 0,
+     "fact": "Claude Ship is rolling out to Claude Team and Enterprise plans for repositories on GitHub."
+    },
+    {
+     "article": 0,
+     "fact": "Company blog post: “On the Claude Code team, Claude writes most of our code, and we wanted everything after the PR to move that fast too.”"
+    }
+   ]
+  },
+  {
+   "title": "Google expands Personal Intelligence in AI Mode to Drive, Wallet and the Gemini app",
+   "repeat_of": null,
+   "note": "Google blog (blog.google) listed in feed but not fetched; TNW also covers. Opt-in privacy angle.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Google announced on Monday it is expanding Personal Intelligence in Search’s AI Mode with integrations for Google Drive, Google Wallet, and the Gemini app."
+    },
+    {
+     "article": 0,
+     "fact": "The feature can already connect to apps like Gmail, Google Calendar, and Google Photos."
+    },
+    {
+     "article": 0,
+     "fact": "Connecting the apps is optional, and you can turn Personal Intelligence on or off at any time."
+    },
+    {
+     "article": 0,
+     "fact": "If users connect Wallet, AI Mode can only read information from accounts and isn’t able to move or manage their money."
+    },
+    {
+     "article": 0,
+     "fact": "Wallet connection lets users track financial goals, cut everyday spending, and make better use of credit card rewards."
+    },
+    {
+     "article": 0,
+     "fact": "Drive connection lets AI draw on scattered files for answers such as a tailored plan for tax season."
+    },
+    {
+     "article": 0,
+     "fact": "Context can be shared between the Gemini app and AI Mode in Search; a new “Personalization” icon below responses will soon show the context used."
+    }
+   ]
+  },
+  {
+   "title": "Sierra raises $1.75B at $30B valuation, doubling it in six months",
+   "repeat_of": null,
+   "note": "Bret Taylor co-founded; explain Sierra (customer-service AI agents). Europe/Asia angle: HSBC, Singtel among clients.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, raised $1.75 billion in a Series F round that doubles its valuation to $30 billion."
+    },
+    {
+     "article": 0,
+     "fact": "The raise comes within six months of its previous round, which valued the company at $15 billion."
+    },
+    {
+     "article": 0,
+     "fact": "Sierra said it serves almost 50% of Fortune 50 companies; clients include BNY, HSBC, Singtel, Wells Fargo, JPMorganChase, Pearson, Next, and Cox Automotive."
+    },
+    {
+     "article": 0,
+     "fact": "Late last month Sierra said its outcome-based pricing model has helped it double run-rate revenue to $400 million within five months."
+    },
+    {
+     "article": 0,
+     "fact": "Voice AI company ElevenLabs is now valued at $22 billion; Decagon $4.5 billion; Wonderful $5 billion; Parloa $3 billion."
+    },
+    {
+     "article": 0,
+     "fact": "Co-founder Clay Bavor argued at HumanX in Amsterdam in September that a majority of customers are reassigning roles to existing employees rather than replacing humans."
+    }
+   ]
+  },
+  {
+   "title": "DeepMind: Gemini 4 agent teams cut quantum algorithm costs, proved with Lean",
+   "repeat_of": null,
+   "note": "Google DeepMind original blog. Google was in 11-13 posts (gemini-4-hydrogen backlog, google-samsung-gemini-glasses) but not this topic. TNW also covers.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "Google DeepMind",
+     "title": "Finding faster quantum algorithms with agents and formal verification",
+     "date": "2026-11-23",
+     "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "In a new paper, teams of Gemini 4 agents improved well-known quantum algorithms, creating highly efficient quantum circuits."
+    },
+    {
+     "article": 0,
+     "fact": "Each result was proved with Lean, a formal theorem prover; the Lean library, problem specifications and verified solutions are open-sourced on GitHub."
+    },
+    {
+     "article": 0,
+     "fact": "For a circuit for inertial confinement fusion, agent teams cut the required computing cost by 11.8x and lowered memory from 5,650 to 4,338 error-corrected qubits."
+    },
+    {
+     "article": 0,
+     "fact": "For a common light-sensitive molecule, agent teams made quantum simulation 8x cheaper."
+    },
+    {
+     "article": 0,
+     "fact": "For Cytochrome P450, an enzyme that breaks down most human medicines, they found a 2.5x improvement and lowered memory from 481 to 333 qubits."
+    },
+    {
+     "article": 0,
+     "fact": "They found a 2.57x speedup for a specific implementation of Grover’s algorithm and a 290x speedup for arcsin."
+    },
+    {
+     "article": 0,
+     "fact": "Running these in scientific simulations would still demand more resources than the first error-corrected quantum computers are likely to provide."
+    },
+    {
+     "article": 0,
+     "fact": "The work was a collaboration between Google DeepMind and Google Quantum AI."
+    }
+   ]
+  },
+  {
+   "title": "OpenAI rolls GPT-6.2 Sol into ChatGPT chat",
+   "repeat_of": null,
+   "note": "Korean-language source (AI타임스, 24 Nov 12:13 KST, quotes OpenAI figures). OpenAI own post not fetched. OpenAI was in 11-23 post (speed limit), -5 if same-company pairing matters. Facts translated.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "오픈AI, 챗GPT에 GPT-6.2 솔 탑재",
+     "date": "2026-11-24",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217725"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "OpenAI began applying GPT-6.2 Sol to ChatGPT general chat on Nov 23 (US time), a version optimized for everyday conversation, introduced earlier this month in Work and Codex."
+    },
+    {
+     "article": 0,
+     "fact": "Image understanding score rose from 47.4% (GPT-6) to 71.7%; complex instruction following from 62.5% to 78.1%; expert-level task score from 52% to 65%."
+    },
+    {
+     "article": 0,
+     "fact": "BrowseComp web-search benchmark at Extra High reasoning: 64.5% versus 54.4% for the previous model."
+    },
+    {
+     "article": 0,
+     "fact": "Compliance with safety policy in sensitive teen conversations: 91-94%, up from 77-80% for GPT-6."
+    },
+    {
+     "article": 0,
+     "fact": "Not every area improved: per the system card, steerability fell from 60.6% to 48.6%."
+    }
+   ]
+  }
+ ],
+ "dropped": [
+  "AMD-Taalas $2.9B: Tech.eu dated 23 Nov but AMD announced the deal on 2026-08-06 (stale)",
+  "Oregon/Virginia sue SpaceX over Grok: Ars and Verge both 403, Reuters no readable copy",
+  "Black Forest Labs world models (Sifted 403)",
+  "Jensen reinstated Ars 403; Yonhap SK hynix +20% 403",
+  "Reuters US banks tighten AI agent controls: no readable original",
+  "Naver/Kakao agents (etnews) not read"
+ ],
+ "repeats_checked": "posts/ last 14 days: no direct repeats; Nvidia (11-18, 11-23 nasdaq), Anthropic (11-19), OpenAI (11-23) same-company overlaps noted"
+}

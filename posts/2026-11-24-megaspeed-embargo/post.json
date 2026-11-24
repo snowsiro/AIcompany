@@ -1,0 +1,145 @@
+{
+  "id": "2026-11-24-megaspeed-embargo",
+  "date": "2026-11-24",
+  "category": "POLICY",
+  "status": "blocked",
+  "korean_refs": [],
+  "cover": {
+    "tag": "ASIA AI · POLICY",
+    "headline": [
+      "US TO CUT OFF **7**",
+      "ASIAN FIRMS"
+    ],
+    "hook_options": [
+      [
+        "US TO CUT OFF **7**",
+        "ASIAN FIRMS"
+      ],
+      [
+        "**CHIP** PROBE HITS",
+        "7 ASIAN FIRMS"
+      ],
+      [
+        "US VS CHINA",
+        "OVER **CHIPS**"
+      ],
+      [
+        "**ALIBABA** UNIT",
+        "FACES A US BAN"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "rivalry",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: heise online describes the embargo and the probe but states no effect on ordinary readers' prices, tools or risks, so a 'your AI bill' hook would promise something the slides cannot support. The number hook leads with heise's hard fact (seven companies, a complete US trade embargo that starts Wednesday, so the hook uses the future tense) and slides 2-5 cover the network, the Alibaba unit, the probe and the blacklist notice. 'US vs China over chips' is broader than the slides, which cover one network. The Alibaba option is vivid but narrower, and the Alibaba link is only 'said to' per heise.",
+    "image_prompt": "Cinematic abstract scene of stacked shipping containers at a dark night port, thin glowing yellow lines running between the containers like a network map across Southeast Asia, a few glowing silicon chip shapes floating above the stacks, one red-lit barrier gate closing across the lines, cold blue haze, wet reflective ground. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261124_045317_e8a7c705-ea4b-494b-8ac3-fae7e39eff84.png"
+  },
+  "slides": [
+    {
+      "kicker": "The embargo",
+      "title": "US cuts off seven Asian companies",
+      "body": [
+        "heise online reports that from Wednesday a complete US trade embargo applies to **seven companies** in Singapore, Thailand and Malaysia. It is part of what heise calls the Nvidia affair over AI chips."
+      ]
+    },
+    {
+      "kicker": "The network",
+      "title": "Six of them form Megaspeed",
+      "body": [
+        "Six of the seven form the Megaspeed network, suspected of organizing Nvidia chips for China, heise reports. The allegation: it hosted the chips in data centers and **rented them out** to customers in China."
+      ]
+    },
+    {
+      "kicker": "The seventh",
+      "title": "An Alibaba unit is on the list",
+      "body": [
+        "The seventh, Apex Enterprise Solutions, is a subsidiary of China's Alibaba group. It is **said to have provided** the billions of dollars Megaspeed used to buy Nvidia chips from June 2024, heise says. heise printed no Alibaba reply."
+      ]
+    },
+    {
+      "kicker": "The probe",
+      "title": "Smuggling is still a question",
+      "body": [
+        "In June 2025 Nvidia stopped selling restricted chips to Megaspeed. The US Justice Department is **probing** whether Megaspeed helped smuggle AI chips to China. Megaspeed says it opened an internal investigation."
+      ]
+    },
+    {
+      "kicker": "The blacklist",
+      "title": "What the US notice does",
+      "body": [
+        "Per a US Commerce Department notice, the seven firms go on the US export **blacklist**. heise says the result is a complete embargo: from Wednesday, nothing from the US or built on US technology may be sold to them."
+      ]
+    },
+    {
+      "kicker": "Separately",
+      "title": "Also at Nvidia",
+      "body": [
+        "Separately, Nvidia's board reinstated its CEO on 23 Nov, Nvidia announced. The heise report on the embargo does not tie the two together."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "From Wednesday a complete US trade embargo applies to seven (7) companies in Singapore, Thailand and Malaysia (German: Ab Mittwoch greift ein komplettes US-Handelsembargo gegen sieben Unternehmen in Singapur, Thailand und Malaysien)."
+    },
+    {
+      "source": 0,
+      "text": "Six of the companies form the Megaspeed network (Firmengeflecht Megaspeed); the seventh is Apex Enterprise Solutions."
+    },
+    {
+      "source": 0,
+      "text": "Apex, a subsidiary of China's Alibaba group, is said to have provided the billions of US dollars Megaspeed used to buy Nvidia AI processors from June 2024. heise online gave Alibaba an opportunity to comment."
+    },
+    {
+      "source": 0,
+      "text": "Megaspeed is said to have organized Nvidia chips for China; the allegation is that it hosts the chips in data centers and rents them out as hardware-as-a-service, especially to customers in China."
+    },
+    {
+      "source": 0,
+      "text": "In June 2025 Nvidia stopped selling export-restricted chips to Megaspeed."
+    },
+    {
+      "source": 0,
+      "text": "The US Justice Department is investigating the suspicion that Megaspeed also promoted the smuggling of AI chips to China; Megaspeed says it has launched an internal investigation."
+    },
+    {
+      "source": 0,
+      "text": "According to the US Commerce Department's notice (RIN 0694-AK59), the seven companies go on the blacklist of the Export Administration Regulations (EAR). The result is a complete trade embargo: from Wednesday nothing located in the US and nothing of US production or based on certain US technology may be sold or delivered to these firms."
+    },
+    {
+      "source": 1,
+      "text": "The NVIDIA Board of Directors voted unanimously to reinstate Mr. Huang as President and Chief Executive Officer, effective immediately (announced 23 November 2026)."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online",
+      "title": "Nvidia-Affäre: USA verhängen Handelsverbot über Megaspeed",
+      "title_en": "Nvidia affair: USA impose trade ban on Megaspeed",
+      "language": "German",
+      "date": "Nov 24, 2026",
+      "url": "https://www.heise.de/news/Nvidia-Affaere-USA-verhaengen-Handelsverbot-ueber-Megaspeed-11535434.html"
+    },
+    {
+      "outlet": "Nvidia Newsroom",
+      "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+      "date": "Nov 23, 2026",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    }
+  ],
+  "caption": "The US is set to cut off seven Asian companies tied to the Megaspeed network and Nvidia chips.\n\nheise online reports a complete US trade embargo on firms in Singapore, Thailand and Malaysia from Wednesday, including an Alibaba subsidiary.\n\n→ Six of the seven form the Megaspeed network, suspected of organizing Nvidia chips for China; the seventh, Apex, is an Alibaba unit said to have provided the billions Megaspeed used to buy the chips\n→ The US Justice Department is probing whether Megaspeed helped smuggle AI chips to China; Megaspeed says it opened an internal investigation\n→ A US Commerce Department notice puts the seven firms on the export blacklist\n\nShould AI chips be policed like this, and can it work?\n\nSource: heise online, \"Nvidia affair: USA impose trade ban on Megaspeed\" (in German), Nov 24, 2026; Nvidia Newsroom, \"NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director\", Nov 23, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Megaspeed",
+    "#Nvidia",
+    "#ChipExports",
+    "#AIPolicy"
+  ],
+  "threads_caption": "The US is set to cut off seven Asian firms tied to Megaspeed, suspected of organizing Nvidia chips for China, heise online reports. One is an Alibaba unit, said to have funded the chip buying. Megaspeed says it opened an internal investigation.\n\nSource: heise online, \"Nvidia affair: USA impose trade ban on Megaspeed\" (in German). #Nvidia"
+}
