@@ -1,0 +1,13 @@
+# Runner-ups, morning run 2026-11-24 (scores per config/sources.yaml scoring)
+
+Morning pick: 2026-11-24-megaspeed-embargo (ASIA, POLICY, 8).
+
+1. Nvidia reinstates Jensen Huang as CEO, score 11 (ref ai.trend.kr 3 + global 3 + number 2 + angle 3), REGION US. Sources: Nvidia Newsroom "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director" (11-23); TechCrunch "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist" (11-23). Not used: US story, same company as morning pick (-5 for the evening, and the evening must be a different company anyway). Brand safety: no allegations about Huang (foreign-intelligence investigation, reasons for ouster). Use only if the evening has no other story, as a carry-over, with the -5 not applying if morning is not Nvidia.
+2. Sierra raises $1.75B at $30B valuation, score about 8 (global 3 + number 2 + Asia/Europe angle 3 via HSBC and Singtel, weak), REGION US. Source: TechCrunch "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off" (11-23). Explain Sierra (customer-service AI agents, co-founded by former Salesforce co-CEO Bret Taylor). Good evening candidate, different company than Nvidia.
+3. DeepMind: Gemini 4 agent teams cut quantum algorithm costs, proved with Lean, score 5 (global 3 + number 2), REGION GLOBAL or US. Source: Google DeepMind "Finding faster quantum algorithms with agents and formal verification" (11-23). Note: the paper says real simulations would still need more resources than first error-corrected quantum computers provide.
+4. OpenAI rolls GPT-6.2 Sol into ChatGPT chat, score 5 (global 3 + number 2), REGION US. Source: AI타임스 "오픈AI, 챗GPT에 GPT-6.2 솔 탑재" (11-24, Korean). Include the drop (steerability 60.6% to 48.6%). OpenAI was in the 11-23 post (different story, no penalty).
+5. Amazon buys Decart's AI optimization tech for $7.5B, score 5 (global 3 + number 2), REGION US (Israeli startup, MIDEAST is allowed by DESIGN.md, so MIDEAST also possible). Source: TechCrunch (11-23). Price is per Bloomberg, not confirmed by Amazon.
+6. Google expands Personal Intelligence in AI Mode to Drive, Wallet and the Gemini app, score 3 to 5 (global 3, no hard number), REGION US. Source: TechCrunch (11-23). Reader-impact hook possible (opt-in, Wallet is read-only).
+7. Anthropic launches Claude Ship (Code Review, PR Steward, Claude Approvals), score 3 (global 3), REGION US. Source: TechCrunch (11-23). Anthropic posted 11-19 (different story).
+
+Dropped (do not use): AMD-Taalas $2.9B (stale, announced 2026-08-06); Oregon/Virginia v SpaceX over Grok, Black Forest Labs, Reuters bank AI-agent controls, Naver/Kakao agents (no readable original).
