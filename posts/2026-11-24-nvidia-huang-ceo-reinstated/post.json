@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-24-nvidia-huang-ceo-reinstated",
+  "date": "2026-11-24",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "US AI · INDUSTRY",
+    "headline": [
+      "NVIDIA'S BOARD",
+      "**REINSTATES** HUANG"
+    ],
+    "hook_options": [
+      [
+        "NVIDIA'S BOARD",
+        "**REINSTATES** HUANG"
+      ],
+      [
+        "HUANG IS BACK",
+        "AS NVIDIA **CEO**"
+      ],
+      [
+        "NVIDIA'S BOARD:",
+        "NO **SECURITY** RISK"
+      ],
+      [
+        "**UNANIMOUS** VOTE",
+        "BRINGS HUANG BACK"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "claim",
+      "quote",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "No reader-impact hook: the Nvidia release describes board decisions and oversight, and states no effect on ordinary readers' costs, tools or risks. The headline reinstates-claim uses the release's own verb, names Nvidia and Huang, and every part of it is carried by slide 1 (vote, effective immediately). The quote hook is attributed to the Board but compresses a view into a short line without 'confident', so it is weaker. The 'is back' and 'unanimous' hooks are accurate but less specific about who acted.",
+    "image_prompt": "Cinematic still of a vast dark boardroom table seen from low angle, a single empty high-backed chair at its head lit by a warm golden glow, thin yellow light lines running across the polished surface like circuit traces, cool blue haze in the background, shallow depth of field. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The vote",
+      "title": "Nvidia's board brings Huang back",
+      "body": [
+        "Nvidia says its Board **voted unanimously** to reinstate Jensen Huang as President, CEO and Board member, effective immediately. The Board said it was satisfied with his candor and ability to lead after a series of discussions with him."
+      ]
+    },
+    {
+      "kicker": "Government input",
+      "title": "The board cites US input",
+      "body": [
+        "Nvidia says the Board received input from senior levels of the US government. Based on that input, the Board said it is **confident the reinstatement poses no national security risk**."
+      ]
+    },
+    {
+      "kicker": "Who stays",
+      "title": "Jones stays chair, Kress thanked",
+      "body": [
+        "Harvey Jones **remains Board chair**. He said the Board is grateful to Colette Kress for her service as interim CEO. She continues as Nvidia's Chief Financial Officer."
+      ]
+    },
+    {
+      "kicker": "The investigation",
+      "title": "An investigation continues",
+      "body": [
+        "A Board committee of **only independent directors** is investigating reporting that Mr. Huang has been the target of a foreign intelligence effort. The Board said the investigation will proceed to conclusion. Huang is committed to cooperating."
+      ]
+    },
+    {
+      "kicker": "New oversight",
+      "title": "A new committee, a new role",
+      "body": [
+        "Nvidia says the Board formed a **National Security and Export Control Committee** of independent directors to oversee trade compliance and national security risks. Nvidia is also starting a search for a new Chief Compliance Officer."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The NVIDIA Board of Directors voted unanimously to reinstate Jensen Huang as President and Chief Executive Officer and as a member of the Board, effective immediately."
+    },
+    {
+      "source": 0,
+      "text": "The Board said it was satisfied with Mr. Huang's candor and ability to lead NVIDIA following a series of discussions and meetings with him."
+    },
+    {
+      "source": 0,
+      "text": "In reaching its decision, the Board received input from senior levels of the United States government; based on that input, the Board is confident that Mr. Huang's reinstatement poses no national security risk."
+    },
+    {
+      "source": 0,
+      "text": "Harvey Jones will remain as Board chair. The Board is grateful to Colette Kress for her service as interim CEO, in addition to her continuing responsibilities as NVIDIA's Chief Financial Officer."
+    },
+    {
+      "source": 0,
+      "text": "In light of recent reporting that Mr. Huang has been the target of a foreign intelligence effort, the Board formed a committee comprised solely of independent directors to investigate; the committee's investigation will proceed to conclusion, and Mr. Huang is committed to cooperating."
+    },
+    {
+      "source": 0,
+      "text": "The Board formed a National Security and Export Control Committee comprised solely of independent directors to oversee trade compliance and national security risks."
+    },
+    {
+      "source": 0,
+      "text": "NVIDIA is commencing a search to fill a new position, Chief Compliance Officer."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Nvidia Newsroom",
+      "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+      "date": "Nov 23, 2026",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    }
+  ],
+  "caption": "Nvidia says its board just reinstated Jensen Huang as President and CEO, effective immediately.\n\nAccording to Nvidia's own release, the Board voted unanimously, and said it received input from senior levels of the US government before deciding.\n\n→ The Board said it is confident Huang's reinstatement poses no national security risk\n→ A committee of independent directors is investigating reporting that Huang has been the target of a foreign intelligence effort; the Board says it will proceed to conclusion\n→ Nvidia formed a National Security and Export Control Committee and is searching for a Chief Compliance Officer; Harvey Jones stays chair and Colette Kress, interim CEO, continues as CFO\n\nWhat do you make of the Board's account?\n\nSource: Nvidia Newsroom, \"NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director\", Nov 23, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Nvidia",
+    "#JensenHuang"
+  ],
+  "threads_caption": "Nvidia says its Board voted unanimously to reinstate Jensen Huang as CEO, effective immediately.\n\nThe Board said it received input from senior levels of the US government and is confident Huang's reinstatement poses no national security risk. An independent-director committee is investigating reporting about a foreign intelligence effort.\n\nSource: Nvidia Newsroom, \"NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director\". #Nvidia"
+}
