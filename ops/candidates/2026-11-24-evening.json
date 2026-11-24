@@ -1,0 +1,330 @@
+{
+ "date": "2026-11-24",
+ "run": "evening",
+ "cutoff_utc": "2026-11-24T04:45:00Z",
+ "notes": [
+  "Morning post: Google DeepMind quantum. Excluded Google/DeepMind-led and Nvidia-Megaspeed stories.",
+  "Readability: TNW, Nvidia Newsroom, AWS Security Blog, AI타임스 readable. Ars Technica, Yonhap, TechCrunch (per fact-checker) 403/unreadable. Der Standard behind consent wall (only intro read).",
+  "Ranking: 1 Meta Muse UK + FCA (new, TNW x2, readable); 2 Huang reinstated (carried, Nvidia Newsroom readable, Nvidia posted 11-18 and 11-23 in last 14 days); 3 GPT-6.2 Sol (carried, AI타임스 readable, OpenAI posted 11-23); 4 Sierra $30B (carried, TechCrunch only); 5 Amazon-Decart $7.5B (carried, TechCrunch only).",
+  "Few new US-afternoon stories in feeds: Verge/TechCrunch/OpenAI/Anthropic/Google/Microsoft feeds returned nothing after cutoff."
+ ],
+ "stories": [
+  {
+   "title": "Meta's AI agent Muse launches in the UK as the FCA warns AI-agent builders they may need a licence",
+   "region": "Europe (UK)",
+   "first_published_utc": "2026-11-24T11:40:13Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Meta not posted in last 14 days. posts grep for Muse/FCA found only an unrelated 10-22 post.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Meta's AI agent Muse lands in the UK in time for Christmas shopping",
+     "date": "2026-11-24",
+     "published_utc": "2026-11-24T13:04:48Z",
+     "url": "https://thenextweb.com/news/meta-muse-uk-launch"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "UK finance watchdog warns AI agent builders they may need a licence",
+     "date": "2026-11-24",
+     "published_utc": "2026-11-24T11:40:13Z",
+     "url": "https://thenextweb.com/news/fca-agentic-ai-authorisation"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Meta's personal AI agent Muse arrived in the UK today, pitched at the festive to-do list.",
+     "article": 0
+    },
+    {
+     "text": "Unlike Meta AI, which chats and answers questions, Muse connects to other apps and acts: it can build a grocery basket, book a flight, chase a refund, or buy presents.",
+     "article": 0
+    },
+    {
+     "text": "Sainsbury's lets the agent plan meals and fill grocery orders, while Argos has connected more than 150,000 products, with M&S, Currys, Debenhams and easyJet also on board.",
+     "article": 0
+    },
+    {
+     "text": "Muse runs as a standalone app, on the web, and inside WhatsApp.",
+     "article": 0
+    },
+    {
+     "text": "Purchases go through Link, a wallet for AI agents built by Stripe, and buying anything requires the user's approval.",
+     "article": 0
+    },
+    {
+     "text": "The agent launched in the US in September and ranked first and second on Google's and Apple's free app charts, the Guardian reported.",
+     "article": 0
+    },
+    {
+     "text": "The Financial Conduct Authority set out its expectations for agentic AI on Tuesday, covering banks, tech providers and social media platforms.",
+     "article": 1
+    },
+    {
+     "text": "Some personal AI agent products will need FCA authorisation at launch, the regulator warns, and others will grow into needing it later.",
+     "article": 1
+    },
+    {
+     "text": "Describing a business as a technology provider does not remove the need for authorisation, the regulator says.",
+     "article": 1
+    },
+    {
+     "text": "On 16 November the UK's four digital regulators wrote to ministers, warning that several personal AI agents are about to launch in the UK.",
+     "article": 1
+    }
+   ]
+  },
+  {
+   "title": "Nvidia reinstates Jensen Huang as CEO 11 days after he left",
+   "repeat_of": null,
+   "note": "Biggest story of the day; ai.trend.kr 4.7x (ai.trend.kr also ran 4.7x on 11-22 Huang petition). Korea angle: SK hynix US shares +20% (Yonhap, 403 to fetch, not usable). Nvidia-related posts in last 14 days: 2026-11-18-nvidia-q3-china-exit, 2026-11-23-nasdaq-bear-market (different angle).",
+   "reference_posts": [
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/reel/DgGQ1dtTjSG/",
+     "multiple": 4.7
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "Nvidia Newsroom",
+     "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+     "date": "2026-11-23",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    {
+     "outlet": "TechCrunch",
+     "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "The NVIDIA Board of Directors voted unanimously to reinstate Mr. Huang as President and Chief Executive Officer and as a member of the Board, effective immediately.",
+     "article": 0
+    },
+    {
+     "text": "In the process of reaching its decision, the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk.",
+     "article": 0
+    },
+    {
+     "text": "Harvey Jones will remain as Board chair; the Board is grateful to Colette Kress for her service as interim CEO, in addition to her continuing responsibilities as NVIDIA’s Chief Financial Officer.",
+     "article": 0
+    },
+    {
+     "text": "The Board formed a committee comprised solely of independent directors to investigate reporting that Mr. Huang has been the target of a foreign intelligence effort; the investigation will proceed to conclusion and Mr. Huang is committed to cooperating.",
+     "article": 0
+    },
+    {
+     "text": "The Board also formed a National Security and Export Control Committee of independent directors, and NVIDIA is commencing a search to fill a new position, Chief Compliance Officer.",
+     "article": 0
+    },
+    {
+     "text": "After lobbying from President Trump, Jensen Huang was reinstated as Nvidia CEO on Monday after a short period in which he was ousted by the company’s board.",
+     "article": 1
+    },
+    {
+     "text": "Megaspeed, which Alice Huang led for over two years, will be added to the Commerce Department’s Entity List, Semafor reported; U.S. companies could not sell to it without a special license.",
+     "article": 1
+    },
+    {
+     "text": "Megaspeed is a Singapore-based cloud and AI infrastructure provider and was one of Nvidia’s biggest chip customers; the Commerce Department launched a criminal probe last week; the company denies wrongdoing.",
+     "article": 1
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null,
+   "carry_note": "Nvidia Newsroom alone supports facts 0-4; drop TechCrunch article/facts for Megaspeed. Published 2026-11-23 (not new today).",
+   "repeat_of_last_14_days": false
+  },
+  {
+   "title": "OpenAI rolls GPT-6.2 Sol into ChatGPT chat",
+   "repeat_of": null,
+   "note": "Korean-language source (AI타임스, 24 Nov 12:13 KST, quotes OpenAI figures). OpenAI own post not fetched. OpenAI was in 11-23 post (speed limit), -5 if same-company pairing matters. Facts translated.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "오픈AI, 챗GPT에 GPT-6.2 솔 탑재",
+     "date": "2026-11-24",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217725"
+    }
+   ],
+   "facts": [
+    {
+     "text": "OpenAI began applying GPT-6.2 Sol to ChatGPT general chat on Nov 23 (US time), a version optimized for everyday conversation, introduced earlier this month in Work and Codex.",
+     "article": 0
+    },
+    {
+     "text": "Image understanding score rose from 47.4% (GPT-6) to 71.7%; complex instruction following from 62.5% to 78.1%; expert-level task score from 52% to 65%.",
+     "article": 0
+    },
+    {
+     "text": "BrowseComp web-search benchmark at Extra High reasoning: 64.5% versus 54.4% for the previous model.",
+     "article": 0
+    },
+    {
+     "text": "Compliance with safety policy in sensitive teen conversations: 91-94%, up from 77-80% for GPT-6.",
+     "article": 0
+    },
+    {
+     "text": "Not every area improved: per the system card, steerability fell from 60.6% to 48.6%.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null,
+   "carry_note": "AI타임스 readable; OpenAI primary not fetched.",
+   "repeat_of_last_14_days": false
+  },
+  {
+   "title": "Sierra raises $1.75B at $30B valuation, doubling it in six months",
+   "repeat_of": null,
+   "note": "Bret Taylor co-founded; explain Sierra (customer-service AI agents). Europe/Asia angle: HSBC, Singtel among clients.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, raised $1.75 billion in a Series F round that doubles its valuation to $30 billion.",
+     "article": 0
+    },
+    {
+     "text": "The raise comes within six months of its previous round, which valued the company at $15 billion.",
+     "article": 0
+    },
+    {
+     "text": "Sierra said it serves almost 50% of Fortune 50 companies; clients include BNY, HSBC, Singtel, Wells Fargo, JPMorganChase, Pearson, Next, and Cox Automotive.",
+     "article": 0
+    },
+    {
+     "text": "Late last month Sierra said its outcome-based pricing model has helped it double run-rate revenue to $400 million within five months.",
+     "article": 0
+    },
+    {
+     "text": "Voice AI company ElevenLabs is now valued at $22 billion; Decagon $4.5 billion; Wonderful $5 billion; Parloa $3 billion.",
+     "article": 0
+    },
+    {
+     "text": "Co-founder Clay Bavor argued at HumanX in Amsterdam in September that a majority of customers are reassigning roles to existing employees rather than replacing humans.",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null,
+   "carry_note": "TechCrunch only, unreadable by fact-checker; needs second source.",
+   "repeat_of_last_14_days": false
+  },
+  {
+   "title": "Amazon buys Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "repeat_of": null,
+   "note": "US/Israel. Price per Bloomberg via TechCrunch. Amazon blog post not fetched. Reference accounts 0.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Amazon has agreed to acquire a good chunk of Israeli startup Decart, paying $7.5 billion according to Bloomberg.",
+     "article": 0
+    },
+    {
+     "text": "Decart builds interactive real-time world models, most recently Oasis 3, and AI video-generation tools.",
+     "article": 0
+    },
+    {
+     "text": "Decart Optimization Stack (DOS) is software that helps AI models run efficiently on Nvidia, Amazon, and Google’s hardware.",
+     "article": 0
+    },
+    {
+     "text": "Amazon will acquire the technology behind DOS, plus Decart’s founding team and its team of AI researchers and engineers, Amazon said in a blog post.",
+     "article": 0
+    },
+    {
+     "text": "Amazon has so far used its Trainium chips at its own data centers and is preparing to start selling them to customers as a competitor to Nvidia.",
+     "article": 0
+    },
+    {
+     "text": "Peter DeSantis, Amazon SVP: “Every leap forward in AI starts with getting more out of every chip.”",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null,
+   "carry_note": "TechCrunch only; Reuters version exists but unreadable; price per Bloomberg.",
+   "repeat_of_last_14_days": false
+  },
+  {
+   "title": "Anthropic launches Claude Ship: AI agents that review, fix and approve code changes",
+   "repeat_of": null,
+   "note": "Anthropic was in 11-19 post (anthropic-ant-debut), 5 days ago; different topic. Verge also covered (403 not fetched). Anthropic blog not fetched.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+     "date": "2026-11-23",
+     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    }
+   ],
+   "facts": [
+    {
+     "text": "On Monday, the newly public AI company announced Claude Ship, a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes.",
+     "article": 0
+    },
+    {
+     "text": "It includes an agent that can approve code changes automatically based on policies set by a development team.",
+     "article": 0
+    },
+    {
+     "text": "Claude Ship consists of Code Review, already generally available, and two new beta agents: PR Steward and Claude Approvals.",
+     "article": 0
+    },
+    {
+     "text": "PR Steward addresses failing CI checks, merge conflicts, and Code Review feedback, and comments after every push on what it changed and how to roll it back.",
+     "article": 0
+    },
+    {
+     "text": "Claude Approvals applies an approval policy that the team writes as a file in the repository, in natural language.",
+     "article": 0
+    },
+    {
+     "text": "Anthropic suggests running the approval functionality in observe-only mode first; teams can start with one repository and set monthly spending limits.",
+     "article": 0
+    },
+    {
+     "text": "Claude Ship is rolling out to Claude Team and Enterprise plans for repositories on GitHub.",
+     "article": 0
+    },
+    {
+     "text": "Company blog post: “On the Claude Code team, Claude writes most of our code, and we wanted everything after the PR to move that fast too.”",
+     "article": 0
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": null,
+   "carry_note": "TechCrunch only; Anthropic blog not fetched.",
+   "repeat_of_last_14_days": false
+  }
+ ],
+ "dropped": [
+  "Amazon hackers' AI agents exploited 0-day (Ars 12:30Z): Ars 403, no other readable original; AWS ARTEX post is from 13 Nov (not new)",
+  "Anthropic CEO video-game proposal (Der Standard 09:45Z): consent wall, only intro readable",
+  "SK hynix +20% (Yonhap 403); Nikkei suppliers react to Huang (not fetched)",
+  "Funding rounds (Tech.eu, TNW Avicena/Dante/Automation Anywhere): small, not pursued",
+  "Google Personal Intelligence, Megaspeed embargo, DeepMind: excluded"
+ ]
+}

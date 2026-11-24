@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "issues": [
+    "Non-blocking: slide 6 title 'Four regulators saw this coming' can read as the regulators foreseeing Muse, while the body says the two are linked by timing only. Consider 'Regulators flagged agents days earlier'.",
+    "Non-blocking: caption says the regulator 'set out rules for AI agents', but slide 5 and the source say 'expectations'. Consider 'expectations'."
+  ]
+}

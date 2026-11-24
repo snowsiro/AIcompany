@@ -1,0 +1,144 @@
+{
+  "id": "2026-11-24-meta-muse-uk-fca",
+  "date": "2026-11-24",
+  "category": "POLICY",
+  "status": "draft",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "AI AGENTS MAY",
+      "NEED A **LICENCE**"
+    ],
+    "hook_options": [
+      [
+        "AI AGENTS MAY",
+        "NEED A **LICENCE**"
+      ],
+      [
+        "**150,000** ITEMS,",
+        "ONE META AGENT"
+      ],
+      [
+        "META'S AI AGENT",
+        "NEEDS YOUR **OK**"
+      ],
+      [
+        "MUSE HITS THE UK",
+        "AS RULES **LOOM**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "reader-impact",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "The claim hook is the strongest the slides fully support: The Next Web reports the UK financial regulator says some personal AI agent products need authorisation at launch and others may grow into it, and slides 4 and 5 carry that. It says 'may', does not name Meta as a target and does not say Muse needs a licence. The number hook is accurate (Argos, 150,000+ products connected) but sells a feature, not the stakes. The reader-impact hook uses only the user-approval fact (slide 3). The 'rules loom' hook is vaguer and sits closer to implying Meta is being regulated, so it is a weaker fit. Reader-impact is included but is not the strongest: the approval fact is a product detail, while the licence line is the new development.",
+    "image_prompt": "Cinematic still of a glowing shopping basket made of thin yellow light lines floating above a dark polished desk, ribbons of light connecting it to small floating gift boxes and a paper airplane, a tall translucent glass gate with a soft golden glow standing behind it like a checkpoint, cool blue ambient haze, shallow depth of field. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "Muse lands",
+      "title": "Meta's shopping agent reaches the UK",
+      "body": [
+        "Meta's AI agent Muse arrived in the UK today, The Next Web reports, pitched at the Christmas to-do list. Unlike Meta AI, which chats and answers, Muse **connects to other apps and acts**."
+      ]
+    },
+    {
+      "kicker": "What it does",
+      "title": "Baskets, flights, refunds, gifts",
+      "body": [
+        "Muse builds a grocery basket, books a flight, chases a refund and buys presents. Partners include Sainsbury's, Argos (**150,000+ products**), M&S, Currys, Debenhams and easyJet."
+      ]
+    },
+    {
+      "kicker": "Who pays",
+      "title": "You approve, Stripe's wallet pays",
+      "body": [
+        "Purchases go through Link, the AI-agent wallet from payments company Stripe, and **buying needs your approval**. Muse runs as a standalone app, on the web and inside WhatsApp. Its US launch in September topped Google's and Apple's free app charts, the Guardian reported."
+      ]
+    },
+    {
+      "kicker": "The regulator",
+      "title": "The UK's finance regulator weighs in",
+      "body": [
+        "Same day, the Financial Conduct Authority, the UK's financial regulator, set out expectations for agentic AI. Some personal agent products **may need authorisation** at launch; others may grow into it. Calling yourself a technology provider does not remove that."
+      ]
+    },
+    {
+      "kicker": "The warning",
+      "title": "Four regulators saw this coming",
+      "body": [
+        "On 16 Nov, the UK's **four digital regulators** wrote to ministers that several personal AI agents are about to launch. The Muse launch and the regulator statement are linked by timing only."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Muse arrived in the UK today, pitched at the festive to-do list."
+    },
+    {
+      "source": 0,
+      "text": "Unlike Meta AI, which chats and answers, Muse connects to other apps and acts: it builds a grocery basket, books a flight, chases a refund, buys presents."
+    },
+    {
+      "source": 0,
+      "text": "Sainsbury's (meal planning and grocery orders); Argos, 150,000+ products connected; M&S, Currys, Debenhams and easyJet also on board."
+    },
+    {
+      "source": 0,
+      "text": "Muse is available as a standalone app, on the web and inside WhatsApp."
+    },
+    {
+      "source": 0,
+      "text": "Purchases go through Link, Stripe's wallet for AI agents; buying needs the user's approval."
+    },
+    {
+      "source": 0,
+      "text": "The US launch in September ranked first and second on Google's and Apple's free app charts, the Guardian reported."
+    },
+    {
+      "source": 1,
+      "text": "The FCA set out expectations for agentic AI on Tuesday, covering banks, tech providers and social media platforms."
+    },
+    {
+      "source": 1,
+      "text": "Some personal AI agent products need FCA authorisation at launch; others will grow into needing it later."
+    },
+    {
+      "source": 1,
+      "text": "Calling a business a technology provider does not remove the need for authorisation."
+    },
+    {
+      "source": 1,
+      "text": "On 16 Nov, the UK's four digital regulators wrote to ministers warning several personal AI agents are about to launch in the UK."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "Meta's AI agent Muse lands in the UK in time for Christmas shopping",
+      "date": "Nov 24, 2026",
+      "url": "https://thenextweb.com/news/meta-muse-uk-launch"
+    },
+    {
+      "outlet": "The Next Web",
+      "title": "UK finance watchdog warns AI agent builders they may need a licence",
+      "date": "Nov 24, 2026",
+      "url": "https://thenextweb.com/news/fca-agentic-ai-authorisation"
+    }
+  ],
+  "caption": "Meta's AI shopping agent Muse just launched in the UK, the same day the UK's financial regulator set out rules for AI agents.\n\nThe Next Web reports Muse acts rather than chats: it can build a grocery basket, book a flight, chase a refund and buy presents. The two announcements are linked by timing only.\n\n→ Muse connects to Sainsbury's, Argos (150,000+ products), M&S, Currys, Debenhams and easyJet; purchases go through Stripe's Link wallet and need your approval\n→ The Financial Conduct Authority says some personal AI agent products may need authorisation at launch and others may grow into it; calling yourself a technology provider does not remove that\n→ On 16 Nov, the UK's four digital regulators wrote to ministers that several personal AI agents are about to launch\n\nWould you let an AI agent spend your money if you approve each purchase?\n\nSource: The Next Web, \"Meta's AI agent Muse lands in the UK in time for Christmas shopping\", Nov 24, 2026; The Next Web, \"UK finance watchdog warns AI agent builders they may need a licence\", Nov 24, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Meta",
+    "#MetaMuse",
+    "#AIAgents",
+    "#UKAI"
+  ],
+  "threads_caption": "Meta's AI shopping agent Muse launched in the UK the same day the UK's financial regulator said some personal AI agent products may need authorisation. Buying needs the user's approval. The two are linked by timing only.\n\nSource: The Next Web, \"UK finance watchdog warns AI agent builders they may need a licence\". #Meta"
+}
