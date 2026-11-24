@@ -1,0 +1,140 @@
+{
+  "id": "2026-11-24-deepmind-quantum-agents",
+  "date": "2026-11-24",
+  "category": "RESEARCH",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "GLOBAL AI · RESEARCH",
+    "headline": [
+      "QUANTUM COST",
+      "CUT **11.8X**"
+    ],
+    "hook_options": [
+      [
+        "QUANTUM COST",
+        "CUT **11.8X**"
+      ],
+      [
+        "AI **PROVED**",
+        "ITS QUANTUM WIN"
+      ],
+      [
+        "AI TEAMS CUT",
+        "QUANTUM **COST**"
+      ],
+      [
+        "MOLECULE SIMS",
+        "**8X** CHEAPER"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "claim",
+      "number"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the DeepMind post describes research results for fusion, chemistry and drug-design simulations and states no effect on ordinary readers' prices, tools or risks; it even says these runs would still exceed what the first error-corrected quantum computers are likely to provide. The headline uses the hardest figure, the 11.8x cut in computing cost for a fusion circuit, with 'cost' (not speed) stated, and slide 3 gives the exact definition and the caveat sits on slide 6. The 'AI proved its quantum win' option is a claim, accurate (each result was proved in Lean) but with no number. The 8x option covers a narrower result.",
+    "image_prompt": "Cinematic abstract scene of a glowing golden quantum circuit etched into dark glass, luminous threads of light converging into a compact crystalline lattice at the center, faint geometric proof-like grids floating above, cold blue haze, shallow depth of field, polished black floor reflections. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261124_050330_b353d490-f6bf-411a-ba83-551cab69a80a.png"
+  },
+  "slides": [
+    {
+      "kicker": "The result",
+      "title": "AI agents rewrote quantum circuits",
+      "body": [
+        "Google DeepMind used teams of **Gemini 4 agents** to improve well-known quantum algorithms. The output is circuits: instructions for how a quantum computer carries out an algorithm. Google Quantum AI, Google's quantum research group, collaborated."
+      ]
+    },
+    {
+      "kicker": "Proof, not claims",
+      "title": "Every result was machine-checked",
+      "body": [
+        "Such circuits cannot be tested on classical computers or today's small quantum chips. So the agent teams **proved each result in Lean**, a formal theorem prover, which is software that checks mathematical proofs."
+      ]
+    },
+    {
+      "kicker": "Fusion energy",
+      "title": "Fusion circuit: cost down 11.8x",
+      "body": [
+        "For a laser-fusion calculation, computing cost fell **11.8x**. That metric combines required qubits and operations. Memory dropped from 5,650 to **4,338 error-corrected qubits**, the error-protected qubits needed for reliable runs."
+      ]
+    },
+    {
+      "kicker": "Drug design",
+      "title": "Cheaper molecule simulation",
+      "body": [
+        "A common light-sensitive molecule became **8x cheaper** to simulate. For Cytochrome P450, an enzyme that breaks down most human medicines, the teams found a 2.5x improvement and cut memory from **481 to 333 qubits**."
+      ]
+    },
+    {
+      "kicker": "Building blocks",
+      "title": "Faster core routines too",
+      "body": [
+        "One Grover's algorithm implementation, a search through an unsorted list, got a **2.57x speedup**. Arcsin, a routine that loads numbers into quantum states, got a **290x speedup**. Lean library and verified solutions are open-sourced on GitHub."
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "Likely too big for early machines",
+      "body": [
+        "DeepMind's caveat: running these algorithms in scientific simulations would **still demand more resources** than the first error-corrected quantum computers are likely to provide. The improvements are significant."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "In a new paper, we used teams of Gemini 4 agents to improve well-known quantum algorithms, creating highly efficient quantum circuits. These optimized circuits, which are instructions for how a quantum computer should carry out an algorithm, could one day help us run simulations that solve complex scientific challenges, from fusion energy to drug design."
+    },
+    {
+      "source": 0,
+      "text": "This research was a collaboration between Google DeepMind and Google Quantum AI."
+    },
+    {
+      "source": 0,
+      "text": "Because we cannot test resource-intensive quantum circuits on classical computers or today's small quantum processors, we have to prove that they work mathematically. Our agent teams proved each result using Lean, a formal theorem prover."
+    },
+    {
+      "source": 0,
+      "text": "Our agent teams cut the required computing cost (a metric that combines required qubits and operations) by 11.8×, and lowered required memory from 5,650 to 4,338 error-corrected qubits. (Circuit for an important property of inertial confinement fusion, a fusion reaction method that uses lasers to compress hydrogen fuel until ignition.)"
+    },
+    {
+      "source": 0,
+      "text": "For a common light-sensitive molecule, the agent teams made quantum simulation 8× cheaper."
+    },
+    {
+      "source": 0,
+      "text": "For Cytochrome P450, an enzyme that breaks down most human medicines and is important for drug design, they found a 2.5× improvement and lowered memory from 481 to 333 qubits, by replacing bulky memory lookups."
+    },
+    {
+      "source": 0,
+      "text": "We found a 2.57x speedup for a specific implementation of Grover's algorithm, a foundational quantum operation that searches through an unsorted list, and a 290x speedup for arcsin, a common routine that is used by many other quantum algorithms to load numbers into quantum states."
+    },
+    {
+      "source": 0,
+      "text": "We are open-sourcing our Lean library, problem specifications, and verified solutions on GitHub."
+    },
+    {
+      "source": 0,
+      "text": "Running these algorithms in scientific simulations would still demand more computational resources than the first error-corrected quantum computers are likely to provide, but these improvements are significant."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "Google DeepMind",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "date": "Nov 23, 2026",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+    }
+  ],
+  "caption": "Google DeepMind's Gemini 4 agents cut the computing cost of a quantum fusion circuit by 11.8x.\n\nThe agent teams improved well-known quantum algorithms, and every result was proved in Lean, a formal theorem prover, rather than just claimed.\n\n→ Fusion circuit: computing cost (qubits plus operations) down 11.8x, memory from 5,650 to 4,338 error-corrected qubits\n→ Light-sensitive molecule simulation 8x cheaper; Cytochrome P450 enzyme memory cut from 481 to 333 qubits\n→ Catch: running these in scientific simulations would still need more resources than the first error-corrected quantum computers are likely to provide\n\nCan AI agents with proofs speed up quantum computing, or is the hardware the real limit?\n\nSource: Google DeepMind, \"Finding faster quantum algorithms with agents and formal verification\", Nov 23, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#GoogleDeepMind",
+    "#QuantumComputing",
+    "#Gemini"
+  ],
+  "threads_caption": "Google DeepMind's Gemini 4 agents cut the computing cost of a quantum fusion circuit by 11.8x, and every result was proved in Lean. Catch: running these in scientific simulations would still need more resources than the first error-corrected quantum computers are likely to provide.\n\nSource: Google DeepMind, \"Finding faster quantum algorithms with agents and formal verification\". #DeepMind"
+}
