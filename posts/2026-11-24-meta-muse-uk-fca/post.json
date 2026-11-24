@@ -2,7 +2,7 @@
   "id": "2026-11-24-meta-muse-uk-fca",
   "date": "2026-11-24",
   "category": "POLICY",
-  "status": "draft",
+  "status": "blocked",
   "korean_refs": [],
   "cover": {
     "tag": "EUROPE AI · POLICY",
@@ -56,23 +56,23 @@
     },
     {
       "kicker": "Who pays",
-      "title": "You approve, Stripe's wallet pays",
+      "title": "You approve, Stripe pays",
       "body": [
-        "Purchases go through Link, the AI-agent wallet from payments company Stripe, and **buying needs your approval**. Muse runs as a standalone app, on the web and inside WhatsApp. Its US launch in September topped Google's and Apple's free app charts, the Guardian reported."
+        "Purchases go through Link, the AI-agent wallet from payments company Stripe, and **buying needs your approval**. Muse runs as an app, on web and in WhatsApp. Its September US launch ranked first and second on Google's and Apple's free app charts, the Guardian reported."
       ]
     },
     {
       "kicker": "The regulator",
-      "title": "The UK's finance regulator weighs in",
+      "title": "The FCA weighs in",
       "body": [
-        "Same day, the Financial Conduct Authority, the UK's financial regulator, set out expectations for agentic AI. Some personal agent products **may need authorisation** at launch; others may grow into it. Calling yourself a technology provider does not remove that."
+        "Same day, the FCA, the UK's financial regulator, set out expectations. Some personal agent products **will need authorisation** at launch; others will grow into needing it later. A \"technology provider\" label does not change that."
       ]
     },
     {
       "kicker": "The warning",
-      "title": "Four regulators saw this coming",
+      "title": "Regulators warned ministers",
       "body": [
-        "On 16 Nov, the UK's **four digital regulators** wrote to ministers that several personal AI agents are about to launch. The Muse launch and the regulator statement are linked by timing only."
+        "On 16 Nov, the UK's **four digital regulators** wrote to ministers that several personal AI agents are about to launch. The FCA statement does not name Meta."
       ]
     }
   ],
@@ -132,7 +132,7 @@
       "url": "https://thenextweb.com/news/fca-agentic-ai-authorisation"
     }
   ],
-  "caption": "Meta's AI shopping agent Muse just launched in the UK, the same day the UK's financial regulator set out rules for AI agents.\n\nThe Next Web reports Muse acts rather than chats: it can build a grocery basket, book a flight, chase a refund and buy presents. The two announcements are linked by timing only.\n\n→ Muse connects to Sainsbury's, Argos (150,000+ products), M&S, Currys, Debenhams and easyJet; purchases go through Stripe's Link wallet and need your approval\n→ The Financial Conduct Authority says some personal AI agent products may need authorisation at launch and others may grow into it; calling yourself a technology provider does not remove that\n→ On 16 Nov, the UK's four digital regulators wrote to ministers that several personal AI agents are about to launch\n\nWould you let an AI agent spend your money if you approve each purchase?\n\nSource: The Next Web, \"Meta's AI agent Muse lands in the UK in time for Christmas shopping\", Nov 24, 2026; The Next Web, \"UK finance watchdog warns AI agent builders they may need a licence\", Nov 24, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "Meta's AI shopping agent Muse just launched in the UK, the same day the UK's financial regulator set out expectations for AI agents.\n\nThe Next Web reports Muse acts rather than chats: it can build a grocery basket, book a flight, chase a refund and buy presents. The FCA statement does not name Meta.\n\n→ Muse connects to Sainsbury's, Argos (150,000+ products), M&S, Currys, Debenhams and easyJet; purchases go through Stripe's Link wallet and need your approval\n→ The Financial Conduct Authority says some personal AI agent products need authorisation at launch and others will grow into needing it later; calling yourself a technology provider does not remove that\n→ On 16 Nov, the UK's four digital regulators wrote to ministers that several personal AI agents are about to launch\n\nWould you let an AI agent spend your money if you approve each purchase?\n\nSource: The Next Web, \"Meta's AI agent Muse lands in the UK in time for Christmas shopping\", Nov 24, 2026; The Next Web, \"UK finance watchdog warns AI agent builders they may need a licence\", Nov 24, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#Meta",
@@ -140,5 +140,5 @@
     "#AIAgents",
     "#UKAI"
   ],
-  "threads_caption": "Meta's AI shopping agent Muse launched in the UK the same day the UK's financial regulator said some personal AI agent products may need authorisation. Buying needs the user's approval. The two are linked by timing only.\n\nSource: The Next Web, \"UK finance watchdog warns AI agent builders they may need a licence\". #Meta"
+  "threads_caption": "Meta's AI shopping agent Muse launched in the UK the same day the UK's financial regulator said some personal AI agent products need authorisation. Its statement does not name Meta. Buying needs the user's approval.\n\nSource: The Next Web, \"UK finance watchdog warns AI agent builders they may need a licence\". #Meta"
 }
