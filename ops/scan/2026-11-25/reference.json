@@ -1,24 +1,64 @@
 {
- "fetched_at": "2026-11-25T04:47:19.020Z",
+ "fetched_at": "2026-11-25T12:39:16.579Z",
  "hours": 48,
  "accounts": [
   {
    "username": "ai.trend.kr",
-   "followers": 285260,
+   "followers": 285873,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 636,
-    "median_comments": 105
+    "median_engagement": 566,
+    "median_comments": 44
    },
    "posts": [
+    {
+     "timestamp": "2026-11-25T11:50:04+0000",
+     "url": "https://www.instagram.com/reel/DgKdpCgurg9/",
+     "type": "VIDEO",
+     "likes": null,
+     "comments": 12,
+     "multiple": 0.3,
+     "multiple_basis": "comments",
+     "caption_start": "직접 사용해보고 싶다면 댓글에 ‘편집’ 달아주세요.🌙 기억이 지워지면 이런 모습이 아닐까요? 함께 달리던 사람이 점점 빛으로만 남는 장면, 예전 같으면 합성 툴로 한참 씨름해야 했던 작업이었습니다. 이번엔 Higgsfield Editing Room 하나로 만들었어요. 컷마다 Swap person에 빛 실루엣 레퍼런스를 넣고, 여자만 바꾸라는 프롬프트를 적었죠. 손잡고 달리는 컷도, 나무 뒤로 사라지는 컷도 그 사람만 정확히 빛이 됩니다. 프롬프트와 Higgsfield Black Friday – "
+    },
+    {
+     "timestamp": "2026-11-25T09:42:40+0000",
+     "url": "https://www.instagram.com/p/DgKO_MFEdlR/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 555,
+     "comments": 8,
+     "multiple": 1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "쏟아지는 AI 과제 베끼기, MIT가 내린 결단 🎓 AI가 과제를 대신 해 주는 시대, 대학은 학생을 어떻게 평가해야 할까요? MIT 위원회가 이 질문에 내놓은 답은 과제 대신 볼 새로운 기준 네 가지예요. 교수 앞에서 직접 답하며 생각의 과정을 말로 풀어내는 구술시험, 한 학기 동안 초안부터 고친 흔적까지 모아 제출하는 포트폴리오, 강의실에서 함께하는 팀 프로젝트, 그리고 모든 과목에 넣자는 대면 토론이에요. 토론에서 낸 의견까지 평가에 담겠다는 거죠. AI가 썼는지 잡아내는 탐지기에만 기대지"
+    },
+    {
+     "timestamp": "2026-11-25T08:02:40+0000",
+     "url": "https://www.instagram.com/p/DgKDitqETQB/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": null,
+     "comments": 3,
+     "multiple": 0.1,
+     "multiple_basis": "comments",
+     "caption_start": "웹툰 속 결혼식에 하객으로 초대받는다면? 💐 네이버웹툰 <재혼 황후> 속 나비에와 하인리의 재혼식에 직접 참석할 수 있는 ‘픽셀 재혼식’이 열렸어요. 시작은 하객 캐릭터 만들기입니다. 헤어스타일부터 드레스, 표정까지 취향대로 골라 나만의 픽셀 하객을 꾸미면 되거든요. 캐릭터가 완성되면 이제 식장에 들어갈 차례예요. 두 주인공에게 축하 메시지를 남기고, 다른 하객들과 단체 사진도 찍을 수 있죠. 방명록 구경도 꽤 쏠쏠한데요. 원작 캐릭터들이 남긴 축하 인사부터 소비에슈와 라스타를 향한 사이다 멘트"
+    },
+    {
+     "timestamp": "2026-11-25T07:23:51+0000",
+     "url": "https://www.instagram.com/reel/DgJ-4CVvtnn/",
+     "type": "VIDEO",
+     "likes": null,
+     "comments": 10,
+     "multiple": 0.2,
+     "multiple_basis": "comments",
+     "caption_start": "같은 장면, 같은 프롬프트인데 합리적인 가격으로도 이렇게 고퀄리티 영상을 뽑아낼 수 있습니다 👀 Sand.ai의 새 영상 모델 Magi-2(위)와 다른 모델(아래)을 비교해 봤어요. Magi-2는 지금 힉스필드에서 바로 사용할 수 있는데요. 합리적인 가격에 피부 질감, 조명, 표정까지 실사 영화 같은 디테일로 뽑아줍니다. 이런 영화 같은 AI 영상 비용 걱정 없이 생성해 보세요. 심지어 지금 힉스필드에서 블랙프라이데이 최대 70% 할인 중이니까 마음껏 사용해볼 수 있겠죠? 댓글에 ”AI“ 남겨주"
+    },
     {
      "timestamp": "2026-11-25T00:57:01+0000",
      "url": "https://www.instagram.com/reel/DgJSuhRvvVK/",
      "type": "VIDEO",
      "likes": null,
-     "comments": 33,
-     "multiple": 0.3,
+     "comments": 45,
+     "multiple": 1,
      "multiple_basis": "comments",
      "caption_start": "클로드한테 보고용 엑셀, PPT를 파일로 바로 받는 방법 클로드한테 보고서를 부탁하면 내용은 잘 나오는데, 그걸 엑셀이랑 PPT에 옮겨 붙이고 서식 맞추는 건 아직 내 일인가요? 설정에서 ”클라우드에서 코드 실행“ 하나만 켜 두면 클로드가 엑셀, PPT, 문서 스킬을 알아서 꺼내 써요. 따로 설치할 것도 없고, 무료 요금제에서도 쓸 수 있어요. 에디터가 매출 메모를 붙이고 ”차트 넣어서 엑셀로 만들어 줘“라고 했더니, 표와 차트가 든 엑셀 파일이 1분 만에 나왔어요. 같은 대화에서 ”이 엑셀로 보"
     },
@@ -26,9 +66,9 @@
      "timestamp": "2026-11-24T11:00:02+0000",
      "url": "https://www.instagram.com/p/DgHzJh2EgEw/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 2286,
-     "comments": 4673,
-     "multiple": 10.9,
+     "likes": 2809,
+     "comments": 5785,
+     "multiple": 15.2,
      "multiple_basis": "likes+comments",
      "caption_start": "클로드 코드를 만든 사람이 직접 ‘이렇게 쓰세요’ 하고 28분 동안 보여 줍니다. 🎬 클로드 코드를 처음 만든 앤트로픽의 보리스 체르니가 무대에서 자기가 쓰는 방식을 그대로 시연한 영상인데요. 앤트로픽 공식 유튜브에 무료로 올라와 있고, 지금 해외에서 이 영상을 소개한 게시물 하나에 댓글이 8만 개 넘게 달렸습니다. 처음 설치하고 꼭 해 둘 세팅, 내 파일에 질문하는 법, CLAUDE.md로 규칙을 기억시키는 법, 자주 쓰는 단축키, 여러 작업을 동시에 돌리는 법까지 한 영상에 들어 있어요. 다"
     },
@@ -37,8 +77,8 @@
      "url": "https://www.instagram.com/reel/DgHgFQFRw9v/",
      "type": "VIDEO",
      "likes": null,
-     "comments": 177,
-     "multiple": 1.7,
+     "comments": 202,
+     "multiple": 4.6,
      "multiple_basis": "comments",
      "caption_start": "클로드가 유튜브로 나 대신 공부합니다 📺 저장만 해 두고 안 본 강의 영상, 많으시죠? 깃허브 별 2만 개를 받은 무료 스킬 /watch를 클로드 코드에 설치하면, 영상 주소만 줘도 클로드가 화면은 사진으로, 말은 글로 뽑아 직접 봐요. 자막에 없는 화면 속 내용까지 읽어 내요. 에디터가 저장만 해 둔 브랜딩 강의 3편(조회수 합 236만)을 넣고 ”이거 보고 배워서 스킬로 만들어 줘“ 한마디 했더니, 클로드에 브랜딩 스킬이 생겼어요. 이제 소개글만 주면 강의에서 배운 대로 한 문장, 사연, 증"
     },
@@ -48,7 +88,7 @@
      "type": "VIDEO",
      "likes": null,
      "comments": 22,
-     "multiple": 0.2,
+     "multiple": 0.5,
      "multiple_basis": "comments",
      "caption_start": "클로드만으로 내 사진 화풍 20개로 바꾸는 법 영상 분위기를 바꿔 보고 싶어도, 화풍마다 다른 영상 AI를 찾아 결제하고 시험해 보기는 번거로워요. 카페 앞 벤치에 앉은 사람 사진 한 장을 클로드 대화창에 올리고, 화풍 이름만 바꿔 20번 보내 봤어요. 픽셀 아트부터 레고, 네온, 수묵화, 뜨개질까지 20개 모두 원래 사진을 알아볼 수 있으면서 독특한 비주얼이 나왔어요. 화면 녹화로 몇 초만 저장하면 릴스나 쇼츠로도 바로 쓸 수 있어요. 자료에는 화풍 20개를 바로 넣을 수 있는 복붙 프롬프트와 "
     },
@@ -56,9 +96,9 @@
      "timestamp": "2026-11-23T20:42:33+0000",
      "url": "https://www.instagram.com/reel/DgGQ1dtTjSG/",
      "type": "VIDEO",
-     "likes": 2830,
+     "likes": 2838,
      "comments": 44,
-     "multiple": 4.5,
+     "multiple": 5.1,
      "multiple_basis": "likes+comments",
      "caption_start": "”복귀는 없다“던 이사회가 일주일도 안 돼 결정을 뒤집었어요 😮 엔비디아는 11월 23일(현지시간) 젠슨 황이 CEO와 사장, 이사로 복귀한다고 발표했습니다. 사임 발표 11일 만이고, 이사회 만장일치였어요. 이사회는 미국 정부 고위급의 의견을 들은 뒤 국가 안보 위험이 없다고 판단했다고 밝혔습니다. 다만 젠슨 황이 외국 정보기관의 표적이 됐다는 보도와 관련한 독립 조사는 계속 진행되고 있습니다. 복귀 첫날 본사는 직원들의 환호로 가득 찼고, 젠슨 황은 ”두 번째엔 더 나은 CEO가 되겠다“고 "
     },
@@ -66,41 +106,51 @@
      "timestamp": "2026-11-23T12:53:30+0000",
      "url": "https://www.instagram.com/reel/DgFbIJ0P05F/",
      "type": "VIDEO",
-     "likes": 212,
-     "comments": 105,
-     "multiple": 0.5,
+     "likes": 221,
+     "comments": 117,
+     "multiple": 0.6,
      "multiple_basis": "likes+comments",
      "caption_start": "직접 사용해보고 싶다면 ’조명‘ 댓글 달아주세요. 재촬영은 0번, 조명 스타일은 26가지 💡 촬영 끝나고 ”조명을 좀 더 따뜻하게 갈걸“ 하고 후회한 적 있으시죠? 이제는 다시 찍지 않아도 됩니다. 찍어 둔 영상 하나를 Seedance 2.5 편집 모드에 넣고 원하는 조명을 문장으로 적으면, 인물·구도·동작은 그대로 두고 빛만 새로 입혀 줘요. 하이키로 화사하게, 로우키로 묵직하게, 틸 앤 오렌지로 영화처럼. 26개 조명이 전부 같은 원본 영상 하나에서 나왔습니다. 한 컷으로 무드 시안을 여러 "
-    },
-    {
-     "timestamp": "2026-11-23T09:46:43+0000",
-     "url": "https://www.instagram.com/reel/DgFFrhxvlDN/",
-     "type": "VIDEO",
-     "likes": 430,
-     "comments": 9,
-     "multiple": 0.7,
-     "multiple_basis": "likes+comments",
-     "caption_start": "막차 끊긴 날, 남은 방이 하나라고요? ❄️ 로맨스 영화에서 ‘방도 하나, 침대도 하나’ 장면 나오면 괜히 설레잖아요. 한 AI 크리에이터(whimsicalacademy)가 뻔한데 못 참는 그 장면을 크리스마스 로맨스로 만들었어요. 이 영상에는 진짜 연애 고수가 따로 있습니다. 바로 호텔 주인 할머니인데요. 막차를 놓친 두 남녀가 찾아오자 할머니는 ”방은 하나, 침대도 하나“라며 열쇠 하나만 건넵니다. 어색하게 베개 벽까지 쌓던 두 사람은 아침이 되자 서로에게 기대 잠들어 있죠. 반전은 마지막 장"
     }
    ]
   },
   {
    "username": "sdk.kim.builds",
-   "followers": 68911,
+   "followers": 69045,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 268,
-    "median_comments": 194
+    "median_engagement": 217,
+    "median_comments": 150
    },
    "posts": [
+    {
+     "timestamp": "2026-11-25T09:02:26+0000",
+     "url": "https://www.instagram.com/reel/DgKKTaKOABG/",
+     "type": "VIDEO",
+     "likes": 12,
+     "comments": 0,
+     "multiple": 0.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "#광고 찍는 건 10분, 편집은 하루… 이제 말로 시켜요 🎬 챗GPT(ChatGPT)에 내장된 캡컷(CapCut) 플러그인 하나로 ✔ 촬영본 올리고 \"NG 자르고 자막 넣어줘\" → 캡컷 AI가 컷 편집 ✔ \"효과음이랑 음악 넣어줘\" → 캡컷 라이브러리에서 골라 바로 적용 ✔ 더 만지고 싶으면 캡컷에서 그대로 열어서 세부 편집 ✔ 내 편집 스타일은 스킬로 저장 → 다음엔 한 마디로 같은 톤 Try GPT-6.2 Astra now on CapCut plugin 👉 지금 바로 써보기: 프로필 링크 "
+    },
+    {
+     "timestamp": "2026-11-25T08:04:36+0000",
+     "url": "https://www.instagram.com/reel/DgKDrhli7QK/",
+     "type": "VIDEO",
+     "likes": 0,
+     "comments": 0,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "클로드는 내가 무슨 말을 해도 다 맞다고 하잖아요. 퇴사 고민해도 그러면 큰일이죠. 그래서 API로 480번 물어봤어요. 32살 직장인, 퇴사하고 온라인 쇼핑몰, 모아둔 돈 4천만 원, 판매 400건. 사연은 그대로 두고 끝 문장만 바꿨어요. ━━━━━━━━━━━━━━━━ ① 하라, 마라 둘 중에 고르게 하면 판결은 거의 그대로예요 → 애원해도 결론이 안 바뀌어요 → 그래서 믿을 만하다고 느끼게 돼요 ② 100점 만점으로 물으면 달라져요 → GPT는 그냥 물으면 72점, 하고 싶다고 하면 77점이"
+    },
     {
      "timestamp": "2026-11-25T02:02:35+0000",
      "url": "https://www.instagram.com/p/DgJaT1NiNLJ/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 74,
-     "comments": 194,
-     "multiple": 1,
+     "likes": 179,
+     "comments": 534,
+     "multiple": 3.3,
      "multiple_basis": "likes+comments",
      "caption_start": "AI한테 \"보안 괜찮아?\" 물어보고 끝내셨나요. 그 코드를 짠 게 바로 그 AI예요. 자기가 만든 구멍은 자기 눈에 잘 안 보여요. 보안업체 베라코드가 AI 모델 100여 개가 짠 코드를 시험했더니 45%에서 해킹당할 수 있는 결함이 나왔어요(2025 GenAI Code Security Report). 클라우드플레어가 이 문제를 푸는 방법을 그대로 공개했어요. 자기네 사내 취약점 탐지 시스템이 처음 시작된 AI 스킬이에요. 깃허브 별 7.8만 개(11/25 기준), MIT 라이선스라 무료예요. 이"
     },
@@ -128,51 +178,41 @@
      "timestamp": "2026-11-24T02:03:55+0000",
      "url": "https://www.instagram.com/p/DgG1q7liIYk/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 166,
-     "comments": 261,
-     "multiple": 1.6,
+     "likes": 184,
+     "comments": 297,
+     "multiple": 2.2,
      "multiple_basis": "likes+comments",
      "caption_start": "바이브코딩으로 앱은 만들었는데 앱스토어에서 떨어지면 끝이 아니죠. 제출 전에 2초면 미리 잡을 수 있습니다. 애플이 공개한 2025년 자료를 보면 심사 910만 건 중 209만 건이 리젝됐습니다(약 23%). 그중 셋 중 둘이 '완성도' 항목이었어요. 만드는 것보다 통과가 어렵다는 말이 괜히 나온 게 아닙니다. app-store-compliance는 앱스토어·구글플레이 리젝 사유를 제출 전에 잡아 주는 무료 검사 도구입니다(깃허브 별 4천 9백여 개). → 앱 폴더를 넣으면 위험한 곳을 파일·줄 "
-    },
-    {
-     "timestamp": "2026-11-23T12:03:14+0000",
-     "url": "https://www.instagram.com/reel/DgFVYy8kZES/",
-     "type": "VIDEO",
-     "likes": 113,
-     "comments": 206,
-     "multiple": 1.2,
-     "multiple_basis": "likes+comments",
-     "caption_start": "#광고 11월 25일 전에 Claude로 꼭 만들어 볼 4가지 Claude에 힉스필드 MCP를 연결하면, 처음 쓰는 분은 3일 동안 이미지와 영상을 무제한으로 만들 수 있어요. 1. 좋아하는 사이트 느낌으로 내 웹사이트 만들기 2. Shorts Studio로 릴스 편집 맡기기 3. Seedance 2.5로 4K 영화 장면 만들기 4. 제품 사진 한 장을 GTA 느낌 광고로 바꾸기 지금 힉스필드는 블랙프라이데이 할인 중이에요. 무료 기간 끝나기 전에 해 보시려면 저장해 두세요. higgsfield."
-    },
-    {
-     "timestamp": "2026-11-23T08:04:55+0000",
-     "url": "https://www.instagram.com/reel/DgE6Hv9Ap2g/",
-     "type": "VIDEO",
-     "likes": 932,
-     "comments": 2031,
-     "multiple": 11.1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "MCP가 죽은 건 아니에요. 그런데 AI 에이전트가 도구를 쓰는 방식이 바뀌고 있어요. Cloudflare의 코드 모드는 도구가 많아질수록 커지는 문제, AI 기억 공간 소모를 정면으로 풀었어요. 작동 방식은 이래요. → 도구마다 설명서를 주는 대신 코드로 부르게 열어 둬요 → AI가 필요한 걸 한 번에 처리하는 코드를 짜요 → 그 코드는 샌드박스라는 안전한 공간에서 돌아가요 → 설명서를 통째로 넣는 대신 필요한 결과만 돌려줘요 Cloudflare는 API 2,500개로 이걸 보여 줬고, 도구 설"
     }
    ]
   },
   {
    "username": "moodmode.ai",
-   "followers": 162082,
+   "followers": 162212,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 446,
-    "median_comments": 12
+    "median_engagement": 588,
+    "median_comments": 13
    },
    "posts": [
+    {
+     "timestamp": "2026-11-25T09:48:38+0000",
+     "url": "https://www.instagram.com/p/DgKPq19kXA9/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 156,
+     "comments": 6,
+     "multiple": 0.3,
+     "multiple_basis": "likes+comments",
+     "caption_start": "우리나라 AI 고급 인력들은 이민을 고려중.. 한국은행이 국내 이공계 석박사 1,916명에게 물었더니 10명 중 4명이 3년 안에 해외 이직을 생각한다고 답했어요. 20~30대는 약 70%였고, 이유 1위는 돈(66.7%)이었어요. 미국 머신러닝 엔지니어 연봉 중간값은 레벨스 기준 약 28만 9천 달러, 우리 돈으로 약 4억 원이에요. 주식과 보너스를 합친 금액이고 본인이 올린 자료라 참고용으로 봐 주세요. 그런데 연구 환경(61.1%)과 기회(48.8%)를 꼽은 사람도 많았어요. 저는 이 숫자가"
+    },
     {
      "timestamp": "2026-11-25T04:26:57+0000",
      "url": "https://www.instagram.com/reel/DgJqo48Rklb/",
      "type": "VIDEO",
-     "likes": 34,
-     "comments": 3,
-     "multiple": 0.1,
+     "likes": 1629,
+     "comments": 27,
+     "multiple": 2.8,
      "multiple_basis": "likes+comments",
      "caption_start": "항상 나를 먼저 챙겨주셨던 부모님의 마음을 이어서.. 어릴 땐 아빠 옆에 앉아 놀던 딸이 자라고, 결혼하고, 어느새 자기 아이와 놀이공원에 와요. 저는 마지막 벤치 장면에서 처음의 아빠와 딸을 다시 떠올렸어요. 함께한 평범한 하루가 이렇게 오래 남으면 좋겠습니다. Original by throughwhatlens Edited by moodmode.ai"
     },
@@ -180,9 +220,9 @@
      "timestamp": "2026-11-25T01:02:19+0000",
      "url": "https://www.instagram.com/reel/DgJTPsUx_Tq/",
      "type": "VIDEO",
-     "likes": 141,
-     "comments": 3,
-     "multiple": 0.3,
+     "likes": 339,
+     "comments": 9,
+     "multiple": 0.6,
      "multiple_basis": "likes+comments",
      "caption_start": "저승사자도 예상치 못한 반전ㄷㄷ 자신을 데리러 온 줄 알고 담담하게 받아들이던 할머니. 그런데 저승사자가 가리킨 건 뒤에서 놀던 고양이였어요. 잠깐 기다리라는 한마디 뒤로 분위기가 뒤집힙니다. Original by lam.aifilm Edited by moodmode.ai"
     },
@@ -191,7 +231,7 @@
      "url": "https://www.instagram.com/reel/DgILTE3Th06/",
      "type": "VIDEO",
      "likes": null,
-     "comments": 12,
+     "comments": 13,
      "multiple": 1,
      "multiple_basis": "comments",
      "caption_start": "#광고 내 캐릭터를 직접 3D로 돌려보고 싶었다면 햄스터 그림을 트리포 CLI로 3D 모델로 만들어봤어요. 클로드 Code에 부탁하면 트리포를 불러 모델을 만들고 작업 폴더에 저장해 줘요. CLI 개발자 초대 코드 2ACAKK4Z7J를 입력하거나 전용 링크로 가입하면 보너스 크레딧과 API 혜택을 받을 수 있어요. Tripo Studio 블랙프라이데이도 진행 중이에요. 11월 23일~12월 4일, 가입 후 24시간 안에 Pro 또는 Max 요금제를 구매하면 최대 65% 할인과 2개월분 보너스 크레"
@@ -200,9 +240,9 @@
      "timestamp": "2026-11-24T07:58:26+0000",
      "url": "https://www.instagram.com/p/DgHeQzjEbcw/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 190,
-     "comments": 588,
-     "multiple": 1.7,
+     "likes": 197,
+     "comments": 646,
+     "multiple": 1.4,
      "multiple_basis": "likes+comments",
      "caption_start": "GPT로 커플사진 10종 바꿔보자 ㄱㄱ 유치원 소풍 사진부터 뉴스 인터뷰, 인생네컷, 스티커사진까지. 열애설·싸이월드에 연애 예능 최종선택, 크리스마스는 나홀로 집에 포스터·산타 루돌프·눈사람 세 가지로 준비했어요. ChatGPT 새 대화에 사진 두 장을 올리고, 원하는 프롬프트를 붙여 넣어 보내면 끝이에요. 미리 등록할 필요 없어요. 뉴스·최종선택·나홀로 집에는 방송 화면이나 포스터 한 장을 같이 올리면 진짜처럼 나와요. 아무 댓글이나 남겨 주시면 프롬프트 10종 전문과 얼굴이 안 닮을 때 쓰는"
     },
@@ -210,9 +250,9 @@
      "timestamp": "2026-11-24T01:56:03+0000",
      "url": "https://www.instagram.com/reel/DgG0qzWx8uq/",
      "type": "VIDEO",
-     "likes": 318,
+     "likes": 324,
      "comments": 2,
-     "multiple": 0.7,
+     "multiple": 0.6,
      "multiple_basis": "likes+comments",
      "caption_start": "해외에서 바이럴중인 젠슨황 밈ㅋㅋㅋ 사임했던 젠슨 황이 엔비디아로 돌아온 날을 상상해서 만든 영상이에요. 바닥에 누워 있던 사람을 일으켜 세우더니 수십 명이 어깨동무하고 뜁니다ㅋㅋ 실제 촬영이 아니라 AI로 만든 패러디인데, 좋아요가 12만 개 넘게 붙었어요. 원작자는 trymelius 로 만들었다고 밝혔습니다. 실존 인물이 나오지만 실제 상황이 아닌 AI 생성 영상이에요. Edited by moodmode.ai"
     },
@@ -220,41 +260,31 @@
      "timestamp": "2026-11-23T14:13:03+0000",
      "url": "https://www.instagram.com/p/DgFkVs0kR7F/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 886,
+     "likes": 887,
      "comments": 13,
-     "multiple": 2,
+     "multiple": 1.5,
      "multiple_basis": "likes+comments",
      "caption_start": "사임 11일 만에 젠슨 황이 엔비디아로 돌아왔어요.. 엔비디아 이사회가 11월 23일 만장일치로 젠슨 황을 CEO와 이사로 즉시 복귀시켰어요. 여러 차례 면담 끝에 회사를 이끌 능력을 믿는다고 밝혔고, 미국 정부 고위층 의견도 들었다고 해요. 다만 끝난 건 아니에요. 이사회의 독립 조사는 끝까지 이어지고, 하원 3개 위원회도 12월 1일 비공개 면담을 요구한 상태예요. 젠슨 황은 ”빨리 일터로 돌아가고 싶다“며 조사에 성실히 협조하겠다고 했어요. 이번 복귀, 여러분은 어떻게 보세요? 댓글로 알려주"
-    },
-    {
-     "timestamp": "2026-11-23T11:04:28+0000",
-     "url": "https://www.instagram.com/reel/DgFOjs0RmnW/",
-     "type": "VIDEO",
-     "likes": null,
-     "comments": 37,
-     "multiple": 3.1,
-     "multiple_basis": "comments",
-     "caption_start": "시댄스 30일 무제한으로 영화 명장면 주인공을 바꿔봤더니.. #광고 거울 앞에서 혼자 머리를 미는 그 명장면, 동작은 그대로 두고 사람만 시바견이랑 세종대왕으로 바꿨어요. 드리미나 웹에서 동영상 다시 만들기를 열고, 원본 장면이랑 바꿀 인물 사진을 넣은 뒤 어떻게 바꿀지 한 줄 쓰면 끝이에요. 저는 곤룡포 입혀 달라고 한 줄 더 썼더니 옷까지 장면에 맞게 바뀌더라고요. 지금 블랙프라이데이 혜택으로 드리미나 스탠다드 분기 멤버십은 시댄스 2.5·2.0 30일, GPT 이미지 2.5 60일 무제한이에"
     }
    ]
   },
   {
    "username": "trenddalkak.ai",
-   "followers": 67073,
+   "followers": 67088,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 279,
-    "median_comments": 43
+    "median_engagement": 286,
+    "median_comments": 53
    },
    "posts": [
     {
      "timestamp": "2026-11-24T23:00:05+0000",
      "url": "https://www.instagram.com/reel/DgJFdNBJrgK/",
      "type": "VIDEO",
-     "likes": 384,
-     "comments": 17,
-     "multiple": 1.4,
+     "likes": 934,
+     "comments": 26,
+     "multiple": 3.4,
      "multiple_basis": "likes+comments",
      "caption_start": "엔비디아 황스데이🔫 NVIDIA HWANGSDAY 엑스맨 소집 대사가 전 여친 소환 주문이 됐습니다 💀 11월 23일 공개된 〈어벤져스: 둠스데이〉 최종 예고편. 그중 화제가 된 장면은 사이클롭스가 동료들을 부르며 외치는 한마디입니다. “To me, my X-Men.” “엑스맨들이여, 내게로!” AI 아티스트: aiastra0 님께서 제작하신 젠슨 황 버전 AI 패러디 버전이 레전드입니다 “To me, my ex-girlfriends.” “전 여친들이여, 내게로!” 영웅들을 집결시키던 비장한 "
     },
@@ -262,61 +292,71 @@
      "timestamp": "2026-11-24T09:52:13+0000",
      "url": "https://www.instagram.com/reel/DgHrCsLhtwt/",
      "type": "VIDEO",
-     "likes": 41,
-     "comments": 43,
-     "multiple": 0.3,
+     "likes": 46,
+     "comments": 56,
+     "multiple": 0.4,
      "multiple_basis": "likes+comments",
      "caption_start": "🔥힉필 블프 3일......가즈아🔥 ai생성이 무제한이라면 당장 지금 만들어볼 4가지를 모았습니다. Claude에 Higgsfield MCP를 연결하면 이미지·영상 생성을 채팅으로 요청할 수 있습니다. 🖥️ 웹사이트 만들기 흔한 웹사이트 말고 인터렉티브 픽셀 슬라이더를 만들어보았어요. 자세한 프롬프트는 가이드에 있습니다. 여러분도 여러분만의 캐릭터로 만들어보셔요. 전 크리스마스를 기다리는 고양이 컨셉으로 만들어봄!! ✂️ Shorts Studio로 릴스 편집하기 내 영상에 말과 맞는 컷 편집"
-    },
-    {
-     "timestamp": "2026-11-23T12:34:16+0000",
-     "url": "https://www.instagram.com/reel/DgFYm8fBBj-/",
-     "type": "VIDEO",
-     "likes": 54,
-     "comments": 2,
-     "multiple": 0.2,
-     "multiple_basis": "likes+comments",
-     "caption_start": "AI 크리에이터 rezai.studio의 두더지 아빠 이야기, PART 2입니다. 🎬 1편에서 아이의 안경을 사기 위해 매일 맞으러 출근하던 아빠. 이번 편에서는 아빠가 두더지 잡기로 돈을 벌게 된 사연을 따라갑니다. 게임 속에서는 맞을 때마다 점수가 올라갔지만, 그 안에 있는 아빠에게 어떤 사정이 있었는지는 생각해 본 적 없었습니다. 그 하루가 어떻게 시작됐는지 알고 나면, 다시 고개를 내미는 두더지의 모습도 다르게 다가오네요..🥲 여러분은 1편과 2편 중 어떤 이야기가 더 마음에 남으셨나요"
-    },
-    {
-     "timestamp": "2026-11-23T12:18:23+0000",
-     "url": "https://www.instagram.com/reel/DgFW7M9hxfh/",
-     "type": "VIDEO",
-     "likes": 261,
-     "comments": 10,
-     "multiple": 1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "우리가 때리던 두더지는, 누군가의 아빠였습니다. 🔨 9,400만 뷰를 기록한 AI 크리에이터 rezai.studio의 단편을 소개합니다. 🎬 PART 1 오락실에서 망치에 맞고 동전을 받는 두더지 아빠. 아빠가 버티는 이유는 하나입니다. 책 속 글씨가 잘 보이지 않는 아이에게 안경을 사주고 싶었기 때문입니다. 우리에게는 잠깐의 게임이었던 일이, 누군가에게는 가족을 지키기 위한 하루였습니다. 익숙한 두더지 잡기를 아빠의 시선으로 바라보니, 망치를 드는 마음도 달라집니다. 🥲 여러분은 이 이야기"
-    },
-    {
-     "timestamp": "2026-11-23T11:32:53+0000",
-     "url": "https://www.instagram.com/reel/DgFRlytBQ7y/",
-     "type": "VIDEO",
-     "likes": 131,
-     "comments": 5,
-     "multiple": 0.5,
-     "multiple_basis": "likes+comments",
-     "caption_start": "이게 진짜 ‘신의 시점’이지 👀 현실을 게임처럼 실시간 렌더링하는 테슬라 FSD V15. 하늘에 카메라가 달린 듯 보이는 이 화면. 한국 시간 11월 22일 공개된 리얼리티 뷰(Tesla Reality View)입니다. 차량 카메라가 포착한 주변 정보를 AI가 실시간으로 재구성해, 내 차를 위에서 내려다보는 듯한 화면으로 보여줍니다. 지금 지나가는 도로와 주변 차량, 보행자, 건물 등이 게임 같은 시점으로 펼쳐지는 것이죠. 어떻게 이런 화면을 만들까요? 머스크의 설명에 따르면, 카메라 영상에서 "
     }
    ]
   },
   {
    "username": "prompt_what",
-   "followers": 258259,
+   "followers": 258709,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 267,
-    "median_comments": 70
+    "median_engagement": 180,
+    "median_comments": 71
    },
    "posts": [
+    {
+     "timestamp": "2026-11-25T10:24:11+0000",
+     "url": "https://www.instagram.com/reel/DgKTsFIuED8/",
+     "type": "VIDEO",
+     "likes": 7,
+     "comments": 8,
+     "multiple": 0.1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "매달 나가는 AI 구독료, 그림만큼은 내 맥에서 무료로 해결됩니다 🎨 Open Generative AI는 이미지와 영상, 립싱크 도구를 한 앱에 모은 무료 오픈소스 프로그램으로 개발자들이 모이는 깃허브에서 별표만 3만 6천 개를 받았어요. 그림은 모델 하나만 내려받으면 내 맥이 직접 만들어 돈이 들지 않고 영상과 립싱크는 클라우드 모델을 연결해 사용한 만큼만 요금이 나갑니다. 맥에 설치하고 처음 여는 순서까지 정리했으니 댓글에 '영상' 남겨주시면 DM으로 보내드릴게요! 📌 설치 파일은 맥·윈도"
+    },
+    {
+     "timestamp": "2026-11-25T10:03:56+0000",
+     "url": "https://www.instagram.com/reel/DgKRXcLBIa3/",
+     "type": "VIDEO",
+     "likes": 96,
+     "comments": 76,
+     "multiple": 1,
+     "multiple_basis": "likes+comments",
+     "caption_start": "오후 3시에 클로드 한도가 끝나 버린다면, 깔아 둘 도구 3가지 🔋 클로드는 그대로 두고 도구 세 개만 깔아 두면 파일을 다시 읽고 코드를 길게 작성하던 토큰은 줄고 한도가 차도 무료 모델로 넘어가 작업이 이어집니다. 세 도구 설치 명령어부터 클로드 코드에 연결하는 순서까지 댓글에 '토큰' 남겨주시면 전부 보내드릴게요! If your Claude limit runs out by 3 PM, here are 3 tools to install 🔋 Keep Claude as it is and add "
+    },
+    {
+     "timestamp": "2026-11-25T07:38:38+0000",
+     "url": "https://www.instagram.com/p/DgKAypkEXjv/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 483,
+     "comments": 422,
+     "multiple": 5,
+     "multiple_basis": "likes+comments",
+     "caption_start": "이번 주말엔 넷플릭스 말고 이거 어때요? 🍿 클로드 코드를 만든 보리스 체르니가 직접 무대에 올라 설치 직후 설정부터 CLAUDE.md로 규칙을 기억시키는 법까지 처음 사용하는 순서 그대로 28분 동안 보여 주는 강의입니다. 1년 반 전 영상이지만 조회수 180만 회가 넘도록 꾸준히 보는 강의라 바뀐 단축키 몇 개만 챙기면 지금도 그대로 따라 할 수 있어요. 구간을 누르면 그 장면부터 열리는 한국어 자막본은 아무 댓글 남겨주시면 DM으로 보내드릴게요! How about this instead o"
+    },
+    {
+     "timestamp": "2026-11-25T06:47:21+0000",
+     "url": "https://www.instagram.com/p/DgJ67EtoxW5/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 632,
+     "comments": 189,
+     "multiple": 4.6,
+     "multiple_basis": "likes+comments",
+     "caption_start": "필요한 앱은 이제 클로드에게 말로 주문해 내 PC에 설치하면 됩니다 🖥️ 대화 옆 창에 만들어 주던 계산기나 대시보드 같은 아티팩트를 맥·윈도우용 클로드 앱에서 ’앱으로 설치‘하면 내 아이콘을 단 별도 창으로 바로 열리고 무료를 포함한 모든 요금제에서 베타로 사용할 수 있어요. 에디터도 광고비 실수령액 계산기를 주문해 직접 설치해 보니 확인 창 한 번에 Dock 아이콘이 생기고 API 키도 필요 없었습니다. 앱이 보내는 요청은 요금제 사용량에 포함되니 매일 여는 화면 하나부터 앱으로 만들어 두고"
+    },
     {
      "timestamp": "2026-11-25T03:39:59+0000",
      "url": "https://www.instagram.com/reel/DgJlZq3hZNR/",
      "type": "VIDEO",
-     "likes": 8,
-     "comments": 12,
-     "multiple": 0.1,
+     "likes": 28,
+     "comments": 38,
+     "multiple": 0.4,
      "multiple_basis": "likes+comments",
      "caption_start": "김장날 몰래 배추 속 먹다 걸린 손녀, 할머니는 속쌈부터 싸 줍니다 🥬 Pollo AI(pollo.ai_official pollo.ai_kr) 앱 「스토리 영상」에 이 이야기를 한 줄로 넣으면 컷이 넘어가도 할머니와 손녀, 김장 마당이 그대로 이어지는 대사 있는 애니 한 편이 완성됩니다. 앱 받는 링크부터 그대로 붙여 넣는 프롬프트까지 댓글에 '폴로' 남겨주시면 전부 보내드릴게요! Caught sneaking kimchi filling, and grandma wraps her the best b"
     },
@@ -324,9 +364,9 @@
      "timestamp": "2026-11-25T02:32:30+0000",
      "url": "https://www.instagram.com/reel/DgJdsx0AfHM/",
      "type": "VIDEO",
-     "likes": 2,
-     "comments": 6,
-     "multiple": 0,
+     "likes": 7,
+     "comments": 11,
+     "multiple": 0.1,
      "multiple_basis": "likes+comments",
      "caption_start": "아침마다 앱 세 개를 열고 있다면, 이제 비서가 먼저 말해줍니다 🌅 스탠퍼드 연구실이 무료 오픈소스로 공개한 OpenJarvis는 지메일과 캘린더를 한 번만 연결해 두면 오늘 일정과 밀린 메일을 아침마다 소리 내어 브리핑해줘요. 설치 명령어부터 지메일·캘린더를 연결하는 순서까지 댓글에 '자비스' 남겨주시면 전부 보내드릴게요! If you open three apps every morning, now your assistant speaks first 🌅 OpenJarvis is a free, o"
     },
@@ -334,9 +374,9 @@
      "timestamp": "2026-11-25T00:03:20+0000",
      "url": "https://www.instagram.com/reel/DgJMozEAB2-/",
      "type": "VIDEO",
-     "likes": 27,
-     "comments": 10,
-     "multiple": 0.1,
+     "likes": 34,
+     "comments": 18,
+     "multiple": 0.3,
      "multiple_basis": "likes+comments",
      "caption_start": "요즘 광고 영상 왜 이렇게 잘 나오냐구요? 드리미나는 바이트댄스가 만든 AI 크리에이티브 플랫폼이고 영상 모델 Seedance도 바이트댄스가 만들었어요. 모션 스튜디오에 헤드폰 사진 한 장을 올리고 스타일만 바꾸면 3D 쇼케이스, 상세페이지 카드, 브랜드 필름까지 같은 제품 그대로 만들어집니다. 기간 한정 블랙프라이데이 혜택으로 해당 멤버십 플랜이면 Seedance 2.5 / 2.0은 최대 30일, GPT Image 2.5는 60일 동안 무제한이고 모션 스튜디오는 무제한 대상이 아니니 포함 혜택은"
     },
@@ -345,7 +385,7 @@
      "url": "https://www.instagram.com/reel/DgIBKdFiKfa/",
      "type": "VIDEO",
      "likes": 2,
-     "comments": 1,
+     "comments": 2,
      "multiple": 0,
      "multiple_basis": "likes+comments",
      "caption_start": "문장 한 줄로 만든 애니메이션 단편 🎬 클로드에 스킬 하나를 넣고 이야기를 한 줄로 적으면 장면 나누기부터 그림·영상 프롬프트까지 차례로 나와서 콘티 짜던 단계를 통째로 건너뛸 수 있어요. 스킬 파일부터 따라 하는 사용법까지 댓글에 '애니' 남겨주시면 DM으로 전부 보내드릴게요! An animated short film made from a single sentence 🎬 Add one skill to Claude and write your story in a single line, and i"
@@ -364,9 +404,9 @@
      "timestamp": "2026-11-24T10:30:15+0000",
      "url": "https://www.instagram.com/reel/DgHvlhCk3KD/",
      "type": "VIDEO",
-     "likes": 481,
-     "comments": 537,
-     "multiple": 3.8,
+     "likes": 551,
+     "comments": 653,
+     "multiple": 6.7,
      "multiple_basis": "likes+comments",
      "caption_start": "오후 3시에 클로드 한도가 끝나 버린다면, 깔아 둘 도구 3가지 🔋 클로드는 그대로 두고 도구 세 개만 깔아 두면 파일을 다시 읽고 코드를 길게 작성하던 토큰은 줄고 한도가 차도 무료 모델로 넘어가 작업이 이어집니다. 세 도구 설치 명령어부터 클로드 코드에 연결하는 순서까지 댓글에 '토큰' 남겨주시면 전부 보내드릴게요! If your Claude limit runs out by 3 PM, here are 3 tools to install 🔋 Keep Claude as it is and add "
     },
@@ -374,9 +414,9 @@
      "timestamp": "2026-11-24T10:04:22+0000",
      "url": "https://www.instagram.com/reel/DgHsl9wnGc3/",
      "type": "VIDEO",
-     "likes": 245,
-     "comments": 244,
-     "multiple": 1.8,
+     "likes": 332,
+     "comments": 310,
+     "multiple": 3.6,
      "multiple_basis": "likes+comments",
      "caption_start": "영상 수정을 말로 설명하다 보면 같은 지적을 계속 반복하게 되죠? 📍 「12초 자막 위로」 한마디도 어느 줄인지, 어느 쪽인지 몇 번씩 오가는데 멈춘 화면 위에 그 자리를 바로 찍어 보내면 클로드가 알아서 고쳐줍니다. 이 피드백 사이트를 만든 순서부터 그때 작성한 요청문까지 댓글에 '피드백' 남겨주시면 DM으로 전부 보내드릴게요! Explaining video edits in words? You end up repeating the same note over and over 📍 Even \"mo"
     },
@@ -384,9 +424,9 @@
      "timestamp": "2026-11-24T07:18:13+0000",
      "url": "https://www.instagram.com/reel/DgHZmyziDvF/",
      "type": "VIDEO",
-     "likes": 83,
-     "comments": 35,
-     "multiple": 0.4,
+     "likes": 90,
+     "comments": 38,
+     "multiple": 0.7,
      "multiple_basis": "likes+comments",
      "caption_start": "디자이너들 환호할 미친 기능이 나왔습니다 🍓 드리미나 마케팅 스튜디오에 한국어 포스터 한 장을 올리면 디자인은 그대로 둔 채 글자만 15개 언어로 바뀌고 릴스부터 유튜브 썸네일까지 플랫폼별 크기도 한 번에 맞춰집니다. 블랙프라이데이 한정으로 첫 달이 409원이라 프로필 링크에서 PC로 바로 시작해볼 수 있어요. 마케팅 스튜디오 할인 링크는 댓글에 'Dreamina' 남겨주시면 DM으로 보내드릴게요! The feature designers will cheer for is here 🍓 Upload"
     },
@@ -394,61 +434,41 @@
      "timestamp": "2026-11-24T05:27:21+0000",
      "url": "https://www.instagram.com/p/DgHM-NakaC2/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 338,
-     "comments": 227,
-     "multiple": 2.1,
+     "likes": 368,
+     "comments": 255,
+     "multiple": 3.5,
      "multiple_basis": "likes+comments",
      "caption_start": "AI 영상이 자꾸 밋밋하다면, 범인은 카메라에요 🎥 인물도 장소도 그대로인데 카메라 움직임 하나로 설렘이 되고, 긴장이 되고, 엔딩이 됩니다. 촬영장에서 실제로 부르는 무빙 이름 20개만 알면 프롬프트 한 줄로 감독처럼 찍을 수 있어요. 참고 이미지 붙이는 법부터 무빙 문장 20개까지 ✅prompt_what 계정 팔로우 후 DM으로 ‘카메라’ 라고 보내주시면 정리된 자료를 보내드릴게요! If your AI videos keep feeling flat, the camera is the culpri"
-    },
-    {
-     "timestamp": "2026-11-23T08:30:51+0000",
-     "url": "https://www.instagram.com/reel/DgE9G8DSG2i/",
-     "type": "VIDEO",
-     "likes": 59,
-     "comments": 118,
-     "multiple": 0.7,
-     "multiple_basis": "likes+comments",
-     "caption_start": "책 한 권 요약 끝내주는 ChatGPT 정리 코드 📚 PDF 파일 하나 올리고 슬래시 코드 한 줄만 보내면 긴 책도 생각 지도와 한 장 요약표, 관계도로 바로 정리돼요. 설정 프롬프트를 첫 메시지로 한 번 보내 두는 방식이라 코드만 바꿔 넣으면 같은 책을 여러 그림으로 볼 수 있습니다. 설정 프롬프트부터 비교표와 확인 문제 코드까지 댓글에 ‘요약’ 남겨주시면 전부 보내드릴게요! The ChatGPT codes that sum up a whole book 📚 Upload one PDF and s"
-    },
-    {
-     "timestamp": "2026-11-23T08:13:26+0000",
-     "url": "https://www.instagram.com/reel/DgE7GZGiJBg/",
-     "type": "VIDEO",
-     "likes": 348,
-     "comments": 209,
-     "multiple": 2.1,
-     "multiple_basis": "likes+comments",
-     "caption_start": "영상 수정을 말로 설명하다 보면 같은 지적만 10번째 하게 되죠 📍 「12초 자막 위로」 한마디도 어느 줄인지, 어느 쪽인지 몇 번씩 오가는데 멈춘 화면 위에 그 자리를 바로 찍어 보내면 클로드가 알아서 고쳐줍니다. 이 피드백 사이트를 만든 순서부터 그때 작성한 요청문까지 댓글에 '피드백' 남겨주시면 DM으로 전부 보내드릴게요! Explaining video edits in words? You end up giving the same note 10 times 📍 Even \"move the 12"
-    },
-    {
-     "timestamp": "2026-11-23T05:16:54+0000",
-     "url": "https://www.instagram.com/p/DgEm-3boxWN/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 458,
-     "comments": 164,
-     "multiple": 2.3,
-     "multiple_basis": "likes+comments",
-     "caption_start": "요즘 구글 폼이 심상치 않습니다, 2주 사이 새 모델만 셋 💎 11월 10일 Gemini 4 Carbon을 시작으로 Hydrogen과 Neon이 줄줄이 나왔는데 이름이 전부 수소·탄소·네온 같은 원소라 원자번호가 크다고 더 센 모델은 아니라는 점도 재밌어요. 맥 앱이 내 화면을 대신 누르는 기능과 한국에서도 무료인 심부름, 말로 코딩하는 안티그래비티 음성 모드까지 함께 열렸고 Carbon·Argon API 가격은 12월 1일부터 두 배가 됩니다. 내 일에 맞는 모델 고르는 법부터 새 기능 켜는 "
     }
    ]
   },
   {
    "username": "ai_freaks.kr",
-   "followers": 133937,
+   "followers": 133993,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 394,
-    "median_comments": 55
+    "median_engagement": 396.5,
+    "median_comments": 47
    },
    "posts": [
+    {
+     "timestamp": "2026-11-25T08:46:20+0000",
+     "url": "https://www.instagram.com/p/DgKIilgGrwU/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 483,
+     "comments": 16,
+     "multiple": 1.3,
+     "multiple_basis": "likes+comments",
+     "caption_start": "“로봇 연구원이 만든 포토부스 앱” 📸 해커톤 포토부스 대여비 100만 원이 아까워서 직접 만든 앱이 있어요. 지금은 누적 사용자 12만 명이 쓰는 ‘나만의네컷‘이에요. 이번 인터뷰의 주인공은 나만의네컷을 만든 서희찬 님입니다. 시작은 AI 코딩이 보편화되기 전인 3년 전이었어요. 코드를 깃허브에 공유하자 1만 명이 몰려왔고, 곧장 앱으로 출시해 앱스토어 3위까지 올랐죠. 그런데 그 뒤 1~2년은 한 달에 10만원, 딱 서버비 정도만 벌었다고 해요. 전환점은 바로 올 해! 클로드 코드로 1~2년"
+    },
     {
      "timestamp": "2026-11-25T01:33:36+0000",
      "url": "https://www.instagram.com/p/DgJXBIwGrfm/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 131,
-     "comments": 16,
-     "multiple": 0.4,
+     "likes": 224,
+     "comments": 31,
+     "multiple": 0.6,
      "multiple_basis": "likes+comments",
      "caption_start": "“AI 에이전트만 230개?! 당근은 이렇게 일해요” 🤖 직원 약 570명이 AI 에이전트 230개를 슬랙에서 불러 쓰고, 필요한 툴은 직접 만들기도 한다는 당근. 이번 ‘당근 빌더 밋업’에서 직원들이 공개한 AI 업무 활용 사례를 모아봤어요. 운영 매니저가 만든 툴은 6시간 걸리던 앱 리뷰 분류를 3분에 끝낸대요. 반면 AI로 30분 동안 못 끝낸 화면을 사람이 직접 그리니 6분이면 된 사례도 있었죠. 어떤 일을 맡길지 판단하고, 왜 그렇게 결정했는지 팀에 남기는 것까지. 당근 직원들의 AI "
     },
@@ -456,9 +476,9 @@
      "timestamp": "2026-11-24T12:12:37+0000",
      "url": "https://www.instagram.com/reel/DgH6munMpFf/",
      "type": "VIDEO",
-     "likes": 539,
-     "comments": 9,
-     "multiple": 1.4,
+     "likes": 745,
+     "comments": 14,
+     "multiple": 1.9,
      "multiple_basis": "likes+comments",
      "caption_start": "“녹는 북극을 인공적으로 다시 얼린다?” 🧊 영국 스타트업 ‘리얼 아이스‘가 북극 해빙을 인공으로 두껍게 만드는 실험에 성공했어요. 겨울에 얼음에 구멍을 뚫고 바닷물을 퍼 올리면, 바닷물이 눈과 섞인 뒤 추운 공기 속에서 얼어붙어요. 얼음 위에 한 겹을 더 쌓아서 여름에 덜 녹도록 만드는 거죠. 올해 5월 국제학술지 ‘어스 퓨처‘에 실린 결과를 보면, 약 25만㎡를 처리한 실험에서 두 차례 바닷물을 부은 일부 구역은 대조 구역보다 최대 32cm 두꺼워졌어요. 이 지역의 약 50년간 두께 감소량에"
     },
@@ -466,7 +486,7 @@
      "timestamp": "2026-11-24T09:20:34+0000",
      "url": "https://www.instagram.com/p/DgHnqWFGr8x/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 30,
+     "likes": 33,
      "comments": 2,
      "multiple": 0.1,
      "multiple_basis": "likes+comments",
@@ -476,7 +496,7 @@
      "timestamp": "2026-11-24T03:57:19+0000",
      "url": "https://www.instagram.com/p/DgHCq3iGmNs/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 188,
+     "likes": 193,
      "comments": 6,
      "multiple": 0.5,
      "multiple_basis": "likes+comments",
@@ -486,7 +506,7 @@
   },
   {
    "username": "ai.brief.kr",
-   "followers": 31769,
+   "followers": 31768,
    "ok": true,
    "baseline": {
     "posts": 25,
@@ -503,54 +523,44 @@
      "multiple": 0.2,
      "multiple_basis": "likes+comments",
      "caption_start": "🤯 CEO 한 명이 돌아왔을 뿐인데, 엔비디아 시총이 하루 만에 1,200조 원 불었습니다 ! 상위 1%를 위한 가장 빠른 AI 테크 브리핑입니다. 젠슨 황은 중국 스파이 의혹 인물과의 관계 논란으로 11월 12일에 33년 만에 엔비디아를 떠났어요. 이사회는 역대급 실적 발표 뒤에도 복귀는 없다고 못 박았죠. 그런데 트럼프의 공개 압박 하루 뒤인 11월 23일에 이사회가 만장일치로 입장을 뒤집고 그를 CEO로 즉시 복귀시켰어요. 대신 독립 조사는 계속하고 국가안보, 수출통제 위원회와 최고준법책임"
-    },
-    {
-     "timestamp": "2026-11-23T10:00:13+0000",
-     "url": "https://www.instagram.com/reel/DgFHQBDBXuc/",
-     "type": "VIDEO",
-     "likes": 72,
-     "comments": 8,
-     "multiple": 1.4,
-     "multiple_basis": "likes+comments",
-     "caption_start": "🔨😢 아빠 두더지 .. 속상하다 .. 아빠 두더지는 한 번도 망치를 피하지 않았어요.. 오락실에서 아무 생각 없이 내려치던 그 두더지 게임. 그 작은 머리에도 지켜야 할 가족이 있었다면요..? 맞을 때마다 동전 하나. 아프다는 말 대신, 아이 손에 쥐여 줄 안경 하나를 생각하며 오늘도 구멍 밖으로 고개를 내밀어요. 아빠 이마의 반창고가 왜 매일 하나씩 늘어나는지, 아이는 몰라요. 고된 하루가 끝나고 웃으며 집에 들어오시던 아버지가 생각나는 영상이네요.. 🔊 소리 켜고, 마지막 장면까지 꼭 봐"
     }
    ]
   },
   {
    "username": "ai.ainow",
-   "followers": 80198,
+   "followers": 80213,
    "ok": true,
    "baseline": {
     "posts": 25,
-    "median_engagement": 363,
-    "median_comments": 176
+    "median_engagement": 329,
+    "median_comments": 174
    },
    "posts": [
+    {
+     "timestamp": "2026-11-25T11:56:25+0000",
+     "url": "https://www.instagram.com/p/DgKeSwMnTjY/",
+     "type": "CAROUSEL_ALBUM",
+     "likes": 14,
+     "comments": 0,
+     "multiple": 0,
+     "multiple_basis": "likes+comments",
+     "caption_start": "🔥결과를 보려고 컴퓨터 앞에 붙어 있다면, 클로드 설정 화면부터 열어 보세요. 1. 리모트 컨트롤 → 이어 보기 출근길에 진행 상황을 확인해요. 2. 세션 시작 허용 → 폰에서 시키기 집 컴퓨터가 대신 일을 시작해요. 3. 권한 우회 모드 허용 → 맡겨 두기 퇴근 전 컴퓨터에서 맡긴 작업은 묻지 않고 끝까지 가요. 우회 모드는 전용 폴더에서만 켜 주세요. 💬 더 자세한 방법이 궁금하신 분들은 아무 댓글 남겨 주세요. #ai #클로드 #클로드코드"
+    },
     {
      "timestamp": "2026-11-24T11:50:42+0000",
      "url": "https://www.instagram.com/p/DgH42AqnX2w/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 54,
-     "comments": 117,
-     "multiple": 0.5,
-     "multiple_basis": "likes+comments",
-     "caption_start": "💻편집 프로그램을 새로 배우는 대신, 클로드가 읽을 설계도를 쥐여 주세요. 1. Remotion Skills → Remotion 팀이 낸 교본 처음 뽑아도 모양이 반듯해요. 2. Manim → 움직이는 도식 그래프가 자라나는 설명 영상이 나와요. 3. MCP for Blender → 3D를 말로 주문 제품 소개 장면까지 맡길 수 있어요. 마음에 안 들면 말로 한 줄 고치면 됩니다. 💬 설치 순서가 필요하신 분들은 아무 댓글 남겨 주세요. #ai #클로드 #영상편집"
-    },
-    {
-     "timestamp": "2026-11-23T11:16:12+0000",
-     "url": "https://www.instagram.com/p/DgFQGf_naC6/",
-     "type": "CAROUSEL_ALBUM",
-     "likes": 68,
-     "comments": 139,
+     "likes": 60,
+     "comments": 136,
      "multiple": 0.6,
      "multiple_basis": "likes+comments",
-     "caption_start": "🔥클로드코드를 켤 때마다 같은 설명을 반복하고 있다면, 이제 파일을 만들 차례예요. 1. CLAUDE.md → 첫날 적는 규칙 새 대화마다 자동으로 읽어요. 2. Skills · Subagents → 매뉴얼과 담당자 반복 업무는 알아서 꺼내고, 조사는 맡겨 결론만 받아요. 3. Hooks · MCP → 자동 규칙과 앱 연결 깜빡해도 빠지지 않고, 노션까지 바로 닿아요. 한 번에 다 만들 필요 없이 순서대로 하나씩 늘리면 됩니다. 💬 파일별 예시가 필요하면 아무 댓글 남겨 주세요. #ai #클로"
+     "caption_start": "💻편집 프로그램을 새로 배우는 대신, 클로드가 읽을 설계도를 쥐여 주세요. 1. Remotion Skills → Remotion 팀이 낸 교본 처음 뽑아도 모양이 반듯해요. 2. Manim → 움직이는 도식 그래프가 자라나는 설명 영상이 나와요. 3. MCP for Blender → 3D를 말로 주문 제품 소개 장면까지 맡길 수 있어요. 마음에 안 들면 말로 한 줄 고치면 됩니다. 💬 설치 순서가 필요하신 분들은 아무 댓글 남겨 주세요. #ai #클로드 #영상편집"
     }
    ]
   },
   {
    "username": "mktg.with.ai",
-   "followers": 11960,
+   "followers": 12006,
    "ok": true,
    "baseline": {
     "posts": 25,
@@ -559,12 +569,22 @@
    },
    "posts": [
     {
+     "timestamp": "2026-11-25T09:35:28+0000",
+     "url": "https://www.instagram.com/reel/DgKOCIcBWE-/",
+     "type": "VIDEO",
+     "likes": 2,
+     "comments": 3,
+     "multiple": 0.3,
+     "multiple_basis": "likes+comments",
+     "caption_start": "한 컷 찍었는데, 앵글이 6개 나왔어요 🎥 고정해 둔 장면 하나로 45도, 얼굴 클로즈업, 물줄기 매크로, 컵 안 시점, 위에서 내려다본 컷, 완성 컷까지 멀티캠처럼 만드는 방법이에요. 카메라를 여러 대 둘 필요도, 앵글마다 다시 찍을 필요도 없어요. 방법은 네 단계예요. 동작이 확실한 장면을 한 번 찍고, 인물·장소 시트를 만들고, 클로드에 원하는 앵글을 초 단위로 적은 다음, 힉스필드 MCP로 시댄스 2.5에 생성을 맡기면 돼요. 가게 소개 영상이나 제품 영상에 쓰기 좋아요. 📩 아무 댓글"
+    },
+    {
      "timestamp": "2026-11-24T09:05:41+0000",
      "url": "https://www.instagram.com/p/DgHl2huFfr_/",
      "type": "CAROUSEL_ALBUM",
-     "likes": 13,
-     "comments": 0,
-     "multiple": 0.8,
+     "likes": 61,
+     "comments": 9,
+     "multiple": 4.1,
      "multiple_basis": "likes+comments",
      "caption_start": "손님은 이제 검색창 대신 챗GPT에 \"어디가 좋아?\"라고 물어요. 그런데 그 답에 우리 브랜드가 어떻게 나오는지, 지금까지는 알 방법이 없었죠 🤔 OpenAI가 11월 10일 챗GPT에 비즈니스 프로필을 직접 등록하는 Business Hub를 베타로 열었어요. 소유 인증을 마치면 소개 문구·로고·정책을 직접 고치고, 지난 28일 동안 챗GPT가 내 사이트를 몇 번 언급했는지, 클릭이 몇 번 났는지도 볼 수 있어요 📊 직접 들어가 봤더니 매장은 아직 대기 명단이었고, 자사몰 도메인이 있는 온라인"
     }
