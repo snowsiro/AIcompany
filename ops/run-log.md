@@ -2,6 +2,20 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-25
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11-24) 도달 11 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)
+결정할 일
+1. 게시물: `2026-11-25-anthropic-openai-vp-vnp` (GLOBAL AI · RESEARCH, 점수 8 = 글로벌 3 + 숫자 2 + 유럽 매체 3). heise online 단일 출처(독일어, 원문 확인). 전부 "said to/says"로 귀속, 전문가 확인 대기 중임을 슬라이드와 캡션에 명시. 독자 영향 훅 없음(기사에 근거 없음). 검수: fact 통과, hook 7/10 통과, brand 통과(슬라이드 5 제목 끝에 "in" 한 단어 줄바꿈은 경미한 지적). 슬라이드 6의 Lean FRO·Mathlib Initiative는 한 줄 설명이 없음(기사에 설명 없음)
+2. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6), 사람·글자·로고 없음. 재생성 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+3. 인스타 토큰 없음: 참고 계정은 morning-scan의 reference.json만 읽음. 3x 이상 신호: Claude Code 제작자 영상(10.9x), Cloudflare MCP(11.1x), Claude 사용 한도(3.8x) — 선정 글과 무관, 같은 회사 겹침 방지로 보류
+4. 예비: `posts/_backlog/2026-11-25-morning-runners-up.md` (Z.ai GLM-5.4 8점, Tidal AI곡 삭제 5점 등 — 저녁 후보)
+5. 읽기 불가: Ars 403, Verge 빈 응답, Euractiv·Meta AI·DeepL·JoongAng 피드 실패, Reuters·Nikkei·SCMP 등 Google News 리다이렉트
+6. 아침 스캔이 main에 없어 morning-scan을 직접 실행, 약 2분 내 도착. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 로 실행(npm ci 필요)
+7. 브랜치: 시스템 지침에 따라 `daily/2026-11-25` 대신 `claude/friendly-cori-bcnifn`에 푸시
+자세한 기록
+- 후보 8개 수집(참고 계정 10/10 성공), 1순위 vp-vnp(ready)
+
 ## [저녁 보고] 2026-11-24
 처리 2건 (ready 1, blocked 1) · 실패 0건
 결정할 일
