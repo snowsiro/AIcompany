@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-25-eu-sovereign-tech-equity-fund",
+  "date": "2026-11-25",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · POLICY",
+    "headline": [
+      "EU PROPOSES A",
+      "**€50BN** AI FUND"
+    ],
+    "hook_options": [
+      [
+        "EU PROPOSES A",
+        "**€50BN** AI FUND"
+      ],
+      [
+        "EU WOULD TAKE",
+        "STAKES IN **AI**"
+      ],
+      [
+        "EUROPE VS US",
+        "AND **CHINA** TECH"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "claim",
+      "rivalry"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: The Next Web's article states no effect on ordinary readers' prices, tools or risks. The headline leads with the hardest fact, the €50bn size, and says 'proposes', so it does not suggest the fund is approved or funded (slides 1 and 2 say it is a proposal, reported by The Next Web citing the FT). The claim option is vaguer (no number); the rivalry option overstates, because the article names the goal of cutting dependence but frames no race.",
+    "image_prompt": "Cinematic abstract scene of a glowing circuit-board map of the European continent in warm gold, with fine golden traces and luminous nodes converging into a faceted quantum chip at the centre, dark glass surface, soft amber haze, shallow depth of field, polished black reflections. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The proposal",
+      "title": "Brussels eyes a €50bn equity fund",
+      "body": [
+        "The European Commission, the EU's executive arm, has **proposed a €50bn fund**. It would take direct stakes in European AI and quantum computing companies, The Next Web reports."
+      ]
+    },
+    {
+      "kicker": "The goal",
+      "title": "Less reliance on US and China",
+      "body": [
+        "The Sovereign Tech Equity Fund was confirmed on Wednesday, hours after the Financial Times first reported it, citing two officials. Its goal: cut the bloc's dependence on **US and Chinese technology**."
+      ]
+    },
+    {
+      "kicker": "The legal basis",
+      "title": "It sits inside the Quantum Act",
+      "body": [
+        "The legal basis sits in the **Quantum Act**, which the Commission presented the same day in Strasbourg. Henna Virkkunen, the Commission's tech chief, said the fund would reach beyond quantum to all technologies the EU deems critical."
+      ]
+    },
+    {
+      "kicker": "The pitch",
+      "title": "Europe gets only 5% of venture capital",
+      "body": [
+        "\"No company should be obliged to leave Europe due to lack of finance,\" Virkkunen told reporters. Europe attracts only around **5% of global venture capital**, according to the FT's report."
+      ]
+    },
+    {
+      "kicker": "Already running",
+      "title": "A smaller EU fund exists",
+      "body": [
+        "The €5bn Scaleup Europe Fund, managed by private equity firm EQT, made its first investments this autumn, starting with Finnish satellite firm ICEYE. The Commission hopes to grow it to **€25bn**."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "The European Commission has proposed a €50bn fund that would take direct stakes in European AI and quantum computing companies."
+    },
+    {
+      "source": 0,
+      "text": "The Sovereign Tech Equity Fund was confirmed on Wednesday, hours after the Financial Times first reported the plan, citing two officials."
+    },
+    {
+      "source": 0,
+      "text": "Its goal is to cut the bloc's dependence on US and Chinese technology."
+    },
+    {
+      "source": 0,
+      "text": "The legal basis for the fund sits inside the Quantum Act, which the Commission presented the same day in Strasbourg."
+    },
+    {
+      "source": 0,
+      "text": "Henna Virkkunen, the Commission's tech chief, said the vehicle would reach beyond quantum to all technologies the EU deems critical."
+    },
+    {
+      "source": 0,
+      "text": "\"No company should be obliged to leave Europe due to lack of finance,\" Virkkunen told reporters."
+    },
+    {
+      "source": 0,
+      "text": "Europe attracts only around 5% of global venture capital flows, according to the FT's report."
+    },
+    {
+      "source": 0,
+      "text": "Existing schemes: the €5bn Scaleup Europe Fund, managed by private equity firm EQT, made its first investments this autumn, starting with Finnish satellite firm ICEYE; the Commission hopes to grow it to €25bn."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum",
+      "date": "Nov 25, 2026",
+      "url": "https://thenextweb.com/news/eu-50bn-sovereign-tech-equity-fund-ai-quantum"
+    }
+  ],
+  "caption": "The European Commission has proposed a €50bn fund to take direct stakes in European AI and quantum companies.\n\nThe Next Web reports the plan, first reported by the Financial Times, aims to cut the EU's dependence on US and Chinese technology. It is a proposal, not an approved fund.\n\n→ The fund would take direct stakes in European AI and quantum computing firms\n→ Tech chief Henna Virkkunen said it would reach all technologies the EU deems critical\n→ Europe attracts only about 5% of global venture capital, per the FT's report\n\nShould governments own stakes in their country's AI companies?\n\nSource: The Next Web, \"EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum\", Nov 25, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#EU",
+    "#SovereignTech",
+    "#EuropeAI"
+  ],
+  "threads_caption": "The European Commission has proposed a €50bn fund to take direct stakes in European AI and quantum companies, to cut dependence on US and Chinese tech. It is a proposal, per The Next Web.\n\nSource: The Next Web, \"EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum\". #EuropeAI"
+}

@@ -2,6 +2,18 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-25
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 게시물: `2026-11-25-eu-sovereign-tech-equity-fund` (EUROPE AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 유럽 3, 신선도 0). EU 집행위가 AI·양자 기업 직접 지분 투자용 €50bn "Sovereign Tech Equity Fund"를 제안(FT 최초 보도, 퀀텀법 일부). 소스 The Next Web 단일(원문 확인, FT 미열람). 첫 게시 2026-11-25 08:54Z(10:54 Vienna), ready 시점(약 20:25 Vienna)에 약 9.5시간 경과. 아침 Anthropic/OpenAI(heise)와 다른 주체·매체. 전부 "proposes/would"로 귀속, 기사에 달러 환율 없어 유로만 표기(달러 규칙 예외). 독자 영향 훅 없음(기사에 근거 없음)
+2. 검수: fact 통과, hook 8/10 통과, brand 통과. 1차에 전원 통과
+3. 커버: Higgsfield cinematic_studio_2_5. 첫 프롬프트(유럽 지도 + 칩)는 nsfw 오탐으로 실패, 프롬프트에서 지도를 빼고 재생성해 성공. 최대 4크레딧 (오늘 합계 최대 6/6: 아침 2 + 저녁 최대 4, 실패분 과금 여부 불명). 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+4. 신규 기사 거의 없음: 피드가 12:40Z에 수집돼 미국 오후 발표가 없음. 읽기 불가: Yonhap·Euractiv 403, Anthropic.com 404, Meta AI·DeepL·JoongAng 피드 실패, Reuters 구글뉴스 리다이렉트. 서울 증시 6% 하락(Yonhap) 건은 다른 원문이 있으면 강한 후보
+5. 예비: `posts/_backlog/2026-11-25-evening-runners-up.md`. 브랜치는 시스템 지침에 따라 `daily/2026-11-25-evening` 대신 `claude/inspiring-darwin-z9kwme`
+자세한 기록
+- 후보 신규 7 + 넘어온 8, 1순위 EU fund(ready), 넘어온 ready 글 없음(아침 글 published)
+- 머지: 보고 시점에는 미머지, render 체크 후 원문 재확인해 머지 시도
+
 ## [아침 보고] 2026-11-25
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11-24) 도달 11 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)

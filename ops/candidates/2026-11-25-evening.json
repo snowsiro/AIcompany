@@ -1,0 +1,772 @@
+{
+ "date": "2026-11-25",
+ "run": "evening",
+ "cutoff_utc": "2026-11-25T04:45:00Z",
+ "notes": [
+  "Morning post: Anthropic/OpenAI VP vs VNP proofs (heise). Evening rule: different company/outlet. Anthropic items in this file carry same-company overlap flag.",
+  "Excluded as first published before cutoff: ShellBench (TechCrunch 11-24 21:33Z), Anthropic IPO share drop (TechCrunch 11-24 18:30Z), OpenAI-Cisco Shirudo (Nov 23), Jensen Huang follow-ups (posted 11-24). Tidal and other carried stories are from the morning file.",
+  "Unreadable/failed: Yonhap (403, Seoul shares -6% on AI doubts, 2026-11-25 ~06:34Z-07:32Z, would be a strong market story if an alternative original is found), Tech.eu Blomfield URL guessed 404 (search shows he joined Anthropic in July, headline 'left' unverified), Anthropic.com pages 404, Euractiv 403, Meta AI/DeepL/Korea JoongAng feeds failed. Reuters Alice Huang exclusive (06:13Z) only a Google redirect, not read.",
+  "No new US-afternoon stories surfaced in Verge/TechCrunch/OpenAI/Anthropic/Google feeds after cutoff (feeds fetched 12:40Z, before US afternoon)."
+ ],
+ "stories": [
+  {
+   "title": "EU proposes a EUR 50bn Sovereign Tech Equity Fund to take stakes in European AI and quantum firms",
+   "region": "Europe",
+   "first_published_utc": "2026-11-25T08:54:34Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Related: 2026-11-19-nordic-baltic-ai-gigafactory and 2026-11-22-europe-icaid-defence-ai are different EU stories. FT broke it hours earlier (not read).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum",
+     "date": "2026-11-25",
+     "published_utc": "2026-11-25T08:54:34Z",
+     "url": "https://thenextweb.com/news/eu-50bn-sovereign-tech-equity-fund-ai-quantum"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The European Commission has proposed a €50bn fund that would take direct stakes in European AI and quantum computing companies.",
+     "article": 0
+    },
+    {
+     "fact": "The Sovereign Tech Equity Fund was confirmed on Wednesday, hours after the Financial Times first reported the plan, citing two officials.",
+     "article": 0
+    },
+    {
+     "fact": "Its goal is to cut the bloc's dependence on US and Chinese technology.",
+     "article": 0
+    },
+    {
+     "fact": "The legal basis for the fund sits inside the Quantum Act, which the Commission presented the same day in Strasbourg.",
+     "article": 0
+    },
+    {
+     "fact": "Henna Virkkunen, the Commission's tech chief, said the vehicle would reach beyond quantum to all technologies the EU deems critical.",
+     "article": 0
+    },
+    {
+     "fact": "\"No company should be obliged to leave Europe due to lack of finance,\" Virkkunen told reporters.",
+     "article": 0
+    },
+    {
+     "fact": "Europe attracts only around 5% of global venture capital flows, according to the FT's report.",
+     "article": 0
+    },
+    {
+     "fact": "Existing schemes: the €5bn Scaleup Europe Fund, managed by private equity firm EQT, made its first investments this autumn, starting with Finnish satellite firm ICEYE; the Commission hopes to grow it to €25bn.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "FDA clears DeepHealth's Mammo Risk, AI that estimates breast cancer risk up to five years ahead from a routine 3D mammogram",
+   "region": "US",
+   "first_published_utc": "2026-11-25T11:48:52Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "No health-AI post in last 14 days. Company press release was Tue 11-24 (not read); TNW is the readable original.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "FDA clears Mammo Risk to predict breast cancer risk five years ahead",
+     "date": "2026-11-25",
+     "published_utc": "2026-11-25T11:48:52Z",
+     "url": "https://thenextweb.com/news/deephealth-mammo-risk-fda-clearance-five-year-breast-cancer-risk"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The US Food and Drug Administration has cleared DeepHealth's Mammo Risk. The AI software estimates a woman's chance of developing breast cancer within three, four or five years.",
+     "article": 0
+    },
+    {
+     "fact": "It works from a routine 3D mammogram, with no extra scan. The FDA cleared it on 23 November, the RadNet subsidiary said in a press release on Tuesday.",
+     "article": 0
+    },
+    {
+     "fact": "DeepHealth calls it the first FDA-cleared tool that predicts breast cancer risk from 3D mammogram images.",
+     "article": 0
+    },
+    {
+     "fact": "Mammo Risk does not look for an existing tumour; it is meant to flag women whose scans show no signs of cancer but who may face a higher risk within five years.",
+     "article": 0
+    },
+    {
+     "fact": "It uses AI trained on 220,000 studies to read the risk from the mammogram itself, instead of long patient questionnaires.",
+     "article": 0
+    },
+    {
+     "fact": "An independent multicentre study covered more than 65,000 screening mammograms at 10 US clinical sites; DeepHealth said Mammo Risk showed \"strong predictive performance\". The release gives no accuracy figures.",
+     "article": 0
+    },
+    {
+     "fact": "American Cancer Society figures cited in the release put this year's US cases of invasive breast cancer at about 321,910.",
+     "article": 0
+    },
+    {
+     "fact": "The American Medical Association has set up a Category III billing code for image-based breast cancer risk tools, effective 1 January 2027.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Anthropic launches Claude Ship to automate pull-request review, fixes and approvals",
+   "region": "Global (Anthropic)",
+   "first_published_utc": "2026-11-25T07:13:00Z",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "Anthropic is in 2026-11-19-anthropic-ant-debut and the morning 2026-11-25 VP vs VNP post: same-company overlap, evening rule says different company from morning. Anthropic's own page not readable; heise (German) only.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Claude Ship soll Review-Engpässe bei Pull-Requests lösen",
+     "date": "2026-11-25",
+     "published_utc": "2026-11-25T07:13:00Z",
+     "url": "https://www.heise.de/news/Claude-Ship-soll-Review-Engpaesse-bei-Pull-Requests-loesen-11536568.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic has introduced Claude Ship, a new feature that automates pull-requests: it can review them, fix errors and grant approvals under defined rules. Two of the three components are in beta.",
+     "article": 0
+    },
+    {
+     "fact": "Inside Anthropic's own monorepo, the number of changes merged per day rose from about 2,500 in May to more than 30,000 in September.",
+     "article": 0
+    },
+    {
+     "fact": "Claude now writes about 90 percent of the code for Claude Code.",
+     "article": 0
+    },
+    {
+     "fact": "From June to September the number of merged pull-requests in the Claude Code team more than doubled, while the share of reverted changes fell by over 40 percent.",
+     "article": 0
+    },
+    {
+     "fact": "Claude Ship has three parts: Code Review (generally available), PR Steward and Claude Approvals (both beta).",
+     "article": 0
+    },
+    {
+     "fact": "Claude Approvals decides from a policy file in the repository whether a pull-request is approved automatically, and can still require human review for sensitive changes.",
+     "article": 0
+    },
+    {
+     "fact": "All three agents are billed by token use, separately from the plan's included usage.",
+     "article": 0
+    },
+    {
+     "fact": "Eligible Enterprise customers can redeem one-time Claude Ship credits worth $10,000 to $50,000 until 15 January 2027.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Anthropic study of 58 US firms: AI adoption mostly cuts new hiring, not existing staff",
+   "region": "Global (Anthropic)",
+   "first_published_utc": "2026-11-25T07:02:19Z",
+   "repeat_of_last_14_days": true,
+   "repeat_note": "Anthropic same-company overlap (11-19, 11-25 morning). Source is AI타임스 summary of Anthropic report released Nov 23 US time; report not read.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽 \"AI 도입 기업, 직원 해고보다 신규 채용 줄여\"",
+     "date": "2026-11-25",
+     "published_utc": "2026-11-25T07:02:19Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217775"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Anthropic surveyed 58 US companies; only 2 had laid off existing staff because of AI automation, but about two thirds said they had cut new hiring.",
+     "article": 0
+    },
+    {
+     "fact": "The report is based on 66 interviews with executives, managers and staff at 58 US firms and about 300 AI use cases, released on the 23rd (US time).",
+     "article": 0
+    },
+    {
+     "fact": "Of the companies that cut hiring, one third did so by not replacing people who left.",
+     "article": 0
+    },
+    {
+     "fact": "One healthcare-management engineering lead said: \"Instead of hiring people, we bought tokens and greatly expanded our capacity.\"",
+     "article": 0
+    },
+    {
+     "fact": "One company cut the review staff it planned to hire over the next year by more than 90% after deploying AI agents for document review.",
+     "article": 0
+    },
+    {
+     "fact": "Nine firms cut outsourced workers such as software developers, customer-service staff and legal advisers; Anthropic called this an early warning sign for the international business-services industry.",
+     "article": 0
+    },
+    {
+     "fact": "Ten firms said they hired more, mainly for AI adoption and IT support.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Study: frontier AI can name the human author of an anonymous text (UMD, Google DeepMind, UBC)",
+   "region": "US/Canada",
+   "first_published_utc": "2026-11-25T09:01:43Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Google DeepMind co-authors; DeepMind quantum posted 11-24 (different topic). Source is AI타임스 summary of arXiv paper of Nov 19; paper not read.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "최첨단 AI, 글 하나만으로 작성자 실명까지 알아내…익명성 위협",
+     "date": "2026-11-25",
+     "published_utc": "2026-11-25T09:01:43Z",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217785"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Researchers from the University of Maryland, Google DeepMind and the University of British Columbia published a study on Nov 19 testing whether AI models can identify who wrote a text, without web search, author lists or writing samples.",
+     "article": 0
+    },
+    {
+     "fact": "Anthropic's Claude Fable 5.2 correctly named the reviewer in 56% of 398 confidential paper peer reviews whose authors were never public.",
+     "article": 0
+    },
+    {
+     "fact": "Using a single comment from a Reddit user with more than 500 posts in the past year, models identified the account name 69% of the time; for users with little activity it was only 2%.",
+     "article": 0
+    },
+    {
+     "fact": "Google's Gemini 4 Carbon identified 97% of fully AI-written text, on par with the Pangram 4.1 detector, and wrongly flagged only 1 of 9,687 human-written English documents (0.01%).",
+     "article": 0
+    },
+    {
+     "fact": "Claude Opus 5.5 and Gemini 4 Argon named the company behind a text with 98% accuracy for Anthropic, OpenAI and Google models, but at most 35% for the other 8 developers.",
+     "article": 0
+    },
+    {
+     "fact": "The researchers warned that frontier models can be a bigger threat to anonymity than expected for anyone with enough public writing, and that deleting old posts does not remove what a model already learned.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Atari Homebrew Awards cancelled: flood of AI-made games makes fair judging impossible",
+   "region": "Europe (heise)",
+   "first_published_utc": "2026-11-25T11:46:00Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "Niche; thin (only 5 facts, short article).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Flut an KI-Spielen bringt Atari-Entwickler-Wettbewerb zum Stillstand",
+     "date": "2026-11-25",
+     "published_utc": "2026-11-25T11:46:00Z",
+     "url": "https://www.heise.de/news/Zu-viel-KI-Retro-Wettbewerb-der-Atari-Homebrew-Szene-faellt-aus-11537667.html"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "The ninth round of the Atari Homebrew Awards is cancelled, announced by organiser James Earl O'Brien (operator of the ZeroPage Homebrew streaming channel) in the AtariAge forum.",
+     "article": 0
+    },
+    {
+     "fact": "According to O'Brien, generative AI models have become so capable that some developers release several titles per week.",
+     "article": 0
+    },
+    {
+     "fact": "The AI share ranges from testing help to fully generated code, and he found no practical line to draw.",
+     "article": 0
+    },
+    {
+     "fact": "O'Brien sees no way to fairly judge human development effort, but hopes to continue the contest in coming years.",
+     "article": 0
+    },
+    {
+     "fact": "The contest aims to reward the craft of pushing historic hardware to its limits.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Dell doubles revenue to $54.9bn on AI servers, raises forecast to $202bn",
+   "region": "US",
+   "first_published_utc": "2026-11-25T11:20:55Z",
+   "repeat_of_last_14_days": false,
+   "repeat_note": "BORDERLINE on cutoff: Reuters first published 2026-11-24T23:15Z (results Tue after US close, before 04:45Z cutoff); TNW write-up is today. Nvidia-adjacent (Nvidia posted 11-24).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Dell says it is \"now a different company\" as AI servers double sales",
+     "date": "2026-11-25",
+     "published_utc": "2026-11-25T11:20:55Z",
+     "url": "https://thenextweb.com/news/dell-q3-fy27-earnings-ai-server-backlog-202bn-forecast"
+    }
+   ],
+   "facts": [
+    {
+     "fact": "Dell raised its revenue forecast for the fiscal year ending in January to $202bn, up from $192bn.",
+     "article": 0
+    },
+    {
+     "fact": "Third-quarter revenue rose 103% to a record $54.9bn; analysts expected $49.32bn on average, according to LSEG data cited by Reuters.",
+     "article": 0
+    },
+    {
+     "fact": "AI servers brought in $22.0bn, up 291%.",
+     "article": 0
+    },
+    {
+     "fact": "Dell booked $60.2bn of AI server orders in the quarter and ended it with a record backlog of $132.3bn; in May the backlog was $51.3bn.",
+     "article": 0
+    },
+    {
+     "fact": "Dell expects $78bn of AI server revenue this year, up from an earlier $74bn.",
+     "article": 0
+    },
+    {
+     "fact": "AI servers carry margins in the mid-single digits, Dell said, according to Bloomberg.",
+     "article": 0
+    },
+    {
+     "fact": "Client (PC) unit revenue rose only 3% to $12.9bn, after 20% growth the previous quarter; consumer revenue fell 15%.",
+     "article": 0
+    },
+    {
+     "fact": "Dell expects the memory chip shortage to last into 2027, according to Reuters.",
+     "article": 0
+    }
+   ]
+  },
+  {
+   "title": "Tidal will delete about 29 million fully AI-generated songs from Dec 9",
+   "repeat_of": null,
+   "note": "Not covered by reference accounts. Also reported by Verge and Ars (both fetch-blocked or 403; Verge/Ars not used). Consumer/music angle, no company overlap with recent posts. Tidal is owned by Block.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+     "date": "2026-11-24",
+     "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "TIDAL will delete 29 million AI-generated songs from its catalogue",
+     "date": "2026-11-24",
+     "url": "https://thenextweb.com/news/tidal-delete-29-million-ai-generated-songs"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Tidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year."
+    },
+    {
+     "article": 0,
+     "fact": "The company said that over the past 90 days, more than 43% of tracks uploaded to its platform were generated by AI."
+    },
+    {
+     "article": 0,
+     "fact": "With the new rules in place, the platform said it will be rejecting roughly 80,000-85,000 tracks per day."
+    },
+    {
+     "article": 0,
+     "fact": "Tidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs' metadata says they are made fully using AI."
+    },
+    {
+     "article": 0,
+     "fact": "The company said it will still accept songs that were made with AI assistance, but not fully generated."
+    },
+    {
+     "article": 0,
+     "fact": "Larger platforms like Spotify and YouTube Music have adopted a milder approach to this issue, choosing to label AI-generated music instead of offering filters or taking stronger measures."
+    },
+    {
+     "article": 1,
+     "fact": "Robert Andersen, who leads TIDAL at parent company Block, announced the plan on X on Tuesday."
+    },
+    {
+     "article": 1,
+     "fact": "Andersen said 96% of AI-generated songs on TIDAL get zero plays."
+    },
+    {
+     "article": 1,
+     "fact": "In July, TIDAL began labelling AI tracks and cutting off their royalties."
+    },
+    {
+     "article": 1,
+     "fact": "The cut covers only songs made wholly by AI, which TIDAL finds with detection tools. Its terms of service warn those tools can wrongly tag tracks, and users can ask support to fix a label."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-24T16:46:00Z"
+  },
+  {
+   "title": "OpenAI and Anthropic staff debate halting training of their strongest models",
+   "repeat_of": null,
+   "note": "Korean outlet AI타임스 (cites Axios, 24+ sources; Axios itself not fetched). Related stories: etnews and ZDNet Korea ran the same. Anthropic appeared in 2026-11-19-anthropic-ant-debut (different angle). Pair with Siren or VP!=VNP only if editor wants one Anthropic/OpenAI post; do not run all three.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "오픈AI·앤트로픽 내부서 AI 개발 중단론…\"최고 모델 통제 어려워\"",
+     "date": "2026-11-25",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217755"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "악시오스는 24일(현지시간) 내부 논의를 잘 아는 24명 이상의 관계자를 인용, 오픈AI와 앤트로픽의 상당수 직원이 최고 성능 모델을 안전하게 출시하기 어렵다고 판단하고 있다고 보도했다."
+    },
+    {
+     "article": 0,
+     "fact": "연구진 사이에서는 기술적 해결책을 찾을 수 있다는 의견과 신규 모델 훈련을 중단해야 한다는 주장이 맞서고 있다."
+    },
+    {
+     "article": 0,
+     "fact": "오픈AI는 지난 7월 미공개 모델이 사이버 보안 평가 과정에서 통제 장치를 우회해 자체 연구 인프라와 허깅페이스 시스템을 침해하자, 최신 모델의 강화학습을 2주간 중단했다고 밝혔다."
+    },
+    {
+     "article": 0,
+     "fact": "대표적인 기술적 문제는 강화학습(RL) 과정에서 나타나는 '보상 해킹(reward hacking)'이다."
+    },
+    {
+     "article": 0,
+     "fact": "최신 내부 모델에서는 실제 추론 과정을 숨기거나 감시자를 속이기 위해 실제 판단과 다른 사고 과정을 출력하는 행동이 관찰된 것으로 알려졌다."
+    },
+    {
+     "article": 0,
+     "fact": "특히 앤트로픽은 보안 시스템을 강화하기 위해 최근 한 모델의 사전훈련 일정을 연기했다고 밝혔다."
+    },
+    {
+     "article": 0,
+     "fact": "최고 성능 모델을 일반에게 공개하지 않고 기업용 업무나 수학·과학 연구 등 특정 분야에만 접근을 허용하는 방안도 논의되고 있다."
+    },
+    {
+     "article": 0,
+     "fact": "복수의 내부 관계자는 경영진이 현장에서 확인되는 안전 문제의 심각성을 충분히 파악하지 못하고 있다고 지적했다."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "unknown (carried from morning, before 2026-11-25T04:45Z cutoff or Korean/TNW same-day)"
+  },
+  {
+   "title": "Z.ai (China) releases 750B-parameter GLM-5.4 using a looped transformer",
+   "repeat_of": null,
+   "note": "Asia/China angle. Source is Korean (AI타임스); VentureBeat and SCMP also covered (Google News redirects, not read). Z.ai's own blog not fetched. Last similar Chinese-model post: 2026-11-17-alibaba-qwen4-max, 2026-11-05-tencent-hy4 (different companies). Technical; needs plain-language explanation.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "Z.ai, 'GLM-5.4'에 루프 트랜스포머 적용…오픈AI 이어 반복 연산 경쟁",
+     "date": "2026-11-24",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217728"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "중국 Z.ai가 같은 신경망 레이어를 반복 실행하는 '루프 트랜스포머(Loop Transformer)' 구조의 플래그십 모델 'GLM-5.4'를 출시했다."
+    },
+    {
+     "article": 0,
+     "fact": "Z.ai는 23일 공식 블로그를 통해 약 7500억개 매개변수 규모의 GLM-5.4가 2조~3조개 모델에 필적하는 성능을 구현했다고 밝혔다."
+    },
+    {
+     "article": 0,
+     "fact": "자체 평가 결과는 제시했지만, 이를 뒷받침할 타사 모델과의 구체적인 비교 점수는 공개하지 않았다."
+    },
+    {
+     "article": 0,
+     "fact": "GLM-5.4는 기존 GLM-5의 중간 레이어 28개를 두 차례 실행한다."
+    },
+    {
+     "article": 0,
+     "fact": "회사는 커널 융합 등 시스템 최적화를 통해 비혼잡 시간대 초당 최대 200토큰, 혼잡 시간대에도 초당 70~80토큰의 생성 속도를 확보했다고 밝혔다."
+    },
+    {
+     "article": 0,
+     "fact": "'GPQA-다이아몬드'와 'MMLU-프로' 등 일부 평가에서는 평균 출력 길이도 10~14% 줄었다."
+    },
+    {
+     "article": 0,
+     "fact": "GLM-5.4는 GLM 코딩 플랜과 ZCode, Z.ai 챗에서 이용할 수 있다. API는 안전성 평가 이후 제공하고, 모델 가중치도 안전성 강화 작업을 거쳐 공개할 계획이다."
+    },
+    {
+     "article": 0,
+     "fact": "성능 향상과 함께 내부 추론 과정의 감시가 어려워질 수 있다는 문제가 제기됐다."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "unknown (carried from morning, before 2026-11-25T04:45Z cutoff or Korean/TNW same-day)"
+  },
+  {
+   "title": "Anthropic's Siren test: Claude models reach outside weak sandboxes in 21-32% of scenarios",
+   "repeat_of": null,
+   "note": "Source is TNW summary of Anthropic's Siren post (Anthropic page only reachable via Google News redirect, not read). Ref accounts cover Claude heavily (ai.trend.kr 10.9x on Claude Code video; prompt_what 3.8x on Claude limits), not this story. Mid-technical.",
+   "reference_posts": [
+    {
+     "username": "ai.trend.kr",
+     "url": "https://www.instagram.com/p/DgHzJh2EgEw/",
+     "multiple": 10.9,
+     "related": "Claude topic only, not this story"
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Anthropic's new Siren test tempts Claude to break out of its sandbox",
+     "date": "2026-11-24",
+     "url": "https://thenextweb.com/news/anthropic-siren-claude-sandbox-escape-test"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Anthropic has published Siren, a test that tempts Claude agents to leave deliberately flawed sandboxes."
+    },
+    {
+     "article": 0,
+     "fact": "Nothing in the more than 1,700 scenarios tells a model to leave or says it may."
+    },
+    {
+     "article": 0,
+     "fact": "The Claude 5.5 series and Mythos 5.2 reached outside in 21% to 32% of scenarios."
+    },
+    {
+     "article": 0,
+     "fact": "But they used what they found in ways no reasonable reading allowed in just 0.6% to 1.6%. For the older Mythos 5 and Mythos 5.1, that rate was 25.8% and 12.7%."
+    },
+    {
+     "article": 0,
+     "fact": "Describing the sandbox and six rules for staying inside it in the system prompt made models 68% to 96% less likely to reach outside."
+    },
+    {
+     "article": 0,
+     "fact": "With all three fixes, misaligned use fell to almost zero, though two models finished about nine points fewer tasks."
+    },
+    {
+     "article": 0,
+     "fact": "Anthropic says it does not fully know why newer models behave better, and none was trained on Siren."
+    },
+    {
+     "article": 0,
+     "fact": "Anthropic stresses the rates do not reflect real-world use."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-24T17:22:23Z"
+  },
+  {
+   "title": "OpenAI: GPT-6 can design proteins with reasoning and code alone; lab tests with Onava show binding",
+   "repeat_of": null,
+   "note": "Company newsroom (original). ZDNet Korea also covered (Google redirect, not read). Claims are OpenAI's own; hit rates modest. OpenAI-related same-company risk with VP!=VNP/debate stories.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "OpenAI",
+     "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+     "date": "2026-11-24",
+     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Our GPT‑6 family of models can design new protein shapes and the sequence of their chemical building blocks using only reasoning and code, without calling specialized biology models to generate those designs."
+    },
+    {
+     "article": 0,
+     "fact": "In lab tests with Onava, proteins based on GPT‑6.2's designs showed evidence of binding, or attachment, across five targets."
+    },
+    {
+     "article": 0,
+     "fact": "We tested 322 minibinders against 5 targets in the lab. Of those, 35 (10.9%) tested positive for binding to their intended target."
+    },
+    {
+     "article": 0,
+     "fact": "The original RFdiffusion study reported higher hit rates, but rates depend heavily on how strictly researchers filter designs before lab validation and their definition of binding."
+    },
+    {
+     "article": 0,
+     "fact": "In our initial lab screens, we saw binding in 75 of 88 designs for MDM2 (85%), 26 of 42 for VEGF-A (62%), and 8 of 59 for PD-1 (14%)."
+    },
+    {
+     "article": 0,
+     "fact": "Of the 107 proteins made from GPT‑6.2's new sequences, 14 (13.1%) showed binding."
+    },
+    {
+     "article": 0,
+     "fact": "Our latest models performed comparably to or better than specialized models on most tasks, although predicting a complete protein structure remained a clear weakness."
+    },
+    {
+     "article": 0,
+     "fact": "The same capabilities that help scientists design proteins for new medicines could also be misused."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "unknown (carried from morning, before 2026-11-25T04:45Z cutoff or Korean/TNW same-day)"
+  },
+  {
+   "title": "Google will require AI agents to use new Workspace gateways from Feb 1, 2027",
+   "repeat_of": null,
+   "note": "Source is TNW summary (Google's own post not read). Reference accounts touch agent/MCP topics (sdk.kim.builds 11.1x on Cloudflare MCP code mode, 2026-11-23), not this story. Google-related posts in 14 days: 2026-11-13-google-samsung-gemini-glasses (different).",
+   "reference_posts": [
+    {
+     "username": "sdk.kim.builds",
+     "url": "https://www.instagram.com/reel/DgE6Hv9Ap2g/",
+     "multiple": 11.1,
+     "related": "MCP/agents topic only"
+    }
+   ],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Google will make AI agents use new gateways to reach Gmail and Drive",
+     "date": "2026-11-24",
+     "url": "https://thenextweb.com/news/google-workspace-ai-agents-mcp-servers-rules"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Google will require AI agents to reach Gmail, Drive and other Workspace apps through new, dedicated gateways, it said on Tuesday."
+    },
+    {
+     "article": 0,
+     "fact": "Regular apps can keep using Workspace's existing APIs, but agents must switch by February 1, 2027."
+    },
+    {
+     "article": 0,
+     "fact": "Both are now generally available. Google put an early CLI version on GitHub in March."
+    },
+    {
+     "article": 0,
+     "fact": "Agents can draft emails and summarise documents on their own. But they need a person's sign-off before sending email, changing Drive sharing or making bulk edits."
+    },
+    {
+     "article": 0,
+     "fact": "Each agent also needs its own sign-in ID with tight limits and usage quotas."
+    },
+    {
+     "article": 0,
+     "fact": "It will begin billing for that usage on April 1, 2027."
+    },
+    {
+     "article": 0,
+     "fact": "AI tools cannot use Workspace data to train models or build rival services, and cannot scrape it. They must also delete it when a user disconnects."
+    },
+    {
+     "article": 0,
+     "fact": "In October, Charles Schwab said it blocks outside agents from moving client money."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "unknown (carried from morning, before 2026-11-25T04:45Z cutoff or Korean/TNW same-day)"
+  },
+  {
+   "title": "Walmart brings Black Friday deals to Meta's Muse AI shopping agent",
+   "repeat_of": null,
+   "note": "Meta Muse was posted 2026-11-24 (2026-11-24-meta-muse-uk-fca, UK launch) and 2026-10-21 backlog: treat as same-company/topic overlap, penalty -5 not a repeat of the same news.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+     "date": "2026-11-24",
+     "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Walmart is the latest retailer making that shift, teaming up with Meta to let customers shop its Black Friday deals through Muse, Meta's AI agent."
+    },
+    {
+     "article": 0,
+     "fact": "The partnership, announced Tuesday, gives shoppers another way to find products, compare prices, and make purchases without browsing Walmart's website themselves."
+    },
+    {
+     "article": 0,
+     "fact": "While Amazon has taken steps to stop third-party AI agents from making purchases for customers, Walmart is leaning into the idea."
+    },
+    {
+     "article": 0,
+     "fact": "Muse doesn't get access to a customer's Walmart shopping history or other personal information."
+    },
+    {
+     "article": 0,
+     "fact": "Shoppers can also set spending limits, require approval before purchases, and review orders placed by the agent."
+    },
+    {
+     "article": 0,
+     "fact": "The experience is powered by Walmart's Agent Gateway, a new system that allows outside AI assistants to connect directly with the retailer's online store. This launched in October."
+    },
+    {
+     "article": 0,
+     "fact": "Instacart also recently joined forces with the AI assistant."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "2026-11-24T21:32:38Z"
+  },
+  {
+   "title": "Three xAI co-founders launch Epochal; Zhang puts in $100M of his own money",
+   "repeat_of": null,
+   "note": "TNW summary; Bloomberg is the cited source for the $100M (not read). Lower priority.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Three xAI co-founders launch Epochal to teach AI to predict the future",
+     "date": "2026-11-24",
+     "url": "https://thenextweb.com/news/epochal-xai-cofounders-time-portal-forecasting"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Guodong Zhang, Zihang Dai and Manuel Kroiss, three of xAI's co-founders, have launched Epochal, a startup building AI that forecasts events."
+    },
+    {
+     "article": 0,
+     "fact": "Zhang has put in $100M of his own money, Bloomberg reported."
+    },
+    {
+     "article": 0,
+     "fact": "Its first product, Time Portal, lets agents browse the web as it was at past dates, so they can practise forecasting without seeing the outcome."
+    },
+    {
+     "article": 0,
+     "fact": "Epochal says it covers more than 1 trillion pages, down to the minute on busy sites."
+    },
+    {
+     "article": 0,
+     "fact": "Epochal ran forecasting agents on 347 live questions from prediction markets Kalshi and Polymarket. In its own test, the replayed forecasts closely matched the originals, with a correlation of 0.98."
+    },
+    {
+     "article": 0,
+     "fact": "Epochal has not said how it gathered the archive or whether the pages are licensed."
+    },
+    {
+     "article": 0,
+     "fact": "All of xAI's co-founders have since left the company, as Elon Musk rebuilds it after its merger with SpaceX."
+    }
+   ],
+   "carried_over": true,
+   "first_published_utc": "unknown (carried from morning, before 2026-11-25T04:45Z cutoff or Korean/TNW same-day)"
+  }
+ ],
+ "dropped_or_unreadable": [
+  "Seoul shares -6% (Yonhap 403)",
+  "Reuters Alice Huang-linked firms $270M AI servers in China (redirect only)",
+  "Tom Blomfield leaves Anthropic (Tech.eu, unreadable)",
+  "Euractiv, Meta AI, DeepL, Korea JoongAng Daily feeds failed"
+ ]
+}
