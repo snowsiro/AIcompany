@@ -1,0 +1,138 @@
+{
+  "id": "2026-11-25-anthropic-openai-vp-vnp",
+  "date": "2026-11-25",
+  "category": "RESEARCH",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "GLOBAL AI · RESEARCH",
+    "headline": [
+      "AI LABS RACE",
+      "TO A **1979** PROOF"
+    ],
+    "hook_options": [
+      [
+        "AI LABS RACE",
+        "TO A **1979** PROOF"
+      ],
+      [
+        "ANTHROPIC VS",
+        "**OPENAI** IN MATH"
+      ],
+      [
+        "BOTH CLAIM A",
+        "**1979** PROOF"
+      ],
+      [
+        "TWO PAPERS,",
+        "ONE **1979** PROBLEM"
+      ]
+    ],
+    "hook_types": [
+      "rivalry",
+      "rivalry",
+      "number",
+      "number"
+    ],
+    "hook_type": "rivalry",
+    "hook_pick_reason": "No reader-impact hook: the heise online article states no effect on ordinary readers' prices, tools or risks. The headline is a rivalry plus the hardest fact: Anthropic and OpenAI each published a paper within hours, on a problem open since 1979. It says 'race' and 'to a proof', so it does not imply the proofs are confirmed (slide 5 and the caption say expert confirmation is pending) and does not say AI beat mathematicians. The 'both claim a 1979 proof' option is weaker (no rivalry); the Anthropic-vs-OpenAI option has no number.",
+    "image_prompt": "Cinematic abstract scene of two luminous golden light trails racing side by side across a dark glass plane of faint geometric grids and lattice patterns, converging toward a glowing crystalline structure on the horizon, cold blue haze, shallow depth of field, polished black floor reflections. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": ""
+  },
+  "slides": [
+    {
+      "kicker": "The race",
+      "title": "Two labs, two papers, hours apart",
+      "body": [
+        "Anthropic and OpenAI each published a paper within a few hours, heise online reports. Both are said to **solve a math problem open since 1979**, known as VP ≠ VNP."
+      ]
+    },
+    {
+      "kicker": "Anthropic's paper",
+      "title": "70 pages from a Claude model",
+      "body": [
+        "Anthropic published a **70-page paper on November 23**. Its proof came from an internal Claude research model, the report says."
+      ]
+    },
+    {
+      "kicker": "OpenAI's paper",
+      "title": "30 pages, and an earlier date",
+      "body": [
+        "A few hours later, OpenAI presented a **30-page paper**. By its own publication history, the company reached the result **already on November 6**."
+      ]
+    },
+    {
+      "kicker": "Not confirmed yet",
+      "title": "Experts have not weighed in",
+      "body": [
+        "Independent expert confirmation of both papers is **still pending**. So both results remain claims for now."
+      ]
+    },
+    {
+      "kicker": "Machine checks",
+      "title": "Both shared Lean versions",
+      "body": [
+        "Both companies published their proofs in **Lean**, a tool for machine-checking math proofs. Anthropic says its check passed in Lean and in nanoda, an independently built proof checker."
+      ]
+    },
+    {
+      "kicker": "Last week",
+      "title": "A Riemann claim got checked",
+      "body": [
+        "Last week, Anthropic mathematician Levent Alpöge published a formal proof of the Riemann hypothesis using Claude. Lean FRO and the Mathlib Initiative say it is **logically valid** and matches the formal statement."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Anthropic and OpenAI published papers within a few hours that are said to solve a mathematical problem open since 1979. (Our translation of heise online.)"
+    },
+    {
+      "source": 0,
+      "text": "Anthropic published a 70-page paper on November 23; its proof comes from an internal Claude research model."
+    },
+    {
+      "source": 0,
+      "text": "A few hours later, OpenAI presented a 30-page paper. According to its own publication history, the company reached the result already on November 6."
+    },
+    {
+      "source": 0,
+      "text": "Independent expert confirmation of both papers is still pending."
+    },
+    {
+      "source": 0,
+      "text": "Both companies published formalizations of their proofs in Lean, a tool for machine-checking mathematical proofs."
+    },
+    {
+      "source": 0,
+      "text": "According to Anthropic, the check with Lean and the independently developed proof checker nanoda was successful."
+    },
+    {
+      "source": 0,
+      "text": "Only last week, Anthropic mathematician Levent Alpöge published a formal proof of the Riemann hypothesis with the help of Claude."
+    },
+    {
+      "source": 0,
+      "text": "Lean FRO and the Mathlib Initiative have since independently confirmed that the formal proof is logically valid and matches the formalized statement of the Riemann hypothesis."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online",
+      "title": "Mathe-Wettlauf: Anthropic und OpenAI mit fast zeitgleichen Beweisen für VP ≠ VNP",
+      "title_en": "Math race: Anthropic and OpenAI with almost simultaneous proofs for VP ≠ VNP",
+      "language": "German",
+      "date": "Nov 24, 2026",
+      "url": "https://www.heise.de/news/Mathe-Wettlauf-Anthropic-und-OpenAI-mit-fast-zeitgleichen-Beweisen-fuer-VP-VNP-11536640.html"
+    }
+  ],
+  "caption": "Anthropic and OpenAI each published a paper within hours, both said to solve a math problem open since 1979.\n\nheise online reports that neither result has independent expert confirmation yet, so these are claims, not settled proofs.\n\n→ Anthropic: 70-page paper on Nov 23, proof from an internal Claude research model\n→ OpenAI: 30-page paper hours later; by its own history it reached the result on Nov 6\n→ Both shared Lean versions; Anthropic says its check passed in Lean and in nanoda\n\nIf AI labs race to prove old math problems, who should do the final checking?\n\nSource: heise online, \"Math race: Anthropic and OpenAI with almost simultaneous proofs for VP ≠ VNP\" (in German), Nov 24, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Anthropic",
+    "#OpenAI",
+    "#AIMath"
+  ],
+  "threads_caption": "Anthropic and OpenAI each published a paper within hours, both said to solve a math problem open since 1979. Independent expert confirmation is still pending, heise online reports.\n\nSource: heise online, \"Math race: Anthropic and OpenAI with almost simultaneous proofs for VP ≠ VNP\" (in German). #Anthropic"
+}
