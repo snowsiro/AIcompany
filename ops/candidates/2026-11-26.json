@@ -1,0 +1,182 @@
+{
+ "date": "2026-11-26",
+ "run": "morning",
+ "unreadable_or_dropped": [
+  "Yonhap English (en.yna.co.kr) HTTP 403: BOK 2027 growth 4.1% story dropped (no readable original; web search could not confirm the 4.1% figure)",
+  "The Verge (HTTP 403) and Ars Technica (HTTP 403): SpaceX FCC and Tidal covered via heise instead",
+  "Kakaobank + Mistral partnership (dt.co.kr headline): no original found by search, dropped",
+  "Euractiv, Korea JoongAng Daily, Meta AI fetch failed in feeds.json; OpenAI, DeepMind, Google, Microsoft, Nvidia feeds returned 0 items",
+  "Reference accounts: no Instagram token in this session; used ops/scan reference.json (ai.brief.kr, ai.ainow, ddalkkak.mag had no posts)"
+ ],
+ "stories": [
+  {
+   "title": "South Korea bans ads where AI-generated fake doctors and professors endorse food, drugs and cosmetics from Nov 27",
+   "repeat_of": null,
+   "region": "Korea",
+   "note": "Not covered by reference accounts. Korea angle, hard numbers (penalties, 420 ads, 8.1B won). Also Yonhap English (403, unread).",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "AI타임스 (AI Times Korea)", "title": "27일부터 'AI 가짜 의사·교수' 추천 광고 금지…위반 시 영업정지", "date": "2026-11-26", "url": "https://www.aitimes.com/news/articleView.html?idxno=217797"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "Ads in which AI-made virtual doctors or professors recommend food, drugs or cosmetics are banned from the 27th (AI로 만든 가상의 의사나 교수가 식품·의약품·화장품 등을 추천하는 광고가 27일부터 금지된다)."},
+    {"article": 0, "fact": "The Ministry of Food and Drug Safety said on the 26th it revised enforcement rules so ads that mislead consumers into thinking fake AI experts endorse a product are banned."},
+    {"article": 0, "fact": "The food, pharmaceutical and cosmetics laws take effect on the 27th; the medical devices law takes effect on December 10."},
+    {"article": 0, "fact": "Food: first violation means a 15-day business suspension, second 1 month, third 2 months."},
+    {"article": 0, "fact": "Cosmetics carry the heaviest penalties, from 2 months for a first violation to 12 months for a fourth or later."},
+    {"article": 0, "fact": "The Korea Consumer Agency monitored YouTube ads for 9 months (Oct last year to June this year) and found 420 improper ads, including 46 that used AI to impersonate doctors, pharmacists or nurses."},
+    {"article": 0, "fact": "In June, a company that sold 8.1 billion won worth of products using an AI fake doctor to claim 'body age reduction' and anti-aging effects was referred to prosecutors."},
+    {"article": 0, "fact": "Some critics say the penalties are not heavy compared with the sales made on platforms in a short time."}
+   ]
+  },
+  {
+   "title": "Chinese AI firms weigh giving up frontier model development as US gap could widen to 9 months (The Information via AI Times)",
+   "repeat_of": "related to 2026-11-20-moonshot-indonesia-chip-rental-cancel, 2026-11-16-us-remote-access-chip-rule, 2026-11-17-china-distillation-reuters (new angle: internal DeepSeek gap forecast, revenue 1/10th)",
+   "region": "Asia",
+   "note": "Secondhand: AI Times reports The Information. Cite AI Times as the outlet read; The Information's own text not read.",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "AI타임스 (AI Times Korea)", "title": "중국 AI 기업, 모델 개발 포기까지 검토…미국과 기술 격차 9개월 전망", "date": "2026-11-26", "url": "https://www.aitimes.com/news/articleView.html?idxno=217798"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "Chinese AI firms face double pressure from US chip export controls and blocks on model distillation; some are reportedly considering giving up developing their own models."},
+    {"article": 0, "fact": "The Information reported on the 25th (US time) that DeepSeek researchers, in an internal discussion last month, said the gap between top US and Chinese AI models could widen from the current 3-6 months to up to 9 months."},
+    {"article": 0, "fact": "The US Commerce Department recently introduced a rule limiting Chinese firms' remote access to advanced GPUs in overseas data centers; existing overseas data centers need US government approval within 90 days to keep supplying large compute to Chinese firms."},
+    {"article": 0, "fact": "Moonshot AI already cancelled a $150 million (about 200 billion won) deal to get Nvidia Blackwell GPUs through an Indonesian data center."},
+    {"article": 0, "fact": "OpenAI and Anthropic have actively blocked distillation attempts since September; the recent GPT-6 and Claude Fable series reportedly have stronger anti-distillation measures."},
+    {"article": 0, "fact": "MiniMax said it will speed up adoption of Huawei and Alibaba chips; analysts say replacing Nvidia soon is hard because of gaps in high-bandwidth memory, networking and software."},
+    {"article": 0, "fact": "The combined revenue of China's six major AI firms is only about one-tenth of OpenAI's and Anthropic's combined AI-related revenue."}
+   ]
+  },
+  {
+   "title": "FCC approves up to 1 million SpaceX 'Starmind' data-center satellites",
+   "repeat_of": null,
+   "region": "Global (heise Germany; ZDNet Korea and Reuters also covered)",
+   "note": "Not posted in last 14 days (posts/2026-10-21-spacex-ai-revenue and 2026-11-13-spacex-74b-ai-campuses are older/different, 2026-11-13 backlog is SpaceX campuses, check overlap). Verge covered too (403). Same company as Musk/SpaceX earlier posts only.",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "heise online", "title": "USA genehmigen 1 Million SpaceX-Satelliten für KI-Rechenzentren im Orbit", "date": "2026-11-26", "url": "https://www.heise.de/news/USA-genehmigen-1-Million-SpaceX-Satelliten-fuer-KI-Rechenzentren-im-Orbit-11538437.html"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "The US regulator FCC has approved a constellation allowing SpaceX to send up to one million data-center satellites into orbit for the 'Starmind' project."},
+    {"article": 0, "fact": "The approval requires the first data-center satellite to be operating by November 2033, 100,000 satellites two years later, half a million by 2038, and the full million by November 2040."},
+    {"article": 0, "fact": "In August, SpaceXAI showed a 150-kilowatt satellite, AI1, carrying a customised version of Nvidia's Vera Rubin NVL72 system, powered by solar energy in a sun-synchronous orbit."},
+    {"article": 0, "fact": "Doubts remain: per Reuters only about 17,000 satellites orbit Earth now; for Starlink, SpaceX once planned 42,000 satellites but about 11,000 are in orbit."},
+    {"article": 0, "fact": "Amazon criticised the plan, saying it would take centuries to launch all of them; FCC chief Brendan Carr said Amazon should focus on fixing its own launches and constellation."},
+    {"article": 0, "fact": "The FCC left open how Starmind satellites will be disposed of; SpaceX did not give enough information to approve alternatives to re-entry."}
+   ]
+  },
+  {
+   "title": "Claude can now install artifacts as Mac and Windows desktop apps",
+   "repeat_of": null,
+   "region": "Global (Anthropic; TNW is Europe-based)",
+   "note": "Reference signal: prompt_what covered this (4.2x). Anthropic was in the 11-25 VP-VNP post and 11-19 ANT debut: same-company caution.",
+   "reference_posts": [{"username": "prompt_what", "url": "https://www.instagram.com/p/DgJ67EtoxW5/", "multiple": 4.2}],
+   "articles": [
+    {"outlet": "The Next Web", "title": "Claude can now install artifacts as Mac and Windows desktop apps", "date": "2026-11-25", "url": "https://thenextweb.com/news/claude-install-as-app-artifacts-mac-windows-desktop"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "Anthropic began rolling out the 'Install as app' feature in beta on Tuesday, on every plan."},
+    {"article": 0, "fact": "After installation, an artifact gets its own icon and opens in its own window instead of inside Claude, and it updates itself whenever someone edits the underlying artifact."},
+    {"article": 0, "fact": "Users do not need to package or sign the app or set up an API key; requests the app makes to Claude count toward the plan's usage limits."},
+    {"article": 0, "fact": "By default an installed app can only do what it could do in a browser; it can ask for permissions such as notifications, a menu bar item, floating over windows or keyboard shortcuts."},
+    {"article": 0, "fact": "The highest level is full computer access: the app can run programs and read, change or delete files without asking each time."},
+    {"article": 0, "fact": "Anthropic's help page warns: 'Only allow it if you trust everyone who wrote the app. Anthropic doesn't review apps before you install them.'"},
+    {"article": 0, "fact": "Full access can only be given to apps users made themselves, or on Team and Enterprise plans, apps made by people in their organisation."},
+    {"article": 0, "fact": "The feature is not available on Linux, the web or mobile, and Anthropic staff have used it to build an image editor, a file manager, a terminal and a performance monitor."}
+   ]
+  },
+  {
+   "title": "OpenAI merges ChatGPT Chat and Work under one usage limit; heaviest users may hit limits sooner",
+   "repeat_of": null,
+   "region": "Global (US)",
+   "note": "OpenAI was in the 11-25 VP-VNP post and 11-23 OpenAI-Perplexity post; different topic. AI Times Korea also covered (not read in full).",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "TechCrunch", "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work", "date": "2026-11-25", "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a small group of Pro subscribers, product lead Thibault 'Tibo' Sottiaux said in a post on X on Tuesday."},
+    {"article": 0, "fact": "Chat and Work will share a single usage meter across ChatGPT, an OpenAI spokesperson told TechCrunch."},
+    {"article": 0, "fact": "Most users are not expected to face more frequent usage resets, but a small fraction of the heaviest users may hit their limits sooner."},
+    {"article": 0, "fact": "Conversations using the Instant model remain unlimited and do not count toward the shared allowance; users can keep using Instant after exhausting their limits."},
+    {"article": 0, "fact": "Some subscribers fear less access to advanced reasoning models while paying the same subscription fees."},
+    {"article": 0, "fact": "OpenAI plans to bring shared usage limits more broadly in December, per its support page."},
+    {"article": 0, "fact": "Rival Anthropic moved to bring Claude chat and Cowork under one interface in September."}
+   ]
+  },
+  {
+   "title": "S&P puts Nvidia's AA credit rating under review over governance and 'key man' risk after Huang's ouster and return",
+   "repeat_of": "related to 2026-11-24-nvidia-huang-ceo-reinstated (new angle: credit rating, neocloud debt). Same company as recent post; apply penalty",
+   "region": "Global (US; Asia market angle via Nikkei/Korea Times)",
+   "note": "Nvidia Huang topic is heavily covered by reference accounts (trenddalkak.ai 6.7x on a Huang meme post).",
+   "reference_posts": [{"username": "trenddalkak.ai", "url": "see reference.json (2026-11-24T23, Huang/Avengers meme post)", "multiple": 6.7}],
+   "articles": [
+    {"outlet": "TechCrunch", "title": "S&P considers Nvidia credit downgrade over governance and 'key man' risks", "date": "2026-11-25", "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "S&P Global Ratings, one of the three major credit rating agencies, is considering downgrading Nvidia's rating, citing concerns about management and governance practices."},
+    {"article": 0, "fact": "S&P said the ouster and reinstatement of CEO Jensen Huang raised concerns about 'weak executive oversight and lack of succession planning' and 'key man risk'."},
+    {"article": 0, "fact": "The agency expects to finish its review within 90 days and could cut Nvidia from AA to AA-, the fourth-highest on its scale."},
+    {"article": 0, "fact": "Nvidia is certain to keep an investment-grade rating, but a downgrade could raise its borrowing costs."},
+    {"article": 0, "fact": "Because Nvidia backstops neoclouds and other infrastructure companies lacking strong credit, a lower rating could make their debt costlier or force them to post more collateral."},
+    {"article": 0, "fact": "In August, Nvidia announced plans to arrange $500 billion in financing for AI infrastructure with six financial institutions including Goldman Sachs, Apollo and Blackstone; Nvidia would guarantee 25% of the loans under the original terms."}
+   ]
+  },
+  {
+   "title": "Siemens builds an AI robot to unpack parts at its Erlangen plant and shows an AI production planner",
+   "repeat_of": null,
+   "region": "Europe (Germany)",
+   "note": "Not covered by reference accounts. No same-company overlap.",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "The Next Web", "title": "Siemens is building an AI robot to unpack parts at its Erlangen plant", "date": "2026-11-25", "url": "https://thenextweb.com/news/siemens-ai-unpacking-robot-production-planner-sps-2026"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "Siemens is developing a robot that uses AI foundation models to unpack component deliveries at its Erlangen electronics plant in Germany, the company said on Tuesday."},
+    {"article": 0, "fact": "Deliveries vary so much in box type and size that fixed robot programs cannot handle them, so unpacking is still mostly done by hand."},
+    {"article": 0, "fact": "Cameras watch the workspace and robot foundation models decide the next steps; the robot opens cartons and takes out reels of components."},
+    {"article": 0, "fact": "The plant receives 80 to 200 packages a day, trade site All About Industries reported; the AI learned from people steering the robot remotely and runs on Siemens industrial PCs with Nvidia chips."},
+    {"article": 0, "fact": "Siemens has not said when the robot will be ready."},
+    {"article": 0, "fact": "At the SPS automation fair in Nuremberg, Siemens also showed an Autonomous Production Planner that uses several agents to draw up schedules and tests each in a digital copy of the factory; Siemens expects it to cut manual planning work by 70% and costs by up to 20%."},
+    {"article": 0, "fact": "'The next productivity leap will come from automating tasks that were impossible to automate before,' said Rainer Brehm, president of automation at Siemens."}
+   ]
+  },
+  {
+   "title": "Tidal bans fully AI-generated music from Dec 9; 43% of recent uploads were fully AI",
+   "repeat_of": "carried over from posts/_backlog/2026-11-25-morning-runners-up.md and evening (not yet posted). Block-owned.",
+   "region": "Global (heise Germany)",
+   "note": "Note figures differ across outlets: heise says about 27M tracks (6.3% of catalog); earlier backlog candidate said about 29M (TechCrunch/TNW). Use the figure from whichever article is cited.",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "heise online", "title": "Tidal verbannt KI-Musik und löscht 27 Millionen Tracks", "date": "2026-11-25", "url": "https://www.heise.de/news/Tidal-Vollstaendig-KI-generierte-Musik-fliegt-raus-11537113.html"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "From December 9, Tidal will no longer accept fully AI-generated music, and such tracks will be rejected and removed from the catalogue."},
+    {"article": 0, "fact": "AI-assisted music stays allowed as long as it does not come solely from one AI tool."},
+    {"article": 0, "fact": "Until now Tidal only labelled tracks it judged fully made by tools such as Suno or Lyria and excluded them from royalties; Tidal wrote 'But that is not enough. We believe a more drastic change is needed.'"},
+    {"article": 0, "fact": "In the past 90 days, 43 percent of all tracks delivered to Tidal were detected as fully AI-generated; on November 6 the share peaked at over 60 percent of deliveries."},
+    {"article": 0, "fact": "About 27 million tracks in the catalogue are flagged as AI music, equal to 6.3 percent of the music available on Tidal, and are to be gone by early 2027."},
+    {"article": 0, "fact": "Distributors will no longer be allowed to deliver such tracks; deliveries whose metadata shows exclusive AI creation will be rejected."}
+   ]
+  },
+  {
+   "title": "Perplexity launches Time Machine so AI agents can search the web as it was up to 365 days ago",
+   "repeat_of": null,
+   "region": "Global (US; TNW Europe)",
+   "note": "Perplexity appeared in 11-23 OpenAI-Perplexity post (different topic). Niche developer story, low score.",
+   "reference_posts": [],
+   "articles": [
+    {"outlet": "The Next Web", "title": "Perplexity's Time Machine lets AI agents search the web of the past", "date": "2026-11-25", "url": "https://thenextweb.com/news/perplexity-time-machine-ai-agents-past-web"}
+   ],
+   "facts": [
+    {"article": 0, "fact": "Perplexity launched Time Machine, a tool letting AI agents search the web as it looked on a past date, the company said on Wednesday."},
+    {"article": 0, "fact": "Time Machine adds a date cutoff to Perplexity's Search and Context APIs; cutoffs reach back 365 days."},
+    {"article": 0, "fact": "It arrived a day after Epochal, a startup from three of xAI's co-founders, launched a similar product; Epochal says its archive spans more than 30 years."},
+    {"article": 0, "fact": "Perplexity says it used the tool to train a model to forecast 2026 political events listed on Polymarket; in its own test the model scored 0.80, just above the market's 0.79."},
+    {"article": 0, "fact": "Perplexity says fewer of its pages leaked later information than rival Exa's, 0.25% against 1.10%, judged by Perplexity's own automated checker."},
+    {"article": 0, "fact": "More than 241 news outlets now block the Wayback Machine to keep AI companies away from their old articles."}
+   ]
+  }
+ ]
+}

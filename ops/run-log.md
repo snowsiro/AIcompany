@@ -2,6 +2,21 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-26
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11-25) 도달 3 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)
+결정할 일
+1. 게시물: `2026-11-26-korea-ai-fake-expert-ad-ban` (KOREA AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 한국 3). 11-27부터 AI로 만든 가짜 의사·교수가 식품·의약품·화장품을 광고하는 것을 한국이 금지. 소스 AI타임스 단일(원문 확인, Yonhap 403). 독자 영향 훅 없음(기사에 근거 없음). 원화만 표기: 기사에 환율이 없어 달러 환산 규칙 예외
+2. 검수: fact 통과(경미: 슬라이드 3 제목 "shut for months"가 식품 첫 위반 15일보다 과장, 슬라이드 5 제목이 느슨함), hook 7/10 통과, brand 통과. 1차에 전원 통과
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6), 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+4. 인스타 토큰 없음: 참고 계정은 morning-scan의 reference.json만 사용. 3x 이상 신호는 Claude Code 튜토리얼류와 Huang 밈(6.7x)뿐, 선정 글과 무관
+5. 예비: `posts/_backlog/2026-11-26-morning-runners-up.md` (중국 AI 격차 8, Claude 앱 설치 8, Siemens 7 등 — 저녁 후보). Nvidia S&P 건은 11-24 글과 같은 회사라 감점
+6. 읽기 불가: Yonhap 403(BOK 전망 미확인으로 제외), Verge·Ars 403, Euractiv·Meta AI·JoongAng 피드 실패, 주요 뉴스룸 피드 0건
+7. 아침 스캔이 main에 없어 morning-scan을 직접 실행, 약 2분 내 도착
+8. 브랜치: 시스템 지침에 따라 `daily/2026-11-26` 대신 `claude/friendly-cori-gpl1rs`
+자세한 기록
+- 후보 9개 수집, 1순위 korea-ai-fake-expert-ad-ban(ready)
+
 ## [저녁 보고] 2026-11-25
 처리 1건 (ready 1) · 실패 0건
 결정할 일

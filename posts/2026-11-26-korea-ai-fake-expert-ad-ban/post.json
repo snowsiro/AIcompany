@@ -1,0 +1,138 @@
+{
+  "id": "2026-11-26-korea-ai-fake-expert-ad-ban",
+  "date": "2026-11-26",
+  "category": "POLICY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "KOREA AI · POLICY",
+    "headline": [
+      "KOREA BANS **AI**",
+      "FAKE DOCTOR ADS"
+    ],
+    "hook_options": [
+      [
+        "KOREA BANS **AI**",
+        "FAKE DOCTOR ADS"
+      ],
+      [
+        "46 ADS USED AI",
+        "TO FAKE **DOCTORS**"
+      ],
+      [
+        "**8.1BN WON** SOLD",
+        "BY AN AI DOCTOR"
+      ],
+      [
+        "AI DOCTOR ADS",
+        "GET **SUSPENDED**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "No reader-impact hook: AI Times states the ban and its penalties but no effect on what ordinary viewers will see, pay or risk, and a Korea-only ad rule cannot be promised to change viewers' feeds. The headline states the news itself (Korea bans ads with AI-made fake doctors, from Nov 27) and every word is supported by slides 1 and 2. The number options are vivid but narrower: 46 is a subset of 420 improper ads, and 8.1bn won is one company's sales in one case. The 'suspended' option covers only the penalty, not the ban.",
+    "image_prompt": "Cinematic close shot of an empty white doctor's coat on a hanger, glowing faintly with glitching blue and gold digital static, floating in a dark room in front of a large phone-shaped screen that shows only an abstract fractured silhouette made of pixels, no face, cold clinical light with amber highlights, glossy black floor reflections, shallow depth of field. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261126_045240_ed8021f6-b84d-4cee-8dfd-74f80661660d.png"
+  },
+  "slides": [
+    {
+      "kicker": "The ban",
+      "title": "Korea bans AI 'experts' in ads",
+      "body": [
+        "From **Nov 27**, ads in which AI-made virtual doctors or professors recommend food, drugs or cosmetics are banned in South Korea. The rule for medical devices follows on **Dec 10**."
+      ]
+    },
+    {
+      "kicker": "The rule",
+      "title": "The regulator rewrote its rules",
+      "body": [
+        "South Korea's Ministry of Food and Drug Safety, the regulator for food, drugs and cosmetics, said on Nov 26 it revised its enforcement rules. Banned: ads that mislead consumers into thinking a **fake AI expert** endorses a product."
+      ]
+    },
+    {
+      "kicker": "The penalties",
+      "title": "Violators can be shut for months",
+      "body": [
+        "For food, a first violation means a **15-day business suspension**, a second 1 month, a third 2 months. Cosmetics are tougher: from 2 months for a first violation to **12 months** for a fourth or later."
+      ]
+    },
+    {
+      "kicker": "The evidence",
+      "title": "420 improper ads in 9 months",
+      "body": [
+        "The Korea Consumer Agency, a government consumer-protection body, monitored YouTube ads from October last year to June this year. It found **420 improper ads**, including **46** that used AI to impersonate doctors, pharmacists or nurses."
+      ]
+    },
+    {
+      "kicker": "The case",
+      "title": "One AI doctor sold 8.1bn won",
+      "body": [
+        "In June, a company that sold **8.1 billion won** of products was referred to prosecutors. It used an AI fake doctor to claim 'body age reduction' and anti-aging effects."
+      ]
+    },
+    {
+      "kicker": "The doubt",
+      "title": "Critics say penalties are light",
+      "body": [
+        "Some critics say the penalties are not heavy compared with the **sales made on platforms** in a short time. Whether the ban reaches the platforms themselves is not stated in the report."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Ads in which AI-made virtual doctors or professors recommend food, drugs or cosmetics are banned from the 27th."
+    },
+    {
+      "source": 0,
+      "text": "The Ministry of Food and Drug Safety said on the 26th it revised enforcement rules so that ads that mislead consumers into thinking fake AI experts endorse a product are banned."
+    },
+    {
+      "source": 0,
+      "text": "The food, pharmaceutical and cosmetics laws take effect on the 27th; the medical devices law takes effect on December 10."
+    },
+    {
+      "source": 0,
+      "text": "Food: a first violation means a 15-day business suspension, a second 1 month, a third 2 months."
+    },
+    {
+      "source": 0,
+      "text": "Cosmetics carry the heaviest penalties, from 2 months for a first violation to 12 months for a fourth or later."
+    },
+    {
+      "source": 0,
+      "text": "The Korea Consumer Agency monitored YouTube ads for 9 months (October last year to June this year) and found 420 improper ads, including 46 that used AI to impersonate doctors, pharmacists or nurses."
+    },
+    {
+      "source": 0,
+      "text": "In June, a company that sold 8.1 billion won worth of products using an AI fake doctor to claim 'body age reduction' and anti-aging effects was referred to prosecutors."
+    },
+    {
+      "source": 0,
+      "text": "Some critics say the penalties are not heavy compared with the sales made on platforms in a short time."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI Times",
+      "title": "27일부터 'AI 가짜 의사·교수' 추천 광고 금지…위반 시 영업정지",
+      "title_en": "From the 27th, ads recommended by 'AI fake doctors and professors' banned... business suspension for violations",
+      "language": "Korean",
+      "date": "Nov 26, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217797"
+    }
+  ],
+  "caption": "South Korea will ban ads where AI-made fake doctors and professors recommend food, drugs or cosmetics from Nov 27.\n\nThe Ministry of Food and Drug Safety revised its enforcement rules, AI Times reports. Violators can face business suspension, and the Korea Consumer Agency found 46 YouTube ads using AI to impersonate medical staff.\n\n→ Ban starts Nov 27 for food, drugs and cosmetics; Dec 10 for medical devices\n→ Food: 15-day suspension for a first violation; cosmetics: 2 to 12 months\n→ 420 improper YouTube ads found in 9 months, 46 with AI-faked doctors, pharmacists or nurses\n\nWould a ban like this work where you live?\n\nSource: AI Times (in Korean), \"From the 27th, ads recommended by 'AI fake doctors and professors' banned... business suspension for violations\", Nov 26, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#KoreaAI",
+    "#AIPolicy",
+    "#Korea"
+  ],
+  "threads_caption": "South Korea bans ads where AI-made fake doctors and professors recommend food, drugs or cosmetics, from Nov 27. Violators can face business suspension.\n\nKorea's consumer agency found 46 YouTube ads using AI to impersonate medical staff.\n\nSource: AI Times (in Korean), \"From the 27th, ads recommended by 'AI fake doctors and professors' banned... business suspension for violations\". #KoreaAI"
+}
