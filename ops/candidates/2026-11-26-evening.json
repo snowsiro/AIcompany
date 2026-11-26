@@ -1,0 +1,8 @@
+{"date":"2026-11-26","run":"evening","note":"feeds.json fetched 12:16Z (13:16 Vienna), so no US afternoon items. No reference-account data in the evening.",
+"stories":[
+{"id":"apple-minimax-talkie","title":"Apple removes MiniMax's Talkie AI companion app from App Store over child safety","first_published_utc":"2026-11-25T12:32Z (SCMP); Reuters 2026-11-26T05:13Z; TNW 2026-11-26T08:54Z","carried_over":false,"region":"China/Global","score":8,"score_note":"global 3 + numbers 2 (11M users, 60% revenue) + Asia 3; fresh bonus 0 (first piece Wed); no 14-day repeat","articles":[{"outlet":"The Next Web","title":"Apple removes MiniMax's Talkie AI app from App Store over child safety","url":"https://thenextweb.com/news/apple-removes-minimax-talkie-app-store-child-safety"}]},
+{"id":"nvidia-se-asia-halt","title":"Nvidia reportedly stops server shipments to Malaysia, Singapore, Thailand, Indonesia","first_published_utc":"2026-11-26T08:25Z","carried_over":false,"score":"about 5 (Nvidia posted 11-18, 11-23, 11-24: -10 if counted)","articles":[{"outlet":"The Next Web","url":"https://thenextweb.com/news/nvidia-halts-server-shipments-southeast-asia"}]},
+{"id":"samsung-reorg","title":"Samsung reorganizes memory, system LSI units (Yonhap)","first_published_utc":"2026-11-25T16:39Z","score":"about 6","note":"Yonhap 403 earlier; unread"},
+{"id":"china-gap-9-months","carried_over":true,"score":8,"note":"from ops/candidates/2026-11-26.json story 2, secondhand via AI타임스"},
+{"id":"siemens-robot","carried_over":true,"score":7,"note":"story 6, TNW"}
+]}
