@@ -2,28 +2,26 @@
 
 Chosen hook: "APPLE PULLS / TALKIE AI APP" (claim)
 
-## Scores (chosen hook)
-- Clear in under 2 seconds: 8
-- Curiosity: 5
-- Concrete number or name: 8 (Apple, Talkie; no number)
-- Promise the slides keep: 9 (slide 2 states Apple removed Talkie from the App Store worldwide; no wrongdoing claimed as proven)
-- Reader stake: 2 (no effect on readers stated; not required since the other criteria are strong)
-- Overall: 7
+| Criterion | Score |
+| --- | --- |
+| Clear in under 2 seconds | 8 |
+| Curiosity | 6 |
+| Concrete name or number | 7 (Apple, Talkie; no number) |
+| Promise the slides keep | 9 |
+| Reader stake | 3 (none; the reason is stated honestly) |
 
-## hook_types
-Labels are honest. Option 1 is a number hook. The other three are claims, and none is mislabeled as reader-impact.
-
-## No reader-impact hook
-hook_pick_reason contains an honest "No reader-impact hook:" reason (The Next Web states no effect on ordinary readers). OK.
+Overall: 7
 
 ## Comparison
-- Option 1 "TALKIE HAD 11M MONTHLY USERS": has a number but does not say what happened, so the cover and slide 2 do not match.
-- Option 2 "APPLE REMOVES A CHINESE AI APP": drops the product name, so it is weaker.
-- Option 3 "MINIMAX'S HIT APP IS GONE": implies it is gone everywhere (only the App Store is confirmed) and "hit" is not sourced.
+- Option 1 (11M monthly users, number): has a number but does not say what happened. Weaker.
+- Option 2 (Apple removes a Chinese AI app): drops the product name. Weaker.
+- Option 3 (MiniMax's hit app is gone): vaguer, and implies it is gone everywhere, while the source confirms only the App Store. It would overpromise.
+- The chosen hook is the best.
 
-The chosen option is the best one.
+## Labels
+hook_types are honest. None is reader-impact. hook_pick_reason has an honest "No reader-impact hook:" reason.
 
-## Minor note
-Slide 2 footer reads "02 / 07" while the post has a cover plus 5 slides. Confirm the 7th slide (sources) exists. Not a hook issue.
+## Notes
+Slide 1 backs the headline in full: the removal is worldwide, attributed to The Next Web, and the wrongdoing is framed as reports, not proven. The cover could add a curiosity cue about child safety, but that is optional.
 
 PASS

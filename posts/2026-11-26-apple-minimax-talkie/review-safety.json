@@ -1,6 +1,6 @@
 {
   "pass": true,
   "issues": [
-    "Non-blocking: the generated cover image has a thin orange-red rounded frame line near its edges. It is part of the AI image, not a template color. The designer may want to check it. Cover text, fonts and accent use otherwise match DESIGN.md."
+    "Non-blocking note: the generated cover image has a thin orange-red rounded frame line near its edge. It is part of the AI image, not a template color, and the cover has no text, no logo and no person. Designer may crop it if they want a cleaner cover."
   ]
 }

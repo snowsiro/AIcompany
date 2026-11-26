@@ -1,12 +1,15 @@
-# Fact review: 2026-11-26-apple-minimax-talkie
+# Fact review (round 2) - 2026-11-26-apple-minimax-talkie
 
-Source opened with scripts/article.mjs (The Next Web, published 2026-11-26). It opened fine.
+Source opened: The Next Web, "Apple removes MiniMax's Talkie AI app from App Store over child safety" (node scripts/article.mjs, published 2026-11-26). Title, outlet and date match.
 
-Checked and matching: cover headline, Apple removal worldwide, the joint ABC News and Bureau of Investigative Journalism investigation published Wednesday, ABC's account of why Apple removed the app, the parents' allegations, the 18+ rating with self-reported age, 11M monthly users in October (Unique via Reuters), more than 60% of 2024 revenue, Shanghai-based and listed in Hong Kong in January, the July China crackdown, and the caption and threads caption. Slide 7 source line is correct.
+Checked cover, slides 1-5 (text in post.json), caption, threads_caption against the article text.
+- Apple removal worldwide, MiniMax Chinese AI company, sexualised messages reports: match.
+- ABC News / Bureau of Investigative Journalism joint investigation Wednesday; Apple cited sexual content per ABC after ABC put questions: match.
+- Parents in Australia and US; degrading, possessive, sexualised; engagement and training claims; framed as claims; neither responded to Reuters: match.
+- 18+ rating, self-reported age, advocates: match. 11M monthly users in October per Unique via Reuters: match (article adds "across app and website"; omission is not a distortion).
+- Over 60% of 2024 revenue (Talkie + Xingye); Shanghai-based; Hong Kong listing in January; July China ban on intimate relationships with minors including Xingye: match.
+- "Who is this" descriptions for ABC and the Bureau are fine.
 
-Issues:
-1. Slide 2 title "Two newsrooms asked questions". Only ABC put questions to Apple.
-2. Slide 3 "MiniMax did not respond". The article says neither company responded to Reuters' requests for comment.
-3. Slide 5 title "Talkie powers MiniMax's revenue". Present tense. The 60% figure is for 2024, and MiniMax no longer reports chatbot revenue separately.
+No mismatches or overstatement found.
 
-Result: FAIL
+PASS
