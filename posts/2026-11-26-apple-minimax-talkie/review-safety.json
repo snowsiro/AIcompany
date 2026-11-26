@@ -1,0 +1,6 @@
+{
+  "pass": true,
+  "issues": [
+    "Non-blocking note: the generated cover image has a thin orange-red rounded frame line near its edge. It is part of the AI image, not a template color, and the cover has no text, no logo and no person. Designer may crop it if they want a cleaner cover."
+  ]
+}

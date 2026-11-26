@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-26
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 게시물: `2026-11-26-apple-minimax-talkie` (CHINA AI · POLICY, 점수 8 = 글로벌 3 + 숫자 2 + 아시아 3, 신선도 0). Apple이 MiniMax의 AI 동반자 앱 Talkie를 App Store에서 전 세계 삭제(ABC News·Bureau of Investigative Journalism 합동 조사 후). 소스 The Next Web 단일(원문 확인), 의혹은 전부 "reports/claims"로 귀속, Google Play 상태는 기사에 없어 미표기. 첫 게시 SCMP 2026-11-25 12:32Z, Reuters 11-26 05:13Z, TNW 11-26 08:54Z(10:54 Vienna): ready 시점(약 20:10 Vienna)에 TNW 기준 약 9시간, 최초 보도 기준 약 31시간 경과. 엄밀히는 05:45 이후 최초 게시가 아님. 아침 Korea 광고 금지(AI타임스)와 다른 주체·매체. 독자 영향 훅 없음(기사에 근거 없음). 통화 없음
+2. 검수: fact 1차 불합격(슬라이드 2 제목 "두 방송사가 질문"은 ABC만, 슬라이드 3 "MiniMax 무응답"은 Reuters 요청 기준, 슬라이드 5 제목 현재형) 후 2차 통과, hook 7/10 통과, brand 통과(커버 이미지에 얇은 주황 테두리선이 있어 경미)
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6: 아침 2 + 저녁 2), 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+4. 신규 기사 적음: 피드가 12:16Z에 수집돼 미국 오후 발표 없음. 읽기 불가: Reuters 구글뉴스 리다이렉트, Yonhap 403(삼성 조직개편·BOK 건 미열람)
+5. 예비: Nvidia 동남아 서버 출하 중단(TNW, Nvidia 최근 글 많아 감점), 중국 AI 기업 모델 개발 포기 검토(AI타임스 2차 출처), Siemens AI 로봇(TNW)
+6. 브랜치는 시스템 지침에 따라 `daily/2026-11-26-evening` 대신 `claude/inspiring-darwin-n7fd66`
+자세한 기록
+- 후보 신규 3 + 넘어온 2, 1순위 apple-minimax-talkie(ready), 넘어온 ready 글 없음(아침 글 published)
+- 머지: PR render 체크 후 원문 재확인해 머지
+
 ## [아침 보고] 2026-11-26
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11-25) 도달 3 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)
