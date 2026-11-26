@@ -49,7 +49,7 @@
     },
     {
       "kicker": "The investigation",
-      "title": "Two newsrooms asked questions",
+      "title": "A joint investigation",
       "body": [
         "ABC News, the Australian broadcaster, and the UK-based Bureau of Investigative Journalism, an investigative news outlet, published a joint investigation Wednesday. Apple took the app down after ABC put questions to it, **citing sexual content**, according to ABC."
       ]
@@ -58,7 +58,7 @@
       "kicker": "What parents said",
       "title": "Allegations from parents",
       "body": [
-        "Parents in Australia and the US described characters sending **degrading, possessive, sexualised** messages. They also reported the app was designed to keep users engaged longer, and that chats trained its models. These are claims; MiniMax did not respond."
+        "Parents in Australia and the US described characters sending **degrading, possessive, sexualised** messages. They also reported the app was designed to keep users engaged longer, and that chats trained its models. These are claims; neither MiniMax nor Apple responded to Reuters' requests for comment."
       ]
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "kicker": "The business",
-      "title": "Talkie powers MiniMax's revenue",
+      "title": "Talkie and Xingye led 2024 revenue",
       "body": [
         "Talkie and its Chinese version Xingye made **over 60%** of MiniMax's 2024 revenue. MiniMax is Shanghai-based and listed in Hong Kong in January. In July, China banned intimate relationships with minors on AI companion apps, including Xingye."
       ]
@@ -122,14 +122,14 @@
       "url": "https://thenextweb.com/news/apple-removes-minimax-talkie-app-store-child-safety"
     }
   ],
-  "caption": "Apple has removed Talkie, an AI companion app from Chinese AI company MiniMax, from its App Store worldwide.\n\nThe Next Web reports the removal followed a joint ABC News and Bureau of Investigative Journalism investigation. Parents described sexualised messages to children; MiniMax and Apple did not respond to Reuters.\n\n→ Apple said it removed Talkie for sexual content, according to ABC\n→ Talkie had about 11M monthly users in October, per Unique via Reuters\n→ Talkie and Xingye made over 60% of MiniMax's 2024 revenue\n\nShould AI companion apps be allowed for anyone under 18?\n\nSource: The Next Web, \"Apple removes MiniMax's Talkie AI app from App Store over child safety\", Nov 26, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "caption": "Apple has removed Talkie, an AI companion app from Chinese AI company MiniMax, from its App Store worldwide.\n\nThe Next Web reports the removal followed a joint ABC News and Bureau of Investigative Journalism investigation. Parents described sexualised messages to children; neither MiniMax nor Apple responded to Reuters' requests for comment.\n\n→ Apple said it removed Talkie for sexual content, according to ABC\n→ Talkie had about 11M monthly users in October, per Unique via Reuters\n→ Talkie and Xingye made over 60% of MiniMax's 2024 revenue\n\nShould AI companion apps be allowed for anyone under 18?\n\nSource: The Next Web, \"Apple removes MiniMax's Talkie AI app from App Store over child safety\", Nov 26, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
   "hashtags": [
     "#AINews",
     "#Talkie",
     "#MiniMax",
     "#AISafety"
   ],
-  "threads_caption": "Apple has removed Talkie, an AI companion app from Chinese AI company MiniMax, from its App Store worldwide, after reports of sexualised messages to children. The claims are unanswered by MiniMax, per The Next Web.\n\nSource: The Next Web, \"Apple removes MiniMax's Talkie AI app from App Store over child safety\". #Talkie",
+  "threads_caption": "Apple has removed Talkie, an AI companion app from Chinese AI company MiniMax, from its App Store worldwide, after reports of sexualised messages to children. Neither MiniMax nor Apple responded to Reuters' requests for comment, per The Next Web.\n\nSource: The Next Web, \"Apple removes MiniMax's Talkie AI app from App Store over child safety\". #Talkie",
   "published_id": "",
   "permalink": ""
 }
