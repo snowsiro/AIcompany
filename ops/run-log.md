@@ -6,7 +6,7 @@ Newest first. Format is in CLAUDE.md ("보고").
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11-26) 도달 2 · 팔로워 2 · 링크 클릭 0 · 최고 도달 수치는 ops/metrics/2026-11-27.json 참조 (apple-minimax-talkie 도달 0, 아직 집계 중)
 결정할 일
-1. 게시물: `2026-11-27-sap-ai-first-job-cuts` (EUROPE AI · INDUSTRY, 점수 8 = 글로벌 3 + 숫자 2 + 유럽 3). Bloomberg 보도를 인용한 heise·AI타임스 2건 기반으로 SAP가 AI 우선 전략 아래 최소 1만 명 감원을 검토 중이라는 내용. 전부 "reportedly/weighs"로 귀속, 확정 아님 명시. 독자 영향 훅 없음(기사에 근거 없음). 유로·달러 금액 없음(30억 유로는 AI타임스 수치로 달러 미표기 → 슬라이드에서 확인 필요시 검토)
+1. 게시물: `2026-11-27-sap-ai-first-job-cuts` (EUROPE AI · INDUSTRY, 점수 8 = 글로벌 3 + 숫자 2 + 유럽 3). Bloomberg 보도를 인용한 heise·AI타임스 2건 기반으로 SAP가 AI 우선 전략 아래 최소 1만 명 감원을 검토 중이라는 내용. 전부 "reportedly/weighs"로 귀속, 확정 아님 명시. 독자 영향 훅 없음(기사에 근거 없음). 슬라이드 4의 €3bn(2024 구조조정 비용, AI타임스)은 기사에 환율이 없어 유로만 표기(달러 규칙 예외)
 2. 검수: fact 1차 불합격(\"SAP 자칭\" 오귀속 → heise 표현으로 수정), 2차 불합격(슬라이드 6 IG Metall 인용 과장 → 재작성), 3차 통과. hook 7/10 통과, brand 통과(재검수 포함). 카테고리는 lint가 WORK를 허용하지 않아 INDUSTRY로 변경
 3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6), 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
 4. 인스타 토큰 없음: 참고 계정은 morning-scan reference.json만 사용. 3x 이상 신호는 튜토리얼류뿐, 뉴스 글 없음
