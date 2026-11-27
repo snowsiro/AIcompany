@@ -1,4 +1,20 @@
-{ "pass": false, "issues": [
-{ "where": "slide 2 (and caption, hook_pick_reason)", "problem": "Says 'No price has been given.' The article says Gu expects Iron to cost about as much as one of Xpeng's cars (119,800 yuan, about $18,000, to 309,800 yuan), and the lead says 'priced like one of Xpeng's cars'. No fixed price is announced, but the claim as written contradicts the article.", "fix": "Replace with 'Gu expects it to cost about as much as one of Xpeng's cars; no fixed price is announced.' Optionally add the car range as 119,800 yuan (about $18,000) to 309,800 yuan. Make the same change in the caption ('No price has been given') and in hook_pick_reason." },
-{ "where": "slide 2", "problem": "Minor: the slide omits that Gu said it could reach homes in one or two years after store-assistant training. This is not an error, but 'household chores' is attributed correctly to CNBC.", "fix": "None needed." }
-] }
+{
+  "pass": false,
+  "issues": [
+    {
+      "where": "slide 2 body",
+      "problem": "\"No fixed price is announced.\" The article never says this. It says only that Gu expects Iron to cost about as much as one of Xpeng's cars. A claim about what has not been announced is unconfirmed.",
+      "fix": "Delete the sentence. Use \"He expects it to cost about as much as an Xpeng car, which sells for 119,800 yuan (about $18,000) to 309,800 yuan.\""
+    },
+    {
+      "where": "caption (paragraph 2 and third line) and facts",
+      "problem": "\"but no fixed price is announced\" and \"not yet fixed\" repeat the same unsupported claim.",
+      "fix": "Remove both phrases. Say only that Gu expects a car-like price."
+    },
+    {
+      "where": "slide 6 body",
+      "problem": "\"The Next Web gives no background on that estimate.\" This is a meta-claim about the article, not a fact from it. It is true but adds nothing, and the slide reads oddly without it.",
+      "fix": "Optional: delete it. Keep \"across all makers, not just Xpeng\"."
+    }
+  ]
+}
