@@ -1,0 +1,150 @@
+{
+  "id": "2026-11-27-sap-ai-first-job-cuts",
+  "date": "2026-11-27",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "EUROPE AI · INDUSTRY",
+    "headline": [
+      "SAP EYES **10,000**",
+      "AI-FIRST CUTS"
+    ],
+    "hook_options": [
+      [
+        "SAP EYES **10,000**",
+        "AI-FIRST CUTS"
+      ],
+      [
+        "SAP MAY CUT",
+        "**10,000** FOR AI"
+      ],
+      [
+        "SAP CUT 10,000,",
+        "ADDED **15,000**"
+      ],
+      [
+        "**SAP** WON'T DENY",
+        "10,000 JOB CUTS"
+      ]
+    ],
+    "hook_types": [
+      "number",
+      "number",
+      "number",
+      "claim"
+    ],
+    "hook_type": "number",
+    "hook_pick_reason": "No reader-impact hook: the articles say which SAP departments are expected to be hit hardest, but state no effect on ordinary readers outside SAP's own staff, so that label would overpromise. The headline carries the biggest hard number (at least 10,000 jobs) and the AI-first framing from the report, and slides 1 to 3 back every word, with 'eyes' standing for 'is drawing up plans' as reported by Bloomberg via heise. 'For AI' states a cause more flatly than the report does; the 15,000 option is a good second but pulls the story to the past; the 'won't deny' option rests on one quoted phrase.",
+    "image_prompt": "Cinematic wide shot of a vast dark glass office tower interior at night, rows of identical empty desks with glowing monitors, a few desks fading into pale blue digital particles that drift upward toward a luminous abstract neural-network lattice on the ceiling, cold blue light with amber highlights, glossy floor reflections, shallow depth of field. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people.",
+    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3EN4kNZ6lpLIedWCCE6HjOeeh2U/hf_20261127_045112_802fa40f-d2d5-4182-bd73-e8895b4a932f.png"
+  },
+  "slides": [
+    {
+      "kicker": "The report",
+      "title": "SAP reportedly weighs big cuts",
+      "body": [
+        "Bloomberg reports, citing unnamed people familiar, that SAP is drawing up plans to cut **at least 10,000 jobs** under its AI-first strategy. heise calls SAP Europe's most valuable software company. Nothing is confirmed."
+      ]
+    },
+    {
+      "kicker": "The scale",
+      "title": "Nearly a tenth of its staff",
+      "body": [
+        "SAP had **110,730 employees** worldwide at the end of September. Ten thousand cuts would be nearly a tenth of that, by heise's own arithmetic. The reports give no split by country or region."
+      ]
+    },
+    {
+      "kicker": "The response",
+      "title": "SAP did not deny it",
+      "body": [
+        "SAP did not deny the plans and spoke of **'continuous reviews of the organisation'**. AI Times reports the size and timing are not final and could change in talks with employee representatives."
+      ]
+    },
+    {
+      "kicker": "The history",
+      "title": "It cut 10,000 in 2024 too",
+      "body": [
+        "In 2024 SAP cut **10,000 jobs**, mostly through voluntary departures, and has since added about **15,000**. AI Times says that restructuring cost about 3 billion euros."
+      ]
+    },
+    {
+      "kicker": "The reach",
+      "title": "Every department is reporting",
+      "body": [
+        "All departments were told to report where positions can be cut. Programming, product support and sales are **expected to be hit hardest**. Since July, hiring has been limited mainly to core AI roles."
+      ]
+    },
+    {
+      "kicker": "The union",
+      "title": "A deal with no added shield",
+      "body": [
+        "IG Metall, Germany's metalworkers' union, criticised SAP's September agreement with its German works council. Via heise, it calls the deal a **price tag for dismissals** with no protection beyond statutory dismissal protection."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "SAP is drawing up plans to cut at least 10,000 jobs as a result of its AI-first strategy, Bloomberg reports, citing unnamed people familiar with the matter."
+    },
+    {
+      "source": 0,
+      "text": "SAP did not deny the plans and spoke of 'continuous reviews of the organisation'."
+    },
+    {
+      "source": 0,
+      "text": "10,000 would be nearly a tenth of SAP's 110,730 employees worldwide (as of end of September)."
+    },
+    {
+      "source": 0,
+      "text": "SAP cut 10,000 jobs in 2024, mostly through voluntary departures, and has since added about 15,000 jobs."
+    },
+    {
+      "source": 0,
+      "text": "All SAP departments were told to report where positions can be cut; programming, product support and sales are expected to be hit hardest."
+    },
+    {
+      "source": 0,
+      "text": "heise calls SAP Europe's most valuable software company (heise: 'wertvollstes Softwareunternehmen Europas')."
+    },
+    {
+      "source": 0,
+      "text": "heise: IG Metall criticised the September agreement with the German works council as a 'price tag for dismissals and no protection beyond statutory dismissal protection'."
+    },
+    {
+      "source": 1,
+      "text": "AI Times: the size and timing of the cuts are not final and could change in talks with employee representatives."
+    },
+    {
+      "source": 1,
+      "text": "AI Times: since July SAP has limited new hiring mainly to core AI roles and cut costs such as travel; the 2024 restructuring cost about 3 billion euros."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "heise online",
+      "title": "SAP: KI zuerst, 10.000 Mitarbeiter weniger",
+      "title_en": "SAP: AI first, 10,000 fewer employees",
+      "language": "German",
+      "date": "Nov 26, 2026",
+      "url": "https://www.heise.de/news/SAP-AI-First-10-000-Mitarbeiter-weniger-11539781.html"
+    },
+    {
+      "outlet": "AI Times",
+      "title": "SAP, AI 중심 구조조정 추진…최소 1만명 감원 검토",
+      "title_en": "SAP pursues AI-centred restructuring... weighs cutting at least 10,000 staff",
+      "language": "Korean",
+      "date": "Nov 27, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217860"
+    }
+  ],
+  "caption": "SAP is reportedly weighing at least 10,000 job cuts under an AI-first strategy.\n\nBloomberg reports the plans, citing unnamed people familiar, as relayed by German outlet heise online. SAP did not deny them and spoke of \"continuous reviews of the organisation\". Nothing is final.\n\n→ At least 10,000 jobs, nearly a tenth of SAP's 110,730 staff\n→ All departments told to report where roles can go; programming, product support and sales expected to be hit hardest\n→ SAP cut 10,000 in 2024, then added about 15,000\n\nDo AI-first strategies at your company feel like growth or cuts?\n\nSource: heise online (in German), \"SAP: AI first, 10,000 fewer employees\", Nov 26, 2026; AI Times (in Korean), \"SAP pursues AI-centred restructuring... weighs cutting at least 10,000 staff\", Nov 27, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#SAP",
+    "#AIJobs",
+    "#FutureOfWork"
+  ],
+  "threads_caption": "SAP is reportedly weighing at least 10,000 job cuts under an AI-first strategy, nearly a tenth of its 110,730 staff, per Bloomberg via heise. SAP did not deny it. Nothing is final.\n\nSource: heise online (in German), \"SAP: AI first, 10,000 fewer employees\". #SAP"
+}

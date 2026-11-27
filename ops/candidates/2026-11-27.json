@@ -1,0 +1,392 @@
+{
+ "date": "2026-11-27",
+ "run": "morning",
+ "unreadable_or_dropped": [
+  "Apple Korea possible $50M fine over iPhone AI ads (Korea Times via Google News): no readable original; web search found only older Seoul YMCA / KFTC probe coverage and could not confirm the $50M figure. Dropped.",
+  "Yonhap English (en.yna.co.kr) HTTP 403 (Samsung memory/System LSI reorganisation dropped)",
+  "The Verge HTTP 403: SpaceX FCC 1M satellites not used (heise article seen only as headline; not fetched)",
+  "feeds.json: no items for Euractiv, Politico Europe, Anthropic/OpenAI/DeepMind/Google/Microsoft newsroom feeds (empty or failed); Google News redirects only for Reuters, Nikkei, SCMP, Korea Times, Korea Herald; Nikkei/Reuters/SCMP stories not read",
+  "Reference accounts: no Instagram token; used ops/scan reference.json. Almost all posts are tool tips and ads. Only news-like posts: moodmode.ai Korea AI economy concentration (1.0x), BOK STEM brain-drain (1.4x), ai.trend.kr MIT assignments (2.7x). No 3x+ news post (3x+ ones are tool tutorials: prompt_what 23x, 11.6x; mktg.with.ai 30x; sdk.kim.builds 20.5x MCP). Not used."
+ ],
+ "backlog_checked": "posts/_backlog/2026-11-26-morning-runners-up.md carry-overs not re-read this run: Siemens unpacking robot (TNW, Europe), Claude Install as app (TNW), S&P Nvidia rating review (TechCrunch, Nvidia -10), OpenAI merges Chat and Work limits (TechCrunch), SpaceX Starmind FCC (heise), Tidal AI music ban, Perplexity Time Machine, Chinese AI firms weigh frontier models (The Information via AI타임스, related to 11-17 and 11-20 posts).",
+ "stories": [
+  {
+   "title": "Nvidia tells Dell and Super Micro to pause server shipments to Malaysia, Singapore, Thailand and Indonesia",
+   "region": "Asia / US",
+   "repeat_of": null,
+   "related_posts": [
+    "2026-11-16-us-remote-access-chip-rule",
+    "2026-11-20-moonshot-indonesia-chip-rental-cancel",
+    "2026-11-24-megaspeed-embargo",
+    "2026-11-24-nvidia-huang-ceo-reinstated"
+   ],
+   "note": "Same chip-curb thread as three posts in 14 days and Nvidia posted 11-24 (-10 if counted). Fresh angle: Nvidia itself enforcing. Covered by etnews, heise, TechCrunch. Evening-pick risk: same company.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+     "date": "2026-11-26",
+     "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+    },
+    {
+     "outlet": "heise online",
+     "title": "Nvidia stoppt offenbar Lieferungen von KI-Servern an einige Länder Südostasiens",
+     "date": "2026-11-27",
+     "url": "https://www.heise.de/news/Nvidia-stoppt-offenbar-Lieferungen-von-KI-Servern-an-einige-Laender-Suedostasiens-11539931.html"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "According to the WSJ, Nvidia told manufacturing partners including Dell and Super Micro to pause server shipments to Malaysia, Singapore, Thailand and Indonesia for an unspecified period."
+    },
+    {
+     "article": 0,
+     "fact": "Nvidia is assessing whether its regional partners are meeting US export requirements."
+    },
+    {
+     "article": 0,
+     "fact": "Chinese companies have been tapping Nvidia chips remotely from data centers in those countries, a loophole the US Commerce Department closed earlier this month."
+    },
+    {
+     "article": 0,
+     "fact": "The Institute for Progress estimates remote data centers like these supply about 24% of China's AI computing power."
+    },
+    {
+     "article": 1,
+     "fact": "heise cites the Financial Times, which relies on three people familiar with the matter, for the orders to Dell and Supermicro."
+    },
+    {
+     "article": 1,
+     "fact": "In 2025 Nvidia's Singapore subsidiary recorded $104 billion in revenue, up 72% from the prior year (heise)."
+    },
+    {
+     "article": 1,
+     "fact": "It is unclear which AI chips the pause covers and whether it is time-limited (heise)."
+    },
+    {
+     "article": 1,
+     "fact": "The US Commerce Department gave cloud providers a 90-day deadline to obtain a licence proving no sanctioned entities are among their customers; a cloud manager says nobody knows how to apply (heise)."
+    },
+    {
+     "article": 1,
+     "fact": "Nvidia declined to comment; Dell and Supermicro did not respond to heise's requests."
+    }
+   ]
+  },
+  {
+   "title": "SAP weighs cutting at least 10,000 jobs in an AI-first restructuring",
+   "region": "Europe (Germany)",
+   "repeat_of": null,
+   "note": "Not covered by reference accounts. Hard numbers. Source is Bloomberg via heise and AI타임스. DISCREPANCY: AI타임스 says SAP has a German jobs guarantee to 2028; heise says media wrongly described the September deal that way. Use heise.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "SAP: KI zuerst, 10.000 Mitarbeiter weniger",
+     "date": "2026-11-26",
+     "url": "https://www.heise.de/news/SAP-AI-First-10-000-Mitarbeiter-weniger-11539781.html"
+    },
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "SAP, AI 중심 구조조정 추진…최소 1만명 감원 검토",
+     "date": "2026-11-27",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217860"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "SAP is drawing up plans to cut at least 10,000 jobs as a result of its AI-first strategy, Bloomberg reports, citing unnamed people familiar with the matter."
+    },
+    {
+     "article": 0,
+     "fact": "SAP did not deny the plans and spoke of 'continuous reviews of the organisation'."
+    },
+    {
+     "article": 0,
+     "fact": "10,000 would be nearly a tenth of SAP's 110,730 employees worldwide (as of end of September)."
+    },
+    {
+     "article": 0,
+     "fact": "SAP cut 10,000 jobs in 2024, mostly through voluntary departures, and has since added about 15,000 jobs."
+    },
+    {
+     "article": 0,
+     "fact": "All SAP departments were told to report where positions can be cut; programming, product support and sales are expected to be hit hardest."
+    },
+    {
+     "article": 0,
+     "fact": "SAP calls itself Europe's most valuable software company (heise: 'wertvollstes Softwareunternehmen Europas')."
+    },
+    {
+     "article": 0,
+     "fact": "IG Metall criticised the September agreement with the German works council as setting severance amounts rather than protecting jobs."
+    },
+    {
+     "article": 1,
+     "fact": "AI타임스: the size and timing of the cuts are not final and could change in talks with employee representatives."
+    },
+    {
+     "article": 1,
+     "fact": "AI타임스: since July SAP has limited new hiring mainly to core AI roles and cut costs such as travel; the 2024 restructuring cost about 3 billion euros."
+    },
+    {
+     "article": 1,
+     "fact": "AI타임스: Microsoft, Oracle and Salesforce have also recently announced thousands of job cuts citing AI efficiency."
+    }
+   ]
+  },
+  {
+   "title": "Bank of England governor warns unreleased frontier AI could threaten encryption; Aaronson says labs hold crypto 'bombshells'",
+   "region": "UK / Global",
+   "repeat_of": null,
+   "note": "Not covered by reference accounts. Good explainer angle (financial regulators now cite AI, not only quantum, for crypto risk). Aaronson claim is unverified (TNW says so); present as claim. BoE detail via AI타임스 (citing FT), not read in English original.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "영국 중앙은행 총재 \"미공개 최첨단 AI, 암호화 체계 위협 가능성\"",
+     "date": "2026-11-27",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217858"
+    },
+    {
+     "outlet": "The Next Web",
+     "title": "AI labs sit on 'one or more bombshells' in cryptography, Aaronson says",
+     "date": "2026-11-26",
+     "url": "https://thenextweb.com/news/scott-aaronson-ai-labs-cryptography-rsa-rumours"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Bank of England Governor Andrew Bailey was asked on the 26th, after the Financial Stability Report, about rumours that an AI model able to break existing cryptography already exists."
+    },
+    {
+     "article": 0,
+     "fact": "Bailey said of Anthropic's Mythos, which appeared in April, 'Mythos is now a past model' and said model generations now turn over in one to two months."
+    },
+    {
+     "article": 0,
+     "fact": "He said that in AI developers' own words, 'we are in a section of an exponential curve', and strongly backed developers' caution about releasing the latest models."
+    },
+    {
+     "article": 0,
+     "fact": "He did not say what the unreleased models can do."
+    },
+    {
+     "article": 0,
+     "fact": "For the first time, the Bank of England formally advised financial firms to prepare for crypto risks from AI progress, not only quantum computing, by mapping where cryptography is used and planning priority migrations."
+    },
+    {
+     "article": 0,
+     "fact": "Financial institutions had been preparing crypto migration for quantum computing targeting after 2030; AI maths progress may force that timeline earlier."
+    },
+    {
+     "article": 0,
+     "fact": "No AI company has so far published a concrete result that breaks existing cryptography."
+    },
+    {
+     "article": 1,
+     "fact": "Scott Aaronson wrote on his blog Wednesday that he is 'virtually certain, from multiple reliable sources, that the AI labs are now sitting on one or more bombshells' in cryptography; he does not know what they are. TNW has not independently verified the claims."
+    },
+    {
+     "article": 1,
+     "fact": "Aaronson said his certainty falls well short of 'Factoring in P' (a fast way to break RSA), and that Google's Wednesday paper with a new factoring algorithm has big theoretical results but nothing practical for breaking encryption."
+    },
+    {
+     "article": 1,
+     "fact": "On Tuesday OpenAI and Anthropic both published proofs of VP != VNP; OpenAI also posted a 111-page paper claiming the matrix multiplication exponent is exactly 9/4."
+    }
+   ]
+  },
+  {
+   "title": "Canada adds C$700M to its AI Compute Access Fund, favouring Canadian-owned clouds",
+   "region": "North America (Canada)",
+   "repeat_of": null,
+   "note": "Not covered by reference accounts. Sovereign-compute angle, matches the EU sovereign tech fund post of 11-25 thematically. TNW only; one source.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Canada adds C$700M to its AI compute fund, favouring home-grown clouds",
+     "date": "2026-11-26",
+     "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Canada is adding C$700M to its AI Compute Access Fund, taking it to C$1B, up from C$300M, the government said on Thursday."
+    },
+    {
+     "article": 0,
+     "fact": "In the new phase the fund pays more when companies use computing owned and run in Canada, to create demand for local providers."
+    },
+    {
+     "article": 0,
+     "fact": "Evan Solomon, Canada's minister of artificial intelligence and digital innovation, said 'Canadian ideas need Canadian computing power'."
+    },
+    {
+     "article": 0,
+     "fact": "The first new round is open to health and life sciences projects."
+    },
+    {
+     "article": 0,
+     "fact": "More than C$52M goes to 45 companies from the first phase, bringing the total to over C$118M for 89 firms."
+    },
+    {
+     "article": 0,
+     "fact": "The money comes from Canada's national AI strategy, unveiled in June; Ottawa pledged to bring 500 megawatts of its own AI computing online."
+    },
+    {
+     "article": 0,
+     "fact": "In October Canada backed Cohere's C$7bn funding round."
+    }
+   ]
+  },
+  {
+   "title": "Dutch court hears bid to ban Meta's AI glasses; German consumer group also sues",
+   "region": "Europe (Netherlands, Germany)",
+   "repeat_of": null,
+   "related_posts": [
+    "2026-11-20-dutch-ai-glasses-warning"
+   ],
+   "note": "Follow-up to the 11-20 post (Dutch regulator warning); new angle is the court hearing and ruling by Dec 24. Source is AI타임스 citing Reuters (Reuters not read). Der Standard also ran a story (not read).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "네덜란드 시민단체, 메타 AI 안경 판매 금지 요구…독일서도 법적 대응",
+     "date": "2026-11-27",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217865"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "A hearing was held on the 26th at the Amsterdam District Court in a civil suit against Meta and Ray-Ban parent EssilorLuxottica, per Reuters."
+    },
+    {
+     "article": 0,
+     "fact": "Plaintiffs are the Dutch Consumers' Association, Offlimits and The Firewall; they say the glasses breach European privacy law."
+    },
+    {
+     "article": 0,
+     "fact": "Offlimits and The Firewall also seek a sales ban; all demand technical measures against filming people unaware and an end to using recordings for AI training."
+    },
+    {
+     "article": 0,
+     "fact": "Meta argues the suit should be dismissed, noting an indicator light on the frame; EssilorLuxottica says it does not access or process footage and a ban would be excessive."
+    },
+    {
+     "article": 0,
+     "fact": "Meta and EssilorLuxottica sold more than 7 million smart glasses last year, about 80% of the global market."
+    },
+    {
+     "article": 0,
+     "fact": "The Dutch data protection authority advised consumers on the 19th not to buy six AI camera glasses it examined."
+    },
+    {
+     "article": 0,
+     "fact": "Germany's VZBV consumer federation announced legal action against Meta and Ray-Ban on the 24th."
+    },
+    {
+     "article": 0,
+     "fact": "The Dutch court will decide by December 24 at the latest; the ruling applies only to the Netherlands."
+    }
+   ]
+  },
+  {
+   "title": "42 US state attorneys general move to stop Character.AI from auctioning users' private chats in bankruptcy",
+   "region": "US",
+   "repeat_of": null,
+   "note": "Not covered by reference accounts. Auction scheduled Dec 1. One source (TechCrunch). The Verge covered it too (403).",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Character.AI's plan to auction off users' private chats challenged by state AGs",
+     "date": "2026-11-25",
+     "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "A coalition of 42 state attorneys general is intervening in Character.ai's bankruptcy case to stop the sale of user data including private conversations."
+    },
+    {
+     "article": 0,
+     "fact": "The AGs say the dataset includes chat histories from more than 21 million US accounts, more than 2.1 million of them minors, plus data like IP addresses."
+    },
+    {
+     "article": 0,
+     "fact": "Character.ai filed for Chapter 11 bankruptcy in October and had told consumers their personal information would not be sold."
+    },
+    {
+     "article": 0,
+     "fact": "The only disclosed bidder is Smirks and Pangs Acquisition LLC, set up in Delaware on November 13, 2026; Character.ai picked it as base bid the next day; the auction is scheduled for December 1."
+    },
+    {
+     "article": 0,
+     "fact": "California, Colorado, New York and Connecticut chatbot safety laws take effect January 1, 2027."
+    },
+    {
+     "article": 0,
+     "fact": "California AG Rob Bonta said 'bankruptcy should not be used to sidestep these consumer protections'."
+    },
+    {
+     "article": 0,
+     "fact": "A separate proposed $20 million licensing deal with Disney has not received final court approval; Disney also agreed to hire most of Character.ai's remaining staff."
+    }
+   ]
+  },
+  {
+   "title": "Swiss cyber agency: AI-agent attacks hit 4 of 5 targets, including 3 critical infrastructure operators",
+   "region": "Europe (Switzerland)",
+   "repeat_of": null,
+   "note": "Not covered by reference accounts. Source is AI타임스 only (relaying BACS announcement; BACS not read). heise also ran a BSI (Germany) story on autonomous AI attacks, not read.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스 (AI Times Korea)",
+     "title": "스위스 정부 \"AI 에이전트 활용 사이버 공격 5건 확인…4건 침해 성공\"",
+     "date": "2026-11-27",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217851"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Five cyberattacks using AI agents occurred in Switzerland and four of them breached systems."
+    },
+    {
+     "article": 0,
+     "fact": "Targets included three critical infrastructure operators (power, water, telecoms among sectors named)."
+    },
+    {
+     "article": 0,
+     "fact": "Switzerland's Federal Office for Cybersecurity (BACS) announced the cases on the 24th and said on the 26th that 4 of 5 attacks recently identified succeeded."
+    },
+    {
+     "article": 0,
+     "fact": "The attackers' identity was not disclosed."
+    },
+    {
+     "article": 0,
+     "fact": "The agents probe for vulnerabilities themselves and decide next steps from results, using techniques security experts use for testing."
+    },
+    {
+     "article": 0,
+     "fact": "The number of such AI-agent tools available online has nearly doubled since October."
+    },
+    {
+     "article": 0,
+     "fact": "Authorities recommend fast security updates, multi-factor authentication and regular penetration tests."
+    }
+   ]
+  }
+ ]
+}
