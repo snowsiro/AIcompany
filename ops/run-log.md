@@ -2,6 +2,19 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [저녁 보고] 2026-11-27
+처리 1건 (ready 1) · 실패 0건
+결정할 일
+1. 게시물: `2026-11-27-xpeng-iron-humanoid-2027` (CHINA AI · INDUSTRY, 점수 10 = 글로벌 3 + 숫자 2 + 아시아 3 + 신선도 2). Xpeng(중국 전기차 업체)이 2027년 1월 Iron 휴머노이드 양산 시작, 매장 도우미 우선, 가사는 "1~2년" 임원 발언. 소스 The Next Web 단일(CNBC·Bloomberg TV 인터뷰 중계, 원문 인터뷰는 미열람). 첫 게시 2026-11-27 16:58Z(17:58 Vienna), ready 시점에 약 1.5시간 경과. 아침 SAP/heise와 다른 회사·매체. 전부 "says/aims/designed to"로 귀속, 2.5분은 설계 목표로 표기. 독자 영향 훅 없음(기사에 근거 없음). 카테고리는 lint가 ROBOTS를 허용하지 않아 INDUSTRY
+2. 검수: fact 1차 불합격(기사는 "자동차 수준 가격 예상"인데 "가격 미공개"로 씀), 2차 불합격(기사에 없는 "고정 가격 미발표" 문구), 3차 통과. hook 1차 7 통과, 2차 6 불합격(헤드라인 모호), 3차 7 통과("XPENG ROBOT MASS PRODUCTION 2027"). brand 3회 모두 통과
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 4/6: 아침 2 + 저녁 2), 사람·글자·로고 없음. designer 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+4. 신규 기사 거의 없음: 피드가 12:02Z에 수집돼 미국 오후 발표 없음, 신규 6건은 전부 TNW. 미국 추수감사절 주간이라 큰 모델 발표 없음. 읽기 불가: Verge·TechCrunch·OpenAI·Anthropic·Google 피드(오늘 기사 없음), Reuters·Nikkei·SCMP 구글뉴스 리다이렉트
+5. 예비: Wallonia가 Google Charleroi 데이터센터 중단 명령(EUROPE AI, 점수 10, TNW), LAUSD Google AI Overviews 끄기(7). 캐리오버: 영국 중앙은행·암호화, 스위스 AI 에이전트 공격, 네덜란드 Meta 안경 재판, Character.AI 경매, 캐나다 컴퓨트 펀드
+6. 렌더는 npm ci 후 CHROMIUM_PATH=/opt/pw-browsers/chromium 사용. 브랜치는 시스템 지침에 따라 `daily/2026-11-27-evening` 대신 `claude/inspiring-darwin-lr9wbe`
+자세한 기록
+- 후보 신규 6 + 넘어온 7, 1순위 xpeng-iron-humanoid-2027(ready), 넘어온 ready 글 없음(아침 글 published)
+- 머지: PR render 체크 후 원문 재확인해 머지 시도
+
 ## [아침 보고] 2026-11-27
 처리 1건 (ready 1) · 실패 0건
 성과: 어제(11-26) 도달 2 · 팔로워 2 · 링크 클릭 0 · 최고 도달 수치는 ops/metrics/2026-11-27.json 참조 (apple-minimax-talkie 도달 0, 아직 집계 중)

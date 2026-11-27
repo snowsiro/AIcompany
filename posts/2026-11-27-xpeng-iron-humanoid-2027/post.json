@@ -1,0 +1,139 @@
+{
+  "id": "2026-11-27-xpeng-iron-humanoid-2027",
+  "date": "2026-11-27",
+  "category": "INDUSTRY",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · INDUSTRY",
+    "headline": [
+      "XPENG ROBOT MASS",
+      "PRODUCTION **2027**"
+    ],
+    "hook_options": [
+      [
+        "XPENG ROBOT MASS",
+        "PRODUCTION **2027**"
+      ],
+      [
+        "XPENG AIMS TO",
+        "SELL **10,000s**"
+      ],
+      [
+        "A ROBOT EVERY",
+        "**2.5** MINUTES"
+      ],
+      [
+        "XPENG: CHORES",
+        "IN **1-2** YEARS"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "number",
+      "quote"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "No reader-impact hook: the only price signal is Gu's expectation that Iron will cost about as much as an Xpeng car (119,800 yuan, about $18,000, to 309,800 yuan), and household chores are one executive's estimate, so that label would overpromise. The headline names the event clearly: Xpeng says mass production of its Iron robot starts in January 2027, which slides 1 to 3 back directly (slide 1 gives the month). The 2.5-minute option is a design capacity, not an output rate, and needs a qualifier the cover cannot carry; 'tens of thousands' is a sales aim; the chores option is one executive's estimate and the cover would drop 'could'.",
+    "image_prompt": "Cinematic wide shot of a sleek faceless generic humanoid robot with a smooth blank matte-white head and dark glass visor, standing alone on a gleaming automated factory floor at dawn, rows of robotic arms and soft out-of-focus assembly lines behind it, cool teal light with warm amber highlights, glossy reflections, shallow depth of field. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The plan",
+      "title": "A car maker goes humanoid",
+      "body": [
+        "Xpeng, a Chinese EV maker, says it will start mass-producing its Iron humanoid robot in **January 2027**. It will train the robot as a store assistant first."
+      ]
+    },
+    {
+      "kicker": "The home pitch",
+      "title": "Chores in one or two years",
+      "body": [
+        "Co-president Brian Gu told CNBC the robot could be doing household chores in **\"one or two years.\"** He expects a car-like price: Xpeng cars cost 119,800 yuan (about $18,000) to 309,800 yuan."
+      ]
+    },
+    {
+      "kicker": "The build",
+      "title": "Built on Xpeng's car tech",
+      "body": [
+        "Iron has **76 degrees of freedom** and more than 1,500 touch sensors. It runs on three of Xpeng's own Turing AI chips, the same family it puts in its cars."
+      ]
+    },
+    {
+      "kicker": "The line",
+      "title": "One robot every 2.5 minutes",
+      "body": [
+        "Xpeng's new production line is **designed to** finish one robot every 2.5 minutes at full speed. That is a design target, not a reported output."
+      ]
+    },
+    {
+      "kicker": "The goal",
+      "title": "Tens of thousands in 2027",
+      "body": [
+        "Gu told Bloomberg TV Xpeng **aims to sell** \"tens of thousands\" of Iron robots in 2027, with public sales from the second quarter. Its robotics unit raised more than **$900M** in August."
+      ]
+    },
+    {
+      "kicker": "The context",
+      "title": "China's humanoid year",
+      "body": [
+        "Morgan Stanley expects China to ship **50,000 humanoids** this year, across all makers, not just Xpeng."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Chinese EV maker Xpeng will start mass-producing its Iron humanoid robot in January 2027 and train it as a store assistant first."
+    },
+    {
+      "source": 0,
+      "text": "Co-president Brian Gu told CNBC it could be doing household chores in \"one or two years.\""
+    },
+    {
+      "source": 0,
+      "text": "The robot has 76 degrees of freedom and more than 1,500 touch sensors."
+    },
+    {
+      "source": 0,
+      "text": "It runs on three of Xpeng's own Turing AI chips, the same family it puts in its cars."
+    },
+    {
+      "source": 0,
+      "text": "Xpeng's new production line is designed to finish one every 2.5 minutes at full speed."
+    },
+    {
+      "source": 0,
+      "text": "Xpeng aims to sell \"tens of thousands\" of Iron robots in 2027, with public sales from the second quarter, Gu told Bloomberg TV."
+    },
+    {
+      "source": 0,
+      "text": "Xpeng's robotics unit raised more than $900M in August ahead of the production run."
+    },
+    {
+      "source": 0,
+      "text": "Morgan Stanley expects China to ship 50,000 humanoids this year."
+    },
+    {
+      "source": 0,
+      "text": "Gu expects Iron to cost about as much as one of Xpeng's cars, which sell for 119,800 yuan (about $18,000) to 309,800 yuan."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "The Next Web",
+      "title": "Xpeng says its Iron humanoid could be doing chores in one or two years",
+      "date": "Nov 27, 2026",
+      "url": "https://thenextweb.com/news/xpeng-iron-humanoid-mass-production-homes-2027"
+    }
+  ],
+  "caption": "Xpeng, the Chinese EV maker, says it will start mass-producing its Iron humanoid robot in January 2027.\n\nThe Next Web relays interviews with co-president Brian Gu on CNBC and Bloomberg TV. These are company statements and goals, not results. Gu expects a car-like price.\n\n→ Production starts January 2027, with the robot trained as a store assistant first\n→ Gu expects a price near an Xpeng car (119,800 yuan, about $18,000, to 309,800 yuan)\n→ Xpeng aims to sell \"tens of thousands\" in 2027, with public sales from Q2\n\nWould you let a humanoid robot do chores in your home?\n\nSource: The Next Web, \"Xpeng says its Iron humanoid could be doing chores in one or two years\", Nov 27, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Xpeng",
+    "#Humanoid",
+    "#ChinaAI"
+  ],
+  "threads_caption": "Xpeng, the Chinese EV maker, says it will start mass-producing its Iron humanoid robot in January 2027, as a store assistant first. It aims to sell \"tens of thousands\" in 2027. These are company goals, not results.\n\nSource: The Next Web, \"Xpeng says its Iron humanoid could be doing chores in one or two years\". #Xpeng"
+}
