@@ -1,0 +1,4 @@
+{ "pass": false, "issues": [
+{ "where": "slide 2 (and caption, hook_pick_reason)", "problem": "Says 'No price has been given.' The article says Gu expects Iron to cost about as much as one of Xpeng's cars (119,800 yuan, about $18,000, to 309,800 yuan), and the lead says 'priced like one of Xpeng's cars'. No fixed price is announced, but the claim as written contradicts the article.", "fix": "Replace with 'Gu expects it to cost about as much as one of Xpeng's cars; no fixed price is announced.' Optionally add the car range as 119,800 yuan (about $18,000) to 309,800 yuan. Make the same change in the caption ('No price has been given') and in hook_pick_reason." },
+{ "where": "slide 2", "problem": "Minor: the slide omits that Gu said it could reach homes in one or two years after store-assistant training. This is not an error, but 'household chores' is attributed correctly to CNBC.", "fix": "None needed." }
+] }
