@@ -1,0 +1,141 @@
+{
+  "id": "2026-11-28-tencent-nature-dual-target-peptides",
+  "date": "2026-11-28",
+  "category": "RESEARCH",
+  "status": "ready",
+  "korean_refs": [],
+  "cover": {
+    "tag": "CHINA AI · RESEARCH",
+    "headline": [
+      "ONE MOLECULE,",
+      "**2** DRUG TARGETS"
+    ],
+    "hook_options": [
+      [
+        "ONE MOLECULE,",
+        "**2** DRUG TARGETS"
+      ],
+      [
+        "TENCENT AI DRUG:",
+        "**1/10** THE DOSE"
+      ],
+      [
+        "TENCENT'S FIRST",
+        "**NATURE** PAPER"
+      ],
+      [
+        "TENCENT AI CUTS",
+        "TUMOURS **94.2%**"
+      ]
+    ],
+    "hook_types": [
+      "claim",
+      "number",
+      "claim",
+      "number"
+    ],
+    "hook_type": "claim",
+    "hook_pick_reason": "No reader-impact hook: the article reports only preclinical animal results and says effect in humans, safety and side effects are unverified, so no effect on ordinary readers is stated. The headline states the core idea (one AI-designed molecule acting on two targets), which slides 1 to 3 back directly, and it carries no dose or tumour number the cover cannot qualify as animal-test-only. The 1/10 dose and 94.2% options need the 'in animal tests' qualifier the cover cannot hold; the Nature option is true but says less about the science. Tag uses RESEARCH because lint rejects SCIENCE.",
+    "image_prompt": "Cinematic macro scene of a glowing translucent molecular chain, a single luminous peptide strand, bridging two distinct crystalline protein structures, one in cool teal and one in warm amber, suspended in dark space with drifting particles and soft light rays, shallow depth of field, futuristic laboratory feel. Main subject in the upper half, lower third fading to near black. No text, no letters, no logos, no people."
+  },
+  "slides": [
+    {
+      "kicker": "The paper",
+      "title": "Tencent's AI drug lab in Nature",
+      "body": [
+        "Tencent, China's largest social and gaming company, says its Life Sciences Lab led a study published in **Nature**. It says this is the first Tencent-led study to appear in Nature itself."
+      ]
+    },
+    {
+      "kicker": "The idea",
+      "title": "One molecule, two targets",
+      "body": [
+        "The team built an AI platform called ORIDTP. It designs **dual-target peptides**: single molecules, built from short chains of amino acids, that act on two therapeutic targets at once."
+      ]
+    },
+    {
+      "kicker": "The engine",
+      "title": "Three models, one pipeline",
+      "body": [
+        "PepDif generates peptide sequences, PepDRL tunes binding to both targets and PepDAF predicts binding strength. Training began with **17,268** protein-peptide pairs and grew to **483,764** through self-distillation."
+      ]
+    },
+    {
+      "kicker": "The obesity result",
+      "title": "More weight loss, a tenth of the dose",
+      "body": [
+        "In animal tests, the obesity candidate, aimed at GLP-1R and GCGR, produced greater weight loss at **one-tenth the dose** of an existing obesity drug, Tencent says."
+      ]
+    },
+    {
+      "kicker": "The cancer result",
+      "title": "8 of 15 hit both targets",
+      "body": [
+        "For cancer, **8 of 15** candidates inhibited both targets from a single design round. In animal tests the best cut tumour volume by **94.2%** versus control."
+      ]
+    },
+    {
+      "kicker": "The catch",
+      "title": "Preclinical, not a drug yet",
+      "body": [
+        "These are animal results. Effect in humans, duration, safety and long-term side effects remain unverified. Tencent has released ORIDTP's source code, model weights and processed data."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "source": 0,
+      "text": "Tencent said on Nov 26 (local time) that joint research led by its Life Sciences Lab, with Shenzhen Technology University and Chengdu University of Traditional Chinese Medicine among others, was published in Nature."
+    },
+    {
+      "source": 0,
+      "text": "It is the first Tencent-led study to appear in Nature itself."
+    },
+    {
+      "source": 0,
+      "text": "The team built an AI drug-design platform called ORIDTP that designs dual-target peptides: single molecules acting on two therapeutic targets at once."
+    },
+    {
+      "source": 0,
+      "text": "The platform has three models: PepDif (diffusion model generating peptide sequences), PepDRL (reinforcement learning to optimise binding to both targets) and PepDAF (predicts binding affinity)."
+    },
+    {
+      "source": 0,
+      "text": "Training started from 17,268 selected protein-peptide pairs and grew to 483,764 high-confidence pairs through self-distillation."
+    },
+    {
+      "source": 0,
+      "text": "In animal tests, the obesity candidate (acting on GLP-1R and GCGR) produced greater weight loss at one-tenth the dose of an existing obesity drug."
+    },
+    {
+      "source": 0,
+      "text": "For cancer, 8 of 15 candidates showed inhibition of both targets from a single design round, and the best cut tumour volume by 94.2% versus control in animal tests."
+    },
+    {
+      "source": 0,
+      "text": "The results are preclinical; effect in humans, duration, safety and long-term side effects remain to be verified."
+    },
+    {
+      "source": 0,
+      "text": "Tencent released ORIDTP's source code, model weights and processed research data."
+    }
+  ],
+  "sources": [
+    {
+      "outlet": "AI타임스",
+      "title": "텐센트, AI로 비만·암 치료 후보물질 설계…네이처에 연구 성과",
+      "title_en": "Tencent designs obesity and cancer drug candidates with AI, research published in Nature",
+      "language": "Korean",
+      "date": "Nov 28, 2026",
+      "url": "https://www.aitimes.com/news/articleView.html?idxno=217890"
+    }
+  ],
+  "caption": "Tencent says its AI can design one molecule that hits two drug targets at once, in a study published in Nature.\n\nAI Times relays Tencent's own announcement. The results come from animal tests only: effect in humans, safety and side effects are unverified.\n\n→ In animal tests, an obesity candidate gave more weight loss at one-tenth the dose of an existing drug\n→ 8 of 15 cancer candidates hit both targets in one design round; the best cut tumour volume 94.2% in animals\n→ Code, model weights and data are released\n\nWould you trust a medicine designed by AI?\n\nSource: AI Times (in Korean), \"Tencent designs obesity and cancer drug candidates with AI, research published in Nature\", Nov 28, 2026.\n\nFollow @ai.news.company for daily AI news. Weekly digest: link in bio.",
+  "hashtags": [
+    "#AINews",
+    "#Tencent",
+    "#AIDrugDiscovery",
+    "#ChinaAI"
+  ],
+  "threads_caption": "Tencent says its AI can design one molecule that hits two drug targets at once, published in Nature. Animal tests only: human effect and safety are unverified.\n\nSource: AI Times (in Korean), \"Tencent designs obesity and cancer drug candidates with AI, research published in Nature\". #Tencent"
+}

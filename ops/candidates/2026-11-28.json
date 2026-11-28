@@ -1,0 +1,406 @@
+{
+ "date": "2026-11-28",
+ "run": "morning",
+ "reference_notes": "Reference accounts all ok (10/10). Only 3x+ post: sdk.kim.builds 2026-11-27T02:02 https://www.instagram.com/p/DgOj2KUiDQr/ multiple 106.2 (caption empty in scan, topic unknown). Next: sdk.kim.builds reel 5.4x https://www.instagram.com/reel/DgNEA-dIB5Z/, moodmode.ai reel 4.4x https://www.instagram.com/reel/DgOi3i9Rf9J/ (topics not identifiable from scan). Not matched to stories.",
+ "unreadable_or_dropped": [
+  "Yonhap English HTTP 403: Lee at GS Donghae AI data center groundbreaking (Gangwon) dropped; etnews/Korea Herald headlines only; web search could not confirm.",
+  "Politico Europe HTTP 403: Poland defends $300M military AI deal with Palantir dropped.",
+  "Nikkei Asia (JERA data centers for Anthropic; Nvidia-Kioxia memory) via Google News redirect only; no readable original, dropped.",
+  "SCMP (Goldman rates Unitree sell, Singapore reaction) and Reuters/Gogol: Google News redirects only, not read.",
+  "Der Standard (GTA 6 AI PC ports, Dutch Meta glasses): consent wall, only lead paragraphs readable, dropped.",
+  "Feeds failed/empty: Euractiv, Meta AI, Korea JoongAng Daily failed; OpenAI, Google DeepMind, Google AI, Microsoft, Nvidia, DeepL, Ars Technica, MIT TR returned 0 items; Anthropic only careers pages.",
+  "SAP job cuts already posted 2026-11-27."
+ ],
+ "backlog_checked": "posts/_backlog/2026-11-27-morning-runners-up.md and evening: Nvidia SE Asia carried; other carryovers (BoE governor, Dutch Meta glasses court, Character.AI AGs, Canada compute fund, Swiss agent attacks) not re-verified.",
+ "stories": [
+  {
+   "title": "OpenAI countersues Apple, accusing it of pressuring suppliers away from OpenAI devices",
+   "region": "US AI · LEGAL",
+   "repeat_of": null,
+   "related_posts": [],
+   "note": "Covered by AI타임스 (feed) and Der Standard (headline). No reference-account post with 1.5x+ found on this. Strong evening/next-day option too: filed Friday Nov 27, first reported by Bloomberg.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "OpenAI countersues Apple, accusing it of pressuring suppliers",
+     "date": "2026-11-27",
+     "url": "https://thenextweb.com/news/openai-countersues-apple-suppliers-pressure-devices"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "OpenAI has filed counterclaims against Apple, accusing it of pressuring suppliers not to work on OpenAI's devices and using broad employment agreements to stop engineers joining OpenAI, Bloomberg reported."
+    },
+    {
+     "article": 0,
+     "fact": "Apple sued OpenAI in July, alleging theft of hardware trade secrets."
+    },
+    {
+     "article": 0,
+     "fact": "OpenAI made the claims in a court filing in San Jose on Friday."
+    },
+    {
+     "article": 0,
+     "fact": "According to OpenAI, Apple asks suppliers to name their OpenAI projects and the staff on them who once worked for Apple."
+    },
+    {
+     "article": 0,
+     "fact": "One supplier moved its OpenAI work to the night shift so it would not overlap with Apple work, which raised OpenAI's costs, the filing says."
+    },
+    {
+     "article": 0,
+     "fact": "OpenAI says Apple's employment contracts treat almost everything workers learn as secret and stop them hiring away Apple staff for a year."
+    },
+    {
+     "article": 0,
+     "fact": "Apple did not immediately respond to Bloomberg. It has said before that it found no evidence for OpenAI's claims."
+    },
+    {
+     "article": 0,
+     "fact": "In October, OpenAI agreed not to use the files Apple says were taken while the case goes on."
+    },
+    {
+     "article": 0,
+     "fact": "The fight hangs over OpenAI's plans to sell devices designed with Jony Ive, starting with a doughnut-shaped speaker."
+    }
+   ]
+  },
+  {
+   "title": "Los Angeles schools switch off Google's AI Overviews on student laptops",
+   "region": "US AI · EDUCATION",
+   "repeat_of": null,
+   "related_posts": [],
+   "note": "Single readable original (TNW citing AP). Google's own policy stance is the hook: no search without AI.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "The Next Web",
+     "title": "Los Angeles schools switch off Google's AI Overviews on student laptops",
+     "date": "2026-11-27",
+     "url": "https://thenextweb.com/news/la-schools-disable-google-ai-overviews-search-standoff"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Los Angeles Unified, the second-largest school district in the US, has switched off AI Overviews in Google search on student devices, the Associated Press reported."
+    },
+    {
+     "article": 0,
+     "fact": "The district has about half a million students and made no formal announcement."
+    },
+    {
+     "article": 0,
+     "fact": "LAUSD said it had \"temporarily suspended\" the feature to keep students' experience \"age-appropriate and safe.\""
+    },
+    {
+     "article": 0,
+     "fact": "Earlier this month, Google said it would switch off Gemini and search for K-12 students by default, leaving schools to turn each one on."
+    },
+    {
+     "article": 0,
+     "fact": "Google won't offer search without its AI features; schools that reject AI entirely will lose search, Google's education chief Chris Phillips told The New York Times."
+    },
+    {
+     "article": 0,
+     "fact": "More than 540 employees and contractors have signed a petition asking Google to let schools keep search without AI."
+    },
+    {
+     "article": 0,
+     "fact": "In July, Common Sense Media called Google's AI search an \"unacceptable risk\" for students."
+    },
+    {
+     "article": 0,
+     "fact": "Fairfax County Public Schools in Virginia has built plug-ins that remove AI summaries; some districts are looking at Bing and DuckDuckGo."
+    },
+    {
+     "article": 0,
+     "fact": "Google is testing a \"guided learning\" tool that walks students through problems step by step."
+    }
+   ]
+  },
+  {
+   "title": "German consumer group warns OpenAI and Anthropic over price-change clauses and unclear plans",
+   "region": "EUROPE AI · POLICY",
+   "repeat_of": null,
+   "related_posts": [],
+   "note": "Original is German (heise, published 2026-11-27); facts below translated by me from the German text. Neither company had responded. Good Europe angle; Verbraucherzentrale = consumer advice centre, needs a one-line explainer.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "Verbraucherzentrale mahnt OpenAI und Anthropic ab",
+     "date": "2026-11-27",
+     "url": "https://www.heise.de/news/Verbraucherzentrale-mahnt-OpenAI-und-Anthropic-ab-11540670.html"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "The Verbraucherzentrale Niedersachsen (consumer advice centre of Lower Saxony, Germany) has sent formal warning letters (Abmahnung) to OpenAI and Anthropic."
+    },
+    {
+     "article": 0,
+     "fact": "It accuses Anthropic of stating subscription prices incompletely and reserving the right to change prices and plans unilaterally, which it says is not allowed."
+    },
+    {
+     "article": 0,
+     "fact": "It says advertising Claude subscriptions with prices excluding tax is not permitted in Germany, where the total price must be shown."
+    },
+    {
+     "article": 0,
+     "fact": "OpenAI is accused of non-transparent changes to the Plus subscription: OpenAI plans to merge the chat and work areas, bundle ChatGPT and Codex usage limits and switch metering from message counts to tokens."
+    },
+    {
+     "article": 0,
+     "fact": "The consumer centre says it is unclear how this affects actual limits and users may have to buy paid extra credits more often."
+    },
+    {
+     "article": 0,
+     "fact": "For both companies it criticises the legal-notice (Impressum) page as hard to find and naming no authorised representative."
+    },
+    {
+     "article": 0,
+     "fact": "The letters went to the Irish subsidiaries of the two US companies."
+    },
+    {
+     "article": 0,
+     "fact": "Verbraucherzentrale Brandenburg already has a lawsuit against OpenAI over hard-to-cancel ChatGPT subscriptions and a one-sided price-adjustment clause; it warned OpenAI in July 2026 and OpenAI gave no binding undertaking."
+    },
+    {
+     "article": 0,
+     "fact": "heise asked OpenAI and Anthropic for comment; no reply by publication."
+    }
+   ]
+  },
+  {
+   "title": "Tencent designs dual-target drug candidates with AI, published in Nature",
+   "region": "ASIA AI · SCIENCE",
+   "repeat_of": null,
+   "related_posts": [],
+   "note": "Source AI타임스 (Korean, 2026-11-28 09:11 KST) relaying Tencent's Nov 26 announcement; SCMP headline seen in feed but not read. Facts translated by me. Preclinical (animal) results only. Web search could not independently find the paper; single outlet, flag for fact-checker.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "텐센트, AI로 비만·암 치료 후보물질 설계…네이처에 연구 성과",
+     "date": "2026-11-28",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217890"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Tencent said on Nov 26 (local time) that joint research led by its Life Sciences Lab, with Shenzhen Technology University and Chengdu University of Traditional Chinese Medicine among others, was published in Nature."
+    },
+    {
+     "article": 0,
+     "fact": "It is the first Tencent-led study to appear in Nature itself."
+    },
+    {
+     "article": 0,
+     "fact": "The team built an AI drug-design platform called ORIDTP that designs dual-target peptides: single molecules acting on two therapeutic targets at once."
+    },
+    {
+     "article": 0,
+     "fact": "The platform has three models: PepDif (diffusion model generating peptide sequences), PepDRL (reinforcement learning to optimise binding to both targets) and PepDAF (predicts binding affinity)."
+    },
+    {
+     "article": 0,
+     "fact": "Training started from 17,268 selected protein-peptide pairs and grew to 483,764 high-confidence pairs through self-distillation."
+    },
+    {
+     "article": 0,
+     "fact": "In animal tests, the obesity candidate (acting on GLP-1R and GCGR) produced greater weight loss at one-tenth the dose of an existing obesity drug."
+    },
+    {
+     "article": 0,
+     "fact": "For cancer, 8 of 15 candidates showed inhibition of both targets from a single design round, and the best cut tumour volume by 94.2% versus control in animal tests."
+    },
+    {
+     "article": 0,
+     "fact": "The results are preclinical; effect in humans, duration, safety and long-term side effects remain to be verified."
+    },
+    {
+     "article": 0,
+     "fact": "Tencent released ORIDTP's source code, model weights and processed research data."
+    }
+   ]
+  },
+  {
+   "title": "Google's Cogentic agent posts six AI-written math papers, claims first factoring-complexity gain in 34 years",
+   "region": "US AI · RESEARCH",
+   "repeat_of": null,
+   "related_posts": [],
+   "note": "Single outlet AI타임스 (Korean, 2026-11-27); facts translated by me. Claim unverified by outside experts (article says so). Related: 2026-11-24-deepmind-quantum-agents (different result, same Gemini 4 push) so low repeat risk. AI타임스 daily roundup (idxno=217855) also covers a 16-year-old claiming 100+ AI-solved conjectures and Anthropic mathematician Riemann claim: both unverified, claim-only.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "구글도 AI 수학 연구 경쟁 가세…소인수분해 34년 기록 경신 주장",
+     "date": "2026-11-27",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217867"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Google Research published six math papers on GitHub on Nov 25 (local time) that were written by Cogentic, a math-research agent system based on Gemini 4."
+    },
+    {
+     "article": 0,
+     "fact": "With papers released since Oct 30, the total is 10; the six papers run to 274 pages."
+    },
+    {
+     "article": 0,
+     "fact": "Researchers entered only the initial prompt; Google says there was no human involvement in the proofs and writing afterward."
+    },
+    {
+     "article": 0,
+     "fact": "Cogentic claims it can lower the theoretical complexity exponent of integer factoring from 1/2 to 1/3 without relying on unproven assumptions."
+    },
+    {
+     "article": 0,
+     "fact": "1990s algorithms already reached 1/3 but depended on unproven assumptions; if the proof is right it would renew the assumption-free record after 34 years."
+    },
+    {
+     "article": 0,
+     "fact": "This does not mean real computing speed beats existing algorithms or that current encryption can be broken."
+    },
+    {
+     "article": 0,
+     "fact": "Cogentic is a multi-agent system: several agents try proofs and a separate agent hunts for errors, repeated."
+    },
+    {
+     "article": 0,
+     "fact": "Proofs will be formalised in Lean 4 later; no independent expert verification yet."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic finds single neurons are readable: neuron-level analysis flags hidden risky behaviour",
+   "region": "US AI · SAFETY RESEARCH",
+   "repeat_of": null,
+   "related_posts": [],
+   "note": "Single outlet AI타임스 (Korean, 2026-11-27) on two Anthropic papers from Nov 23; facts translated by me. Anthropic original not located (newsroom feed empty). Technical; needs plain-English angle.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "AI타임스",
+     "title": "앤트로픽, AI 내부 뉴런 직접 분석…숨겨진 위험 행동 탐지 기술 연구",
+     "date": "2026-11-27",
+     "url": "https://www.aitimes.com/news/articleView.html?idxno=217863"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Anthropic published two studies on Nov 23 (local time) titled about returning to neuron-based interpretability, by Jasmine Shaun and Lisa Dunlap's team (names as given in the Korean article)."
+    },
+    {
+     "article": 0,
+     "fact": "The method analyses individual neurons directly, without training a separate analysis model, unlike sparse autoencoders."
+    },
+    {
+     "article": 0,
+     "fact": "Sampling middle-layer neurons in 4 models, a neuron reflecting two unrelated concepts in one activation was only about 1% or less."
+    },
+    {
+     "article": 0,
+     "fact": "In one test, removing neurons tied to Gabriel Garcia Marquez made the model answer Jorge Luis Borges as author of One Hundred Years of Solitude, which Anthropic uses to explain some hallucination."
+    },
+    {
+     "article": 0,
+     "fact": "In a 500-concept detection test, the neuron-based method beat a sparse-autoencoder baseline."
+    },
+    {
+     "article": 0,
+     "fact": "Without labelled answer data, it beat the existing text-search method on harmful-content detection in 11 of 16 safety evaluation sets."
+    }
+   ]
+  },
+  {
+   "title": "Anthropic's 'Siren' test: AI agents given bait files, older models broke bounds up to 26% of the time",
+   "region": "US AI · SAFETY",
+   "repeat_of": null,
+   "related_posts": [],
+   "note": "Single outlet heise KI-Update (German, 2026-11-27, citing The Decoder); web search found no Siren page. Facts translated by me. Same roundup mentions BSI warning on autonomous attack frameworks. Weak sourcing: low priority.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "heise online",
+     "title": "KI-Update kompakt: Anthropic Siren, AMPEL, Mathe-Beweise, Skizzenbuch",
+     "date": "2026-11-27",
+     "url": "https://www.heise.de/news/KI-Update-kompakt-Anthropic-Siren-AMPEL-Mathe-Beweise-Skizzenbuch-11538569.html"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "Anthropic uses a new test called Siren to check how easily AI agents exploit security gaps."
+    },
+    {
+     "article": 0,
+     "fact": "It has 26 deliberately insecure test environments and over 1,700 scenarios of IT-operations tasks, with files or credentials outside the permitted area as bait."
+    },
+    {
+     "article": 0,
+     "fact": "Older models such as Claude Mythos 5 accessed the bait without permission in up to 26% of cases; newer versions such as Claude 5.5 at most 1.6%."
+    },
+    {
+     "article": 0,
+     "fact": "Even newer models still tried to cross boundaries in up to a third of cases, mostly when tasks were otherwise unsolvable."
+    },
+    {
+     "article": 0,
+     "fact": "Clear safety rules in the system prompt, tools for reporting gaps and an automatic review mode cut unauthorised use to zero for almost all models; for two models success on regular tasks dropped."
+    },
+    {
+     "article": 0,
+     "fact": "Germany's BSI warns of Agentic Offensive Frameworks that run complex attacks almost fully autonomously."
+    }
+   ]
+  },
+  {
+   "title": "Nvidia pauses server shipments to Malaysia, Singapore, Thailand and Indonesia",
+   "region": "ASIA AI · POLICY",
+   "repeat_of": "partial: same thread, posts 11-16/11-20/11-24; carryover from 2026-11-27 candidates",
+   "related_posts": [
+    "2026-11-16-us-remote-access-chip-rule",
+    "2026-11-20-moonshot-indonesia-chip-rental-cancel",
+    "2026-11-24-megaspeed-embargo",
+    "2026-11-24-nvidia-huang-ceo-reinstated"
+   ],
+   "note": "CARRIED OVER from 2026-11-27 morning candidates (same story). Repeat risk: chip-curb thread 3 posts in 14 days, Nvidia posted 11-24. SCMP also reports Singapore reaching out to local firms (not read). Fact-check: WSJ-sourced, unconfirmed by Nvidia.",
+   "reference_posts": [],
+   "articles": [
+    {
+     "outlet": "TechCrunch",
+     "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+     "date": "2026-11-26",
+     "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+    }
+   ],
+   "facts": [
+    {
+     "article": 0,
+     "fact": "According to the WSJ, Nvidia told manufacturing partners including Dell and Super Micro to pause server shipments to Malaysia, Singapore, Thailand and Indonesia for an unspecified period."
+    },
+    {
+     "article": 0,
+     "fact": "Nvidia is assessing whether its regional partners are meeting US export requirements."
+    },
+    {
+     "article": 0,
+     "fact": "Chinese companies have been tapping Nvidia chips remotely from data centers in those countries, a loophole the US Commerce Department closed earlier this month."
+    },
+    {
+     "article": 0,
+     "fact": "The Institute for Progress estimates remote data centers like these supply about 24% of China's AI computing power."
+    }
+   ]
+  }
+ ]
+}
