@@ -2,6 +2,21 @@
 
 Newest first. Format is in CLAUDE.md ("보고").
 
+## [아침 보고] 2026-11-28
+처리 1건 (ready 1) · 실패 0건
+성과: 어제(11-27) 도달 9 · 팔로워 2 · 링크 클릭 0 · 최고 도달 2026-11-22-weekly (33)
+결정할 일
+1. 게시물: `2026-11-28-tencent-nature-dual-target-peptides` (CHINA AI · RESEARCH, 점수 8 = 글로벌 3 + 숫자 2 + 아시아 3). Tencent의 AI 약물 설계 플랫폼 ORIDTP가 Nature에 실림: 분자 하나가 두 표적을 동시에 겨냥, 동물실험 결과(비만 후보 1/10 용량, 암 후보 종양 94.2% 감소). 소스 AI타임스 단일(Tencent 발표 중계), Nature 논문 원문은 독립 확인 못 함. 전부 "Tencent says"/동물실험·전임상으로 귀속. 독자 영향 훅 없음(기사에 근거 없음). lint가 SCIENCE를 허용하지 않아 RESEARCH 사용
+2. 검수: fact 통과, hook 7 통과, brand 통과 (모두 1차). hook 심사 선택 제안: 태그를 TENCENT AI로 바꾸면 회사명이 커버에 들어감(미적용)
+3. 커버: Higgsfield cinematic_studio_2_5 1장, 2크레딧 (오늘 합계 2/6), 사람·글자·로고 없음. 서브에이전트에 Higgsfield 도구가 없어 내가 직접 생성
+4. 인스타 토큰 없음: 참고 계정은 morning-scan reference.json만 사용(10/10 성공, 3x 이상은 sdk.kim.builds 1건, 캡션 비어 주제 연결 불가)
+5. 읽기 불가: Yonhap·Politico Europe 403, Nikkei·SCMP·Reuters·Korea Times·Herald는 구글뉴스 리다이렉트만, Der Standard 동의창, Euractiv·Meta AI·JoongAng 피드 실패, OpenAI·DeepMind 등 피드 0건. 한국 기사는 AI타임스만 읽힘
+6. 아침 스캔이 main에 없어 morning-scan을 직접 실행, 약 2분 내 도착. 렌더는 CHROMIUM_PATH=/opt/pw-browsers/chromium 사용
+7. 예비: `posts/_backlog/2026-11-28-morning-runners-up.md` (OpenAI의 Apple 맞소송이 저녁 1순위, 독일 소비자단체의 OpenAI·Anthropic 경고는 다음 아침 유럽 후보, LAUSD Google AI Overviews 차단)
+8. 브랜치: 시스템 지침에 따라 `daily/2026-11-28` 대신 `claude/friendly-cori-lupa48`
+자세한 기록
+- 후보 8개 수집, 1순위 tencent-nature-dual-target-peptides(ready), 넘어온 ready 글 없음
+
 ## [저녁 보고] 2026-11-27
 처리 1건 (ready 1) · 실패 0건
 결정할 일
